@@ -1,0 +1,470 @@
+---
+// Calculadora Chancenkarte v2 — componente interactivo
+---
+
+<div class="calc-wrapper" id="calculadora-app">
+  <!-- INTRO -->
+  <div class="text-center py-8 md:py-12" id="intro-section">
+    <div class="badge mb-4">Test gratuito &middot; 2 minutos</div>
+    <h2 class="text-3xl md:text-4xl font-heading font-bold mb-3">
+      ¿Puedes trabajar en <em class="italic text-amber-light">Alemania</em>?
+    </h2>
+    <p class="text-white/50 text-base max-w-lg mx-auto">
+      Responde unas preguntas rápidas y descubre tus puntos para la Chancenkarte con una hoja de ruta personalizada.
+    </p>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="bg-amber-glow border border-amber/20 rounded-xl p-4 mb-6 text-sm text-white/60 leading-relaxed">
+    <strong class="text-amber-light">Herramienta orientativa.</strong> Basada en criterios públicos del §20a/b AufenthG.
+    No es asesoramiento legal. Verifica con
+    <a href="https://www.make-it-in-germany.com" target="_blank" rel="noopener" class="text-amber-light hover:underline">fuentes oficiales</a>
+    o un abogado antes de actuar.
+  </div>
+
+  <!-- PROGRESS BAR -->
+  <div class="bg-white/[0.06] rounded-full h-1.5 mb-8 overflow-hidden">
+    <div class="h-full bg-gradient-to-r from-amber to-amber-light rounded-full transition-all duration-400 w-0" id="calc-progress"></div>
+  </div>
+
+  <!-- FORM STEPS -->
+  <form id="calc-form">
+    <!-- STEP 1: Qualification -->
+    <div class="calc-step active" data-step="1">
+      <p class="step-label">Requisito previo 1 de 3</p>
+      <h3 class="text-xl font-heading font-bold mb-2">¿Tienes título universitario o formación profesional?</h3>
+      <p class="text-sm text-white/40 mb-5">Debe ser reconocido oficialmente en el país donde lo obtuviste y de al menos 2 años de duración.</p>
+      <div class="calc-options" data-name="qualification">
+        <div class="calc-option" data-value="uni"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Sí, título universitario</div></div></div>
+        <div class="calc-option" data-value="vocational"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Sí, formación profesional (&ge;2 años)</div></div></div>
+        <div class="calc-option" data-value="ahk"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Sí, título de Cámara de Comercio alemana</div></div></div>
+        <div class="calc-option" data-value="no"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">No tengo ninguno de estos</div></div></div>
+      </div>
+      <div class="step-nav"><div></div><button type="button" class="btn-next" disabled>Siguiente &rarr;</button></div>
+    </div>
+
+    <!-- STEP 2: Language prereq -->
+    <div class="calc-step" data-step="2">
+      <p class="step-label">Requisito previo 2 de 3</p>
+      <h3 class="text-xl font-heading font-bold mb-2">¿Tienes alemán A1 o inglés B2 certificado?</h3>
+      <p class="text-sm text-white/40 mb-5">Con certificado oficial: Goethe, TestDaF, TOEFL, IELTS, Cambridge...</p>
+      <div class="calc-options" data-name="langPrereq">
+        <div class="calc-option" data-value="yes"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Sí, tengo al menos uno de estos</div></div></div>
+        <div class="calc-option" data-value="no"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">No tengo ningún certificado de este nivel</div></div></div>
+      </div>
+      <div class="step-nav"><button type="button" class="btn-back">&larr; Atrás</button><button type="button" class="btn-next" disabled>Siguiente &rarr;</button></div>
+    </div>
+
+    <!-- STEP 3: Finances -->
+    <div class="calc-step" data-step="3">
+      <p class="step-label">Requisito previo 3 de 3</p>
+      <h3 class="text-xl font-heading font-bold mb-2">¿Puedes demostrar medios económicos para 12 meses?</h3>
+      <p class="text-sm text-white/40 mb-5">Aproximadamente 1.027&euro;/mes (~12.324&euro; total) mediante cuenta bloqueada (Sperrkonto), declaración de compromiso, o empleo parcial.</p>
+      <div class="calc-options" data-name="finances">
+        <div class="calc-option" data-value="yes"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Sí, puedo demostrarlo</div></div></div>
+        <div class="calc-option" data-value="no"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">No / No estoy seguro</div></div></div>
+      </div>
+      <div class="step-nav"><button type="button" class="btn-back">&larr; Atrás</button><button type="button" class="btn-next" disabled>Siguiente &rarr;</button></div>
+    </div>
+
+    <!-- STEP 4: Recognition -->
+    <div class="calc-step" data-step="4">
+      <p class="step-label">Puntos &middot; Pregunta 1 de 8</p>
+      <h3 class="text-xl font-heading font-bold mb-2">¿Tienes reconocimiento de tu título en Alemania?</h3>
+      <p class="text-sm text-white/40 mb-5">¿Has iniciado o completado la homologación (Anerkennung) en Alemania?</p>
+      <div class="calc-options" data-name="recognition">
+        <div class="calc-option" data-value="0"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">No tengo reconocimiento en Alemania</div><div class="opt-pts">0 puntos</div></div></div>
+        <div class="calc-option" data-value="4"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Sí, reconocimiento parcial o permiso para profesión reglamentada</div><div class="opt-pts">4 puntos</div></div></div>
+      </div>
+      <div class="step-nav"><button type="button" class="btn-back">&larr; Atrás</button><button type="button" class="btn-next" disabled>Siguiente &rarr;</button></div>
+    </div>
+
+    <!-- STEP 5: German level -->
+    <div class="calc-step" data-step="5">
+      <p class="step-label">Puntos &middot; Pregunta 2 de 8</p>
+      <h3 class="text-xl font-heading font-bold mb-2">¿Cuál es tu nivel de alemán certificado?</h3>
+      <p class="text-sm text-white/40 mb-5">Con certificado oficial (Goethe, TestDaF, DSD, telc...)</p>
+      <div class="calc-options" data-name="german">
+        <div class="calc-option" data-value="0"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Sin certificado o A1</div><div class="opt-pts">0 puntos</div></div></div>
+        <div class="calc-option" data-value="1"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">A2</div><div class="opt-pts">1 punto</div></div></div>
+        <div class="calc-option" data-value="2"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">B1</div><div class="opt-pts">2 puntos</div></div></div>
+        <div class="calc-option" data-value="3"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">B2 o superior</div><div class="opt-pts">3 puntos</div></div></div>
+      </div>
+      <div class="step-nav"><button type="button" class="btn-back">&larr; Atrás</button><button type="button" class="btn-next" disabled>Siguiente &rarr;</button></div>
+    </div>
+
+    <!-- STEP 6: English level -->
+    <div class="calc-step" data-step="6">
+      <p class="step-label">Puntos &middot; Pregunta 3 de 8</p>
+      <h3 class="text-xl font-heading font-bold mb-2">¿Tienes inglés C1 o superior certificado?</h3>
+      <p class="text-sm text-white/40 mb-5">TOEFL, IELTS, Cambridge...</p>
+      <div class="calc-options" data-name="english">
+        <div class="calc-option" data-value="0"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">No, menos de C1</div><div class="opt-pts">0 puntos</div></div></div>
+        <div class="calc-option" data-value="1"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Sí, C1 o superior</div><div class="opt-pts">1 punto</div></div></div>
+      </div>
+      <div class="step-nav"><button type="button" class="btn-back">&larr; Atrás</button><button type="button" class="btn-next" disabled>Siguiente &rarr;</button></div>
+    </div>
+
+    <!-- STEP 7: Experience -->
+    <div class="calc-step" data-step="7">
+      <p class="step-label">Puntos &middot; Pregunta 4 de 8</p>
+      <h3 class="text-xl font-heading font-bold mb-2">Experiencia profesional en los últimos 7 años</h3>
+      <p class="text-sm text-white/40 mb-5">Experiencia laboral relacionada con tu cualificación.</p>
+      <div class="calc-options" data-name="experience">
+        <div class="calc-option" data-value="0"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Menos de 2 años</div><div class="opt-pts">0 puntos</div></div></div>
+        <div class="calc-option" data-value="2"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">2 a 4 años</div><div class="opt-pts">2 puntos</div></div></div>
+        <div class="calc-option" data-value="3"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">5 años o más</div><div class="opt-pts">3 puntos</div></div></div>
+      </div>
+      <div class="step-nav"><button type="button" class="btn-back">&larr; Atrás</button><button type="button" class="btn-next" disabled>Siguiente &rarr;</button></div>
+    </div>
+
+    <!-- STEP 8: Age -->
+    <div class="calc-step" data-step="8">
+      <p class="step-label">Puntos &middot; Pregunta 5 de 8</p>
+      <h3 class="text-xl font-heading font-bold mb-2">¿Cuántos años tienes?</h3>
+      <p class="text-sm text-white/40 mb-5">Edad al momento de solicitar la Chancenkarte.</p>
+      <div class="calc-options" data-name="age">
+        <div class="calc-option" data-value="2"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">35 años o menos</div><div class="opt-pts">2 puntos</div></div></div>
+        <div class="calc-option" data-value="1"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Entre 36 y 40 años</div><div class="opt-pts">1 punto</div></div></div>
+        <div class="calc-option" data-value="0"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Más de 40 años</div><div class="opt-pts">0 puntos</div></div></div>
+      </div>
+      <div class="step-nav"><button type="button" class="btn-back">&larr; Atrás</button><button type="button" class="btn-next" disabled>Siguiente &rarr;</button></div>
+    </div>
+
+    <!-- STEP 9: Germany stay -->
+    <div class="calc-step" data-step="9">
+      <p class="step-label">Puntos &middot; Pregunta 6 de 8</p>
+      <h3 class="text-xl font-heading font-bold mb-2">¿Has vivido en Alemania al menos 6 meses?</h3>
+      <p class="text-sm text-white/40 mb-5">En los últimos 5 años. Estancias turísticas cortas no cuentan.</p>
+      <div class="calc-options" data-name="germanyStay">
+        <div class="calc-option" data-value="0"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">No</div><div class="opt-pts">0 puntos</div></div></div>
+        <div class="calc-option" data-value="1"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Sí, al menos 6 meses</div><div class="opt-pts">1 punto</div></div></div>
+      </div>
+      <div class="step-nav"><button type="button" class="btn-back">&larr; Atrás</button><button type="button" class="btn-next" disabled>Siguiente &rarr;</button></div>
+    </div>
+
+    <!-- STEP 10: Partner -->
+    <div class="calc-step" data-step="10">
+      <p class="step-label">Puntos &middot; Pregunta 7 de 8</p>
+      <h3 class="text-xl font-heading font-bold mb-2">¿Viaja tu pareja contigo y también cumple los requisitos?</h3>
+      <p class="text-sm text-white/40 mb-5">Tu pareja también solicitaría la Chancenkarte simultáneamente.</p>
+      <div class="calc-options" data-name="partner">
+        <div class="calc-option" data-value="0"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">No / Viajo solo/a</div><div class="opt-pts">0 puntos</div></div></div>
+        <div class="calc-option" data-value="1"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Sí, mi pareja también cumple</div><div class="opt-pts">1 punto</div></div></div>
+      </div>
+      <div class="step-nav"><button type="button" class="btn-back">&larr; Atrás</button><button type="button" class="btn-next" disabled>Siguiente &rarr;</button></div>
+    </div>
+
+    <!-- STEP 11: Shortage -->
+    <div class="calc-step" data-step="11">
+      <p class="step-label">Puntos &middot; Pregunta 8 de 8</p>
+      <h3 class="text-xl font-heading font-bold mb-2">¿Tu profesión está en la lista de escasez alemana?</h3>
+      <p class="text-sm text-white/40 mb-5">Sectores con alta demanda: TI, ingeniería, sanidad, oficios técnicos, educación.
+        <a href="https://www.make-it-in-germany.com/es/trabajar-en-alemania/profesiones-demandadas" target="_blank" rel="noopener" class="text-amber-light hover:underline">Consulta la lista oficial</a>
+      </p>
+      <div class="calc-options" data-name="shortage">
+        <div class="calc-option" data-value="0"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">No / No estoy seguro</div><div class="opt-pts">0 puntos</div></div></div>
+        <div class="calc-option" data-value="1"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">Sí, está en la lista</div><div class="opt-pts">1 punto</div></div></div>
+      </div>
+      <div class="step-nav"><button type="button" class="btn-back">&larr; Atrás</button><button type="button" class="btn-next" disabled>Ver mis resultados &rarr;</button></div>
+    </div>
+  </form>
+
+  <!-- RESULT -->
+  <div class="hidden" id="calc-result"></div>
+</div>
+
+<style>
+  .calc-wrapper { max-width: 700px; margin: 0 auto; }
+  .step-label { font-size: 0.75rem; color: #e2a730; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 0.5rem; }
+  .calc-step { display: none; animation: calcFadeIn 0.3s ease; }
+  .calc-step.active { display: block; }
+  @keyframes calcFadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+  .calc-options { display: flex; flex-direction: column; gap: 0.7rem; }
+  .calc-option {
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px; padding: 1rem 1.2rem; cursor: pointer;
+    transition: all 0.2s; display: flex; align-items: center; gap: 0.8rem;
+  }
+  .calc-option:hover { border-color: rgba(226,167,48,0.4); background: rgba(226,167,48,0.06); }
+  .calc-option.selected { border-color: #e2a730; background: rgba(226,167,48,0.1); }
+
+  .radio-dot {
+    width: 20px; height: 20px; border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 50%; flex-shrink: 0; display: flex; align-items: center;
+    justify-content: center; transition: all 0.2s;
+  }
+  .calc-option.selected .radio-dot { border-color: #e2a730; }
+  .calc-option.selected .radio-dot::after { content: ''; width: 10px; height: 10px; background: #e2a730; border-radius: 50%; }
+
+  .opt-text { flex: 1; }
+  .opt-label { font-size: 0.95rem; font-weight: 500; }
+  .opt-pts { font-size: 0.78rem; color: #f0c760; opacity: 0.7; margin-top: 0.15rem; }
+
+  .step-nav { display: flex; justify-content: space-between; margin-top: 2rem; gap: 1rem; }
+  .btn-back, .btn-next {
+    padding: 0.85rem 1.8rem; border-radius: 10px; font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s; border: none;
+  }
+  .btn-back { background: rgba(255,255,255,0.06); color: rgba(255,255,255,0.5); }
+  .btn-back:hover { background: rgba(255,255,255,0.1); color: white; }
+  .btn-next { background: #e2a730; color: #1a1a2e; margin-left: auto; }
+  .btn-next:hover { background: #f0c760; transform: translateY(-1px); }
+  .btn-next:disabled { opacity: 0.3; cursor: not-allowed; transform: none; }
+
+  /* Result styles */
+  .result-score-ring {
+    width: 140px; height: 140px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column; margin: 0 auto 1.2rem; position: relative;
+  }
+  .result-score-ring.pass { background: radial-gradient(circle, rgba(39,174,96,0.15), transparent 70%); border: 3px solid rgba(39,174,96,0.4); }
+  .result-score-ring.fail { background: radial-gradient(circle, rgba(192,57,43,0.15), transparent 70%); border: 3px solid rgba(192,57,43,0.4); }
+  .result-score-ring.ineligible { background: radial-gradient(circle, rgba(255,255,255,0.05), transparent 70%); border: 3px solid rgba(255,255,255,0.15); }
+  .result-score-num { font-family: 'Fraunces', serif; font-size: 3rem; font-weight: 800; line-height: 1; }
+  .result-score-ring.pass .result-score-num { color: #27ae60; }
+  .result-score-ring.fail .result-score-num { color: #c0392b; }
+  .result-score-ring.ineligible .result-score-num { color: rgba(255,255,255,0.3); }
+
+  .bd-item { display: flex; justify-content: space-between; align-items: center; padding: 0.55rem 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.9rem; }
+  .bd-item:last-child { border: none; }
+  .bd-pts { font-weight: 700; color: #f0c760; min-width: 40px; text-align: right; }
+  .bd-total { display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.12); margin-top: 0.5rem; padding-top: 0.8rem; font-weight: 700; font-size: 1rem; }
+
+  .rm-step {
+    background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px; padding: 1.3rem 1.5rem; margin-bottom: 0.8rem;
+    display: flex; gap: 1rem; align-items: flex-start; transition: border-color 0.2s;
+  }
+  .rm-step:hover { border-color: rgba(226,167,48,0.3); }
+  .rm-num {
+    background: rgba(226,167,48,0.15); color: #e2a730;
+    width: 32px; height: 32px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 0.85rem; flex-shrink: 0;
+  }
+  .rm-link { display: inline-flex; align-items: center; gap: 0.3rem; color: #f0c760; font-size: 0.85rem; font-weight: 600; text-decoration: none; }
+  .rm-link:hover { opacity: 0.8; }
+
+  .share-btn {
+    padding: 0.6rem 1.2rem; border-radius: 8px; font-size: 0.85rem;
+    font-weight: 600; text-decoration: none; color: white; transition: opacity 0.2s; display: inline-block;
+  }
+  .share-btn:hover { opacity: 0.85; }
+  .share-btn.wa { background: #25D366; }
+  .share-btn.tw { background: #1DA1F2; }
+  .share-btn.fb { background: #1877F2; }
+  .share-btn.tg { background: #0088cc; }
+</style>
+
+<script>
+  const answers: Record<string, string> = {};
+  const totalSteps = 11;
+
+  // Option selection
+  document.querySelectorAll('.calc-options').forEach(group => {
+    group.querySelectorAll('.calc-option').forEach(opt => {
+      opt.addEventListener('click', () => {
+        group.querySelectorAll('.calc-option').forEach(o => o.classList.remove('selected'));
+        opt.classList.add('selected');
+        const name = (group as HTMLElement).dataset.name!;
+        answers[name] = (opt as HTMLElement).dataset.value!;
+        const step = opt.closest('.calc-step')!;
+        (step.querySelector('.btn-next') as HTMLButtonElement).disabled = false;
+      });
+    });
+  });
+
+  // Navigation
+  document.querySelectorAll('.btn-next').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const current = document.querySelector('.calc-step.active')!;
+      const currentNum = parseInt((current as HTMLElement).dataset.step!);
+      if (currentNum === totalSteps) { showResult(); return; }
+      current.classList.remove('active');
+      const next = document.querySelector(`[data-step="${currentNum + 1}"]`)!;
+      next.classList.add('active');
+      updateProgress(currentNum + 1);
+      window.scrollTo({ top: document.getElementById('calculadora')?.offsetTop || 0, behavior: 'smooth' });
+    });
+  });
+
+  document.querySelectorAll('.btn-back').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const current = document.querySelector('.calc-step.active')!;
+      const currentNum = parseInt((current as HTMLElement).dataset.step!);
+      if (currentNum <= 1) return;
+      current.classList.remove('active');
+      const prev = document.querySelector(`[data-step="${currentNum - 1}"]`)!;
+      prev.classList.add('active');
+      updateProgress(currentNum - 1);
+    });
+  });
+
+  function updateProgress(step: number) {
+    (document.getElementById('calc-progress') as HTMLElement).style.width = `${(step / totalSteps) * 100}%`;
+  }
+
+  function showResult() {
+    document.querySelector('.calc-step.active')?.classList.remove('active');
+    (document.getElementById('calc-progress') as HTMLElement).style.width = '100%';
+
+    const prereqsFailed: string[] = [];
+    if (!answers.qualification || answers.qualification === 'no')
+      prereqsFailed.push('Cualificación (título universitario o FP &ge;2 años)');
+    if (!answers.langPrereq || answers.langPrereq === 'no')
+      prereqsFailed.push('Idioma mínimo (alemán A1 o inglés B2 certificado)');
+    if (!answers.finances || answers.finances === 'no')
+      prereqsFailed.push('Medios económicos para 12 meses');
+
+    const pts: Record<string, number> = {
+      recognition: parseInt(answers.recognition) || 0,
+      german: parseInt(answers.german) || 0,
+      english: parseInt(answers.english) || 0,
+      experience: parseInt(answers.experience) || 0,
+      age: parseInt(answers.age) || 0,
+      germanyStay: parseInt(answers.germanyStay) || 0,
+      partner: parseInt(answers.partner) || 0,
+      shortage: parseInt(answers.shortage) || 0,
+    };
+    const total = Object.values(pts).reduce((a, b) => a + b, 0);
+
+    const labels: Record<string, string> = {
+      recognition: 'Reconocimiento título', german: 'Nivel de alemán',
+      english: 'Nivel de inglés', experience: 'Experiencia profesional',
+      age: 'Edad', germanyStay: 'Estancia en Alemania',
+      partner: 'Pareja elegible', shortage: 'Profesión con escasez',
+    };
+
+    const breakdownHTML = Object.entries(pts)
+      .map(([k, v]) => `<div class="bd-item"><span>${labels[k]}</span><span class="bd-pts">${v}</span></div>`)
+      .join('');
+
+    // Build personalized roadmap
+    const roadmapSteps: { title: string; desc: string; link: string; linkText: string }[] = [];
+    const arrow = `<svg viewBox="0 0 20 20" fill="currentColor" style="width:14px;height:14px;display:inline"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"/></svg>`;
+
+    if (pts.german < 2) {
+      roadmapSteps.push({
+        title: 'Mejora tu alemán — es lo que más impacto tiene',
+        desc: pts.german === 0
+          ? 'Pasar de 0 a B1 te daría 2 puntos extra. Un B2 te daría 3. Esto puede cambiar completamente tu resultado.'
+          : 'Subir un nivel más de alemán te sumaría puntos valiosos.',
+        link: '#AFILIADO_LINGODA', linkText: 'Empieza clases de alemán online con Lingoda'
+      });
+    }
+    if (pts.recognition === 0) {
+      roadmapSteps.push({
+        title: 'Inicia el reconocimiento de tu título en Alemania',
+        desc: 'La homologación parcial (Teilanerkennung) te da 4 puntos de golpe. Es el criterio que más puntos aporta.',
+        link: '/blog/reconocimiento-titulos/', linkText: 'Guía: Cómo homologar tu título en Alemania'
+      });
+    }
+    if (prereqsFailed.length === 0 || !prereqsFailed.some(f => f.includes('económicos'))) {
+      roadmapSteps.push({
+        title: 'Abre tu cuenta bloqueada (Sperrkonto)',
+        desc: 'Es obligatorio para demostrar medios económicos. Necesitas ~12.324€ bloqueados. La puedes abrir 100% online desde tu país.',
+        link: '#AFILIADO_EXPATRIO', linkText: 'Abre tu Sperrkonto con Expatrio'
+      });
+    } else {
+      roadmapSteps.push({
+        title: 'Consigue los medios económicos necesarios',
+        desc: 'Necesitas demostrar ~1.027€/mes (unos 12.324€ para 12 meses) mediante una cuenta bloqueada (Sperrkonto).',
+        link: '#AFILIADO_EXPATRIO', linkText: 'Más info sobre la Sperrkonto en Expatrio'
+      });
+    }
+    roadmapSteps.push({
+      title: 'Prepara tu CV en formato alemán (Lebenslauf)',
+      desc: 'El CV alemán es muy diferente al español o latinoamericano. Incluye foto, datos personales y tiene un formato específico.',
+      link: '/blog/cv-aleman-plantilla/', linkText: 'Descarga nuestra plantilla de CV alemán'
+    });
+    if (pts.shortage === 0) {
+      roadmapSteps.push({
+        title: 'Verifica si tu profesión está en demanda',
+        desc: 'Si tu profesión aparece en la lista oficial de escasez, sumas 1 punto y tendrás más facilidades para encontrar empleo.',
+        link: 'https://www.make-it-in-germany.com/es/trabajar-en-alemania/profesiones-demandadas',
+        linkText: 'Consulta la lista oficial de profesiones en demanda'
+      });
+    }
+    roadmapSteps.push({
+      title: 'Configura tus transferencias internacionales',
+      desc: 'Vas a necesitar enviar dinero a Alemania (para la Sperrkonto y después para vivir). Evita las comisiones bancarias altísimas.',
+      link: '#AFILIADO_WISE', linkText: 'Abre tu cuenta en Wise (transferencias baratas)'
+    });
+
+    const roadmapHTML = roadmapSteps.map((s, i) => `
+      <div class="rm-step">
+        <div class="rm-num">${i + 1}</div>
+        <div style="flex:1">
+          <h4 style="font-weight:600;margin-bottom:0.3rem">${s.title}</h4>
+          <p style="font-size:0.85rem;color:rgba(255,255,255,0.5);line-height:1.5;margin-bottom:0.5rem">${s.desc}</p>
+          <a href="${s.link}" class="rm-link" target="${s.link.startsWith('http') ? '_blank' : '_self'}" rel="noopener">${s.linkText} ${arrow}</a>
+        </div>
+      </div>
+    `).join('');
+
+    const shareText = encodeURIComponent('Acabo de calcular mis puntos para la Chancenkarte alemana. ¿Quieres saber si puedes trabajar en Alemania? Prueba la calculadora gratis:');
+    const shareURL = encodeURIComponent('https://rutaalemania.com/#calculadora');
+
+    const resultEl = document.getElementById('calc-result')!;
+
+    if (prereqsFailed.length > 0) {
+      resultEl.innerHTML = `
+        <div class="text-center py-8">
+          <div class="result-score-ring ineligible"><div class="result-score-num">—</div></div>
+          <h3 class="font-heading text-xl mb-2" style="color:rgba(255,255,255,0.6)">Requisitos previos no cumplidos</h3>
+          <p class="text-white/60 text-sm max-w-lg mx-auto">Según tus respuestas, no cumplirías estos requisitos obligatorios: <strong class="text-white">${prereqsFailed.join(', ')}</strong>. Pero hay otras vías — sigue leyendo.</p>
+        </div>
+        <div class="my-8"><h3 class="font-heading text-xl text-center mb-5">Tu hoja de ruta alternativa</h3>${roadmapHTML}
+          <div class="rm-step"><div class="rm-num">&#128161;</div><div style="flex:1"><h4 style="font-weight:600;margin-bottom:0.3rem">Explora otras vías: Blue Card, visado con oferta laboral, y más</h4><p style="font-size:0.85rem;color:rgba(255,255,255,0.5);line-height:1.5;margin-bottom:0.5rem">La Chancenkarte no es la única opción. Si consigues una oferta de trabajo directa, puedes optar a otros tipos de visado sin necesidad de puntos.</p><a href="/blog/blue-card-requisitos/" class="rm-link">Ver todas las vías para trabajar en Alemania ${arrow}</a></div></div>
+        </div>
+        ${shareBox(shareText, shareURL)}
+        <p class="text-xs text-white/25 text-center mt-8 pt-6 border-t border-white/5">Resultado orientativo y no vinculante. No constituye asesoramiento legal. Verifica con fuentes oficiales o un Fachanwalt für Migrationsrecht.</p>
+      `;
+    } else {
+      const pass = total >= 6;
+      resultEl.innerHTML = `
+        <div class="text-center py-8">
+          <div class="result-score-ring ${pass ? 'pass' : 'fail'}">
+            <div class="result-score-num">${total}</div>
+            <div style="font-size:0.75rem;color:rgba(255,255,255,0.4);margin-top:0.2rem">de 6 necesarios</div>
+          </div>
+          <h3 class="font-heading text-xl mb-2" style="color:${pass ? '#27ae60' : '#c0392b'}">${pass ? '¡Tienes opciones reales!' : 'Aún no llegas, pero hay camino'}</h3>
+          <p class="text-white/60 text-sm max-w-lg mx-auto">${pass
+            ? `Con ${total} puntos, cumplirías el mínimo para la Chancenkarte. Esto es una señal muy positiva. Aquí tienes tu hoja de ruta personalizada.`
+            : `Te faltan ${6 - total} punto${6 - total > 1 ? 's' : ''} para el mínimo. Pero hay formas concretas de mejorar tu puntuación — y también otras vías.`
+          }</p>
+        </div>
+        <div class="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-6 my-6">
+          <h4 class="text-xs font-semibold uppercase tracking-wider text-amber-light mb-4">Desglose de tus puntos</h4>
+          ${breakdownHTML}
+          <div class="bd-total"><span>Total</span><span class="bd-pts" style="font-size:1.15rem">${total}</span></div>
+        </div>
+        <div class="my-8"><h3 class="font-heading text-xl text-center mb-5">Tu hoja de ruta personalizada</h3>${roadmapHTML}</div>
+        ${shareBox(shareText, shareURL)}
+        <p class="text-xs text-white/25 text-center mt-8 pt-6 border-t border-white/5">Resultado orientativo y no vinculante. No constituye asesoramiento legal. La decisión final depende de las autoridades alemanas y tu documentación oficial.</p>
+      `;
+    }
+
+    resultEl.classList.remove('hidden');
+    resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function shareBox(text: string, url: string): string {
+    return `
+      <div class="text-center p-8 bg-amber-glow border border-amber/15 rounded-2xl my-8">
+        <h3 class="font-heading text-lg mb-2">¿Conoces a alguien que quiera ir a Alemania?</h3>
+        <p class="text-sm text-white/50 mb-4">Comparte esta calculadora — es gratis y puede ayudarles.</p>
+        <div class="flex justify-center gap-2 flex-wrap">
+          <a href="https://wa.me/?text=${text}%20${url}" target="_blank" rel="noopener" class="share-btn wa">WhatsApp</a>
+          <a href="https://t.me/share/url?url=${url}&text=${text}" target="_blank" rel="noopener" class="share-btn tg">Telegram</a>
+          <a href="https://twitter.com/intent/tweet?text=${text}&url=${url}" target="_blank" rel="noopener" class="share-btn tw">X / Twitter</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=${url}" target="_blank" rel="noopener" class="share-btn fb">Facebook</a>
+        </div>
+      </div>
+    `;
+  }
+
+  updateProgress(1);
+</script>

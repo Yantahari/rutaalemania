@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CalculadoraChancenkarte from '../components/CalculadoraChancenkarte.astro';
 
 const homeSchema = {
   '@context': 'https://schema.org',
@@ -88,9 +89,7 @@ const latestPosts = blogPosts
   <!-- CALCULADORA CHANCENKARTE -->
   <section class="bg-midnight/30 py-16 md:py-24" id="calculadora">
     <div class="container-narrow">
-      <div id="chancenkarte-calculator">
-        <!-- Calculator component loaded here -->
-      </div>
+      <CalculadoraChancenkarte />
     </div>
   </section>
 
