@@ -1,0 +1,409 @@
+---
+import simulatorData from '../data/simulator-data.json';
+---
+
+<div class="sim-wrapper" id="simulador-app">
+  <!-- Step 1: Select Profession -->
+  <div class="sim-step active" data-sim-step="1">
+    <div class="text-center mb-6">
+      <p class="step-label">Paso 1 de 4</p>
+      <h3 class="text-xl font-heading font-bold">¿Cuál es tu profesión?</h3>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3" id="sim-professions">
+      <!-- Populated by JS -->
+    </div>
+    <div class="step-nav mt-6">
+      <div></div>
+      <button type="button" class="sim-next" disabled>Siguiente &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Step 2: Select City -->
+  <div class="sim-step" data-sim-step="2">
+    <div class="text-center mb-6">
+      <p class="step-label">Paso 2 de 4</p>
+      <h3 class="text-xl font-heading font-bold">¿En qué ciudad te gustaría vivir?</h3>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3" id="sim-cities">
+      <!-- Populated by JS -->
+    </div>
+    <div class="step-nav mt-6">
+      <button type="button" class="sim-back">&larr; Atrás</button>
+      <button type="button" class="sim-next" disabled>Siguiente &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Step 3: Family Status -->
+  <div class="sim-step" data-sim-step="3">
+    <div class="text-center mb-6">
+      <p class="step-label">Paso 3 de 4</p>
+      <h3 class="text-xl font-heading font-bold">¿Cuál es tu situación familiar?</h3>
+    </div>
+    <div class="flex flex-col gap-3 max-w-md mx-auto" id="sim-family">
+      <button class="sim-choice" data-value="single">Soltero/a</button>
+      <button class="sim-choice" data-value="married">Casado/a sin hijos</button>
+      <button class="sim-choice" data-value="married_kids">Casado/a con hijos</button>
+    </div>
+    <div class="step-nav mt-6">
+      <button type="button" class="sim-back">&larr; Atrás</button>
+      <button type="button" class="sim-next" disabled>Siguiente &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Step 4: Country -->
+  <div class="sim-step" data-sim-step="4">
+    <div class="text-center mb-6">
+      <p class="step-label">Paso 4 de 4</p>
+      <h3 class="text-xl font-heading font-bold">¿De qué país vienes?</h3>
+      <p class="text-sm text-white/40">Para comparar con el salario medio de tu país</p>
+    </div>
+    <div class="max-w-md mx-auto">
+      <select id="sim-country" class="w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3 text-white focus:border-amber focus:outline-none appearance-none cursor-pointer">
+        <option value="" disabled selected>Selecciona tu país...</option>
+      </select>
+    </div>
+    <div class="step-nav mt-6">
+      <button type="button" class="sim-back">&larr; Atrás</button>
+      <button type="button" class="sim-next" disabled>Ver mi simulación &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Result -->
+  <div class="sim-step" data-sim-step="result" id="sim-result">
+    <!-- Populated by JS -->
+  </div>
+</div>
+
+<style>
+  .sim-wrapper { max-width: 700px; margin: 0 auto; }
+  .sim-step { display: none; animation: simFadeIn 0.3s ease; }
+  .sim-step.active { display: block; }
+  @keyframes simFadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+  .step-label { font-size: 0.75rem; color: #e2a730; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 0.5rem; }
+  .step-nav { display: flex; justify-content: space-between; gap: 1rem; }
+
+  .sim-back, .sim-next {
+    padding: 0.85rem 1.8rem; border-radius: 10px; font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s; border: none;
+  }
+  .sim-back { background: rgba(255,255,255,0.06); color: rgba(255,255,255,0.5); }
+  .sim-back:hover { background: rgba(255,255,255,0.1); color: white; }
+  .sim-next { background: #e2a730; color: #1a1a2e; margin-left: auto; }
+  .sim-next:hover { background: #f0c760; transform: translateY(-1px); }
+  .sim-next:disabled { opacity: 0.3; cursor: not-allowed; transform: none; }
+
+  .sim-choice {
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px; padding: 1rem; cursor: pointer; transition: all 0.2s;
+    color: white; font-family: 'DM Sans', sans-serif; font-size: 0.95rem; font-weight: 500;
+    text-align: center;
+  }
+  .sim-choice:hover { border-color: rgba(226,167,48,0.4); background: rgba(226,167,48,0.06); }
+  .sim-choice.selected { border-color: #e2a730; background: rgba(226,167,48,0.1); }
+
+  select option { background: #1a1a2e; color: white; }
+
+  .result-card {
+    background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px; padding: 1.5rem; margin-bottom: 1rem;
+  }
+  .result-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 0.5rem 0; font-size: 0.9rem;
+  }
+  .result-row + .result-row { border-top: 1px solid rgba(255,255,255,0.04); }
+  .result-val { font-weight: 700; color: #f0c760; }
+  .result-val.negative { color: rgba(255,255,255,0.5); }
+  .result-val.highlight { color: #27ae60; font-size: 1.1rem; }
+
+  .share-btn-sim {
+    padding: 0.6rem 1.2rem; border-radius: 8px; font-size: 0.85rem;
+    font-weight: 600; text-decoration: none; color: white; transition: opacity 0.2s; display: inline-block;
+  }
+  .share-btn-sim:hover { opacity: 0.85; }
+  .share-btn-sim.wa { background: #25D366; }
+  .share-btn-sim.tw { background: #1DA1F2; }
+  .share-btn-sim.fb { background: #1877F2; }
+  .share-btn-sim.tg { background: #0088cc; }
+</style>
+
+<script define:vars={{ simulatorData }}>
+  const data = simulatorData;
+  const state = { profession: '', city: '', family: '', country: '' };
+
+  // Populate professions
+  const profGrid = document.getElementById('sim-professions');
+  Object.entries(data.professions).forEach(([key, prof]) => {
+    const btn = document.createElement('button');
+    btn.className = 'sim-choice';
+    btn.dataset.value = key;
+    btn.textContent = prof.name;
+    btn.addEventListener('click', () => {
+      profGrid.querySelectorAll('.sim-choice').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      state.profession = key;
+      enableNext(1);
+    });
+    profGrid.appendChild(btn);
+  });
+
+  // Populate cities
+  const cityGrid = document.getElementById('sim-cities');
+  Object.entries(data.cities).forEach(([key, city]) => {
+    const btn = document.createElement('button');
+    btn.className = 'sim-choice';
+    btn.dataset.value = key;
+    btn.textContent = city.name;
+    btn.addEventListener('click', () => {
+      cityGrid.querySelectorAll('.sim-choice').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      state.city = key;
+      enableNext(2);
+    });
+    cityGrid.appendChild(btn);
+  });
+
+  // Family buttons
+  document.getElementById('sim-family').querySelectorAll('.sim-choice').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.getElementById('sim-family').querySelectorAll('.sim-choice').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      state.family = btn.dataset.value;
+      enableNext(3);
+    });
+  });
+
+  // Populate countries
+  const countrySelect = document.getElementById('sim-country');
+  Object.entries(data.countries).forEach(([key, country]) => {
+    const opt = document.createElement('option');
+    opt.value = key;
+    opt.textContent = country.name;
+    countrySelect.appendChild(opt);
+  });
+  countrySelect.addEventListener('change', () => {
+    state.country = countrySelect.value;
+    enableNext(4);
+  });
+
+  function enableNext(step) {
+    const stepEl = document.querySelector(`[data-sim-step="${step}"]`);
+    stepEl.querySelector('.sim-next').disabled = false;
+  }
+
+  // Navigation
+  document.querySelectorAll('.sim-next').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const current = document.querySelector('.sim-step.active');
+      const currentStep = current.dataset.simStep;
+      if (currentStep === '4') { showSimResult(); return; }
+      const nextStep = parseInt(currentStep) + 1;
+      current.classList.remove('active');
+      document.querySelector(`[data-sim-step="${nextStep}"]`).classList.add('active');
+    });
+  });
+
+  document.querySelectorAll('.sim-back').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const current = document.querySelector('.sim-step.active');
+      const currentStep = parseInt(current.dataset.simStep);
+      if (currentStep <= 1) return;
+      current.classList.remove('active');
+      document.querySelector(`[data-sim-step="${currentStep - 1}"]`).classList.add('active');
+    });
+  });
+
+  function calculateNet(grossAnnual, family) {
+    // Simplified German tax calculation for Steuerklasse I (single) or III (married)
+    const grossMonthly = grossAnnual / 12;
+
+    // Social security (~20% employee share)
+    const pensionRate = 0.093;    // Rentenversicherung
+    const healthRate = 0.073;     // Krankenversicherung (employee share with avg Zusatzbeitrag)
+    const careRate = family === 'single' ? 0.023 : 0.017; // Pflegeversicherung (higher for childless)
+    const unemploymentRate = 0.013; // Arbeitslosenversicherung
+
+    const socialSecurity = grossMonthly * (pensionRate + healthRate + careRate + unemploymentRate);
+
+    // Income tax (simplified progressive)
+    const taxableAnnual = grossAnnual - (socialSecurity * 12);
+    let incomeTax = 0;
+    if (taxableAnnual > 66761) {
+      incomeTax = taxableAnnual * 0.35;
+    } else if (taxableAnnual > 17005) {
+      incomeTax = taxableAnnual * 0.25;
+    } else if (taxableAnnual > 11604) {
+      incomeTax = taxableAnnual * 0.15;
+    }
+
+    // Solidarity surcharge (5.5% of income tax, only if tax > threshold)
+    const soli = incomeTax > 18130 ? incomeTax * 0.055 : 0;
+
+    const totalTaxMonthly = (incomeTax + soli) / 12;
+    const netMonthly = grossMonthly - socialSecurity - totalTaxMonthly;
+
+    return {
+      grossMonthly: Math.round(grossMonthly),
+      netMonthly: Math.round(netMonthly),
+      socialSecurity: Math.round(socialSecurity),
+      incomeTax: Math.round(totalTaxMonthly),
+    };
+  }
+
+  function showSimResult() {
+    const current = document.querySelector('.sim-step.active');
+    current.classList.remove('active');
+
+    const prof = data.professions[state.profession];
+    const city = data.cities[state.city];
+    const country = data.countries[state.country];
+    const salary = prof.salaries[state.city];
+
+    const calc = calculateNet(salary.median, state.family);
+    const totalExpenses = city.rent_1bed + city.groceries + city.transport + city.utilities + city.misc;
+    const freeMonthly = calc.netMonthly - totalExpenses;
+    const purchasingPower = country.avg_professional_salary_eur > 0
+      ? (calc.netMonthly / country.avg_professional_salary_eur).toFixed(1)
+      : '—';
+
+    const shareText = encodeURIComponent(
+      `Según el simulador de RutaAlemania, como ${prof.name} en ${city.name} tendría ~€${freeMonthly}/mes libres. ¿Quieres ver tu escenario?`
+    );
+    const shareURL = encodeURIComponent('https://rutaalemania.com/#simulador');
+
+    const resultEl = document.getElementById('sim-result');
+    resultEl.innerHTML = `
+      <div class="text-center py-6">
+        <p class="step-label">Tu simulación</p>
+        <h3 class="text-2xl font-heading font-bold mb-1">${prof.name}</h3>
+        <p class="text-white/50">en ${city.name}</p>
+      </div>
+
+      <div class="result-card">
+        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber-light mb-3">Ingresos estimados</h4>
+        <div class="result-row">
+          <span class="text-white/60">Salario bruto estimado</span>
+          <span class="result-val">${calc.grossMonthly.toLocaleString('es-ES')}&euro;/mes</span>
+        </div>
+        <div class="result-row">
+          <span class="text-white/60">Seguridad social</span>
+          <span class="result-val negative">-${calc.socialSecurity.toLocaleString('es-ES')}&euro;</span>
+        </div>
+        <div class="result-row">
+          <span class="text-white/60">Impuestos (IRPF + Soli)</span>
+          <span class="result-val negative">-${calc.incomeTax.toLocaleString('es-ES')}&euro;</span>
+        </div>
+        <div class="result-row" style="border-top:1px solid rgba(255,255,255,0.12);padding-top:0.8rem;margin-top:0.3rem">
+          <span class="text-white font-semibold">Salario neto estimado</span>
+          <span class="result-val" style="font-size:1.1rem">${calc.netMonthly.toLocaleString('es-ES')}&euro;/mes</span>
+        </div>
+      </div>
+
+      <div class="result-card">
+        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber-light mb-3">Gastos mensuales estimados</h4>
+        <div class="result-row">
+          <span class="text-white/60">Alquiler (1 habitación)</span>
+          <span class="result-val negative">-${city.rent_1bed}&euro;</span>
+        </div>
+        <div class="result-row">
+          <span class="text-white/60">Seguro médico</span>
+          <span class="result-val" style="color:rgba(255,255,255,0.3)">(incluido)</span>
+        </div>
+        <div class="result-row">
+          <span class="text-white/60">Alimentación</span>
+          <span class="result-val negative">-${city.groceries}&euro;</span>
+        </div>
+        <div class="result-row">
+          <span class="text-white/60">Transporte (Deutschlandticket)</span>
+          <span class="result-val negative">-${city.transport}&euro;</span>
+        </div>
+        <div class="result-row">
+          <span class="text-white/60">Internet + móvil</span>
+          <span class="result-val negative">-${city.utilities}&euro;</span>
+        </div>
+        <div class="result-row">
+          <span class="text-white/60">Otros gastos</span>
+          <span class="result-val negative">-${city.misc}&euro;</span>
+        </div>
+      </div>
+
+      <div class="result-card" style="border-color:rgba(39,174,96,0.3);background:rgba(39,174,96,0.05)">
+        <div class="result-row">
+          <span class="text-white font-bold text-lg">Te quedarían libres</span>
+          <span class="result-val highlight" style="font-size:1.3rem">~${freeMonthly.toLocaleString('es-ES')}&euro;/mes</span>
+        </div>
+      </div>
+
+      <div class="result-card">
+        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber-light mb-3">Comparación con ${country.name}</h4>
+        <div class="result-row">
+          <span class="text-white/60">Salario medio profesional en ${country.name}</span>
+          <span class="result-val">~${country.avg_professional_salary_eur.toLocaleString('es-ES')}&euro;/mes</span>
+        </div>
+        <div class="result-row">
+          <span class="text-white/60">Tu salario neto en Alemania</span>
+          <span class="result-val">${calc.netMonthly.toLocaleString('es-ES')}&euro;/mes</span>
+        </div>
+        <div class="result-row">
+          <span class="text-white/60">Poder adquisitivo relativo</span>
+          <span class="result-val highlight">~${purchasingPower}x</span>
+        </div>
+      </div>
+
+      <!-- CTAs -->
+      <div class="result-card" style="border-color:rgba(226,167,48,0.2);background:rgba(226,167,48,0.05)">
+        <h4 class="font-heading text-lg text-center mb-4">Para empezar, necesitarás:</h4>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <a href="#AFILIADO_EXPATRIO" class="sim-choice text-center text-sm" target="_blank" rel="noopener">
+            <strong class="block text-amber-light">Sperrkonto</strong>
+            <span class="text-white/40">Abrir cuenta bloqueada</span>
+          </a>
+          <a href="#AFILIADO_LINGODA" class="sim-choice text-center text-sm" target="_blank" rel="noopener">
+            <strong class="block text-amber-light">Alemán</strong>
+            <span class="text-white/40">Empezar a aprender</span>
+          </a>
+          <a href="#AFILIADO_WISE" class="sim-choice text-center text-sm" target="_blank" rel="noopener">
+            <strong class="block text-amber-light">Transferencias</strong>
+            <span class="text-white/40">Enviar dinero barato</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Share -->
+      <div class="text-center p-8 bg-amber-glow border border-amber/15 rounded-2xl my-6">
+        <h4 class="font-heading text-lg mb-2">Comparte tu simulación</h4>
+        <p class="text-sm text-white/50 mb-4">¿Conoces a alguien que quiera saber cuánto ganaría en Alemania?</p>
+        <div class="flex justify-center gap-2 flex-wrap">
+          <a href="https://wa.me/?text=${shareText}%20${shareURL}" target="_blank" rel="noopener" class="share-btn-sim wa">WhatsApp</a>
+          <a href="https://t.me/share/url?url=${shareURL}&text=${shareText}" target="_blank" rel="noopener" class="share-btn-sim tg">Telegram</a>
+          <a href="https://twitter.com/intent/tweet?text=${shareText}&url=${shareURL}" target="_blank" rel="noopener" class="share-btn-sim tw">X / Twitter</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=${shareURL}" target="_blank" rel="noopener" class="share-btn-sim fb">Facebook</a>
+        </div>
+      </div>
+
+      <!-- Restart -->
+      <div class="text-center mt-4">
+        <button id="sim-restart" class="text-amber-light text-sm font-semibold hover:underline cursor-pointer bg-transparent border-none">&larr; Hacer otra simulación</button>
+      </div>
+
+      <p class="text-xs text-white/25 text-center mt-6 pt-4 border-t border-white/5">
+        Datos orientativos basados en fuentes públicas (Entgeltatlas, Numbeo, Immobilienscout24). Los salarios y gastos reales pueden variar.
+      </p>
+    `;
+
+    resultEl.classList.add('active');
+    resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // Restart button
+    document.getElementById('sim-restart')?.addEventListener('click', () => {
+      resultEl.classList.remove('active');
+      resultEl.innerHTML = '';
+      document.querySelector('[data-sim-step="1"]').classList.add('active');
+      // Reset selections
+      document.querySelectorAll('.sim-choice.selected').forEach(el => el.classList.remove('selected'));
+      document.querySelectorAll('.sim-next').forEach(btn => btn.disabled = true);
+      countrySelect.value = '';
+    });
+  }
+</script>

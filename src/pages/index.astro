@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CalculadoraChancenkarte from '../components/CalculadoraChancenkarte.astro';
+import SimuladorVida from '../components/SimuladorVida.astro';
 
 const homeSchema = {
   '@context': 'https://schema.org',
@@ -104,9 +105,7 @@ const latestPosts = blogPosts
         Descubre cuánto ganarías, cuánto gastarías y cuánto te quedaría libre cada mes según tu profesión y ciudad.
       </p>
     </div>
-    <div id="life-simulator">
-      <!-- Simulator component loaded here -->
-    </div>
+    <SimuladorVida />
   </section>
 
   <!-- BLOG PREVIEW -->

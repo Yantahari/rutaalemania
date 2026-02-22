@@ -1,0 +1,217 @@
+{
+  "professions": {
+    "software_engineer": {
+      "name": "Ingeniero/a de Software",
+      "salaries": {
+        "berlin": { "min": 48000, "median": 58000, "max": 75000 },
+        "munich": { "min": 52000, "median": 65000, "max": 85000 },
+        "frankfurt": { "min": 50000, "median": 62000, "max": 80000 },
+        "hamburg": { "min": 48000, "median": 58000, "max": 74000 },
+        "cologne": { "min": 46000, "median": 56000, "max": 72000 },
+        "stuttgart": { "min": 50000, "median": 63000, "max": 82000 },
+        "dusseldorf": { "min": 47000, "median": 57000, "max": 73000 },
+        "freiburg": { "min": 44000, "median": 54000, "max": 68000 },
+        "leipzig": { "min": 42000, "median": 50000, "max": 64000 },
+        "dresden": { "min": 42000, "median": 50000, "max": 64000 }
+      }
+    },
+    "nurse": {
+      "name": "Enfermero/a",
+      "salaries": {
+        "berlin": { "min": 33000, "median": 38000, "max": 44000 },
+        "munich": { "min": 36000, "median": 42000, "max": 50000 },
+        "frankfurt": { "min": 34000, "median": 40000, "max": 47000 },
+        "hamburg": { "min": 33000, "median": 39000, "max": 45000 },
+        "cologne": { "min": 33000, "median": 38000, "max": 44000 },
+        "stuttgart": { "min": 35000, "median": 41000, "max": 48000 },
+        "dusseldorf": { "min": 33000, "median": 39000, "max": 45000 },
+        "freiburg": { "min": 32000, "median": 37000, "max": 43000 },
+        "leipzig": { "min": 30000, "median": 35000, "max": 40000 },
+        "dresden": { "min": 30000, "median": 35000, "max": 40000 }
+      }
+    },
+    "mechanical_engineer": {
+      "name": "Ingeniero/a Mecánico",
+      "salaries": {
+        "berlin": { "min": 44000, "median": 52000, "max": 65000 },
+        "munich": { "min": 50000, "median": 60000, "max": 76000 },
+        "frankfurt": { "min": 47000, "median": 56000, "max": 70000 },
+        "hamburg": { "min": 45000, "median": 54000, "max": 68000 },
+        "cologne": { "min": 44000, "median": 53000, "max": 66000 },
+        "stuttgart": { "min": 50000, "median": 62000, "max": 78000 },
+        "dusseldorf": { "min": 45000, "median": 54000, "max": 67000 },
+        "freiburg": { "min": 42000, "median": 50000, "max": 62000 },
+        "leipzig": { "min": 38000, "median": 46000, "max": 57000 },
+        "dresden": { "min": 38000, "median": 46000, "max": 57000 }
+      }
+    },
+    "physician": {
+      "name": "Médico/a",
+      "salaries": {
+        "berlin": { "min": 55000, "median": 72000, "max": 95000 },
+        "munich": { "min": 60000, "median": 78000, "max": 105000 },
+        "frankfurt": { "min": 58000, "median": 75000, "max": 100000 },
+        "hamburg": { "min": 56000, "median": 73000, "max": 96000 },
+        "cologne": { "min": 55000, "median": 71000, "max": 93000 },
+        "stuttgart": { "min": 58000, "median": 76000, "max": 100000 },
+        "dusseldorf": { "min": 56000, "median": 72000, "max": 95000 },
+        "freiburg": { "min": 54000, "median": 70000, "max": 90000 },
+        "leipzig": { "min": 50000, "median": 65000, "max": 85000 },
+        "dresden": { "min": 50000, "median": 65000, "max": 85000 }
+      }
+    },
+    "teacher": {
+      "name": "Profesor/a",
+      "salaries": {
+        "berlin": { "min": 38000, "median": 45000, "max": 55000 },
+        "munich": { "min": 42000, "median": 50000, "max": 60000 },
+        "frankfurt": { "min": 40000, "median": 48000, "max": 57000 },
+        "hamburg": { "min": 39000, "median": 46000, "max": 56000 },
+        "cologne": { "min": 38000, "median": 45000, "max": 55000 },
+        "stuttgart": { "min": 41000, "median": 49000, "max": 59000 },
+        "dusseldorf": { "min": 39000, "median": 46000, "max": 56000 },
+        "freiburg": { "min": 37000, "median": 44000, "max": 53000 },
+        "leipzig": { "min": 35000, "median": 42000, "max": 50000 },
+        "dresden": { "min": 35000, "median": 42000, "max": 50000 }
+      }
+    },
+    "architect": {
+      "name": "Arquitecto/a",
+      "salaries": {
+        "berlin": { "min": 38000, "median": 46000, "max": 58000 },
+        "munich": { "min": 42000, "median": 52000, "max": 66000 },
+        "frankfurt": { "min": 40000, "median": 50000, "max": 62000 },
+        "hamburg": { "min": 39000, "median": 48000, "max": 60000 },
+        "cologne": { "min": 38000, "median": 47000, "max": 58000 },
+        "stuttgart": { "min": 41000, "median": 51000, "max": 64000 },
+        "dusseldorf": { "min": 39000, "median": 48000, "max": 60000 },
+        "freiburg": { "min": 36000, "median": 44000, "max": 55000 },
+        "leipzig": { "min": 34000, "median": 41000, "max": 51000 },
+        "dresden": { "min": 34000, "median": 41000, "max": 51000 }
+      }
+    },
+    "business_admin": {
+      "name": "Administrador/a de Empresas",
+      "salaries": {
+        "berlin": { "min": 38000, "median": 47000, "max": 60000 },
+        "munich": { "min": 42000, "median": 53000, "max": 68000 },
+        "frankfurt": { "min": 42000, "median": 54000, "max": 70000 },
+        "hamburg": { "min": 40000, "median": 50000, "max": 64000 },
+        "cologne": { "min": 38000, "median": 48000, "max": 61000 },
+        "stuttgart": { "min": 41000, "median": 52000, "max": 66000 },
+        "dusseldorf": { "min": 40000, "median": 50000, "max": 63000 },
+        "freiburg": { "min": 36000, "median": 44000, "max": 56000 },
+        "leipzig": { "min": 34000, "median": 42000, "max": 53000 },
+        "dresden": { "min": 34000, "median": 42000, "max": 53000 }
+      }
+    },
+    "electrician": {
+      "name": "Electricista",
+      "salaries": {
+        "berlin": { "min": 30000, "median": 36000, "max": 44000 },
+        "munich": { "min": 34000, "median": 41000, "max": 50000 },
+        "frankfurt": { "min": 32000, "median": 39000, "max": 47000 },
+        "hamburg": { "min": 31000, "median": 37000, "max": 45000 },
+        "cologne": { "min": 30000, "median": 36000, "max": 44000 },
+        "stuttgart": { "min": 33000, "median": 40000, "max": 49000 },
+        "dusseldorf": { "min": 31000, "median": 37000, "max": 45000 },
+        "freiburg": { "min": 29000, "median": 35000, "max": 42000 },
+        "leipzig": { "min": 27000, "median": 33000, "max": 39000 },
+        "dresden": { "min": 27000, "median": 33000, "max": 39000 }
+      }
+    },
+    "chef": {
+      "name": "Chef / Cocinero/a",
+      "salaries": {
+        "berlin": { "min": 26000, "median": 32000, "max": 40000 },
+        "munich": { "min": 29000, "median": 36000, "max": 45000 },
+        "frankfurt": { "min": 28000, "median": 34000, "max": 42000 },
+        "hamburg": { "min": 27000, "median": 33000, "max": 41000 },
+        "cologne": { "min": 26000, "median": 32000, "max": 39000 },
+        "stuttgart": { "min": 28000, "median": 35000, "max": 43000 },
+        "dusseldorf": { "min": 27000, "median": 33000, "max": 40000 },
+        "freiburg": { "min": 25000, "median": 31000, "max": 38000 },
+        "leipzig": { "min": 24000, "median": 29000, "max": 35000 },
+        "dresden": { "min": 24000, "median": 29000, "max": 35000 }
+      }
+    },
+    "graphic_designer": {
+      "name": "Diseñador/a Gráfico",
+      "salaries": {
+        "berlin": { "min": 32000, "median": 40000, "max": 52000 },
+        "munich": { "min": 36000, "median": 45000, "max": 58000 },
+        "frankfurt": { "min": 34000, "median": 43000, "max": 55000 },
+        "hamburg": { "min": 33000, "median": 42000, "max": 54000 },
+        "cologne": { "min": 32000, "median": 40000, "max": 52000 },
+        "stuttgart": { "min": 35000, "median": 44000, "max": 56000 },
+        "dusseldorf": { "min": 33000, "median": 41000, "max": 53000 },
+        "freiburg": { "min": 30000, "median": 38000, "max": 48000 },
+        "leipzig": { "min": 28000, "median": 35000, "max": 44000 },
+        "dresden": { "min": 28000, "median": 35000, "max": 44000 }
+      }
+    },
+    "researcher": {
+      "name": "Investigador/a Científico",
+      "salaries": {
+        "berlin": { "min": 42000, "median": 52000, "max": 65000 },
+        "munich": { "min": 45000, "median": 56000, "max": 72000 },
+        "frankfurt": { "min": 43000, "median": 54000, "max": 68000 },
+        "hamburg": { "min": 42000, "median": 53000, "max": 66000 },
+        "cologne": { "min": 42000, "median": 52000, "max": 65000 },
+        "stuttgart": { "min": 44000, "median": 55000, "max": 70000 },
+        "dusseldorf": { "min": 42000, "median": 53000, "max": 66000 },
+        "freiburg": { "min": 40000, "median": 50000, "max": 62000 },
+        "leipzig": { "min": 38000, "median": 47000, "max": 58000 },
+        "dresden": { "min": 38000, "median": 47000, "max": 58000 }
+      }
+    },
+    "logistician": {
+      "name": "Logístico/a",
+      "salaries": {
+        "berlin": { "min": 32000, "median": 40000, "max": 50000 },
+        "munich": { "min": 36000, "median": 45000, "max": 56000 },
+        "frankfurt": { "min": 35000, "median": 44000, "max": 55000 },
+        "hamburg": { "min": 34000, "median": 43000, "max": 54000 },
+        "cologne": { "min": 33000, "median": 41000, "max": 52000 },
+        "stuttgart": { "min": 35000, "median": 44000, "max": 55000 },
+        "dusseldorf": { "min": 34000, "median": 42000, "max": 53000 },
+        "freiburg": { "min": 30000, "median": 38000, "max": 47000 },
+        "leipzig": { "min": 28000, "median": 36000, "max": 44000 },
+        "dresden": { "min": 28000, "median": 36000, "max": 44000 }
+      }
+    }
+  },
+  "cities": {
+    "berlin": { "name": "Berlín", "rent_1bed": 850, "groceries": 350, "transport": 49, "utilities": 40, "misc": 200 },
+    "munich": { "name": "Múnich", "rent_1bed": 1200, "groceries": 380, "transport": 49, "utilities": 45, "misc": 220 },
+    "frankfurt": { "name": "Frankfurt", "rent_1bed": 1000, "groceries": 360, "transport": 49, "utilities": 42, "misc": 210 },
+    "hamburg": { "name": "Hamburgo", "rent_1bed": 900, "groceries": 350, "transport": 49, "utilities": 40, "misc": 200 },
+    "cologne": { "name": "Colonia", "rent_1bed": 800, "groceries": 340, "transport": 49, "utilities": 38, "misc": 190 },
+    "stuttgart": { "name": "Stuttgart", "rent_1bed": 950, "groceries": 360, "transport": 49, "utilities": 42, "misc": 210 },
+    "dusseldorf": { "name": "Düsseldorf", "rent_1bed": 850, "groceries": 350, "transport": 49, "utilities": 40, "misc": 200 },
+    "freiburg": { "name": "Freiburg", "rent_1bed": 800, "groceries": 340, "transport": 49, "utilities": 38, "misc": 190 },
+    "leipzig": { "name": "Leipzig", "rent_1bed": 550, "groceries": 320, "transport": 49, "utilities": 35, "misc": 170 },
+    "dresden": { "name": "Dresde", "rent_1bed": 550, "groceries": 320, "transport": 49, "utilities": 35, "misc": 170 }
+  },
+  "countries": {
+    "spain": { "name": "España", "avg_professional_salary_eur": 1800 },
+    "mexico": { "name": "México", "avg_professional_salary_eur": 750 },
+    "colombia": { "name": "Colombia", "avg_professional_salary_eur": 550 },
+    "argentina": { "name": "Argentina", "avg_professional_salary_eur": 500 },
+    "peru": { "name": "Perú", "avg_professional_salary_eur": 600 },
+    "chile": { "name": "Chile", "avg_professional_salary_eur": 900 },
+    "ecuador": { "name": "Ecuador", "avg_professional_salary_eur": 500 },
+    "venezuela": { "name": "Venezuela", "avg_professional_salary_eur": 200 },
+    "bolivia": { "name": "Bolivia", "avg_professional_salary_eur": 350 },
+    "uruguay": { "name": "Uruguay", "avg_professional_salary_eur": 850 },
+    "costa_rica": { "name": "Costa Rica", "avg_professional_salary_eur": 700 },
+    "panama": { "name": "Panamá", "avg_professional_salary_eur": 750 },
+    "dominican_republic": { "name": "República Dominicana", "avg_professional_salary_eur": 450 },
+    "guatemala": { "name": "Guatemala", "avg_professional_salary_eur": 400 },
+    "honduras": { "name": "Honduras", "avg_professional_salary_eur": 350 },
+    "paraguay": { "name": "Paraguay", "avg_professional_salary_eur": 400 },
+    "el_salvador": { "name": "El Salvador", "avg_professional_salary_eur": 400 },
+    "nicaragua": { "name": "Nicaragua", "avg_professional_salary_eur": 300 },
+    "cuba": { "name": "Cuba", "avg_professional_salary_eur": 100 }
+  }
+}
