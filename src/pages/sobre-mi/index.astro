@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Carlos Domínguez Cid',
+  url: 'https://rutaalemania.com/sobre-mi/',
+  jobTitle: 'Orientador profesional y creador de RutaAlemania',
+  description: 'Biólogo español residente en Freiburg, Alemania. Ayuda a hispanohablantes a planificar su camino profesional en Alemania.',
+  knowsLanguage: ['es', 'de', 'en'],
+  nationality: 'Spanish',
+};
+---
+
+<BaseLayout
+  title="Sobre mí — Carlos Domínguez Cid"
+  description="Conóceme: biólogo español viviendo en Freiburg. Mi experiencia emigrando a Alemania y por qué creé RutaAlemania."
+  keywords="carlos dominguez cid, rutaalemania, sobre mi, emigrar alemania experiencia"
+  schema={schema}
+>
+  <section class="container-narrow py-12 md:py-20">
+    <header class="text-center mb-12">
+      <div class="badge mb-4">Sobre mí</div>
+      <h1 class="text-3xl md:text-5xl font-heading mb-4">
+        Hola, soy <span class="text-amber-light">Carlos</span>
+      </h1>
+      <p class="text-white/50 text-lg max-w-xl mx-auto">
+        Biólogo de vocación, profesor por convicción y emigrante por aventura.
+      </p>
+    </header>
+
+    <div class="space-y-8 text-white/70 leading-relaxed">
+      <div class="card p-8">
+        <h2 class="font-heading text-2xl text-white mb-4">Mi historia</h2>
+        <p class="mb-4">
+          Pasé años dedicado a la biología y la enseñanza en España, compartiendo mi pasión por la naturaleza
+          con nuevas generaciones. Cuando llegó la paternidad, la vida me llevó a Alemania — un país que
+          conocía poco y cuyo idioma no hablaba.
+        </p>
+        <p class="mb-4">
+          Tuve que reinventarme: aprender alemán desde cero, entender una burocracia completamente diferente,
+          adaptar mi perfil profesional al mercado laboral alemán y encontrar mi lugar en una cultura nueva.
+          No fue fácil, pero lo conseguí.
+        </p>
+        <p>
+          Hoy vivo en <strong class="text-white">Freiburg</strong>, una de las ciudades más bonitas del sur de Alemania,
+          y me he especializado en la enseñanza de español mientras ayudo a otros hispanohablantes
+          a hacer el mismo camino con menos tropiezos.
+        </p>
+      </div>
+
+      <div class="card p-8">
+        <h2 class="font-heading text-2xl text-white mb-4">¿Por qué RutaAlemania?</h2>
+        <p class="mb-4">
+          Cuando llegué, no encontré información clara y práctica en español. Todo estaba en alemán,
+          era burocrático y confuso. Las guías que existían eran genéricas o estaban desactualizadas.
+        </p>
+        <p class="mb-4">
+          RutaAlemania nace para ser lo que a mí me hubiera gustado encontrar: una guía práctica,
+          actualizada y en español, hecha por alguien que <strong class="text-white">vive aquí y sabe lo que piden
+          en cada oficina</strong>.
+        </p>
+      </div>
+
+      <div class="card p-8">
+        <h2 class="font-heading text-2xl text-white mb-4">¿En qué puedo ayudarte?</h2>
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="text-amber mt-1">&#10003;</span>
+            <span><strong class="text-white">Análisis de viabilidad:</strong> Evaluar tus opciones de visa según tu perfil.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-amber mt-1">&#10003;</span>
+            <span><strong class="text-white">Trámites clave:</strong> Anmeldung, cuenta bancaria, reconocimiento de títulos, seguros.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-amber mt-1">&#10003;</span>
+            <span><strong class="text-white">Estrategia laboral:</strong> CV alemán, búsqueda de empleo, preparación de entrevistas.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-amber mt-1">&#10003;</span>
+            <span><strong class="text-white">Orientación legal básica:</strong> Guía a recursos oficiales y derivación a abogados cuando sea necesario.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bg-amber-glow border border-amber/20 rounded-2xl p-8 text-center">
+        <p class="text-white/60 text-sm mb-1">Mi lema:</p>
+        <blockquote class="font-heading text-xl text-amber-light italic">
+          "Transformemos el reto de emigrar en una aventura manejable."
+        </blockquote>
+        <div class="mt-6">
+          <a href="/#calculadora" class="btn-primary">Empieza con el test gratuito</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

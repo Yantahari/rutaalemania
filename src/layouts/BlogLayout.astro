@@ -1,0 +1,85 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  frontmatter: {
+    title: string;
+    description: string;
+    date: string;
+    keywords: string;
+    ogImage?: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+const formattedDate = new Date(frontmatter.date).toLocaleDateString('es-ES', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: frontmatter.title,
+  description: frontmatter.description,
+  datePublished: frontmatter.date,
+  dateModified: frontmatter.date,
+  author: {
+    '@type': 'Person',
+    name: 'Carlos Domínguez Cid',
+    url: 'https://rutaalemania.com/sobre-mi/',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'RutaAlemania',
+    url: 'https://rutaalemania.com',
+  },
+};
+---
+
+<BaseLayout
+  title={frontmatter.title}
+  description={frontmatter.description}
+  keywords={frontmatter.keywords}
+  ogType="article"
+  ogImage={frontmatter.ogImage}
+  schema={articleSchema}
+>
+  <article class="container-narrow py-12 md:py-16">
+    <!-- Header -->
+    <header class="mb-10">
+      <div class="badge mb-4">{formattedDate}</div>
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-heading font-bold leading-tight mb-4">
+        {frontmatter.title}
+      </h1>
+      <p class="text-white/50 text-lg leading-relaxed">
+        {frontmatter.description}
+      </p>
+    </header>
+
+    <!-- Content -->
+    <div class="prose prose-invert prose-amber max-w-none
+      prose-headings:font-heading prose-headings:text-white
+      prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4
+      prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
+      prose-p:text-white/70 prose-p:leading-relaxed
+      prose-a:text-amber-light prose-a:no-underline hover:prose-a:underline
+      prose-strong:text-white
+      prose-li:text-white/70
+      prose-blockquote:border-amber/30 prose-blockquote:text-white/60
+      prose-table:text-sm
+      prose-th:text-amber-light prose-th:font-semibold
+      prose-td:text-white/70
+    ">
+      <slot />
+    </div>
+
+    <!-- CTA bottom -->
+    <div class="mt-16 p-8 bg-amber-glow border border-amber/20 rounded-2xl text-center">
+      <h3 class="font-heading text-xl mb-2">¿Quieres saber si puedes ir a Alemania?</h3>
+      <p class="text-white/50 text-sm mb-4">Haz nuestro test gratuito de 2 minutos y descubre tus opciones.</p>
+      <a href="/#calculadora" class="btn-primary">Calculadora Chancenkarte gratis</a>
+    </div>
+  </article>
+</BaseLayout>

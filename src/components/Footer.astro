@@ -1,0 +1,58 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-white/[0.06] mt-20">
+  <div class="container-wide py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <!-- Brand -->
+      <div class="md:col-span-1">
+        <a href="/" class="font-heading font-bold text-xl">
+          <span class="text-amber">Ruta</span>Alemania
+        </a>
+        <p class="text-white/40 text-sm mt-3 leading-relaxed">
+          Guía práctica para hispanohablantes que quieren trabajar en Alemania.
+        </p>
+      </div>
+
+      <!-- Navegación -->
+      <div>
+        <h4 class="text-sm font-semibold text-white/80 uppercase tracking-wider mb-4">Navegación</h4>
+        <ul class="space-y-2">
+          <li><a href="/" class="text-sm text-white/40 hover:text-amber">Inicio</a></li>
+          <li><a href="/blog/" class="text-sm text-white/40 hover:text-amber">Blog</a></li>
+          <li><a href="/recursos/" class="text-sm text-white/40 hover:text-amber">Recursos</a></li>
+          <li><a href="/sobre-mi/" class="text-sm text-white/40 hover:text-amber">Sobre mí</a></li>
+        </ul>
+      </div>
+
+      <!-- Herramientas -->
+      <div>
+        <h4 class="text-sm font-semibold text-white/80 uppercase tracking-wider mb-4">Herramientas</h4>
+        <ul class="space-y-2">
+          <li><a href="/#calculadora" class="text-sm text-white/40 hover:text-amber">Calculadora Chancenkarte</a></li>
+          <li><a href="/#simulador" class="text-sm text-white/40 hover:text-amber">Simulador de vida</a></li>
+        </ul>
+      </div>
+
+      <!-- Legal -->
+      <div>
+        <h4 class="text-sm font-semibold text-white/80 uppercase tracking-wider mb-4">Legal</h4>
+        <ul class="space-y-2">
+          <li><a href="/impressum/" class="text-sm text-white/40 hover:text-amber">Impressum</a></li>
+          <li><a href="/datenschutz/" class="text-sm text-white/40 hover:text-amber">Datenschutz</a></li>
+          <li><a href="/disclaimer/" class="text-sm text-white/40 hover:text-amber">Disclaimer</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-white/[0.06] mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p class="text-xs text-white/30">
+        &copy; {year} RutaAlemania.com — Todos los derechos reservados.
+      </p>
+      <p class="text-xs text-white/20">
+        Este sitio contiene enlaces de afiliado. Al usarlos, nos ayudas sin coste extra para ti.
+      </p>
+    </div>
+  </div>
+</footer>

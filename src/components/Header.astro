@@ -1,0 +1,74 @@
+---
+const currentPath = Astro.url.pathname;
+const navLinks = [
+  { href: '/', label: 'Inicio' },
+  { href: '/blog/', label: 'Blog' },
+  { href: '/recursos/', label: 'Recursos' },
+  { href: '/sobre-mi/', label: 'Sobre mí' },
+];
+---
+
+<header class="sticky top-0 z-50 bg-coal/90 backdrop-blur-md border-b border-white/[0.06]">
+  <div class="container-wide flex items-center justify-between h-16">
+    <a href="/" class="flex items-center gap-2 text-white font-heading font-bold text-xl">
+      <span class="text-amber">Ruta</span>Alemania
+    </a>
+
+    <!-- Desktop nav -->
+    <nav class="hidden md:flex items-center gap-6">
+      {navLinks.map(link => (
+        <a
+          href={link.href}
+          class:list={[
+            'text-sm font-medium transition-colors',
+            currentPath === link.href ? 'text-amber' : 'text-white/60 hover:text-white',
+          ]}
+        >
+          {link.label}
+        </a>
+      ))}
+      <a href="/#calculadora" class="btn-primary text-sm !px-4 !py-2">
+        Test Chancenkarte
+      </a>
+    </nav>
+
+    <!-- Mobile menu button -->
+    <button
+      id="mobile-menu-btn"
+      class="md:hidden text-white/70 hover:text-white p-2"
+      aria-label="Abrir menú"
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile nav -->
+  <nav id="mobile-menu" class="hidden md:hidden border-t border-white/[0.06] bg-coal/95 backdrop-blur-md">
+    <div class="container-wide py-4 flex flex-col gap-3">
+      {navLinks.map(link => (
+        <a
+          href={link.href}
+          class:list={[
+            'text-sm font-medium py-2 px-3 rounded-lg transition-colors',
+            currentPath === link.href ? 'text-amber bg-amber-glow' : 'text-white/60 hover:text-white hover:bg-white/5',
+          ]}
+        >
+          {link.label}
+        </a>
+      ))}
+      <a href="/#calculadora" class="btn-primary text-sm text-center mt-2">
+        Test Chancenkarte
+      </a>
+    </div>
+  </nav>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+</script>

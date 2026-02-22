@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const postFiles = import.meta.glob('./*.md', { eager: true });
+const allPosts = Object.values(postFiles) as any[];
+const posts = allPosts.sort(
+  (a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
+);
+---
+
+<BaseLayout
+  title="Blog — Guías para trabajar en Alemania"
+  description="Artículos prácticos sobre visados, Chancenkarte, Blue Card, vida en Alemania y más. Información actualizada para hispanohablantes."
+  keywords="blog alemania, guías emigrar alemania, chancenkarte guía, trabajar alemania blog"
+>
+  <section class="container-wide py-12 md:py-20">
+    <header class="text-center mb-12">
+      <div class="badge mb-4">Blog</div>
+      <h1 class="text-3xl md:text-5xl font-heading mb-4">Guías y artículos</h1>
+      <p class="text-white/50 max-w-xl mx-auto">
+        Todo lo que necesitas saber para emigrar y trabajar en Alemania, explicado paso a paso.
+      </p>
+    </header>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {posts.map(post => (
+        <a href={post.url} class="card group flex flex-col">
+          <p class="text-xs text-amber/70 mb-2">
+            {new Date(post.frontmatter.date).toLocaleDateString('es-ES', {
+              year: 'numeric', month: 'long', day: 'numeric'
+            })}
+          </p>
+          <h2 class="font-heading text-lg mb-3 group-hover:text-amber-light transition-colors">
+            {post.frontmatter.title}
+          </h2>
+          <p class="text-white/40 text-sm leading-relaxed flex-1">
+            {post.frontmatter.description}
+          </p>
+          <span class="text-amber-light text-sm font-semibold mt-4 inline-block">
+            Leer artículo &rarr;
+          </span>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
