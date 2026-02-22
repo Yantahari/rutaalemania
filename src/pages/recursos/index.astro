@@ -1,0 +1,248 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Recursos para emigrar a Alemania',
+  description: 'Recopilación de enlaces oficiales y herramientas esenciales para emigrar y trabajar en Alemania.',
+  url: 'https://rutaalemania.com/recursos/',
+};
+---
+
+<BaseLayout
+  title="Recursos para emigrar a Alemania"
+  description="Enlaces oficiales, herramientas y servicios recomendados para emigrar y trabajar en Alemania. Todo en un solo lugar."
+  keywords="recursos emigrar alemania, enlaces oficiales alemania, herramientas emigrar alemania"
+  schema={schema}
+>
+  <section class="container-wide py-12 md:py-20">
+    <header class="text-center mb-12">
+      <div class="badge mb-4">Recursos</div>
+      <h1 class="text-3xl md:text-5xl font-heading mb-4">Todo lo que necesitas en un solo lugar</h1>
+      <p class="text-white/50 max-w-2xl mx-auto">
+        Enlaces oficiales, herramientas y servicios recomendados para cada etapa de tu proceso de emigración a Alemania.
+      </p>
+    </header>
+
+    <!-- ENLACES OFICIALES -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-heading mb-6 flex items-center gap-3">
+        <span class="text-amber">01</span> Enlaces oficiales del gobierno alemán
+      </h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="https://www.make-it-in-germany.com/es/" target="_blank" rel="noopener" class="card group flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-amber-glow flex items-center justify-center shrink-0 text-amber font-bold text-sm">MiG</div>
+          <div>
+            <h3 class="font-semibold group-hover:text-amber-light transition-colors">Make it in Germany</h3>
+            <p class="text-sm text-white/40">Portal oficial del gobierno alemán para profesionales internacionales. Información sobre visados, empleo y vida en Alemania.</p>
+          </div>
+        </a>
+        <a href="https://anabin.kmk.org" target="_blank" rel="noopener" class="card group flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-amber-glow flex items-center justify-center shrink-0 text-amber font-bold text-sm">An</div>
+          <div>
+            <h3 class="font-semibold group-hover:text-amber-light transition-colors">Anabin</h3>
+            <p class="text-sm text-white/40">Base de datos para verificar si tu título universitario está reconocido en Alemania.</p>
+          </div>
+        </a>
+        <a href="https://www.arbeitsagentur.de" target="_blank" rel="noopener" class="card group flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-amber-glow flex items-center justify-center shrink-0 text-amber font-bold text-sm">BA</div>
+          <div>
+            <h3 class="font-semibold group-hover:text-amber-light transition-colors">Bundesagentur für Arbeit</h3>
+            <p class="text-sm text-white/40">Agencia Federal de Empleo. Ofertas de trabajo, información sobre el mercado laboral y servicios de orientación.</p>
+          </div>
+        </a>
+        <a href="https://www.anerkennung-in-deutschland.de/html/es/" target="_blank" rel="noopener" class="card group flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-amber-glow flex items-center justify-center shrink-0 text-amber font-bold text-sm">AiD</div>
+          <div>
+            <h3 class="font-semibold group-hover:text-amber-light transition-colors">Anerkennung in Deutschland</h3>
+            <p class="text-sm text-white/40">Portal oficial para el reconocimiento de títulos profesionales extranjeros en Alemania.</p>
+          </div>
+        </a>
+        <a href="https://entgeltatlas.arbeitsagentur.de" target="_blank" rel="noopener" class="card group flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-amber-glow flex items-center justify-center shrink-0 text-amber font-bold text-sm">EA</div>
+          <div>
+            <h3 class="font-semibold group-hover:text-amber-light transition-colors">Entgeltatlas</h3>
+            <p class="text-sm text-white/40">Consulta salarios reales por profesión, región y experiencia en Alemania.</p>
+          </div>
+        </a>
+        <a href="https://www.auswaertiges-amt.de" target="_blank" rel="noopener" class="card group flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-amber-glow flex items-center justify-center shrink-0 text-amber font-bold text-sm">AA</div>
+          <div>
+            <h3 class="font-semibold group-hover:text-amber-light transition-colors">Auswärtiges Amt</h3>
+            <p class="text-sm text-white/40">Ministerio de Asuntos Exteriores. Información sobre embajadas, consulados y requisitos de visado.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- BÚSQUEDA DE EMPLEO -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-heading mb-6 flex items-center gap-3">
+        <span class="text-amber">02</span> Búsqueda de empleo
+      </h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="https://www.stepstone.de" target="_blank" rel="noopener" class="card group flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center shrink-0 text-white/60 font-bold text-sm">SS</div>
+          <div>
+            <h3 class="font-semibold group-hover:text-amber-light transition-colors">StepStone</h3>
+            <p class="text-sm text-white/40">Uno de los mayores portales de empleo en Alemania. Excelente para profesionales cualificados.</p>
+          </div>
+        </a>
+        <a href="https://de.indeed.com" target="_blank" rel="noopener" class="card group flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center shrink-0 text-white/60 font-bold text-sm">In</div>
+          <div>
+            <h3 class="font-semibold group-hover:text-amber-light transition-colors">Indeed Alemania</h3>
+            <p class="text-sm text-white/40">Motor de búsqueda de empleo con millones de ofertas en toda Alemania.</p>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/jobs" target="_blank" rel="noopener" class="card group flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center shrink-0 text-white/60 font-bold text-sm">Li</div>
+          <div>
+            <h3 class="font-semibold group-hover:text-amber-light transition-colors">LinkedIn Jobs</h3>
+            <p class="text-sm text-white/40">Ideal para puestos cualificados, especialmente en IT, ingeniería y gestión.</p>
+          </div>
+        </a>
+        <a href="https://www.xing.com/jobs" target="_blank" rel="noopener" class="card group flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center shrink-0 text-white/60 font-bold text-sm">Xi</div>
+          <div>
+            <h3 class="font-semibold group-hover:text-amber-light transition-colors">XING</h3>
+            <p class="text-sm text-white/40">Red profesional alemana. Muy usada en el mercado DACH (Alemania, Austria, Suiza).</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- SPERRKONTO -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-heading mb-6 flex items-center gap-3">
+        <span class="text-amber">03</span> Sperrkonto (cuenta bloqueada)
+      </h2>
+      <p class="text-white/50 mb-6">Obligatorio para demostrar medios económicos al solicitar tu visa.</p>
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="#AFILIADO_EXPATRIO" class="card group flex items-start gap-4 affiliate-placeholder">
+          <div>
+            <h3 class="font-semibold group-hover:text-amber-light transition-colors">Expatrio <span class="badge !text-[0.6rem] ml-2">Recomendado</span></h3>
+            <p class="text-sm text-white/40 mt-1">El proveedor más popular. Proceso 100% online, incluye seguro médico opcional. Apertura en minutos.</p>
+          </div>
+        </a>
+        <div class="card flex items-start gap-4 opacity-60">
+          <div>
+            <h3 class="font-semibold">Fintiba</h3>
+            <p class="text-sm text-white/40 mt-1">Alternativa digital para abrir tu Sperrkonto. Proceso rápido y en inglés.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- IDIOMAS -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-heading mb-6 flex items-center gap-3">
+        <span class="text-amber">04</span> Aprender alemán
+      </h2>
+      <p class="text-white/50 mb-6">Un certificado de alemán mejora tus opciones de visa y de empleo.</p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <a href="#AFILIADO_LINGODA" class="card group affiliate-placeholder">
+          <h3 class="font-semibold group-hover:text-amber-light transition-colors">Lingoda <span class="badge !text-[0.6rem] ml-2">Recomendado</span></h3>
+          <p class="text-sm text-white/40 mt-1">Clases online con profesores nativos. Certificados oficiales. Desde €54.99/mes.</p>
+        </a>
+        <div class="card opacity-60">
+          <h3 class="font-semibold">Rocket Languages</h3>
+          <p class="text-sm text-white/40 mt-1">Curso autodidacta de alemán. Ideal para aprender a tu ritmo.</p>
+        </div>
+        <div class="card opacity-60">
+          <h3 class="font-semibold">italki</h3>
+          <p class="text-sm text-white/40 mt-1">Tutores nativos 1:1 a precios asequibles. Práctica de conversación.</p>
+        </div>
+        <a href="https://www.goethe.de" target="_blank" rel="noopener" class="card group">
+          <h3 class="font-semibold group-hover:text-amber-light transition-colors">Goethe-Institut</h3>
+          <p class="text-sm text-white/40 mt-1">Institución oficial alemana. Exámenes reconocidos internacionalmente (A1-C2).</p>
+        </a>
+        <div class="card opacity-60">
+          <h3 class="font-semibold">MosaLingua</h3>
+          <p class="text-sm text-white/40 mt-1">App de aprendizaje de idiomas con método de repetición espaciada.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRANSFERENCIAS -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-heading mb-6 flex items-center gap-3">
+        <span class="text-amber">05</span> Transferencias internacionales
+      </h2>
+      <p class="text-white/50 mb-6">Envía dinero a Alemania con comisiones mínimas.</p>
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="#AFILIADO_WISE" class="card group affiliate-placeholder">
+          <h3 class="font-semibold group-hover:text-amber-light transition-colors">Wise (antes TransferWise) <span class="badge !text-[0.6rem] ml-2">Recomendado</span></h3>
+          <p class="text-sm text-white/40 mt-1">Transferencias al tipo de cambio real. Comisiones desde 0.4%. Cuenta multidivisa gratuita.</p>
+        </a>
+        <div class="card opacity-60">
+          <h3 class="font-semibold">Revolut</h3>
+          <p class="text-sm text-white/40 mt-1">Cuenta bancaria digital europea. Cambio de divisa y transferencias internacionales.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRADUCCIONES -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-heading mb-6 flex items-center gap-3">
+        <span class="text-amber">06</span> Traducciones juradas
+      </h2>
+      <p class="text-white/50 mb-6">Necesitarás traducciones certificadas de tus documentos oficiales.</p>
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="#AFILIADO_LINGOKING" class="card group affiliate-placeholder">
+          <h3 class="font-semibold group-hover:text-amber-light transition-colors">Lingoking</h3>
+          <p class="text-sm text-white/40 mt-1">Traducciones juradas online. Aceptadas por embajadas y autoridades alemanas. Entrega rápida.</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- SEGUROS -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-heading mb-6 flex items-center gap-3">
+        <span class="text-amber">07</span> Seguro médico
+      </h2>
+      <p class="text-white/50 mb-6">Obligatorio para todos los residentes en Alemania.</p>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="card">
+          <h3 class="font-semibold">DR-WALTER / Provisit</h3>
+          <p class="text-sm text-white/40 mt-1">Seguros médicos de viaje para los primeros meses. Aceptados para solicitud de visa.</p>
+        </div>
+        <div class="card">
+          <h3 class="font-semibold">Feather Insurance</h3>
+          <p class="text-sm text-white/40 mt-1">Seguros médicos para expatriados en Alemania. Todo digital.</p>
+        </div>
+        <a href="https://www.tk.de" target="_blank" rel="noopener" class="card group">
+          <h3 class="font-semibold group-hover:text-amber-light transition-colors">Techniker Krankenkasse (TK)</h3>
+          <p class="text-sm text-white/40 mt-1">La mayor caja de seguro médico público de Alemania. Recomendada para empleados.</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- HERRAMIENTAS GRATUITAS -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-heading mb-6 flex items-center gap-3">
+        <span class="text-amber">08</span> Nuestras herramientas gratuitas
+      </h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="/#calculadora" class="card group bg-amber-glow border-amber/20">
+          <h3 class="font-semibold text-amber-light">Calculadora Chancenkarte</h3>
+          <p class="text-sm text-white/50 mt-1">Calcula tus puntos para la Chancenkarte en 2 minutos y recibe tu hoja de ruta personalizada.</p>
+        </a>
+        <a href="/#simulador" class="card group bg-amber-glow border-amber/20">
+          <h3 class="font-semibold text-amber-light">Simulador de vida en Alemania</h3>
+          <p class="text-sm text-white/50 mt-1">Descubre cuánto ganarías y cuánto te quedaría libre según tu profesión y ciudad.</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- DISCLAIMER -->
+    <div class="text-center py-8 border-t border-white/[0.06]">
+      <p class="text-xs text-white/30 max-w-2xl mx-auto">
+        Algunos enlaces de esta página son enlaces de afiliado. Si los usas para contratar un servicio,
+        recibimos una pequeña comisión sin coste adicional para ti. Esto nos ayuda a mantener RutaAlemania
+        como un recurso gratuito. Solo recomendamos servicios que usamos o que hemos verificado.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
