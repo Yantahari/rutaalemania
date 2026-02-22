@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rutaalemania.com/sitemap-index.xml
+
+# Block legal pages from crawling
+Disallow: /impressum/
+Disallow: /datenschutz/
+Disallow: /disclaimer/
