@@ -161,7 +161,7 @@ Si estás fuera de Alemania, solicita una **visa nacional (tipo D)** en el consu
 
 **Tiempo de espera:** Entre 2 y 8 semanas dependiendo del consulado. En algunos países latinoamericanos la espera puede ser mayor; **solicita la cita lo antes posible**.
 
-> 💡 **Consejo:** Para el seguro médico y la preparación de tu llegada, [Expatrio]([AFILIADO_EXPATRIO]) ofrece un paquete completo que incluye Sperrkonto y seguro médico, todo desde una sola plataforma online.
+> 💡 **Consejo:** Para el seguro médico y la preparación de tu llegada, [Expatrio](https://www.expatrio.com?p=rutaalemania) ofrece un paquete completo que incluye Sperrkonto y seguro médico, todo desde una sola plataforma online.
 
 ---
 

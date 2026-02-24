@@ -278,7 +278,7 @@ Si tu empresa es conocida (o grande), el proceso suele ser más rápido porque l
 
 Para transferir tu dinero a Alemania de forma eficiente, considera usar [Wise]([AFILIADO_WISE]), que ofrece tipos de cambio reales y comisiones bajas.
 
-Si necesitas un Sperrkonto para tu visa, [Expatrio]([AFILIADO_EXPATRIO]) te permite abrirlo de forma online y rápida.
+Si necesitas un Sperrkonto para tu visa, [Expatrio](https://www.expatrio.com?p=rutaalemania) te permite abrirlo de forma online y rápida.
 
 > 💡 **Consejo:** Lleva todos los documentos en original y con dos copias. La burocracia alemana valora tener todo en orden desde el primer momento.
 
