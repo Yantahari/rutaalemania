@@ -1,0 +1,137 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Links — RutaAlemania"
+  description="Todos los recursos, herramientas y guías de RutaAlemania en un solo lugar."
+  keywords="rutaalemania links, link in bio rutaalemania"
+  noindex={true}
+>
+  <section class="min-h-screen flex items-center justify-center py-12 px-4">
+    <div class="w-full max-w-md">
+      <!-- Header -->
+      <div class="text-center mb-10">
+        <p class="text-4xl mb-3">🇩🇪</p>
+        <h1 class="text-2xl md:text-3xl font-heading font-bold">
+          Ruta<span class="text-amber-light">Alemania</span>
+        </h1>
+        <p class="text-white/50 text-sm mt-2">Tu guía para trabajar en Alemania</p>
+      </div>
+
+      <!-- Links -->
+      <div class="space-y-3">
+        <!-- Tools -->
+        <a href="/#calculadora" class="link-btn">
+          <span class="link-icon">📋</span>
+          <span>Calculadora Chancenkarte <span class="text-amber text-xs ml-1">GRATIS</span></span>
+        </a>
+
+        <a href="/#simulador" class="link-btn">
+          <span class="link-icon">💰</span>
+          <span>Simulador de costo de vida</span>
+        </a>
+
+        <!-- Divider -->
+        <div class="flex items-center gap-3 py-2">
+          <div class="flex-1 h-px bg-white/10"></div>
+          <span class="text-white/30 text-xs uppercase tracking-widest">Guías populares</span>
+          <div class="flex-1 h-px bg-white/10"></div>
+        </div>
+
+        <!-- Top articles -->
+        <a href="/blog/chancenkarte-guia-completa/" class="link-btn">
+          <span class="link-icon">🎫</span>
+          <span>Chancenkarte: Guía completa 2026</span>
+        </a>
+
+        <a href="/blog/primeros-pasos-alemania/" class="link-btn">
+          <span class="link-icon">✈️</span>
+          <span>Primeros 30 días en Alemania</span>
+        </a>
+
+        <a href="/blog/cuanto-cuesta-vivir-en-alemania/" class="link-btn">
+          <span class="link-icon">💶</span>
+          <span>¿Cuánto cuesta vivir en Alemania?</span>
+        </a>
+
+        <!-- Divider -->
+        <div class="flex items-center gap-3 py-2">
+          <div class="flex-1 h-px bg-white/10"></div>
+          <span class="text-white/30 text-xs uppercase tracking-widest">Comunidad</span>
+          <div class="flex-1 h-px bg-white/10"></div>
+        </div>
+
+        <!-- Social / community -->
+        <a href="https://chat.whatsapp.com/rutaalemania" target="_blank" rel="noopener" class="link-btn link-btn--green">
+          <span class="link-icon">💬</span>
+          <span>Canal de WhatsApp</span>
+        </a>
+
+        <a href="https://t.me/rutaalemania" target="_blank" rel="noopener" class="link-btn link-btn--blue">
+          <span class="link-icon">✈️</span>
+          <span>Canal de Telegram</span>
+        </a>
+
+        <!-- Divider -->
+        <div class="flex items-center gap-3 py-2">
+          <div class="flex-1 h-px bg-white/10"></div>
+          <span class="text-white/30 text-xs uppercase tracking-widest">Más</span>
+          <div class="flex-1 h-px bg-white/10"></div>
+        </div>
+
+        <a href="/blog/" class="link-btn">
+          <span class="link-icon">📖</span>
+          <span>Todos los artículos</span>
+        </a>
+
+        <a href="/recursos/" class="link-btn">
+          <span class="link-icon">🔗</span>
+          <span>Recursos recomendados</span>
+        </a>
+      </div>
+
+      <!-- Footer -->
+      <div class="text-center mt-10">
+        <a href="/" class="text-white/30 text-xs hover:text-amber transition-colors">rutaalemania.com</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .link-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.875rem 1.25rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 0.75rem;
+    color: #fff;
+    font-size: 0.95rem;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .link-btn:hover {
+    background: rgba(226, 167, 48, 0.1);
+    border-color: rgba(226, 167, 48, 0.3);
+    transform: translateY(-1px);
+  }
+  .link-btn--green:hover {
+    background: rgba(37, 211, 102, 0.1);
+    border-color: rgba(37, 211, 102, 0.3);
+  }
+  .link-btn--blue:hover {
+    background: rgba(0, 136, 204, 0.1);
+    border-color: rgba(0, 136, 204, 0.3);
+  }
+  .link-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    width: 2rem;
+    text-align: center;
+  }
+</style>
