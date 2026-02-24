@@ -23,10 +23,10 @@ Antes de entrar en detalle, aquí tienes una tabla comparativa con el gasto mens
 | Alquiler (Warmmiete, 1-2 hab.) | 800–1.100 € | 1.000–1.500 € | 700–1.000 € | 500–750 € |
 | Seguro médico (público) | ~280 € | ~280 € | ~280 € | ~280 € |
 | Supermercado | 250–350 € | 280–380 € | 250–330 € | 220–300 € |
-| Transporte (Deutschlandticket) | 49 € | 49 € | 49 € | 49 € |
+| Transporte (Deutschlandticket) | 63 € | 63 € | 63 € | 63 € |
 | Internet + móvil | 40–55 € | 40–55 € | 40–55 € | 40–55 € |
 | Extras (ocio, ropa, etc.) | 150–250 € | 180–300 € | 130–220 € | 120–200 € |
-| **Total estimado** | **1.570–2.085 €** | **1.830–2.565 €** | **1.450–1.935 €** | **1.210–1.635 €** |
+| **Total estimado** | **1.583–2.099 €** | **1.843–2.579 €** | **1.463–1.949 €** | **1.223–1.649 €** |
 
 > 🔑 **Clave:** Múnich es la ciudad más cara de Alemania. Leipzig y ciudades del este son significativamente más baratas. Berlín, a pesar de su fama, está en un rango medio-alto pero sigue siendo más asequible que Múnich o Fráncfort.
 
@@ -136,7 +136,7 @@ Un menú en un restaurante económico cuesta entre 10 y 15 €. Una comida en un
 
 ## Transporte: el Deutschlandticket lo cambia todo
 
-Desde 2023 existe el **Deutschlandticket**, un abono mensual de **49 €** que te permite usar **todo el transporte público local y regional** en toda Alemania: metros, buses, tranvías y trenes regionales (RE/RB).
+Desde 2023 existe el **Deutschlandticket**, un abono mensual de **63 €** que te permite usar **todo el transporte público local y regional** en toda Alemania: metros, buses, tranvías y trenes regionales (RE/RB).
 
 Esto es una revolución para el presupuesto. Antes, un abono mensual en Berlín costaba más de 80 € y en Múnich superaba los 100 €.
 
@@ -317,7 +317,7 @@ Utiliza servicios como **[Wise]([AFILIADO_WISE])**, que ofrece el tipo de cambio
 1. **Elige bien tu ciudad.** La diferencia de costo entre Múnich y Leipzig puede ser de 600-900 € al mes.
 2. **Empieza en un WG (piso compartido).** Es más barato, conoces gente y practicas alemán.
 3. **Cocina en casa.** La diferencia entre comer fuera y cocinar es enorme.
-4. **Usa el Deutschlandticket.** 49 € por todo el transporte público del país es imbatible.
+4. **Usa el Deutschlandticket.** 63 € por todo el transporte público del país es imbatible.
 5. **Declara "keine Konfession" en el Anmeldung** si no perteneces a una iglesia. Te ahorras un impuesto considerable.
 6. **Compara seguros médicos.** Las TK y AOK suelen tener buenas condiciones.
 7. **Aprovecha el Pfand.** Devuelve las botellas y latas al supermercado y recupera 0,25 € por envase.

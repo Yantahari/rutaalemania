@@ -50,7 +50,7 @@ No intentes hacer todo el primer día. Descansa del viaje, ubícate en tu barrio
 
 Compra una **tarjeta SIM** prepago para tener internet móvil (Aldi Talk, Lidl Connect o cualquier prepago en un quiosco).
 
-**Activa tu Deutschlandticket** si planeas moverte en transporte público. Son 49 € al mes por todo el transporte local y regional de Alemania. Puedes contratarlo online o en las apps de transporte local (BVG en Berlín, MVV en Múnich, etc.).
+**Activa tu Deutschlandticket** si planeas moverte en transporte público. Son 63 € al mes por todo el transporte local y regional de Alemania. Puedes contratarlo online o en las apps de transporte local (BVG en Berlín, MVV en Múnich, etc.).
 
 > 💡 **Consejo:** Descarga las apps de transporte de tu ciudad el mismo día que llegues. Te ahorrarás confusión con rutas y horarios.
 
@@ -250,7 +250,7 @@ Si llegaste a un alojamiento temporal (Airbnb, hostel, WG temporal), es momento 
 
 ### Transporte: optimiza tus rutas
 
-- **Activa el Deutschlandticket** si aún no lo has hecho (49 €/mes, todo el transporte público local y regional).
+- **Activa el Deutschlandticket** si aún no lo has hecho (63 €/mes, todo el transporte público local y regional).
 - Descarga la **app de transporte local** de tu ciudad: BVG (Berlín), MVV (Múnich), HVV (Hamburgo), VRS (Colonia), etc.
 - Si tu empresa ofrece **Jobticket**, pregunta si lo subsidian (muchas empresas pagan parte o todo el coste del Deutschlandticket como beneficio laboral).
 - Considera comprar una **bicicleta** (nueva o usada en eBay Kleinanzeigen). Alemania tiene excelente infraestructura ciclista, y en ciudades como Múnich, Friburgo o Münster, la bicicleta es **el medio de transporte más práctico**.

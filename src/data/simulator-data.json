@@ -182,16 +182,16 @@
     }
   },
   "cities": {
-    "berlin": { "name": "Berlín", "rent_1bed": 850, "groceries": 350, "transport": 49, "utilities": 40, "misc": 200 },
-    "munich": { "name": "Múnich", "rent_1bed": 1200, "groceries": 380, "transport": 49, "utilities": 45, "misc": 220 },
-    "frankfurt": { "name": "Frankfurt", "rent_1bed": 1000, "groceries": 360, "transport": 49, "utilities": 42, "misc": 210 },
-    "hamburg": { "name": "Hamburgo", "rent_1bed": 900, "groceries": 350, "transport": 49, "utilities": 40, "misc": 200 },
-    "cologne": { "name": "Colonia", "rent_1bed": 800, "groceries": 340, "transport": 49, "utilities": 38, "misc": 190 },
-    "stuttgart": { "name": "Stuttgart", "rent_1bed": 950, "groceries": 360, "transport": 49, "utilities": 42, "misc": 210 },
-    "dusseldorf": { "name": "Düsseldorf", "rent_1bed": 850, "groceries": 350, "transport": 49, "utilities": 40, "misc": 200 },
-    "freiburg": { "name": "Freiburg", "rent_1bed": 800, "groceries": 340, "transport": 49, "utilities": 38, "misc": 190 },
-    "leipzig": { "name": "Leipzig", "rent_1bed": 550, "groceries": 320, "transport": 49, "utilities": 35, "misc": 170 },
-    "dresden": { "name": "Dresde", "rent_1bed": 550, "groceries": 320, "transport": 49, "utilities": 35, "misc": 170 }
+    "berlin": { "name": "Berlín", "rent_1bed": 850, "groceries": 350, "transport": 63, "utilities": 40, "misc": 200 },
+    "munich": { "name": "Múnich", "rent_1bed": 1200, "groceries": 380, "transport": 63, "utilities": 45, "misc": 220 },
+    "frankfurt": { "name": "Frankfurt", "rent_1bed": 1000, "groceries": 360, "transport": 63, "utilities": 42, "misc": 210 },
+    "hamburg": { "name": "Hamburgo", "rent_1bed": 900, "groceries": 350, "transport": 63, "utilities": 40, "misc": 200 },
+    "cologne": { "name": "Colonia", "rent_1bed": 800, "groceries": 340, "transport": 63, "utilities": 38, "misc": 190 },
+    "stuttgart": { "name": "Stuttgart", "rent_1bed": 950, "groceries": 360, "transport": 63, "utilities": 42, "misc": 210 },
+    "dusseldorf": { "name": "Düsseldorf", "rent_1bed": 850, "groceries": 350, "transport": 63, "utilities": 40, "misc": 200 },
+    "freiburg": { "name": "Freiburg", "rent_1bed": 800, "groceries": 340, "transport": 63, "utilities": 38, "misc": 190 },
+    "leipzig": { "name": "Leipzig", "rent_1bed": 550, "groceries": 320, "transport": 63, "utilities": 35, "misc": 170 },
+    "dresden": { "name": "Dresde", "rent_1bed": 550, "groceries": 320, "transport": 63, "utilities": 35, "misc": 170 }
   },
   "countries": {
     "spain": { "name": "España", "avg_professional_salary_eur": 1800 },
