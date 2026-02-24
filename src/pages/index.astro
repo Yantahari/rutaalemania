@@ -56,6 +56,34 @@ const latestPosts = blogPosts
     </div>
   </section>
 
+  <!-- FEATURES STRIP -->
+  <section class="border-y border-white/[0.06] bg-midnight/20">
+    <div class="container-wide py-10 md:py-14">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center">
+        <div>
+          <div class="text-3xl mb-3">📋</div>
+          <p class="text-white/80 font-semibold text-sm">Calculadora Chancenkarte</p>
+          <p class="text-white/40 text-xs mt-1">Test gratuito en 2 min</p>
+        </div>
+        <div>
+          <div class="text-3xl mb-3">💰</div>
+          <p class="text-white/80 font-semibold text-sm">Simulador de costes</p>
+          <p class="text-white/40 text-xs mt-1">Salario, gastos y ahorro</p>
+        </div>
+        <div>
+          <div class="text-3xl mb-3">📖</div>
+          <p class="text-white/80 font-semibold text-sm">10+ guías completas</p>
+          <p class="text-white/40 text-xs mt-1">Visa, trabajo, burocracia</p>
+        </div>
+        <div>
+          <div class="text-3xl mb-3">🇩🇪</div>
+          <p class="text-white/80 font-semibold text-sm">Escrito desde Alemania</p>
+          <p class="text-white/40 text-xs mt-1">Experiencia real y actual</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ABOUT ME (brief) -->
   <section class="container-wide py-16 md:py-24" id="sobre-mi">
     <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -64,25 +92,47 @@ const latestPosts = blogPosts
         <h2 class="text-3xl md:text-4xl font-heading mb-6">
           Soy <span class="text-amber-light">Carlos</span>, y ya hice este camino
         </h2>
-        <p class="text-white/60 leading-relaxed mb-4">
+
+        <p class="text-white/60 leading-relaxed mb-5">
           Biólogo español de vocación, pasé a la enseñanza para compartir mi pasión por la naturaleza.
-          La paternidad me llevó a Alemania, donde tuve que reinventarme: aprender un idioma nuevo,
-          adaptarme a otra cultura y navegar la burocracia alemana.
         </p>
+
+        <p class="text-white/60 leading-relaxed mb-5">
+          <strong class="text-white/80">La paternidad me llevó a Alemania</strong>, donde tuve que reinventarme:
+          aprender un idioma nuevo, adaptarme a otra cultura y navegar la burocracia alemana.
+        </p>
+
         <p class="text-white/60 leading-relaxed mb-6">
           Ahora vivo en Freiburg y ayudo a otros hispanohablantes a simplificar el proceso.
-          No soy abogado — soy alguien que pasó por todo esto y quiere ahorrarte tiempo y frustraciones.
+          <strong class="text-white/80">No soy abogado</strong> — soy alguien que pasó por todo esto y quiere ahorrarte tiempo y frustraciones.
         </p>
+
         <a href="/sobre-mi/" class="text-amber-light font-semibold hover:underline">
           Conoce mi historia completa &rarr;
         </a>
       </div>
-      <div class="card p-8 text-center">
-        <div class="text-6xl mb-4">🇩🇪</div>
-        <h3 class="text-xl font-heading mb-2">Desde Freiburg, Alemania</h3>
-        <p class="text-white/50 text-sm">
-          Información práctica y actualizada, porque vivo aquí y sé lo que piden en cada oficina.
-        </p>
+      <div class="space-y-4">
+        <div class="card p-6 flex items-start gap-4">
+          <div class="text-3xl">🏡</div>
+          <div>
+            <h3 class="font-heading text-base mb-1">Desde Freiburg, Alemania</h3>
+            <p class="text-white/50 text-sm">Información práctica y actualizada, porque vivo aquí.</p>
+          </div>
+        </div>
+        <div class="card p-6 flex items-start gap-4">
+          <div class="text-3xl">🗣️</div>
+          <div>
+            <h3 class="font-heading text-base mb-1">De hispanohablante a hispanohablante</h3>
+            <p class="text-white/50 text-sm">Sin jerga legal. Todo explicado como te lo contaría un amigo.</p>
+          </div>
+        </div>
+        <div class="card p-6 flex items-start gap-4">
+          <div class="text-3xl">✅</div>
+          <div>
+            <h3 class="font-heading text-base mb-1">Información verificada</h3>
+            <p class="text-white/50 text-sm">Fuentes oficiales, datos actualizados a 2026.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -109,12 +159,13 @@ const latestPosts = blogPosts
   </section>
 
   <!-- BLOG PREVIEW -->
-  <section class="container-wide py-16 md:py-24">
-    <div class="text-center mb-12">
+  <section class="container-wide py-20 md:py-28">
+    <div class="text-center mb-14">
       <div class="badge mb-4">Blog</div>
-      <h2 class="text-3xl md:text-4xl font-heading mb-4">Guías prácticas</h2>
-      <p class="text-white/50 max-w-xl mx-auto">
-        Artículos detallados sobre todo lo que necesitas saber para trabajar y vivir en Alemania.
+      <h2 class="text-3xl md:text-4xl font-heading mb-5">Guías prácticas</h2>
+      <p class="text-white/50 max-w-xl mx-auto leading-relaxed">
+        Artículos detallados sobre visas, burocracia, costes y todo lo que necesitas saber
+        para trabajar y vivir en Alemania.
       </p>
     </div>
     <div class="grid md:grid-cols-3 gap-6">
@@ -138,13 +189,16 @@ const latestPosts = blogPosts
   </section>
 
   <!-- CTA FINAL -->
-  <section class="container-wide py-16 md:py-24">
+  <section class="container-wide py-20 md:py-28">
     <div class="bg-gradient-to-br from-midnight to-ocean rounded-3xl p-10 md:p-16 text-center border border-white/[0.08]">
-      <h2 class="text-3xl md:text-4xl font-heading mb-4">
+      <h2 class="text-3xl md:text-4xl font-heading mb-6">
         ¿Listo para dar el primer paso?
       </h2>
-      <p class="text-white/50 max-w-xl mx-auto mb-8">
-        Haz el test gratuito de Chancenkarte, explora nuestros recursos y empieza a planificar tu nueva vida en Alemania.
+      <p class="text-white/50 max-w-xl mx-auto mb-5 leading-relaxed">
+        Haz el test gratuito de Chancenkarte y descubre en 2 minutos si cumples los requisitos.
+      </p>
+      <p class="text-white/50 max-w-xl mx-auto mb-10 leading-relaxed">
+        Explora nuestros recursos y empieza a planificar tu nueva vida en Alemania.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="#calculadora" class="btn-primary">Calculadora Chancenkarte</a>

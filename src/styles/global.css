@@ -42,4 +42,26 @@
   .affiliate-placeholder {
     @apply bg-amber-glow border border-amber/20 rounded-xl p-4 text-center;
   }
+
+  /* Blog prose visual enhancements */
+  .blog-content hr {
+    @apply h-px border-none my-12;
+    background: linear-gradient(to right, transparent, rgba(245, 158, 11, 0.3), transparent);
+  }
+
+  .blog-content blockquote {
+    @apply bg-white/[0.03] rounded-xl not-italic py-4 px-6 my-8 border-l-4 border-amber/40;
+  }
+
+  .blog-content blockquote p:first-child {
+    @apply mt-0;
+  }
+
+  .blog-content blockquote p:last-child {
+    @apply mb-0;
+  }
+
+  .blog-content blockquote strong {
+    @apply text-amber-light;
+  }
 }
