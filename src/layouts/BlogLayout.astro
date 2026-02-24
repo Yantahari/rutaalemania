@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import EmailCapture from '../components/EmailCapture.astro';
 
 interface FAQItem {
   q: string;
@@ -98,8 +99,18 @@ const faqSchema = frontmatter.faq?.length ? {
       <slot />
     </div>
 
+    <!-- Email capture banner -->
+    <div class="mt-16">
+      <EmailCapture
+        variant="banner"
+        heading="Descarga gratis: Checklist para emigrar a Alemania"
+        subtitle="12 pasos esenciales con enlaces directos a los trámites. En PDF, para que lo tengas siempre a mano."
+        id="email-capture-blog"
+      />
+    </div>
+
     <!-- CTA bottom -->
-    <div class="mt-16 p-8 bg-amber-glow border border-amber/20 rounded-2xl text-center">
+    <div class="mt-8 p-8 bg-amber-glow border border-amber/20 rounded-2xl text-center">
       <h3 class="font-heading text-xl mb-2">¿Quieres saber si puedes ir a Alemania?</h3>
       <p class="text-white/50 text-sm mb-4">Haz nuestro test gratuito de 2 minutos y descubre tus opciones.</p>
       <a href="/#calculadora" class="btn-primary">Calculadora Chancenkarte gratis</a>

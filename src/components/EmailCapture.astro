@@ -1,0 +1,37 @@
+---
+interface Props {
+  variant: 'banner' | 'popup' | 'inline';
+  heading: string;
+  subtitle?: string;
+  id?: string;
+}
+
+const { variant, heading, subtitle, id } = Astro.props;
+
+const wrapperClasses: Record<string, string> = {
+  banner: 'bg-amber-glow border border-amber/20 rounded-2xl p-8 text-center',
+  popup: 'text-center',
+  inline: 'bg-amber-glow border border-amber/20 rounded-xl p-6 text-center',
+};
+---
+
+<div class={wrapperClasses[variant]} id={id}>
+  <h3 class="font-heading text-xl mb-2">{heading}</h3>
+  {subtitle && <p class="text-white/50 text-sm mb-4">{subtitle}</p>}
+  <form
+    class="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-md mx-auto"
+    data-mailerlite-form
+    onsubmit="event.preventDefault(); const e=this.querySelector('input[type=email]'); if(e.value){alert('¡Gracias! Te enviaremos la guía pronto.'); e.value=''; this.closest('[data-email-popup]')?.remove();}"
+  >
+    <input
+      type="email"
+      required
+      placeholder="tu@email.com"
+      class="w-full sm:flex-1 px-4 py-3 rounded-xl bg-white/[0.06] border border-white/10 text-white placeholder:text-white/30 focus:outline-none focus:border-amber/40 text-sm"
+    />
+    <button type="submit" class="btn-primary whitespace-nowrap text-sm">
+      Descargar gratis
+    </button>
+  </form>
+  <p class="text-white/25 text-xs mt-3">Sin spam. Te puedes dar de baja cuando quieras.</p>
+</div>

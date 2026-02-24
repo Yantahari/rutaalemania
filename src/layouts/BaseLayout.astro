@@ -47,5 +47,77 @@ const props = Astro.props;
     <slot />
   </main>
   <Footer />
+
+  <!-- Email popup (scroll-triggered) -->
+  <div
+    id="email-popup-overlay"
+    data-email-popup
+    class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 backdrop-blur-sm p-4"
+  >
+    <div class="relative bg-coal border border-amber/20 rounded-2xl p-8 max-w-md w-full shadow-2xl" id="email-popup-box">
+      <button
+        type="button"
+        id="email-popup-close"
+        class="absolute top-4 right-4 text-white/30 hover:text-white text-xl leading-none"
+        aria-label="Cerrar"
+      >&times;</button>
+      <div class="text-center">
+        <div class="badge mb-4">PDF gratuito</div>
+        <h3 class="font-heading text-xl mb-2">Checklist: 12 pasos para emigrar a Alemania</h3>
+        <p class="text-white/50 text-sm mb-5">Descárgala gratis y ten todos los trámites claros antes de dar el salto.</p>
+        <form
+          class="flex flex-col gap-3 max-w-sm mx-auto"
+          data-mailerlite-form
+          onsubmit="event.preventDefault(); const e=this.querySelector('input[type=email]'); if(e.value){alert('¡Gracias! Te enviaremos la guía pronto.'); e.value=''; this.closest('[data-email-popup]')?.remove();}"
+        >
+          <input
+            type="email"
+            required
+            placeholder="tu@email.com"
+            class="w-full px-4 py-3 rounded-xl bg-white/[0.06] border border-white/10 text-white placeholder:text-white/30 focus:outline-none focus:border-amber/40 text-sm"
+          />
+          <button type="submit" class="btn-primary text-sm">Descargar checklist gratis</button>
+        </form>
+        <p class="text-white/25 text-xs mt-3">Sin spam. Te puedes dar de baja cuando quieras.</p>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline>
+    (function() {
+      if (sessionStorage.getItem('emailPopupShown')) return;
+
+      var overlay = document.getElementById('email-popup-overlay');
+      var box = document.getElementById('email-popup-box');
+      var closeBtn = document.getElementById('email-popup-close');
+      if (!overlay) return;
+
+      var triggered = false;
+
+      function showPopup() {
+        if (triggered) return;
+        triggered = true;
+        sessionStorage.setItem('emailPopupShown', '1');
+        overlay.classList.remove('hidden');
+        overlay.classList.add('flex');
+      }
+
+      function hidePopup() {
+        overlay.classList.add('hidden');
+        overlay.classList.remove('flex');
+      }
+
+      window.addEventListener('scroll', function() {
+        var scrollPercent = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight;
+        if (scrollPercent >= 0.5) showPopup();
+      });
+
+      closeBtn.addEventListener('click', hidePopup);
+
+      overlay.addEventListener('click', function(e) {
+        if (!box.contains(e.target)) hidePopup();
+      });
+    })();
+  </script>
 </body>
 </html>

@@ -419,6 +419,7 @@
         <div class="my-8"><h3 class="font-heading text-xl text-center mb-5">Tu hoja de ruta alternativa</h3>${roadmapHTML}
           <div class="rm-step"><div class="rm-num">&#128161;</div><div style="flex:1"><h4 style="font-weight:600;margin-bottom:0.3rem">Explora otras vías: Blue Card, visado con oferta laboral, y más</h4><p style="font-size:0.85rem;color:rgba(255,255,255,0.5);line-height:1.5;margin-bottom:0.5rem">La Chancenkarte no es la única opción. Si consigues una oferta de trabajo directa, puedes optar a otros tipos de visado sin necesidad de puntos.</p><a href="/blog/blue-card-requisitos/" class="rm-link">Ver todas las vías para trabajar en Alemania ${arrow}</a></div></div>
         </div>
+        ${emailCaptureBox()}
         ${shareBox(shareText, shareURL)}
         <p class="text-xs text-white/25 text-center mt-8 pt-6 border-t border-white/5">Resultado orientativo y no vinculante. No constituye asesoramiento legal. Verifica con fuentes oficiales o un Fachanwalt für Migrationsrecht.</p>
       `;
@@ -442,6 +443,7 @@
           <div class="bd-total"><span>Total</span><span class="bd-pts" style="font-size:1.15rem">${total}</span></div>
         </div>
         <div class="my-8"><h3 class="font-heading text-xl text-center mb-5">Tu hoja de ruta personalizada</h3>${roadmapHTML}</div>
+        ${emailCaptureBox()}
         ${shareBox(shareText, shareURL)}
         <p class="text-xs text-white/25 text-center mt-8 pt-6 border-t border-white/5">Resultado orientativo y no vinculante. No constituye asesoramiento legal. La decisión final depende de las autoridades alemanas y tu documentación oficial.</p>
       `;
@@ -449,6 +451,21 @@
 
     resultEl.classList.remove('hidden');
     resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function emailCaptureBox(): string {
+    return `
+      <div style="background:rgba(226,167,48,0.15);border:1px solid rgba(226,167,48,0.2);border-radius:16px;padding:2rem;text-align:center;margin:2rem 0">
+        <p style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;font-weight:600;color:#e2a730;margin-bottom:0.5rem">PDF gratuito</p>
+        <h3 style="font-family:'Fraunces',serif;font-size:1.15rem;font-weight:700;margin-bottom:0.4rem">Descarga tu checklist para emigrar a Alemania</h3>
+        <p style="font-size:0.85rem;color:rgba(255,255,255,0.5);margin-bottom:1rem">12 pasos con enlaces directos a cada trámite. Para que no se te olvide nada.</p>
+        <form data-mailerlite-form onsubmit="event.preventDefault();var e=this.querySelector('input[type=email]');if(e.value){alert('¡Gracias! Te enviaremos la guía pronto.');e.value='';}" style="display:flex;flex-direction:column;gap:0.6rem;max-width:320px;margin:0 auto">
+          <input type="email" required placeholder="tu@email.com" style="width:100%;padding:0.7rem 1rem;border-radius:10px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);color:white;font-size:0.85rem;font-family:'DM Sans',sans-serif;outline:none" />
+          <button type="submit" style="background:#e2a730;color:#1a1a2e;font-weight:600;padding:0.7rem 1.5rem;border-radius:10px;border:none;cursor:pointer;font-size:0.85rem;font-family:'DM Sans',sans-serif">Descargar gratis</button>
+        </form>
+        <p style="font-size:0.7rem;color:rgba(255,255,255,0.25);margin-top:0.6rem">Sin spam. Te puedes dar de baja cuando quieras.</p>
+      </div>
+    `;
   }
 
   function shareBox(text: string, url: string): string {

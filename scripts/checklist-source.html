@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checklist para emigrar a Alemania — RutaAlemania</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@600;700;800&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'DM Sans', Arial, sans-serif;
+      background: #ffffff;
+      color: #1a1a2e;
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      padding: 20mm 22mm;
+      position: relative;
+    }
+
+    /* Header */
+    .header {
+      background: #1a1a2e;
+      color: white;
+      margin: -20mm -22mm 0;
+      padding: 18mm 22mm 14mm;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(to right, #e2a730, #f0c760);
+    }
+
+    .brand {
+      font-family: 'Fraunces', Georgia, serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #e2a730;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .header h1 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+
+    .header p {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.6);
+      line-height: 1.5;
+      max-width: 420px;
+    }
+
+    /* Intro */
+    .intro {
+      margin-top: 20px;
+      margin-bottom: 24px;
+      padding: 14px 18px;
+      background: #fef9ee;
+      border-left: 4px solid #e2a730;
+      border-radius: 0 8px 8px 0;
+      font-size: 12px;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .intro strong {
+      color: #1a1a2e;
+    }
+
+    /* Steps */
+    .steps-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 12px 14px;
+      border: 1px solid #e8e8e8;
+      border-radius: 10px;
+      page-break-inside: avoid;
+    }
+
+    .step:hover {
+      border-color: #e2a730;
+    }
+
+    .checkbox {
+      width: 22px;
+      height: 22px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .step-content {
+      flex: 1;
+    }
+
+    .step-num {
+      display: inline-block;
+      background: #1a1a2e;
+      color: #e2a730;
+      font-size: 10px;
+      font-weight: 700;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      border-radius: 50%;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+
+    .step-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #1a1a2e;
+      display: inline;
+      vertical-align: middle;
+    }
+
+    .step-desc {
+      font-size: 11px;
+      color: #666;
+      line-height: 1.5;
+      margin-top: 4px;
+    }
+
+    .step-link {
+      display: inline-block;
+      margin-top: 4px;
+      font-size: 10.5px;
+      color: #e2a730;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .step-link::after {
+      content: ' →';
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid #e8e8e8;
+      text-align: center;
+      font-size: 10px;
+      color: #999;
+      line-height: 1.6;
+    }
+
+    .footer a {
+      color: #e2a730;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .footer .url {
+      font-size: 12px;
+      font-weight: 700;
+      color: #1a1a2e;
+      display: block;
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <div class="brand">RutaAlemania</div>
+      <h1>Checklist para emigrar<br />a Alemania</h1>
+      <p>12 pasos esenciales que debes completar antes y después de dar el salto. Marca cada uno a medida que avanzas.</p>
+    </div>
+
+    <div class="intro">
+      <strong>Cómo usar esta checklist:</strong> Sigue los pasos en orden. Cada uno incluye una breve explicación y un enlace directo al recurso o trámite. Imprímela o úsala en digital — y marca cada paso cuando lo completes.
+    </div>
+
+    <div class="steps-grid">
+      <!-- Step 1 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">1</span>
+          <span class="step-title">Verifica tu elegibilidad</span>
+          <div class="step-desc">Comprueba si cumples los requisitos para la Chancenkarte, Blue Card u otras vías. Usa nuestra calculadora gratuita para saberlo en 2 minutos.</div>
+          <a class="step-link" href="https://rutaalemania.com/#calculadora">Calculadora Chancenkarte gratis</a>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">2</span>
+          <span class="step-title">Empieza a aprender alemán</span>
+          <div class="step-desc">El alemán es clave para encontrar trabajo, hacer trámites y vivir el día a día. Cuanto antes empieces, mejor. Un nivel B1 cambia completamente tus opciones.</div>
+          <a class="step-link" href="https://rutaalemania.com/recursos/">Cursos de alemán recomendados</a>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">3</span>
+          <span class="step-title">Homologa tu título (Anerkennung)</span>
+          <div class="step-desc">Si tienes título universitario o FP, inicia el reconocimiento oficial en Alemania. Puede sumar hasta 4 puntos en la Chancenkarte y abrir puertas laborales.</div>
+          <a class="step-link" href="https://rutaalemania.com/blog/reconocimiento-titulos/">Guía de homologación de títulos</a>
+        </div>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">4</span>
+          <span class="step-title">Abre tu cuenta bloqueada (Sperrkonto)</span>
+          <div class="step-desc">Obligatoria para demostrar solvencia económica (~12.324 €). Se abre 100 % online desde tu país. Es uno de los primeros requisitos que te pedirán.</div>
+          <a class="step-link" href="https://www.expatrio.com?p=rutaalemania">Abrir Sperrkonto con Expatrio</a>
+        </div>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">5</span>
+          <span class="step-title">Configura transferencias internacionales</span>
+          <div class="step-desc">Necesitarás enviar dinero a Alemania para la Sperrkonto y para vivir. Evita las comisiones bancarias tradicionales usando un servicio especializado.</div>
+          <a class="step-link" href="https://rutaalemania.com/recursos/">Comparativa de servicios de transferencia</a>
+        </div>
+      </div>
+
+      <!-- Step 6 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">6</span>
+          <span class="step-title">Prepara tu CV en formato alemán</span>
+          <div class="step-desc">El Lebenslauf alemán es muy diferente al CV español o latinoamericano: incluye foto profesional, datos personales y un formato cronológico inverso específico.</div>
+          <a class="step-link" href="https://rutaalemania.com/blog/cv-aleman-plantilla/">Descarga plantilla de CV alemán</a>
+        </div>
+      </div>
+
+      <!-- Step 7 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">7</span>
+          <span class="step-title">Busca empleo desde tu país</span>
+          <div class="step-desc">Puedes (y deberías) empezar a buscar trabajo antes de llegar. Portales como StepStone, Indeed.de, LinkedIn y XING son los más usados en Alemania.</div>
+          <a class="step-link" href="https://rutaalemania.com/recursos/">Portales de empleo recomendados</a>
+        </div>
+      </div>
+
+      <!-- Step 8 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">8</span>
+          <span class="step-title">Solicita el visado</span>
+          <div class="step-desc">Con todos los documentos listos, pide cita en la embajada o consulado alemán de tu país. Los tiempos varían mucho — no dejes esto para el final.</div>
+          <a class="step-link" href="https://rutaalemania.com/recursos/">Información sobre visados</a>
+        </div>
+      </div>
+
+      <!-- Step 9 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">9</span>
+          <span class="step-title">Traduce y apostilla tus documentos</span>
+          <div class="step-desc">Necesitarás traducciones juradas de títulos, certificados y documentos civiles. Algunos países requieren apostilla de La Haya.</div>
+          <a class="step-link" href="https://rutaalemania.com/recursos/">Servicios de traducción jurada</a>
+        </div>
+      </div>
+
+      <!-- Step 10 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">10</span>
+          <span class="step-title">Contrata un seguro médico</span>
+          <div class="step-desc">Es obligatorio tener seguro médico en Alemania desde el día 1. Puedes empezar con un seguro de viaje/expatriado y luego pasarte al sistema público o privado.</div>
+          <a class="step-link" href="https://rutaalemania.com/recursos/">Seguros médicos para expatriados</a>
+        </div>
+      </div>
+
+      <!-- Step 11 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">11</span>
+          <span class="step-title">Tus primeros 30 días en Alemania</span>
+          <div class="step-desc">Anmeldung (registro de residencia), cuenta bancaria alemana, número fiscal (Steuer-ID), contrato de alquiler. Todo dentro del primer mes.</div>
+          <a class="step-link" href="https://rutaalemania.com/recursos/">Guía de los primeros 30 días</a>
+        </div>
+      </div>
+
+      <!-- Step 12 -->
+      <div class="step">
+        <div class="checkbox"></div>
+        <div class="step-content">
+          <span class="step-num">12</span>
+          <span class="step-title">Tu primer día de trabajo</span>
+          <div class="step-desc">Llega puntual, lleva tu documentación (pasaporte, permiso, Steuer-ID, datos bancarios). Infórmate sobre la cultura laboral alemana: puntualidad, formalidad y feedback directo.</div>
+          <a class="step-link" href="https://rutaalemania.com/blog/">Consejos para tu primer empleo en Alemania</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span class="url">rutaalemania.com</span>
+      Creado por RutaAlemania &middot; Actualizado en 2025<br />
+      Esta checklist es orientativa. Verifica siempre con fuentes oficiales.<br />
+      <a href="https://rutaalemania.com/recursos/">Más recursos y herramientas</a>
+    </div>
+  </div>
+</body>
+</html>
