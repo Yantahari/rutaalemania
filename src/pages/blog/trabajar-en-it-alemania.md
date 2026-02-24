@@ -4,6 +4,17 @@ title: "Trabajar en IT en Alemania sin título universitario (§19c AufenthG)"
 description: "Guía completa para trabajar como programador o profesional IT en Alemania sin carrera universitaria usando el §19c de la ley de inmigración."
 date: "2026-02-15"
 keywords: "trabajar en IT alemania sin titulo, programador alemania sin carrera, visa IT experiencia"
+faq:
+  - q: "¿Puedo trabajar como freelance IT en Alemania sin título?"
+    a: "El §19c es para trabajo por cuenta ajena. Si quieres ser freelance, necesitas un visado de autónomos (§21 AufenthG), que tiene requisitos diferentes basados en tu plan de negocio, ingresos proyectados y relevancia económica."
+  - q: "¿Los bootcamps de programación cuentan como experiencia?"
+    a: "Un bootcamp por sí solo no cuenta como 3 años de experiencia. Sin embargo, si después del bootcamp trabajaste 3 años como desarrollador, esos años sí cuentan. El bootcamp puede servir como evidencia adicional de formación."
+  - q: "¿Puedo traer a mi familia con un permiso de trabajo IT?"
+    a: "Sí, la reagrupación familiar es posible con un permiso de residencia por trabajo. Sin embargo, a diferencia de la Blue Card, tu cónyuge probablemente necesitará demostrar un conocimiento básico de alemán (A1)."
+  - q: "¿Puedo obtener la residencia permanente trabajando en IT sin título?"
+    a: "Sí, pero el camino es más largo que con la Blue Card. Con un permiso de trabajo bajo §19c, puedes solicitar la residencia permanente después de 5 años de residencia legal y cotización, más nivel B1 de alemán y estabilidad económica."
+  - q: "¿Qué pasa si tengo un título que no es de informática?"
+    a: "Si tienes un título universitario en otro campo pero trabajas en IT, podrías explorar otras vías como la Blue Card (si el salario cumple el umbral). El §19c es específicamente para quienes no tienen título universitario."
 ---
 
 Hay una creencia muy extendida entre los hispanohablantes: **"Sin título universitario no puedes emigrar a Alemania."** En el sector IT, eso es simplemente falso.

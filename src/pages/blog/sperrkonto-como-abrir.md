@@ -4,6 +4,17 @@ title: "Cómo abrir una Sperrkonto (cuenta bloqueada) para tu visa en Alemania"
 description: "Guía paso a paso para abrir tu Sperrkonto: qué es, cuánto depositar en 2026, comparativa de proveedores y cómo transferir el dinero de forma segura."
 date: "2026-02-20"
 keywords: "sperrkonto alemania, cuenta bloqueada alemania, sperrkonto como abrir"
+faq:
+  - q: "¿Puedo recuperar el dinero de la Sperrkonto si no me dan el visado?"
+    a: "Sí. Si tu solicitud de visado es rechazada, puedes solicitar el cierre de la Sperrkonto y la devolución del dinero. Expatrio cobra una pequeña comisión de cierre, pero recuperas la mayor parte."
+  - q: "¿Puedo abrir la Sperrkonto antes de tener cita en la embajada?"
+    a: "Sí, y es lo recomendable. Abre la cuenta y transfiere el dinero lo antes posible. El certificado no tiene fecha de caducidad, así que puedes tenerlo listo meses antes de tu cita."
+  - q: "¿La Sperrkonto genera intereses?"
+    a: "Depende del proveedor y del momento, pero generalmente los intereses son mínimos o nulos. No es una cuenta de ahorro."
+  - q: "¿Qué pasa si encuentro trabajo rápido y ya no necesito la Sperrkonto?"
+    a: "Una vez que cambias tu permiso a un permiso de trabajo y demuestras ingresos estables, puedes solicitar el cierre anticipado de la Sperrkonto y recuperar el dinero restante."
+  - q: "¿Puedo tener una Sperrkonto con Expatrio si soy de cualquier país?"
+    a: "Expatrio acepta solicitudes de la mayoría de países. Hay algunas restricciones por sanciones internacionales, pero para todos los países de Latinoamérica y España no hay problema."
 ---
 
 Si vas a solicitar un visado para Alemania, ya sea de estudios, Chancenkarte o cualquier otro que requiera demostrar solvencia económica, **necesitarás una Sperrkonto** (cuenta bloqueada).

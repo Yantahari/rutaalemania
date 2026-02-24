@@ -4,6 +4,23 @@ title: "Blue Card Alemania: requisitos, salario mínimo y cómo solicitarla"
 description: "Todo sobre la Blue Card (Tarjeta Azul UE) en Alemania: requisitos actualizados 2026, salario mínimo, ventajas, proceso de solicitud y comparación con la Chancenkarte."
 date: "2026-02-17"
 keywords: "blue card alemania, tarjeta azul alemania requisitos, blue card salario minimo"
+faq:
+  - q: "¿Puedo obtener la Blue Card si mi título no está reconocido en anabin?"
+    a: "Sí, pero necesitas solicitar una evaluación individual. El proceso puede tardar varias semanas. Alternativamente, puedes solicitar un Zeugnisbewertung a la KMK por aproximadamente 200 €."
+  - q: "¿Qué pasa si mi salario está justo en el límite?"
+    a: "El salario que cuenta es el bruto anual según tu contrato, incluyendo bonificaciones regulares garantizadas. Si tu salario base no llega pero con bonificaciones sí, asegúrate de que estén reflejadas en el contrato."
+  - q: "¿Puedo trabajar como autónomo con la Blue Card?"
+    a: "No. La Blue Card es exclusivamente para trabajo por cuenta ajena. Si quieres ser autónomo, necesitas un permiso de residencia diferente (§21 AufenthG)."
+  - q: "¿Necesito hablar alemán para obtener la Blue Card?"
+    a: "No hay requisito de idioma para obtener la Blue Card. Sin embargo, aprender alemán es fundamental para obtener la residencia permanente más rápido (B1 = 21 meses), integrarte en la vida diaria y mejorar tus oportunidades laborales."
+  - q: "¿Puedo cambiar de trabajo con la Blue Card?"
+    a: "Sí. Durante los primeros 12 meses, debes notificar a la Ausländerbehörde antes de cambiar. Después de 12 meses, puedes cambiar libremente."
+  - q: "¿Qué pasa si me quedo sin trabajo?"
+    a: "Tienes un periodo de gracia de 3 meses para encontrar un nuevo empleo (6 meses si llevas más de 2 años con Blue Card). Durante este tiempo, puedes cobrar el subsidio de desempleo si has cotizado al menos 12 meses."
+  - q: "¿Mi pareja necesita hablar alemán para venir conmigo?"
+    a: "No. Con la Blue Card, tu cónyuge no necesita demostrar conocimientos de alemán antes de la reagrupación familiar, a diferencia de otros permisos de residencia."
+  - q: "¿Puedo solicitar la Blue Card si ya estoy en Alemania con otro visado?"
+    a: "Sí, en la mayoría de casos puedes cambiar de visado a Blue Card sin salir de Alemania, siempre que cumplas los requisitos."
 ---
 
 La **Blue Card** (Blaue Karte EU o Tarjeta Azul UE) es el **permiso de residencia más ventajoso** que puede obtener un profesional cualificado no europeo en Alemania. Si tienes un título universitario y una oferta de trabajo con un salario que supere el umbral mínimo, la Blue Card te abre la puerta a la residencia permanente en un tiempo récord.
