@@ -214,7 +214,7 @@ La respuesta corta: **para conseguir el trabajo, generalmente no. Para vivir bie
 
 ### Recomendación realista
 
-Consigue el trabajo en inglés, pero **invierte en aprender alemán desde el primer día**. Te abrirá puertas laborales, te facilitará la vida diaria y te ayudará a integrarte.
+Consigue el trabajo en inglés, pero **invierte en aprender alemán desde el primer día**. Te abrirá puertas laborales, te facilitará la vida diaria y te ayudará a integrarte. En nuestro artículo sobre [trabajar en Alemania sin saber alemán](/blog/trabajar-alemania-sin-aleman/) analizamos en detalle cómo el nivel de idioma impacta en tu salario y oportunidades.
 
 Además, si decides solicitar la residencia permanente, necesitarás al menos un B1.
 
@@ -224,7 +224,7 @@ Además, si decides solicitar la residencia permanente, necesitarás al menos un
 
 ## Alternativa: Chancenkarte + búsqueda de empleo IT
 
-Si no tienes oferta de trabajo todavía y quieres venir a buscarla presencialmente, existe una alternativa: la **Chancenkarte** (Tarjeta de Oportunidad).
+Si no tienes oferta de trabajo todavía y quieres venir a buscarla presencialmente, existe una alternativa: la **[Chancenkarte](/blog/chancenkarte-guia-completa/)** (Tarjeta de Oportunidad).
 
 ### ¿Cómo funciona para perfiles IT sin título?
 
@@ -266,7 +266,7 @@ Esta estrategia es especialmente útil si:
    - Pasaporte vigente
    - Contrato de trabajo o oferta vinculante
    - Certificados de trabajo que demuestren tus 3+ años de experiencia
-   - CV actualizado (idealmente en formato Lebenslauf)
+   - CV actualizado (idealmente en [formato Lebenslauf alemán](/blog/cv-aleman-plantilla/))
    - Carta del empleador confirmando el idioma de trabajo (si no hablas alemán)
    - Seguro médico de viaje
 3. **Solicita cita en el consulado o embajada alemana** de tu país para visa tipo D.
@@ -329,7 +329,7 @@ Sí, pero **el camino es más largo que con la Blue Card**. Con un permiso de tr
 
 ### ¿Qué pasa si tengo un título que no es de informática?
 
-Si tienes un título universitario en otro campo (ej: ingeniería mecánica, administración de empresas) pero trabajas en IT, podrías explorar **otras vías como la Blue Card** (si el salario cumple el umbral).
+Si tienes un título universitario en otro campo (ej: ingeniería mecánica, administración de empresas) pero trabajas en IT, podrías explorar **otras vías como la [Blue Card](/blog/blue-card-requisitos/)** (si el salario cumple el umbral).
 
 El §19c es específicamente para quienes no tienen título universitario.
 

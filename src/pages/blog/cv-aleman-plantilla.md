@@ -266,7 +266,7 @@ El nombre del archivo debe ser descriptivo: **"Lebenslauf_NombreApellido.pdf"** 
 
 ### 7. No adaptar el CV al puesto
 
-Cada oferta de trabajo tiene requisitos diferentes. **Reordena tus bullet points** para destacar lo más relevante para cada puesto. No es necesario reescribir todo, pero sí ajustar el énfasis.
+Cada oferta de trabajo tiene requisitos diferentes. **Reordena tus bullet points** para destacar lo más relevante para cada puesto. No es necesario reescribir todo, pero sí ajustar el énfasis. Para más trampas que debes esquivar, lee nuestro artículo sobre los [5 errores más comunes al emigrar a Alemania](/blog/errores-emigrar-alemania/).
 
 ---
 
@@ -316,7 +316,7 @@ También puedes publicar tu CV y que las empresas te contacten.
 
 ### Portales especializados por sector
 
-- **IT/Tech:** Stack Overflow Jobs, GitHub Jobs, Berlin Startup Jobs, AngelList
+- **IT/Tech:** Stack Overflow Jobs, GitHub Jobs, Berlin Startup Jobs, AngelList (consulta nuestra guía sobre [cómo trabajar en IT en Alemania sin título universitario](/blog/trabajar-en-it-alemania/))
 - **Ingeniería:** ingenieur.de, VDI Nachrichten
 - **Ciencia/investigación:** academics.de, euraxess.de
 - **Sanidad:** medi-jobs.de, klinikstellen.de
@@ -325,7 +325,7 @@ También puedes publicar tu CV y que las empresas te contacten.
 
 ### Consejos para la búsqueda
 
-- **Busca en alemán e inglés.** Aunque no hables alemán fluido, buscar con términos en alemán (ej: "Softwareentwickler" además de "Software Developer") te da acceso a más ofertas.
+- **Busca en alemán e inglés.** Aunque no hables alemán fluido, buscar con términos en alemán (ej: "Softwareentwickler" además de "Software Developer") te da acceso a más ofertas. Descubre en [qué sectores puedes trabajar solo con inglés](/blog/trabajar-alemania-sin-aleman/).
 - **Configura alertas.** En todos estos portales puedes crear alertas que te notifiquen cuando se publiquen ofertas que coincidan con tu perfil.
 - **No dependas solo de portales.** El networking es crucial en Alemania. Meetups, conferencias, LinkedIn, ferias de empleo... muchas posiciones se cubren antes de publicarse.
 - **Aplica aunque no cumplas el 100%.** Si cumples el 70-80% de los requisitos, envía tu candidatura. En Alemania, las ofertas suelen describir al "candidato ideal", no al mínimo requerido.
@@ -355,5 +355,7 @@ Los *Zeugnisse* incluyen:
 Tu CV es **tu primera impresión en el mercado laboral alemán**. Invierte tiempo en hacerlo bien, adáptalo al formato local y personalízalo para cada oferta.
 
 Esa combinación marca la diferencia entre que tu candidatura se lea o se descarte.
+
+Una vez tengas tu CV listo, necesitarás un visado para trabajar en Alemania. Consulta los [requisitos de la Blue Card](/blog/blue-card-requisitos/) si ya tienes una oferta de trabajo, o la [guía de la Chancenkarte](/blog/chancenkarte-guia-completa/) si quieres buscar empleo estando en Alemania.
 
 **¿Aún no sabes si puedes trabajar en Alemania?** Comprueba tu elegibilidad para la Chancenkarte con nuestra [calculadora gratuita](/#calculadora).

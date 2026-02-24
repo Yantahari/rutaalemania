@@ -26,7 +26,7 @@ Pero seamos claros: **Alemania no es Holanda ni Escandinavia**. El alemán sigue
 
 ### IT y desarrollo de software
 
-Este es, sin duda, **el sector más accesible para hispanohablantes sin alemán**. La mayoría de empresas tecnológicas en Berlín, Múnich y Hamburgo operan en inglés. Startups, scale-ups y grandes tecnológicas (SAP, Siemens Digital, Amazon, Google) tienen equipos internacionales donde el inglés es el idioma oficial.
+Este es, sin duda, **el sector más accesible para hispanohablantes sin alemán**. La mayoría de empresas tecnológicas en Berlín, Múnich y Hamburgo operan en inglés. Startups, scale-ups y grandes tecnológicas (SAP, Siemens Digital, Amazon, Google) tienen equipos internacionales donde el inglés es el idioma oficial. Si te interesa este camino, lee nuestra guía sobre [cómo trabajar en IT en Alemania sin título universitario](/blog/trabajar-en-it-alemania/).
 
 **Puestos típicos:** desarrollador/a full-stack, backend, frontend, data engineer, DevOps, QA, product manager, UX designer.
 
@@ -194,7 +194,7 @@ No es solo el salario directo. Con mejor alemán:
 - **Negocias mejor** tu contrato (cláusulas, beneficios, días de vacaciones).
 - **Accedes al Mittelstand**, las medianas empresas alemanas que son la columna vertebral de la economía y que pagan muy bien pero trabajan en alemán.
 - **Puedes cambiar de trabajo más fácilmente**, porque no estás limitado al nicho anglófono.
-- **Tu integración social mejora**, lo que reduce el riesgo de que abandones y vuelvas a tu país (algo que ocurre más de lo que se habla).
+- **Tu integración social mejora**, lo que reduce el riesgo de que abandones y vuelvas a tu país (algo que ocurre más de lo que se habla). Conoce los [errores más comunes al emigrar a Alemania](/blog/errores-emigrar-alemania/) para evitar tropezar donde otros han tropezado.
 - **Puedes obtener la residencia permanente** más fácilmente (requiere B1 de alemán).
 
 > 🔑 **Clave:** El alemán no es solo un requisito burocrático. Es la herramienta que convierte una estancia temporal en una vida real en Alemania.
@@ -212,5 +212,10 @@ Pero incluso en esos sectores, **el alemán te abrirá puertas que ni sabías qu
 Es la mejor inversión que harás en tu vida profesional en Alemania. Y si aún no has empezado, hoy es el mejor día. [Lingoda](https://www.lingoda.com[AFILIADO_LINGODA]) te permite tomar una clase de prueba gratuita para ver si te convence el formato.
 
 ---
+
+### Artículos relacionados
+
+- Asegúrate de tener tu [CV adaptado al formato Lebenslauf alemán](/blog/cv-aleman-plantilla/) antes de empezar a buscar empleo.
+- Consulta nuestra [checklist de los primeros 30 días en Alemania](/blog/primeros-pasos-alemania/) para saber qué hacer desde el día que aterrices.
 
 **¿Estás pensando en dar el salto a Alemania?** Descubre si cumples los requisitos de la Chancenkarte con nuestra [calculadora gratuita](/#calculadora).

@@ -112,7 +112,7 @@ Este error puede costarte literalmente **meses de búsqueda de empleo**. El CV (
 
 ### Cómo evitarlo
 
-Dedica tiempo a **adaptar tu CV al formato alemán**. Usa plantillas de Lebenslauf (las encuentras buscando "Lebenslauf Vorlage" en Google).
+Dedica tiempo a **adaptar tu CV al formato alemán**. En nuestra [guía del CV alemán (Lebenslauf)](/blog/cv-aleman-plantilla/) te explicamos la estructura sección por sección y los errores específicos de hispanohablantes.
 
 Incluye foto profesional, firma, y **prepara un Anschreiben convincente** para cada postulación.
 
@@ -146,7 +146,7 @@ Mientras tanto, tu cita en el consulado se acerca o ya pasó, y **tienes que rep
 
 ### Cómo evitarlo
 
-**Abre tu Sperrkonto como primer paso**, incluso antes de tener la cita en el consulado. [Expatrio](https://www.expatrio.com?p=rutaalemania) es la plataforma más usada por hispanohablantes para abrir el Sperrkonto de forma online, rápida y en inglés o español. El proceso es:
+**Abre tu [Sperrkonto](/blog/sperrkonto-como-abrir/) como primer paso**, incluso antes de tener la cita en el consulado. [Expatrio](https://www.expatrio.com?p=rutaalemania) es la plataforma más usada por hispanohablantes para abrir el Sperrkonto de forma online, rápida y en inglés o español. El proceso es:
 
 1. Registro online (10 minutos)
 2. Verificación de identidad por video (15-20 minutos)
@@ -224,7 +224,7 @@ Para que no te pase lo mismo, aquí tienes un resumen de lo que debes hacer **an
 - [ ] Empezar a aprender alemán (mínimo A1-A2) con [Lingoda]([AFILIADO_LINGODA]) u otra plataforma
 - [ ] Abrir el Sperrkonto con [Expatrio](https://www.expatrio.com?p=rutaalemania) (si necesitas visa)
 - [ ] Adaptar tu CV al formato Lebenslauf alemán
-- [ ] Reservar cita en la Bürgeramt para el Anmeldung
+- [ ] Reservar cita en la Bürgeramt para el Anmeldung (consulta nuestra [checklist de los primeros 30 días](/blog/primeros-pasos-alemania/))
 - [ ] Investigar el sistema de seguro médico
 - [ ] Preparar todos los documentos apostillados y traducidos
 - [ ] Tener alojamiento confirmado (aunque sea temporal) con Wohnungsgeberbestätigung
@@ -241,5 +241,7 @@ Emigrar a Alemania no tiene por qué ser una odisea. La diferencia entre una exp
 Los cinco errores que he descrito son los mismos que veo repetirse cada semana en grupos de hispanohablantes en Alemania, y **todos tienen solución**.
 
 **Prepárate, infórmate y no tengas prisa.** Alemania recompensa a los que planifican.
+
+Si estás en fase de planificación, comprueba si cumples los requisitos de la [Chancenkarte](/blog/chancenkarte-guia-completa/) con nuestra calculadora gratuita.
 
 ¿Has cometido alguno de estos errores? ¿O tienes otro que añadir a la lista? Cuéntanoslo en los comentarios.

@@ -88,7 +88,7 @@ Para la Vía 1, debe estar además **reconocido en Alemania**.
 
 ### 2. Medios económicos suficientes
 
-Debes demostrar que puedes mantenerte económicamente durante tu estancia. Esto se hace mediante una **Sperrkonto** (cuenta bloqueada) con al menos **12.324 euros** (1.027 euros/mes x 12 meses, cifra actualizada para 2026).
+Debes demostrar que puedes mantenerte económicamente durante tu estancia. Esto se hace mediante una **Sperrkonto** (cuenta bloqueada) con al menos **12.324 euros** (1.027 euros/mes x 12 meses, cifra actualizada para 2026). Te explicamos todo el proceso en nuestra [guía para abrir tu Sperrkonto paso a paso](/blog/sperrkonto-como-abrir/).
 
 > 💡 **Consejo:** Puedes abrir tu Sperrkonto fácilmente con [Expatrio](https://www.expatrio.com?p=rutaalemania). Es el proveedor más usado por solicitantes de visado y el proceso es 100% online.
 
@@ -301,7 +301,7 @@ Sin embargo, tu pareja podría solicitar su propia Chancenkarte si cumple los re
 
 Necesitas **al menos un A1 de alemán O un B2 de inglés**. Si no tienes ninguno de los dos, no puedes solicitar la Chancenkarte.
 
-> 📌 **Recuerda:** Aunque presentes el B2 de inglés, empieza a estudiar alemán ya. Lo necesitarás para la vida diaria y para ampliar tus oportunidades laborales.
+> 📌 **Recuerda:** Aunque presentes el B2 de inglés, empieza a estudiar alemán ya. Lo necesitarás para la vida diaria y para ampliar tus oportunidades laborales. Descubre en [qué sectores puedes trabajar en Alemania sin saber alemán](/blog/trabajar-alemania-sin-aleman/) y cómo el idioma afecta a tu salario.
 
 ---
 
@@ -333,13 +333,13 @@ La lista completa se publica periódicamente por la Agencia Federal de Empleo.
 
 No. La **Blue Card** (Tarjeta Azul UE) es un permiso de trabajo para el que necesitas un contrato con un salario mínimo específico. La Chancenkarte es un permiso de **búsqueda** de empleo.
 
-> 🔑 **Clave:** Son complementarios: puedes venir con la Chancenkarte y, cuando encuentres empleo cualificado con buen salario, cambiar a una Blue Card.
+> 🔑 **Clave:** Son complementarios: puedes venir con la Chancenkarte y, cuando encuentres empleo cualificado con buen salario, cambiar a una Blue Card. Consulta nuestra [guía completa sobre la Blue Card](/blog/blue-card-requisitos/) para conocer todos los requisitos y umbrales salariales.
 
 ---
 
 ### ¿Cuánto dinero necesito en total de forma realista?
 
-Contando la Sperrkonto (12.324 EUR), los costes de trámites (500-1.000 EUR) y un colchón para los primeros gastos en Alemania (vuelo, alojamiento temporal, depósito de piso), yo recomendaría tener al menos **15.000-16.000 EUR** disponibles.
+Contando la Sperrkonto (12.324 EUR), los costes de trámites (500-1.000 EUR) y un colchón para los primeros gastos en Alemania (vuelo, alojamiento temporal, depósito de piso), yo recomendaría tener al menos **15.000-16.000 EUR** disponibles. Para un desglose detallado de gastos mensuales, consulta nuestro artículo sobre [cuánto cuesta vivir en Alemania en 2026](/blog/cuanto-cuesta-vivir-en-alemania/).
 
 ---
 

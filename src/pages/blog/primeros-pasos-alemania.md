@@ -50,7 +50,7 @@ No intentes hacer todo el primer día. Descansa del viaje, ubícate en tu barrio
 
 Compra una **tarjeta SIM** prepago para tener internet móvil (Aldi Talk, Lidl Connect o cualquier prepago en un quiosco).
 
-**Activa tu Deutschlandticket** si planeas moverte en transporte público. Son 63 € al mes por todo el transporte local y regional de Alemania. Puedes contratarlo online o en las apps de transporte local (BVG en Berlín, MVV en Múnich, etc.).
+**Activa tu Deutschlandticket** si planeas moverte en transporte público. Son 63 € al mes por todo el transporte local y regional de Alemania. Puedes contratarlo online o en las apps de transporte local (BVG en Berlín, MVV en Múnich, etc.). Consulta nuestro [desglose del costo de vida en Alemania](/blog/cuanto-cuesta-vivir-en-alemania/) para planificar tu presupuesto mensual completo.
 
 > 💡 **Consejo:** Descarga las apps de transporte de tu ciudad el mismo día que llegues. Te ahorrarás confusión con rutas y horarios.
 
@@ -86,7 +86,7 @@ Si no consigues cita, acude a primera hora **sin cita**. Muchas Bürgeramt atien
 
 ### Días 3-5: Activar el Sperrkonto
 
-Si abriste un **Sperrkonto** (cuenta bloqueada) antes de viajar, ahora es el momento de activarlo para que empiece a liberar los fondos mensuales.
+Si abriste un **[Sperrkonto](/blog/sperrkonto-como-abrir/)** (cuenta bloqueada) antes de viajar, ahora es el momento de activarlo para que empiece a liberar los fondos mensuales.
 
 Con [Expatrio](https://www.expatrio.com?p=rutaalemania), el proceso suele ser:
 
@@ -169,7 +169,7 @@ Este número de 11 dígitos es esencial para que tu empleador pueda **procesarte
 
 ### Empezar un curso de alemán
 
-Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguiente, no el próximo mes. Esta semana.
+Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguiente, no el próximo mes. Esta semana. En nuestro artículo sobre [trabajar en Alemania sin saber alemán](/blog/trabajar-alemania-sin-aleman/) analizamos el impacto real del idioma en tu carrera y salario.
 
 **Opciones:**
 
@@ -357,7 +357,7 @@ Aquí tienes todo condensado en una lista que puedes usar como referencia rápid
 
 ## Errores comunes que debes evitar
 
-Basado en la experiencia de cientos de hispanohablantes, estos son los **tropiezos más frecuentes** en los primeros 30 días:
+Basado en la experiencia de cientos de hispanohablantes, estos son los **tropiezos más frecuentes** en los primeros 30 días. Para un análisis más profundo, lee nuestro artículo sobre los [5 errores más comunes al emigrar a Alemania](/blog/errores-emigrar-alemania/):
 
 ---
 

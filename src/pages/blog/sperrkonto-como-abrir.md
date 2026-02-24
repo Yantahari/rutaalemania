@@ -34,7 +34,7 @@ Ese dinero queda bloqueado y solo puedes acceder a él una vez que llegas a Alem
 La Sperrkonto es **obligatoria** para:
 
 - **Visado de estudios** (Studentenvisum)
-- **Chancenkarte** (tarjeta de oportunidad)
+- **[Chancenkarte](/blog/chancenkarte-guia-completa/)** (tarjeta de oportunidad)
 - **Visado de búsqueda de empleo** (§ 20 AufenthG)
 - Cualquier otro visado donde la embajada exija prueba de medios económicos
 
@@ -51,7 +51,7 @@ Las cifras se actualizan cada año. Para 2026, los montos son:
 
 > ⚠️ **Importante:** Estos son los montos mínimos legales. Depositar un poco más (50-100 EUR extra) no está de más por si hay comisiones de transferencia o fluctuaciones de cambio.
 
-Para la **Chancenkarte**, el monto mensual es ligeramente superior al de estudiantes porque se entiende que un profesional tiene gastos diferentes. El cálculo es: 1.027 EUR x 12 meses = **12.324 EUR**.
+Para la **Chancenkarte**, el monto mensual es ligeramente superior al de estudiantes porque se entiende que un profesional tiene gastos diferentes. El cálculo es: 1.027 EUR x 12 meses = **12.324 EUR**. Para saber si ese dinero te alcanzará en tu ciudad de destino, consulta nuestro [desglose del costo de vida en Alemania](/blog/cuanto-cuesta-vivir-en-alemania/).
 
 ---
 
@@ -238,7 +238,7 @@ Si ya tienes una cuenta en euros (por ejemplo, si vives en España o tienes una 
 
 ## Qué pasa cuando llegas a Alemania
 
-Una vez que aterrizas en Alemania y te registras (*Anmeldung*), tu Sperrkonto **se activa y empieza a liberarte dinero mensualmente**:
+Una vez que aterrizas en Alemania y te registras (*Anmeldung*), tu Sperrkonto **se activa y empieza a liberarte dinero mensualmente**. Consulta nuestra [checklist de los primeros 30 días en Alemania](/blog/primeros-pasos-alemania/) para saber exactamente cuándo y cómo activar tu cuenta:
 
 1. **Activas la cuenta** proporcionando tu dirección alemana a Expatrio/Fintiba.
 2. **Cada mes** se desbloquea la cantidad establecida (992 o 1.027 EUR, según tu visado).
@@ -269,7 +269,7 @@ El nombre del remitente de la transferencia **debe coincidir con el titular** de
 
 ### 4. Dejar la transferencia para el último momento
 
-Las transferencias internacionales pueden tener **retrasos inesperados**. Un banco intermediario retiene el dinero un día extra, hay un festivo que no sabías... Hazlo con tiempo.
+Las transferencias internacionales pueden tener **retrasos inesperados**. Un banco intermediario retiene el dinero un día extra, hay un festivo que no sabías... Hazlo con tiempo. Este es uno de los [errores más comunes al emigrar a Alemania](/blog/errores-emigrar-alemania/) y es totalmente evitable.
 
 ### 5. Confundir Sperrkonto con cuenta corriente
 

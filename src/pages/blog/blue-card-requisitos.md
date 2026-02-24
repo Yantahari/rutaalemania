@@ -56,7 +56,7 @@ Debes tener un título de educación superior (licenciatura, grado, ingeniería,
 
 - Consulta la base de datos **anabin** (anabin.kmk.org), donde puedes buscar tu universidad y carrera.
 - Tu título debe aparecer con la clasificación **H+** (institución reconocida) y tu carrera como **entspricht** (equivalente).
-- Si tu título no aparece o tiene una clasificación diferente, puedes solicitar una **evaluación individual** a través de la KMK (Kultusministerkonferenz).
+- Si tu título no aparece o tiene una clasificación diferente, puedes solicitar una **evaluación individual** a través de la KMK (Kultusministerkonferenz). Te explicamos todo el proceso en nuestra [guía sobre el reconocimiento de títulos en Alemania](/blog/reconocimiento-titulos/).
 
 > ⚠️ **Importante:** Desde la reforma de 2023, también se aceptan **títulos de formación profesional superior** equivalentes a un nivel 6 del Marco Europeo de Cualificaciones (EQF), aunque esto es menos común para hispanohablantes.
 
@@ -97,7 +97,7 @@ Las llamadas **Mangelberufe** (profesiones con escasez de trabajadores) incluyen
 - **Medicina:** médicos, veterinarios, dentistas, farmacéuticos
 - **Profesionales de enfermería y matronas** (con título universitario)
 
-> 💡 **Consejo:** La gran mayoría de profesionales hispanohablantes que obtienen la Blue Card trabajan en **IT, ingeniería o sanidad**. Si tu campo está en esta lista, te beneficias del umbral reducido.
+> 💡 **Consejo:** La gran mayoría de profesionales hispanohablantes que obtienen la Blue Card trabajan en **IT, ingeniería o sanidad**. Si tu campo está en esta lista, te beneficias del umbral reducido. Si trabajas en IT sin título universitario, también puedes [obtener un permiso de trabajo en Alemania por la vía del §19c](/blog/trabajar-en-it-alemania/).
 
 ---
 
@@ -221,7 +221,7 @@ Muchos hispanohablantes confunden estos dos visados. Aquí las **diferencias cla
 | **Reagrupación familiar** | Sí, simplificada | No |
 | **Ideal para** | Quien ya tiene trabajo | Quien quiere buscar trabajo en persona |
 
-> 🔑 **Clave:** Si no tienes oferta de trabajo todavía, puedes usar la **Chancenkarte** para venir a Alemania, buscar empleo y luego **cambiar a Blue Card** una vez consigas un contrato que cumpla los requisitos.
+> 🔑 **Clave:** Si no tienes oferta de trabajo todavía, puedes usar la **Chancenkarte** para venir a Alemania, buscar empleo y luego **cambiar a Blue Card** una vez consigas un contrato que cumpla los requisitos. Lee nuestra [guía completa sobre la Chancenkarte](/blog/chancenkarte-guia-completa/) para conocer cómo solicitarla.
 
 ---
 
@@ -291,7 +291,7 @@ Sí, en la mayoría de casos puedes **cambiar de visado** a Blue Card sin salir 
 
 La Blue Card es, sin duda, **el mejor camino para profesionales cualificados** que quieren construir su vida en Alemania. Con un título universitario reconocido y una oferta de trabajo que supere el umbral salarial, puedes obtener la residencia permanente en tan solo 21 meses, traer a tu familia y disfrutar de todas las ventajas del sistema laboral alemán.
 
-Si todavía no tienes oferta de trabajo, no te desanimes. **Empieza a buscar en los portales mencionados**, prepara tu CV en formato alemán (Lebenslauf), y considera aprender alemán para multiplicar tus oportunidades.
+Si todavía no tienes oferta de trabajo, no te desanimes. **Empieza a buscar en los portales mencionados**, prepara tu [CV en formato alemán (Lebenslauf)](/blog/cv-aleman-plantilla/) y considera aprender alemán para multiplicar tus oportunidades.
 
 > 📌 **Recuerda:** La preparación es la clave. Cuanto antes empieces con el reconocimiento de tu título y la búsqueda de empleo, antes podrás tener tu Blue Card en la mano.
 

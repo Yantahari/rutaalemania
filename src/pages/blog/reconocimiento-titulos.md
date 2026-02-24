@@ -54,8 +54,8 @@ Son profesiones donde **no necesitas un reconocimiento formal** para trabajar. L
 
 Para estas profesiones, el reconocimiento es **opcional**. Sin embargo, puede ser útil o necesario en estos casos:
 
-- **Para la Chancenkarte:** Si vas por la Vía 1 (Fachkraft), necesitas el reconocimiento completo. Si vas por la Vía 2 (puntos), un reconocimiento parcial te da 4 puntos.
-- **Para la Blue Card:** Necesitas demostrar que tu título es equivalente, lo cual se puede hacer a través de Anabin sin necesidad de un proceso formal de Anerkennung en muchos casos.
+- **Para la [Chancenkarte](/blog/chancenkarte-guia-completa/):** Si vas por la Vía 1 (Fachkraft), necesitas el reconocimiento completo. Si vas por la Vía 2 (puntos), un reconocimiento parcial te da 4 puntos.
+- **Para la [Blue Card](/blog/blue-card-requisitos/):** Necesitas demostrar que tu título es equivalente, lo cual se puede hacer a través de Anabin sin necesidad de un proceso formal de Anerkennung en muchos casos.
 - **Para negociar salario:** Un título reconocido oficialmente puede darte poder de negociación.
 
 > 💡 **Consejo:** Aunque tu profesión no sea regulada, valora si el reconocimiento te aporta ventajas para tu visado o tu carrera.
@@ -153,7 +153,7 @@ Cada autoridad tiene sus propios requisitos, pero en general necesitarás:
 - **Título universitario o profesional** (original + copia compulsada)
 - **Expediente académico** con asignaturas y notas (*Transcript of Records*)
 - **Traducción jurada al alemán** de todos los documentos que no estén en alemán o inglés
-- **CV / Lebenslauf** detallando tu formación y experiencia profesional
+- **[CV / Lebenslauf](/blog/cv-aleman-plantilla/)** detallando tu formación y experiencia profesional
 - **Prueba de experiencia profesional** (contratos, cartas de empleadores, certificados de trabajo)
 
 ### Documentos adicionales (según el caso)
@@ -310,7 +310,7 @@ Es el término general para toda formación adicional necesaria para pasar de un
 
 Si trabajas en IT (desarrollo de software, administración de sistemas, data science, etc.), la situación es especial:
 
-- IT **no es una profesión regulada** en Alemania.
+- IT **no es una profesión regulada** en Alemania. Si tienes experiencia pero no título, consulta nuestra guía sobre [cómo trabajar en IT en Alemania sin título universitario](/blog/trabajar-en-it-alemania/).
 - Para la **Blue Card**, puedes demostrar tu cualificación mediante un título reconocido en Anabin **o** mediante experiencia profesional (al menos 3 años en los últimos 7 años) si tu salario supera el umbral mínimo.
 - Para la **Chancenkarte**, necesitas al menos el reconocimiento del título en tu país de origen.
 

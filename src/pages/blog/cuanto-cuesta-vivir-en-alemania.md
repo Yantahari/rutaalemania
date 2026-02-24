@@ -272,7 +272,7 @@ Esta es la pregunta del millón. Aquí va una estimación realista de lo que nec
 
 | Concepto | Coste estimado |
 |---|---|
-| Sperrkonto (cuenta bloqueada, si necesitas visa) | 11.904 € (2026) |
+| [Sperrkonto](/blog/sperrkonto-como-abrir/) (cuenta bloqueada, si necesitas visa) | 11.904 € (2026) |
 | Vuelo (ida) | 300–800 € |
 | Alojamiento temporal (1-2 meses) | 800–2.000 € |
 | Fianza del piso (Kaution) | 1.300–2.500 € |
@@ -286,7 +286,7 @@ Esta es la pregunta del millón. Aquí va una estimación realista de lo que nec
 
 **Si vienes con visa (necesitas Sperrkonto):**
 
-El Sperrkonto ya cubre tus primeros meses de manutención (~992 €/mes que se van liberando). Aun así, necesitarás dinero extra para la fianza y gastos iniciales. **Total recomendado: 14.000–16.000 €** (incluyendo el Sperrkonto).
+El Sperrkonto ya cubre tus primeros meses de manutención (~992 €/mes que se van liberando). Aun así, necesitarás dinero extra para la fianza y gastos iniciales. **Total recomendado: 14.000–16.000 €** (incluyendo el Sperrkonto). Si vienes con la Chancenkarte, revisa también los [costes específicos de ese visado](/blog/chancenkarte-guia-completa/).
 
 > 💡 **Consejo:** Puedes abrir tu Sperrkonto de forma rápida y segura con [Expatrio](https://www.expatrio.com?p=rutaalemania), que también ofrece seguro médico temporal incluido.
 
@@ -298,7 +298,7 @@ Necesitas menos, pero no llegues con los bolsillos vacíos. **Total recomendado:
 
 Mejor escenario. Aun así, necesitas dinero para la fianza, el primer mes y gastos iniciales. **Total recomendado: 2.500–4.000 €**.
 
-> 📌 **Recuerda:** Aunque tengas trabajo firmado, tu primer sueldo puede tardar 4-6 semanas en llegar. Ten un colchón financiero para ese periodo.
+> 📌 **Recuerda:** Aunque tengas trabajo firmado, tu primer sueldo puede tardar 4-6 semanas en llegar. Ten un colchón financiero para ese periodo. Organiza todo lo que necesitas hacer al aterrizar con nuestra [checklist de los primeros 30 días en Alemania](/blog/primeros-pasos-alemania/).
 
 ---
 
@@ -340,6 +340,6 @@ Vivir en Alemania no es barato, pero **tampoco es tan caro como muchos creen**, 
 
 Con un salario medio de 40.000-50.000 € brutos anuales, puedes vivir cómodamente, ahorrar algo cada mes y disfrutar de uno de los mejores sistemas de bienestar social del mundo.
 
-La clave está en **planificar antes de llegar**: tener suficiente ahorro, entender el sistema de impuestos y alquiler, y elegir una ciudad que se adapte a tu presupuesto y estilo de vida.
+La clave está en **planificar antes de llegar**: tener suficiente ahorro, entender el sistema de impuestos y alquiler, y elegir una ciudad que se adapte a tu presupuesto y estilo de vida. Una mala planificación financiera es uno de los [errores más comunes que cometen los hispanohablantes al emigrar](/blog/errores-emigrar-alemania/).
 
 **¿Te ha resultado útil esta guía?** Compártela con otros hispanohablantes que estén pensando en dar el salto a Alemania.
