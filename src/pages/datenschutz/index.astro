@@ -51,7 +51,12 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <h2 class="font-heading text-xl text-white mb-4">4. Datenerfassung auf dieser Website</h2>
 
         <h3 class="text-white font-semibold mb-2">Cookies</h3>
-        <p class="mb-4">Diese Website verwendet keine Tracking-Cookies. Es werden lediglich technisch notwendige Cookies eingesetzt, die für den Betrieb der Website erforderlich sind.</p>
+        <p class="mb-4">Diese Website verwendet einen Cookie-Consent-Banner. Analyse-Cookies (Google Analytics) werden <strong class="text-white">erst nach Ihrer ausdrücklichen Einwilligung</strong> gesetzt. Ohne Ihre Zustimmung werden keine Tracking-Cookies gespeichert. Ihre Entscheidung wird im lokalen Speicher Ihres Browsers (localStorage) gespeichert, damit das Banner nicht bei jedem Besuch erneut erscheint.</p>
+
+        <h3 class="text-white font-semibold mb-2">Google Analytics</h3>
+        <p class="mb-4">Diese Website nutzt Google Analytics 4, einen Webanalysedienst der Google Ireland Limited („Google"). Wir verwenden <strong class="text-white">Google Consent Mode v2</strong>: Beim ersten Besuch ist die Datenerfassung standardmäßig deaktiviert. Erst wenn Sie im Cookie-Banner auf „Aceptar" (Akzeptieren) klicken, wird die Analyse aktiviert. Google Analytics verwendet Cookies (z.B. <code class="text-amber-light">_ga</code>), um Ihr Nutzungsverhalten zu analysieren. Die erzeugten Informationen werden in der Regel an einen Server von Google übertragen und dort gespeichert.</p>
+        <p class="mb-4">Grundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung). Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie den Eintrag <code class="text-amber-light">cookie-consent</code> im localStorage Ihres Browsers löschen oder Ihre Cookies löschen.</p>
+        <p class="mb-4">Weitere Informationen: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" class="text-amber-light hover:underline">Google Datenschutzerklärung</a>.</p>
 
         <h3 class="text-white font-semibold mb-2">Server-Log-Dateien</h3>
         <p class="mb-4">Der Provider der Seiten erhebt und speichert automatisch Informationen in Server-Log-Dateien, die Ihr Browser automatisch übermittelt: Browsertyp und -version, verwendetes Betriebssystem, Referrer URL, Hostname des zugreifenden Rechners, Uhrzeit der Serveranfrage, IP-Adresse. Diese Daten werden nicht mit anderen Datenquellen zusammengeführt.</p>
@@ -93,12 +98,19 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <ul class="list-disc list-inside space-y-2">
           <li><strong class="text-white">Datos técnicos:</strong> Dirección IP, tipo de navegador, sistema operativo, hora de acceso. Se recogen automáticamente por el servidor (Netlify).</li>
           <li><strong class="text-white">Datos que nos proporcionas:</strong> Si nos contactas por email, almacenamos tu dirección de correo y el contenido del mensaje.</li>
-          <li><strong class="text-white">Cookies:</strong> No usamos cookies de rastreo. Solo cookies técnicas necesarias para el funcionamiento del sitio.</li>
+          <li><strong class="text-white">Cookies:</strong> Usamos cookies de análisis (Google Analytics) <strong class="text-white">solo si aceptas</strong> el banner de cookies. Sin tu consentimiento, no se almacenan cookies de rastreo. Tu preferencia se guarda en el almacenamiento local (localStorage) de tu navegador.</li>
         </ul>
       </div>
 
       <div class="card p-6">
-        <h2 class="font-heading text-xl text-white mb-4">3. Tus derechos (RGPD)</h2>
+        <h2 class="font-heading text-xl text-white mb-4">3. Google Analytics</h2>
+        <p class="mb-4">Utilizamos Google Analytics 4 con <strong class="text-white">Google Consent Mode v2</strong>. Esto significa que la recopilación de datos está desactivada por defecto. Solo se activa cuando haces clic en «Aceptar» en el banner de cookies.</p>
+        <p class="mb-4">Google Analytics utiliza cookies (como <code class="text-amber-light">_ga</code>) para analizar el uso del sitio web. La información generada se transmite a servidores de Google.</p>
+        <p>Base legal: Art. 6.1.a RGPD (consentimiento). Puedes revocar tu consentimiento en cualquier momento eliminando las cookies de tu navegador o borrando el valor <code class="text-amber-light">cookie-consent</code> del localStorage.</p>
+      </div>
+
+      <div class="card p-6">
+        <h2 class="font-heading text-xl text-white mb-4">4. Tus derechos (RGPD)</h2>
         <p class="mb-4">Tienes derecho a:</p>
         <ul class="list-disc list-inside space-y-2">
           <li><strong class="text-white">Acceso:</strong> Solicitar una copia de los datos que tenemos sobre ti.</li>
@@ -111,13 +123,13 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       </div>
 
       <div class="card p-6">
-        <h2 class="font-heading text-xl text-white mb-4">4. Enlaces de afiliado y servicios de terceros</h2>
+        <h2 class="font-heading text-xl text-white mb-4">5. Enlaces de afiliado y servicios de terceros</h2>
         <p class="mb-4">Este sitio web contiene enlaces de afiliado a servicios como Expatrio, Lingoda y Wise. Al hacer clic en estos enlaces, los proveedores pueden establecer sus propias cookies y recopilar datos según sus respectivas políticas de privacidad.</p>
         <p>También usamos Google Fonts (tipografías cargadas desde servidores de Google) y planeamos incorporar Google AdSense (publicidad). En ambos casos, tu dirección IP se transmite a Google.</p>
       </div>
 
       <div class="card p-6">
-        <h2 class="font-heading text-xl text-white mb-4">5. Base legal del tratamiento</h2>
+        <h2 class="font-heading text-xl text-white mb-4">6. Base legal del tratamiento</h2>
         <ul class="list-disc list-inside space-y-2">
           <li>Art. 6.1.a RGPD — Consentimiento (para publicidad y cookies opcionales).</li>
           <li>Art. 6.1.b RGPD — Ejecución de contrato (si contratas algún servicio).</li>
