@@ -189,7 +189,7 @@ La forma clásica. Vas a tu banco, pides una transferencia internacional en euro
 
 ### Wise (recomendado)
 
-[Wise](https://www.wise.com[AFILIADO_WISE]) (antes TransferWise) es la opción que recomiendo para transferencias internacionales. Ventajas:
+[Wise](https://www.wise.comhttps://wise.prf.hn/click/camref:1110lAp2W) (antes TransferWise) es la opción que recomiendo para transferencias internacionales. Ventajas:
 
 - **Tipo de cambio real** (el del mercado, sin margen oculto)
 - **Comisiones transparentes** (sabes exactamente cuánto pagas antes de confirmar)
@@ -202,7 +202,7 @@ Para una transferencia de 12.324 EUR, la diferencia entre usar Wise y tu banco p
 
 **Pasos con Wise:**
 
-1. Crea una cuenta en [Wise](https://www.wise.com[AFILIADO_WISE])
+1. Crea una cuenta en [Wise](https://www.wise.comhttps://wise.prf.hn/click/camref:1110lAp2W)
 2. Verifica tu identidad
 3. Inicia una transferencia indicando el monto en EUR
 4. Introduce el IBAN de tu Sperrkonto como destinatario
@@ -303,6 +303,6 @@ Expatrio acepta solicitudes de la mayoría de países. Hay algunas restricciones
 
 ---
 
-La Sperrkonto es un trámite que parece intimidante pero que en la práctica es **bastante sencillo**. Con [Expatrio](https://www.expatrio.com?p=rutaalemania) puedes tenerla lista en menos de dos semanas, y con [Wise](https://www.wise.com[AFILIADO_WISE]) te aseguras de que la transferencia sea rápida y económica.
+La Sperrkonto es un trámite que parece intimidante pero que en la práctica es **bastante sencillo**. Con [Expatrio](https://www.expatrio.com?p=rutaalemania) puedes tenerla lista en menos de dos semanas, y con [Wise](https://www.wise.comhttps://wise.prf.hn/click/camref:1110lAp2W) te aseguras de que la transferencia sea rápida y económica.
 
 **¿Ya tienes tu Sperrkonto lista?** El siguiente paso es verificar si cumples los requisitos de la Chancenkarte. Usa nuestra [calculadora gratuita](/#calculadora) y descúbrelo en 2 minutos.

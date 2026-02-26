@@ -122,7 +122,7 @@ Necesitas una cuenta bancaria alemana para:
 
 ---
 
-> ✅ **Buena noticia:** Para transferir dinero desde tu país a tu nueva cuenta alemana, usa [Wise]([AFILIADO_WISE]). Ofrece el tipo de cambio real del mercado con comisiones mínimas. La diferencia frente a una transferencia bancaria tradicional puede ser de 30-100 € por cada transferencia.
+> ✅ **Buena noticia:** Para transferir dinero desde tu país a tu nueva cuenta alemana, usa [Wise](https://wise.prf.hn/click/camref:1110lAp2W). Ofrece el tipo de cambio real del mercado con comisiones mínimas. La diferencia frente a una transferencia bancaria tradicional puede ser de 30-100 € por cada transferencia.
 
 ---
 
@@ -322,7 +322,7 @@ Aquí tienes todo condensado en una lista que puedes usar como referencia rápid
 - [ ] Guardar la Meldebescheinigung en lugar seguro
 - [ ] Activar el Sperrkonto (si aplica) con [Expatrio](https://www.expatrio.com?p=rutaalemania)
 - [ ] Abrir cuenta bancaria (N26, Vivid o banco tradicional)
-- [ ] Transferir dinero desde tu país con [Wise]([AFILIADO_WISE])
+- [ ] Transferir dinero desde tu país con [Wise](https://wise.prf.hn/click/camref:1110lAp2W)
 - [ ] Darte de alta en el seguro médico (TK, AOK, Barmer...)
 - [ ] Comunicar tu aseguradora a tu empleador
 

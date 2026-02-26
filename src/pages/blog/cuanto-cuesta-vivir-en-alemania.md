@@ -306,7 +306,7 @@ Mejor escenario. Aun así, necesitas dinero para la fianza, el primer mes y gast
 
 No uses tu banco tradicional para transferir grandes cantidades a Alemania. **Las comisiones por cambio de divisa pueden comerse cientos de euros.**
 
-Utiliza servicios como **[Wise]([AFILIADO_WISE])**, que ofrece el tipo de cambio real del mercado con comisiones transparentes y muy bajas. La diferencia puede ser de 50-150 € en una transferencia grande.
+Utiliza servicios como **[Wise](https://wise.prf.hn/click/camref:1110lAp2W)**, que ofrece el tipo de cambio real del mercado con comisiones transparentes y muy bajas. La diferencia puede ser de 50-150 € en una transferencia grande.
 
 > 🔑 **Clave:** Comparar servicios de transferencia puede ahorrarte entre 50 y 200 € en cada envío grande. Wise es la opción más popular entre emigrantes.
 
