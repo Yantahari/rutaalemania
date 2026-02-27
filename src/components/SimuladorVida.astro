@@ -57,10 +57,10 @@ import simulatorData from '../data/simulator-data.json';
       <h3 class="text-xl font-heading font-bold">¿De qué país vienes?</h3>
       <p class="text-sm text-white/40">Para comparar con el salario medio de tu país</p>
     </div>
-    <div class="max-w-md mx-auto">
-      <select id="sim-country" class="w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3 text-white focus:border-amber focus:outline-none appearance-none cursor-pointer">
-        <option value="" disabled selected>Selecciona tu país...</option>
-      </select>
+    <div class="max-w-md mx-auto country-dropdown" id="sim-country-dropdown">
+      <input type="text" id="sim-country-input" class="w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3 text-white focus:border-amber focus:outline-none" placeholder="Selecciona tu país..." autocomplete="off" />
+      <ul id="sim-country-list" class="country-list"></ul>
+      <input type="hidden" id="sim-country" />
     </div>
     <div class="step-nav mt-6">
       <button type="button" class="sim-back">&larr; Atrás</button>
@@ -102,7 +102,18 @@ import simulatorData from '../data/simulator-data.json';
   .sim-choice:hover { border-color: rgba(226,167,48,0.4); background: rgba(226,167,48,0.06); }
   .sim-choice.selected { border-color: #e2a730; background: rgba(226,167,48,0.1); }
 
-  select option { background: #1a1a2e; color: white; }
+  .country-dropdown { position: relative; }
+  .country-list {
+    display: none; position: absolute; top: 100%; left: 0; right: 0; z-index: 20;
+    max-height: 240px; overflow-y: auto; margin-top: 4px; padding: 4px 0;
+    background: #1a1a2e; border: 1px solid rgba(255,255,255,0.15); border-radius: 12px;
+    list-style: none;
+  }
+  .country-list.open { display: block; }
+  .country-list li {
+    padding: 10px 16px; cursor: pointer; font-size: 0.95rem; color: rgba(255,255,255,0.8);
+  }
+  .country-list li:hover, .country-list li.highlighted { background: rgba(226,167,48,0.15); color: #fff; }
 
   .result-card {
     background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
@@ -174,17 +185,47 @@ import simulatorData from '../data/simulator-data.json';
     });
   });
 
-  // Populate countries
-  const countrySelect = document.getElementById('sim-country');
-  Object.entries(data.countries).forEach(([key, country]) => {
-    const opt = document.createElement('option');
-    opt.value = key;
-    opt.textContent = country.name;
-    countrySelect.appendChild(opt);
+  // Populate countries (custom dropdown)
+  const countryInput = document.getElementById('sim-country-input');
+  const countryList = document.getElementById('sim-country-list');
+  const countryHidden = document.getElementById('sim-country');
+  const countryEntries = Object.entries(data.countries);
+
+  function renderCountryList(filter = '') {
+    countryList.innerHTML = '';
+    const lower = filter.toLowerCase();
+    countryEntries
+      .filter(([, c]) => !lower || c.name.toLowerCase().includes(lower))
+      .forEach(([key, country]) => {
+        const li = document.createElement('li');
+        li.textContent = country.name;
+        li.dataset.value = key;
+        li.addEventListener('click', () => {
+          countryInput.value = country.name;
+          countryHidden.value = key;
+          state.country = key;
+          countryList.classList.remove('open');
+          enableNext(4);
+        });
+        countryList.appendChild(li);
+      });
+  }
+
+  renderCountryList();
+
+  countryInput.addEventListener('focus', () => {
+    renderCountryList(countryInput.value);
+    countryList.classList.add('open');
   });
-  countrySelect.addEventListener('change', () => {
-    state.country = countrySelect.value;
-    enableNext(4);
+  countryInput.addEventListener('input', () => {
+    renderCountryList(countryInput.value);
+    countryList.classList.add('open');
+    // Reset selection when typing
+    countryHidden.value = '';
+    state.country = '';
+  });
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('#sim-country-dropdown')) countryList.classList.remove('open');
   });
 
   function enableNext(step) {
@@ -403,7 +444,8 @@ import simulatorData from '../data/simulator-data.json';
       // Reset selections
       document.querySelectorAll('.sim-choice.selected').forEach(el => el.classList.remove('selected'));
       document.querySelectorAll('.sim-next').forEach(btn => btn.disabled = true);
-      countrySelect.value = '';
+      countryInput.value = '';
+      countryHidden.value = '';
     });
   }
 </script>
