@@ -113,9 +113,9 @@ Los datos del simulador están en `src/data/simulator-data.json`. El archivo tie
 "cities": {
   "berlin": {
     "name": "Berlín",
-    "rent_1bed": 850,      // Alquiler mensual 1 habitación (Warmmiete)
+    "rent_1bed": 950,      // Alquiler mensual 1 habitación (Warmmiete)
     "groceries": 350,       // Alimentación mensual
-    "transport": 49,         // Deutschlandticket
+    "transport": 63,         // Deutschlandticket
     "utilities": 40,         // Internet + móvil
     "misc": 200              // Otros gastos
   }

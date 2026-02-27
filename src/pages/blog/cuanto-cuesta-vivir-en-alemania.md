@@ -20,13 +20,13 @@ Antes de entrar en detalle, aquí tienes una tabla comparativa con el gasto mens
 
 | Concepto | Berlín | Múnich | Friburgo | Leipzig |
 |---|---|---|---|---|
-| Alquiler (Warmmiete, 1-2 hab.) | 800–1.100 € | 1.000–1.500 € | 700–1.000 € | 500–750 € |
+| Alquiler (Warmmiete, 1-2 hab.) | 900–1.200 € | 1.200–1.700 € | 800–1.100 € | 550–800 € |
 | Seguro médico (público) | ~280 € | ~280 € | ~280 € | ~280 € |
 | Supermercado | 250–350 € | 280–380 € | 250–330 € | 220–300 € |
 | Transporte (Deutschlandticket) | 63 € | 63 € | 63 € | 63 € |
 | Internet + móvil | 40–55 € | 40–55 € | 40–55 € | 40–55 € |
 | Extras (ocio, ropa, etc.) | 150–250 € | 180–300 € | 130–220 € | 120–200 € |
-| **Total estimado** | **1.583–2.099 €** | **1.843–2.579 €** | **1.463–1.949 €** | **1.223–1.649 €** |
+| **Total estimado** | **1.683–2.198 €** | **2.043–2.778 €** | **1.563–2.048 €** | **1.273–1.698 €** |
 
 > 🔑 **Clave:** Múnich es la ciudad más cara de Alemania. Leipzig y ciudades del este son significativamente más baratas. Berlín, a pesar de su fama, está en un rango medio-alto pero sigue siendo más asequible que Múnich o Fráncfort.
 
@@ -54,13 +54,13 @@ Para un piso de **1-2 habitaciones (40-60 m²)**:
 
 | Ciudad | Warmmiete media |
 |---|---|
-| Múnich | 1.000–1.500 € |
+| Múnich | 1.200–1.700 € |
 | Fráncfort | 900–1.300 € |
-| Berlín | 800–1.100 € |
+| Berlín | 900–1.200 € |
 | Hamburgo | 800–1.100 € |
 | Stuttgart | 850–1.200 € |
-| Friburgo | 700–1.000 € |
-| Leipzig | 500–750 € |
+| Friburgo | 800–1.100 € |
+| Leipzig | 550–800 € |
 | Dresde | 480–700 € |
 
 > 💡 **Consejo:** Si llegas sin contrato de alquiler, necesitarás alojamiento temporal. Una habitación en un WG (piso compartido) puede costar entre 400 y 700 € en la mayoría de ciudades. Plataformas como WG-Gesucht, Immobilienscout24 y eBay Kleinanzeigen son las más usadas.
@@ -246,9 +246,9 @@ Para poner las cosas en perspectiva, comparemos el **poder adquisitivo real**. U
 
 | Situación | Salario neto | Alquiler | Queda para vivir |
 |---|---|---|---|
-| Junior en Berlín (40k bruto) | ~2.200 € | ~900 € | ~1.300 € |
-| Programador en Múnich (55k bruto) | ~2.850 € | ~1.200 € | ~1.650 € |
-| Enfermera en Leipzig (35k bruto) | ~1.950 € | ~600 € | ~1.350 € |
+| Junior en Berlín (40k bruto) | ~2.200 € | ~950 € | ~1.250 € |
+| Programador en Múnich (55k bruto) | ~2.850 € | ~1.450 € | ~1.400 € |
+| Enfermera en Leipzig (35k bruto) | ~1.950 € | ~650 € | ~1.300 € |
 | Ingeniero en Stuttgart (65k bruto) | ~3.300 € | ~1.000 € | ~2.300 € |
 
 ---
@@ -276,7 +276,7 @@ Esta es la pregunta del millón. Aquí va una estimación realista de lo que nec
 | Vuelo (ida) | 300–800 € |
 | Alojamiento temporal (1-2 meses) | 800–2.000 € |
 | Fianza del piso (Kaution) | 1.300–2.500 € |
-| Primer mes de alquiler | 500–1.200 € |
+| Primer mes de alquiler | 550–1.450 € |
 | Seguro médico (primer mes) | 100–300 € |
 | Gastos varios (SIM, transporte, comida inicial) | 300–500 € |
 
