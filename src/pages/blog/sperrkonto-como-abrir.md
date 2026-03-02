@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/BlogLayout.astro
+carousel: "sperrkonto"
 title: "Cómo abrir una Sperrkonto (cuenta bloqueada) para tu visa en Alemania"
 description: "Guía paso a paso para abrir tu Sperrkonto: qué es, cuánto depositar en 2026, comparativa de proveedores y cómo transferir el dinero de forma segura."
 date: "2026-02-20"
@@ -115,6 +116,8 @@ Deutsche Bank es la opción más barata en comisiones, pero **el proceso es sign
 
 > 💡 **Consejo:** Cuando estás gestionando una visa, la rapidez y la fiabilidad valen mucho más que ahorrar 15 EUR al año.
 
+<a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Abre tu Sperrkonto con Expatrio</a>
+
 ---
 
 ## Paso a paso: abrir tu Sperrkonto con Expatrio
@@ -189,7 +192,7 @@ La forma clásica. Vas a tu banco, pides una transferencia internacional en euro
 
 ### Wise (recomendado)
 
-[Wise](https://www.wise.comhttps://wise.prf.hn/click/camref:1110lAp2W) (antes TransferWise) es la opción que recomiendo para transferencias internacionales. Ventajas:
+[Wise](https://wise.prf.hn/click/camref:1110lAp2W) (antes TransferWise) es la opción que recomiendo para transferencias internacionales. Ventajas:
 
 - **Tipo de cambio real** (el del mercado, sin margen oculto)
 - **Comisiones transparentes** (sabes exactamente cuánto pagas antes de confirmar)
@@ -202,7 +205,7 @@ Para una transferencia de 12.324 EUR, la diferencia entre usar Wise y tu banco p
 
 **Pasos con Wise:**
 
-1. Crea una cuenta en [Wise](https://www.wise.comhttps://wise.prf.hn/click/camref:1110lAp2W)
+1. Crea una cuenta en [Wise](https://wise.prf.hn/click/camref:1110lAp2W)
 2. Verifica tu identidad
 3. Inicia una transferencia indicando el monto en EUR
 4. Introduce el IBAN de tu Sperrkonto como destinatario
@@ -211,6 +214,8 @@ Para una transferencia de 12.324 EUR, la diferencia entre usar Wise y tu banco p
 7. Wise convierte y envía
 
 > ⚠️ **Importante:** Incluye siempre la referencia de pago. Sin ella, Expatrio no puede identificar tu transferencia y el proceso se retrasa.
+
+<a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Ahorra en comisiones con Wise</a>
 
 ---
 
@@ -303,6 +308,6 @@ Expatrio acepta solicitudes de la mayoría de países. Hay algunas restricciones
 
 ---
 
-La Sperrkonto es un trámite que parece intimidante pero que en la práctica es **bastante sencillo**. Con [Expatrio](https://www.expatrio.com?p=rutaalemania) puedes tenerla lista en menos de dos semanas, y con [Wise](https://www.wise.comhttps://wise.prf.hn/click/camref:1110lAp2W) te aseguras de que la transferencia sea rápida y económica.
+La Sperrkonto es un trámite que parece intimidante pero que en la práctica es **bastante sencillo**. Con [Expatrio](https://www.expatrio.com?p=rutaalemania) puedes tenerla lista en menos de dos semanas, y con [Wise](https://wise.prf.hn/click/camref:1110lAp2W) te aseguras de que la transferencia sea rápida y económica.
 
 **¿Ya tienes tu Sperrkonto lista?** El siguiente paso es verificar si cumples los requisitos de la Chancenkarte. Usa nuestra [calculadora gratuita](/#calculadora) y descúbrelo en 2 minutos.

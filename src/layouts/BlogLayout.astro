@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import CarouselBlog from '../components/CarouselBlog.astro';
 interface FAQItem {
   q: string;
   a: string;
@@ -12,6 +13,7 @@ interface Props {
     date: string;
     keywords: string;
     ogImage?: string;
+    carousel?: string;
     faq?: FAQItem[];
   };
 }
@@ -79,6 +81,8 @@ const faqSchema = frontmatter.faq?.length ? {
       </p>
     </header>
 
+    {frontmatter.carousel && <CarouselBlog carouselId={frontmatter.carousel} />}
+
     <!-- Content -->
     <div class="blog-content prose prose-invert prose-amber max-w-none
       prose-headings:font-heading prose-headings:text-white
@@ -95,11 +99,6 @@ const faqSchema = frontmatter.faq?.length ? {
       prose-img:rounded-xl prose-img:my-8
     ">
       <slot />
-    </div>
-
-    <!-- MailerLite embedded form -->
-    <div class="mt-16">
-      <div class="ml-embedded" data-form="h47itn"></div>
     </div>
 
     <!-- CTA bottom -->

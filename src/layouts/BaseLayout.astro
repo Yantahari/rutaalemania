@@ -13,9 +13,10 @@ interface Props {
   canonical?: string;
   noindex?: boolean;
   schema?: object;
+  hideNewsletter?: boolean;
 }
 
-const props = Astro.props;
+const { hideNewsletter, ...seoProps } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -30,7 +31,7 @@ const props = Astro.props;
   <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png" />
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="sitemap" href="/sitemap-index.xml" />
-  <SEO {...props} />
+  <SEO {...seoProps} />
 
   <!-- Google Consent Mode v2 (default: denied) + Analytics -->
   <script is:inline>
@@ -68,6 +69,13 @@ const props = Astro.props;
   <main class="flex-1">
     <slot />
   </main>
+  {!hideNewsletter && (
+    <section class="container-narrow py-12">
+      <div class="max-w-xl mx-auto">
+        <div class="ml-embedded" data-form="h47itn"></div>
+      </div>
+    </section>
+  )}
   <Footer />
 
   <!-- Cookie consent banner (RGPD) -->

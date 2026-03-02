@@ -1,0 +1,890 @@
+---
+import type { CarouselSlide } from '../data/carousels/sperrkonto';
+
+interface Props {
+  carouselId: string;
+}
+
+const { carouselId } = Astro.props;
+
+const carouselMap: Record<string, () => Promise<{ default: CarouselSlide[] }>> = {
+  sperrkonto: () => import('../data/carousels/sperrkonto.ts'),
+};
+
+const loader = carouselMap[carouselId];
+if (!loader) {
+  throw new Error(`Carousel "${carouselId}" not found`);
+}
+
+const { default: slides } = await loader();
+const totalSlides = slides.length;
+---
+
+<!-- Teaser banner -->
+<div class="cb-wrapper" data-carousel-id={carouselId}>
+  <button
+    class="cb-teaser"
+    type="button"
+    aria-expanded="false"
+    aria-controls={`cb-panel-${carouselId}`}
+  >
+    <span class="cb-teaser-text">📸 ¿Con prisa? Desliza el resumen visual paso a paso</span>
+    <span class="cb-teaser-chevron" aria-hidden="true">▾</span>
+  </button>
+
+  <!-- Carousel panel -->
+  <div class="cb-panel" id={`cb-panel-${carouselId}`} hidden>
+    <div class="cb-viewport">
+      <div class="cb-track" role="region" aria-label="Carrusel Sperrkonto" aria-live="polite">
+        {slides.map((slide, i) => (
+          <div
+            class={`cb-slide cb-slide--${slide.type}`}
+            role="group"
+            aria-roledescription="slide"
+            aria-label={`Slide ${i + 1} de ${totalSlides}`}
+          >
+            {/* ── Cover slide ── */}
+            {slide.type === 'cover' && (
+              <div class="cb-cover">
+                <div class="cb-bg-circle cb-bg-circle--1" />
+                <div class="cb-bg-circle cb-bg-circle--2" />
+                <div class="cb-top-line" />
+                <div class="cb-cover-content">
+                  <div class="cb-icon">{slide.icon}</div>
+                  <h2 class="cb-title cb-title--cover" set:html={slide.title} />
+                  <div class="cb-gold-line" />
+                  {slide.subtitle && <p class="cb-subtitle">{slide.subtitle}</p>}
+                </div>
+              </div>
+            )}
+
+            {/* ── Content slide ── */}
+            {slide.type === 'content' && (
+              <div class="cb-content-slide">
+                <div class="cb-bg-glow" />
+                <div class="cb-content-inner">
+                  {slide.stepBadge && <div class="cb-step-badge">{slide.stepBadge}</div>}
+                  <div class="cb-icon">{slide.icon}</div>
+                  <h2 class="cb-title cb-title--content" set:html={slide.title} />
+
+                  {/* Amount card (slide 3) */}
+                  {slide.amountCard && (
+                    <div class="cb-amount-card">
+                      <div class="cb-amount-label">{slide.amountCard.label}</div>
+                      <div class="cb-amount-big">{slide.amountCard.amount}</div>
+                      <div class="cb-amount-sub">{slide.amountCard.sub}</div>
+                      <div class="cb-amount-divider" />
+                      <p class="cb-amount-note" set:html={slide.amountCard.note} />
+                    </div>
+                  )}
+
+                  {/* Info card */}
+                  {slide.cardContent && (
+                    <div class="cb-info-card">
+                      <p class="cb-info-text" set:html={slide.cardContent} />
+                    </div>
+                  )}
+
+                  {/* Step list (slide 5) */}
+                  {slide.steps && (
+                    <div class="cb-steps">
+                      {slide.steps.map((step, si) => (
+                        <div class={`cb-step-card cb-step-card--${si + 1}`}>
+                          <span class="cb-step-num">{step.num}</span>
+                          <span class="cb-step-text">{step.text}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Time badge */}
+                  {slide.timeBadge && (
+                    <div class="cb-time-badge">
+                      <p set:html={slide.timeBadge} />
+                    </div>
+                  )}
+
+                  {/* Tip card */}
+                  {slide.tipCard && (
+                    <div class="cb-tip-card">
+                      <span class="cb-tip-icon">{slide.tipCard.icon}</span>
+                      <p class="cb-tip-text" set:html={slide.tipCard.text} />
+                    </div>
+                  )}
+
+                  {/* Affiliate link */}
+                  {slide.affiliateLink && (
+                    <a
+                      class="cb-affiliate-link"
+                      href={slide.affiliateLink.url}
+                      target="_blank"
+                      rel="noopener noreferrer sponsored"
+                    >
+                      {slide.affiliateLink.label}
+                    </a>
+                  )}
+
+                  {/* Checkmark */}
+                  {slide.checkmark && (
+                    <div class="cb-checkmark-area">
+                      <div class="cb-checkmark">✓</div>
+                      <p class="cb-check-text">{slide.checkmark}</p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* ── CTA slide ── */}
+            {slide.type === 'cta' && (
+              <div class="cb-cta-slide">
+                <div class="cb-cta-pattern" />
+                <div class="cb-cta-content">
+                  <div class="cb-icon cb-icon--cta">{slide.icon}</div>
+                  <h2 class="cb-title cb-title--cta" set:html={slide.title} />
+                  <div class="cb-cta-divider" />
+                  {slide.ctaButtons && (
+                    <div class="cb-cta-buttons">
+                      {slide.ctaButtons.map((btn) =>
+                        btn.url ? (
+                          <a
+                            class="cb-cta-btn"
+                            href={btn.url}
+                            target="_blank"
+                            rel="noopener noreferrer sponsored"
+                          >
+                            <span class="cb-cta-btn-text">{btn.text}</span>
+                            <span class="cb-cta-btn-sub">{btn.sub}</span>
+                          </a>
+                        ) : (
+                          <div class="cb-cta-btn">
+                            <span class="cb-cta-btn-text">{btn.text}</span>
+                            <span class="cb-cta-btn-sub">{btn.sub}</span>
+                          </div>
+                        )
+                      )}
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="cb-nav">
+      <button class="cb-arrow cb-arrow--prev" aria-label="Slide anterior" disabled>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+
+      <div class="cb-dots" role="tablist" aria-label="Seleccionar slide">
+        {slides.map((_, i) => (
+          <button
+            class={`cb-dot${i === 0 ? ' cb-dot--active' : ''}`}
+            role="tab"
+            aria-selected={i === 0 ? 'true' : 'false'}
+            aria-label={`Ir a slide ${i + 1}`}
+            data-index={i}
+          />
+        ))}
+      </div>
+
+      <button class="cb-arrow cb-arrow--next" aria-label="Slide siguiente">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M7.5 5L12.5 10L7.5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* ── Teaser ── */
+  .cb-wrapper {
+    margin-bottom: 2rem;
+  }
+
+  .cb-teaser {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.875rem 1.25rem;
+    background: linear-gradient(135deg, rgba(226, 167, 48, 0.2) 0%, rgba(226, 167, 48, 0.08) 100%);
+    border: 1.5px solid rgba(226, 167, 48, 0.45);
+    border-radius: 0.75rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #e2a730;
+    transition: border-color 0.2s, background 0.2s, transform 0.15s;
+    box-shadow: 0 0 20px rgba(226, 167, 48, 0.1), inset 0 1px 0 rgba(226, 167, 48, 0.1);
+  }
+
+  .cb-teaser:hover {
+    border-color: rgba(226, 167, 48, 0.7);
+    background: linear-gradient(135deg, rgba(226, 167, 48, 0.28) 0%, rgba(226, 167, 48, 0.12) 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 24px rgba(226, 167, 48, 0.15), inset 0 1px 0 rgba(226, 167, 48, 0.15);
+  }
+
+  .cb-teaser[aria-expanded='true'] .cb-teaser-chevron {
+    transform: rotate(180deg);
+  }
+
+  .cb-teaser-text {
+    pointer-events: none;
+  }
+
+  .cb-teaser-chevron {
+    font-size: 1.1rem;
+    transition: transform 0.2s;
+    color: #e2a730;
+    pointer-events: none;
+  }
+
+  /* ── Panel ── */
+  .cb-panel {
+    margin-top: 1rem;
+  }
+
+  /* ── Viewport ── */
+  .cb-viewport {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #1a1a2e;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .cb-track {
+    display: flex;
+    transition: transform 0.35s ease;
+    will-change: transform;
+  }
+
+  .cb-slide {
+    flex: 0 0 100%;
+    aspect-ratio: 4 / 5;
+    container-type: inline-size;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* ── COVER SLIDE ── */
+  .cb-cover {
+    width: 100%;
+    height: 100%;
+    background: #1a1a2e;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cb-bg-circle {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(226, 167, 48, 0.12) 0%, transparent 70%);
+  }
+
+  .cb-bg-circle--1 {
+    width: 65cqw;
+    height: 65cqw;
+    top: -18.5cqw;
+    right: -18.5cqw;
+  }
+
+  .cb-bg-circle--2 {
+    width: 46cqw;
+    height: 46cqw;
+    bottom: -9.3cqw;
+    left: -14cqw;
+  }
+
+  .cb-top-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0.56cqw;
+    background: linear-gradient(90deg, #e2a730, #e2a730 60%, transparent);
+  }
+
+  .cb-cover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 7.4cqw 8.3cqw;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cb-gold-line {
+    width: 9.3cqw;
+    height: 0.46cqw;
+    background: #e2a730;
+    border-radius: 0.28cqw;
+    margin: 0 auto 3.7cqw;
+  }
+
+  .cb-subtitle {
+    font-size: 3.5cqw;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.09cqw;
+  }
+
+  /* ── CONTENT SLIDE ── */
+  .cb-content-slide {
+    width: 100%;
+    height: 100%;
+    background: #1a1a2e;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cb-bg-glow {
+    position: absolute;
+    width: 46cqw;
+    height: 46cqw;
+    background: radial-gradient(circle, rgba(226, 167, 48, 0.07) 0%, transparent 70%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+
+  .cb-content-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 7.4cqw 6.5cqw;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ── Shared elements ── */
+  .cb-icon {
+    font-size: 9.3cqw;
+    margin-bottom: 2.8cqw;
+    line-height: 1;
+  }
+
+  .cb-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.15;
+    color: #fff;
+  }
+
+  .cb-title--cover {
+    font-size: 7cqw;
+    margin-bottom: 4.2cqw;
+    letter-spacing: -0.09cqw;
+    max-width: 83cqw;
+  }
+
+  .cb-title--content {
+    font-size: 5.2cqw;
+    margin-bottom: 4.6cqw;
+  }
+
+  .cb-title :global(.cb-gold) {
+    color: #e2a730;
+  }
+
+  .cb-step-badge {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2.6cqw;
+    color: #1a1a2e;
+    background: #e2a730;
+    padding: 0.93cqw 3.24cqw;
+    border-radius: 4.6cqw;
+    margin-bottom: 3.24cqw;
+    letter-spacing: 0.19cqw;
+    text-transform: uppercase;
+  }
+
+  /* ── Info card ── */
+  .cb-info-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 0.37cqw solid #e2a730;
+    border-radius: 1.85cqw;
+    padding: 3.7cqw 4.6cqw;
+    width: 81.5cqw;
+  }
+
+  .cb-info-text {
+    font-size: 2.96cqw;
+    font-weight: 500;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .cb-info-text :global(.cb-gold) {
+    color: #e2a730;
+    font-weight: 700;
+  }
+
+  /* ── Amount card (slide 3) ── */
+  .cb-amount-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 2.6cqw;
+    padding: 5.1cqw 7.4cqw;
+    width: 74cqw;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cb-amount-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 11.1cqw;
+    height: 0.37cqw;
+    background: #e2a730;
+    border-radius: 0 0 0.37cqw 0.37cqw;
+  }
+
+  .cb-amount-label {
+    font-size: 2cqw;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.45);
+    text-transform: uppercase;
+    letter-spacing: 0.28cqw;
+    margin-bottom: 1.1cqw;
+  }
+
+  .cb-amount-big {
+    font-family: 'Fraunces', serif;
+    font-size: 8.9cqw;
+    font-weight: 900;
+    color: #e2a730;
+    line-height: 1;
+    margin-bottom: 0.93cqw;
+  }
+
+  .cb-amount-sub {
+    font-size: 2.6cqw;
+    color: rgba(226, 167, 48, 0.6);
+    font-weight: 500;
+    margin-bottom: 3.24cqw;
+  }
+
+  .cb-amount-divider {
+    width: 5.6cqw;
+    height: 0.19cqw;
+    background: rgba(255, 255, 255, 0.12);
+    margin: 0 auto 3.24cqw;
+  }
+
+  .cb-amount-note {
+    font-size: 2.78cqw;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+  }
+
+  .cb-amount-note :global(.cb-gold) {
+    color: #e2a730;
+    font-weight: 700;
+  }
+
+  /* ── Step cards (slide 5) ── */
+  .cb-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 2cqw;
+    width: 83cqw;
+  }
+
+  .cb-step-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1.85cqw;
+    padding: 2.96cqw 3.7cqw;
+    display: flex;
+    align-items: center;
+    gap: 2.2cqw;
+  }
+
+  .cb-step-card--1 { border-left: 0.37cqw solid #e2a730; }
+  .cb-step-card--2 { border-left: 0.37cqw solid rgba(226, 167, 48, 0.75); }
+  .cb-step-card--3 { border-left: 0.37cqw solid rgba(226, 167, 48, 0.55); }
+
+  .cb-step-num {
+    font-family: 'Fraunces', serif;
+    font-size: 3.33cqw;
+    font-weight: 900;
+    color: #e2a730;
+    flex-shrink: 0;
+    width: 5.1cqw;
+    text-align: center;
+  }
+
+  .cb-step-text {
+    font-size: 2.78cqw;
+    font-weight: 500;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  /* ── Time badge ── */
+  .cb-time-badge {
+    margin-top: 3.7cqw;
+    background: rgba(226, 167, 48, 0.08);
+    border: 1px solid rgba(226, 167, 48, 0.2);
+    border-radius: 4.6cqw;
+    padding: 1.67cqw 4.2cqw;
+    text-align: center;
+  }
+
+  .cb-time-badge p {
+    font-size: 2.6cqw;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .cb-time-badge :global(.cb-gold) {
+    color: #e2a730;
+    font-weight: 700;
+  }
+
+  /* ── Tip card ── */
+  .cb-tip-card {
+    margin-top: 2.78cqw;
+    background: rgba(226, 167, 48, 0.08);
+    border: 1px solid rgba(226, 167, 48, 0.2);
+    border-radius: 1.85cqw;
+    padding: 3.24cqw 4.6cqw;
+    width: 81.5cqw;
+    display: flex;
+    align-items: center;
+    gap: 2.2cqw;
+  }
+
+  .cb-tip-icon {
+    font-size: 4.6cqw;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+
+  .cb-tip-text {
+    font-size: 2.6cqw;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.45;
+  }
+
+  .cb-tip-text :global(.cb-gold) {
+    color: #e2a730;
+    font-weight: 700;
+  }
+
+  /* ── Affiliate link ── */
+  .cb-affiliate-link {
+    display: inline-block;
+    margin-top: 2.78cqw;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2.6cqw;
+    color: #e2a730;
+    background: rgba(226, 167, 48, 0.1);
+    border: 1px solid rgba(226, 167, 48, 0.3);
+    padding: 1.3cqw 3.7cqw;
+    border-radius: 4.6cqw;
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s;
+  }
+
+  .cb-affiliate-link:hover {
+    background: rgba(226, 167, 48, 0.18);
+    border-color: rgba(226, 167, 48, 0.5);
+  }
+
+  /* ── Checkmark ── */
+  .cb-checkmark-area {
+    margin-top: 4.6cqw;
+    text-align: center;
+  }
+
+  .cb-checkmark {
+    font-size: 5.6cqw;
+    color: #e2a730;
+    line-height: 1;
+  }
+
+  .cb-check-text {
+    margin-top: 1.4cqw;
+    font-family: 'Fraunces', serif;
+    font-size: 3.15cqw;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* ── CTA SLIDE ── */
+  .cb-cta-slide {
+    width: 100%;
+    height: 100%;
+    background: #e2a730;
+    color: #1a1a2e;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cb-cta-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: radial-gradient(rgba(26, 26, 46, 0.04) 1px, transparent 1px);
+    background-size: 2.78cqw 2.78cqw;
+  }
+
+  .cb-cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 7.4cqw 8.3cqw;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cb-icon--cta {
+    font-size: 10.2cqw;
+    margin-bottom: 4.6cqw;
+  }
+
+  .cb-title--cta {
+    font-size: 6.7cqw;
+    line-height: 1.12;
+    margin-bottom: 4.6cqw;
+    color: #1a1a2e;
+  }
+
+  .cb-title--cta :global(.cb-gold) {
+    display: inline-block;
+    background: #1a1a2e;
+    color: #e2a730;
+    padding: 0.56cqw 2.2cqw;
+    border-radius: 1.1cqw;
+    margin: 0 0.37cqw;
+  }
+
+  .cb-cta-divider {
+    width: 7.4cqw;
+    height: 0.46cqw;
+    background: rgba(26, 26, 46, 0.2);
+    border-radius: 0.28cqw;
+    margin: 0 auto 4.2cqw;
+  }
+
+  .cb-cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6cqw;
+    align-items: center;
+  }
+
+  .cb-cta-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(26, 26, 46, 0.1);
+    padding: 2cqw 4.6cqw;
+    border-radius: 1.85cqw;
+    border: 0.28cqw solid rgba(26, 26, 46, 0.2);
+    text-decoration: none;
+    color: #1a1a2e;
+    transition: background 0.2s;
+  }
+
+  a.cb-cta-btn:hover {
+    background: rgba(26, 26, 46, 0.18);
+  }
+
+  .cb-cta-btn-text {
+    font-family: 'Fraunces', serif;
+    font-size: 3.33cqw;
+    font-weight: 900;
+  }
+
+  .cb-cta-btn-sub {
+    font-size: 2.4cqw;
+    font-weight: 500;
+    color: rgba(26, 26, 46, 0.6);
+    margin-top: 0.46cqw;
+  }
+
+  /* ── Navigation ── */
+  .cb-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cb-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.04);
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    flex-shrink: 0;
+  }
+
+  .cb-arrow:hover:not(:disabled) {
+    border-color: rgba(226, 167, 48, 0.4);
+    background: rgba(226, 167, 48, 0.08);
+    color: #e2a730;
+  }
+
+  .cb-arrow:disabled {
+    opacity: 0.3;
+    cursor: default;
+  }
+
+  .cb-dots {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .cb-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    padding: 0;
+    transition: background 0.2s, transform 0.2s;
+  }
+
+  .cb-dot--active {
+    background: #e2a730;
+    transform: scale(1.3);
+  }
+
+  .cb-dot:hover:not(.cb-dot--active) {
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  /* ── Mobile: full bleed ── */
+  @media (max-width: 640px) {
+    .cb-viewport {
+      max-width: none;
+      margin-left: -1rem;
+      margin-right: -1rem;
+      border-radius: 0;
+      border-left: none;
+      border-right: none;
+    }
+
+    .cb-nav {
+      max-width: none;
+    }
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.cb-wrapper').forEach((wrapper) => {
+    const teaser = wrapper.querySelector<HTMLButtonElement>('.cb-teaser')!;
+    const panel = wrapper.querySelector<HTMLElement>('.cb-panel')!;
+    const track = wrapper.querySelector<HTMLElement>('.cb-track')!;
+    const dots = wrapper.querySelectorAll<HTMLButtonElement>('.cb-dot');
+    const prevBtn = wrapper.querySelector<HTMLButtonElement>('.cb-arrow--prev')!;
+    const nextBtn = wrapper.querySelector<HTMLButtonElement>('.cb-arrow--next')!;
+    const total = dots.length;
+    let current = 0;
+
+    function goTo(index: number) {
+      if (index < 0 || index >= total) return;
+      current = index;
+      track.style.transform = `translateX(-${current * 100}%)`;
+
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('cb-dot--active', i === current);
+        dot.setAttribute('aria-selected', i === current ? 'true' : 'false');
+      });
+
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === total - 1;
+    }
+
+    // Teaser toggle
+    teaser.addEventListener('click', () => {
+      const expanded = teaser.getAttribute('aria-expanded') === 'true';
+      teaser.setAttribute('aria-expanded', String(!expanded));
+      panel.hidden = expanded;
+    });
+
+    // Arrow clicks
+    prevBtn.addEventListener('click', () => goTo(current - 1));
+    nextBtn.addEventListener('click', () => goTo(current + 1));
+
+    // Dot clicks
+    dots.forEach((dot) => {
+      dot.addEventListener('click', () => {
+        goTo(Number(dot.dataset.index));
+      });
+    });
+
+    // Keyboard navigation
+    wrapper.addEventListener('keydown', (e: KeyboardEvent) => {
+      if (panel.hidden) return;
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        goTo(current - 1);
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        goTo(current + 1);
+      }
+    });
+
+    // Touch swipe
+    let touchStartX = 0;
+    let touchStartY = 0;
+
+    track.addEventListener('touchstart', (e: TouchEvent) => {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+
+    track.addEventListener('touchend', (e: TouchEvent) => {
+      const dx = e.changedTouches[0].clientX - touchStartX;
+      const dy = e.changedTouches[0].clientY - touchStartY;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+        if (dx < 0) goTo(current + 1);
+        else goTo(current - 1);
+      }
+    }, { passive: true });
+  });
+</script>
