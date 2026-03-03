@@ -98,6 +98,8 @@ Con [Expatrio](https://www.expatrio.com?p=rutaalemania), el proceso suele ser:
 
 Si aún no tienes cuenta bancaria alemana, puedes vincular una cuenta online como **N26** o **Vivid Money** temporalmente.
 
+<a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Activa tu Sperrkonto con Expatrio</a>
+
 ---
 
 ### Días 3-7: Abrir una cuenta bancaria
@@ -125,6 +127,8 @@ Necesitas una cuenta bancaria alemana para:
 
 > ✅ **Buena noticia:** Para transferir dinero desde tu país a tu nueva cuenta alemana, usa [Wise](https://wise.prf.hn/click/camref:1110lAp2W). Ofrece el tipo de cambio real del mercado con comisiones mínimas. La diferencia frente a una transferencia bancaria tradicional puede ser de 30-100 € por cada transferencia.
 
+<a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Ahorra en comisiones con Wise</a>
+
 ---
 
 ### Días 5-7: Seguro médico
@@ -146,6 +150,8 @@ El seguro médico es **obligatorio** en Alemania. Sin él, no puedes firmar form
 Recibirás una **tarjeta del seguro (Gesundheitskarte)** por correo en 2-4 semanas.
 
 > 📌 **Recuerda:** No esperes a tener la tarjeta física para ir al médico. Con el número de afiliado ya puedes pedir cita.
+
+<a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Seguro médico temporal con Expatrio</a>
 
 ---
 
