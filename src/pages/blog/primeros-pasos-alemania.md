@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/BlogLayout.astro
+carousel: "primeros30dias"
 title: "Tus primeros 30 días en Alemania: checklist completa"
 description: "Guía paso a paso de todo lo que debes hacer en tus primeros 30 días en Alemania: Anmeldung, cuenta bancaria, seguro médico, Tax ID y más."
 date: "2026-02-14"

@@ -9,6 +9,7 @@ const { carouselId } = Astro.props;
 
 const carouselMap: Record<string, () => Promise<{ default: CarouselSlide[] }>> = {
   sperrkonto: () => import('../data/carousels/sperrkonto.ts'),
+  primeros30dias: () => import('../data/carousels/primeros30dias.ts'),
 };
 
 const loader = carouselMap[carouselId];
