@@ -144,9 +144,11 @@ Si necesitas alemán rápido (y lo necesitas), estas son las estrategias que fun
 
 ### Clases online con profesor
 
-La forma más eficiente para llegar a B1-B2 en poco tiempo. [Lingoda](https://www.lingoda.com[AFILIADO_LINGODA]) ofrece clases en grupo pequeño (máximo 5 personas) con profesores nativos, disponibles 24/7.
+La forma más eficiente para llegar a B1-B2 en poco tiempo. [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrece clases en grupo pequeño (máximo 5 personas) con profesores nativos, disponibles 24/7.
 
 Puedes tomar varias clases al día si tienes prisa. Lo que me gusta de Lingoda es que **están enfocados en conversación real**, no en rellenar huecos en un libro.
+
+<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Aprende alemán con Lingoda</a>
 
 ### Inmersión con apps estructuradas
 
@@ -209,7 +211,7 @@ Pero incluso en esos sectores, **el alemán te abrirá puertas que ni sabías qu
 
 > 📌 **Recuerda:** No uses "puedo trabajar sin alemán" como excusa para no aprenderlo. Úsalo como trampolín: ven, empieza a trabajar, y mientras tanto invierte en el idioma.
 
-Es la mejor inversión que harás en tu vida profesional en Alemania. Y si aún no has empezado, hoy es el mejor día. [Lingoda](https://www.lingoda.com[AFILIADO_LINGODA]) te permite tomar una clase de prueba gratuita para ver si te convence el formato.
+Es la mejor inversión que harás en tu vida profesional en Alemania. Y si aún no has empezado, hoy es el mejor día. [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) te permite tomar una clase de prueba gratuita para ver si te convence el formato.
 
 ---
 

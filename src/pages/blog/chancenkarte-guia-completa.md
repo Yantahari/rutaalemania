@@ -177,7 +177,7 @@ Aquí va un desglose realista de lo que necesitas económicamente:
 - Incluye seguro médico opcional
 - Soporte en inglés y español
 
-**Para la certificación de alemán**, plataformas como [Lingoda](https://www.lingoda.com[AFILIADO_LINGODA]) ofrecen cursos intensivos con certificado oficial que puedes usar para la solicitud de visa. Puedes **preparar tu A1 o B1 en pocos meses**.
+**Para la certificación de alemán**, plataformas como [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrecen cursos intensivos con certificado oficial que puedes usar para la solicitud de visa. Puedes **preparar tu A1 o B1 en pocos meses**.
 
 ---
 
@@ -191,7 +191,9 @@ Antes de hacer cualquier cosa, **confirma que cumples los requisitos**. Usa nues
 
 Si aún no tienes un certificado de alemán o inglés, este es el momento de obtenerlo. Para el nivel A1 de alemán, necesitarás **entre 2 y 4 meses de estudio**.
 
-[Lingoda](https://www.lingoda.com[AFILIADO_LINGODA]) ofrece clases en grupo e individuales con profesores nativos que te preparan específicamente para los exámenes oficiales.
+[Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrece clases en grupo e individuales con profesores nativos que te preparan específicamente para los exámenes oficiales.
+
+<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Aprende alemán con Lingoda</a>
 
 ### Paso 3: Inicia el reconocimiento de tu título (si es necesario)
 

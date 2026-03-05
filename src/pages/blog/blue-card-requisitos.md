@@ -114,7 +114,7 @@ La Blue Card no es solo un permiso de trabajo. Sus **ventajas son significativam
 
 Compara esto con el permiso de trabajo normal, que requiere **5 años** para acceder a la residencia permanente. La diferencia es enorme.
 
-> 💡 **Consejo:** Invertir en aprender alemán vale la pena. Con un nivel B1 puedes obtener tu residencia permanente en menos de 2 años. Plataformas como [Lingoda]([AFILIADO_LINGODA]) ofrecen cursos intensivos de alemán online con profesores nativos, ideales para preparar tu certificación mientras trabajas.
+> 💡 **Consejo:** Invertir en aprender alemán vale la pena. Con un nivel B1 puedes obtener tu residencia permanente en menos de 2 años. Plataformas como [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrecen cursos intensivos de alemán online con profesores nativos, ideales para preparar tu certificación mientras trabajas.
 
 ---
 
@@ -257,7 +257,9 @@ No. La Blue Card es exclusivamente para **trabajo por cuenta ajena**. Si quieres
 - Integrarte en la vida diaria
 - Mejorar tus oportunidades laborales a largo plazo
 
-> 💡 **Consejo:** [Lingoda]([AFILIADO_LINGODA]) ofrece cursos de alemán online desde nivel A1, con clases en grupos pequeños y horarios flexibles que se adaptan a tu jornada laboral.
+> 💡 **Consejo:** [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrece cursos de alemán online desde nivel A1, con clases en grupos pequeños y horarios flexibles que se adaptan a tu jornada laboral.
+
+<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Aprende alemán con Lingoda</a>
 
 ---
 

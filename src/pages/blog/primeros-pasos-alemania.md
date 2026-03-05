@@ -182,10 +182,12 @@ Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguie
 
 - **Integrationskurs (curso de integración):** Subvencionado por el gobierno para ciertos perfiles (reagrupación familiar, refugiados, algunos visados). Pregunta en tu Ausländerbehörde si tienes derecho. Cuesta ~2,29 € por hora lectiva (o gratuito si recibes ayudas sociales).
 - **VHS (Volkshochschule):** Las escuelas populares de cada ciudad ofrecen cursos de alemán a precios muy accesibles (100-300 € por trimestre).
-- **[Lingoda]([AFILIADO_LINGODA]):** Clases online en vivo con profesores nativos, en grupos pequeños, con horarios flexibles que se adaptan a tu jornada laboral. **Ideal si ya estás trabajando** y no puedes asistir a clases presenciales en horario fijo.
+- **[Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48):** Clases online en vivo con profesores nativos, en grupos pequeños, con horarios flexibles que se adaptan a tu jornada laboral. **Ideal si ya estás trabajando** y no puedes asistir a clases presenciales en horario fijo.
 - **Goethe-Institut:** Cursos presenciales de alta calidad, pero más caros (600-1.200 € por nivel).
 
 > 🔑 **Clave:** El alemán es una inversión a largo plazo. Cuanto antes empieces, antes verás resultados en tu vida diaria, tu carrera y tu integración.
+
+<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Aprende alemán con Lingoda</a>
 
 ---
 
@@ -340,7 +342,7 @@ Aquí tienes todo condensado en una lista que puedes usar como referencia rápid
 - [ ] Verificar que se ha solicitado tu Steueridentifikationsnummer
 - [ ] Si no llega, contactar al BZSt o ir al Finanzamt
 - [ ] Comunicar tu Steuer-ID a tu empleador
-- [ ] Inscribirte en un curso de alemán ([Lingoda]([AFILIADO_LINGODA]), VHS, Integrationskurs)
+- [ ] Inscribirte en un curso de alemán ([Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48), VHS, Integrationskurs)
 - [ ] Registrarte en la Agentur für Arbeit (si buscas empleo)
 - [ ] Solicitar cita en la Ausländerbehörde para el permiso de residencia
 - [ ] Pedir la Schufa-Auskunft (la necesitarás para alquilar)

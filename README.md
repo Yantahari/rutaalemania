@@ -149,7 +149,7 @@ Busca y reemplaza estos textos en los archivos `.astro`:
 | Placeholder | Reemplazar por | Archivos donde aparece |
 |---|---|---|
 | `#AFILIADO_EXPATRIO` | Tu enlace de afiliado de Expatrio | Calculadora, Simulador, Recursos |
-| `#AFILIADO_LINGODA` | Tu enlace de afiliado de Lingoda | Calculadora, Simulador, Recursos |
+| `#AFILIADO_LINGODA` | ✅ `https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48` | Calculadora, Simulador, Recursos |
 | `https://wise.prf.hn/click/camref:1110lAp2W` | Tu enlace de afiliado de Wise | Calculadora, Simulador, Recursos |
 | `#AFILIADO_LINGOKING` | Tu enlace de afiliado de Lingoking | Recursos |
 
@@ -160,7 +160,7 @@ Busca y reemplaza en los archivos `.md`:
 | Placeholder | Reemplazar por |
 |---|---|
 | `[AFILIADO_EXPATRIO]` | Tu enlace de Expatrio (ej. `?ref=rutaalemania`) |
-| `[AFILIADO_LINGODA]` | Tu enlace de Lingoda |
+| `[AFILIADO_LINGODA]` | ✅ `https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48` |
 | `https://wise.prf.hn/click/camref:1110lAp2W` | Tu enlace de Wise |
 | `[AFILIADO_LINGOKING]` | Tu enlace de Lingoking |
 

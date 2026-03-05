@@ -232,7 +232,9 @@ En Alemania, el CV **nunca va solo**. Siempre se acompaña de un **Anschreiben**
 - **No repitas el CV.** La carta explica el "por qué", no el "qué".
 - **Si lo escribes en alemán**, que alguien nativo lo revise. Un error gramatical en el Anschreiben es peor que no enviar carta.
 
-> 💡 **Consejo:** Si tu alemán aún no llega para escribir un Anschreiben perfecto, considera usar [Lingoda](https://www.lingoda.com[AFILIADO_LINGODA]) para mejorar tu nivel de escritura formal en alemán. Las clases individuales son ideales para practicar este tipo de textos.
+> 💡 **Consejo:** Si tu alemán aún no llega para escribir un Anschreiben perfecto, considera usar [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) para mejorar tu nivel de escritura formal en alemán. Las clases individuales son ideales para practicar este tipo de textos.
+
+<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Aprende alemán con Lingoda</a>
 
 ---
 

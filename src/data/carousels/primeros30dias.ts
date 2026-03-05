@@ -62,7 +62,7 @@ const slides: CarouselSlide[] = [
     title: '<span class="cb-gold">Semana 2:</span> Lo importante',
     steps: [
       { num: '1', text: 'Espera tu Steuer-ID (número fiscal)' },
-      { num: '2', text: 'Empieza un curso de alemán' },
+      { num: '2', text: 'Empieza un curso de alemán (Lingoda)' },
       { num: '3', text: 'Pide cita en Ausländerbehörde' },
     ],
   },
