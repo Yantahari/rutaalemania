@@ -11,6 +11,7 @@ const carouselMap: Record<string, () => Promise<{ default: CarouselSlide[] }>> =
   sperrkonto: () => import('../data/carousels/sperrkonto.ts'),
   primeros30dias: () => import('../data/carousels/primeros30dias.ts'),
   seguromedico: () => import('../data/carousels/seguromedico.ts'),
+  anerkennung: () => import('../data/carousels/anerkennung.ts'),
 };
 
 const loader = carouselMap[carouselId];

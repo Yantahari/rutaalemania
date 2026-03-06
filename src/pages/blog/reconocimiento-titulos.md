@@ -4,6 +4,7 @@ title: "Cómo homologar tu título universitario en Alemania (Anerkennung)"
 description: "Guía completa para el reconocimiento de títulos en Alemania: Anabin, autoridades competentes, documentos, costes, plazos y qué hacer si recibes un reconocimiento parcial."
 date: "2026-02-20"
 keywords: "homologar titulo en alemania, anerkennung alemania, reconocimiento titulo alemania"
+carousel: "anerkennung"
 ---
 
 El reconocimiento de tu título extranjero en Alemania (*Anerkennung*) es probablemente **el trámite que más confusión genera** entre quienes quieren trabajar en el país. Y es comprensible: el sistema es complejo, con múltiples autoridades, bases de datos y procedimientos que varían según tu profesión y el estado federado donde quieras ejercer.
