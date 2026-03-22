@@ -9,127 +9,156 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   noindex={true}
   hideNewsletter={true}
 >
-  <section class="min-h-screen flex items-center justify-center py-12 px-4">
+  <section class="min-h-screen flex items-center justify-center py-10 px-4">
     <div class="w-full max-w-md">
-      <!-- Header -->
-      <div class="text-center mb-10">
-        <p class="text-4xl mb-3">🇩🇪</p>
-        <h1 class="text-2xl md:text-3xl font-heading font-bold">
-          Ruta<span class="text-amber-light">Alemania</span>
+
+      <!-- Logo + Tagline -->
+      <div class="text-center mb-8">
+        <img
+          src="/logo-rutaalemania.png"
+          alt="RutaAlemania"
+          width="96"
+          height="96"
+          class="mx-auto rounded-2xl mb-4"
+        />
+        <h1 class="text-2xl font-heading font-bold">
+          <span class="text-amber">Ruta</span>Alemania
         </h1>
-        <p class="text-white/50 text-sm mt-2">Tu guía para trabajar en Alemania</p>
+        <p class="text-white/50 text-sm mt-1.5">Tu guía para emigrar a Alemania</p>
       </div>
 
-      <!-- Links -->
-      <div class="space-y-3">
-        <!-- Tools -->
-        <a href="/#calculadora" class="link-btn">
-          <span class="link-icon">📋</span>
-          <span>Calculadora Chancenkarte <span class="text-amber text-xs ml-1">GRATIS</span></span>
+      <!-- CTA principal -->
+      <a href="https://rutaalemania.com" class="links-cta">
+        rutaalemania.com
+      </a>
+
+      <!-- Redes sociales -->
+      <div class="links-divider">
+        <div class="flex-1 h-px bg-white/10"></div>
+        <span class="text-white/30 text-xs uppercase tracking-widest">Redes sociales</span>
+        <div class="flex-1 h-px bg-white/10"></div>
+      </div>
+
+      <div class="space-y-2.5">
+        <a href="https://www.instagram.com/ruta_alemania/" target="_blank" rel="noopener noreferrer" class="link-btn link-btn--social">
+          <img src="/logos/instagram.png" alt="Instagram" width="24" height="24" class="link-logo" />
+          <span class="flex-1">Instagram</span>
+          <span class="link-handle">@ruta_alemania</span>
         </a>
-
-        <a href="/#simulador" class="link-btn">
-          <span class="link-icon">💰</span>
-          <span>Simulador de costo de vida</span>
+        <a href="https://www.tiktok.com/@rutaalemania" target="_blank" rel="noopener noreferrer" class="link-btn link-btn--social">
+          <img src="/logos/tiktok.png" alt="TikTok" width="24" height="24" class="link-logo" />
+          <span class="flex-1">TikTok</span>
+          <span class="link-handle">@rutaalemania</span>
         </a>
-
-        <!-- Divider -->
-        <div class="flex items-center gap-3 py-2">
-          <div class="flex-1 h-px bg-white/10"></div>
-          <span class="text-white/30 text-xs uppercase tracking-widest">Guías populares</span>
-          <div class="flex-1 h-px bg-white/10"></div>
-        </div>
-
-        <!-- Top articles -->
-        <a href="/blog/chancenkarte-guia-completa/" class="link-btn">
-          <span class="link-icon">🎫</span>
-          <span>Chancenkarte: Guía completa 2026</span>
+        <a href="https://www.youtube.com/@Ruta_Alemania" target="_blank" rel="noopener noreferrer" class="link-btn link-btn--social">
+          <img src="/logos/youtube.png" alt="YouTube" width="24" height="24" class="link-logo" />
+          <span class="flex-1">YouTube</span>
+          <span class="link-handle">@Ruta_Alemania</span>
         </a>
-
-        <a href="/blog/primeros-pasos-alemania/" class="link-btn">
-          <span class="link-icon">✈️</span>
-          <span>Primeros 30 días en Alemania</span>
+        <a href="https://www.facebook.com/profile.php?id=61588503670569" target="_blank" rel="noopener noreferrer" class="link-btn link-btn--social">
+          <img src="/logos/facebook.png" alt="Facebook" width="24" height="24" class="link-logo" />
+          <span class="flex-1">Facebook</span>
+          <span class="link-handle">RutaAlemania</span>
         </a>
-
-        <a href="/blog/cuanto-cuesta-vivir-en-alemania/" class="link-btn">
-          <span class="link-icon">💶</span>
-          <span>¿Cuánto cuesta vivir en Alemania?</span>
+        <a href="https://x.com/RutaAlemania" target="_blank" rel="noopener noreferrer" class="link-btn link-btn--social">
+          <img src="/logos/x.svg" alt="X" width="20" height="20" class="link-logo" />
+          <span class="flex-1">X / Twitter</span>
+          <span class="link-handle">@RutaAlemania</span>
         </a>
-
-        <!-- Divider -->
-        <div class="flex items-center gap-3 py-2">
-          <div class="flex-1 h-px bg-white/10"></div>
-          <span class="text-white/30 text-xs uppercase tracking-widest">Recomendados</span>
-          <div class="flex-1 h-px bg-white/10"></div>
-        </div>
-
-        <a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="link-btn">
-          <span class="link-icon">📚</span>
-          <span>Aprende alemán con Lingoda <span class="text-amber text-xs ml-1">AFILIADO</span></span>
+        <a href="https://whatsapp.com/channel/0029VbBz8ru9mrGU3KQWwk03" target="_blank" rel="noopener noreferrer" class="link-btn link-btn--social">
+          <img src="/logos/whatsapp.svg" alt="WhatsApp" width="24" height="24" class="link-logo" />
+          <span class="flex-1">WhatsApp</span>
+          <span class="link-handle">Canal</span>
         </a>
-
-        <a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="link-btn">
-          <span class="link-icon">🏦</span>
-          <span>Abre tu Sperrkonto con Expatrio <span class="text-amber text-xs ml-1">AFILIADO</span></span>
+        <a href="https://t.me/rutaalemania" target="_blank" rel="noopener noreferrer" class="link-btn link-btn--social">
+          <img src="/logos/telegram.svg" alt="Telegram" width="24" height="24" class="link-logo" />
+          <span class="flex-1">Telegram</span>
+          <span class="link-handle">@rutaalemania</span>
         </a>
+      </div>
 
-        <a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="link-btn">
-          <span class="link-icon">💸</span>
-          <span>Transfiere con Wise <span class="text-amber text-xs ml-1">AFILIADO</span></span>
+      <!-- Afiliados -->
+      <div class="links-divider">
+        <div class="flex-1 h-px bg-white/10"></div>
+        <span class="text-white/30 text-xs uppercase tracking-widest">Recomendados</span>
+        <div class="flex-1 h-px bg-white/10"></div>
+      </div>
+
+      <div class="space-y-2.5">
+        <a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="link-btn link-btn--expatrio">
+          <img src="/logos/expatrio-icon.png" alt="Expatrio" width="28" height="28" class="link-logo link-logo--affiliate" />
+          <span class="flex-1">
+            <span class="block font-semibold">Expatrio</span>
+            <span class="block text-xs opacity-60">Abre tu Sperrkonto</span>
+          </span>
+          <span class="link-badge link-badge--expatrio">Afiliado</span>
         </a>
-
-        <!-- Divider -->
-        <div class="flex items-center gap-3 py-2">
-          <div class="flex-1 h-px bg-white/10"></div>
-          <span class="text-white/30 text-xs uppercase tracking-widest">Comunidad</span>
-          <div class="flex-1 h-px bg-white/10"></div>
-        </div>
-
-        <!-- Social / community -->
-        <a href="https://chat.whatsapp.com/rutaalemania" target="_blank" rel="noopener" class="link-btn link-btn--green">
-          <span class="link-icon">💬</span>
-          <span>Canal de WhatsApp</span>
+        <a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="link-btn link-btn--wise">
+          <img src="/logos/wise.svg" alt="Wise" width="28" height="28" class="link-logo link-logo--affiliate link-logo--wide" />
+          <span class="flex-1">
+            <span class="block font-semibold">Wise</span>
+            <span class="block text-xs opacity-60">Transfiere dinero sin comisiones ocultas</span>
+          </span>
+          <span class="link-badge link-badge--wise">Afiliado</span>
         </a>
-
-        <a href="https://t.me/rutaalemania" target="_blank" rel="noopener" class="link-btn link-btn--blue">
-          <span class="link-icon">✈️</span>
-          <span>Canal de Telegram</span>
-        </a>
-
-        <!-- Divider -->
-        <div class="flex items-center gap-3 py-2">
-          <div class="flex-1 h-px bg-white/10"></div>
-          <span class="text-white/30 text-xs uppercase tracking-widest">Más</span>
-          <div class="flex-1 h-px bg-white/10"></div>
-        </div>
-
-        <a href="/blog/" class="link-btn">
-          <span class="link-icon">📖</span>
-          <span>Todos los artículos</span>
-        </a>
-
-        <a href="/recursos/" class="link-btn">
-          <span class="link-icon">🔗</span>
-          <span>Recursos recomendados</span>
+        <a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="link-btn link-btn--lingoda">
+          <img src="/logos/lingoda.svg" alt="Lingoda" width="28" height="28" class="link-logo link-logo--affiliate" />
+          <span class="flex-1">
+            <span class="block font-semibold">Lingoda</span>
+            <span class="block text-xs opacity-60">Aprende alemán con profesores nativos</span>
+          </span>
+          <span class="link-badge link-badge--lingoda">Afiliado</span>
         </a>
       </div>
 
       <!-- Footer -->
-      <div class="text-center mt-10">
-        <a href="/" class="text-white/30 text-xs hover:text-amber transition-colors">rutaalemania.com</a>
+      <div class="text-center mt-10 text-white/25 text-xs">
+        &copy; 2026 RutaAlemania.com
       </div>
+
     </div>
   </section>
 </BaseLayout>
 
 <style>
+  /* CTA principal dorado */
+  .links-cta {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    background: #e2a730;
+    color: #1a1a2e;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    border-radius: 0.875rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 20px rgba(226, 167, 48, 0.25);
+  }
+  .links-cta:hover {
+    background: #f0b840;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 28px rgba(226, 167, 48, 0.35);
+  }
+
+  /* Divider */
+  .links-divider {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.25rem 0 0.75rem;
+  }
+
+  /* Base button */
   .link-btn {
     display: flex;
     align-items: center;
     gap: 0.75rem;
     width: 100%;
-    padding: 0.875rem 1.25rem;
-    background: rgba(255, 255, 255, 0.05);
+    padding: 0.8rem 1rem;
+    background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 0.75rem;
     color: #fff;
@@ -139,22 +168,73 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     transition: all 0.2s ease;
   }
   .link-btn:hover {
-    background: rgba(226, 167, 48, 0.1);
-    border-color: rgba(226, 167, 48, 0.3);
     transform: translateY(-1px);
   }
-  .link-btn--green:hover {
-    background: rgba(37, 211, 102, 0.1);
-    border-color: rgba(37, 211, 102, 0.3);
+
+  /* Social buttons */
+  .link-btn--social:hover {
+    background: rgba(226, 167, 48, 0.08);
+    border-color: rgba(226, 167, 48, 0.25);
   }
-  .link-btn--blue:hover {
-    background: rgba(0, 136, 204, 0.1);
-    border-color: rgba(0, 136, 204, 0.3);
-  }
-  .link-icon {
-    font-size: 1.25rem;
+  .link-logo {
     flex-shrink: 0;
-    width: 2rem;
-    text-align: center;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+  .link-logo--affiliate {
+    width: 28px;
+    height: 28px;
+    border-radius: 0.375rem;
+  }
+  .link-logo--wide {
+    width: 48px;
+    height: 28px;
+  }
+  .link-handle {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.35);
+    flex-shrink: 0;
+  }
+
+  /* Badge base */
+  .link-badge {
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.375rem;
+    flex-shrink: 0;
+  }
+
+  /* Expatrio — teal/green brand */
+  .link-btn--expatrio:hover {
+    background: rgba(0, 186, 173, 0.08);
+    border-color: rgba(0, 186, 173, 0.3);
+  }
+  .link-badge--expatrio {
+    background: rgba(0, 186, 173, 0.15);
+    color: #00baad;
+  }
+
+  /* Wise — bright green brand */
+  .link-btn--wise:hover {
+    background: rgba(159, 232, 112, 0.08);
+    border-color: rgba(159, 232, 112, 0.3);
+  }
+  .link-badge--wise {
+    background: rgba(159, 232, 112, 0.15);
+    color: #9fe870;
+  }
+
+  /* Lingoda — purple brand */
+  .link-btn--lingoda:hover {
+    background: rgba(124, 58, 237, 0.08);
+    border-color: rgba(124, 58, 237, 0.3);
+  }
+  .link-badge--lingoda {
+    background: rgba(124, 58, 237, 0.15);
+    color: #a78bfa;
   }
 </style>

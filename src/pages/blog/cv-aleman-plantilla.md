@@ -234,7 +234,7 @@ En Alemania, el CV **nunca va solo**. Siempre se acompaña de un **Anschreiben**
 
 > 💡 **Consejo:** Si tu alemán aún no llega para escribir un Anschreiben perfecto, considera usar [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) para mejorar tu nivel de escritura formal en alemán. Las clases individuales son ideales para practicar este tipo de textos.
 
-<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Aprende alemán con Lingoda</a>
+<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
 
 ---
 

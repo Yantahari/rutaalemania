@@ -116,7 +116,7 @@ Deutsche Bank es la opción más barata en comisiones, pero **el proceso es sign
 
 > 💡 **Consejo:** Cuando estás gestionando una visa, la rapidez y la fiabilidad valen mucho más que ahorrar 15 EUR al año.
 
-<a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Abre tu Sperrkonto con Expatrio</a>
+<a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Abre tu Sperrkonto con Expatrio</a>
 
 ---
 
@@ -215,7 +215,7 @@ Para una transferencia de 12.324 EUR, la diferencia entre usar Wise y tu banco p
 
 > ⚠️ **Importante:** Incluye siempre la referencia de pago. Sin ella, Expatrio no puede identificar tu transferencia y el proceso se retrasa.
 
-<a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Ahorra en comisiones con Wise</a>
+<a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/wise.svg" alt="" width="48" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Ahorra en comisiones con Wise</a>
 
 ---
 

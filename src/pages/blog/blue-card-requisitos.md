@@ -259,7 +259,7 @@ No. La Blue Card es exclusivamente para **trabajo por cuenta ajena**. Si quieres
 
 > 💡 **Consejo:** [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrece cursos de alemán online desde nivel A1, con clases en grupos pequeños y horarios flexibles que se adaptan a tu jornada laboral.
 
-<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Aprende alemán con Lingoda</a>
+<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
 
 ---
 

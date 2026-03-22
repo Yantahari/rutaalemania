@@ -148,7 +148,7 @@ La forma más eficiente para llegar a B1-B2 en poco tiempo. [Lingoda](https://ww
 
 Puedes tomar varias clases al día si tienes prisa. Lo que me gusta de Lingoda es que **están enfocados en conversación real**, no en rellenar huecos en un libro.
 
-<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Aprende alemán con Lingoda</a>
+<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
 
 ### Inmersión con apps estructuradas
 

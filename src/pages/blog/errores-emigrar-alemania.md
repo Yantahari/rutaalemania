@@ -39,7 +39,7 @@ La realidad es muy diferente.
 
 [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrece cursos de alemán online con profesores nativos, en grupos reducidos y con horarios flexibles. Puedes empezar desde A1 y avanzar a tu ritmo. La ventaja de las clases en vivo (frente a apps como Duolingo) es que **practicas conversación real desde el primer día**.
 
-<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Aprende alemán con Lingoda</a>
+<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
 
 > 💡 **Consejo:** Aprende al menos las frases básicas para sobrevivir la burocracia: "Ich möchte mich anmelden" (quiero registrarme), "Ich brauche einen Termin" (necesito una cita), "Können Sie das bitte wiederholen?" (¿puede repetir eso, por favor?).
 

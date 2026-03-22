@@ -64,6 +64,7 @@ const slides: CarouselSlide[] = [
     affiliateLink: {
       url: 'https://www.expatrio.com?p=rutaalemania',
       label: 'Abrir Expatrio →',
+      logo: '/logos/expatrio-icon.png',
     },
   },
   // Slide 7 — ¿Qué cubre?

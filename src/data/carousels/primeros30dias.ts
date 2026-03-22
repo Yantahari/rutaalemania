@@ -40,6 +40,7 @@ const slides: CarouselSlide[] = [
     affiliateLink: {
       url: 'https://wise.prf.hn/click/camref:1110lAp2W',
       label: 'Abrir Wise →',
+      logo: '/logos/wise.svg',
     },
   },
   // Slide 5 — Seguro médico + Sperrkonto
@@ -53,6 +54,7 @@ const slides: CarouselSlide[] = [
     affiliateLink: {
       url: 'https://www.expatrio.com?p=rutaalemania',
       label: 'Abrir Expatrio →',
+      logo: '/logos/expatrio-icon.png',
     },
   },
   // Slide 6 — Semana 2: Lo importante

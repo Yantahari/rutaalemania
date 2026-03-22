@@ -14,7 +14,7 @@ export interface CarouselSlide {
   steps?: { num: string; text: string }[];
   timeBadge?: string;
   tipCard?: { icon: string; text: string };
-  affiliateLink?: { url: string; label: string };
+  affiliateLink?: { url: string; label: string; logo?: string };
   checkmark?: string;
   ctaButtons?: { text: string; sub: string; url?: string }[];
 }
@@ -58,6 +58,7 @@ const slides: CarouselSlide[] = [
     affiliateLink: {
       url: 'https://www.expatrio.com?p=rutaalemania',
       label: 'Abrir Expatrio →',
+      logo: '/logos/expatrio-icon.png',
     },
   },
   // Slide 5 — Paso 2: Regístrate y sube documentos
@@ -88,6 +89,7 @@ const slides: CarouselSlide[] = [
     affiliateLink: {
       url: 'https://wise.prf.hn/click/camref:1110lAp2W',
       label: 'Abrir Wise →',
+      logo: '/logos/wise.svg',
     },
   },
   // Slide 7 — Paso 4: Recibe tu certificado

@@ -193,7 +193,7 @@ Si aún no tienes un certificado de alemán o inglés, este es el momento de obt
 
 [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrece clases en grupo e individuales con profesores nativos que te preparan específicamente para los exámenes oficiales.
 
-<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Aprende alemán con Lingoda</a>
+<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
 
 ### Paso 3: Inicia el reconocimiento de tu título (si es necesario)
 

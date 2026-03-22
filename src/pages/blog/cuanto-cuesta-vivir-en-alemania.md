@@ -100,7 +100,7 @@ En Alemania, **tener seguro médico es obligatorio por ley**. No puedes registra
 
 > 💡 **Consejo:** Para estudiantes y recién llegados que necesitan un seguro mientras activan todo, empresas como [Expatrio](https://www.expatrio.com?p=rutaalemania) ofrecen paquetes que incluyen seguro médico temporal junto con la cuenta bloqueada (Sperrkonto).
 
-<a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">👉 Seguro + Sperrkonto con Expatrio</a>
+<a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Seguro + Sperrkonto con Expatrio</a>
 
 ---
 
