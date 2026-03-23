@@ -72,7 +72,7 @@ Hay tres proveedores principales para abrir una Sperrkonto. Aquí va una **compa
 | **Extras** | Seguro médico opcional, guía de llegada |
 | **Ideal para** | La mayoría de solicitantes |
 
-[Expatrio](https://www.expatrio.com?p=rutaalemania) es el proveedor más popular entre quienes solicitan visado para Alemania. Su proceso es **100% online**, la interfaz es intuitiva y tienen soporte en español.
+[Expatrio](https://www.expatrio.com/?p=rutaalemania) es el proveedor más popular entre quienes solicitan visado para Alemania. Su proceso es **100% online**, la interfaz es intuitiva y tienen soporte en español.
 
 > ✅ **Buena noticia:** Es mi recomendación principal por su rapidez y facilidad de uso.
 
@@ -112,11 +112,11 @@ Deutsche Bank es la opción más barata en comisiones, pero **el proceso es sign
 
 ### Mi recomendación
 
-**Usa [Expatrio](https://www.expatrio.com?p=rutaalemania).** La diferencia de 1-2 EUR al mes en comisiones no justifica un proceso más lento o con peor soporte.
+**Usa [Expatrio](https://www.expatrio.com/?p=rutaalemania).** La diferencia de 1-2 EUR al mes en comisiones no justifica un proceso más lento o con peor soporte.
 
 > 💡 **Consejo:** Cuando estás gestionando una visa, la rapidez y la fiabilidad valen mucho más que ahorrar 15 EUR al año.
 
-<a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Abre tu Sperrkonto con Expatrio</a>
+<a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Abre tu Sperrkonto con Expatrio</a>
 
 ---
 
@@ -126,7 +126,7 @@ Aquí tienes el proceso detallado:
 
 ### Paso 1: Registrarte en Expatrio
 
-Ve a [expatrio.com](https://www.expatrio.com?p=rutaalemania) y **crea una cuenta con tu email**. Recibirás un enlace de confirmación.
+Ve a [expatrio.com](https://www.expatrio.com/?p=rutaalemania) y **crea una cuenta con tu email**. Recibirás un enlace de confirmación.
 
 ### Paso 2: Seleccionar el producto
 
@@ -308,6 +308,6 @@ Expatrio acepta solicitudes de la mayoría de países. Hay algunas restricciones
 
 ---
 
-La Sperrkonto es un trámite que parece intimidante pero que en la práctica es **bastante sencillo**. Con [Expatrio](https://www.expatrio.com?p=rutaalemania) puedes tenerla lista en menos de dos semanas, y con [Wise](https://wise.prf.hn/click/camref:1110lAp2W) te aseguras de que la transferencia sea rápida y económica.
+La Sperrkonto es un trámite que parece intimidante pero que en la práctica es **bastante sencillo**. Con [Expatrio](https://www.expatrio.com/?p=rutaalemania) puedes tenerla lista en menos de dos semanas, y con [Wise](https://wise.prf.hn/click/camref:1110lAp2W) te aseguras de que la transferencia sea rápida y económica.
 
 **¿Ya tienes tu Sperrkonto lista?** El siguiente paso es verificar si cumples los requisitos de la Chancenkarte. Usa nuestra [calculadora gratuita](/#calculadora) y descúbrelo en 2 minutos.

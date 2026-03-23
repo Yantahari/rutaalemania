@@ -148,7 +148,7 @@ Mientras tanto, tu cita en el consulado se acerca o ya pasó, y **tienes que rep
 
 ### Cómo evitarlo
 
-**Abre tu [Sperrkonto](/blog/sperrkonto-como-abrir/) como primer paso**, incluso antes de tener la cita en el consulado. [Expatrio](https://www.expatrio.com?p=rutaalemania) es la plataforma más usada por hispanohablantes para abrir el Sperrkonto de forma online, rápida y en inglés o español. El proceso es:
+**Abre tu [Sperrkonto](/blog/sperrkonto-como-abrir/) como primer paso**, incluso antes de tener la cita en el consulado. [Expatrio](https://www.expatrio.com/?p=rutaalemania) es la plataforma más usada por hispanohablantes para abrir el Sperrkonto de forma online, rápida y en inglés o español. El proceso es:
 
 1. Registro online (10 minutos)
 2. Verificación de identidad por video (15-20 minutos)
@@ -224,7 +224,7 @@ Tardé casi dos meses en regularizar todo. Dos meses de estrés innecesario que 
 Para que no te pase lo mismo, aquí tienes un resumen de lo que debes hacer **antes de subir al avión**:
 
 - [ ] Empezar a aprender alemán (mínimo A1-A2) con [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) u otra plataforma
-- [ ] Abrir el Sperrkonto con [Expatrio](https://www.expatrio.com?p=rutaalemania) (si necesitas visa)
+- [ ] Abrir el Sperrkonto con [Expatrio](https://www.expatrio.com/?p=rutaalemania) (si necesitas visa)
 - [ ] Adaptar tu CV al formato Lebenslauf alemán
 - [ ] Reservar cita en la Bürgeramt para el Anmeldung (consulta nuestra [checklist de los primeros 30 días](/blog/primeros-pasos-alemania/))
 - [ ] Investigar el sistema de seguro médico

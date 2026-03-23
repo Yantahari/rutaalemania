@@ -52,7 +52,7 @@ const slides: CarouselSlide[] = [
     cardContent:
       'El seguro es <span class="cb-gold">obligatorio</span>. Elige TK, AOK o Barmer.<br><br>Activa tu Sperrkonto con <span class="cb-gold">Expatrio</span> para liberar los fondos mensuales.',
     affiliateLink: {
-      url: 'https://www.expatrio.com?p=rutaalemania',
+      url: 'https://www.expatrio.com/?p=rutaalemania',
       label: 'Abrir Expatrio →',
       logo: '/logos/expatrio-icon.png',
     },
@@ -89,7 +89,7 @@ const slides: CarouselSlide[] = [
       {
         text: 'Abre tu Sperrkonto con Expatrio',
         sub: 'Proceso 100% online',
-        url: 'https://www.expatrio.com?p=rutaalemania',
+        url: 'https://www.expatrio.com/?p=rutaalemania',
       },
       {
         text: 'rutaalemania.com',

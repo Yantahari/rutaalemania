@@ -98,9 +98,9 @@ En Alemania, **tener seguro médico es obligatorio por ley**. No puedes registra
 
 > ⚠️ **Importante:** El seguro privado **no es recomendado** para la mayoría de emigrantes recién llegados. Volver al público después puede ser muy difícil.
 
-> 💡 **Consejo:** Para estudiantes y recién llegados que necesitan un seguro mientras activan todo, empresas como [Expatrio](https://www.expatrio.com?p=rutaalemania) ofrecen paquetes que incluyen seguro médico temporal junto con la cuenta bloqueada (Sperrkonto).
+> 💡 **Consejo:** Para estudiantes y recién llegados que necesitan un seguro mientras activan todo, empresas como [Expatrio](https://www.expatrio.com/?p=rutaalemania) ofrecen paquetes que incluyen seguro médico temporal junto con la cuenta bloqueada (Sperrkonto).
 
-<a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Seguro + Sperrkonto con Expatrio</a>
+<a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Seguro + Sperrkonto con Expatrio</a>
 
 ---
 
@@ -291,7 +291,7 @@ Esta es la pregunta del millón. Aquí va una estimación realista de lo que nec
 
 El Sperrkonto ya cubre tus primeros meses de manutención (~992 €/mes que se van liberando). Aun así, necesitarás dinero extra para la fianza y gastos iniciales. **Total recomendado: 14.000–16.000 €** (incluyendo el Sperrkonto). Si vienes con la Chancenkarte, revisa también los [costes específicos de ese visado](/blog/chancenkarte-guia-completa/).
 
-> 💡 **Consejo:** Puedes abrir tu Sperrkonto de forma rápida y segura con [Expatrio](https://www.expatrio.com?p=rutaalemania), que también ofrece seguro médico temporal incluido.
+> 💡 **Consejo:** Puedes abrir tu Sperrkonto de forma rápida y segura con [Expatrio](https://www.expatrio.com/?p=rutaalemania), que también ofrece seguro médico temporal incluido.
 
 **Si vienes de la UE (no necesitas visa ni Sperrkonto):**
 

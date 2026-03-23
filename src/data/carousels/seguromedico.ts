@@ -62,7 +62,7 @@ const slides: CarouselSlide[] = [
     cardContent:
       'Necesitas un <span class="cb-gold">seguro temporal</span> desde el primer día. <span class="cb-gold">Expatrio</span> ofrece paquetes que incluyen seguro médico junto con tu Sperrkonto.',
     affiliateLink: {
-      url: 'https://www.expatrio.com?p=rutaalemania',
+      url: 'https://www.expatrio.com/?p=rutaalemania',
       label: 'Abrir Expatrio →',
       logo: '/logos/expatrio-icon.png',
     },
@@ -88,7 +88,7 @@ const slides: CarouselSlide[] = [
       {
         text: 'Seguro + Sperrkonto con Expatrio',
         sub: 'Paquete completo para recién llegados',
-        url: 'https://www.expatrio.com?p=rutaalemania',
+        url: 'https://www.expatrio.com/?p=rutaalemania',
       },
       {
         text: 'rutaalemania.com',

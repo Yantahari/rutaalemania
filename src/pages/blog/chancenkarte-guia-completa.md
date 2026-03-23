@@ -90,7 +90,7 @@ Para la Vía 1, debe estar además **reconocido en Alemania**.
 
 Debes demostrar que puedes mantenerte económicamente durante tu estancia. Esto se hace mediante una **Sperrkonto** (cuenta bloqueada) con al menos **12.324 euros** (1.027 euros/mes x 12 meses, cifra actualizada para 2026). Te explicamos todo el proceso en nuestra [guía para abrir tu Sperrkonto paso a paso](/blog/sperrkonto-como-abrir/).
 
-> 💡 **Consejo:** Puedes abrir tu Sperrkonto fácilmente con [Expatrio](https://www.expatrio.com?p=rutaalemania). Es el proveedor más usado por solicitantes de visado y el proceso es 100% online.
+> 💡 **Consejo:** Puedes abrir tu Sperrkonto fácilmente con [Expatrio](https://www.expatrio.com/?p=rutaalemania). Es el proveedor más usado por solicitantes de visado y el proceso es 100% online.
 
 ### 3. Prueba de idioma
 
@@ -171,7 +171,7 @@ Aquí va un desglose realista de lo que necesitas económicamente:
 
 ---
 
-**Para la Sperrkonto**, recomiendo [Expatrio](https://www.expatrio.com?p=rutaalemania) porque:
+**Para la Sperrkonto**, recomiendo [Expatrio](https://www.expatrio.com/?p=rutaalemania) porque:
 - Proceso 100% online
 - Apertura en menos de 10 minutos
 - Incluye seguro médico opcional
@@ -203,7 +203,7 @@ Consulta [anabin.kmk.org](https://anabin.kmk.org) para verificar si tu universid
 
 ### Paso 4: Abre tu Sperrkonto
 
-Abre tu cuenta bloqueada con [Expatrio](https://www.expatrio.com?p=rutaalemania) y transfiere el monto requerido. La apertura es rápida, pero la **transferencia internacional puede tardar entre 3 y 10 días laborales**.
+Abre tu cuenta bloqueada con [Expatrio](https://www.expatrio.com/?p=rutaalemania) y transfiere el monto requerido. La apertura es rápida, pero la **transferencia internacional puede tardar entre 3 y 10 días laborales**.
 
 ---
 

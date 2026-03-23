@@ -56,7 +56,7 @@ const slides: CarouselSlide[] = [
     cardContent:
       'El proveedor más usado por hispanohablantes es <span class="cb-gold">Expatrio</span>: proceso 100% online, en español, y con soporte dedicado.',
     affiliateLink: {
-      url: 'https://www.expatrio.com?p=rutaalemania',
+      url: 'https://www.expatrio.com/?p=rutaalemania',
       label: 'Abrir Expatrio →',
       logo: '/logos/expatrio-icon.png',
     },
@@ -111,7 +111,7 @@ const slides: CarouselSlide[] = [
       {
         text: 'Abre tu cuenta con Expatrio',
         sub: 'Proceso 100% online',
-        url: 'https://www.expatrio.com?p=rutaalemania',
+        url: 'https://www.expatrio.com/?p=rutaalemania',
       },
       {
         text: 'rutaalemania.com',

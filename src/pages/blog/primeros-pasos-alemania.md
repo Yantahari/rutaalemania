@@ -89,7 +89,7 @@ Si no consigues cita, acude a primera hora **sin cita**. Muchas Bürgeramt atien
 
 Si abriste un **[Sperrkonto](/blog/sperrkonto-como-abrir/)** (cuenta bloqueada) antes de viajar, ahora es el momento de activarlo para que empiece a liberar los fondos mensuales.
 
-Con [Expatrio](https://www.expatrio.com?p=rutaalemania), el proceso suele ser:
+Con [Expatrio](https://www.expatrio.com/?p=rutaalemania), el proceso suele ser:
 
 1. Entra en tu cuenta de Expatrio.
 2. Sube tu Meldebescheinigung (del Anmeldung).
@@ -98,7 +98,7 @@ Con [Expatrio](https://www.expatrio.com?p=rutaalemania), el proceso suele ser:
 
 Si aún no tienes cuenta bancaria alemana, puedes vincular una cuenta online como **N26** o **Vivid Money** temporalmente.
 
-<a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Activa tu Sperrkonto con Expatrio</a>
+<a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Activa tu Sperrkonto con Expatrio</a>
 
 ---
 
@@ -143,7 +143,7 @@ El seguro médico es **obligatorio** en Alemania. Sin él, no puedes firmar form
 
 ---
 
-**Si vienes sin empleo (estudiante, Chancenkarte, etc.):** Necesitas contratar un seguro por tu cuenta. [Expatrio](https://www.expatrio.com?p=rutaalemania) ofrece seguros médicos temporales para recién llegados que aún no tienen empleo.
+**Si vienes sin empleo (estudiante, Chancenkarte, etc.):** Necesitas contratar un seguro por tu cuenta. [Expatrio](https://www.expatrio.com/?p=rutaalemania) ofrece seguros médicos temporales para recién llegados que aún no tienen empleo.
 
 **Acción:** Contacta la aseguradora de tu elección (puedes hacerlo online o por teléfono) y solicita el alta. Ellos se pondrán en contacto con tu empleador para gestionar las cotizaciones.
 
@@ -151,7 +151,7 @@ Recibirás una **tarjeta del seguro (Gesundheitskarte)** por correo en 2-4 seman
 
 > 📌 **Recuerda:** No esperes a tener la tarjeta física para ir al médico. Con el número de afiliado ya puedes pedir cita.
 
-<a href="https://www.expatrio.com?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Seguro médico temporal con Expatrio</a>
+<a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Seguro médico temporal con Expatrio</a>
 
 ---
 
@@ -329,7 +329,7 @@ Aquí tienes todo condensado en una lista que puedes usar como referencia rápid
 - [ ] Activar Deutschlandticket
 - [ ] **Hacer el Anmeldung** en la Bürgeramt (plazo: 14 días)
 - [ ] Guardar la Meldebescheinigung en lugar seguro
-- [ ] Activar el Sperrkonto (si aplica) con [Expatrio](https://www.expatrio.com?p=rutaalemania)
+- [ ] Activar el Sperrkonto (si aplica) con [Expatrio](https://www.expatrio.com/?p=rutaalemania)
 - [ ] Abrir cuenta bancaria (N26, Vivid o banco tradicional)
 - [ ] Transferir dinero desde tu país con [Wise](https://wise.prf.hn/click/camref:1110lAp2W)
 - [ ] Darte de alta en el seguro médico (TK, AOK, Barmer...)
