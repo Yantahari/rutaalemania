@@ -29,7 +29,7 @@ La realidad es muy diferente.
 - **Tu vida social será limitada.** Fuera de las grandes ciudades y del mundo tech, la mayoría de alemanes prefieren hablar su idioma. Sin alemán, te quedas en una burbuja de expatriados.
 - **Tu carrera se estanca.** Incluso en empresas internacionales, las reuniones informales, los almuerzos y la cultura de empresa suelen ser en alemán. Sin el idioma, te pierdes oportunidades de ascenso y networking.
 
-> ⚠️ **Importante:** El alemán no es solo un "plus". Es la llave que abre (o cierra) puertas en vivienda, burocracia, vida social y crecimiento profesional.
+> **Importante:** El alemán no es solo un "plus". Es la llave que abre (o cierra) puertas en vivienda, burocracia, vida social y crecimiento profesional.
 
 ---
 
@@ -64,7 +64,7 @@ Sin el Anmeldung, **no puedes hacer prácticamente nada**:
 - No puedes solicitar tu permiso de residencia o Blue Card.
 - No puedes contratar internet ni muchos servicios básicos.
 
-> ⚠️ **Importante:** Sin Anmeldung estás bloqueado. No puedes avanzar con absolutamente ningún otro trámite en Alemania.
+> **Importante:** Sin Anmeldung estás bloqueado. No puedes avanzar con absolutamente ningún otro trámite en Alemania.
 
 ---
 
@@ -142,7 +142,7 @@ Muchos solicitantes de visa descubren el requisito del Sperrkonto **cuando ya es
 
 Mientras tanto, tu cita en el consulado se acerca o ya pasó, y **tienes que reprogramar todo**.
 
-> ⚠️ **Importante:** El Sperrkonto no es un trámite que puedas resolver en un par de días. Empieza al menos 3-4 semanas antes de tu cita en el consulado.
+> **Importante:** El Sperrkonto no es un trámite que puedas resolver en un par de días. Empieza al menos 3-4 semanas antes de tu cita en el consulado.
 
 ---
 
@@ -187,7 +187,7 @@ No hablar alemán no solo es un inconveniente práctico. Tiene un **coste emocio
 
 Muchos hispanohablantes terminan frustrados y vuelven a casa no porque Alemania sea mala, sino porque **nunca pudieron integrarse** al no hablar el idioma.
 
-> ⚠️ **Importante:** La barrera del idioma no solo afecta tu día a día. Afecta tu salud mental, tu autoestima y tu capacidad de sentirte "en casa".
+> **Importante:** La barrera del idioma no solo afecta tu día a día. Afecta tu salud mental, tu autoestima y tu capacidad de sentirte "en casa".
 
 ---
 
@@ -232,7 +232,7 @@ Para que no te pase lo mismo, aquí tienes un resumen de lo que debes hacer **an
 - [ ] Tener alojamiento confirmado (aunque sea temporal) con Wohnungsgeberbestätigung
 - [ ] Investigar la ciudad a la que vas: transporte, barrios, supermercados
 
-> 🔑 **Clave:** Cada uno de estos puntos puede tardar días o semanas. Empieza al menos 2-3 meses antes de tu fecha de mudanza.
+> **Clave:** Cada uno de estos puntos puede tardar días o semanas. Empieza al menos 2-3 meses antes de tu fecha de mudanza.
 
 ---
 

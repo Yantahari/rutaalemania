@@ -20,7 +20,7 @@ Alemania es un país donde **la estructura, el orden y la formalidad importan en
 
 Los reclutadores alemanes están acostumbrados a un formato muy específico y esperan encontrar la información en un orden determinado.
 
-> 🔑 **Clave:** Un CV que no siga las convenciones alemanas no necesariamente te descalifica, pero sí te pone en desventaja frente a candidatos que sí las siguen. Y en un mercado competitivo, cada detalle cuenta.
+> **Clave:** Un CV que no siga las convenciones alemanas no necesariamente te descalifica, pero sí te pone en desventaja frente a candidatos que sí las siguen. Y en un mercado competitivo, cada detalle cuenta.
 
 ---
 
@@ -50,7 +50,7 @@ Los alemanes son obsesivos con la coherencia temporal. Si hay un hueco de 6 mese
 
 **Incluye siempre una explicación** para los períodos sin empleo: viaje, formación, búsqueda de empleo, cuidado familiar, etc.
 
-> ⚠️ **Importante:** Un hueco sin explicar levanta más sospechas que cualquier motivo honesto que puedas dar. Siempre es mejor ser transparente.
+> **Importante:** Un hueco sin explicar levanta más sospechas que cualquier motivo honesto que puedas dar. Siempre es mejor ser transparente.
 
 ### 4. Datos personales más detallados
 
@@ -181,7 +181,7 @@ Otros:          Permiso de conducir clase B
 - **Habilidades técnicas:** Sé específico. No escribas "ofimática"; escribe "MS Office (Excel avanzado, PowerPoint, Word)".
 - **Certificaciones:** Si tienes certificaciones relevantes (AWS, PMP, Scrum Master), inclúyelas aquí.
 
-> ⚠️ **Importante:** Los reclutadores alemanes valoran los certificados por encima de las autoevaluaciones. Si dices que hablas alemán B2, prepárate para demostrarlo.
+> **Importante:** Los reclutadores alemanes valoran los certificados por encima de las autoevaluaciones. Si dices que hablas alemán B2, prepárate para demostrarlo.
 
 ---
 
@@ -208,7 +208,7 @@ Max Mustermann
 
 En Alemania, el CV **nunca va solo**. Siempre se acompaña de un **Anschreiben** (carta de motivación).
 
-> 🔑 **Clave:** Esto es tan importante como el propio CV, y muchos reclutadores lo leen antes que el Lebenslauf.
+> **Clave:** Esto es tan importante como el propio CV, y muchos reclutadores lo leen antes que el Lebenslauf.
 
 ### Estructura del Anschreiben
 

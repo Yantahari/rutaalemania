@@ -34,7 +34,7 @@ const articleSchema = {
   dateModified: frontmatter.date,
   author: {
     '@type': 'Person',
-    name: 'Carlos Domínguez Cid',
+    name: 'Carlos Dominguez Cid',
     url: 'https://rutaalemania.com/sobre-mi/',
   },
   publisher: {
@@ -76,7 +76,7 @@ const faqSchema = frontmatter.faq?.length ? {
       <h1 class="text-3xl md:text-4xl lg:text-5xl font-heading font-bold leading-tight mb-4">
         {frontmatter.title}
       </h1>
-      <p class="text-white/50 text-lg leading-relaxed">
+      <p class="text-text-secondary text-lg leading-relaxed">
         {frontmatter.description}
       </p>
     </header>
@@ -84,27 +84,27 @@ const faqSchema = frontmatter.faq?.length ? {
     {frontmatter.carousel && <CarouselBlog carouselId={frontmatter.carousel} />}
 
     <!-- Content -->
-    <div class="blog-content prose prose-invert prose-amber max-w-none
-      prose-headings:font-heading prose-headings:text-white
+    <div class="blog-content prose prose-amber max-w-none
+      prose-headings:font-heading prose-headings:text-text-primary
       prose-h2:text-2xl prose-h2:mt-14 prose-h2:mb-6
       prose-h3:text-xl prose-h3:mt-10 prose-h3:mb-4
-      prose-p:text-white/70 prose-p:leading-relaxed prose-p:mb-6
-      prose-a:text-amber-light prose-a:underline prose-a:decoration-amber-light/40 prose-a:underline-offset-2 hover:prose-a:decoration-amber-light
-      prose-strong:text-white prose-strong:font-semibold
-      prose-li:text-white/70 prose-li:mb-2
-      prose-blockquote:text-white/60
+      prose-p:text-text-secondary prose-p:leading-relaxed prose-p:mb-6
+      prose-a:text-amber prose-a:underline prose-a:decoration-amber/40 prose-a:underline-offset-2 hover:prose-a:decoration-amber
+      prose-strong:text-text-primary prose-strong:font-semibold
+      prose-li:text-text-secondary prose-li:mb-2
+      prose-blockquote:text-text-secondary
       prose-table:text-sm
-      prose-th:text-amber-light prose-th:font-semibold
-      prose-td:text-white/70
+      prose-th:text-amber prose-th:font-semibold
+      prose-td:text-text-secondary
       prose-img:rounded-xl prose-img:my-8
     ">
       <slot />
     </div>
 
     <!-- CTA bottom -->
-    <div class="mt-8 p-8 bg-amber-glow border border-amber/20 rounded-2xl text-center">
-      <h3 class="font-heading text-xl mb-2">¿Quieres saber si puedes ir a Alemania?</h3>
-      <p class="text-white/50 text-sm mb-4">Haz nuestro test gratuito de 2 minutos y descubre tus opciones.</p>
+    <div class="mt-8 p-8 bg-amber-glow border border-amber/15 rounded-2xl text-center">
+      <h3 class="font-heading text-xl mb-2">Quieres saber si puedes ir a Alemania?</h3>
+      <p class="text-text-muted text-sm mb-4">Haz nuestro test gratuito de 2 minutos y descubre tus opciones.</p>
       <a href="/#calculadora" class="btn-primary">Calculadora Chancenkarte gratis</a>
     </div>
   </article>

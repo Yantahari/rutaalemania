@@ -24,13 +24,13 @@ const slides: CarouselSlide[] = [
     steps: [
       { num: '🏛️', text: 'Público (GKV): lo usa el 90% de la población. Cuota según tu salario.' },
       { num: '🔒', text: 'Privado (PKV): solo si ganas +69.300€/año o eres autónomo.' },
-      { num: '⚠️', text: 'Volver del privado al público es muy difícil. Elige bien.' },
+      { num: '', text: 'Volver del privado al público es muy difícil. Elige bien.' },
     ],
   },
   // Slide 4 — ¿Cuánto cuesta?
   {
     type: 'content',
-    icon: '💰',
+    icon: '',
     title: '¿Cuánto <span class="cb-gold">cuesta</span>?',
     amountCard: {
       label: 'Tu parte (seguro público)',
@@ -70,12 +70,12 @@ const slides: CarouselSlide[] = [
   // Slide 7 — ¿Qué cubre?
   {
     type: 'content',
-    icon: '✅',
+    icon: '',
     title: '¿Qué <span class="cb-gold">cubre</span>?',
     steps: [
-      { num: '✓', text: 'Médico general y especialistas' },
-      { num: '✓', text: 'Hospital, cirugía y urgencias' },
-      { num: '✓', text: 'Medicamentos (copago mínimo ~5-10€)' },
+      { num: '-', text: 'Médico general y especialistas' },
+      { num: '-', text: 'Hospital, cirugía y urgencias' },
+      { num: '-', text: 'Medicamentos (copago mínimo ~5-10€)' },
     ],
     checkmark: 'Cobertura completa desde el día 1',
   },

@@ -16,7 +16,7 @@ const slides: CarouselSlide[] = [
     steps: [
       { num: '⚖️', text: 'Profesión REGULADA (medicina, enfermería, derecho…) → SÍ, obligatorio' },
       { num: '💻', text: 'Profesión NO regulada (IT, marketing, diseño…) → NO obligatorio' },
-      { num: '📋', text: 'Pero puede darte puntos para la Chancenkarte o Blue Card' },
+      { num: '', text: 'Pero puede darte puntos para la Chancenkarte o Blue Card' },
     ],
   },
   // Slide 3 — Paso 1: Consulta Anabin
@@ -56,7 +56,7 @@ const slides: CarouselSlide[] = [
       { num: '3', text: 'Apostilla de La Haya + CV detallado' },
     ],
     tipCard: {
-      icon: '💰',
+      icon: '',
       text: 'Coste total orientativo: <span class="cb-gold">300–1.500€</span> (tasas + traducciones)',
     },
   },
@@ -75,15 +75,15 @@ const slides: CarouselSlide[] = [
   // Slide 7 — Resultados posibles
   {
     type: 'content',
-    icon: '📊',
+    icon: '',
     title: 'Resultados <span class="cb-gold">posibles</span>',
     steps: [
-      { num: '✅', text: 'Completo → puedes ejercer sin restricciones' },
+      { num: '', text: 'Completo → puedes ejercer sin restricciones' },
       { num: '🔶', text: 'Parcial → 4 puntos Chancenkarte + opción Nachqualifizierung' },
-      { num: '❌', text: 'No reconocido → poco frecuente si tu uni tiene H+' },
+      { num: '', text: 'No reconocido → poco frecuente si tu uni tiene H+' },
     ],
     tipCard: {
-      icon: '🔑',
+      icon: '',
       text: 'La mayoría obtiene al menos un <span class="cb-gold">reconocimiento parcial</span>.',
     },
   },

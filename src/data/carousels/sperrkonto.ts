@@ -38,7 +38,7 @@ const slides: CarouselSlide[] = [
   // Slide 3 — ¿Cuánto dinero necesitas?
   {
     type: 'content',
-    icon: '💰',
+    icon: '',
     title: '¿Cuánto dinero <span class="cb-gold">necesitas</span>?',
     amountCard: {
       label: 'Importe mínimo',
@@ -50,7 +50,7 @@ const slides: CarouselSlide[] = [
   // Slide 4 — Paso 1: Elige proveedor
   {
     type: 'content',
-    icon: '📋',
+    icon: '',
     title: 'Elige un <span class="cb-gold">proveedor</span>',
     stepBadge: 'Paso 1',
     cardContent:

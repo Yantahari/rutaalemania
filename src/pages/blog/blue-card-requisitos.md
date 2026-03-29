@@ -40,7 +40,7 @@ La Blue Card es un **permiso de residencia y trabajo** para profesionales altame
 - Permite cambiar de empleador (con notificación a la Ausländerbehörde durante los primeros 12 meses).
 - Ofrece el **camino más rápido a la residencia permanente** (Niederlassungserlaubnis): tan solo **21 meses** con nivel B1 de alemán.
 
-> 🔑 **Clave:** La Blue Card no es un visado más. Es la vía rápida a la residencia permanente en Alemania, con ventajas exclusivas que ningún otro permiso ofrece.
+> **Clave:** La Blue Card no es un visado más. Es la vía rápida a la residencia permanente en Alemania, con ventajas exclusivas que ningún otro permiso ofrece.
 
 ---
 
@@ -58,7 +58,7 @@ Debes tener un título de educación superior (licenciatura, grado, ingeniería,
 - Tu título debe aparecer con la clasificación **H+** (institución reconocida) y tu carrera como **entspricht** (equivalente).
 - Si tu título no aparece o tiene una clasificación diferente, puedes solicitar una **evaluación individual** a través de la KMK (Kultusministerkonferenz). Te explicamos todo el proceso en nuestra [guía sobre el reconocimiento de títulos en Alemania](/blog/reconocimiento-titulos/).
 
-> ⚠️ **Importante:** Desde la reforma de 2023, también se aceptan **títulos de formación profesional superior** equivalentes a un nivel 6 del Marco Europeo de Cualificaciones (EQF), aunque esto es menos común para hispanohablantes.
+> **Importante:** Desde la reforma de 2023, también se aceptan **títulos de formación profesional superior** equivalentes a un nivel 6 del Marco Europeo de Cualificaciones (EQF), aunque esto es menos común para hispanohablantes.
 
 ---
 
@@ -70,7 +70,7 @@ Necesitas una **oferta de trabajo concreta o un contrato firmado** con un emplea
 - No necesitas que el empleador haga un trámite especial; la Blue Card se solicita directamente por ti.
 - Desde 2023, la Agencia Federal de Empleo (Bundesagentur für Arbeit) ya **no necesita aprobar** la mayoría de solicitudes de Blue Card (se eliminó la prueba de mercado laboral).
 
-> ✅ **Buena noticia:** No hay prueba de mercado laboral. Tu empleador no necesita demostrar que no encontró a un candidato europeo. Esto simplifica y acelera enormemente el proceso.
+> **Buena noticia:** No hay prueba de mercado laboral. Tu empleador no necesita demostrar que no encontró a un candidato europeo. Esto simplifica y acelera enormemente el proceso.
 
 ---
 
@@ -124,7 +124,7 @@ Compara esto con el permiso de trabajo normal, que requiere **5 años** para acc
 - Tu cónyuge recibe automáticamente permiso de trabajo.
 - Los hijos menores también quedan cubiertos.
 
-> ✅ **Buena noticia:** A diferencia de otros permisos de residencia, con la Blue Card tu familia puede reunirse contigo sin barreras de idioma previas.
+> **Buena noticia:** A diferencia de otros permisos de residencia, con la Blue Card tu familia puede reunirse contigo sin barreras de idioma previas.
 
 ---
 
@@ -186,7 +186,7 @@ Si estás fuera de Alemania, solicita una **visa nacional (tipo D)** en el consu
 
 Una vez en Alemania, tienes **14 días para registrar tu domicilio** (Anmeldung) en la oficina de ciudadanos (Bürgeramt). Este trámite es esencial para todo lo demás.
 
-> ⚠️ **Importante:** Reserva cita en la Bürgeramt con antelación, incluso antes de aterrizar. En ciudades como Berlín, las listas de espera pueden ser de semanas.
+> **Importante:** Reserva cita en la Bürgeramt con antelación, incluso antes de aterrizar. En ciudades como Berlín, las listas de espera pueden ser de semanas.
 
 ---
 
@@ -221,7 +221,7 @@ Muchos hispanohablantes confunden estos dos visados. Aquí las **diferencias cla
 | **Reagrupación familiar** | Sí, simplificada | No |
 | **Ideal para** | Quien ya tiene trabajo | Quien quiere buscar trabajo en persona |
 
-> 🔑 **Clave:** Si no tienes oferta de trabajo todavía, puedes usar la **Chancenkarte** para venir a Alemania, buscar empleo y luego **cambiar a Blue Card** una vez consigas un contrato que cumpla los requisitos. Lee nuestra [guía completa sobre la Chancenkarte](/blog/chancenkarte-guia-completa/) para conocer cómo solicitarla.
+> **Clave:** Si no tienes oferta de trabajo todavía, puedes usar la **Chancenkarte** para venir a Alemania, buscar empleo y luego **cambiar a Blue Card** una vez consigas un contrato que cumpla los requisitos. Lee nuestra [guía completa sobre la Chancenkarte](/blog/chancenkarte-guia-completa/) para conocer cómo solicitarla.
 
 ---
 

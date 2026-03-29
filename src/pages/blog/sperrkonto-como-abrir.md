@@ -30,7 +30,7 @@ Una Sperrkonto (literalmente "cuenta bloqueada") es una **cuenta bancaria especi
 
 Ese dinero queda bloqueado y solo puedes acceder a él una vez que llegas a Alemania, y de forma limitada: **se te libera una cantidad mensual predeterminada**.
 
-> 🔑 **Clave:** Es la forma que tiene el gobierno alemán de asegurarse de que puedes mantenerte económicamente durante tu estancia. Al presentar la confirmación de tu Sperrkonto en la embajada, demuestras que tienes fondos suficientes para vivir en Alemania sin depender de ayudas públicas.
+> **Clave:** Es la forma que tiene el gobierno alemán de asegurarse de que puedes mantenerte económicamente durante tu estancia. Al presentar la confirmación de tu Sperrkonto en la embajada, demuestras que tienes fondos suficientes para vivir en Alemania sin depender de ayudas públicas.
 
 La Sperrkonto es **obligatoria** para:
 
@@ -50,7 +50,7 @@ Las cifras se actualizan cada año. Para 2026, los montos son:
 | Visado de estudios | 992 EUR/mes | 11.904 EUR |
 | Chancenkarte | 1.027 EUR/mes | 12.324 EUR |
 
-> ⚠️ **Importante:** Estos son los montos mínimos legales. Depositar un poco más (50-100 EUR extra) no está de más por si hay comisiones de transferencia o fluctuaciones de cambio.
+> **Importante:** Estos son los montos mínimos legales. Depositar un poco más (50-100 EUR extra) no está de más por si hay comisiones de transferencia o fluctuaciones de cambio.
 
 Para la **Chancenkarte**, el monto mensual es ligeramente superior al de estudiantes porque se entiende que un profesional tiene gastos diferentes. El cálculo es: 1.027 EUR x 12 meses = **12.324 EUR**. Para saber si ese dinero te alcanzará en tu ciudad de destino, consulta nuestro [desglose del costo de vida en Alemania](/blog/cuanto-cuesta-vivir-en-alemania/).
 
@@ -74,7 +74,7 @@ Hay tres proveedores principales para abrir una Sperrkonto. Aquí va una **compa
 
 [Expatrio](https://www.expatrio.com/?p=rutaalemania) es el proveedor más popular entre quienes solicitan visado para Alemania. Su proceso es **100% online**, la interfaz es intuitiva y tienen soporte en español.
 
-> ✅ **Buena noticia:** Es mi recomendación principal por su rapidez y facilidad de uso.
+> **Buena noticia:** Es mi recomendación principal por su rapidez y facilidad de uso.
 
 ---
 
@@ -167,7 +167,7 @@ Este es el paso más importante. **Debes transferir el monto completo** (12.324 
 
 Una vez que el dinero llega a la cuenta (normalmente 3-10 días laborales después de la transferencia), Expatrio te envía el **Sperrbescheinigung** (certificado de cuenta bloqueada).
 
-> 🔑 **Clave:** Este es el documento que presentas en la embajada. Guárdalo bien.
+> **Clave:** Este es el documento que presentas en la embajada. Guárdalo bien.
 
 ---
 
@@ -186,7 +186,7 @@ La forma clásica. Vas a tu banco, pides una transferencia internacional en euro
 - Puede tardar 5-10 días laborales
 - A veces hay bancos intermediarios que cobran comisiones adicionales
 
-> ⚠️ **Importante:** Con una transferencia SWIFT puedes acabar pagando cientos de euros de más entre comisiones y tipo de cambio desfavorable.
+> **Importante:** Con una transferencia SWIFT puedes acabar pagando cientos de euros de más entre comisiones y tipo de cambio desfavorable.
 
 ---
 
@@ -213,7 +213,7 @@ Para una transferencia de 12.324 EUR, la diferencia entre usar Wise y tu banco p
 6. Paga desde tu cuenta bancaria local
 7. Wise convierte y envía
 
-> ⚠️ **Importante:** Incluye siempre la referencia de pago. Sin ella, Expatrio no puede identificar tu transferencia y el proceso se retrasa.
+> **Importante:** Incluye siempre la referencia de pago. Sin ella, Expatrio no puede identificar tu transferencia y el proceso se retrasa.
 
 <a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/wise.svg" alt="" width="48" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Ahorra en comisiones con Wise</a>
 
@@ -223,7 +223,7 @@ Para una transferencia de 12.324 EUR, la diferencia entre usar Wise y tu banco p
 
 Si ya tienes una cuenta en euros (por ejemplo, si vives en España o tienes una cuenta en EUR), la transferencia es una **SEPA normal**: gratuita o casi gratuita, y llega en 1-2 días laborales.
 
-> ✅ **Buena noticia:** Si ya tienes euros, te ahorras las comisiones de conversión y el proceso es mucho más rápido.
+> **Buena noticia:** Si ya tienes euros, te ahorras las comisiones de conversión y el proceso es mucho más rápido.
 
 ---
 
@@ -280,7 +280,7 @@ Las transferencias internacionales pueden tener **retrasos inesperados**. Un ban
 
 La Sperrkonto **no sirve** para recibir tu sueldo ni para hacer pagos diarios. Es solo el depósito de garantía para tu visado. Necesitarás una cuenta corriente adicional.
 
-> ⚠️ **Importante:** No intentes usar la Sperrkonto como cuenta principal. No está diseñada para eso y te generará problemas.
+> **Importante:** No intentes usar la Sperrkonto como cuenta principal. No está diseñada para eso y te generará problemas.
 
 ---
 

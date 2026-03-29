@@ -4,7 +4,7 @@ const slides: CarouselSlide[] = [
   // Slide 1 — Cover
   {
     type: 'cover',
-    icon: '🇩🇪',
+    icon: '',
     title: 'Tus primeros <span class="cb-gold">30 DÍAS</span> en Alemania',
     subtitle: 'Checklist completa →',
   },
@@ -60,7 +60,7 @@ const slides: CarouselSlide[] = [
   // Slide 6 — Semana 2: Lo importante
   {
     type: 'content',
-    icon: '📋',
+    icon: '',
     title: '<span class="cb-gold">Semana 2:</span> Lo importante',
     steps: [
       { num: '1', text: 'Espera tu Steuer-ID (número fiscal)' },
@@ -71,7 +71,7 @@ const slides: CarouselSlide[] = [
   // Slide 7 — Semanas 3-4: Instálate
   {
     type: 'content',
-    icon: '🏡',
+    icon: '',
     title: '<span class="cb-gold">Semanas 3-4:</span> Instálate',
     steps: [
       { num: '1', text: 'Busca piso definitivo' },

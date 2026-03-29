@@ -18,7 +18,7 @@ Alemania necesita desesperadamente profesionales cualificados. Hay más de **700
 
 Pero seamos claros: **Alemania no es Holanda ni Escandinavia**. El alemán sigue siendo la lengua dominante en la gran mayoría de contextos laborales, y muchos alemanes, incluso los que hablan inglés, prefieren trabajar en su idioma.
 
-> 🔑 **Clave:** Hay sectores donde no solo es posible trabajar sin alemán, sino que es completamente normal. Pero son la excepción, no la regla.
+> **Clave:** Hay sectores donde no solo es posible trabajar sin alemán, sino que es completamente normal. Pero son la excepción, no la regla.
 
 ---
 
@@ -50,7 +50,7 @@ Empresas como Bosch, Siemens, BMW o Continental tienen departamentos donde el in
 
 Las Big Four (Deloitte, PwC, EY, KPMG), McKinsey, BCG y bancos como Deutsche Bank tienen equipos internacionales. **Los proyectos con clientes globales se gestionan en inglés.**
 
-> ✅ **Buena noticia:** Si tu perfil encaja en alguno de estos sectores, puedes empezar a trabajar en Alemania desde el primer día sin hablar una palabra de alemán.
+> **Buena noticia:** Si tu perfil encaja en alguno de estos sectores, puedes empezar a trabajar en Alemania desde el primer día sin hablar una palabra de alemán.
 
 ---
 
@@ -84,7 +84,7 @@ Electricistas, fontaneros, mecánicos, carpinteros: **el trabajo diario es en al
 
 El derecho alemán se ejerce en alemán. **No hay atajos aquí.**
 
-> ⚠️ **Importante:** Si tu profesión pertenece a alguno de estos sectores, no pospongas el aprendizaje del alemán. Cuanto antes empieces, antes podrás ejercer.
+> **Importante:** Si tu profesión pertenece a alguno de estos sectores, no pospongas el aprendizaje del alemán. Cuanto antes empieces, antes podrás ejercer.
 
 ---
 
@@ -162,7 +162,7 @@ No sustituye las clases, pero acelera mucho la adquisición de vocabulario prác
 
 Una vez en Alemania, busca un *Tandempartner*: tú le enseñas español, y esa persona te enseña alemán. Apps como Tandem o eventos de intercambio en tu ciudad son perfectos para esto.
 
-> ✅ **Buena noticia:** Es gratis y la práctica real no tiene precio. Además, es una forma estupenda de hacer amigos locales.
+> **Buena noticia:** Es gratis y la práctica real no tiene precio. Además, es una forma estupenda de hacer amigos locales.
 
 ### Cursos intensivos presenciales
 
@@ -199,7 +199,7 @@ No es solo el salario directo. Con mejor alemán:
 - **Tu integración social mejora**, lo que reduce el riesgo de que abandones y vuelvas a tu país (algo que ocurre más de lo que se habla). Conoce los [errores más comunes al emigrar a Alemania](/blog/errores-emigrar-alemania/) para evitar tropezar donde otros han tropezado.
 - **Puedes obtener la residencia permanente** más fácilmente (requiere B1 de alemán).
 
-> 🔑 **Clave:** El alemán no es solo un requisito burocrático. Es la herramienta que convierte una estancia temporal en una vida real en Alemania.
+> **Clave:** El alemán no es solo un requisito burocrático. Es la herramienta que convierte una estancia temporal en una vida real en Alemania.
 
 ---
 

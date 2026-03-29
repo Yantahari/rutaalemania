@@ -81,17 +81,17 @@ const { hideNewsletter, ...seoProps } = Astro.props;
   <!-- Cookie consent banner (RGPD) -->
   <div
     id="cookie-banner"
-    class="fixed bottom-0 left-0 right-0 z-[60] border-t border-amber/30 bg-coal/95 backdrop-blur-sm hidden"
+    class="fixed bottom-0 left-0 right-0 z-[60] border-t border-border bg-white/95 backdrop-blur-sm shadow-lg hidden"
     role="dialog"
     aria-label="Aviso de cookies"
   >
     <div class="container-narrow py-4 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-      <p class="text-white/70 text-sm flex-1">
-        Usamos cookies de análisis (Google Analytics) para mejorar tu experiencia.
-        <a href="/datenschutz/" class="text-amber-light hover:underline">Más información</a>.
+      <p class="text-text-secondary text-sm flex-1">
+        Usamos cookies de analisis (Google Analytics) para mejorar tu experiencia.
+        <a href="/datenschutz/" class="text-amber hover:underline">Mas informacion</a>.
       </p>
       <div class="flex gap-3 w-full sm:w-auto shrink-0">
-        <button id="cookie-reject" class="px-4 py-2 rounded-xl text-sm text-white/50 border border-white/10 hover:border-white/30 hover:text-white/70 transition-colors cursor-pointer flex-1 sm:flex-initial">Rechazar</button>
+        <button id="cookie-reject" class="px-4 py-2 rounded-xl text-sm text-text-muted border border-border hover:border-text-secondary hover:text-text-primary transition-colors cursor-pointer flex-1 sm:flex-initial">Rechazar</button>
         <button id="cookie-accept" class="btn-primary text-sm cursor-pointer flex-1 sm:flex-initial">Aceptar</button>
       </div>
     </div>

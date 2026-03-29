@@ -13,7 +13,7 @@ Los primeros 30 días en Alemania son los más intensos de todo el proceso migra
 
 Esta guía te organiza **semana a semana** exactamente lo que necesitas hacer, en qué orden y por qué. Imprímela, guárdala en tu móvil o ponla en la nevera. La vas a necesitar.
 
-> 🔑 **Clave:** Casi todos los trámites en Alemania dependen del Anmeldung (registro de domicilio). Hazlo lo antes posible y todo lo demás será más fácil.
+> **Clave:** Casi todos los trámites en Alemania dependen del Anmeldung (registro de domicilio). Hazlo lo antes posible y todo lo demás será más fácil.
 
 ---
 
@@ -77,7 +77,7 @@ Compra una **tarjeta SIM** prepago para tener internet móvil (Aldi Talk, Lidl C
 2. El funcionario registrará tus datos.
 3. Recibirás una **Meldebescheinigung** (certificado de registro). **Guárdalo como oro.** Lo necesitas para casi todo lo demás.
 
-> ⚠️ **Importante:** Reserva cita con antelación. En ciudades grandes (especialmente Berlín), las citas se agotan con semanas de antelación. Intenta reservar cita online **antes de llegar a Alemania**.
+> **Importante:** Reserva cita con antelación. En ciudades grandes (especialmente Berlín), las citas se agotan con semanas de antelación. Intenta reservar cita online **antes de llegar a Alemania**.
 
 Si no consigues cita, acude a primera hora **sin cita**. Muchas Bürgeramt atienden sin cita con plazas limitadas. Llega 30-45 minutos antes de la apertura.
 
@@ -125,7 +125,7 @@ Necesitas una cuenta bancaria alemana para:
 
 ---
 
-> ✅ **Buena noticia:** Para transferir dinero desde tu país a tu nueva cuenta alemana, usa [Wise](https://wise.prf.hn/click/camref:1110lAp2W). Ofrece el tipo de cambio real del mercado con comisiones mínimas. La diferencia frente a una transferencia bancaria tradicional puede ser de 30-100 € por cada transferencia.
+> **Buena noticia:** Para transferir dinero desde tu país a tu nueva cuenta alemana, usa [Wise](https://wise.prf.hn/click/camref:1110lAp2W). Ofrece el tipo de cambio real del mercado con comisiones mínimas. La diferencia frente a una transferencia bancaria tradicional puede ser de 30-100 € por cada transferencia.
 
 <a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/wise.svg" alt="" width="48" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Ahorra en comisiones con Wise</a>
 
@@ -170,7 +170,7 @@ Este número de 11 dígitos es esencial para que tu empleador pueda **procesarte
 - Llamar al BZSt al +49 228 406-1240 y solicitar que te lo envíen de nuevo o confirmen tu número.
 - Ir personalmente al **Finanzamt** (hacienda) de tu distrito con tu Meldebescheinigung y pasaporte para obtenerlo en persona.
 
-> ⚠️ **Importante:** Si empiezas a trabajar antes de tener tu Steuer-ID, tu empleador aplicará la **clase fiscal VI** (la más alta). Eso significa que te descuentan mucho más de lo normal. No te asustes: cuando se registre tu número fiscal con la clase correcta, **te devolverán la diferencia** en la siguiente nómina o en la declaración de la renta.
+> **Importante:** Si empiezas a trabajar antes de tener tu Steuer-ID, tu empleador aplicará la **clase fiscal VI** (la más alta). Eso significa que te descuentan mucho más de lo normal. No te asustes: cuando se registre tu número fiscal con la clase correcta, **te devolverán la diferencia** en la siguiente nómina o en la declaración de la renta.
 
 ---
 
@@ -185,7 +185,7 @@ Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguie
 - **[Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48):** Clases online en vivo con profesores nativos, en grupos pequeños, con horarios flexibles que se adaptan a tu jornada laboral. **Ideal si ya estás trabajando** y no puedes asistir a clases presenciales en horario fijo.
 - **Goethe-Institut:** Cursos presenciales de alta calidad, pero más caros (600-1.200 € por nivel).
 
-> 🔑 **Clave:** El alemán es una inversión a largo plazo. Cuanto antes empieces, antes verás resultados en tu vida diaria, tu carrera y tu integración.
+> **Clave:** El alemán es una inversión a largo plazo. Cuanto antes empieces, antes verás resultados en tu vida diaria, tu carrera y tu integración.
 
 <a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
 
@@ -216,7 +216,7 @@ Si entraste con una visa de tipo D (visa nacional), ahora debes solicitar tu **p
 - Fotos biométricas
 - Formulario de solicitud
 
-> ⚠️ **Importante:** Pide cita lo antes posible. En muchas ciudades (especialmente Berlín), las citas en la Ausländerbehörde tienen **semanas o incluso meses de espera**. Si tu visa expira antes de que consigas cita, normalmente tu entrada al país y la solicitud registrada te cubren legalmente, pero es mejor no arriesgarse.
+> **Importante:** Pide cita lo antes posible. En muchas ciudades (especialmente Berlín), las citas en la Ausländerbehörde tienen **semanas o incluso meses de espera**. Si tu visa expira antes de que consigas cita, normalmente tu entrada al país y la solicitud registrada te cubren legalmente, pero es mejor no arriesgarse.
 
 ---
 
@@ -283,7 +283,7 @@ Si llegaste a un alojamiento temporal (Airbnb, hostel, WG temporal), es momento 
 - Opciones económicas de contrato: **WinSIM, PremiumSIM, Drillisch** (todos usan la red de O2).
 - Para contratos necesitas una cuenta bancaria alemana y, frecuentemente, la Meldebescheinigung.
 
-> ⚠️ **Importante:** Los contratos de 24 meses se renuevan automáticamente si no cancelas con 3 meses de antelación. Anota la fecha de cancelación en tu calendario el mismo día que firmes.
+> **Importante:** Los contratos de 24 meses se renuevan automáticamente si no cancelas con 3 meses de antelación. Anota la fecha de cancelación en tu calendario el mismo día que firmes.
 
 ---
 
@@ -404,7 +404,7 @@ Una vez que pases el primer mes, estos son los hitos que vienen:
 - **Primer año fiscal completo:** Hacer tu declaración de la renta (Steuererklärung). **Casi siempre te devuelven dinero.** Usa herramientas como **Wundertax** o **Taxfix** (en inglés y muy sencillas).
 - **Mes 21 (con Blue Card + B1):** Puedes solicitar la **residencia permanente** (Niederlassungserlaubnis).
 
-> ✅ **Buena noticia:** El sistema alemán, aunque burocrático al principio, se vuelve muy predecible una vez que entiendes cómo funciona. Después del primer mes, todo se hace más fácil.
+> **Buena noticia:** El sistema alemán, aunque burocrático al principio, se vuelve muy predecible una vez que entiendes cómo funciona. Después del primer mes, todo se hace más fácil.
 
 ---
 

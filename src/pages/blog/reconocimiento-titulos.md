@@ -35,7 +35,7 @@ Son profesiones que, por ley, solo puedes ejercer si tienes un título reconocid
 - **Trabajo social**
 - **Oficios regulados:** electricistas maestros, fontaneros maestros, etc.
 
-> ⚠️ **Importante:** Para estas profesiones, el reconocimiento es **obligatorio**. Sin él, no puedes ejercer. Punto.
+> **Importante:** Para estas profesiones, el reconocimiento es **obligatorio**. Sin él, no puedes ejercer. Punto.
 
 ---
 
@@ -104,7 +104,7 @@ Anabin ([anabin.kmk.org](https://anabin.kmk.org)) es una base de datos pública 
 
 **Escenario complicado:** Tu universidad no aparece o tiene H-. Necesitarás un proceso formal y **posiblemente documentación adicional**.
 
-> 🔑 **Clave:** Que tu título no aparezca en Anabin no significa que no sea reconocible. Simplemente significa que aún no se ha evaluado. El proceso formal de Anerkennung puede resultar en un reconocimiento completo aunque Anabin no tenga información.
+> **Clave:** Que tu título no aparezca en Anabin no significa que no sea reconocible. Simplemente significa que aún no se ha evaluado. El proceso formal de Anerkennung puede resultar en un reconocimiento completo aunque Anabin no tenga información.
 
 ---
 
@@ -225,7 +225,7 @@ La autoridad te confirmará la recepción de tu solicitud y **te asignará un n�
 | Envío postal certificado | 10-30 EUR |
 | **Total orientativo** | **300-1.500 EUR** |
 
-> ✅ **Buena noticia:** Algunos estados federados ofrecen ayudas económicas para el proceso de Anerkennung. Consulta en la web de tu autoridad competente o en el portal anerkennung-in-deutschland.de.
+> **Buena noticia:** Algunos estados federados ofrecen ayudas económicas para el proceso de Anerkennung. Consulta en la web de tu autoridad competente o en el portal anerkennung-in-deutschland.de.
 
 ---
 
@@ -279,7 +279,7 @@ La autoridad considera que tu formación es **parcialmente equivalente** pero qu
 
 Tu título **no se considera equivalente**. Esto es relativamente raro si tu universidad tiene estatus H+ en Anabin y tu formación es de al menos 2-3 años.
 
-> ✅ **Buena noticia:** El no reconocimiento total es poco frecuente. La mayoría de solicitudes bien preparadas obtienen al menos un reconocimiento parcial.
+> **Buena noticia:** El no reconocimiento total es poco frecuente. La mayoría de solicitudes bien preparadas obtienen al menos un reconocimiento parcial.
 
 ---
 
@@ -303,7 +303,7 @@ Es el término general para toda formación adicional necesaria para pasar de un
 
 **Financiación:** En algunos casos, la Agentur für Arbeit o los programas IQ (*Integration durch Qualifizierung*) pueden **financiar total o parcialmente** la Nachqualifizierung.
 
-> ✅ **Buena noticia:** Existen programas públicos que financian la cualificación complementaria. No asumas que tendrás que pagar todo de tu bolsillo.
+> **Buena noticia:** Existen programas públicos que financian la cualificación complementaria. No asumas que tendrás que pagar todo de tu bolsillo.
 
 ---
 
@@ -315,7 +315,7 @@ Si trabajas en IT (desarrollo de software, administración de sistemas, data sci
 - Para la **Blue Card**, puedes demostrar tu cualificación mediante un título reconocido en Anabin **o** mediante experiencia profesional (al menos 3 años en los últimos 7 años) si tu salario supera el umbral mínimo.
 - Para la **Chancenkarte**, necesitas al menos el reconocimiento del título en tu país de origen.
 
-> 🔑 **Clave:** En la práctica, muchos profesionales de IT nunca necesitan un proceso formal de Anerkennung. Anabin + el título original (con traducción) suelen ser suficientes.
+> **Clave:** En la práctica, muchos profesionales de IT nunca necesitan un proceso formal de Anerkennung. Anabin + el título original (con traducción) suelen ser suficientes.
 
 ---
 

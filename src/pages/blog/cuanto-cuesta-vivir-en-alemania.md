@@ -29,7 +29,7 @@ Antes de entrar en detalle, aquí tienes una tabla comparativa con el gasto mens
 | Extras (ocio, ropa, etc.) | 150–250 € | 180–300 € | 130–220 € | 120–200 € |
 | **Total estimado** | **1.683–2.198 €** | **2.043–2.778 €** | **1.563–2.048 €** | **1.273–1.698 €** |
 
-> 🔑 **Clave:** Múnich es la ciudad más cara de Alemania. Leipzig y ciudades del este son significativamente más baratas. Berlín, a pesar de su fama, está en un rango medio-alto pero sigue siendo más asequible que Múnich o Fráncfort.
+> **Clave:** Múnich es la ciudad más cara de Alemania. Leipzig y ciudades del este son significativamente más baratas. Berlín, a pesar de su fama, está en un rango medio-alto pero sigue siendo más asequible que Múnich o Fráncfort.
 
 ---
 
@@ -45,7 +45,7 @@ El alquiler es, sin duda, **el gasto más grande** que tendrás en Alemania. Y a
 
 Cuando veas un anuncio que dice "650 € Kaltmiete + 200 € NK", tu gasto real de alquiler será **850 € al mes**. Siempre pregunta por la Warmmiete.
 
-> ⚠️ **Importante:** Siempre compara pisos por su Warmmiete, no por la Kaltmiete. La diferencia en Nebenkosten puede ser enorme entre edificios.
+> **Importante:** Siempre compara pisos por su Warmmiete, no por la Kaltmiete. La diferencia en Nebenkosten puede ser enorme entre edificios.
 
 ---
 
@@ -96,7 +96,7 @@ En Alemania, **tener seguro médico es obligatorio por ley**. No puedes registra
 - Las cuotas dependen de tu edad, salud y cobertura elegida, **no de tu salario**.
 - Puede ser más barato al principio para jóvenes sanos, pero sube con la edad.
 
-> ⚠️ **Importante:** El seguro privado **no es recomendado** para la mayoría de emigrantes recién llegados. Volver al público después puede ser muy difícil.
+> **Importante:** El seguro privado **no es recomendado** para la mayoría de emigrantes recién llegados. Volver al público después puede ser muy difícil.
 
 > 💡 **Consejo:** Para estudiantes y recién llegados que necesitan un seguro mientras activan todo, empresas como [Expatrio](https://www.expatrio.com/?p=rutaalemania) ofrecen paquetes que incluyen seguro médico temporal junto con la cuenta bloqueada (Sperrkonto).
 
@@ -163,7 +163,7 @@ En las grandes ciudades, **no**. El transporte público es excelente.
 
 En zonas rurales, sí puede ser necesario. El coste de tener coche en Alemania (seguro, impuestos, gasolina, TÜV) puede sumar fácilmente **300-500 € al mes**.
 
-> 🔑 **Clave:** Si puedes vivir sin coche, te ahorrarás entre 250 y 450 € al mes respecto a tener uno. Es una de las mayores diferencias presupuestarias.
+> **Clave:** Si puedes vivir sin coche, te ahorrarás entre 250 y 450 € al mes respecto a tener uno. Es una de las mayores diferencias presupuestarias.
 
 ---
 
@@ -195,7 +195,7 @@ En zonas rurales, sí puede ser necesario. El coste de tener coche en Alemania (
 
 El **GEZ (Rundfunkbeitrag)** es un impuesto por hogar que todos deben pagar, veas o no la televisión. Son exactamente 18,36 € al mes y **no hay forma legal de evitarlo** si tienes un domicilio registrado.
 
-> ⚠️ **Importante:** El GEZ te llegará automáticamente. No lo ignores: acumula deudas e intereses si no pagas.
+> **Importante:** El GEZ te llegará automáticamente. No lo ignores: acumula deudas e intereses si no pagas.
 
 ---
 
@@ -217,7 +217,7 @@ Veamos qué te descuentan del salario bruto:
 | Impuesto de solidaridad (Solidaritätszuschlag) | 0–5,5% del IRPF |
 | Impuesto eclesiástico (Kirchensteuer) | 8–9% del IRPF (solo si perteneces a una iglesia) |
 
-> ⚠️ **Importante:** El impuesto eclesiástico (Kirchensteuer) solo se paga si al hacer tu Anmeldung declaras pertenecer a una iglesia registrada (católica, protestante, etc.). Si no perteneces a ninguna, indica "keine Konfession" y **te ahorras un 8-9%** sobre tu impuesto de la renta.
+> **Importante:** El impuesto eclesiástico (Kirchensteuer) solo se paga si al hacer tu Anmeldung declaras pertenecer a una iglesia registrada (católica, protestante, etc.). Si no perteneces a ninguna, indica "keine Konfession" y **te ahorras un 8-9%** sobre tu impuesto de la renta.
 
 ---
 
@@ -263,7 +263,7 @@ Para poner las cosas en perspectiva, comparemos el **poder adquisitivo real**. U
 - Las **vacaciones pagadas** son mínimo 20 días laborales (muchas empresas dan 28-30).
 - El **subsidio de desempleo** (Arbeitslosengeld) te cubre al 60-67% de tu último neto si pierdes el trabajo.
 
-> ✅ **Buena noticia:** Lo que en tu país puede parecer un salario alto, en Alemania debe contextualizarse con los costos locales. Sin embargo, la calidad de vida, la seguridad social y la capacidad de ahorro a largo plazo suelen ser superiores.
+> **Buena noticia:** Lo que en tu país puede parecer un salario alto, en Alemania debe contextualizarse con los costos locales. Sin embargo, la calidad de vida, la seguridad social y la capacidad de ahorro a largo plazo suelen ser superiores.
 
 ---
 
@@ -311,7 +311,7 @@ No uses tu banco tradicional para transferir grandes cantidades a Alemania. **La
 
 Utiliza servicios como **[Wise](https://wise.prf.hn/click/camref:1110lAp2W)**, que ofrece el tipo de cambio real del mercado con comisiones transparentes y muy bajas. La diferencia puede ser de 50-150 € en una transferencia grande.
 
-> 🔑 **Clave:** Comparar servicios de transferencia puede ahorrarte entre 50 y 200 € en cada envío grande. Wise es la opción más popular entre emigrantes.
+> **Clave:** Comparar servicios de transferencia puede ahorrarte entre 50 y 200 € en cada envío grande. Wise es la opción más popular entre emigrantes.
 
 ---
 

@@ -35,7 +35,7 @@ La Chancenkarte (§ 20a AufenthG) es un **permiso de residencia temporal** que t
 
 A diferencia de otros visados de búsqueda de empleo que ya existían (como el § 20 para titulados universitarios), la Chancenkarte es **más accesible** porque no exige necesariamente un título universitario. También la pueden obtener personas con formación profesional cualificada.
 
-> 🔑 **Clave:** No necesitas una oferta de trabajo para solicitarla. Vienes, buscas, y cuando encuentras empleo, cambias a un permiso de trabajo ordinario sin tener que volver a tu país.
+> **Clave:** No necesitas una oferta de trabajo para solicitarla. Vienes, buscas, y cuando encuentras empleo, cambias a un permiso de trabajo ordinario sin tener que volver a tu país.
 
 ---
 
@@ -68,7 +68,7 @@ Si cumples **todas** estas condiciones, obtienes la Chancenkarte directamente si
 1. Tienes un título universitario o formación profesional **reconocido en Alemania** (equivalencia completa según Anabin o la autoridad competente).
 2. Demuestras conocimientos de alemán de nivel **A1** o de inglés de nivel **B2**.
 
-> ✅ **Buena noticia:** Con esta vía, el proceso es más directo. Si tu título ya está reconocido y tienes el idioma, no necesitas preocuparte por los puntos.
+> **Buena noticia:** Con esta vía, el proceso es más directo. Si tu título ya está reconocido y tienes el idioma, no necesitas preocuparte por los puntos.
 
 ### Vía 2: Sistema de puntos — 6 puntos mínimo
 
@@ -167,7 +167,7 @@ Aquí va un desglose realista de lo que necesitas económicamente:
 | Seguro médico de viaje | 40-80 EUR/mes |
 | **Total aproximado** | **12.700 - 13.500 EUR** |
 
-> ⚠️ **Importante:** La Sperrkonto no es un "gasto" — es tu dinero que se va desbloqueando mensualmente (aprox. 1.027 EUR/mes) una vez que llegas a Alemania. Lo usas para vivir.
+> **Importante:** La Sperrkonto no es un "gasto" — es tu dinero que se va desbloqueando mensualmente (aprox. 1.027 EUR/mes) una vez que llegas a Alemania. Lo usas para vivir.
 
 ---
 
@@ -265,7 +265,7 @@ Puedes trabajar hasta **20 horas semanales** en cualquier empleo, incluidos trab
 
 Puedes hacer hasta **2 semanas de empleo de prueba** con un empleador para que ambos veáis si encajáis. Esto es una herramienta muy poderosa: muchas empresas están más dispuestas a "probarte" antes de comprometerse con un contrato.
 
-> ✅ **Buena noticia:** El empleo de prueba te permite demostrar tu valía directamente. Muchos contratos se cierran después de estas dos semanas.
+> **Buena noticia:** El empleo de prueba te permite demostrar tu valía directamente. Muchos contratos se cierran después de estas dos semanas.
 
 ### Entrevistas y networking
 
@@ -277,7 +277,7 @@ Por supuesto, puedes asistir a entrevistas de trabajo, ferias de empleo, eventos
 
 Cuando consigas una oferta de trabajo cualificado, solicitas el cambio a un **permiso de residencia de trabajo** (§ 18a o § 18b AufenthG) directamente desde la Ausländerbehörde (oficina de extranjería) de tu ciudad.
 
-> ✅ **Buena noticia:** No necesitas volver a tu país. El cambio de permiso se tramita directamente en Alemania.
+> **Buena noticia:** No necesitas volver a tu país. El cambio de permiso se tramita directamente en Alemania.
 
 ### Qué pasa si no encuentras empleo en 12 meses
 
@@ -285,7 +285,7 @@ Si se acaban los 12 meses y no has encontrado empleo cualificado, **debes salir 
 
 Sin embargo, si has encontrado un empleo a tiempo parcial que podría convertirse en cualificado, consulta con un abogado de extranjería si hay opciones alternativas.
 
-> ⚠️ **Importante:** Planifica bien tu tiempo. Doce meses pasan rápido, así que empieza tu búsqueda de empleo desde el primer día.
+> **Importante:** Planifica bien tu tiempo. Doce meses pasan rápido, así que empieza tu búsqueda de empleo desde el primer día.
 
 ---
 
@@ -335,7 +335,7 @@ La lista completa se publica periódicamente por la Agencia Federal de Empleo.
 
 No. La **Blue Card** (Tarjeta Azul UE) es un permiso de trabajo para el que necesitas un contrato con un salario mínimo específico. La Chancenkarte es un permiso de **búsqueda** de empleo.
 
-> 🔑 **Clave:** Son complementarios: puedes venir con la Chancenkarte y, cuando encuentres empleo cualificado con buen salario, cambiar a una Blue Card. Consulta nuestra [guía completa sobre la Blue Card](/blog/blue-card-requisitos/) para conocer todos los requisitos y umbrales salariales.
+> **Clave:** Son complementarios: puedes venir con la Chancenkarte y, cuando encuentres empleo cualificado con buen salario, cambiar a una Blue Card. Consulta nuestra [guía completa sobre la Blue Card](/blog/blue-card-requisitos/) para conocer todos los requisitos y umbrales salariales.
 
 ---
 

@@ -23,7 +23,7 @@ Alemania tiene una demanda enorme de profesionales de tecnología que no puede c
 
 En este artículo te explico exactamente cómo funciona, qué requisitos necesitas cumplir y cómo conseguir tu oportunidad.
 
-> 🔑 **Clave:** Si tienes 3+ años de experiencia en IT y una oferta de trabajo en Alemania, puedes obtener un permiso de residencia sin necesidad de título universitario.
+> **Clave:** Si tienes 3+ años de experiencia en IT y una oferta de trabajo en Alemania, puedes obtener un permiso de residencia sin necesidad de título universitario.
 
 ---
 
@@ -79,7 +79,7 @@ Necesitas demostrar al menos **3 años de experiencia profesional cualificada** 
 - Community management o marketing digital (aunque uses herramientas tecnológicas)
 - Diseño gráfico puro (sin componente de desarrollo)
 
-> ⚠️ **Importante:** Asegúrate de que tus certificados de trabajo describan claramente las tareas técnicas que realizabas. Una carta genérica sin detalle técnico puede no ser suficiente.
+> **Importante:** Asegúrate de que tus certificados de trabajo describan claramente las tareas técnicas que realizabas. Una carta genérica sin detalle técnico puede no ser suficiente.
 
 ---
 
@@ -92,7 +92,7 @@ Este requisito tiene una doble función:
 - Demuestra que tu empleador te valora como profesional cualificado.
 - Garantiza que puedes **mantenerte económicamente** sin ayuda del Estado.
 
-> ✅ **Buena noticia:** La gran mayoría de empleos IT en Alemania superan ampliamente este umbral, incluso para posiciones junior.
+> **Buena noticia:** La gran mayoría de empleos IT en Alemania superan ampliamente este umbral, incluso para posiciones junior.
 
 ---
 
@@ -218,7 +218,7 @@ Consigue el trabajo en inglés, pero **invierte en aprender alemán desde el pri
 
 Además, si decides solicitar la residencia permanente, necesitarás al menos un B1.
 
-> 🔑 **Clave:** El alemán no es un requisito para entrar, pero sí es un acelerador para tu carrera y tu calidad de vida a largo plazo.
+> **Clave:** El alemán no es un requisito para entrar, pero sí es un acelerador para tu carrera y tu calidad de vida a largo plazo.
 
 ---
 
@@ -275,7 +275,7 @@ Esta estrategia es especialmente útil si:
 6. **Viaja a Alemania** y realiza el Anmeldung.
 7. **Solicita el permiso de residencia** en la Ausländerbehörde de tu ciudad.
 
-> ⚠️ **Importante:** Solicita cita en el consulado con la mayor antelación posible. En algunos países latinoamericanos, las citas pueden tardar semanas o meses en estar disponibles.
+> **Importante:** Solicita cita en el consulado con la mayor antelación posible. En algunos países latinoamericanos, las citas pueden tardar semanas o meses en estar disponibles.
 
 ---
 
