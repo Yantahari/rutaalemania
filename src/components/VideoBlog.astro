@@ -1,0 +1,115 @@
+---
+interface Props {
+  videoId: string;
+  title?: string;
+}
+
+const { videoId, title = 'este tema' } = Astro.props;
+---
+
+<div class="vb-wrapper">
+  <button
+    class="vb-teaser"
+    type="button"
+    aria-expanded="false"
+    aria-controls={`vb-panel-${videoId}`}
+  >
+    <span class="vb-teaser-text">Prefieres verlo en video? Mira el resumen visual</span>
+    <span class="vb-teaser-chevron" aria-hidden="true">&#9662;</span>
+  </button>
+
+  <div class="vb-panel" id={`vb-panel-${videoId}`} hidden>
+    <div class="vb-embed">
+      <iframe
+        src={`https://www.youtube-nocookie.com/embed/${videoId}`}
+        title={`Video: ${title}`}
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
+    </div>
+  </div>
+</div>
+
+<style>
+  .vb-wrapper {
+    margin-bottom: 2rem;
+  }
+
+  .vb-teaser {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.875rem 1.25rem;
+    background: linear-gradient(135deg, rgba(226, 167, 48, 0.08) 0%, rgba(226, 167, 48, 0.03) 100%);
+    border: 1.5px solid rgba(226, 167, 48, 0.3);
+    border-radius: 0.75rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #e2a730;
+    transition: border-color 0.2s, background 0.2s, transform 0.15s;
+  }
+
+  .vb-teaser:hover {
+    border-color: rgba(226, 167, 48, 0.6);
+    background: linear-gradient(135deg, rgba(226, 167, 48, 0.14) 0%, rgba(226, 167, 48, 0.06) 100%);
+    transform: translateY(-1px);
+  }
+
+  .vb-teaser[aria-expanded='true'] .vb-teaser-chevron {
+    transform: rotate(180deg);
+  }
+
+  .vb-teaser-text {
+    pointer-events: none;
+  }
+
+  .vb-teaser-chevron {
+    font-size: 1.1rem;
+    transition: transform 0.2s;
+    color: #e2a730;
+    pointer-events: none;
+  }
+
+  .vb-panel {
+    margin-top: 1rem;
+  }
+
+  .vb-embed {
+    position: relative;
+    padding-bottom: 177.78%; /* 9:16 vertical */
+    height: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #e5e0d5;
+  }
+
+  .vb-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 1rem;
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.vb-wrapper').forEach((wrapper) => {
+    const teaser = wrapper.querySelector<HTMLButtonElement>('.vb-teaser')!;
+    const panel = wrapper.querySelector<HTMLElement>('.vb-panel')!;
+
+    teaser.addEventListener('click', () => {
+      const expanded = teaser.getAttribute('aria-expanded') === 'true';
+      teaser.setAttribute('aria-expanded', String(!expanded));
+      panel.hidden = expanded;
+    });
+  });
+</script>

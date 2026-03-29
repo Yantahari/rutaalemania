@@ -4,6 +4,7 @@ title: "Trabajar en IT en Alemania sin título universitario (§19c AufenthG)"
 description: "Guía completa para trabajar como programador o profesional IT en Alemania sin carrera universitaria usando el §19c de la ley de inmigración."
 date: "2026-02-15"
 keywords: "trabajar en IT alemania sin titulo, programador alemania sin carrera, visa IT experiencia"
+videoId: "4hb9T26Tavs"
 faq:
   - q: "¿Puedo trabajar como freelance IT en Alemania sin título?"
     a: "El §19c es para trabajo por cuenta ajena. Si quieres ser freelance, necesitas un visado de autónomos (§21 AufenthG), que tiene requisitos diferentes basados en tu plan de negocio, ingresos proyectados y relevancia económica."

@@ -4,6 +4,7 @@ title: "Chancenkarte: Qué es, requisitos y cómo solicitarla (Guía 2026)"
 description: "Guía completa sobre la Chancenkarte alemana: requisitos, sistema de puntos, costes, pasos para solicitarla y todo lo que necesitas saber para obtener la tarjeta de oportunidad."
 date: "2026-02-20"
 keywords: "chancenkarte, chancenkarte requisitos, chancenkarte puntos, visa chancenkarte alemania"
+videoId: "-1QHe6qKn0I"
 faq:
   - q: "¿Puedo llevar a mi familia con la Chancenkarte?"
     a: "No directamente. La Chancenkarte no permite reagrupación familiar. Sin embargo, tu pareja podría solicitar su propia Chancenkarte si cumple los requisitos. Una vez que consigas un contrato de trabajo y cambies a un permiso de trabajo, sí podrás solicitar la reagrupación familiar."

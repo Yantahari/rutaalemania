@@ -7,3 +7,7 @@ dist/
 
 # Local Netlify folder
 .netlify
+
+# Google OAuth credentials
+client_secret_*.json
+yt_token.json

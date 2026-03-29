@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 carousel: "sperrkonto"
+videoId: "gutAjKQtSug"
 title: "Cómo abrir una Sperrkonto (cuenta bloqueada) para tu visa en Alemania"
 description: "Guía paso a paso para abrir tu Sperrkonto: qué es, cuánto depositar en 2026, comparativa de proveedores y cómo transferir el dinero de forma segura."
 date: "2026-02-20"

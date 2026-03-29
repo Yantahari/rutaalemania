@@ -4,6 +4,7 @@ title: "Blue Card Alemania: requisitos, salario mínimo y cómo solicitarla"
 description: "Todo sobre la Blue Card (Tarjeta Azul UE) en Alemania: requisitos actualizados 2026, salario mínimo, ventajas, proceso de solicitud y comparación con la Chancenkarte."
 date: "2026-02-17"
 keywords: "blue card alemania, tarjeta azul alemania requisitos, blue card salario minimo"
+videoId: "WJdL28rMiig"
 faq:
   - q: "¿Puedo obtener la Blue Card si mi título no está reconocido en anabin?"
     a: "Sí, pero necesitas solicitar una evaluación individual. El proceso puede tardar varias semanas. Alternativamente, puedes solicitar un Zeugnisbewertung a la KMK por aproximadamente 200 €."

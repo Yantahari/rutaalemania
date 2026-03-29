@@ -4,6 +4,7 @@ title: "El CV alemán (Lebenslauf): Guía completa + plantilla descargable"
 description: "Aprende a crear un CV alemán perfecto: estructura, diferencias con el CV español, sección por sección, errores comunes y dónde buscar empleo en Alemania."
 date: "2026-02-20"
 keywords: "cv aleman plantilla, lebenslauf ejemplo español, curriculum vitae alemania"
+videoId: "Fg2Rd1M8VuQ"
 ---
 
 Si estás buscando trabajo en Alemania, tu CV es lo primero que ven los reclutadores. Y aquí viene el problema: **el CV alemán (Lebenslauf) es muy diferente al CV español o latinoamericano**.
