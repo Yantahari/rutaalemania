@@ -55,10 +55,10 @@ import simulatorData from '../data/simulator-data.json';
     <div class="text-center mb-6">
       <p class="step-label">Paso 4 de 4</p>
       <h3 class="text-xl font-heading font-bold">¿De qué país vienes?</h3>
-      <p class="text-sm text-white/40">Para comparar con el salario medio de tu país</p>
+      <p class="text-sm text-text-muted">Para comparar con el salario medio de tu país</p>
     </div>
     <div class="max-w-md mx-auto country-dropdown" id="sim-country-dropdown">
-      <input type="text" id="sim-country-input" class="w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3 text-white focus:border-amber focus:outline-none" placeholder="Selecciona tu país..." autocomplete="off" />
+      <input type="text" id="sim-country-input" class="w-full bg-white border border-border rounded-xl px-4 py-3 text-text-primary focus:border-amber focus:outline-none" placeholder="Selecciona tu país..." autocomplete="off" />
       <ul id="sim-country-list" class="country-list"></ul>
       <input type="hidden" id="sim-country" />
     </div>
@@ -87,16 +87,16 @@ import simulatorData from '../data/simulator-data.json';
     padding: 0.85rem 1.8rem; border-radius: 10px; font-family: 'DM Sans', sans-serif;
     font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s; border: none;
   }
-  .sim-back { background: rgba(255,255,255,0.06); color: rgba(255,255,255,0.5); }
-  .sim-back:hover { background: rgba(255,255,255,0.1); color: white; }
-  .sim-next { background: #e2a730; color: #1a1a2e; margin-left: auto; }
+  .sim-back { background: #f1efe9; color: #4b5563; border: 1px solid #e5e0d5; }
+  .sim-back:hover { background: #e5e0d5; color: #1f2937; }
+  .sim-next { background: #e2a730; color: #fff; margin-left: auto; }
   .sim-next:hover { background: #f0c760; transform: translateY(-1px); }
   .sim-next:disabled { opacity: 0.3; cursor: not-allowed; transform: none; }
 
   .sim-choice {
-    background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1);
+    background: #fff; border: 1px solid #e5e0d5;
     border-radius: 12px; padding: 1rem; cursor: pointer; transition: all 0.2s;
-    color: white; font-family: 'DM Sans', sans-serif; font-size: 0.95rem; font-weight: 500;
+    color: #1f2937; font-family: 'DM Sans', sans-serif; font-size: 0.95rem; font-weight: 500;
     text-align: center;
   }
   .sim-choice:hover { border-color: rgba(226,167,48,0.4); background: rgba(226,167,48,0.06); }
@@ -106,26 +106,26 @@ import simulatorData from '../data/simulator-data.json';
   .country-list {
     display: none; position: absolute; top: 100%; left: 0; right: 0; z-index: 20;
     max-height: 240px; overflow-y: auto; margin-top: 4px; padding: 4px 0;
-    background: #1a1a2e; border: 1px solid rgba(255,255,255,0.15); border-radius: 12px;
-    list-style: none;
+    background: #fff; border: 1px solid #e5e0d5; border-radius: 12px;
+    list-style: none; box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   }
   .country-list.open { display: block; }
   .country-list li {
-    padding: 10px 16px; cursor: pointer; font-size: 0.95rem; color: rgba(255,255,255,0.8);
+    padding: 10px 16px; cursor: pointer; font-size: 0.95rem; color: #1f2937;
   }
-  .country-list li:hover, .country-list li.highlighted { background: rgba(226,167,48,0.15); color: #fff; }
+  .country-list li:hover, .country-list li.highlighted { background: rgba(226,167,48,0.1); color: #1f2937; }
 
   .result-card {
-    background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
+    background: #fff; border: 1px solid #eee9df;
     border-radius: 16px; padding: 1.5rem; margin-bottom: 1rem;
   }
   .result-row {
     display: flex; justify-content: space-between; align-items: center;
     padding: 0.5rem 0; font-size: 0.9rem;
   }
-  .result-row + .result-row { border-top: 1px solid rgba(255,255,255,0.04); }
-  .result-val { font-weight: 700; color: #f0c760; }
-  .result-val.negative { color: rgba(255,255,255,0.5); }
+  .result-row + .result-row { border-top: 1px solid #eee9df; }
+  .result-val { font-weight: 700; color: #b8860b; }
+  .result-val.negative { color: #9ca3af; }
   .result-val.highlight { color: #27ae60; font-size: 1.1rem; }
 
   .share-btn-sim {
@@ -318,76 +318,76 @@ import simulatorData from '../data/simulator-data.json';
       <div class="text-center py-6">
         <p class="step-label">Tu simulación</p>
         <h3 class="text-2xl font-heading font-bold mb-1">${prof.name}</h3>
-        <p class="text-white/50">en ${city.name}</p>
+        <p class="text-text-secondary">en ${city.name}</p>
       </div>
 
       <div class="result-card">
-        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber-light mb-3">Ingresos estimados</h4>
+        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber mb-3">Ingresos estimados</h4>
         <div class="result-row">
-          <span class="text-white/60">Salario bruto estimado</span>
+          <span class="text-text-secondary">Salario bruto estimado</span>
           <span class="result-val">${calc.grossMonthly.toLocaleString('es-ES')}&euro;/mes</span>
         </div>
         <div class="result-row">
-          <span class="text-white/60">Seguridad social</span>
+          <span class="text-text-secondary">Seguridad social</span>
           <span class="result-val negative">-${calc.socialSecurity.toLocaleString('es-ES')}&euro;</span>
         </div>
         <div class="result-row">
-          <span class="text-white/60">Impuestos (IRPF + Soli)</span>
+          <span class="text-text-secondary">Impuestos (IRPF + Soli)</span>
           <span class="result-val negative">-${calc.incomeTax.toLocaleString('es-ES')}&euro;</span>
         </div>
-        <div class="result-row" style="border-top:1px solid rgba(255,255,255,0.12);padding-top:0.8rem;margin-top:0.3rem">
-          <span class="text-white font-semibold">Salario neto estimado</span>
+        <div class="result-row" style="border-top:1px solid #e5e0d5;padding-top:0.8rem;margin-top:0.3rem">
+          <span class="text-text-primary font-semibold">Salario neto estimado</span>
           <span class="result-val" style="font-size:1.1rem">${calc.netMonthly.toLocaleString('es-ES')}&euro;/mes</span>
         </div>
       </div>
 
       <div class="result-card">
-        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber-light mb-3">Gastos mensuales estimados</h4>
+        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber mb-3">Gastos mensuales estimados</h4>
         <div class="result-row">
-          <span class="text-white/60">Alquiler (1 habitación)</span>
+          <span class="text-text-secondary">Alquiler (1 habitación)</span>
           <span class="result-val negative">-${city.rent_1bed}&euro;</span>
         </div>
         <div class="result-row">
-          <span class="text-white/60">Seguro médico</span>
-          <span class="result-val" style="color:rgba(255,255,255,0.3)">(incluido)</span>
+          <span class="text-text-secondary">Seguro médico</span>
+          <span class="result-val" style="color:#9ca3af">(incluido)</span>
         </div>
         <div class="result-row">
-          <span class="text-white/60">Alimentación</span>
+          <span class="text-text-secondary">Alimentación</span>
           <span class="result-val negative">-${city.groceries}&euro;</span>
         </div>
         <div class="result-row">
-          <span class="text-white/60">Transporte (Deutschlandticket)</span>
+          <span class="text-text-secondary">Transporte (Deutschlandticket)</span>
           <span class="result-val negative">-${city.transport}&euro;</span>
         </div>
         <div class="result-row">
-          <span class="text-white/60">Internet + móvil</span>
+          <span class="text-text-secondary">Internet + móvil</span>
           <span class="result-val negative">-${city.utilities}&euro;</span>
         </div>
         <div class="result-row">
-          <span class="text-white/60">Otros gastos</span>
+          <span class="text-text-secondary">Otros gastos</span>
           <span class="result-val negative">-${city.misc}&euro;</span>
         </div>
       </div>
 
       <div class="result-card" style="border-color:rgba(39,174,96,0.3);background:rgba(39,174,96,0.05)">
         <div class="result-row">
-          <span class="text-white font-bold text-lg">Te quedarían libres</span>
+          <span class="text-text-primary font-bold text-lg">Te quedarían libres</span>
           <span class="result-val highlight" style="font-size:1.3rem">~${freeMonthly.toLocaleString('es-ES')}&euro;/mes</span>
         </div>
       </div>
 
       <div class="result-card">
-        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber-light mb-3">Comparación con ${country.name}</h4>
+        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber mb-3">Comparación con ${country.name}</h4>
         <div class="result-row">
-          <span class="text-white/60">Salario medio profesional en ${country.name}</span>
+          <span class="text-text-secondary">Salario medio profesional en ${country.name}</span>
           <span class="result-val">~${country.avg_professional_salary_eur.toLocaleString('es-ES')}&euro;/mes</span>
         </div>
         <div class="result-row">
-          <span class="text-white/60">Tu salario neto en Alemania</span>
+          <span class="text-text-secondary">Tu salario neto en Alemania</span>
           <span class="result-val">${calc.netMonthly.toLocaleString('es-ES')}&euro;/mes</span>
         </div>
         <div class="result-row">
-          <span class="text-white/60">Poder adquisitivo relativo</span>
+          <span class="text-text-secondary">Poder adquisitivo relativo</span>
           <span class="result-val highlight">~${purchasingPower}x</span>
         </div>
       </div>
@@ -397,16 +397,16 @@ import simulatorData from '../data/simulator-data.json';
         <h4 class="font-heading text-lg text-center mb-4">Para empezar, necesitarás:</h4>
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <a href="https://www.expatrio.com/?p=rutaalemania" class="sim-choice text-center text-sm" target="_blank" rel="noopener">
-            <strong class="block text-amber-light">Sperrkonto</strong>
-            <span class="text-white/40">Abrir cuenta bloqueada</span>
+            <strong class="block text-amber">Sperrkonto</strong>
+            <span class="text-text-muted">Abrir cuenta bloqueada</span>
           </a>
           <a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" class="sim-choice text-center text-sm" target="_blank" rel="noopener noreferrer sponsored">
-            <strong class="block text-amber-light">Alemán</strong>
-            <span class="text-white/40">Empezar a aprender</span>
+            <strong class="block text-amber">Alemán</strong>
+            <span class="text-text-muted">Empezar a aprender</span>
           </a>
           <a href="https://wise.prf.hn/click/camref:1110lAp2W" class="sim-choice text-center text-sm" target="_blank" rel="noopener">
-            <strong class="block text-amber-light">Transferencias</strong>
-            <span class="text-white/40">Enviar dinero barato</span>
+            <strong class="block text-amber">Transferencias</strong>
+            <span class="text-text-muted">Enviar dinero barato</span>
           </a>
         </div>
       </div>
@@ -414,7 +414,7 @@ import simulatorData from '../data/simulator-data.json';
       <!-- Share -->
       <div class="text-center p-8 bg-amber-glow border border-amber/15 rounded-2xl my-6">
         <h4 class="font-heading text-lg mb-2">Comparte tu simulación</h4>
-        <p class="text-sm text-white/50 mb-4">¿Conoces a alguien que quiera saber cuánto ganaría en Alemania?</p>
+        <p class="text-sm text-text-secondary mb-4">¿Conoces a alguien que quiera saber cuánto ganaría en Alemania?</p>
         <div class="flex justify-center gap-2 flex-wrap">
           <a href="https://wa.me/?text=${shareText}%20${shareURL}" target="_blank" rel="noopener" class="share-btn-sim wa">WhatsApp</a>
           <a href="https://t.me/share/url?url=${shareURL}&text=${shareText}" target="_blank" rel="noopener" class="share-btn-sim tg">Telegram</a>
@@ -425,10 +425,10 @@ import simulatorData from '../data/simulator-data.json';
 
       <!-- Restart -->
       <div class="text-center mt-4">
-        <button id="sim-restart" class="text-amber-light text-sm font-semibold hover:underline cursor-pointer bg-transparent border-none">&larr; Hacer otra simulación</button>
+        <button id="sim-restart" class="text-amber text-sm font-semibold hover:underline cursor-pointer bg-transparent border-none">&larr; Hacer otra simulación</button>
       </div>
 
-      <p class="text-xs text-white/25 text-center mt-6 pt-4 border-t border-white/5">
+      <p class="text-xs text-text-muted text-center mt-6 pt-4 border-t border-border">
         Datos orientativos basados en fuentes públicas (Entgeltatlas, Numbeo, Immobilienscout24). Los salarios y gastos reales pueden variar.
       </p>
     `;
