@@ -19,8 +19,8 @@ function html(size) {
   const y = Math.round(size * 0.74);
   return `<!DOCTYPE html><html><head><style>*{margin:0;padding:0;}body{width:${size}px;height:${size}px;overflow:hidden;}</style></head><body>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${size} ${size}" width="${size}" height="${size}">
-  <rect width="${size}" height="${size}" rx="${r}" fill="#1a1a2e"/>
-  <text x="${x}" y="${y}" font-family="Georgia,serif" font-weight="bold" font-size="${fs}" fill="#e2a730">RA</text>
+  <rect width="${size}" height="${size}" rx="${r}" fill="#e2a730"/>
+  <text x="${x}" y="${y}" font-family="Georgia,serif" font-weight="bold" font-size="${fs}" fill="#ffffff">RA</text>
 </svg></body></html>`;
 }
 
