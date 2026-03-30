@@ -11,3 +11,4 @@ dist/
 # Google OAuth credentials
 client_secret_*.json
 yt_token.json
+google_token.json
