@@ -24,7 +24,7 @@ const blogPostFiles = import.meta.glob('./blog/*.md', { eager: true });
 const blogPosts = Object.values(blogPostFiles) as any[];
 const latestPosts = blogPosts
   .sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime())
-  .slice(0, 3);
+  .slice(0, 6);
 ---
 
 <BaseLayout
@@ -161,28 +161,7 @@ const latestPosts = blogPosts
     </div>
   </section>
 
-  <!-- CALCULADORA CHANCENKARTE -->
-  <section class="bg-surface-muted py-16 md:py-24" id="calculadora">
-    <div class="container-narrow">
-      <CalculadoraChancenkarte />
-    </div>
-  </section>
-
-  <!-- SIMULADOR -->
-  <section class="container-wide py-16 md:py-24" id="simulador">
-    <div class="text-center mb-12">
-      <div class="badge mb-4">Herramienta interactiva</div>
-      <h2 class="text-3xl md:text-4xl font-heading mb-4">
-        Simulador de vida en <span class="text-amber">Alemania</span>
-      </h2>
-      <p class="text-text-secondary max-w-xl mx-auto">
-        Descubre cuanto ganarias, cuanto gastarias y cuanto te quedaria libre cada mes segun tu profesion y ciudad.
-      </p>
-    </div>
-    <SimuladorVida />
-  </section>
-
-  <!-- BLOG PREVIEW -->
+  <!-- BLOG PREVIEW (moved above tools for discoverability) -->
   <section class="bg-surface-muted py-20 md:py-28">
     <div class="container-wide">
       <div class="text-center mb-14">
@@ -209,8 +188,39 @@ const latestPosts = blogPosts
         ))}
       </div>
       <div class="text-center mt-8">
-        <a href="/blog/" class="btn-secondary">Ver todos los articulos &rarr;</a>
+        <a href="/blog/" class="btn-primary">Ver todos los articulos &rarr;</a>
       </div>
+    </div>
+  </section>
+
+  <!-- CALCULADORA CHANCENKARTE -->
+  <section class="bg-surface py-16 md:py-24" id="calculadora">
+    <div class="container-narrow">
+      <CalculadoraChancenkarte />
+    </div>
+    <div class="text-center mt-8">
+      <a href="/blog/chancenkarte-guia-completa/" class="text-amber font-semibold hover:underline">
+        Lee la guia completa de Chancenkarte &rarr;
+      </a>
+    </div>
+  </section>
+
+  <!-- SIMULADOR -->
+  <section class="container-wide py-16 md:py-24" id="simulador">
+    <div class="text-center mb-12">
+      <div class="badge mb-4">Herramienta interactiva</div>
+      <h2 class="text-3xl md:text-4xl font-heading mb-4">
+        Simulador de vida en <span class="text-amber">Alemania</span>
+      </h2>
+      <p class="text-text-secondary max-w-xl mx-auto">
+        Descubre cuanto ganarias, cuanto gastarias y cuanto te quedaria libre cada mes segun tu profesion y ciudad.
+      </p>
+    </div>
+    <SimuladorVida />
+    <div class="text-center mt-8">
+      <a href="/blog/cuanto-cuesta-vivir-en-alemania/" class="text-amber font-semibold hover:underline">
+        Descubre cuanto cuesta vivir en Alemania &rarr;
+      </a>
     </div>
   </section>
 
@@ -244,6 +254,7 @@ const latestPosts = blogPosts
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="#calculadora" class="btn-primary">Calculadora Chancenkarte</a>
+        <a href="/blog/" class="inline-block border border-white/20 text-white font-semibold px-6 py-3 rounded-xl hover:border-amber/50 hover:text-amber transition-all duration-200">Leer guias</a>
         <a href="/recursos/" class="inline-block border border-white/20 text-white font-semibold px-6 py-3 rounded-xl hover:border-amber/50 hover:text-amber transition-all duration-200">Ver recursos</a>
       </div>
     </div>
