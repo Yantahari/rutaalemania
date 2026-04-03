@@ -95,73 +95,7 @@ const latestPosts = blogPosts
     </div>
   </section>
 
-  <!-- ABOUT ME (brief) -->
-  <section class="container-wide py-16 md:py-24" id="sobre-mi">
-    <div class="grid md:grid-cols-2 gap-12 items-center">
-      <div>
-        <div class="badge mb-4">Sobre mi</div>
-        <h2 class="text-3xl md:text-4xl font-heading mb-6">
-          Soy <span class="text-amber">Carlos</span>, y ya hice este camino
-        </h2>
-
-        <p class="text-text-secondary leading-relaxed mb-5">
-          Biologo de vocacion, pase a la ensenanza para compartir mi pasion por la naturaleza.
-        </p>
-
-        <p class="text-text-secondary leading-relaxed mb-5">
-          <strong class="text-text-primary">La paternidad me llevo a Alemania</strong>, donde tuve que reinventarme:
-          aprender un idioma nuevo, adaptarme a otra cultura y navegar la burocracia alemana.
-        </p>
-
-        <p class="text-text-secondary leading-relaxed mb-6">
-          Ahora vivo en Freiburg y ayudo a otros hispanohablantes a simplificar el proceso.
-          <strong class="text-text-primary">No soy abogado</strong> — soy alguien que paso por todo esto y quiere ahorrarte tiempo y frustraciones.
-        </p>
-
-        <a href="/sobre-mi/" class="text-amber font-semibold hover:underline">
-          Conoce mi historia completa &rarr;
-        </a>
-      </div>
-      <div>
-        <img
-          src="/img/city-freiburg.jpg"
-          alt="Ciudad alemana"
-          class="rounded-2xl shadow-lg w-full h-auto object-cover mb-6"
-        />
-        <div class="space-y-4">
-          <div class="card p-5 flex items-start gap-4">
-            <div class="w-10 h-10 rounded-lg bg-amber-glow flex items-center justify-center shrink-0">
-              <svg class="w-5 h-5 text-amber" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-            </div>
-            <div>
-              <h3 class="font-heading text-base mb-1">Desde Freiburg, Alemania</h3>
-              <p class="text-text-muted text-sm">Informacion practica y actualizada, porque vivo aqui.</p>
-            </div>
-          </div>
-          <div class="card p-5 flex items-start gap-4">
-            <div class="w-10 h-10 rounded-lg bg-amber-glow flex items-center justify-center shrink-0">
-              <svg class="w-5 h-5 text-amber" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
-            </div>
-            <div>
-              <h3 class="font-heading text-base mb-1">De hispanohablante a hispanohablante</h3>
-              <p class="text-text-muted text-sm">Sin jerga legal. Todo explicado como te lo contaria un amigo.</p>
-            </div>
-          </div>
-          <div class="card p-5 flex items-start gap-4">
-            <div class="w-10 h-10 rounded-lg bg-amber-glow flex items-center justify-center shrink-0">
-              <svg class="w-5 h-5 text-amber" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-            </div>
-            <div>
-              <h3 class="font-heading text-base mb-1">Informacion verificada</h3>
-              <p class="text-text-muted text-sm">Fuentes oficiales, datos actualizados a 2026.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOG PREVIEW (moved above tools for discoverability) -->
+  <!-- BLOG PREVIEW -->
   <section class="bg-surface-muted py-20 md:py-28">
     <div class="container-wide">
       <div class="text-center mb-14">
@@ -220,6 +154,23 @@ const latestPosts = blogPosts
     <div class="text-center mt-8">
       <a href="/blog/cuanto-cuesta-vivir-en-alemania/" class="text-amber font-semibold hover:underline">
         Descubre cuanto cuesta vivir en Alemania &rarr;
+      </a>
+    </div>
+  </section>
+
+  <!-- CREDIBILITY (mini block) -->
+  <section class="border-y border-border bg-surface">
+    <div class="container-wide py-6">
+      <a href="/sobre-mi/" class="flex items-center justify-center gap-4 group">
+        <img
+          src="/img/city-freiburg.jpg"
+          alt="Freiburg, Alemania"
+          class="w-12 h-12 rounded-full object-cover ring-2 ring-amber/30"
+        />
+        <p class="text-text-secondary text-sm">
+          Escrito por <strong class="text-text-primary">Carlos</strong> desde Freiburg, Alemania.
+          <span class="text-amber font-semibold group-hover:underline">Conoce mi historia &rarr;</span>
+        </p>
       </a>
     </div>
   </section>
