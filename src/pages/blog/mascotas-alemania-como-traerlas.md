@@ -4,7 +4,7 @@ title: "Mascotas en Alemania: Como traer a su perro o gato (Guia 2026)"
 description: "Guia completa para emigrar a Alemania con su mascota: requisitos veterinarios, microchip, vacuna rabia, papeleo, vuelo y registro. Paso a paso."
 date: "2026-04-07"
 keywords: "mascotas alemania, traer perro alemania, emigrar con mascota, requisitos mascota alemania, vuelo con mascota, haftpflichtversicherung perro"
-videoId: "8ZoxVUvXYQY"
+videoId: "tFBUvcpLCkc"
 faq:
   - q: "¿Cuanto cuesta traer una mascota a Alemania?"
     a: "Los costes principales son: vacuna antirrabica (20-50 EUR equivalente), titulacion de anticuerpos si aplica (100-200 EUR), certificado veterinario oficial (variable segun pais), transporte aereo (50-300 EUR segun aerolinea y tamano del animal) y seguro de responsabilidad civil en Alemania (50-80 EUR/ano). En total, presupueste entre 300 y 700 EUR."
