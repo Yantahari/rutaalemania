@@ -278,6 +278,9 @@ Si llegaste a un alojamiento temporal (Airbnb, hostel, WG temporal), es momento 
 - Los contratos suelen ser de **24 meses**. Busca ofertas de "Neukunde" (nuevo cliente) con descuento los primeros meses.
 - La instalación puede tardar **1-3 semanas** después de firmar.
 - Coste: 25-45 €/mes dependiendo de la velocidad.
+- [Compara proveedores y precios](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4) antes de firmar: la diferencia entre tarifas puede ser de 10-20 € al mes.
+
+<a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/check24.png" alt="" width="22" height="22" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Compara internet en CHECK24</a>
 
 ---
 
@@ -286,6 +289,7 @@ Si llegaste a un alojamiento temporal (Airbnb, hostel, WG temporal), es momento 
 - Si compraste un prepago al llegar (Aldi Talk, Lidl Connect), puedes seguir con él o cambiar a contrato.
 - Opciones económicas de contrato: **WinSIM, PremiumSIM, Drillisch** (todos usan la red de O2).
 - Para contratos necesitas una cuenta bancaria alemana y, frecuentemente, la Meldebescheinigung.
+- Puedes [comparar todas las tarifas de movil](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=handytarife&cat=7) para encontrar la mejor opcion.
 
 > **Importante:** Los contratos de 24 meses se renuevan automáticamente si no cancelas con 3 meses de antelación. Anota la fecha de cancelación en tu calendario el mismo día que firmes.
 
@@ -357,8 +361,8 @@ Aquí tienes todo condensado en una lista que puedes usar como referencia rápid
 
 - [ ] Buscar apartamento definitivo (Immobilienscout24, WG-Gesucht)
 - [ ] Asistir a visitas de pisos con documentación preparada
-- [ ] Contratar internet en casa (Vodafone, Telekom, O2, 1&1)
-- [ ] Cambiar tarjeta SIM a contrato si prefieres (WinSIM, etc.)
+- [ ] [Comparar y contratar internet](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4) (Vodafone, Telekom, O2, 1&1)
+- [ ] [Comparar tarifas de movil](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=handytarife&cat=7) si prefieres contrato (WinSIM, etc.)
 - [ ] Aprender el sistema de reciclaje (Mülltrennung) de tu edificio
 - [ ] Registrarte para el Rundfunkbeitrag (GEZ, 18,36 €/mes)
 - [ ] Configurar redirección de correo si cambias de dirección

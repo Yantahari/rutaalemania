@@ -176,11 +176,30 @@ En zonas rurales, sí puede ser necesario. El coste de tener coche en Alemania (
 - **Fibra rápida (250-1000 Mbit/s):** 35–50 € al mes
 - **Proveedores populares:** Vodafone, Telekom, O2, 1&1
 
+Los precios varían mucho según proveedor y zona. Merece la pena [comparar tarifas de internet](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4) antes de firmar: la diferencia entre proveedores puede ser de 10-20 € al mes por la misma velocidad.
+
+<a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/check24.png" alt="" width="22" height="22" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Compara proveedores de internet en CHECK24</a>
+
 ### Telefonía móvil
 
 - **Prepago básico (5-10 GB):** 8–15 € al mes
 - **Contrato con más datos (15-30 GB):** 15–25 € al mes
 - **Proveedores económicos:** Aldi Talk, Lidl Connect, Freenet, WinSIM
+
+Puedes [comparar tarifas de movil](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=handytarife&cat=7) para encontrar el contrato que mejor se adapte a tus necesidades.
+
+---
+
+### Electricidad y gas
+
+Un gasto que muchos emigrantes olvidan presupuestar. Si tu alquiler es Kaltmiete (alquiler frio, sin suministros incluidos), pagaras electricidad y gas aparte:
+
+- **Electricidad (Strom):** 40–60 € al mes para una persona sola
+- **Gas (si tu piso usa gas para calefaccion):** 50–80 € al mes
+
+Alemania tiene libertad de mercado en electricidad y gas, lo que significa que puedes elegir proveedor. Los precios entre companias pueden variar hasta un 30%. [Comparar tarifas de electricidad](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=stromanbieter-wechseln&cat=1) y [gas](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=gasanbieter-wechseln&cat=3) antes de aceptar el proveedor por defecto de tu zona puede ahorrarte 200-400 € al ano.
+
+<a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=stromanbieter-wechseln&cat=1" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/check24.png" alt="" width="22" height="22" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Compara tarifas de electricidad en CHECK24</a>
 
 ---
 
