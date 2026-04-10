@@ -85,6 +85,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       </div>
 
       <div class="space-y-2.5">
+        <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=c24bank&cat=14" target="_blank" rel="noopener noreferrer sponsored" class="link-btn link-btn--c24">
+          <img src="/logos/c24.png" alt="C24 Bank" width="28" height="28" class="link-logo link-logo--affiliate" />
+          <span class="flex-1">
+            <span class="block font-semibold">C24 Bank</span>
+            <span class="block text-xs opacity-60">Cuenta bancaria alemana gratis</span>
+          </span>
+          <span class="link-badge link-badge--c24">Afiliado</span>
+        </a>
         <a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="link-btn link-btn--expatrio">
           <img src="/logos/expatrio-icon.png" alt="Expatrio" width="28" height="28" class="link-logo link-logo--affiliate" />
           <span class="flex-1">
@@ -207,6 +215,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     padding: 0.2rem 0.5rem;
     border-radius: 0.375rem;
     flex-shrink: 0;
+  }
+
+  /* C24 Bank — blue brand */
+  .link-btn--c24:hover {
+    background: rgba(0, 82, 180, 0.06);
+    border-color: rgba(0, 82, 180, 0.35);
+  }
+  .link-badge--c24 {
+    background: rgba(0, 82, 180, 0.12);
+    color: #0052b4;
   }
 
   /* Expatrio — teal/green brand */

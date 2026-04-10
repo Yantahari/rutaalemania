@@ -116,19 +116,22 @@ Necesitas una cuenta bancaria alemana para:
 
 | Banco | Tipo | Requisitos | Tiempo de apertura |
 |---|---|---|---|
+| **[C24 Bank](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=c24bank&cat=14)** | Online (Neobank) | Pasaporte + dirección | 10 minutos (verificación por video) |
 | **N26** | Online (Neobank) | Pasaporte + dirección | 10-15 minutos (verificación por video) |
 | **Vivid Money** | Online (Neobank) | Pasaporte + dirección | 10-15 minutos |
 | **DKB** | Online (tradicional) | Meldebescheinigung + pasaporte | 1-2 semanas |
 | **Commerzbank** | Presencial | Meldebescheinigung + pasaporte | 1-3 días (requiere cita) |
 | **Sparkasse** | Presencial (local) | Meldebescheinigung + pasaporte | 1-3 días (requiere cita) |
 
-> 💡 **Consejo:** Abre **N26 o Vivid** inmediatamente al llegar (puedes hacerlo desde el móvil en minutos). Luego, si quieres un banco más tradicional (útil para algunos caseros y trámites), abre una cuenta en **DKB, Commerzbank o Sparkasse** cuando tengas la Meldebescheinigung.
+> 💡 **Consejo:** Abre una cuenta digital como **[C24 Bank](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=c24bank&cat=14)** o N26 inmediatamente al llegar (puedes hacerlo desde el móvil en minutos). C24 ofrece subcuentas gratuitas para organizar tus gastos (alquiler, ahorro, etc.), algo muy útil cuando estás empezando. Luego, si quieres un banco más tradicional (útil para algunos caseros y trámites), abre una cuenta en **DKB, Commerzbank o Sparkasse** cuando tengas la Meldebescheinigung.
 
 ---
 
 > **Buena noticia:** Para transferir dinero desde tu país a tu nueva cuenta alemana, usa [Wise](https://wise.prf.hn/click/camref:1110lAp2W). Ofrece el tipo de cambio real del mercado con comisiones mínimas. La diferencia frente a una transferencia bancaria tradicional puede ser de 30-100 € por cada transferencia.
 
 <a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/wise.svg" alt="" width="48" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Ahorra en comisiones con Wise</a>
+
+<a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=c24bank&cat=14" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/c24.png" alt="" width="24" height="24" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Abre tu cuenta C24 Bank gratis</a>
 
 ---
 
@@ -331,7 +334,7 @@ Aquí tienes todo condensado en una lista que puedes usar como referencia rápid
 - [ ] **Hacer el Anmeldung** en la Bürgeramt (plazo: 14 días)
 - [ ] Guardar la Meldebescheinigung en lugar seguro
 - [ ] Activar el Sperrkonto (si aplica) con [Expatrio](https://www.expatrio.com/?p=rutaalemania)
-- [ ] Abrir cuenta bancaria (N26, Vivid o banco tradicional)
+- [ ] Abrir cuenta bancaria ([C24 Bank](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=c24bank&cat=14), N26 o banco tradicional)
 - [ ] Transferir dinero desde tu país con [Wise](https://wise.prf.hn/click/camref:1110lAp2W)
 - [ ] Darte de alta en el seguro médico (TK, AOK, Barmer...)
 - [ ] Comunicar tu aseguradora a tu empleador
