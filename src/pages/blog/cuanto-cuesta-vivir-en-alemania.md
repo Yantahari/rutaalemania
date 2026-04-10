@@ -102,6 +102,7 @@ En Alemania, **tener seguro médico es obligatorio por ley**. No puedes registra
 > 💡 **Consejo:** Para estudiantes y recién llegados que necesitan un seguro mientras activan todo, empresas como [Expatrio](https://www.expatrio.com/?p=rutaalemania) ofrecen paquetes que incluyen seguro médico temporal junto con la cuenta bloqueada (Sperrkonto).
 
 <a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Seguro + Sperrkonto con Expatrio</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -179,6 +180,7 @@ En zonas rurales, sí puede ser necesario. El coste de tener coche en Alemania (
 Los precios varían mucho según proveedor y zona. Merece la pena [comparar tarifas de internet](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4) antes de firmar: la diferencia entre proveedores puede ser de 10-20 € al mes por la misma velocidad.
 
 <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/check24.png" alt="" width="22" height="22" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Compara proveedores de internet en CHECK24</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ### Telefonía móvil
 
@@ -200,6 +202,7 @@ Un gasto que muchos emigrantes olvidan presupuestar. Si tu alquiler es Kaltmiete
 Alemania tiene libertad de mercado en electricidad y gas, lo que significa que puedes elegir proveedor. Los precios entre companias pueden variar hasta un 30%. [Comparar tarifas de electricidad](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=stromanbieter-wechseln&cat=1) y [gas](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=gasanbieter-wechseln&cat=3) antes de aceptar el proveedor por defecto de tu zona puede ahorrarte 200-400 € al ano.
 
 <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=stromanbieter-wechseln&cat=1" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/check24.png" alt="" width="22" height="22" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Compara tarifas de electricidad en CHECK24</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 

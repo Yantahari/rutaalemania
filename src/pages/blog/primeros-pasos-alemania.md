@@ -100,6 +100,7 @@ Con [Expatrio](https://www.expatrio.com/?p=rutaalemania), el proceso suele ser:
 Si aún no tienes cuenta bancaria alemana, puedes vincular una cuenta online como **N26** o **Vivid Money** temporalmente.
 
 <a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Activa tu Sperrkonto con Expatrio</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -130,8 +131,10 @@ Necesitas una cuenta bancaria alemana para:
 > **Buena noticia:** Para transferir dinero desde tu país a tu nueva cuenta alemana, usa [Wise](https://wise.prf.hn/click/camref:1110lAp2W). Ofrece el tipo de cambio real del mercado con comisiones mínimas. La diferencia frente a una transferencia bancaria tradicional puede ser de 30-100 € por cada transferencia.
 
 <a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/wise.svg" alt="" width="48" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Ahorra en comisiones con Wise</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=c24bank&cat=14" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/c24.png" alt="" width="24" height="24" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Abre tu cuenta C24 Bank gratis</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -156,6 +159,7 @@ Recibirás una **tarjeta del seguro (Gesundheitskarte)** por correo en 2-4 seman
 > 📌 **Recuerda:** No esperes a tener la tarjeta física para ir al médico. Con el número de afiliado ya puedes pedir cita.
 
 <a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Seguro médico temporal con Expatrio</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -192,6 +196,7 @@ Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguie
 > **Clave:** El alemán es una inversión a largo plazo. Cuanto antes empieces, antes verás resultados en tu vida diaria, tu carrera y tu integración.
 
 <a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -281,6 +286,7 @@ Si llegaste a un alojamiento temporal (Airbnb, hostel, WG temporal), es momento 
 - [Compara proveedores y precios](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4) antes de firmar: la diferencia entre tarifas puede ser de 10-20 € al mes.
 
 <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/check24.png" alt="" width="22" height="22" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Compara internet en CHECK24</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
