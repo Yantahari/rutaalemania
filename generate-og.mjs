@@ -147,7 +147,7 @@ async function generate() {
   const browser = await chromium.launch();
   const ctx = await browser.newContext({
     viewport: { width: WIDTH, height: HEIGHT },
-    deviceScaleFactor: 2,
+    deviceScaleFactor: 1,
   });
   const page = await ctx.newPage();
   await page.setContent(html, { waitUntil: 'load' });
