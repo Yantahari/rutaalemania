@@ -68,9 +68,25 @@ Una vez en Alemania, debe completar estos tramites:
 
 Registre a su perro en el **Ordnungsamt** de su ciudad. En muchos municipios debera pagar el **Hundesteuer** (impuesto canino), que oscila entre 50 y 200 EUR anuales segun la ciudad. Los gatos generalmente no requieren este registro.
 
-### Seguro de responsabilidad civil
+### Seguro de responsabilidad civil para el perro (Tierhalter-Haftpflicht)
 
-Contrate una **Haftpflichtversicherung** (seguro de responsabilidad civil para animales). Es **obligatorio para perros** en casi todos los estados federales y cubre danos que su mascota pueda causar a terceros. Cuesta entre **50 y 80 euros al ano**.
+La **Tierhalter-Haftpflichtversicherung** cubre los danos que su perro pueda causar a terceros: morder a alguien, provocar un accidente de trafico, destrozar objetos ajenos. Es **obligatoria por ley** en varios estados federales (Berlin, Hamburgo, Baja Sajonia, Turingia, Schleswig-Holstein y Sajonia-Anhalt). En el resto, es altamente recomendable.
+
+Sin este seguro, usted responde con todo su patrimonio. Un mordisco que requiera cirugia puede suponer una reclamacion de miles de euros. Cuesta entre **50 y 80 euros al ano**.
+
+<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundeversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">Comparar Tierhalter-Haftpflicht</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
+
+### Seguro veterinario para el perro (Hundekrankenversicherung)
+
+La **Hundekrankenversicherung** es un seguro diferente al anterior: cubre los **gastos veterinarios de su propio perro** — consultas, cirugias, hospitalizacion, medicamentos y tratamientos. No cubre danos a terceros (eso es la Tierhalter-Haftpflicht).
+
+En Alemania, una cirugia veterinaria de urgencia puede costar entre **1.000 y 5.000 euros**. Una operacion de rotura de ligamentos cruzados (muy comun en perros medianos y grandes) supera facilmente los 2.000 euros. Este seguro le protege de gastos inesperados.
+
+Cuesta entre **30 y 80 euros al mes** segun la raza, la edad del perro y la cobertura elegida.
+
+<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundekrankenversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">Comparar Hundekrankenversicherung</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ### Veterinario local
 
@@ -86,6 +102,7 @@ Antes de viajar, verifique que tiene todo:
 - Certificado veterinario oficial (maximo 10 dias antes)
 - Transportin homologado para el vuelo
 - Reserva de plaza para mascota en la aerolinea
-- Seguro Haftpflichtversicherung contratado (puede hacerse online antes de llegar)
+- [Tierhalter-Haftpflicht](https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundeversicherung) contratada (obligatoria en varios Lander)
+- [Hundekrankenversicherung](https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundekrankenversicherung) contratada (recomendada)
 
 Emigrar con su mascota requiere planificacion, pero es perfectamente posible. El secreto esta en **empezar con tiempo**, especialmente la titulacion de anticuerpos.

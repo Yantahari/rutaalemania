@@ -200,6 +200,21 @@ Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguie
 
 ---
 
+### Seguro de responsabilidad civil (Haftpflichtversicherung)
+
+La **Haftpflichtversicherung** (seguro de responsabilidad civil privada) no es legalmente obligatoria en Alemania, pero el **85% de los alemanes la tiene** y se considera imprescindible. Cubre daños que usted cause accidentalmente a terceros: romper algo en un piso alquilado, causar un accidente en bicicleta, dañar el ordenador de un compañero de trabajo, etc.
+
+Sin este seguro, usted responde con **todo su patrimonio** por los daños causados. Un accidente de bicicleta que cause lesiones a un peatón puede suponer una reclamación de decenas de miles de euros.
+
+El coste es muy bajo: **entre 3 y 10 euros al mes** según la cobertura. Es uno de los seguros con mejor relación calidad-precio que existen.
+
+> 💡 **Consejo:** Contrate la Haftpflichtversicherung en cuanto tenga su cuenta bancaria activa. Es barata, esencial, y muchos caseros la piden como requisito para alquilar.
+
+<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=haftpflichtversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">Comparar Haftpflichtversicherung</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
+
+---
+
 ### Registro en la Agentur für Arbeit (si buscas empleo)
 
 Si has llegado con Chancenkarte o estás buscando trabajo, regístrate en la **Agentur für Arbeit** (agencia de empleo):
@@ -263,6 +278,8 @@ Si llegaste a un alojamiento temporal (Airbnb, hostel, WG temporal), es momento 
 - Armarte de paciencia: encontrar piso puede tardar de **2 semanas a 2-3 meses**.
 
 > 💡 **Consejo:** Lleva tu carpeta de documentos completa a cada visita. La rapidez en entregar la documentación puede marcar la diferencia frente a otros candidatos.
+
+Al firmar el contrato de alquiler, considere contratar una **[Hausratversicherung](https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hausratversicherung)** (seguro de contenido del hogar). Cubre robo, incendio, daños por agua y otros siniestros sobre sus pertenencias. Cuesta entre 5 y 15 euros al mes según el tamaño del piso y la cobertura.
 
 ---
 
@@ -353,6 +370,7 @@ Aquí tienes todo condensado en una lista que puedes usar como referencia rápid
 
 ### Semana 2 (Importante)
 
+- [ ] Contratar [Haftpflichtversicherung](https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=haftpflichtversicherung) (responsabilidad civil, ~5€/mes)
 - [ ] Verificar que se ha solicitado tu Steueridentifikationsnummer
 - [ ] Si no llega, contactar al BZSt o ir al Finanzamt
 - [ ] Comunicar tu Steuer-ID a tu empleador
@@ -367,6 +385,7 @@ Aquí tienes todo condensado en una lista que puedes usar como referencia rápid
 
 - [ ] Buscar apartamento definitivo (Immobilienscout24, WG-Gesucht)
 - [ ] Asistir a visitas de pisos con documentación preparada
+- [ ] Contratar [Hausratversicherung](https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hausratversicherung) al firmar contrato (seguro del hogar)
 - [ ] [Comparar y contratar internet](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4) (Vodafone, Telekom, O2, 1&1)
 - [ ] [Comparar tarifas de movil](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=handytarife&cat=7) si prefieres contrato (WinSIM, etc.)
 - [ ] Aprender el sistema de reciclaje (Mülltrennung) de tu edificio
