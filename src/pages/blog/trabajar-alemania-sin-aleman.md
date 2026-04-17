@@ -151,11 +151,14 @@ Puedes tomar varias clases al día si tienes prisa. Lo que me gusta de Lingoda e
 
 <a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
 
-### Inmersión con apps estructuradas
+### Apps de aprendizaje autodidacta
 
-Para complementar las clases, aplicaciones como **MosaLingua** ([enlace](https://www.mosalingua.com[AFILIADO_MOSALINGUA])) usan un sistema de repetición espaciada que es **muy efectivo para memorizar vocabulario**.
+Para complementar las clases o empezar antes de llegar, [Babbel](https://tidd.ly/4sZL7OV) ofrece cursos de alemán diseñados específicamente para hispanohablantes. Lecciones de 10-15 minutos, reconocimiento de voz y primera lección gratuita.
 
-No sustituye las clases, pero acelera mucho la adquisición de vocabulario práctico.
+No sustituye un curso intensivo ni la inmersión, pero es una herramienta eficaz para construir vocabulario y gramática a tu ritmo — ideal si ya estás trabajando y no tienes horarios fijos para clases en vivo.
+
+<a href="https://tidd.ly/4sZL7OV" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/babbel.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Prueba Babbel gratis — alemán para hispanohablantes</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -212,7 +215,7 @@ Pero incluso en esos sectores, **el alemán te abrirá puertas que ni sabías qu
 
 > 📌 **Recuerda:** No uses "puedo trabajar sin alemán" como excusa para no aprenderlo. Úsalo como trampolín: ven, empieza a trabajar, y mientras tanto invierte en el idioma.
 
-Es la mejor inversión que harás en tu vida profesional en Alemania. Y si aún no has empezado, hoy es el mejor día. [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) te permite tomar una clase de prueba gratuita para ver si te convence el formato.
+Es la mejor inversión que harás en tu vida profesional en Alemania. Y si aún no has empezado, hoy es el mejor día. [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) te permite tomar una clase de prueba gratuita si prefieres clases en vivo con profesor. Y si lo tuyo es aprender a tu ritmo con lecciones cortas, [Babbel](https://tidd.ly/4sZL7OV) tiene cursos de alemán hechos para hispanohablantes.
 
 ---
 

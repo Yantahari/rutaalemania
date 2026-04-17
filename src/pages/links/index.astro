@@ -141,6 +141,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
           </span>
           <span class="link-badge link-badge--lingoda">Afiliado</span>
         </a>
+        <a href="https://tidd.ly/4sZL7OV" target="_blank" rel="noopener noreferrer sponsored" class="link-btn link-btn--babbel">
+          <img src="/logos/babbel.svg" alt="Babbel" width="28" height="28" class="link-logo link-logo--affiliate" />
+          <span class="flex-1">
+            <span class="block font-semibold">Babbel</span>
+            <span class="block text-xs opacity-60">Alemán para hispanohablantes, a tu ritmo</span>
+          </span>
+          <span class="link-badge link-badge--babbel">Afiliado</span>
+        </a>
       </div>
 
       <!-- Footer -->
@@ -299,6 +307,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   .link-badge--lingoda {
     background: rgba(124, 58, 237, 0.12);
     color: #7c3aed;
+  }
+
+  /* Babbel — orange brand */
+  .link-btn--babbel:hover {
+    background: rgba(254, 77, 1, 0.06);
+    border-color: rgba(254, 77, 1, 0.35);
+  }
+  .link-badge--babbel {
+    background: rgba(254, 77, 1, 0.12);
+    color: #d44000;
   }
 
   /* Lyca Mobile — red brand */
