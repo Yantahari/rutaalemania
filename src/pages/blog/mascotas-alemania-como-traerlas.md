@@ -77,7 +77,7 @@ Sin este seguro, usted responde con todo su patrimonio. Un mordisco que requiera
 <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundeversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">Comparar Tierhalter-Haftpflicht</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
-Otra opcion es [Feather](https://feather-insurance.com/dog-liability-insurance?utm_source=rutaalemania), una plataforma de seguros especializada en expats con soporte en ingles y proceso 100% online. Cubre la responsabilidad civil de su perro con contratacion en minutos.
+Otra opción es [Feather](https://feather-insurance.com/dog-liability-insurance?utm_source=rutaalemania), una plataforma de seguros especializada en expats con soporte en inglés y proceso 100% online. Cubre la responsabilidad civil de su perro con contratación en minutos.
 
 <a href="https://feather-insurance.com/dog-liability-insurance?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Tierhalter-Haftpflicht con Feather</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
@@ -93,7 +93,7 @@ Cuesta entre **30 y 80 euros al mes** segun la raza, la edad del perro y la cobe
 <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundekrankenversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">Comparar Hundekrankenversicherung</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
-[Feather](https://feather-insurance.com/pet-health-insurance?utm_source=rutaalemania) tambien ofrece seguro veterinario para mascotas, con gestion digital y atencion en ingles.
+[Feather](https://feather-insurance.com/pet-health-insurance?utm_source=rutaalemania) también ofrece seguro veterinario para mascotas, con gestión digital y atención en inglés.
 
 <a href="https://feather-insurance.com/pet-health-insurance?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Seguro veterinario con Feather</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>

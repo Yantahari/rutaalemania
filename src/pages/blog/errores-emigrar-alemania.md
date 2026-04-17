@@ -156,6 +156,9 @@ Mientras tanto, tu cita en el consulado se acerca o ya pasó, y **tienes que rep
 3. Transferencia del dinero (2-5 días dependiendo de tu banco)
 4. Recibes el certificado por email
 
+<a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Abre tu Sperrkonto con Expatrio</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
+
 > 📌 **Recuerda:** Tiempo total: 1-2 semanas si empiezas con antelación. No lo dejes para el último momento.
 
 ---
@@ -196,7 +199,10 @@ Muchos hispanohablantes terminan frustrados y vuelven a casa no porque Alemania 
 
 No esperes a llegar. **Invierte en aprender alemán desde ya.** Incluso 30 minutos al día durante 3 meses antes de mudarte marcan una diferencia brutal.
 
-Combina una app (Duolingo, Babbel) con clases en vivo. La gramática la puedes estudiar solo, pero **la conversación necesita práctica con personas reales**.
+Combina una app (Duolingo, [Babbel](https://tidd.ly/4sZL7OV)) con clases en vivo. La gramática la puedes estudiar solo, pero **la conversación necesita práctica con personas reales**.
+
+<a href="https://tidd.ly/4sZL7OV" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/babbel.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Babbel — a tu ritmo</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 

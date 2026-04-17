@@ -336,6 +336,9 @@ Utiliza servicios como **[Wise](https://wise.prf.hn/click/camref:1110lAp2W)**, q
 
 > **Clave:** Comparar servicios de transferencia puede ahorrarte entre 50 y 200 € en cada envío grande. Wise es la opción más popular entre emigrantes.
 
+<a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/wise.svg" alt="" width="48" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Ahorra en comisiones con Wise</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
+
 ---
 
 ## Consejos finales para optimizar tu presupuesto

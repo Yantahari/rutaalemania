@@ -100,6 +100,9 @@ Debes demostrar que puedes mantenerte económicamente durante tu estancia. Esto 
 
 > 💡 **Consejo:** Si aún no tienes el A1 de alemán, puedes prepararlo desde casa con [Babbel](https://tidd.ly/4sZL7OV) (cursos diseñados para hispanohablantes, lecciones de 10-15 min/día) o con clases en vivo en [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48). Subir a B1-B2 te da hasta 2 puntos extra en la Vía 2.
 
+<a href="https://tidd.ly/4sZL7OV" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/babbel.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Prepara tu A1 con Babbel</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
+
 ---
 
 ## El sistema de puntos en detalle

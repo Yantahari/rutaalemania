@@ -117,6 +117,9 @@ Compara esto con el permiso de trabajo normal, que requiere **5 años** para acc
 
 > 💡 **Consejo:** Invertir en aprender alemán vale la pena. Con un nivel B1 puedes obtener tu residencia permanente en menos de 2 años. Plataformas como [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrecen cursos intensivos de alemán online con profesores nativos, ideales para preparar tu certificación mientras trabajas.
 
+<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
+
 ---
 
 ### Reagrupación familiar simplificada

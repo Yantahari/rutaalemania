@@ -156,6 +156,9 @@ El seguro médico es **obligatorio** en Alemania. Sin él, no puedes firmar form
 
 > 💡 **¿No sabes qué seguros necesitas en Alemania?** La [herramienta de recomendación de Feather](https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania) te dice en pocos minutos exactamente qué seguros son obligatorios, recomendables u opcionales según tu situación. Gratuita y sin compromiso.
 
+<a href="https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> ¿Qué seguros necesitas? — Feather</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
+
 Recibirás una **tarjeta del seguro (Gesundheitskarte)** por correo en 2-4 semanas.
 
 > 📌 **Recuerda:** No esperes a tener la tarjeta física para ir al médico. Con el número de afiliado ya puedes pedir cita.
@@ -201,6 +204,9 @@ Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguie
 <a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
+<a href="https://tidd.ly/4sZL7OV" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/babbel.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Babbel — a tu ritmo</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
+
 ---
 
 ### Seguro de responsabilidad civil (Haftpflichtversicherung)
@@ -213,7 +219,7 @@ El coste es muy bajo: **entre 3 y 10 euros al mes** según la cobertura. Es uno 
 
 > 💡 **Consejo:** Contrate la Haftpflichtversicherung en cuanto tenga su cuenta bancaria activa. Es barata, esencial, y muchos caseros la piden como requisito para alquilar.
 
-<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=haftpflichtversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">Comparar Haftpflichtversicherung</a>
+<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=haftpflichtversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/tarifcheck24.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Comparar Haftpflichtversicherung</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
@@ -319,7 +325,7 @@ Al firmar el contrato de alquiler, considere contratar una **[Hausratversicherun
 
 > 💡 **Si necesitas llamar a tu familia en Latinoamérica**, [Lyca Mobile](https://tidd.ly/4vxmVpv) es una opción especialmente práctica: SIM gratuita, sin verificación de crédito, y tarifas internacionales competitivas. Puedes pedirla online y recibirla por correo.
 
-<a href="https://tidd.ly/4vxmVpv" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">Consigue tu SIM alemana con Lyca Mobile</a>
+<a href="https://tidd.ly/4vxmVpv" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lycamobile.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Consigue tu SIM alemana con Lyca Mobile</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 > **Importante:** Los contratos de 24 meses se renuevan automáticamente si no cancelas con 3 meses de antelación. Anota la fecha de cancelación en tu calendario el mismo día que firmes.
