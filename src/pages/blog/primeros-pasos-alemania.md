@@ -219,7 +219,7 @@ El coste es muy bajo: **entre 3 y 10 euros al mes** según la cobertura. Es uno 
 
 > 💡 **Consejo:** Contrate la Haftpflichtversicherung en cuanto tenga su cuenta bancaria activa. Es barata, esencial, y muchos caseros la piden como requisito para alquilar.
 
-<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=haftpflichtversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/tarifcheck24.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Comparar Haftpflichtversicherung</a>
+<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=haftpflichtversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/tarifcheck24.svg" alt="" width="56" height="14" style="display:inline;vertical-align:middle;margin-right:0.4rem;object-fit:contain"> Comparar Haftpflichtversicherung</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
@@ -325,7 +325,7 @@ Al firmar el contrato de alquiler, considere contratar una **[Hausratversicherun
 
 > 💡 **Si necesitas llamar a tu familia en Latinoamérica**, [Lyca Mobile](https://tidd.ly/4vxmVpv) es una opción especialmente práctica: SIM gratuita, sin verificación de crédito, y tarifas internacionales competitivas. Puedes pedirla online y recibirla por correo.
 
-<a href="https://tidd.ly/4vxmVpv" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lycamobile.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Consigue tu SIM alemana con Lyca Mobile</a>
+<a href="https://tidd.ly/4vxmVpv" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lycamobile.png" alt="" width="40" height="16" style="display:inline;vertical-align:middle;margin-right:0.4rem;object-fit:contain"> Consigue tu SIM alemana con Lyca Mobile</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 > **Importante:** Los contratos de 24 meses se renuevan automáticamente si no cancelas con 3 meses de antelación. Anota la fecha de cancelación en tu calendario el mismo día que firmes.

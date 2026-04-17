@@ -74,7 +74,7 @@ La **Tierhalter-Haftpflichtversicherung** cubre los danos que su perro pueda cau
 
 Sin este seguro, usted responde con todo su patrimonio. Un mordisco que requiera cirugia puede suponer una reclamacion de miles de euros. Cuesta entre **50 y 80 euros al ano**.
 
-<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundeversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">Comparar Tierhalter-Haftpflicht</a>
+<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundeversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/tarifcheck24.svg" alt="" width="56" height="14" style="display:inline;vertical-align:middle;margin-right:0.4rem;object-fit:contain"> Comparar Tierhalter-Haftpflicht</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 Otra opción es [Feather](https://feather-insurance.com/dog-liability-insurance?utm_source=rutaalemania), una plataforma de seguros especializada en expats con soporte en inglés y proceso 100% online. Cubre la responsabilidad civil de su perro con contratación en minutos.
@@ -90,7 +90,7 @@ En Alemania, una cirugia veterinaria de urgencia puede costar entre **1.000 y 5.
 
 Cuesta entre **30 y 80 euros al mes** segun la raza, la edad del perro y la cobertura elegida.
 
-<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundekrankenversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">Comparar Hundekrankenversicherung</a>
+<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundekrankenversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/tarifcheck24.svg" alt="" width="56" height="14" style="display:inline;vertical-align:middle;margin-right:0.4rem;object-fit:contain"> Comparar Hundekrankenversicherung</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 [Feather](https://feather-insurance.com/pet-health-insurance?utm_source=rutaalemania) también ofrece seguro veterinario para mascotas, con gestión digital y atención en inglés.
