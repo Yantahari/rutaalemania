@@ -50,7 +50,7 @@ Esta primera semana es la más crítica. Hay trámites con plazo legal y otros q
 
 No intentes hacer todo el primer día. Descansa del viaje, ubícate en tu barrio, compra lo básico en el supermercado y familiarízate con el transporte público.
 
-Compra una **tarjeta SIM** prepago para tener internet móvil (Aldi Talk, Lidl Connect o cualquier prepago en un quiosco).
+Consigue una **tarjeta SIM** para tener internet y un número alemán desde el primer día. [Lyca Mobile](https://tidd.ly/4vxmVpv) ofrece una SIM gratuita sin contrato, con tarifas desde 4,99 €/mes, red 5G y llamadas baratas a Latinoamérica. También puedes comprar prepagos de Aldi Talk o Lidl Connect en cualquier quiosco.
 
 **Activa tu Deutschlandticket** si planeas moverte en transporte público. Son 63 € al mes por todo el transporte local y regional de Alemania. Puedes contratarlo online o en las apps de transporte local (BVG en Berlín, MVV en Múnich, etc.). Consulta nuestro [desglose del costo de vida en Alemania](/blog/cuanto-cuesta-vivir-en-alemania/) para planificar tu presupuesto mensual completo.
 
@@ -314,6 +314,11 @@ Al firmar el contrato de alquiler, considere contratar una **[Hausratversicherun
 - Para contratos necesitas una cuenta bancaria alemana y, frecuentemente, la Meldebescheinigung.
 - Puedes [comparar todas las tarifas de movil](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=handytarife&cat=7) para encontrar la mejor opcion.
 
+> 💡 **Si necesitas llamar a tu familia en Latinoamérica**, [Lyca Mobile](https://tidd.ly/4vxmVpv) es una opción especialmente práctica: SIM gratuita, sin verificación de crédito, y tarifas internacionales competitivas. Puedes pedirla online y recibirla por correo.
+
+<a href="https://tidd.ly/4vxmVpv" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;">Consigue tu SIM alemana con Lyca Mobile</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
+
 > **Importante:** Los contratos de 24 meses se renuevan automáticamente si no cancelas con 3 meses de antelación. Anota la fecha de cancelación en tu calendario el mismo día que firmes.
 
 ---
@@ -356,7 +361,7 @@ Aquí tienes todo condensado en una lista que puedes usar como referencia rápid
 
 ### Semana 1 (Urgente)
 
-- [ ] Comprar tarjeta SIM prepago
+- [ ] Conseguir tarjeta SIM ([Lyca Mobile](https://tidd.ly/4vxmVpv) — SIM gratis, llamadas baratas a LATAM)
 - [ ] Activar Deutschlandticket
 - [ ] **Hacer el Anmeldung** en la Bürgeramt (plazo: 14 días)
 - [ ] Guardar la Meldebescheinigung en lugar seguro

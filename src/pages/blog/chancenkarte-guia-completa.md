@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: "Chancenkarte 2026: Requisitos y Calculadora Gratis"
-description: "Descubre si cumples los requisitos de la Chancenkarte con nuestra calculadora gratuita. Guia paso a paso: puntos, costes y como solicitarla desde LATAM."
+title: "Chancenkarte 2026: Calcula tus Puntos Gratis"
+description: "¿Cumples los requisitos de la Chancenkarte? Descúbrelo con nuestra calculadora de puntos gratuita. Guía paso a paso: costes, documentos y plazos."
 date: "2026-02-20"
-keywords: "chancenkarte, chancenkarte requisitos, chancenkarte puntos, visa chancenkarte alemania"
+keywords: "chancenkarte, chancenkarte requisitos, chancenkarte puntos, visa chancenkarte alemania, tarjeta de oportunidad alemania"
 videoId: "-1QHe6qKn0I"
 faq:
   - q: "¿Puedo llevar a mi familia con la Chancenkarte?"
