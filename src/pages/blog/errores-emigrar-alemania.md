@@ -228,7 +228,7 @@ Para que no te pase lo mismo, aquí tienes un resumen de lo que debes hacer **an
 - [ ] Abrir el Sperrkonto con [Expatrio](https://www.expatrio.com/?p=rutaalemania) (si necesitas visa)
 - [ ] Adaptar tu CV al formato Lebenslauf alemán
 - [ ] Reservar cita en la Bürgeramt para el Anmeldung (consulta nuestra [checklist de los primeros 30 días](/blog/primeros-pasos-alemania/))
-- [ ] Investigar el sistema de seguro médico
+- [ ] Investigar el sistema de seguro médico (usa la [herramienta de Feather](https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania) para saber qué seguros necesitas)
 - [ ] Preparar todos los documentos apostillados y traducidos
 - [ ] Tener alojamiento confirmado (aunque sea temporal) con Wohnungsgeberbestätigung
 - [ ] Investigar la ciudad a la que vas: transporte, barrios, supermercados

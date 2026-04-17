@@ -150,9 +150,11 @@ El seguro médico es **obligatorio** en Alemania. Sin él, no puedes firmar form
 
 ---
 
-**Si vienes sin empleo (estudiante, Chancenkarte, etc.):** Necesitas contratar un seguro por tu cuenta. [Expatrio](https://www.expatrio.com/?p=rutaalemania) ofrece seguros médicos temporales para recién llegados que aún no tienen empleo.
+**Si vienes sin empleo (estudiante, Chancenkarte, etc.):** Necesitas contratar un seguro por tu cuenta. [Expatrio](https://www.expatrio.com/?p=rutaalemania) ofrece seguros médicos temporales para recién llegados que aún no tienen empleo. Otra opción es [Feather](https://feather-insurance.com/health-insurance/expat/short-term?utm_source=rutaalemania), una plataforma de seguros diseñada para expats con soporte en inglés y proceso 100% online.
 
 **Acción:** Contacta la aseguradora de tu elección (puedes hacerlo online o por teléfono) y solicita el alta. Ellos se pondrán en contacto con tu empleador para gestionar las cotizaciones.
+
+> 💡 **¿No sabes qué seguros necesitas en Alemania?** La [herramienta de recomendación de Feather](https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania) te dice en pocos minutos exactamente qué seguros son obligatorios, recomendables u opcionales según tu situación. Gratuita y sin compromiso.
 
 Recibirás una **tarjeta del seguro (Gesundheitskarte)** por correo en 2-4 semanas.
 
