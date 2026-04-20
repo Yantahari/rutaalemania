@@ -99,6 +99,13 @@ Pero tienen limitaciones que debe conocer:
 <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=c24bank&cat=14" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/c24.png" alt="" width="24" height="24" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Abrir cuenta C24 Bank gratis</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
+### ¿Prefiere comparar varios bancos antes de decidir?
+
+Si quiere ver ofertas de múltiples bancos alemanes en un solo sitio en vez de elegir directamente C24 Bank, [Tarifcheck24 tiene un comparador de Girokonto](https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=girokonto) que filtra por condiciones (comisiones, bonus de bienvenida, tipo de tarjeta). Actualmente algunos bancos ofrecen un **bonus de bienvenida de hasta 150 €** al abrir cuenta a través del comparador. Es una opción si prefiere revisar varias alternativas antes de comprometerse.
+
+<a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=girokonto" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/tarifcheck24.svg" alt="" width="56" height="14" style="display:inline;vertical-align:middle;margin-right:0.4rem;object-fit:contain"> Comparar cuentas bancarias en Tarifcheck24</a>
+<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
+
 ## Consejo practico: la estrategia de dos cuentas
 
 Abra un **banco digital el mismo dia que llegue**. Lo puede hacer desde el movil en diez minutos. Asi tiene cuenta operativa inmediata para recibir transferencias y empezar a funcionar.
