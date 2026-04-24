@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ActualidadCard from '../../components/ActualidadCard.astro';
+
+const all = await getCollection('actualidad');
+const sorted = all.sort(
+  (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+const visible = sorted.slice(0, 10);
+const hasArchive = sorted.length > 10;
+---
+
+<BaseLayout
+  title="Actualidad Alemania — Noticias para emigrantes hispanohablantes"
+  description="Noticias breves sobre cambios legales, visados, requisitos y vida laboral en Alemania. Informacion relevante para quienes emigran desde LATAM."
+  keywords="noticias alemania, actualidad alemania espanol, emigrar alemania noticias, cambios legales alemania"
+>
+  <section class="container-wide py-12 md:py-20">
+    <header class="text-center mb-12">
+      <div class="badge mb-4">Actualidad</div>
+      <h1 class="text-3xl md:text-5xl font-heading mb-4">Noticias de Alemania</h1>
+      <p class="text-text-secondary max-w-xl mx-auto">
+        Cambios legales, umbrales, visados y todo lo que afecta a quien vive o quiere vivir en Alemania.
+      </p>
+    </header>
+
+    {visible.length === 0 ? (
+      <p class="text-center text-text-muted py-12">
+        Aun no hay noticias publicadas. Vuelva pronto.
+      </p>
+    ) : (
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {visible.map(entry => <ActualidadCard entry={entry} />)}
+      </div>
+    )}
+
+    {hasArchive && (
+      <div class="mt-12 text-center">
+        <a href="/actualidad/archivo/" class="text-amber text-sm font-semibold hover:underline">
+          Ver noticias anteriores &rarr;
+        </a>
+      </div>
+    )}
+  </section>
+</BaseLayout>

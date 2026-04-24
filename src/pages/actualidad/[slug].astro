@@ -1,0 +1,120 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('actualidad');
+  return entries.map(entry => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { title, description, date, image, imageAlt, source, sourceUrl } = entry.data;
+
+const formattedDate = new Date(date).toLocaleDateString('es-ES', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const newsSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: title,
+  description,
+  datePublished: new Date(date).toISOString(),
+  dateModified: new Date(date).toISOString(),
+  ...(image && { image: image.startsWith('http') ? image : `https://rutaalemania.com${image}` }),
+  author: {
+    '@type': 'Person',
+    name: 'Carlos Dominguez Cid',
+    url: 'https://rutaalemania.com/sobre-mi/',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'RutaAlemania',
+    url: 'https://rutaalemania.com',
+  },
+};
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  ogType="article"
+  ogImage={image}
+  schema={newsSchema}
+>
+  <article class="container-narrow py-12 md:py-16">
+    <nav class="text-sm text-text-muted mb-6" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-amber">Inicio</a>
+      <span class="mx-2">&rsaquo;</span>
+      <a href="/actualidad/" class="hover:text-amber">Actualidad</a>
+      <span class="mx-2">&rsaquo;</span>
+      <span class="text-text-secondary line-clamp-1">{title}</span>
+    </nav>
+
+    <header class="mb-10">
+      <div class="badge mb-4">{formattedDate}</div>
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-heading font-bold leading-tight mb-4">
+        {title}
+      </h1>
+      <p class="text-text-secondary text-lg leading-relaxed">
+        {description}
+      </p>
+    </header>
+
+    {image && (
+      <figure class="mb-10">
+        <img
+          src={image}
+          alt={imageAlt ?? ''}
+          class="w-full rounded-2xl"
+        />
+        {imageAlt && (
+          <figcaption class="text-xs text-text-muted text-center mt-2">
+            {imageAlt}
+          </figcaption>
+        )}
+      </figure>
+    )}
+
+    <div class="blog-content prose prose-amber max-w-none
+      prose-headings:font-heading prose-headings:text-text-primary
+      prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-5
+      prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
+      prose-p:text-text-secondary prose-p:leading-relaxed prose-p:mb-5
+      prose-a:text-amber prose-a:underline prose-a:decoration-amber/40 prose-a:underline-offset-2 hover:prose-a:decoration-amber
+      prose-strong:text-text-primary prose-strong:font-semibold
+      prose-li:text-text-secondary prose-li:mb-2
+      prose-blockquote:text-text-secondary
+      prose-img:rounded-xl prose-img:my-6
+    ">
+      <Content />
+    </div>
+
+    <aside class="mt-10 p-5 bg-surface-muted border border-border-light rounded-xl text-sm">
+      <span class="text-text-muted">Fuente:</span>{' '}
+      <a
+        href={sourceUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-amber hover:underline font-medium"
+      >
+        {source}
+      </a>
+    </aside>
+
+    <div class="mt-10 pt-8 border-t border-border-light flex items-center justify-between text-sm">
+      <a href="/actualidad/" class="text-amber font-semibold hover:underline">
+        &larr; Todas las noticias
+      </a>
+      <a href="/#calculadora" class="text-text-muted hover:text-amber">
+        Test Chancenkarte gratis &rarr;
+      </a>
+    </div>
+  </article>
+</BaseLayout>

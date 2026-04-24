@@ -1,0 +1,39 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'actualidad'>;
+}
+
+const { entry } = Astro.props;
+const { title, description, date, image, imageAlt } = entry.data;
+const formattedDate = new Date(date).toLocaleDateString('es-ES', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+const href = `/actualidad/${entry.id}/`;
+---
+
+<a href={href} class="card group flex flex-col">
+  {image && (
+    <div class="-mx-6 -mt-6 mb-5 overflow-hidden rounded-t-2xl aspect-[16/9]">
+      <img
+        src={image}
+        alt={imageAlt ?? ''}
+        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+        loading="lazy"
+      />
+    </div>
+  )}
+  <p class="text-xs text-amber mb-2">{formattedDate}</p>
+  <h2 class="font-heading text-lg mb-3 group-hover:text-amber transition-colors">
+    {title}
+  </h2>
+  <p class="text-text-muted text-sm leading-relaxed flex-1">
+    {description}
+  </p>
+  <span class="text-amber text-sm font-semibold mt-4 inline-block">
+    Leer mas &rarr;
+  </span>
+</a>
