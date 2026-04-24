@@ -43,6 +43,12 @@
     @apply bg-amber-glow border border-amber/15 rounded-xl p-4 text-center;
   }
 
+  /* Inline links inside article body (blog + actualidad).
+     Targets anchors without class so btn-primary CTAs keep their button styling. */
+  .blog-content a:not([class]) {
+    @apply text-amber underline underline-offset-2 decoration-amber/40 hover:decoration-amber;
+  }
+
   /* Blog prose visual enhancements */
   .blog-content hr {
     @apply h-px border-none my-12;
