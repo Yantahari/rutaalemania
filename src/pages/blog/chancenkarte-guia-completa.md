@@ -269,13 +269,15 @@ Puedes trabajar hasta **20 horas semanales** en cualquier empleo, incluidos trab
 
 ### Probebeschäftigung (empleo de prueba)
 
-Puedes hacer hasta **2 semanas de empleo de prueba** con un empleador para que ambos veáis si encajáis. Esto es una herramienta muy poderosa: muchas empresas están más dispuestas a "probarte" antes de comprometerse con un contrato.
+Puedes hacer hasta **2 semanas de empleo de prueba** con un empleador para que ambos veáis si encajáis. Importante: desde la modificación legal de diciembre de 2025, **esta prueba solo cuenta si la actividad es cualificada, va orientada a una formación, o forma parte del proceso de reconocimiento de tu título extranjero**. Una prueba de dos semanas en un trabajo no cualificado (hostelería, almacén, etc.) ya no entra dentro del marco de la Chancenkarte.
 
-> **Buena noticia:** El empleo de prueba te permite demostrar tu valía directamente. Muchos contratos se cierran después de estas dos semanas.
+> **Buena noticia:** Bien usado, el empleo de prueba sigue siendo una herramienta poderosa: muchas empresas se animan a "probarte" durante esas dos semanas en un puesto cualificado de tu sector y, si encajáis, cierran un contrato directamente.
 
 ### Entrevistas y networking
 
 Por supuesto, puedes asistir a entrevistas de trabajo, ferias de empleo, eventos de networking y **todo lo que necesites para encontrar tu trabajo**.
+
+> ⚠️ **Aclaración legal (diciembre 2025):** El §20a Abs. 2 de la *AufenthG* fue modificado para enfatizar que la actividad laboral con la Chancenkarte se limita **exclusivamente** a estas dos opciones: trabajo de hasta 20 h/semana y empleo de prueba cualificado de 2 semanas. No es un permiso de trabajo abierto. Cualquier otra actividad laboral remunerada fuera de estos supuestos puede poner en riesgo tu permiso de residencia.
 
 ---
 
