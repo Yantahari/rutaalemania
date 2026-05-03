@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: "Chancenkarte 2026: Calcula tus Puntos Gratis"
-description: "¿Cumples los requisitos de la Chancenkarte? Descúbrelo con nuestra calculadora de puntos gratuita. Guía paso a paso: costes, documentos y plazos."
+title: "Chancenkarte 2026: requisitos, puntos y calculadora"
+description: "Requisitos de la Chancenkarte 2026: sistema de 6 puntos, Sperrkonto de 12.324 €, costes y plazos reales. Calcula si cumples los puntos en 2 minutos."
 date: "2026-02-20"
 keywords: "chancenkarte, chancenkarte requisitos, chancenkarte puntos, visa chancenkarte alemania, tarjeta de oportunidad alemania"
 videoId: "-1QHe6qKn0I"
