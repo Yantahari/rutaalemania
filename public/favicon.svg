@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#e2a730"/>
-  <text x="4" y="24" font-family="serif" font-weight="bold" font-size="22" fill="#ffffff">RA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <title>RutaAlemania — Glifo simplificat (mides &lt; 8mm / favicon)</title>
+  
+  <rect x="0" y="46" width="41" height="8" fill="#0F1B33"></rect>
+  <path d="M 35 15 L 75 15 L 85 25 L 85 85 L 35 85 Z" fill="#0F1B33"></path>
 </svg>
