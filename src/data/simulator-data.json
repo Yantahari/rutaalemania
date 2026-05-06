@@ -211,7 +211,6 @@
     "honduras": { "name": "Honduras", "avg_professional_salary_eur": 350 },
     "paraguay": { "name": "Paraguay", "avg_professional_salary_eur": 400 },
     "el_salvador": { "name": "El Salvador", "avg_professional_salary_eur": 400 },
-    "nicaragua": { "name": "Nicaragua", "avg_professional_salary_eur": 300 },
-    "cuba": { "name": "Cuba", "avg_professional_salary_eur": 100 }
+    "nicaragua": { "name": "Nicaragua", "avg_professional_salary_eur": 300 }
   }
 }
