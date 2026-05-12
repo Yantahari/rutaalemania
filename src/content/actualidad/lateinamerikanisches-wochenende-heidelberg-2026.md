@@ -10,7 +10,7 @@ sourceUrl: "https://www.lateinamerikanischeswochenende.de/"
 tags: ["cultura", "diaspora", "eventos", "heidelberg", "festival-latino"]
 ---
 
-El **Lateinamerikanisches Wochenende** —el "cap de setmana llatinoamericano" en su traducción literal— llega a Heidelberg del **viernes 29 al domingo 31 de mayo de 2026**. Durante tres jornadas, la sala **Halle 02** se transforma en una plaza latina con música, baile, gastronomía y artesanía. Es uno de los formatos más estables del circuito de eventos latinos en Alemania y este año recorre una decena de ciudades, entre ellas Múnich, Stuttgart, Colonia y Heidelberg.
+El **Lateinamerikanisches Wochenende** —el "fin de semana latinoamericano" en su traducción literal— llega a Heidelberg del **viernes 29 al domingo 31 de mayo de 2026**. Durante tres jornadas, la sala **Halle 02** se transforma en una plaza latina con música, baile, gastronomía y artesanía. Es uno de los formatos más estables del circuito de eventos latinos en Alemania y este año recorre una decena de ciudades, entre ellas Múnich, Stuttgart, Colonia y Heidelberg.
 
 ## Qué es el Lateinamerikanisches Wochenende
 
