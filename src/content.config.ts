@@ -9,6 +9,7 @@ const actualidad = defineCollection({
     date: z.coerce.date(),
     image: z.string().optional(),
     imageAlt: z.string().optional(),
+    imageCredit: z.string().optional(),
     source: z.string(),
     sourceUrl: z.string().url(),
     tags: z.array(z.string()).optional(),

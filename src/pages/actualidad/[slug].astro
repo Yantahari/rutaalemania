@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const { title, description, date, image, imageAlt, source, sourceUrl } = entry.data;
+const { title, description, date, image, imageAlt, imageCredit, source, sourceUrl } = entry.data;
 
 const formattedDate = new Date(date).toLocaleDateString('es-ES', {
   year: 'numeric',
@@ -74,9 +74,9 @@ const newsSchema = {
           alt={imageAlt ?? ''}
           class="w-full rounded-2xl"
         />
-        {imageAlt && (
+        {imageCredit && (
           <figcaption class="text-xs text-text-muted text-center mt-2">
-            {imageAlt}
+            {imageCredit}
           </figcaption>
         )}
       </figure>
