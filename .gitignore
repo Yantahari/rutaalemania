@@ -12,3 +12,8 @@ dist/
 client_secret_*.json
 yt_token.json
 google_token.json
+
+# Archivos de fase local (registro interno del Director,
+# no entran al repo público)
+JUSTIFICACIÓN.md
+JUSTIFICACIÓ.md
