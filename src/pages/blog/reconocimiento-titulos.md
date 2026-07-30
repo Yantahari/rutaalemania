@@ -171,14 +171,14 @@ Cada autoridad tiene sus propios requisitos, pero en general necesitarás:
 
 Las traducciones deben ser realizadas por **traductores jurados** (*beeidigte Übersetzer*) reconocidos en Alemania. No vale cualquier traductor ni una traducción automática.
 
-Para traducciones juradas de calidad y a buen precio, [Lingoking](https://www.lingoking.com[AFILIADO_LINGOKING]) es una plataforma que conecta con traductores jurados certificados. El proceso es online: subes el documento, recibes un presupuesto y **te envían la traducción jurada por correo**.
+Para traducciones juradas de calidad y a buen precio, [Lingoking](https://www.lingoking.com) es una plataforma que conecta con traductores jurados certificados. El proceso es online: subes el documento, recibes un presupuesto y **te envían la traducción jurada por correo**.
 
 **Coste orientativo por documento:**
 - Título universitario: 50-100 EUR
 - Expediente académico (según extensión): 80-200 EUR
 - Certificado de trabajo: 40-80 EUR
 
-> 💡 **Consejo:** Invierte en traducciones de calidad. Un error en la traducción puede retrasar todo el proceso semanas o meses. [Lingoking](https://www.lingoking.com[AFILIADO_LINGOKING]) trabaja con traductores especializados en documentos académicos y oficiales.
+> 💡 **Consejo:** Invierte en traducciones de calidad. Un error en la traducción puede retrasar todo el proceso semanas o meses. [Lingoking](https://www.lingoking.com) trabaja con traductores especializados en documentos académicos y oficiales.
 
 ---
 
@@ -350,7 +350,7 @@ Para que tengas una visión clara, aquí va el proceso resumido:
 1. **Determina** si tu profesión es regulada o no regulada.
 2. **Consulta Anabin** para ver el estatus de tu universidad y título.
 3. **Usa el Anerkennungs-Finder** para identificar tu autoridad competente.
-4. **Prepara los documentos:** originales, traducciones juradas ([Lingoking](https://www.lingoking.com[AFILIADO_LINGOKING])), apostillas.
+4. **Prepara los documentos:** originales, traducciones juradas ([Lingoking](https://www.lingoking.com)), apostillas.
 5. **Presenta la solicitud** con todos los documentos.
 6. **Espera la decisión** (3-6 meses).
 7. **Si el reconocimiento es parcial:** evalúa si te basta (4 puntos para Chancenkarte) o si necesitas/quieres la Nachqualifizierung.
