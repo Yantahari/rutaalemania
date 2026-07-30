@@ -44,29 +44,29 @@ La Sperrkonto es **obligatoria** para:
 
 ## Cuánto dinero necesitas bloquear en 2026
 
-Las cifras se actualizan cada año. Para 2026, los montos son:
+Las cifras se actualizan cada año. Para 2026, los montos son (verificados en julio de 2026 — fuente: Auswärtiges Amt y Bundesagentur für Arbeit):
 
 | Tipo de visado | Monto mensual | Monto anual (12 meses) |
 |---|---|---|
 | Visado de estudios | 992 EUR/mes | 11.904 EUR |
-| Chancenkarte | 1.027 EUR/mes | 12.324 EUR |
+| Chancenkarte | 1.091 EUR/mes | 13.092 EUR |
 
 > **Importante:** Estos son los montos mínimos legales. Depositar un poco más (50-100 EUR extra) no está de más por si hay comisiones de transferencia o fluctuaciones de cambio.
 
-Para la **Chancenkarte**, el monto mensual es ligeramente superior al de estudiantes porque se entiende que un profesional tiene gastos diferentes. El cálculo es: 1.027 EUR x 12 meses = **12.324 EUR**. Para saber si ese dinero te alcanzará en tu ciudad de destino, consulta nuestro [desglose del costo de vida en Alemania](/blog/cuanto-cuesta-vivir-en-alemania/).
+Para la **Chancenkarte**, el monto mensual es ligeramente superior al de estudiantes porque se entiende que un profesional tiene gastos diferentes. El cálculo es: 1.091 EUR x 12 meses = **13.092 EUR**. Para saber si ese dinero te alcanzará en tu ciudad de destino, consulta nuestro [desglose del costo de vida en Alemania](/blog/cuanto-cuesta-vivir-en-alemania/).
 
 ---
 
 ## Comparativa de proveedores: Expatrio vs Fintiba vs Deutsche Bank
 
-Hay tres proveedores principales para abrir una Sperrkonto. Aquí va una **comparativa honesta**.
+Hay tres proveedores principales para abrir una Sperrkonto. Aquí va una **comparativa honesta**. Precios verificados en julio de 2026.
 
 ### Expatrio
 
 | Característica | Detalle |
 |---|---|
-| **Coste de apertura** | 0 EUR (gratis) |
-| **Comisión mensual** | 5,90 EUR/mes |
+| **Coste de apertura** | 119 EUR |
+| **Comisión mensual** | 9 EUR/mes |
 | **Tiempo de apertura** | 10-15 minutos (online) |
 | **Tiempo hasta tener la cuenta activa** | 1-3 días laborales |
 | **Soporte** | Chat, email. En inglés y español |
@@ -83,8 +83,8 @@ Hay tres proveedores principales para abrir una Sperrkonto. Aquí va una **compa
 
 | Característica | Detalle |
 |---|---|
-| **Coste de apertura** | 0 EUR |
-| **Comisión mensual** | 4,90 EUR/mes |
+| **Coste de apertura** | 159 EUR |
+| **Comisión mensual** | 9,90 EUR/mes |
 | **Tiempo de apertura** | 15-20 minutos (online) |
 | **Tiempo hasta tener la cuenta activa** | 2-5 días laborales |
 | **Soporte** | Chat, email. En inglés y alemán |
@@ -162,7 +162,7 @@ Una vez verificada tu identidad, Expatrio te proporcionará los datos bancarios 
 
 ### Paso 6: Transferir el dinero
 
-Este es el paso más importante. **Debes transferir el monto completo** (12.324 EUR para Chancenkarte o 11.904 EUR para estudios).
+Este es el paso más importante. **Debes transferir el monto completo** (13.092 EUR para Chancenkarte o 11.904 EUR para estudios, montos de 2026).
 
 ### Paso 7: Recibir el certificado
 
@@ -200,7 +200,7 @@ La forma clásica. Vas a tu banco, pides una transferencia internacional en euro
 - **Rapidez** (normalmente 1-3 días laborales)
 - **Proceso online** (no necesitas ir al banco)
 
-Para una transferencia de 12.324 EUR, la diferencia entre usar Wise y tu banco puede ser de **200-500 EUR** dependiendo de tu país y moneda. No es despreciable.
+Para una transferencia de 13.092 EUR, la diferencia entre usar Wise y tu banco puede ser de **200-500 EUR** dependiendo de tu país y moneda. No es despreciable.
 
 ---
 
@@ -247,7 +247,7 @@ Si ya tienes una cuenta en euros (por ejemplo, si vives en España o tienes una 
 Una vez que aterrizas en Alemania y te registras (*Anmeldung*), tu Sperrkonto **se activa y empieza a liberarte dinero mensualmente**. Consulta nuestra [checklist de los primeros 30 días en Alemania](/blog/primeros-pasos-alemania/) para saber exactamente cuándo y cómo activar tu cuenta:
 
 1. **Activas la cuenta** proporcionando tu dirección alemana a Expatrio/Fintiba.
-2. **Cada mes** se desbloquea la cantidad establecida (992 o 1.027 EUR, según tu visado).
+2. **Cada mes** se desbloquea la cantidad establecida (992 o 1.091 EUR, según tu visado).
 3. **Puedes transferir** ese dinero mensual a tu cuenta corriente alemana (que abrirás al llegar).
 4. **El dinero restante** sigue bloqueado hasta el mes siguiente.
 
