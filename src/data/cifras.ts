@@ -124,6 +124,30 @@ export const CIFRAS = {
     deriva_de: ['gkv.tipo_general', 'gkv.zusatzbeitrag_medio'],
     nota: 'El sitio publicaba «15,5-17 %».',
   },
+  'gkv.bbg.mes': {
+    valor: 5812.5,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-30',
+    fuente: { nombre: 'Beitragsbemessungsgrenze KV/PV 2026 (BMG)', tipo: 'oficial' },
+  },
+  'gkv.empleador_max_kv.mes': {
+    valor: 508.59,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-30',
+    fuente: { nombre: 'BBG × (total medio / 2)', tipo: 'derivada' },
+    deriva_de: ['gkv.bbg.mes', 'gkv.total_medio'],
+    nota: 'Aportación máxima del empleador al seguro de salud (también como tope en PKV). El sitio publicaba «unos 370 €».',
+  },
+  'gkv.empleador_max_pflege.mes': {
+    valor: 104.63,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-30',
+    fuente: { nombre: 'BBG y tipos Pflege 2026 (BMG)', tipo: 'oficial' },
+    nota: 'Tope del empleador en Pflegeversicherung. Conjunto KV + PV: 613,22 €/mes.',
+  },
 
   // ─── Expatrio (proveedor Sperrkonto — afiliado, referral directo) ───────
   'expatrio.alta': {

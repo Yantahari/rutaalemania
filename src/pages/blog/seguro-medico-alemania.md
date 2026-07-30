@@ -57,12 +57,12 @@ No es como en otros países donde "privado" significa "mejor" y "público" signi
 En GKV, la prima se calcula como un **porcentaje de su salario bruto**:
 
 - Tipo general: **14,6%** del salario bruto (fijo por ley)
-- Zusatzbeitrag (contribución adicional, varía por aseguradora): ~1,5-2%
-- **Total aproximado: 15,5-17% del salario bruto**
+- Zusatzbeitrag (contribución adicional, varía por aseguradora): **2,9 % de media en 2026** (según la caja, entre 2,18 % y 4,39 %)
+- **Total medio: ~17,5 % del salario bruto** (verificado en julio de 2026)
 
-Importante: **la mitad de la prima la paga el empleador**. Si usted es empleado, solo paga ~7,5-8,5% de su salario bruto.
+Importante: **la mitad de la prima la paga el empleador**. Si usted es empleado, solo paga **~8,75 %** de su salario bruto.
 
-**Ejemplo:** con un salario de 60.000 € brutos/año, su parte de la prima GKV es aproximadamente **4.500-5.100 €/año** (unos 375-425 €/mes descontados directamente de la nómina).
+**Ejemplo:** con un salario de 60.000 € brutos/año, su parte de la prima GKV es aproximadamente **5.250 €/año** (unos 437 €/mes de media; hasta unos 475 €/mes si su caja está en la parte alta), descontados directamente de la nómina.
 
 ### Qué cubre
 
@@ -132,7 +132,7 @@ PKV suele ofrecer **coberturas superiores** a GKV:
 
 **2. No hay Familienversicherung.** Si tiene pareja sin ingresos y dos hijos, son **cuatro primas** en vez de una.
 
-**3. Como empleado, el tope del empleador es fijo.** Si su prima PKV es de 800 €/mes, el empleador paga como máximo el equivalente a la prima GKV (unos 370 €). Los 430 € restantes los paga usted. En GKV el empleador siempre paga la mitad exacta.
+**3. Como empleado, el tope del empleador es fijo.** Si su prima PKV es de 800 €/mes, el empleador aporta como máximo el tope legal: **508,59 €/mes en 2026** (verificado en julio de 2026). Los ~290 € restantes los paga usted. En GKV el empleador siempre paga la mitad exacta.
 
 **4. Salir de PKV es muy difícil.** Volver a GKV requiere circunstancias específicas que se vuelven casi imposibles de cumplir a partir de los 55 años (ver sección más abajo).
 
