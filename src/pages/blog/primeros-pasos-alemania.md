@@ -50,7 +50,7 @@ Esta primera semana es la más crítica. Hay trámites con plazo legal y otros q
 
 No intentes hacer todo el primer día. Descansa del viaje, ubícate en tu barrio, compra lo básico en el supermercado y familiarízate con el transporte público.
 
-Consigue una **tarjeta SIM** para tener internet y un número alemán desde el primer día. [Lyca Mobile](https://tidd.ly/4vxmVpv) ofrece una SIM gratuita sin contrato, con tarifas desde 4,99 €/mes, red 5G y llamadas baratas a Latinoamérica. También puedes comprar prepagos de Aldi Talk o Lidl Connect en cualquier quiosco.
+Consigue una **tarjeta SIM** para tener internet y un número alemán desde el primer día. [Lyca Mobile](https://tidd.ly/4vxmVpv) ofrece una SIM gratuita sin contrato, con tarifas desde 4,99 € por paquete de 28 días (≈ 5,41 €/mes), red 5G y llamadas baratas a Latinoamérica. También puedes comprar prepagos de Aldi Talk o Lidl Connect en cualquier quiosco.
 
 **Activa tu Deutschlandticket** si planeas moverte en transporte público. Son 63 € al mes por todo el transporte local y regional de Alemania. Puedes contratarlo online o en las apps de transporte local (BVG en Berlín, MVV en Múnich, etc.). Consulta nuestro [desglose del costo de vida en Alemania](/blog/cuanto-cuesta-vivir-en-alemania/) para planificar tu presupuesto mensual completo.
 
