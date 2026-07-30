@@ -129,7 +129,7 @@ Si necesitas una visa para venir a Alemania (básicamente, si no eres ciudadano 
 
 Es una cuenta bancaria especial donde depositas una cantidad de dinero que demuestra que puedes mantenerte económicamente en Alemania.
 
-En 2026, la cantidad exigida es de **11.904 €** (992 € x 12 meses). Una vez en Alemania, ese dinero se va liberando mensualmente (~992 €/mes) para que puedas cubrir tus gastos de manutención.
+En 2026, la cantidad exigida para la Chancenkarte es de **13.092 €** (1.091 € x 12 meses); si vienes con visado de estudios, 11.904 € (992 € x 12). Una vez en Alemania, ese dinero se va liberando mensualmente (1.091 o 992 €/mes, según tu visado) para que puedas cubrir tus gastos de manutención.
 
 ---
 

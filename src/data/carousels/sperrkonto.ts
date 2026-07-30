@@ -42,9 +42,9 @@ const slides: CarouselSlide[] = [
     title: '¿Cuánto dinero <span class="cb-gold">necesitas</span>?',
     amountCard: {
       label: 'Importe mínimo',
-      amount: '11.904€',
+      amount: '13.092€',
       sub: 'al año',
-      note: 'Son <span class="cb-gold">992€/mes × 12</span>.<br>Se desbloquea mensualmente<br>una vez estés en Alemania.',
+      note: 'Son <span class="cb-gold">1.091€/mes × 12</span> (Chancenkarte).<br>Estudiantes: 992€/mes.<br>Se desbloquea mensualmente en Alemania.',
     },
   },
   // Slide 4 — Paso 1: Elige proveedor
@@ -81,7 +81,7 @@ const slides: CarouselSlide[] = [
     title: 'Transfiere el <span class="cb-gold">dinero</span>',
     stepBadge: 'Paso 3',
     cardContent:
-      'Haz la transferencia de los <span class="cb-gold">11.904€</span> a la cuenta indicada por Expatrio.',
+      'Haz la transferencia de los <span class="cb-gold">13.092€</span> (estudiantes: 11.904€) a la cuenta indicada por Expatrio.',
     tipCard: {
       icon: '💡',
       text: 'Usa <span class="cb-gold">Wise</span> para ahorrar en comisiones de cambio de divisa.',

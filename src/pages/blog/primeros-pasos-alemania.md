@@ -95,7 +95,7 @@ Con [Expatrio](https://www.expatrio.com/?p=rutaalemania), el proceso suele ser:
 1. Entra en tu cuenta de Expatrio.
 2. Sube tu Meldebescheinigung (del Anmeldung).
 3. Confirma tu cuenta bancaria alemana (o la que abras en los próximos días).
-4. Los fondos empezarán a liberarse mensualmente (~992 €/mes).
+4. Los fondos empezarán a liberarse mensualmente (~1.091 €/mes con Chancenkarte; 992 €/mes con visado de estudios).
 
 Si aún no tienes cuenta bancaria alemana, puedes vincular una cuenta online como **N26** o **Vivid Money** temporalmente.
 

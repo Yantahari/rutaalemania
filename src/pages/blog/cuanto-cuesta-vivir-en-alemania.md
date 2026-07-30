@@ -298,7 +298,7 @@ Esta es la pregunta del millón. Aquí va una estimación realista de lo que nec
 
 | Concepto | Coste estimado |
 |---|---|
-| [Sperrkonto](/blog/sperrkonto-como-abrir/) (cuenta bloqueada, si necesitas visa) | 11.904 € (2026) |
+| [Sperrkonto](/blog/sperrkonto-como-abrir/) (cuenta bloqueada, si necesitas visa) | 13.092 € — Chancenkarte / 11.904 € — estudios (2026) |
 | Vuelo (ida) | 300–800 € |
 | Alojamiento temporal (1-2 meses) | 800–2.000 € |
 | Fianza del piso (Kaution) | 1.300–2.500 € |
@@ -312,7 +312,7 @@ Esta es la pregunta del millón. Aquí va una estimación realista de lo que nec
 
 **Si vienes con visa (necesitas Sperrkonto):**
 
-El Sperrkonto ya cubre tus primeros meses de manutención (~992 €/mes que se van liberando). Aun así, necesitarás dinero extra para la fianza y gastos iniciales. **Total recomendado: 14.000–16.000 €** (incluyendo el Sperrkonto). Si vienes con la Chancenkarte, revisa también los [costes específicos de ese visado](/blog/chancenkarte-guia-completa/).
+El Sperrkonto ya cubre tus primeros meses de manutención (~1.091 €/mes que se van liberando; 992 € con visado de estudios). Aun así, necesitarás dinero extra para la fianza y gastos iniciales. **Total recomendado: 14.000–16.000 €** (incluyendo el Sperrkonto). Si vienes con la Chancenkarte, revisa también los [costes específicos de ese visado](/blog/chancenkarte-guia-completa/).
 
 > 💡 **Consejo:** Puedes abrir tu Sperrkonto de forma rápida y segura con [Expatrio](https://www.expatrio.com/?p=rutaalemania), que también ofrece seguro médico temporal incluido.
 
