@@ -345,7 +345,7 @@ Alemania ofrece un sistema de salud excelente en ambos caminos. La pregunta no e
 
 ## Disclaimer
 
-Este artículo tiene fines informativos. **No somos brokers ni asesores de seguros.** La información presentada es correcta al momento de la publicación (abril 2026), pero las leyes y umbrales cambian periódicamente.
+Este artículo tiene fines informativos. **No somos brokers ni asesores de seguros.** La información presentada se publicó en abril de 2026 y sus cifras se verificaron por última vez en julio de 2026, pero las leyes y umbrales cambian periódicamente.
 
 Cada situación personal es única. Si tiene dudas sobre su caso específico —especialmente si está cerca de cambiar de sistema o de los 55 años— consulte con un asesor cualificado (Versicherungsmakler independiente) antes de tomar la decisión.
 
