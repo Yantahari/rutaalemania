@@ -13,7 +13,6 @@ client_secret_*.json
 yt_token.json
 google_token.json
 
-# Archivos de fase local (registro interno del Director,
-# no entran al repo público)
-JUSTIFICACIÓN.md
-JUSTIFICACIÓ.md
+# Archivos de fase local (registro interno del Director, no entran al
+# repo público; los históricos viven versionados en el repo ops privado)
+JUSTIFICACI*.md
