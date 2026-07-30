@@ -196,15 +196,12 @@ Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguie
 - **Integrationskurs (curso de integración):** Subvencionado por el gobierno para ciertos perfiles (reagrupación familiar, refugiados, algunos visados). Pregunta en tu Ausländerbehörde si tienes derecho. Cuesta ~2,29 € por hora lectiva (o gratuito si recibes ayudas sociales).
 - **VHS (Volkshochschule):** Las escuelas populares de cada ciudad ofrecen cursos de alemán a precios muy accesibles (100-300 € por trimestre).
 - **[Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48):** Clases online en vivo con profesores nativos, en grupos pequeños, con horarios flexibles que se adaptan a tu jornada laboral. **Ideal si ya estás trabajando** y no puedes asistir a clases presenciales en horario fijo.
-- **[Babbel](https://tidd.ly/4sZL7OV):** App con cursos de alemán diseñados para hispanohablantes. Lecciones de 10-15 minutos al día, a tu ritmo. **Ideal para empezar antes de llegar** o como complemento a clases en vivo.
+- **[Babbel](https://es.babbel.com/cursos-de-aleman):** App con cursos de alemán diseñados para hispanohablantes. Lecciones de 10-15 minutos al día, a tu ritmo. **Ideal para empezar antes de llegar** o como complemento a clases en vivo.
 - **Goethe-Institut:** Cursos presenciales de alta calidad, pero más caros (600-1.200 € por nivel).
 
 > **Clave:** El alemán es una inversión a largo plazo. Cuanto antes empieces, antes verás resultados en tu vida diaria, tu carrera y tu integración.
 
 <a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
-
-<a href="https://tidd.ly/4sZL7OV" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/babbel.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Babbel — a tu ritmo</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
