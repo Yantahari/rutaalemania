@@ -300,3 +300,11 @@ Expatrio acepta solicitudes de la mayoría de países. Hay algunas restricciones
 La Sperrkonto es un trámite que parece intimidante pero que en la práctica es **bastante sencillo**. Con [Expatrio](https://www.expatrio.com/?p=rutaalemania) puedes tenerla lista en menos de dos semanas, y con [Wise](https://wise.prf.hn/click/camref:1110lAp2W) te aseguras de que la transferencia sea rápida y económica.
 
 **¿Ya tienes tu Sperrkonto lista?** El siguiente paso es verificar si cumples los requisitos de la Chancenkarte. Usa nuestra [calculadora gratuita](/#calculadora) y descúbrelo en 2 minutos.
+
+---
+
+## Disclaimer
+
+Este artículo tiene fines informativos. Los montos y precios están verificados a julio de 2026, pero cambian periódicamente.
+
+Los enlaces a Expatrio y Wise son enlaces de afiliado: si contratas a través de ellos, recibimos una pequeña comisión sin coste adicional para ti. Esto nos permite mantener RutaAlemania como recurso gratuito. Mantenemos la independencia editorial: solo recomendamos servicios que hemos verificado.
