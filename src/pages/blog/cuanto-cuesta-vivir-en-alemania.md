@@ -93,7 +93,7 @@ En Alemania, **tener seguro médico es obligatorio por ley**. No puedes registra
 
 ### Seguro privado (Private Krankenversicherung - PKV)
 
-- Solo accesible si ganas más de ~69.300 € brutos anuales (2026) o eres autónomo.
+- Solo accesible si ganas más de 77.400 € brutos anuales (2026) o eres autónomo.
 - Las cuotas dependen de tu edad, salud y cobertura elegida, **no de tu salario**.
 - Puede ser más barato al principio para jóvenes sanos, pero sube con la edad.
 
@@ -312,7 +312,7 @@ Esta es la pregunta del millón. Aquí va una estimación realista de lo que nec
 
 **Si vienes con visa (necesitas Sperrkonto):**
 
-El Sperrkonto ya cubre tus primeros meses de manutención (~1.091 €/mes que se van liberando; 992 € con visado de estudios). Aun así, necesitarás dinero extra para la fianza y gastos iniciales. **Total recomendado: 14.000–16.000 €** (incluyendo el Sperrkonto). Si vienes con la Chancenkarte, revisa también los [costes específicos de ese visado](/blog/chancenkarte-guia-completa/).
+El Sperrkonto ya cubre tus primeros meses de manutención (~1.091 €/mes que se van liberando; 992 € con visado de estudios). Aun así, necesitarás dinero extra para la fianza y gastos iniciales. **Total recomendado: 15.000-17.000 € con Chancenkarte; 14.000-16.000 € con visado de estudios** (incluyendo el Sperrkonto). Si vienes con la Chancenkarte, revisa también los [costes específicos de ese visado](/blog/chancenkarte-guia-completa/).
 
 > 💡 **Consejo:** Puedes abrir tu Sperrkonto de forma rápida y segura con [Expatrio](https://www.expatrio.com/?p=rutaalemania), que también ofrece seguro médico temporal incluido.
 

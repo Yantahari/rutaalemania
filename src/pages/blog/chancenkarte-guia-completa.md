@@ -19,7 +19,7 @@ faq:
   - q: "¿La Chancenkarte es lo mismo que la Blue Card?"
     a: "No. La Blue Card es un permiso de trabajo para el que necesitas un contrato con un salario mínimo específico. La Chancenkarte es un permiso de búsqueda de empleo. Son complementarios: puedes venir con la Chancenkarte y, cuando encuentres empleo cualificado, cambiar a una Blue Card."
   - q: "¿Cuánto dinero necesito en total de forma realista?"
-    a: "Contando la Sperrkonto (13.092 EUR), los costes de trámites (500-1.000 EUR) y un colchón para los primeros gastos en Alemania, se recomienda tener al menos 15.000-16.000 EUR disponibles."
+    a: "Contando la Sperrkonto (13.092 EUR), los costes de trámites (500-1.000 EUR) y un colchón para los primeros gastos en Alemania, se recomienda tener al menos 16.000-17.000 EUR disponibles."
 ---
 
 Si estás pensando en trabajar en Alemania pero aún no tienes contrato, la **Chancenkarte** (tarjeta de oportunidad) es probablemente tu mejor opción.
@@ -171,7 +171,7 @@ Aquí va un desglose realista de lo que necesitas económicamente:
 | Traducciones juradas | 50-150 EUR por documento |
 | Reconocimiento de título (si aplica) | 100-600 EUR |
 | Seguro médico de viaje | 40-80 EUR/mes |
-| **Total aproximado** | **12.700 - 13.500 EUR** |
+| **Total aproximado** | **13.400 - 14.300 EUR** |
 
 > **Importante:** La Sperrkonto no es un "gasto" — es tu dinero que se va desbloqueando mensualmente (aprox. 1.091 EUR/mes) una vez que llegas a Alemania. Lo usas para vivir.
 
@@ -349,7 +349,7 @@ No. La **Blue Card** (Tarjeta Azul UE) es un permiso de trabajo para el que nece
 
 ### ¿Cuánto dinero necesito en total de forma realista?
 
-Contando la Sperrkonto (13.092 EUR), los costes de trámites (500-1.000 EUR) y un colchón para los primeros gastos en Alemania (vuelo, alojamiento temporal, depósito de piso), yo recomendaría tener al menos **15.000-16.000 EUR** disponibles. Para un desglose detallado de gastos mensuales, consulta nuestro artículo sobre [cuánto cuesta vivir en Alemania en 2026](/blog/cuanto-cuesta-vivir-en-alemania/).
+Contando la Sperrkonto (13.092 EUR), los costes de trámites (500-1.000 EUR) y un colchón para los primeros gastos en Alemania (vuelo, alojamiento temporal, depósito de piso), yo recomendaría tener al menos **16.000-17.000 EUR** disponibles. Para un desglose detallado de gastos mensuales, consulta nuestro artículo sobre [cuánto cuesta vivir en Alemania en 2026](/blog/cuanto-cuesta-vivir-en-alemania/).
 
 ---
 
