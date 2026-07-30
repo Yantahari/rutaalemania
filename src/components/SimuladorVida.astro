@@ -261,7 +261,7 @@ import simulatorData from '../data/simulator-data.json';
 
     // Social security (~20% employee share)
     const pensionRate = 0.093;    // Rentenversicherung
-    const healthRate = 0.073;     // Krankenversicherung (employee share with avg Zusatzbeitrag)
+    const healthRate = 0.0875;    // Krankenversicherung — (14,6% + 2,9% Zusatzbeitrag medio 2026) / 2, verificado 2026-07
     const careRate = family === 'single' ? 0.023 : 0.017; // Pflegeversicherung (higher for childless)
     const unemploymentRate = 0.013; // Arbeitslosenversicherung
 
