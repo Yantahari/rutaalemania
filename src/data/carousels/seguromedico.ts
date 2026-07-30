@@ -1,4 +1,8 @@
 import type { CarouselSlide } from './sperrkonto';
+import { cifra } from '../cifras';
+
+// JAEG desde la fuente única — formato local del carrusel («77.400€»).
+const JAEG_ANNO = cifra('jaeg.anno').valor.toLocaleString('es-ES');
 
 const slides: CarouselSlide[] = [
   // Slide 1 — Cover
@@ -23,7 +27,7 @@ const slides: CarouselSlide[] = [
     title: '<span class="cb-gold">Público</span> vs <span class="cb-gold">Privado</span>',
     steps: [
       { num: '🏛️', text: 'Público (GKV): lo usa el 90% de la población. Cuota según tu salario.' },
-      { num: '🔒', text: 'Privado (PKV): solo si ganas +69.300€/año o eres autónomo.' },
+      { num: '🔒', text: `Privado (PKV): solo si ganas +${JAEG_ANNO}€/año o eres autónomo.` },
       { num: '', text: 'Volver del privado al público es muy difícil. Elige bien.' },
     ],
   },

@@ -1,3 +1,5 @@
+import { cifra } from '../cifras';
+
 export interface CarouselSlide {
   type: 'cover' | 'content' | 'cta';
   icon: string;
@@ -18,6 +20,14 @@ export interface CarouselSlide {
   checkmark?: string;
   ctaButtons?: { text: string; sub: string; url?: string }[];
 }
+
+// Cifras desde la fuente única (src/data/cifras.ts) — formato local del
+// carrusel («13.092€», sin espacio) para no alterar el diseño de los slides.
+const eur = (n: number) => n.toLocaleString('es-ES');
+const CK_MES = eur(cifra('sperrkonto.chancenkarte.mes').valor);
+const CK_ANNO = eur(cifra('sperrkonto.chancenkarte.anno').valor);
+const EST_MES = eur(cifra('sperrkonto.estudios.mes').valor);
+const EST_ANNO = eur(cifra('sperrkonto.estudios.anno').valor);
 
 const slides: CarouselSlide[] = [
   // Slide 1 — Cover
@@ -42,9 +52,9 @@ const slides: CarouselSlide[] = [
     title: '¿Cuánto dinero <span class="cb-gold">necesitas</span>?',
     amountCard: {
       label: 'Importe mínimo',
-      amount: '13.092€',
+      amount: `${CK_ANNO}€`,
       sub: 'al año',
-      note: 'Son <span class="cb-gold">1.091€/mes × 12</span> (Chancenkarte).<br>Estudiantes: 992€/mes.<br>Se desbloquea mensualmente en Alemania.',
+      note: `Son <span class="cb-gold">${CK_MES}€/mes × 12</span> (Chancenkarte).<br>Estudiantes: ${EST_MES}€/mes.<br>Se desbloquea mensualmente en Alemania.`,
     },
   },
   // Slide 4 — Paso 1: Elige proveedor
@@ -81,7 +91,7 @@ const slides: CarouselSlide[] = [
     title: 'Transfiere el <span class="cb-gold">dinero</span>',
     stepBadge: 'Paso 3',
     cardContent:
-      'Haz la transferencia de los <span class="cb-gold">13.092€</span> (estudiantes: 11.904€) a la cuenta indicada por Expatrio.',
+      `Haz la transferencia de los <span class="cb-gold">${CK_ANNO}€</span> (estudiantes: ${EST_ANNO}€) a la cuenta indicada por Expatrio.`,
     tipCard: {
       icon: '💡',
       text: 'Usa <span class="cb-gold">Wise</span> para ahorrar en comisiones de cambio de divisa.',
