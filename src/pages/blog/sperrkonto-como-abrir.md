@@ -57,9 +57,9 @@ Para la **Chancenkarte**, el monto mensual es ligeramente superior al de estudia
 
 ---
 
-## Comparativa de proveedores: Expatrio vs Fintiba vs Deutsche Bank
+## Comparativa de proveedores: Expatrio vs Fintiba
 
-Hay tres proveedores principales para abrir una Sperrkonto. Aquí va una **comparativa honesta**. Precios verificados en julio de 2026.
+Hay dos proveedores principales para abrir una Sperrkonto. Aquí va una **comparativa honesta**. Precios verificados en julio de 2026.
 
 ### Expatrio
 
@@ -89,33 +89,19 @@ Hay tres proveedores principales para abrir una Sperrkonto. Aquí va una **compa
 | **Tiempo hasta tener la cuenta activa** | 2-5 días laborales |
 | **Soporte** | Chat, email. En inglés y alemán |
 | **Extras** | Seguro médico opcional |
-| **Ideal para** | Quien busque la comisión mensual más baja |
+| **Ideal para** | Quien quiera una segunda opción que comparar |
 
-Fintiba es una alternativa sólida. Es **ligeramente más barato en la comisión mensual**, pero el proceso de verificación puede tardar un poco más.
+Fintiba es una alternativa sólida, aunque en 2026 ya no es más barata: 159 EUR de alta y 9,90 EUR/mes, por encima de Expatrio, y con una verificación algo más lenta.
 
----
-
-### Deutsche Bank
-
-| Característica | Detalle |
-|---|---|
-| **Coste de apertura** | 0 EUR |
-| **Comisión mensual** | 3,90 EUR/mes |
-| **Tiempo de apertura** | Variable (requiere documentación por correo) |
-| **Tiempo hasta tener la cuenta activa** | 2-6 semanas |
-| **Soporte** | Presencial, teléfono. En alemán e inglés |
-| **Extras** | Cuenta en banco tradicional alemán |
-| **Ideal para** | Quien tiene mucho tiempo y prefiere un banco tradicional |
-
-Deutsche Bank es la opción más barata en comisiones, pero **el proceso es significativamente más lento y burocrático**. Solo lo recomiendo si tienes meses de margen antes de necesitar el certificado.
+> **Nota:** Deutsche Bank, que históricamente ofrecía Sperrkonten, ya no acepta nuevos clientes internacionales para este producto (verificado en julio de 2026).
 
 ---
 
 ### Mi recomendación
 
-**Usa [Expatrio](https://www.expatrio.com/?p=rutaalemania).** La diferencia de 1-2 EUR al mes en comisiones no justifica un proceso más lento o con peor soporte.
+**Usa [Expatrio](https://www.expatrio.com/?p=rutaalemania).** Es el proceso más rápido, 100 % online y con soporte en español — y con los precios de 2026, tampoco pagas más por ello: es la opción más económica de las dos.
 
-> 💡 **Consejo:** Cuando estás gestionando una visa, la rapidez y la fiabilidad valen mucho más que ahorrar 15 EUR al año.
+> 💡 **Consejo:** los precios de los proveedores cambian (Expatrio subió los suyos en julio de 2026) — verifica siempre la web oficial antes de decidir.
 
 <a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Abre tu Sperrkonto con Expatrio</a>
 
@@ -132,6 +118,8 @@ Ve a [expatrio.com](https://www.expatrio.com/?p=rutaalemania) y **crea una cuent
 ### Paso 2: Seleccionar el producto
 
 Elige "Sperrkonto" (cuenta bloqueada). Te preguntarán el tipo de visado (estudios, Chancenkarte, etc.) y **el monto automáticamente se ajustará al requerido**.
+
+> ⚠️ **Comprueba el monto:** asegúrate de que el monto que te indique el proveedor coincide con el vigente en 2026 — **13.092 EUR para Chancenkarte, 11.904 EUR para estudios**. En julio de 2026, algunos proveedores aún mostraban en sus páginas el monto del año anterior.
 
 ### Paso 3: Completar tus datos personales
 
