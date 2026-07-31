@@ -68,20 +68,17 @@ export interface Cifra {
 }
 
 /**
- * LOS DOS ESTADOS del simulador (decisión del Director, día 143).
- * «primer_anno» = lo que afronta quien acaba de llegar; «establecido» =
- * lo que vive alguien ya asentado. Son dos MOMENTOS, no una progresión:
- * no existe dato de cuánto tarda nadie en pasar de uno a otro, y
- * fingirlo sería fabricar precisión.
- * Correspondencia (verificada en ambos lados):
- *   SALARIOS: primer_anno = q25 · establecido = mediana
- *             (excepción Medicina: claves propias — ver sus notas)
- *   GASTOS:   primer_anno = cesta corta (HUECO: pendiente del Director) ·
- *             establecido = cesta completa EVS
- * El JSON aún NO se regenera con esto — ver docs/metodo-datos-simulador.md.
+ * CRITERIO ÚNICO del simulador (decisión del Director, día 143, noche):
+ * UN SOLO escenario — el de quien llega. Sueldo del que empieza (se
+ * publica el CUARTIL INFERIOR: la mediana oficial incluye toda la
+ * antigüedad y sobrestimaría al recién llegado) y gastos a PRECIO DE
+ * MERCADO (cesta EVS completa, alquiler de oferta): quien llega cobra
+ * menos, pero paga los precios como todo el mundo. El porqué entero de
+ * esta decisión —y de la retirada de los «dos estados» el mismo día—
+ * vive en docs/metodo-datos-simulador.md §0: no re-litigar sin leerlo.
+ * El JSON vigente aún deriva la mediana: el cambio de columna publicada
+ * llega con la regeneración.
  */
-export type EstadoSimulador = 'primer_anno' | 'establecido';
-
 export const CIFRAS = {
   // ─── Sperrkonto ──────────────────────────────────────────────────────────
   'sperrkonto.chancenkarte.mes': {
@@ -841,17 +838,27 @@ export const CIFRAS = {
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El convenio TV-Ärzte/VKA vigente expira el 31.12.2026 — fecha exacta, no estimada; después, nueva ronda o prórroga' },
     aplica_a: 'empleados',
     fuente: { nombre: 'TV-Ärzte/VKA, tabla vigente 01.06.2026–31.12.2026 — Ä1 nivel 1 (residente al inicio); convenio público, no estadística', tipo: 'oficial' },
-    nota: 'Decisión (i) del Director 2026-07-31: la referencia es el recién llegado. Sin guardias (suman aparte). Sin q25: ausencia honesta. Corregido el mismo día contra la tabla en vigor (antes 5.700). MARCO DE DOS ESTADOS: este valor ES el estado «primer año» — OJO: vive bajo la clave mediana (el JSON actual deriva de aquí); re-clavear en la regeneración (asimetría documentada en el método).',
+    nota: 'CLAVE HEREDADA, no es mediana estadística: mismo valor que salario.physician.q25.mes (el guardián vigila la igualdad). El JSON vigente deriva su median de aquí y no se regenera todavía; esta clave se retira en la regeneración.',
   },
-  'salario.physician.establecido.mes': {
+  'salario.physician.q25.mes': {
+    valor: 5722.05,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El convenio TV-Ärzte/VKA vigente expira el 31.12.2026 — fecha exacta, no estimada; después, nueva ronda o prórroga' },
+    aplica_a: 'empleados',
+    fuente: { nombre: 'TV-Ärzte/VKA, tabla vigente 01.06.2026–31.12.2026 — Ä1 nivel 1 (residente al inicio); convenio público, no estadística', tipo: 'oficial' },
+    nota: 'El nombre honesto del escenario único (día 143, noche): el sueldo de quien empieza. NO es cuartil estadístico —el convenio no define cuartiles—: hace el papel del cuartil inferior, declarado. Sin guardias (suman aparte).',
+  },
+  'salario.physician.especialista_inicio.mes': {
     valor: 7552,
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El convenio TV-Ärzte/VKA vigente expira el 31.12.2026 — fecha exacta, no estimada; después, nueva ronda o prórroga' },
     aplica_a: 'empleados',
-    fuente: { nombre: 'TV-Ärzte/VKA, tabla vigente 01.06.2026–31.12.2026 — Ä2 nivel 1 (ESPECIALISTA al inicio)', tipo: 'oficial' },
-    nota: 'Estado «establecido» de Medicina — cambio de DEFINICIÓN del día 143, no corrección de error: hacerse especialista es el hito real de carrera; seis años de residente sin especializarse es la excepción. GRADO declarado: valor REDONDEADO, pendiente de precisar al céntimo (el 5.722,05 sí viene al céntimo de la tabla).',
+    fuente: { nombre: 'TV-Ärzte/VKA, tabla vigente 01.06.2026–31.12.2026 — Ä2 nivel 1 (especialista al inicio)', tipo: 'oficial' },
+    nota: 'Dato INFORMATIVO con nombre honesto: el hito real de carrera (hacerse especialista). GRADO declarado: valor REDONDEADO — pendiente de precisar al céntimo (el 5.722,05 sí viene al céntimo de la tabla).',
   },
   'salario.physician.q75.mes': {
     valor: 7355.29,
@@ -861,7 +868,7 @@ export const CIFRAS = {
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El convenio TV-Ärzte/VKA vigente expira el 31.12.2026 — fecha exacta, no estimada; después, nueva ronda o prórroga' },
     aplica_a: 'empleados',
     fuente: { nombre: 'TV-Ärzte/VKA, tabla vigente 01.06.2026–31.12.2026 — Ä1 nivel 6 (residente 6.º año)', tipo: 'oficial' },
-    nota: 'Dato INFORMATIVO conservado con su etiqueta correcta (residente de 6.º año): es verdad y costó verificarlo, pero desde el día 143 ya NO representa el estado «establecido» — ese es salario.physician.establecido.mes (Ä2/1). Constancia de la corrección del mismo día: el dato anterior (7.680) iba un 4,2 % alto; con la tabla en vigor NO existe la anomalía «residente 6.º > especialista inicio» (7.355,29 < 7.552) — la explicación previa por antigüedad era falsa.',
+    nota: 'Dato INFORMATIVO conservado con su etiqueta correcta (residente de 6.º año): es verdad y costó verificarlo. Constancia de la corrección del mismo día: el dato anterior (7.680) iba un 4,2 % alto; con la tabla en vigor NO existe la anomalía «residente 6.º > especialista inicio» (7.355,29 < 7.552) — la explicación previa por antigüedad era falsa.',
   },
 
   // ─── Gradiente de ciudad del simulador — ESTIMACIÓN DECLARADA ───────────
@@ -1307,7 +1314,7 @@ export const CIFRAS = {
   },
 
   // ─── Estructura de gasto — Destatis EVS 2023 (día 143, tarde) ──────────
-  // HECHOS del hogar de UNA persona (base del estado «establecido»); el
+  // HECHOS del hogar de UNA persona (el gasto observado completo); el
   // «resto» es DERIVADA exacta (total − vivienda − alimentación −
   // transporte), vigilada por el guardián. REGLA DE LA CASA aplicada: los
   // importes mezclados (p. ej. ~96 €/mes de comunicaciones = 5 % de todos
