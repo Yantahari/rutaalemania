@@ -48,16 +48,16 @@
     "physician": {
       "name": "Médico/a",
       "salaries": {
-        "berlin": { "median": 68000, "q75": 87000 },
-        "munich": { "median": 76000, "q75": 98000 },
-        "frankfurt": { "median": 73000, "q75": 94000 },
-        "hamburg": { "median": 70000, "q75": 90000 },
-        "cologne": { "median": 68000, "q75": 88000 },
-        "stuttgart": { "median": 75000, "q75": 96000 },
-        "dusseldorf": { "median": 70000, "q75": 90000 },
-        "freiburg": { "median": 65000, "q75": 84000 },
-        "leipzig": { "median": 61000, "q75": 78000 },
-        "dresden": { "median": 61000, "q75": 78000 }
+        "berlin": { "q25": 68000, "q75": 87000 },
+        "munich": { "q25": 76000, "q75": 98000 },
+        "frankfurt": { "q25": 73000, "q75": 94000 },
+        "hamburg": { "q25": 70000, "q75": 90000 },
+        "cologne": { "q25": 68000, "q75": 88000 },
+        "stuttgart": { "q25": 75000, "q75": 96000 },
+        "dusseldorf": { "q25": 70000, "q75": 90000 },
+        "freiburg": { "q25": 65000, "q75": 84000 },
+        "leipzig": { "q25": 61000, "q75": 78000 },
+        "dresden": { "q25": 61000, "q75": 78000 }
       }
     },
     "teacher": {
@@ -93,16 +93,16 @@
     "business_admin": {
       "name": "Administrador/a de Empresas",
       "salaries": {
-        "berlin": { "median": 67000 },
-        "munich": { "median": 76000 },
-        "frankfurt": { "median": 73000 },
-        "hamburg": { "median": 70000 },
-        "cologne": { "median": 68000 },
-        "stuttgart": { "median": 74000 },
-        "dusseldorf": { "median": 69000 },
-        "freiburg": { "median": 65000 },
-        "leipzig": { "median": 61000 },
-        "dresden": { "median": 61000 }
+        "berlin": { "q25": 52000, "median": 67000, "q75": 85000 },
+        "munich": { "q25": 58000, "median": 76000, "q75": 95000 },
+        "frankfurt": { "q25": 56000, "median": 73000, "q75": 91000 },
+        "hamburg": { "q25": 54000, "median": 70000, "q75": 88000 },
+        "cologne": { "q25": 52000, "median": 68000, "q75": 85000 },
+        "stuttgart": { "q25": 57000, "median": 74000, "q75": 93000 },
+        "dusseldorf": { "q25": 54000, "median": 69000, "q75": 87000 },
+        "freiburg": { "q25": 50000, "median": 65000, "q75": 81000 },
+        "leipzig": { "q25": 47000, "median": 61000, "q75": 76000 },
+        "dresden": { "q25": 47000, "median": 61000, "q75": 76000 }
       }
     },
     "electrician": {
@@ -182,35 +182,35 @@
     }
   },
   "cities": {
-    "berlin": { "name": "Berlín", "rent_1bed": 950, "groceries": 350, "transport": 63, "utilities": 42, "misc": 245 },
-    "munich": { "name": "Múnich", "rent_1bed": 1450, "groceries": 380, "transport": 63, "utilities": 45, "misc": 162 },
-    "frankfurt": { "name": "Frankfurt", "rent_1bed": 1000, "groceries": 360, "transport": 63, "utilities": 42, "misc": 210 },
-    "hamburg": { "name": "Hamburgo", "rent_1bed": 900, "groceries": 350, "transport": 63, "utilities": 40, "misc": 200 },
-    "cologne": { "name": "Colonia", "rent_1bed": 800, "groceries": 340, "transport": 63, "utilities": 38, "misc": 190 },
-    "stuttgart": { "name": "Stuttgart", "rent_1bed": 950, "groceries": 360, "transport": 63, "utilities": 42, "misc": 210 },
-    "dusseldorf": { "name": "Düsseldorf", "rent_1bed": 850, "groceries": 350, "transport": 63, "utilities": 40, "misc": 200 },
-    "freiburg": { "name": "Freiburg", "rent_1bed": 900, "groceries": 340, "transport": 63, "utilities": 40, "misc": 207 },
-    "leipzig": { "name": "Leipzig", "sachsen": true, "rent_1bed": 650, "groceries": 320, "transport": 63, "utilities": 37, "misc": 180 },
-    "dresden": { "name": "Dresde", "sachsen": true, "rent_1bed": 550, "groceries": 320, "transport": 63, "utilities": 35, "misc": 170 }
+    "berlin": { "name": "Berlín", "alquiler_m2": 15.18, "alquiler_tipo": "mediana" },
+    "munich": { "name": "Múnich", "alquiler_m2": 23.23, "alquiler_tipo": "mediana" },
+    "frankfurt": { "name": "Frankfurt", "alquiler_m2": 17.5, "alquiler_tipo": "mediana" },
+    "hamburg": { "name": "Hamburgo", "alquiler_m2": 15.47, "alquiler_tipo": "mediana" },
+    "cologne": { "name": "Colonia", "alquiler_m2": 15.55, "alquiler_tipo": "mediana" },
+    "stuttgart": { "name": "Stuttgart", "alquiler_m2": 15.98, "alquiler_tipo": "mediana" },
+    "dusseldorf": { "name": "Düsseldorf", "alquiler_m2": 14.45, "alquiler_tipo": "mediana" },
+    "freiburg": { "name": "Freiburg", "alquiler_m2": 14.49, "alquiler_tipo": "media" },
+    "leipzig": { "name": "Leipzig", "sachsen": true, "alquiler_m2": 10.0, "alquiler_tipo": "mediana" },
+    "dresden": { "name": "Dresde", "sachsen": true, "alquiler_m2": 9.53, "alquiler_tipo": "mediana" }
   },
   "countries": {
-    "spain": { "name": "España", "avg_professional_salary_eur": 1800 },
-    "mexico": { "name": "México", "avg_professional_salary_eur": 750 },
-    "colombia": { "name": "Colombia", "avg_professional_salary_eur": 550 },
-    "argentina": { "name": "Argentina", "avg_professional_salary_eur": 500 },
-    "peru": { "name": "Perú", "avg_professional_salary_eur": 600 },
-    "chile": { "name": "Chile", "avg_professional_salary_eur": 900 },
-    "ecuador": { "name": "Ecuador", "avg_professional_salary_eur": 500 },
-    "venezuela": { "name": "Venezuela", "avg_professional_salary_eur": 200 },
-    "bolivia": { "name": "Bolivia", "avg_professional_salary_eur": 350 },
-    "uruguay": { "name": "Uruguay", "avg_professional_salary_eur": 850 },
-    "costa_rica": { "name": "Costa Rica", "avg_professional_salary_eur": 700 },
-    "panama": { "name": "Panamá", "avg_professional_salary_eur": 750 },
-    "dominican_republic": { "name": "República Dominicana", "avg_professional_salary_eur": 450 },
-    "guatemala": { "name": "Guatemala", "avg_professional_salary_eur": 400 },
-    "honduras": { "name": "Honduras", "avg_professional_salary_eur": 350 },
-    "paraguay": { "name": "Paraguay", "avg_professional_salary_eur": 400 },
-    "el_salvador": { "name": "El Salvador", "avg_professional_salary_eur": 400 },
-    "nicaragua": { "name": "Nicaragua", "avg_professional_salary_eur": 300 }
+    "spain": { "name": "España", "sueldo_medio_ppa": 5165.65 },
+    "mexico": { "name": "México", "sueldo_medio_ppa": 938.11 },
+    "colombia": { "name": "Colombia", "sueldo_medio_ppa": 1214.38 },
+    "argentina": { "name": "Argentina", "sueldo_medio_ppa": 1522.6 },
+    "peru": { "name": "Perú", "sueldo_medio_ppa": 1042.03 },
+    "chile": { "name": "Chile", "sueldo_medio_ppa": 2078.79 },
+    "ecuador": { "name": "Ecuador", "sueldo_medio_ppa": 1219.58 },
+    "venezuela": { "name": "Venezuela", "sin_dato": true },
+    "bolivia": { "name": "Bolivia", "sueldo_medio_ppa": 1392.27 },
+    "uruguay": { "name": "Uruguay", "sueldo_medio_ppa": 1636.24 },
+    "costa_rica": { "name": "Costa Rica", "sueldo_medio_ppa": 1928.25 },
+    "panama": { "name": "Panamá", "sueldo_medio_ppa": 1869.46 },
+    "dominican_republic": { "name": "República Dominicana", "sueldo_medio_ppa": 1263.09 },
+    "guatemala": { "name": "Guatemala", "sueldo_medio_ppa": 1037.93 },
+    "honduras": { "name": "Honduras", "sueldo_medio_ppa": 891.5 },
+    "paraguay": { "name": "Paraguay", "sueldo_medio_ppa": 1177.7 },
+    "el_salvador": { "name": "El Salvador", "sueldo_medio_ppa": 1008.64 },
+    "nicaragua": { "name": "Nicaragua", "sin_dato": true }
   }
 }

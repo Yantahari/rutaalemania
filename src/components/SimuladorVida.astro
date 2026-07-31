@@ -140,10 +140,14 @@
 </style>
 
 <script>
-  // Script empaquetado (módulo): importa los datos y el motor de nómina.
-  // Los números legales NO viven aquí — vienen de cifras.ts vía el motor.
+  // Script empaquetado (módulo): importa los datos, el motor de nómina y
+  // las cifras. Ningún número legal ni de coste vive aquí — todo viene de
+  // cifras.ts (con fuente, fecha y pauta de revisión) o deriva de él.
   import data from '../data/simulator-data.json';
   import { calcularNomina } from '../data/motor-nomina-2026';
+  import { CIFRAS, FRASES_SIN_DATO } from '../data/cifras';
+
+  const cifra = (id) => CIFRAS[id].valor;
 
   const state = { profession: '', city: '', family: '', country: '' };
 
@@ -298,15 +302,40 @@
     const country = data.countries[state.country];
     const salary = prof.salaries[state.city];
 
-    const calc = calculateNet(salary.median, state.family, city);
+    // Se publica el CUARTIL INFERIOR (criterio único, día 143): la mediana
+    // oficial incluye toda la antigüedad y sobrestimaría al recién llegado.
+    const calc = calculateNet(salary.q25, state.family, city);
     // Nota del supuesto de un solo sueldo (abajo, junto al «Salario neto
     // estimado»): texto APROBADO por el Director el 2026-07-31 (día 143).
     const esConjunta = state.family === 'married' || state.family === 'married_kids';
-    const totalExpenses = city.rent_1bed + city.groceries + city.transport + city.utilities + city.misc;
+
+    // Gastos — bloque nacional desde cifras.ts + alquiler por ciudad.
+    // Hogar solo (50 m²) / acompañado (65 m²), regla aprobada el día 143:
+    // alquiler y Nebenkosten escalan por m² (el piso es física); luz ×1,52,
+    // comida ×1,89 y resto ×1,76 (la comida es gente — ratios observados
+    // EVS); transporte ×2 exacto (dos abonos, no ratio). «Acompañado» =
+    // cualquier opción salvo Soltero/a; casado/a con hijos usa el hogar de
+    // 2 como suelo declarado (no hay dato EVS de 3+).
+    const acompanado = state.family !== 'single';
+    const m2 = acompanado ? cifra('vivienda.tamano.2p') : cifra('vivienda.tamano.1p');
+    const alquiler = city.alquiler_m2 * m2;
+    const nk = cifra('vivienda.nebenkosten.m2') * m2;
+    const luz = (cifra('luz.consumo_1p.kwh_anno') / 12 * cifra('luz.precio.kwh') + cifra('luz.cuota_fija.mes'))
+      * (acompanado ? cifra('ratio.hogar2.vivienda') : 1);
+    const comida = cifra('comida.1p.mes') * (acompanado ? cifra('ratio.hogar2.comida') : 1);
+    const transporte = cifra('transporte.deutschlandticket.mes') * (acompanado ? 2 : 1);
+    const resto = cifra('gasto.1p.resto.mes') * (acompanado ? cifra('ratio.hogar2.total') : 1);
+    const gastosNacional = nk + luz + comida + transporte + resto;
+    const totalExpenses = Math.round(alquiler + gastosNacional);
     const freeMonthly = calc.netMonthly - totalExpenses;
-    const purchasingPower = country.avg_professional_salary_eur > 0
-      ? (calc.netMonthly / country.avg_professional_salary_eur).toFixed(1)
-      : '—';
+
+    // Comparación iguales con iguales (día 143): media de Alemania vs media
+    // del país, ambas en dólares PPA (ILOSTAT) — el multiplicador es
+    // constante por país y NO depende de la profesión ni del neto.
+    const alemaniaPPA = cifra('pais.alemania.ppp.mes');
+    const multiplicador = country.sueldo_medio_ppa
+      ? (alemaniaPPA / country.sueldo_medio_ppa).toFixed(1)
+      : null;
 
     const shareText = encodeURIComponent(
       `Según el simulador de RutaAlemania, como ${prof.name} en ${city.name} tendría ~€${freeMonthly}/mes libres. ¿Quieres ver tu escenario?`
@@ -343,31 +372,42 @@
       </div>
 
       <div class="result-card">
-        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber mb-3">Gastos mensuales estimados</h4>
+        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber mb-3">Alquiler</h4>
         <div class="result-row">
-          <span class="text-text-secondary">Alquiler (1 habitación)</span>
-          <span class="result-val negative">-${city.rent_1bed}&euro;</span>
+          <span class="text-text-secondary">Alquiler frío (${m2} m&sup2;, precio de oferta)</span>
+          <span class="result-val negative">-${Math.round(alquiler).toLocaleString('es-ES')}&euro;</span>
         </div>
-        <div class="result-row">
-          <span class="text-text-secondary">Seguro médico</span>
-          <span class="result-val" style="color:#9ca3af">(incluido)</span>
-        </div>
-        <div class="result-row">
-          <span class="text-text-secondary">Alimentación</span>
-          <span class="result-val negative">-${city.groceries}&euro;</span>
-        </div>
-        <div class="result-row">
-          <span class="text-text-secondary">Transporte (Deutschlandticket)</span>
-          <span class="result-val negative">-${city.transport}&euro;</span>
-        </div>
-        <div class="result-row">
-          <span class="text-text-secondary">Internet + móvil</span>
-          <span class="result-val negative">-${city.utilities}&euro;</span>
-        </div>
-        <div class="result-row">
-          <span class="text-text-secondary">Otros gastos</span>
-          <span class="result-val negative">-${city.misc}&euro;</span>
-        </div>
+      </div>
+
+      <div class="result-card">
+        <h4 class="text-xs font-semibold uppercase tracking-wider text-amber mb-3">Resto de gastos (igual en toda Alemania)</h4>
+        <details>
+          <summary class="result-row" style="cursor:pointer">
+            <span class="text-text-secondary">Total mensual (abrir para ver el desglose)</span>
+            <span class="result-val negative">-${Math.round(gastosNacional).toLocaleString('es-ES')}&euro;</span>
+          </summary>
+          <div class="result-row">
+            <span class="text-text-secondary">Gastos de vivienda (Nebenkosten)</span>
+            <span class="result-val negative">-${Math.round(nk)}&euro;</span>
+          </div>
+          <div class="result-row">
+            <span class="text-text-secondary">Luz</span>
+            <span class="result-val negative">-${Math.round(luz)}&euro;</span>
+          </div>
+          <div class="result-row">
+            <span class="text-text-secondary">Alimentación</span>
+            <span class="result-val negative">-${Math.round(comida)}&euro;</span>
+          </div>
+          <div class="result-row">
+            <span class="text-text-secondary">Transporte (Deutschlandticket)</span>
+            <span class="result-val negative">-${Math.round(transporte)}&euro;</span>
+          </div>
+          <div class="result-row">
+            <span class="text-text-secondary">Todo lo demás</span>
+            <span class="result-val negative">-${Math.round(resto)}&euro;</span>
+          </div>
+        </details>
+        <p class="text-xs text-text-muted mt-2">Suponemos: piso de 50 m&sup2; (65 si vienes acompañado/a) &middot; alquiler a precio de oferta &middot; transporte público (abono de 63 &euro;). El seguro médico ya está descontado del sueldo neto.</p>
       </div>
 
       <div class="result-card" style="border-color:rgba(39,174,96,0.3);background:rgba(39,174,96,0.05)">
@@ -379,18 +419,23 @@
 
       <div class="result-card">
         <h4 class="text-xs font-semibold uppercase tracking-wider text-amber mb-3">Comparación con ${country.name}</h4>
+        ${country.sin_dato ? `
+        <p class="text-sm text-text-secondary">${FRASES_SIN_DATO[state.country]}</p>
+        ` : `
         <div class="result-row">
-          <span class="text-text-secondary">Salario medio profesional en ${country.name}</span>
-          <span class="result-val">~${country.avg_professional_salary_eur.toLocaleString('es-ES')}&euro;/mes</span>
+          <span class="text-text-secondary">Sueldo medio en ${country.name}</span>
+          <span class="result-val">${Math.round(country.sueldo_medio_ppa).toLocaleString('es-ES')}</span>
         </div>
         <div class="result-row">
-          <span class="text-text-secondary">Tu salario neto en Alemania</span>
-          <span class="result-val">${calc.netMonthly.toLocaleString('es-ES')}&euro;/mes</span>
+          <span class="text-text-secondary">Sueldo medio en Alemania</span>
+          <span class="result-val">${Math.round(alemaniaPPA).toLocaleString('es-ES')}</span>
         </div>
         <div class="result-row">
-          <span class="text-text-secondary">Poder adquisitivo relativo</span>
-          <span class="result-val highlight">~${purchasingPower}x</span>
+          <span class="text-text-secondary">En poder de compra, Alemania paga</span>
+          <span class="result-val highlight">~${multiplicador}x</span>
         </div>
+        <p class="text-xs text-text-muted mt-2">Comparación entre sueldos medios de asalariados, en unidades de poder de compra (PPA) — no en euros.</p>
+        `}
       </div>
 
       <!-- CTAs -->
@@ -430,7 +475,7 @@
       </div>
 
       <p class="text-xs text-text-muted text-center mt-6 pt-4 border-t border-border">
-        Impuestos y cotizaciones: normativa alemana 2026, verificada en julio de 2026. Salarios: estadística oficial alemana 2026. La mediana incluye a los veteranos del oficio &mdash; tu primer sueldo estará normalmente por debajo, más cerca del cuartil inferior. Coste de vida: estimaciones de fuentes públicas (Numbeo, Immobilienscout24) &mdash; pueden variar.
+        Salarios: estadística oficial (Entgeltatlas 2026) &mdash; mostramos el tramo bajo, lo habitual al llegar. Alquiler: precios de oferta (GREIX, jun 2026; Friburgo: ImmoScout24). Gastos: Deutscher Mieterbund y Destatis. Impuestos y cotizaciones: normativa alemana 2026. Son promedios: tu caso puede variar.
       </p>
     `;
 

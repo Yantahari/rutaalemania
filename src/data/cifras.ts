@@ -834,16 +834,9 @@ export const CIFRAS = {
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
   },
-  'salario.physician.mediana.mes': {
-    valor: 5722.05,
-    unidad: '€/mes',
-    vigencia: '2026',
-    verificado: '2026-07-31',
-    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El convenio TV-Ärzte/VKA vigente expira el 31.12.2026 — fecha exacta, no estimada; después, nueva ronda o prórroga' },
-    aplica_a: 'empleados',
-    fuente: { nombre: 'TV-Ärzte/VKA, tabla vigente 01.06.2026–31.12.2026 — Ä1 nivel 1 (residente al inicio); convenio público, no estadística', tipo: 'oficial' },
-    nota: 'CLAVE HEREDADA, no es mediana estadística: mismo valor que salario.physician.q25.mes (el guardián vigila la igualdad). El JSON vigente deriva su median de aquí y no se regenera todavía; esta clave se retira en la regeneración.',
-  },
+  // El alias heredado salario.physician.mediana.mes se retiró en la
+  // regeneración del día 143 (noche), como estaba pactado: el JSON deriva
+  // ya del q25 con nombre honesto.
   'salario.physician.q25.mes': {
     valor: 5722.05,
     unidad: '€/mes',
@@ -1370,6 +1363,15 @@ export const CIFRAS = {
     fuente: { nombre: 'total − vivienda − alimentación − transporte (aritmética exacta)', tipo: 'derivada' },
     deriva_de: ['gasto.1p.total.mes', 'gasto.1p.vivienda.mes', 'comida.1p.mes', 'gasto.1p.transporte.mes'],
     nota: 'Todo lo demás del gasto de 1 persona. Verificada por instrumento el día 143; el guardián vigila la aritmética.',
+  },
+  'transporte.deutschlandticket.mes': {
+    valor: 63,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'El precio 2027 se decide a finales de septiembre de 2026 (acuerdo de los ministros de transporte, marzo 2026) — la semilla del día 143, plantada al migrar la cifra en la regeneración' },
+    fuente: { nombre: 'Precio público del Deutschlandticket 2026 (subida 49→63 € registrada en enero, commit 0e7333f del repo)', tipo: 'oficial' },
+    nota: 'Para dos personas son DOS abonos: ×2 exacto, no el ratio observado 2,08 (decisión del Director, día 143).',
   },
   // Reparto oficial por categorías — media de TODOS los hogares, NO de uno:
   // no mezclar estos % con los totales de 1 persona sin declararlo (el
