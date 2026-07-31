@@ -22,13 +22,13 @@ Antes de entrar en detalle, aquí tienes una tabla comparativa con el gasto mens
 
 | Concepto | Berlín | Múnich | Friburgo | Leipzig |
 |---|---|---|---|---|
-| Alquiler (Warmmiete, 1-2 hab.) | 900–1.200 € | 1.200–1.700 € | 800–1.100 € | 550–800 € |
+| Alquiler (Warmmiete, 50 m²) | 650–1.130 € | 1.130–1.480 € | ~860 € | 560–730 € |
 | Seguro médico (público) | ~280 € | ~280 € | ~280 € | ~280 € |
 | Supermercado | 250–350 € | 280–380 € | 250–330 € | 220–300 € |
 | Transporte (Deutschlandticket) | 63 € | 63 € | 63 € | 63 € |
 | Internet + móvil | 40–55 € | 40–55 € | 40–55 € | 40–55 € |
 | Extras (ocio, ropa, etc.) | 150–250 € | 180–300 € | 130–220 € | 120–200 € |
-| **Total estimado** | **1.683–2.198 €** | **2.043–2.778 €** | **1.563–2.048 €** | **1.273–1.698 €** |
+| **Total estimado** | **1.433–2.128 €** | **1.973–2.558 €** | **1.623–1.808 €** | **1.283–1.628 €** |
 
 > **Clave:** Múnich es la ciudad más cara de Alemania. Leipzig y ciudades del este son significativamente más baratas. Berlín, a pesar de su fama, está en un rango medio-alto pero sigue siendo más asequible que Múnich o Fráncfort.
 
@@ -52,18 +52,22 @@ Cuando veas un anuncio que dice "650 € Kaltmiete + 200 € NK", tu gasto real 
 
 ### Precios reales de alquiler en 2026
 
-Para un piso de **1-2 habitaciones (40-60 m²)**:
+Para un piso de **50 m²** (el tamaño que usa también nuestro [simulador de vida](/#simulador)), con los gastos de comunidad incluidos:
 
-| Ciudad | Warmmiete media |
+| Ciudad | Warmmiete habitual |
 |---|---|
-| Múnich | 1.200–1.700 € |
-| Fráncfort | 900–1.300 € |
-| Berlín | 900–1.200 € |
-| Hamburgo | 800–1.100 € |
-| Stuttgart | 850–1.200 € |
-| Friburgo | 800–1.100 € |
-| Leipzig | 550–800 € |
-| Dresde | 480–700 € |
+| Múnich | 1.130–1.480 € |
+| Fráncfort | 870–1.180 € |
+| Berlín | 650–1.130 € |
+| Hamburgo | 770–1.100 € |
+| Stuttgart | 820–1.050 € |
+| Friburgo | ~860 € |
+| Leipzig | 560–730 € |
+| Dresde | 560–710 € |
+
+El rango cubre la mitad central de las ofertas: una cuarta parte de los pisos se alquila por debajo y otra cuarta parte por encima. Si buscas más grande o más pequeño, el precio sube o baja casi en proporción a los metros.
+
+> **Fuente y fecha:** alquiler de oferta del índice GREIX (Instituto de Kiel), datos de junio de 2026, más los gastos de comunidad del Deutscher Mieterbund (2,67 €/m² al mes). Friburgo no aparece en GREIX: su cifra es la media de ImmoScout24 del primer trimestre de 2026, y por eso va sin rango.
 
 > 💡 **Consejo:** Si llegas sin contrato de alquiler, necesitarás alojamiento temporal. Una habitación en un WG (piso compartido) puede costar entre 400 y 700 € en la mayoría de ciudades. Plataformas como WG-Gesucht, Immobilienscout24 y eBay Kleinanzeigen son las más usadas.
 
