@@ -344,8 +344,10 @@
     // escenario que no es el suyo.
     const enNumeros = (n) => Math.abs(Math.round(n)).toLocaleString('es-ES');
     const avisoNegativo = freeMonthly >= 0 ? '' : (acompanado
-      // Variante para hogar acompañado — PROVISIONAL: redactada por CCode
-      // el día 143 por encargo, pendiente del visto bueno del Director.
+      // Variante para hogar acompañado — APROBADA verbatim por el Director
+      // el 2026-07-31 (día 143). Dice «un piso más pequeño» y no
+      // «compartiendo piso» a propósito: compartir no es salida realista
+      // para una pareja con hijos.
       ? 'Con estos supuestos —un solo sueldo de entrada y un piso de 65 m² a precio de oferta— las cuentas no salen. Con una segunda persona trabajando, o en un piso más pequeño, el resultado cambia mucho.'
       // Variante para hogar de una persona — APROBADA por el Director el
       // 2026-07-31 (día 143), verbatim.
@@ -457,7 +459,10 @@
 
       <!-- CTAs -->
       <div class="result-card" style="border-color:rgba(226,167,48,0.2);background:rgba(226,167,48,0.05)">
-        <h4 class="font-heading text-lg text-center mb-4">Para empezar, necesitarás:</h4>
+        <!-- El encabezado reconoce lo que el visitante acaba de leer cuando
+             las cuentas no salen; el contenido no cambia — puede que solo
+             necesite otra ciudad (Director, día 143). -->
+        <h4 class="font-heading text-lg text-center mb-4">${freeMonthly >= 0 ? 'Para empezar, necesitarás:' : 'Si decides seguir adelante, necesitarás:'}</h4>
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <a href="https://www.expatrio.com/?p=rutaalemania" class="sim-choice text-center text-sm" target="_blank" rel="noopener">
             <strong class="block text-amber">Sperrkonto</strong>
