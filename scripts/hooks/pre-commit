@@ -1,0 +1,91 @@
+#!/usr/bin/env bash
+# ============================================================================
+# OLFATO DE SECRETOS — pre-commit hook del repo Astro (día 143, 2026-07-31)
+# ============================================================================
+#
+# Este es el repo PÚBLICO y el de mayor consecuencia del proyecto: un push
+# publica dos veces a la vez — el código en GitHub y, vía Netlify, el sitio
+# vivo en ~13 segundos. Aquí ocurrió además el único incidente real de
+# material interno publicado (JUSTIFICACIÓ.md; asumido el 2026-07-30 por
+# decisión del Director, D28: no se reescribe la historia). Este guardia
+# huele el CONTENIDO de lo que el commit añade (git diff --cached) con
+# patrones de FORMATO de credencial de prefijo inequívoco, validados con
+# credenciales sintéticas el día 143 y con 0 falsos positivos medidos sobre
+# la historia completa de este repo (116 commits).
+#
+# A PROPÓSITO este hook NO lleva el guardia del limbo del repo ops (el
+# bloqueo de archivos «??»): aquel depende de la geometría denylist del
+# .gitignore de ops, que este repo no tiene — aquí sería ruido constante.
+# La advertencia previa del proyecto («no instalar el guardia por simetría»)
+# queda respetada en su sentido original: esto es solo el olfato.
+#
+# EXCEPCIÓN DOCUMENTADA — IndexNow: public/<clave>.txt ES la clave IndexNow
+# y es pública POR DISEÑO — el protocolo exige servirla en la raíz del sitio
+# como verificación de propiedad. Los .txt de public/ quedan excluidos del
+# barrido para que este guardia nunca aprenda a gritar en falso.
+#
+# Instalación (git no propaga hooks en el clon — hay que copiarlo):
+#     install -m 755 scripts/hooks/pre-commit .git/hooks/pre-commit
+#
+# Vía de escape para un falso positivo real — explícita y ruidosa a
+# propósito (un gesto consciente, no una pared):
+#     OLFATO_OK=1 git commit ...
+# ============================================================================
+
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+
+SECRET_PAT='AIza[0-9A-Za-z_-]{30,}|ya29\.[0-9A-Za-z_-]{20,}|GOCSPX-[A-Za-z0-9_-]{10,}|AKIA[0-9A-Z]{16}|xox[baprse]-[0-9A-Za-z-]{10,}|sk_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9-]{30,}|ghp_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|glpat-[A-Za-z0-9_-]{20,}|nfp_[A-Za-z0-9]{30,}|-----BEGIN [A-Z ]*PRIVATE KEY-----|eyJ[A-Za-z0-9_-]{15,}\.eyJ[A-Za-z0-9_-]{15,}'
+
+culpables="$(git diff --cached --name-only -z -- . ':(exclude)public/*.txt' \
+  | while IFS= read -r -d '' f; do
+      n="$(git diff --cached -U0 --no-color -- "$f" | grep -E '^\+[^+]' | grep -cE "$SECRET_PAT" || true)"
+      if [ "${n:-0}" -gt 0 ]; then
+          printf '  %s: %s línea(s) añadida(s) con patrón de clave\n' "$f" "$n"
+      fi
+    done || true)"
+
+if [ -n "$culpables" ]; then
+    if [ "${OLFATO_OK:-}" = "1" ]; then
+        cat <<EOF
+
+============================================================
+  ██ OLFATO DE SECRETOS SALTADO A MANO (OLFATO_OK=1) ██
+
+$culpables
+
+  Queda dicho: alguien decidió conscientemente que esto NO
+  es una credencial. Recuerda dónde estás: este repo es
+  PÚBLICO y el push despliega el sitio.
+============================================================
+EOF
+    else
+        cat <<EOF
+
+============================================================
+  COMMIT DETENIDO — EL DIFF HUELE A CREDENCIAL
+  (y este repo es PÚBLICO: el push publica en GitHub
+   y despliega el sitio vivo en ~13 segundos)
+============================================================
+
+$culpables
+
+  (el valor no se imprime a propósito; míralo tú con:
+   git diff --cached -- <archivo>)
+
+  Si ES una credencial: NO la commitees. Los secretos de
+  este proyecto viven en el repo ops (.env / tokens, ya
+  ignorados allí y aquí). UNA CREDENCIAL EN UN REPO PÚBLICO
+  EXIGE ROTARLA INMEDIATAMENTE — borrarla después no la
+  borra del historial y el historial es público.
+
+  Si NO lo es (falso positivo) — vía consciente y ruidosa:
+     OLFATO_OK=1 git commit ...
+
+============================================================
+EOF
+        exit 1
+    fi
+fi
+
+exit 0
