@@ -321,10 +321,12 @@ Esta es la pregunta del millón. Aquí va una estimación realista de lo que nec
 | [Sperrkonto](/blog/sperrkonto-como-abrir/) (cuenta bloqueada, si necesitas visa) | 13.092 € — Chancenkarte / 11.904 € — estudios (2026) |
 | Vuelo (ida) | 300–800 € |
 | Alojamiento temporal (1-2 meses) | 800–2.000 € |
-| Fianza del piso (Kaution) | 1.300–2.500 € |
-| Primer mes de alquiler | 550–1.450 € |
+| Fianza del piso (Kaution) | 2-3 meses de alquiler **frío**: de ~950 € en Dresde a ~3.500 € en Múnich |
+| Primer mes de alquiler | de ~610 € en Dresde a ~1.295 € en Múnich |
 | Seguro médico (primer mes) | 100–300 € |
 | Gastos varios (SIM, transporte, comida inicial) | 300–500 € |
+
+> **La fianza es la partida que más varía, y la que más se subestima.** No es una cifra fija: son **2-3 meses de Kaltmiete**, el alquiler *frío*. Ojo con esto, porque es donde más gente se equivoca: las cifras de alquiler de este artículo son **Warmmiete** (con gastos incluidos), y la fianza se calcula sobre el alquiler **sin** esos gastos — resta unos 134 € a la cifra de tu ciudad antes de multiplicar. En Leipzig son unos 1.000-1.500 €; en Múnich, entre 2.300 y 3.500 €. Es dinero que recuperas al irte, pero tienes que tenerlo el día que firmas.
 
 ---
 
@@ -332,7 +334,7 @@ Esta es la pregunta del millón. Aquí va una estimación realista de lo que nec
 
 **Si vienes con visa (necesitas Sperrkonto):**
 
-El Sperrkonto ya cubre tus primeros meses de manutención (~1.091 €/mes que se van liberando; 992 € con visado de estudios). Aun así, necesitarás dinero extra para la fianza y gastos iniciales. **Total recomendado: 15.000-17.000 € con Chancenkarte; 14.000-16.000 € con visado de estudios** (incluyendo el Sperrkonto). Si vienes con la Chancenkarte, revisa también los [costes específicos de ese visado](/blog/chancenkarte-guia-completa/).
+El Sperrkonto ya cubre tus primeros meses de manutención (~1.091 €/mes que se van liberando; 992 € con visado de estudios). Aun así, necesitarás dinero extra para la fianza y gastos iniciales. **Total recomendado: 15.000-18.500 € con Chancenkarte; 14.000-17.500 € con visado de estudios** (incluyendo el Sperrkonto, la fianza, el primer mes de alquiler y los gastos varios). El extremo alto es Múnich; en Leipzig o Dresde te quedas cerca del bajo. Si vienes con la Chancenkarte, revisa también los [costes específicos de ese visado](/blog/chancenkarte-guia-completa/).
 
 > 💡 **Consejo:** Puedes abrir tu Sperrkonto de forma rápida y segura con [Expatrio](https://www.expatrio.com/?p=rutaalemania), que también ofrece seguro médico temporal incluido.
 
