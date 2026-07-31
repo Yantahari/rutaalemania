@@ -10,7 +10,8 @@
 //
 // Verificación exterior del paquete 2026-07-30: Director + Claude estratégico.
 
-export type Unidad = '€' | '€/mes' | '€/año' | '€/28días' | '%';
+// 'coef': coeficientes adimensionales de la fórmula del §32a EStG (IRPF).
+export type Unidad = '€' | '€/mes' | '€/año' | '€/28días' | '%' | 'coef';
 export type TipoFuente = 'oficial' | 'comercial' | 'derivada';
 
 export interface Cifra {
@@ -210,6 +211,206 @@ export const CIFRAS = {
     fuente: { nombre: 'lycamobile.de', tipo: 'comercial' },
     nota:
       'Paquetes por ciclos de 28 días — 13 ciclos/año, no 12: el equivalente mensual real es ≈ 5,41 €/mes. El sitio decía «€/mes». Lyca cambia tarifas con frecuencia: vigencia corta, re-verificar en cada saneo.',
+  },
+
+  // ─── Nómina 2026 — motor del simulador ──────────────────────────────────
+  // Paquete verificado 2026-07-31 (Director + Claude estratégico) contra el
+  // texto legal (§32a EStG, SolzG, redacción vigente) y fuentes oficiales
+  // (BMG, Rechengrößen 2026). Consumidor: src/data/motor-nomina-2026.ts.
+  // La parte del trabajador de sanidad (KV, 8,75 %) NO está aquí: se deriva
+  // de gkv.total_medio / 2 (verificada 2026-07-30, más arriba).
+  'rv.trabajador': {
+    valor: 9.3,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Rentenversicherung — SGB VI / Rechengrößen 2026', tipo: 'oficial' },
+    nota: 'Parte del trabajador. Total 18,6 %, mitad y mitad con el empleador.',
+  },
+  'alv.trabajador': {
+    valor: 1.3,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Arbeitslosenversicherung — SGB III / Rechengrößen 2026', tipo: 'oficial' },
+    nota: 'Parte del trabajador. Total 2,6 %.',
+  },
+  'pv.trabajador.con_hijos': {
+    valor: 1.8,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Pflegeversicherung — SGB XI / BMG 2026', tipo: 'oficial' },
+    nota: 'Parte del trabajador, con hijos, fuera de Sajonia.',
+  },
+  'pv.trabajador.sin_hijos': {
+    valor: 2.4,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Pflegeversicherung — SGB XI / BMG 2026', tipo: 'oficial' },
+    nota: 'Sin hijos, ≥23 años: el recargo de 0,6 puntos lo paga solo el trabajador.',
+  },
+  'pv.sachsen.con_hijos': {
+    valor: 2.3,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Pflegeversicherung — SGB XI / BMG 2026 (reparto especial de Sajonia)', tipo: 'oficial' },
+    nota: 'Sajonia (en el simulador: Leipzig y Dresde) reparte la Pflege de otra forma.',
+  },
+  'pv.sachsen.sin_hijos': {
+    valor: 2.9,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Pflegeversicherung — SGB XI / BMG 2026 (reparto especial de Sajonia)', tipo: 'oficial' },
+  },
+  'rv.bbg.mes': {
+    valor: 8450,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Beitragsbemessungsgrenze RV/ALV 2026 (Rechengrößen, BMAS)', tipo: 'oficial' },
+    nota: 'Tope de pensiones Y desempleo — DISTINTO del de sanidad/dependencia (gkv.bbg.mes).',
+  },
+  'rv.bbg.anno': {
+    valor: 101400,
+    unidad: '€/año',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'mensual × 12', tipo: 'derivada' },
+    deriva_de: ['rv.bbg.mes'],
+  },
+
+  // IRPF §32a EStG 2026 — la ley no define tramos con tipo fijo sino una
+  // tarifa CONTINUA por fórmulas. Zonas: hasta el Grundfreibetrag → 0;
+  // después dos zonas de progresión (polinomios en y/z = exceso/10.000)
+  // y dos zonas proporcionales. La forma vive en motor-nomina-2026.ts.
+  'irpf.grundfreibetrag': {
+    valor: 12348,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG (redacción vigente 2026)', tipo: 'oficial' },
+    nota: 'Mínimo exento. El simulador publicaba 11.604 — el de 2024.',
+  },
+  'irpf.zona2.hasta': {
+    valor: 17799,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG (redacción vigente 2026)', tipo: 'oficial' },
+  },
+  'irpf.zona2.coef_a': {
+    valor: 914.51,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG: (914,51·y + 1.400)·y', tipo: 'oficial' },
+  },
+  'irpf.zona2.coef_b': {
+    valor: 1400,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG: (914,51·y + 1.400)·y', tipo: 'oficial' },
+  },
+  'irpf.zona3.hasta': {
+    valor: 69878,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG (redacción vigente 2026)', tipo: 'oficial' },
+  },
+  'irpf.zona3.coef_a': {
+    valor: 173.1,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG: (173,10·z + 2.397)·z + 1.034,87', tipo: 'oficial' },
+  },
+  'irpf.zona3.coef_b': {
+    valor: 2397,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG: (173,10·z + 2.397)·z + 1.034,87', tipo: 'oficial' },
+  },
+  'irpf.zona3.sumando': {
+    valor: 1034.87,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG: (173,10·z + 2.397)·z + 1.034,87', tipo: 'oficial' },
+  },
+  'irpf.zona4.hasta': {
+    valor: 277825,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG (redacción vigente 2026)', tipo: 'oficial' },
+  },
+  'irpf.zona4.tipo': {
+    valor: 42,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG: 0,42·x − 11.135,63', tipo: 'oficial' },
+  },
+  'irpf.zona4.resta': {
+    valor: 11135.63,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG: 0,42·x − 11.135,63', tipo: 'oficial' },
+  },
+  'irpf.zona5.tipo': {
+    valor: 45,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG: 0,45·x − 19.470,38', tipo: 'oficial' },
+  },
+  'irpf.zona5.resta': {
+    valor: 19470.38,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: '§32a EStG: 0,45·x − 19.470,38', tipo: 'oficial' },
+  },
+
+  // Recargo de solidaridad (Soli) 2026.
+  'soli.freigrenze': {
+    valor: 20350,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'SolzG (redacción vigente 2026)', tipo: 'oficial' },
+    nota: 'Tributación individual. Por debajo o igual: Soli 0. El simulador publicaba 18.130 — el de 2024.',
+  },
+  'soli.tipo': {
+    valor: 5.5,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'SolzG (redacción vigente 2026)', tipo: 'oficial' },
+  },
+  'soli.tipo_transicion': {
+    valor: 11.9,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'SolzG (redacción vigente 2026)', tipo: 'oficial' },
+    nota: 'Zona de transición: se paga el MENOR de 5,5 % del impuesto u 11,9 % del exceso sobre la Freigrenze.',
   },
 
   // Lingoda: deliberadamente FUERA. Su precio depende de plan, volumen y

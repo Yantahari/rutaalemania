@@ -1,5 +1,4 @@
 ---
-import simulatorData from '../data/simulator-data.json';
 ---
 
 <div class="sim-wrapper" id="simulador-app">
@@ -139,8 +138,12 @@ import simulatorData from '../data/simulator-data.json';
   .share-btn-sim.tg { background: #0088cc; }
 </style>
 
-<script define:vars={{ simulatorData }}>
-  const data = simulatorData;
+<script>
+  // Script empaquetado (módulo): importa los datos y el motor de nómina.
+  // Los números legales NO viven aquí — vienen de cifras.ts vía el motor.
+  import data from '../data/simulator-data.json';
+  import { calcularNomina } from '../data/motor-nomina-2026';
+
   const state = { profession: '', city: '', family: '', country: '' };
 
   // Populate professions
@@ -255,40 +258,30 @@ import simulatorData from '../data/simulator-data.json';
     });
   });
 
-  function calculateNet(grossAnnual, family) {
-    // Simplified German tax calculation for Steuerklasse I (single) or III (married)
-    const grossMonthly = grossAnnual / 12;
-
-    // Social security (~20% employee share)
-    const pensionRate = 0.093;    // Rentenversicherung
-    const healthRate = 0.0875;    // Krankenversicherung — (14,6% + 2,9% Zusatzbeitrag medio 2026) / 2, verificado 2026-07
-    const careRate = family === 'single' ? 0.023 : 0.017; // Pflegeversicherung (higher for childless)
-    const unemploymentRate = 0.013; // Arbeitslosenversicherung
-
-    const socialSecurity = grossMonthly * (pensionRate + healthRate + careRate + unemploymentRate);
-
-    // Income tax (simplified progressive)
-    const taxableAnnual = grossAnnual - (socialSecurity * 12);
-    let incomeTax = 0;
-    if (taxableAnnual > 66761) {
-      incomeTax = taxableAnnual * 0.35;
-    } else if (taxableAnnual > 17005) {
-      incomeTax = taxableAnnual * 0.25;
-    } else if (taxableAnnual > 11604) {
-      incomeTax = taxableAnnual * 0.15;
-    }
-
-    // Solidarity surcharge (5.5% of income tax, only if tax > threshold)
-    const soli = incomeTax > 18130 ? incomeTax * 0.055 : 0;
-
-    const totalTaxMonthly = (incomeTax + soli) / 12;
-    const netMonthly = grossMonthly - socialSecurity - totalTaxMonthly;
+  function calculateNet(grossAnnual, family, city) {
+    // Motor 2026 (src/data/motor-nomina-2026.ts; cifras en cifras.ts,
+    // verificadas 2026-07-31): IRPF por la fórmula continua del §32a EStG
+    // (tributación individual para todos), Soli con Freigrenze y zona de
+    // transición, cotizaciones del trabajador con sus DOS topes (KV/PV y
+    // RV/ALV) y Pflege distinta en Sajonia (city.sachsen).
+    //
+    // Lo que este cálculo NO hace, dicho aquí para que el comentario no
+    // prometa de más (decisiones pendientes del Director, día 143):
+    //  - el estado civil no cambia el impuesto (sin splitting de casados);
+    //  - «Soltero/a» se asume sin hijos para la Pflege (la opción
+    //    «soltero/a con hijos» no existe en el formulario);
+    //  - base imponible = bruto − cotizaciones, sin Werbungskosten- ni
+    //    demás Pauschalen: el IRPF sale algo alto.
+    const nomina = calcularNomina(grossAnnual, {
+      sinHijos: family !== 'married_kids',
+      enSajonia: Boolean(city.sachsen),
+    });
 
     return {
-      grossMonthly: Math.round(grossMonthly),
-      netMonthly: Math.round(netMonthly),
-      socialSecurity: Math.round(socialSecurity),
-      incomeTax: Math.round(totalTaxMonthly),
+      grossMonthly: Math.round(nomina.brutoMes),
+      netMonthly: Math.round(nomina.netoMes),
+      socialSecurity: Math.round(nomina.cotizacionesMes),
+      incomeTax: Math.round(nomina.impuestoMes),
     };
   }
 
@@ -301,7 +294,7 @@ import simulatorData from '../data/simulator-data.json';
     const country = data.countries[state.country];
     const salary = prof.salaries[state.city];
 
-    const calc = calculateNet(salary.median, state.family);
+    const calc = calculateNet(salary.median, state.family, city);
     const totalExpenses = city.rent_1bed + city.groceries + city.transport + city.utilities + city.misc;
     const freeMonthly = calc.netMonthly - totalExpenses;
     const purchasingPower = country.avg_professional_salary_eur > 0

@@ -190,8 +190,8 @@
     "stuttgart": { "name": "Stuttgart", "rent_1bed": 950, "groceries": 360, "transport": 63, "utilities": 42, "misc": 210 },
     "dusseldorf": { "name": "Düsseldorf", "rent_1bed": 850, "groceries": 350, "transport": 63, "utilities": 40, "misc": 200 },
     "freiburg": { "name": "Freiburg", "rent_1bed": 900, "groceries": 340, "transport": 63, "utilities": 40, "misc": 207 },
-    "leipzig": { "name": "Leipzig", "rent_1bed": 650, "groceries": 320, "transport": 63, "utilities": 37, "misc": 180 },
-    "dresden": { "name": "Dresde", "rent_1bed": 550, "groceries": 320, "transport": 63, "utilities": 35, "misc": 170 }
+    "leipzig": { "name": "Leipzig", "sachsen": true, "rent_1bed": 650, "groceries": 320, "transport": 63, "utilities": 37, "misc": 180 },
+    "dresden": { "name": "Dresde", "sachsen": true, "rent_1bed": 550, "groceries": 320, "transport": 63, "utilities": 35, "misc": 170 }
   },
   "countries": {
     "spain": { "name": "España", "avg_professional_salary_eur": 1800 },
