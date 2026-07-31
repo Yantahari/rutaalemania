@@ -75,7 +75,7 @@ Hay dos proveedores principales para abrir una Sperrkonto. Aquí va una **compar
 
 [Expatrio](https://www.expatrio.com/?p=rutaalemania) es el proveedor más popular entre quienes solicitan visado para Alemania. Su proceso es **100% online**, la interfaz es intuitiva y tienen soporte en español.
 
-> **Buena noticia:** Es mi recomendación principal por su rapidez y facilidad de uso.
+> **Buena noticia:** Es mi recomendación principal, y el criterio es comprobable: con los precios de 2026 es la más barata de las dos opciones y la única con soporte en español.
 
 ---
 
