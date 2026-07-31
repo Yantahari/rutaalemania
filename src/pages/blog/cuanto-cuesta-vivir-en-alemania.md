@@ -88,7 +88,7 @@ En Alemania, **tener seguro médico es obligatorio por ley**. No puedes registra
 ### Seguro público (Gesetzliche Krankenversicherung - GKV)
 
 - Es el que usa la mayoría de la población (~90%).
-- Cuesta aproximadamente el **14,6% de tu salario bruto**, más un suplemento de la aseguradora (~1,3-1,7%). Tu empleador paga la mitad.
+- Cuesta aproximadamente el **14,6% de tu salario bruto**, más el Zusatzbeitrag de la aseguradora: **2,9 % de media en 2026** (según la caja, entre 2,18 % y 4,39 %). Tu empleador paga la mitad.
 - **Tu parte real:** alrededor de **280-320 € al mes** si ganas un salario medio.
 - Incluye cobertura completa: médico general, especialistas, hospital, medicamentos (con copago mínimo), maternidad y más.
 - **Compañías populares:** TK (Techniker Krankenkasse), AOK, Barmer, DAK.
