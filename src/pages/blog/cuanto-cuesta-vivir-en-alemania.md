@@ -44,7 +44,7 @@ El alquiler es, sin duda, **el gasto más grande** que tendrás en Alemania. Y a
 - **Nebenkosten** (gastos accesorios): incluye calefacción, agua, basura, mantenimiento del edificio y, a veces, parte de los servicios comunes.
 - **Warmmiete** (alquiler caliente): Kaltmiete + Nebenkosten. **Este es el número real que sale de tu cuenta cada mes.**
 
-Cuando veas un anuncio que dice "650 € Kaltmiete + 200 € NK", tu gasto real de alquiler será **850 € al mes**. Siempre pregunta por la Warmmiete.
+Cuando veas un anuncio que dice "650 € Kaltmiete + 135 € NK", tu gasto real de alquiler será **785 € al mes**. Siempre pregunta por la Warmmiete.
 
 > **Importante:** Siempre compara pisos por su Warmmiete, no por la Kaltmiete. La diferencia en Nebenkosten puede ser enorme entre edificios.
 
