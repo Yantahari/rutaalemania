@@ -1443,8 +1443,8 @@ export const CIFRAS = {
   // (último dato 2020 en bolívares pre-redenominación, sin USD/PPP) y
   // NICARAGUA (2014: no es un dato viejo, es otra época). Sin entrada;
   // los 200/300 del JSON quedan como cifras SIN FUENTE pendientes de
-  // retirada en la regeneración, sustituidas por una frase honesta
-  // (texto visible: redacciones propuestas al Director el día 143).
+  // retirada en la regeneración, sustituidas por la frase APROBADA por el
+  // Director el 2026-07-31 — exportada como FRASES_SIN_DATO (al pie).
   'pais.alemania.ppp.mes': {
     valor: 6134.91,
     unidad: 'USD-PPA/mes',
@@ -1622,3 +1622,15 @@ export function conFecha(id: CifraId): string {
   const [y, m] = c.verificado.split('-').map(Number);
   return `${fmtValor(c)} (verificado en ${MESES[m - 1]} de ${y})`;
 }
+
+// ─── Frases para los huecos sin estadística utilizable ─────────────────────
+// Texto visible APROBADO por el Director el 2026-07-31 (día 143) — no es
+// propuesta. Lo consume la regeneración en lugar de los valores retirados
+// de Venezuela (200) y Nicaragua (300), que no tienen fuente conocida.
+// Claves = ids de país del simulator-data.json.
+export const FRASES_SIN_DATO: Record<string, string> = {
+  venezuela:
+    'Venezuela: no hay estadística salarial utilizable para hacer esta comparación. Cuando exista una fuente fiable, la añadiremos.',
+  nicaragua:
+    'Nicaragua: no hay estadística salarial utilizable para hacer esta comparación. Cuando exista una fuente fiable, la añadiremos.',
+};
