@@ -18,17 +18,26 @@ En este artículo te presento un **presupuesto real**, basado en datos actualiza
 
 ## Resumen rápido: costo de vida mensual por ciudad (2026)
 
-Antes de entrar en detalle, aquí tienes una tabla comparativa con el gasto mensual estimado para **una persona sola**, incluyendo alquiler, seguro, comida, transporte y extras básicos:
+Antes de entrar en detalle, aquí tienes el gasto mensual de **una persona sola** en un piso de 50 m². Lo único que cambia de una ciudad a otra es el alquiler; el resto es prácticamente igual en toda Alemania:
 
 | Concepto | Berlín | Múnich | Friburgo | Leipzig |
 |---|---|---|---|---|
-| Alquiler (Warmmiete, 50 m²) | 650–1.130 € | 1.130–1.480 € | ~860 € | 560–730 € |
-| Seguro médico (público) | ~280 € | ~280 € | ~280 € | ~280 € |
-| Supermercado | 250–350 € | 280–380 € | 250–330 € | 220–300 € |
-| Transporte (Deutschlandticket) | 63 € | 63 € | 63 € | 63 € |
-| Internet + móvil | 40–55 € | 40–55 € | 40–55 € | 40–55 € |
-| Extras (ocio, ropa, etc.) | 150–250 € | 180–300 € | 130–220 € | 120–200 € |
-| **Total estimado** | **1.433–2.128 €** | **1.973–2.558 €** | **1.623–1.808 €** | **1.283–1.628 €** |
+| Alquiler (Warmmiete, 50 m²) | 893 € | 1.295 € | 858 € | 634 € |
+| Resto de gastos (igual en todo el país) | 1.018 € | 1.018 € | 1.018 € | 1.018 € |
+| **Total estimado** | **1.911 €** | **2.313 €** | **1.876 €** | **1.652 €** |
+
+**Qué hay dentro de esos 1.018 €:**
+
+| Concepto | Al mes | De dónde sale |
+|---|---|---|
+| Luz | 49 € | 1.200 kWh/año (Stromspiegel) × 0,37 €/kWh (BDEW 2026) + cuota fija |
+| Alimentación | 254 € | Gasto medio real de un hogar de una persona (Destatis, EVS 2023) |
+| Transporte | 63 € | Deutschlandticket |
+| Todo lo demás | 652 € | Ropa, ocio, internet y móvil, salud no cubierta, muebles, canon de radiodifusión, peluquería… (Destatis, EVS 2023) |
+
+> **El seguro médico no aparece en esta tabla, y no es un olvido:** en Alemania se descuenta directamente de tu nómina, junto con las pensiones y el resto de cotizaciones. No lo pagas aparte, así que ya está restado del sueldo neto con el que compararás estos gastos. Lo explicamos más abajo, en la sección de impuestos y seguridad social.
+
+> **Nota:** son los mismos datos y las mismas categorías que usa nuestro [simulador de vida](/#simulador). Si pruebas tu ciudad allí, el total te dará lo mismo que aquí.
 
 > **Clave:** Múnich es la ciudad más cara de Alemania. Leipzig y ciudades del este son significativamente más baratas. Berlín, a pesar de su fama, está en un rango medio-alto pero sigue siendo más asequible que Múnich o Fráncfort.
 
@@ -196,12 +205,13 @@ Puedes [comparar tarifas de movil](https://a.check24.net/misc/click.php?pid=1169
 
 ---
 
-### Electricidad y gas
+### Lo que NO está en tu Warmmiete
 
-Un gasto que muchos emigrantes olvidan presupuestar. Si tu alquiler es Kaltmiete (alquiler frio, sin suministros incluidos), pagaras electricidad y gas aparte:
+La Warmmiete de la tabla de arriba ya incluye calefacción, agua y gastos del edificio. Lo que pagas **aparte** es:
 
-- **Electricidad (Strom):** 40–60 € al mes para una persona sola
-- **Gas (si tu piso usa gas para calefaccion):** 50–80 € al mes
+- **Electricidad (Strom):** unos **49 € al mes** para una persona sola (1.200 kWh al año a 0,37 €/kWh, más la cuota fija). Se contrata por tu cuenta y **nunca** va dentro de la Warmmiete.
+- **Internet y móvil:** también aparte. Están dentro de la partida «todo lo demás» del resumen.
+- **Gas:** solo si tu contrato es Kaltmiete **sin calefacción incluida**, un caso poco frecuente en alquileres para recién llegados. Entonces sí lo pagarías tú, entre 50 y 80 € al mes. Si tu alquiler es Warmmiete —como los de este artículo—, **la calefacción ya está pagada y no debes sumarla otra vez**.
 
 Alemania tiene libertad de mercado en electricidad y gas, lo que significa que puedes elegir proveedor. Los precios entre companias pueden variar hasta un 30%. [Comparar tarifas de electricidad](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=stromanbieter-wechseln&cat=1) y [gas](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=gasanbieter-wechseln&cat=3) antes de aceptar el proveedor por defecto de tu zona puede ahorrarte 200-400 € al ano.
 
@@ -221,6 +231,8 @@ Alemania tiene libertad de mercado en electricidad y gas, lo que significa que p
 | Peluquería (corte básico) | 15–30 € |
 
 El **GEZ (Rundfunkbeitrag)** es un impuesto por hogar que todos deben pagar, veas o no la televisión. Son exactamente 18,36 € al mes y **no hay forma legal de evitarlo** si tienes un domicilio registrado.
+
+> **Ojo al sumar:** todos los gastos de esta tabla —el canon incluido— ya están dentro de los **652 € de «todo lo demás»** del resumen. Los detallamos aquí para que sepas en qué se va ese dinero, no para que los sumes otra vez.
 
 > **Importante:** El GEZ te llegará automáticamente. No lo ignores: acumula deudas e intereses si no pagas.
 
@@ -278,10 +290,10 @@ Para poner las cosas en perspectiva, comparemos el **poder adquisitivo real**. U
 
 | Situación | Salario neto | Alquiler | Queda para vivir |
 |---|---|---|---|
-| Junior en Berlín (40k bruto) | ~2.256 € | ~890 € | ~1.366 € |
-| Programador en Múnich (55k bruto) | ~2.939 € | ~1.300 € | ~1.639 € |
-| Enfermera en Leipzig (35k bruto) | ~2.009 € | ~630 € | ~1.379 € |
-| Ingeniero en Stuttgart (65k bruto) | ~3.371 € | ~930 € | ~2.441 € |
+| Junior en Berlín (40k bruto) | ~2.256 € | ~893 € | ~1.363 € |
+| Programador en Múnich (55k bruto) | ~2.939 € | ~1.295 € | ~1.644 € |
+| Enfermera en Leipzig (35k bruto) | ~2.009 € | ~634 € | ~1.375 € |
+| Ingeniero en Stuttgart (65k bruto) | ~3.371 € | ~933 € | ~2.438 € |
 
 > **Nota:** los netos salen del mismo cálculo que la tabla anterior; el alquiler es la Warmmiete mediana de 50 m² de cada ciudad, la del apartado de alquiler de este artículo. «Queda para vivir» es lo que sobra después del alquiler, antes del resto de gastos.
 
