@@ -7,10 +7,12 @@
 // 2026-07-31). Cuando llegue la actualización anual, se tocan las cifras,
 // no la forma — salvo que la ley cambie de forma.
 //
-// Simplificación vigente y declarada (decisión pendiente del Director,
-// día 143): la base imponible se aproxima como bruto − cotizaciones del
-// trabajador, SIN Werbungskostenpauschale ni demás deducciones — el IRPF
-// resultante sale algo alto. No cambiar sin encargo.
+// Simplificación vigente y declarada (día 143, tras el paso 3 del cierre):
+// la base imponible resta las cotizaciones COMPLETAS del trabajador más las
+// dos Pauschbeträge (§9a y §10c). Eso la ACERCA a la base alemana real, no
+// la iguala: la ley no deduce la cotización completa sino la
+// Vorsorgepauschale (§39b), que es otra cosa y tiene sus topes. Queda
+// declarado, no resuelto. No cambiar sin encargo.
 
 import { CIFRAS, type CifraId } from './cifras';
 
@@ -23,13 +25,16 @@ export interface SituacionCotizante {
   enSajonia: boolean;
 }
 
-/**
- * IRPF anual según la tarifa CONTINUA del §32a EStG, tributación individual.
- * La ley no define tramos con tipo fijo: define fórmulas sin saltos.
- * Base y resultado se truncan a euro entero (abrunden, práctica del §32a).
- */
-export function calcularIRPF(baseImponibleAnual: number): number {
-  const x = Math.floor(Math.max(0, baseImponibleAnual));
+export interface SituacionFiscal extends SituacionCotizante {
+  /**
+   * Tributación conjunta (casado/a): splitting suponiendo UN SOLO ingreso
+   * en la pareja — el supuesto se declara en el resultado visible.
+   */
+  conjunta: boolean;
+}
+
+/** La tarifa del §32a sobre un zvE individual, truncada a euro entero. */
+function tarifa(x: number): number {
   if (x <= v('irpf.grundfreibetrag')) return 0;
   let impuesto: number;
   if (x <= v('irpf.zona2.hasta')) {
@@ -49,13 +54,30 @@ export function calcularIRPF(baseImponibleAnual: number): number {
 }
 
 /**
- * Soli anual: 0 hasta la Freigrenze (tributación individual); por encima,
- * el MENOR de {tipo pleno sobre el impuesto} y {tipo de transición sobre el
- * exceso} — la zona de transición del SolzG, que es donde cae casi todo el
- * que paga algo con los sueldos de este simulador.
+ * IRPF anual según la tarifa CONTINUA del §32a EStG. La ley no define
+ * tramos con tipo fijo: define fórmulas sin saltos. Base y resultado se
+ * truncan a euro entero (abrunden, práctica del §32a).
+ * Conjunta = splitting (§32a(5)): dos veces la tarifa sobre media base.
  */
-export function calcularSoli(irpfAnual: number): number {
-  const freigrenze = v('soli.freigrenze');
+export function calcularIRPF(
+  baseImponibleAnual: number,
+  conjunta = false,
+): number {
+  const x = Math.floor(Math.max(0, baseImponibleAnual));
+  if (conjunta) return 2 * tarifa(Math.floor(x / 2));
+  return tarifa(x);
+}
+
+/**
+ * Soli anual: 0 hasta la Freigrenze (doble en tributación conjunta); por
+ * encima, el MENOR de {tipo pleno sobre el impuesto} y {tipo de transición
+ * sobre el exceso} — la zona de transición del SolzG, que es donde cae casi
+ * todo el que paga algo con los sueldos de este simulador.
+ */
+export function calcularSoli(irpfAnual: number, conjunta = false): number {
+  const freigrenze = conjunta
+    ? v('soli.freigrenze_conjunta')
+    : v('soli.freigrenze');
   if (irpfAnual <= freigrenze) return 0;
   return Math.min(
     (v('soli.tipo') / 100) * irpfAnual,
@@ -95,14 +117,22 @@ export interface Nomina {
 
 export function calcularNomina(
   brutoAnual: number,
-  situacion: SituacionCotizante,
+  situacion: SituacionFiscal,
 ): Nomina {
   const brutoMes = brutoAnual / 12;
   const cotizacionesMes = calcularCotizacionesMes(brutoMes, situacion);
-  // Simplificación declarada en cabecera: base = bruto − cotizaciones.
-  const baseImponible = brutoAnual - cotizacionesMes * 12;
-  const irpfAnual = calcularIRPF(baseImponible);
-  const soliAnual = calcularSoli(irpfAnual);
+  // Base imponible — simplificación declarada en cabecera. Pauschbeträge:
+  // la de trabajador se aplica UNA vez (supuesto de un solo sueldo, §9a);
+  // la de Sonderausgaben es doble en conjunta (§10c).
+  const baseImponible =
+    brutoAnual -
+    cotizacionesMes * 12 -
+    v('pauschale.arbeitnehmer') -
+    (situacion.conjunta
+      ? v('pauschale.sonderausgaben_conjunta')
+      : v('pauschale.sonderausgaben'));
+  const irpfAnual = calcularIRPF(baseImponible, situacion.conjunta);
+  const soliAnual = calcularSoli(irpfAnual, situacion.conjunta);
   const impuestoMes = (irpfAnual + soliAnual) / 12;
   return {
     brutoMes,

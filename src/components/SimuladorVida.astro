@@ -40,6 +40,7 @@
     </div>
     <div class="flex flex-col gap-3 max-w-md mx-auto" id="sim-family">
       <button class="sim-choice" data-value="single">Soltero/a</button>
+      <button class="sim-choice" data-value="single_kids">Soltero/a con hijos</button>
       <button class="sim-choice" data-value="married">Casado/a sin hijos</button>
       <button class="sim-choice" data-value="married_kids">Casado/a con hijos</button>
     </div>
@@ -260,21 +261,24 @@
 
   function calculateNet(grossAnnual, family, city) {
     // Motor 2026 (src/data/motor-nomina-2026.ts; cifras en cifras.ts,
-    // verificadas 2026-07-31): IRPF por la fórmula continua del §32a EStG
-    // (tributación individual para todos), Soli con Freigrenze y zona de
-    // transición, cotizaciones del trabajador con sus DOS topes (KV/PV y
-    // RV/ALV) y Pflege distinta en Sajonia (city.sachsen).
+    // verificadas 2026-07-31): IRPF por la fórmula continua del §32a EStG,
+    // splitting para casados suponiendo UN SOLO ingreso (declarado en el
+    // resultado visible), Soli con Freigrenze (doble en conjunta) y zona
+    // de transición, cotizaciones del trabajador con sus DOS topes (KV/PV
+    // y RV/ALV), Pflege distinta en Sajonia (city.sachsen) y las dos
+    // Pauschbeträge (§9a, §10c) restadas de la base.
     //
-    // Lo que este cálculo NO hace, dicho aquí para que el comentario no
-    // prometa de más (decisiones pendientes del Director, día 143):
-    //  - el estado civil no cambia el impuesto (sin splitting de casados);
-    //  - «Soltero/a» se asume sin hijos para la Pflege (la opción
-    //    «soltero/a con hijos» no existe en el formulario);
-    //  - base imponible = bruto − cotizaciones, sin Werbungskosten- ni
-    //    demás Pauschalen: el IRPF sale algo alto.
+    // Lo que este cálculo NO hace, para que el comentario no prometa de
+    // más: la base imponible resta la cotización social completa en vez
+    // de la Vorsorgepauschale legal (declarado en el motor, no resuelto);
+    // y el splitting asume un solo sueldo — con dos ingresos el impuesto
+    // real difiere.
+    const sinHijos = family === 'single' || family === 'married';
+    const conjunta = family === 'married' || family === 'married_kids';
     const nomina = calcularNomina(grossAnnual, {
-      sinHijos: family !== 'married_kids',
+      sinHijos,
       enSajonia: Boolean(city.sachsen),
+      conjunta,
     });
 
     return {
@@ -295,6 +299,10 @@
     const salary = prof.salaries[state.city];
 
     const calc = calculateNet(salary.median, state.family, city);
+    // FRASE PROVISIONAL (recomendación de CCode, día 143) — el texto visible
+    // es criterio del Director; la alternativa viaja en el informe. Cambiarla
+    // es una línea (abajo, junto al «Salario neto estimado»).
+    const esConjunta = state.family === 'married' || state.family === 'married_kids';
     const totalExpenses = city.rent_1bed + city.groceries + city.transport + city.utilities + city.misc;
     const freeMonthly = calc.netMonthly - totalExpenses;
     const purchasingPower = country.avg_professional_salary_eur > 0
@@ -332,6 +340,7 @@
           <span class="text-text-primary font-semibold">Salario neto estimado</span>
           <span class="result-val" style="font-size:1.1rem">${calc.netMonthly.toLocaleString('es-ES')}&euro;/mes</span>
         </div>
+        ${esConjunta ? `<p class="text-xs text-text-muted mt-2">Cálculo para casado/a: tributación conjunta suponiendo un solo sueldo en la pareja.</p>` : ''}
       </div>
 
       <div class="result-card">

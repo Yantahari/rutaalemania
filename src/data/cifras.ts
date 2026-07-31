@@ -412,6 +412,42 @@ export const CIFRAS = {
     fuente: { nombre: 'SolzG (redacción vigente 2026)', tipo: 'oficial' },
     nota: 'Zona de transición: se paga el MENOR de 5,5 % del impuesto u 11,9 % del exceso sobre la Freigrenze.',
   },
+  'soli.freigrenze_conjunta': {
+    valor: 40700,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'SolzG (redacción vigente 2026)', tipo: 'oficial' },
+    nota: 'Freigrenze en tributación conjunta — el doble de la individual.',
+  },
+
+  // Pauschbeträge que acercan la base imponible a la alemana (motor, paso 3
+  // del cierre del simulador — día 143).
+  'pauschale.arbeitnehmer': {
+    valor: 1230,
+    unidad: '€/año',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Arbeitnehmer-Pauschbetrag — §9a EStG (redacción vigente 2026)', tipo: 'oficial' },
+    nota: 'Por persona CON ingresos del trabajo: con un solo sueldo se aplica una vez, no dos.',
+  },
+  'pauschale.sonderausgaben': {
+    valor: 36,
+    unidad: '€/año',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'Sonderausgaben-Pauschbetrag — §10c EStG (redacción vigente 2026)', tipo: 'oficial' },
+    nota: 'Tributación individual.',
+  },
+  'pauschale.sonderausgaben_conjunta': {
+    valor: 72,
+    unidad: '€/año',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'individual × 2 (§10c EStG)', tipo: 'derivada' },
+    deriva_de: ['pauschale.sonderausgaben'],
+  },
 
   // Lingoda: deliberadamente FUERA. Su precio depende de plan, volumen y
   // promoción vigente — es un rango móvil, no un hecho datable
