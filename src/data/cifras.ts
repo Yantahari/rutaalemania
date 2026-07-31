@@ -16,6 +16,30 @@ export type Unidad = '€' | '€/mes' | '€/año' | '€/28días' | '%' | 'coe
 // existe para que las estimaciones no se disfracen de hechos.
 export type TipoFuente = 'oficial' | 'comercial' | 'derivada' | 'estimacion';
 
+/**
+ * Pauta de re-verificación — el campo del VIGÍA (día 143, 2026-07-31).
+ * `verificado` dice cuándo se miró; esto dice cuándo TOCA volver a mirar.
+ * Dos naturalezas medidas, que no se vigilan igual:
+ *  - 'calendario': el dato cambia en fecha conocida de antemano
+ *    (`proxima`, formato 'AAAA-MM').
+ *  - 'deriva': envejece sin fecha concreta (`umbral_meses` desde
+ *    `verificado`). Umbral ausente = pendiente del Director — la
+ *    naturaleza es evidente, el plazo es criterio suyo.
+ * Reglas: el `porque` viaja siempre (quién/qué cambia el dato). Las
+ * derivadas (`deriva_de`) HEREDAN la pauta de sus bases y no llevan campo.
+ * Cifra sin `revision` y sin `deriva_de` = pauta PENDIENTE, declarada —
+ * el vigía la lista, no la esconde. Instrumento: scripts/vigia.py (ops).
+ */
+export interface Revision {
+  tipo: 'calendario' | 'deriva';
+  /** calendario: cuándo toca mirar ('AAAA-MM'). */
+  proxima?: string;
+  /** deriva: meses desde `verificado` para re-mirar. Ausente = umbral pendiente del Director. */
+  umbral_meses?: number;
+  /** Quién/qué cambia el dato y por qué esta pauta. */
+  porque: string;
+}
+
 export interface Cifra {
   valor: number;
   unidad: Unidad;
@@ -23,6 +47,8 @@ export interface Cifra {
   vigencia: string;
   /** Fecha de la última verificación contra la fuente (ISO). */
   verificado: string;
+  /** Cuándo toca re-verificar — ver interface Revision (el vigía). */
+  revision?: Revision;
   /** A quién aplica el hecho, cuando depende del caso. */
   aplica_a?: 'chancenkarte' | 'estudios' | 'empleados';
   fuente: { nombre: string; url?: string; tipo: TipoFuente };
@@ -83,6 +109,7 @@ export const CIFRAS = {
     unidad: '€/año',
     vigencia: '2026',
     verificado: '2026-07-30',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     aplica_a: 'empleados',
     fuente: {
       nombre: 'Sozialversicherungs-Rechengrößenverordnung 2026 (BMAS)',
@@ -107,6 +134,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-30',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     fuente: { nombre: 'Fijado por ley (SGB V)', tipo: 'oficial' },
   },
   'gkv.zusatzbeitrag_medio': {
@@ -114,6 +142,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-30',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El BMG publica el Zusatzbeitrag medio del año siguiente en otoño; efectivo enero' },
     fuente: { nombre: 'BMG / GKV-Spitzenverband (durchschnittlicher Zusatzbeitrag)', tipo: 'oficial' },
     nota:
       'Media oficial 2026. Rango real por caja: 2,18–4,39 %. El sitio publicaba «~1,5-2 %».',
@@ -132,6 +161,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-30',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     fuente: { nombre: 'Beitragsbemessungsgrenze KV/PV 2026 (BMG)', tipo: 'oficial' },
   },
   'gkv.empleador_max_kv.mes': {
@@ -148,6 +178,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-30',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     fuente: { nombre: 'BBG y tipos Pflege 2026 (BMG)', tipo: 'oficial' },
     nota: 'Tope del empleador en Pflegeversicherung. Conjunto KV + PV: 613,22 €/mes.',
   },
@@ -158,6 +189,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026-07',
     verificado: '2026-07-30',
+    revision: { tipo: 'deriva', porque: 'Precio comercial (afiliado/proveedor): cambia sin calendario; umbral pendiente del Director (día 143)' },
     fuente: { nombre: 'expatrio.com — página comercial (EN y ES coinciden)', tipo: 'comercial' },
     nota:
       'Subida de precios del 2026-07-07 (aviso Awin). Su propio Help Center aún publicaba 89 €/5 € en un artículo «actualizado» el 2026-05-28: manda la página comercial, que es la que cobra (D-1).',
@@ -167,6 +199,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026-07',
     verificado: '2026-07-30',
+    revision: { tipo: 'deriva', porque: 'Precio comercial (afiliado/proveedor): cambia sin calendario; umbral pendiente del Director (día 143)' },
     fuente: { nombre: 'expatrio.com — página comercial (EN y ES coinciden)', tipo: 'comercial' },
     nota: 'El sitio publicaba 0 € de alta / 5,90 €/mes.',
   },
@@ -185,6 +218,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026-07',
     verificado: '2026-07-30',
+    revision: { tipo: 'deriva', porque: 'Precio comercial (afiliado/proveedor): cambia sin calendario; umbral pendiente del Director (día 143)' },
     fuente: { nombre: 'fintiba.com — página comercial', tipo: 'comercial' },
     nota: 'El sitio publicaba 0 € de alta / 4,90 €/mes.',
   },
@@ -193,6 +227,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026-07',
     verificado: '2026-07-30',
+    revision: { tipo: 'deriva', porque: 'Precio comercial (afiliado/proveedor): cambia sin calendario; umbral pendiente del Director (día 143)' },
     fuente: { nombre: 'fintiba.com — página comercial', tipo: 'comercial' },
   },
   'fintiba.primer_anno': {
@@ -210,6 +245,7 @@ export const CIFRAS = {
     unidad: '€/28días',
     vigencia: '2026-07',
     verificado: '2026-07-30',
+    revision: { tipo: 'deriva', porque: 'Precio comercial (afiliado/proveedor): cambia sin calendario; umbral pendiente del Director (día 143)' },
     fuente: { nombre: 'lycamobile.de', tipo: 'comercial' },
     nota:
       'Paquetes por ciclos de 28 días — 13 ciclos/año, no 12: el equivalente mensual real es ≈ 5,41 €/mes. El sitio decía «€/mes». Lyca cambia tarifas con frecuencia: vigencia corta, re-verificar en cada saneo.',
@@ -226,6 +262,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Rentenversicherung — SGB VI / Rechengrößen 2026', tipo: 'oficial' },
     nota: 'Parte del trabajador. Total 18,6 %, mitad y mitad con el empleador.',
@@ -235,6 +272,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Arbeitslosenversicherung — SGB III / Rechengrößen 2026', tipo: 'oficial' },
     nota: 'Parte del trabajador. Total 2,6 %.',
@@ -244,6 +282,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Pflegeversicherung — SGB XI / BMG 2026', tipo: 'oficial' },
     nota: 'Parte del trabajador, con hijos, fuera de Sajonia.',
@@ -253,6 +292,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Pflegeversicherung — SGB XI / BMG 2026', tipo: 'oficial' },
     nota: 'Sin hijos, ≥23 años: el recargo de 0,6 puntos lo paga solo el trabajador.',
@@ -262,6 +302,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Pflegeversicherung — SGB XI / BMG 2026 (reparto especial de Sajonia)', tipo: 'oficial' },
     nota: 'Sajonia (en el simulador: Leipzig y Dresde) reparte la Pflege de otra forma.',
@@ -271,6 +312,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Pflegeversicherung — SGB XI / BMG 2026 (reparto especial de Sajonia)', tipo: 'oficial' },
   },
@@ -279,6 +321,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Beitragsbemessungsgrenze RV/ALV 2026 (Rechengrößen, BMAS)', tipo: 'oficial' },
     nota: 'Tope de pensiones Y desempleo — DISTINTO del de sanidad/dependencia (gkv.bbg.mes).',
@@ -302,6 +345,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG (redacción vigente 2026)', tipo: 'oficial' },
     nota: 'Mínimo exento. El simulador publicaba 11.604 — el de 2024.',
   },
@@ -310,6 +354,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG (redacción vigente 2026)', tipo: 'oficial' },
   },
   'irpf.zona2.coef_a': {
@@ -317,6 +362,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG: (914,51·y + 1.400)·y', tipo: 'oficial' },
   },
   'irpf.zona2.coef_b': {
@@ -324,6 +370,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG: (914,51·y + 1.400)·y', tipo: 'oficial' },
   },
   'irpf.zona3.hasta': {
@@ -331,6 +378,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG (redacción vigente 2026)', tipo: 'oficial' },
   },
   'irpf.zona3.coef_a': {
@@ -338,6 +386,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG: (173,10·z + 2.397)·z + 1.034,87', tipo: 'oficial' },
   },
   'irpf.zona3.coef_b': {
@@ -345,6 +394,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG: (173,10·z + 2.397)·z + 1.034,87', tipo: 'oficial' },
   },
   'irpf.zona3.sumando': {
@@ -352,6 +402,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG: (173,10·z + 2.397)·z + 1.034,87', tipo: 'oficial' },
   },
   'irpf.zona4.hasta': {
@@ -359,6 +410,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG (redacción vigente 2026)', tipo: 'oficial' },
   },
   'irpf.zona4.tipo': {
@@ -366,6 +418,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG: 0,42·x − 11.135,63', tipo: 'oficial' },
   },
   'irpf.zona4.resta': {
@@ -373,6 +426,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG: 0,42·x − 11.135,63', tipo: 'oficial' },
   },
   'irpf.zona5.tipo': {
@@ -380,6 +434,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG: 0,45·x − 19.470,38', tipo: 'oficial' },
   },
   'irpf.zona5.resta': {
@@ -387,6 +442,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Tarifa del §32a EStG: cambia con el año fiscal, efectiva enero' },
     fuente: { nombre: '§32a EStG: 0,45·x − 19.470,38', tipo: 'oficial' },
   },
 
@@ -396,6 +452,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Parámetros del SolzG: anuales, efectivos enero' },
     fuente: { nombre: 'SolzG (redacción vigente 2026)', tipo: 'oficial' },
     nota: 'Tributación individual. Por debajo o igual: Soli 0. El simulador publicaba 18.130 — el de 2024.',
   },
@@ -404,6 +461,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Parámetros del SolzG: anuales, efectivos enero' },
     fuente: { nombre: 'SolzG (redacción vigente 2026)', tipo: 'oficial' },
   },
   'soli.tipo_transicion': {
@@ -411,6 +469,7 @@ export const CIFRAS = {
     unidad: '%',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Parámetros del SolzG: anuales, efectivos enero' },
     fuente: { nombre: 'SolzG (redacción vigente 2026)', tipo: 'oficial' },
     nota: 'Zona de transición: se paga el MENOR de 5,5 % del impuesto u 11,9 % del exceso sobre la Freigrenze.',
   },
@@ -419,6 +478,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Parámetros del SolzG: anuales, efectivos enero' },
     fuente: { nombre: 'SolzG (redacción vigente 2026)', tipo: 'oficial' },
     nota: 'Freigrenze en tributación conjunta — el doble de la individual.',
   },
@@ -430,6 +490,7 @@ export const CIFRAS = {
     unidad: '€/año',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Pauschbeträge del EStG (§9a/§10c): anuales, efectivos enero' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Arbeitnehmer-Pauschbetrag — §9a EStG (redacción vigente 2026)', tipo: 'oficial' },
     nota: 'Por persona CON ingresos del trabajo: con un solo sueldo se aplica una vez, no dos.',
@@ -439,6 +500,7 @@ export const CIFRAS = {
     unidad: '€/año',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Pauschbeträge del EStG (§9a/§10c): anuales, efectivos enero' },
     fuente: { nombre: 'Sonderausgaben-Pauschbetrag — §10c EStG (redacción vigente 2026)', tipo: 'oficial' },
     nota: 'Tributación individual.',
   },
@@ -465,6 +527,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas (BA): Berufe in der Informatik (ohne Spezialisierung) – hoch komplexe Tätigkeiten', tipo: 'oficial' },
   },
@@ -473,6 +536,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
     nota: 'q75 CENSURADO por el tope de cotización: ausencia honesta, no hay entrada.',
@@ -482,6 +546,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas (BA): Berufe in der Maschinenbau- & Betriebstechnik (ohne Spezialisierung) – hoch komplexe Tätigkeiten', tipo: 'oficial' },
   },
@@ -490,6 +555,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
     nota: 'q75 CENSURADO por el tope de cotización: ausencia honesta, no hay entrada.',
@@ -499,6 +565,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas (BA): Lehrkräfte für berufsbildende Fächer – hoch komplexe Tätigkeiten', tipo: 'oficial' },
   },
@@ -507,6 +574,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
   },
@@ -515,6 +583,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
   },
@@ -523,6 +592,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas (BA): Betriebswirt/in – allgemeine Betriebswirtschaft', tipo: 'oficial' },
     nota: 'Cuartiles no disponibles en la fuente: ausencia honesta, sin entradas.',
@@ -532,6 +602,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas (BA): Berufe in der Hochschullehre & -forschung – hoch komplexe Tätigkeiten', tipo: 'oficial' },
   },
@@ -540,6 +611,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
   },
@@ -548,6 +620,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
   },
@@ -556,6 +629,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas (BA): Architekt/in', tipo: 'oficial' },
   },
@@ -564,6 +638,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
   },
@@ -572,6 +647,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
   },
@@ -580,6 +656,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas (BA): Berufe in der Gesundheits- & Krankenpflege (ohne Spezialisierung) – fachlich ausgerichtete Tätigkeiten', tipo: 'oficial' },
   },
@@ -588,6 +665,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
   },
@@ -596,6 +674,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
   },
@@ -604,6 +683,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas (BA): Berufe in der Elektrotechnik (ohne Spezialisierung) – fachlich ausgerichtete Tätigkeiten', tipo: 'oficial' },
   },
@@ -612,6 +692,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
   },
@@ -620,6 +701,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
   },
@@ -628,6 +710,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas (BA): Berufe im Grafik-, Kommunikations- & Fotodesign – komplexe Spezialistentätigkeiten', tipo: 'oficial' },
     nota: '⚠ familia correcta, nivel exacto por precisar (cabo abierto, ver método).',
@@ -637,6 +720,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
   },
@@ -645,6 +729,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
   },
@@ -653,6 +738,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas (BA): Speditions- & Logistikkaufleute – hoch komplexe Tätigkeiten', tipo: 'oficial' },
     nota: '⚠ familia correcta, nivel exacto por precisar (cabo abierto, ver método).',
@@ -662,6 +748,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
   },
@@ -670,6 +757,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
   },
@@ -678,6 +766,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas (BA): Köche/Köchinnen (ohne Spezialisierung) – fachlich ausgerichtete Tätigkeiten', tipo: 'oficial' },
   },
@@ -686,6 +775,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
   },
@@ -694,6 +784,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
   },
