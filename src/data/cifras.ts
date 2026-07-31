@@ -1192,6 +1192,18 @@ export const CIFRAS = {
     revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
     fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil superior de junio 2026', tipo: 'oficial' },
   },
+  // Friburgo — la décima ciudad, de OTRA fuente (no existe en GREIX;
+  // comprobado sobre el fichero: 38 entradas, ninguna es Friburgo).
+  // Clave honesta: MEDIA, porque ImmoScout publica media, no mediana.
+  'alquiler.freiburg.media.m2': {
+    valor: 14.49,
+    unidad: '€/m²/mes',
+    vigencia: '2026-Q1',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 6, porque: 'Fuente con ritmo propio (el dato de Q1 llegó en julio), sin calendario fiable conocido — revisar cada ~6 meses junto al ciclo GREIX más cercano (pauta propuesta por CCode, día 143). SUSTITUIBLE: si GREIX incorpora Friburgo, esta entrada se reemplaza por su mediana' },
+    fuente: { nombre: 'ImmoScout24 — media de precios de oferta, alquiler frío, Q1 2026', tipo: 'solvente' },
+    nota: 'CALIBRACIÓN que avala mezclar fuentes: Dresde es la única ciudad donde ambas publican — GREIX 9,53 (mediana) vs ImmoScout 9,56 (media): tres céntimos. GRADO, sin suavizar: UN SOLO punto de calibración, no una regla; y hay desajuste conceptual (media vs mediana) que en Dresde no se nota pero no tiene por qué repetirse. Ocho fuentes convergían en 13,88–14,82: el problema no era el número sino la ESCALA. Sin cuartiles: ImmoScout no los publica — hueco declarado, no afecta a lo que se muestra. La regeneración usará esta media como equivalente declarado de la mediana.',
+  },
   'alquiler.factor_oferta': {
     valor: 1,
     unidad: 'coef',
