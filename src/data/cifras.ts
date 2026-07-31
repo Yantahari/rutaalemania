@@ -1373,6 +1373,47 @@ export const CIFRAS = {
     fuente: { nombre: 'Precio público del Deutschlandticket 2026 (subida 49→63 € registrada en enero, commit 0e7333f del repo)', tipo: 'oficial' },
     nota: 'Para dos personas son DOS abonos: ×2 exacto, no el ratio observado 2,08 (decisión del Director, día 143).',
   },
+  // ─── Cifras del artículo del coste de vida (día 143, fase 3) ───────────
+  // Verificadas por el chat estratégico el 2026-07-31: eran correctas en el
+  // artículo, lo que les faltaba era procedencia. Entran aquí para que la
+  // tengan y para que el vigía sepa cuándo re-mirarlas.
+  'rundfunkbeitrag.mes': {
+    valor: 18.36,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'La KEF propone 18,64 € desde 2027 y hay un procedimiento abierto en el Tribunal Constitucional sobre la subida no aplicada: puede cambiar, y en enero se sabrá' },
+    fuente: { nombre: 'Rundfunkbeitrag — importe legal por vivienda (Rundfunkbeitragsstaatsvertrag)', tipo: 'oficial' },
+    nota: 'Por VIVIENDA, no por persona: en un piso compartido se paga una sola vez.',
+  },
+  'alg1.tasa.sin_hijos': {
+    valor: 60,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Porcentaje fijado por ley (§149 SGB III): cambia con la ley, efectivo enero' },
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Arbeitslosengeld I — §149 SGB III', tipo: 'oficial' },
+    nota: 'Sobre el sueldo neto calculado a tanto alzado, no sobre el neto real de la nómina. La base se topa en la BBG de desempleo (rv.bbg.mes).',
+  },
+  'alg1.tasa.con_hijos': {
+    valor: 67,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Porcentaje fijado por ley (§149 SGB III): cambia con la ley, efectivo enero' },
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Arbeitslosengeld I — §149 SGB III, con al menos un hijo', tipo: 'oficial' },
+  },
+  'gkv.cobertura_poblacion': {
+    valor: 90,
+    unidad: '%',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'Cuota de población cubierta: se mueve despacio y sin fecha fija — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Bundesgesundheitsministerium — 74,2 millones de asegurados en la GKV a 1-1-2026', tipo: 'oficial' },
+  },
+
   // Reparto oficial por categorías — media de TODOS los hogares, NO de uno:
   // no mezclar estos % con los totales de 1 persona sin declararlo (el
   // ~96 € de comunicaciones nació justo de esa mezcla y no tiene entrada).

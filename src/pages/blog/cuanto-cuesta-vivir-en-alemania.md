@@ -96,7 +96,7 @@ En Alemania, **tener seguro médico es obligatorio por ley**. No puedes registra
 
 ### Seguro público (Gesetzliche Krankenversicherung - GKV)
 
-- Es el que usa la mayoría de la población (~90%).
+- Es el que usa la mayoría de la población: **unos 74,2 millones de personas, cerca del 90 %** (Ministerio de Sanidad alemán, enero de 2026).
 - Cuesta aproximadamente el **14,6% de tu salario bruto**, más el Zusatzbeitrag de la aseguradora: **2,9 % de media en 2026** (según la caja, entre 2,18 % y 4,39 %). Tu empleador paga la mitad.
 - **Tu parte real:** alrededor de **280-320 € al mes** si ganas un salario medio.
 - Incluye cobertura completa: médico general, especialistas, hospital, medicamentos (con copago mínimo), maternidad y más.
@@ -230,7 +230,7 @@ Alemania tiene libertad de mercado en electricidad y gas, lo que significa que p
 | Lavandería (si no tienes lavadora) | 20–40 € |
 | Peluquería (corte básico) | 15–30 € |
 
-El **GEZ (Rundfunkbeitrag)** es un impuesto por hogar que todos deben pagar, veas o no la televisión. Son exactamente 18,36 € al mes y **no hay forma legal de evitarlo** si tienes un domicilio registrado.
+El **GEZ (Rundfunkbeitrag)** es un impuesto por hogar que todos deben pagar, veas o no la televisión. Son exactamente **18,36 € al mes en 2026** —importe fijado por ley, por vivienda: en un piso compartido se paga una sola vez— y **no hay forma legal de evitarlo** si tienes un domicilio registrado. La comisión que revisa el importe ha propuesto subirlo a 18,64 € a partir de 2027, con un procedimiento aún abierto: si vas a hacer cuentas para el año que viene, cuenta con unos céntimos más.
 
 > **Ojo al sumar:** todos los gastos de esta tabla —el canon incluido— ya están dentro de los **652 € de «todo lo demás»** del resumen. Los detallamos aquí para que sepas en qué se va ese dinero, no para que los sumes otra vez.
 
@@ -304,7 +304,7 @@ Para poner las cosas en perspectiva, comparemos el **poder adquisitivo real**. U
 - En Alemania **no pagas universidad** (casi gratuita incluso para extranjeros en la mayoría de estados federales).
 - El **seguro médico cubre prácticamente todo**, sin grandes facturas sorpresa.
 - Las **vacaciones pagadas** son mínimo 20 días laborales (muchas empresas dan 28-30).
-- El **subsidio de desempleo** (Arbeitslosengeld) te cubre al 60-67% de tu último neto si pierdes el trabajo.
+- El **subsidio de desempleo** (Arbeitslosengeld I) te cubre al **60 %** de tu sueldo neto —**67 %** si tienes al menos un hijo— si pierdes el trabajo (§149 SGB III). Se calcula sobre un neto a tanto alzado, no sobre el de tu nómina, y la base se topa en 8.450 € al mes.
 
 > **Buena noticia:** Lo que en tu país puede parecer un salario alto, en Alemania debe contextualizarse con los costos locales. Sin embargo, la calidad de vida, la seguridad social y la capacidad de ahorro a largo plazo suelen ser superiores.
 
@@ -319,12 +319,14 @@ Esta es la pregunta del millón. Aquí va una estimación realista de lo que nec
 | Concepto | Coste estimado |
 |---|---|
 | [Sperrkonto](/blog/sperrkonto-como-abrir/) (cuenta bloqueada, si necesitas visa) | 13.092 € — Chancenkarte / 11.904 € — estudios (2026) |
-| Vuelo (ida) | 300–800 € |
-| Alojamiento temporal (1-2 meses) | 800–2.000 € |
+| Vuelo (ida) | 300–800 € *(orientativo)* |
+| Alojamiento temporal (1-2 meses) | 400–1.400 € *(orientativo)* |
 | Fianza del piso (Kaution) | 2-3 meses de alquiler **frío**: de ~950 € en Dresde a ~3.500 € en Múnich |
 | Primer mes de alquiler | de ~610 € en Dresde a ~1.295 € en Múnich |
 | Seguro médico (primer mes) | 100–300 € |
-| Gastos varios (SIM, transporte, comida inicial) | 300–500 € |
+| Gastos varios (SIM, transporte, comida inicial) | 300–500 € *(orientativo)* |
+
+> **Las tres partidas marcadas como orientativas no tienen fuente, y no la van a tener.** El vuelo depende de tu país, la época del año y con cuánta antelación compres; el alojamiento temporal, de la ciudad y del tipo de sitio — la horquilla sale de uno o dos meses de habitación en piso compartido (400-700 € al mes, el mismo precio que citamos más arriba); un apartamento turístico o un Airbnb cuestan bastante más; los gastos varios, de cómo llegues. Son órdenes de magnitud para que no te falte nada en la lista, no cifras que puedas presupuestar al euro. **El resto de la tabla sí sale de fuentes verificadas** — y es la mayor parte con diferencia: de los 15.000-18.500 € del escenario con Chancenkarte, unos 14.700-17.900 € son cuenta bloqueada, fianza y primer mes de alquiler.
 
 > **La fianza es la partida que más varía, y la que más se subestima.** No es una cifra fija: son **2-3 meses de Kaltmiete**, el alquiler *frío*. Ojo con esto, porque es donde más gente se equivoca: las cifras de alquiler de este artículo son **Warmmiete** (con gastos incluidos), y la fianza se calcula sobre el alquiler **sin** esos gastos — resta unos 134 € a la cifra de tu ciudad antes de multiplicar. En Leipzig son unos 1.000-1.500 €; en Múnich, entre 2.300 y 3.500 €. Es dinero que recuperas al irte, pero tienes que tenerlo el día que firmas.
 
