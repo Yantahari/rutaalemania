@@ -55,8 +55,13 @@ function tarifa(x: number): number {
 
 /**
  * IRPF anual según la tarifa CONTINUA del §32a EStG. La ley no define
- * tramos con tipo fijo: define fórmulas sin saltos. Base y resultado se
- * truncan a euro entero (abrunden, práctica del §32a).
+ * tramos con tipo fijo: define fórmulas sin saltos.
+ *
+ * TRUNCADO (Math.floor), no redondeo comercial: el §32a manda redondear
+ * A LA BAJA tanto la base como la cuota (abrunden). Confirmado por el
+ * chat estratégico contra el texto legal verificado el 2026-07-31 —
+ * no lo «arregles» a Math.round dentro de un año.
+ *
  * Conjunta = splitting (§32a(5)): dos veces la tarifa sobre media base.
  */
 export function calcularIRPF(

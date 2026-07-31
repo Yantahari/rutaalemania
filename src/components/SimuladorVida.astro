@@ -299,9 +299,8 @@
     const salary = prof.salaries[state.city];
 
     const calc = calculateNet(salary.median, state.family, city);
-    // FRASE PROVISIONAL (recomendación de CCode, día 143) — el texto visible
-    // es criterio del Director; la alternativa viaja en el informe. Cambiarla
-    // es una línea (abajo, junto al «Salario neto estimado»).
+    // Nota del supuesto de un solo sueldo (abajo, junto al «Salario neto
+    // estimado»): texto APROBADO por el Director el 2026-07-31 (día 143).
     const esConjunta = state.family === 'married' || state.family === 'married_kids';
     const totalExpenses = city.rent_1bed + city.groceries + city.transport + city.utilities + city.misc;
     const freeMonthly = calc.netMonthly - totalExpenses;
@@ -431,7 +430,7 @@
       </div>
 
       <p class="text-xs text-text-muted text-center mt-6 pt-4 border-t border-border">
-        Datos orientativos basados en fuentes públicas (Entgeltatlas, Numbeo, Immobilienscout24). Los salarios y gastos reales pueden variar.
+        Impuestos y cotizaciones: normativa alemana 2026, verificada en julio de 2026. Salarios y coste de vida: estimaciones de fuentes públicas (Entgeltatlas, Numbeo, Immobilienscout24) &mdash; pueden variar.
       </p>
     `;
 
