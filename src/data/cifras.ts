@@ -14,9 +14,13 @@
 // factores declarados). Unidades de coste de vida añadidas el día 143:
 // '€/m²/mes' (alquiler frío, Nebenkosten), 'm²' (tamaño), 'kWh/año'
 // (consumo eléctrico), '€/kWh' (precio eléctrico).
+// 'USD-PPA/mes': dólares internacionales a paridad de poder adquisitivo
+// (ILOSTAT). NO se convierten a euros: si los dos lados de una división
+// están en la misma unidad, el cociente es válido y no hay nada que
+// convertir (día 143).
 export type Unidad =
   | '€' | '€/mes' | '€/año' | '€/28días' | '%' | 'coef'
-  | '€/m²/mes' | 'm²' | 'kWh/año' | '€/kWh';
+  | '€/m²/mes' | 'm²' | 'kWh/año' | '€/kWh' | 'USD-PPA/mes';
 // 'estimacion': valor asumido y declarado como tal (sin fuente que lo fije);
 // existe para que las estimaciones no se disfracen de hechos.
 // 'solvente': fuente seria NO gubernamental (DMB, Stromspiegel, BDEW…) —
@@ -1418,6 +1422,165 @@ export const CIFRAS = {
     revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
     fuente: { nombre: 'Destatis — EVS 2023, información y comunicación, media de todos los hogares', tipo: 'oficial' },
     nota: 'La casilla «utilities» del JSON era en realidad internet y móvil: corresponde a ESTA categoría, no a los gastos de vivienda — escrito antes de la regeneración (día 143).',
+  },
+
+  // ─── Sueldos medios por país — ILOSTAT, en PPA (día 143, noche) ────────
+  // Decisión del Director: se compara IGUALES CON IGUALES (media de
+  // Alemania vs media del país, no la profesión elegida) y en la columna
+  // PPP: la métrica se llama «poder adquisitivo relativo» y el tipo de
+  // cambio de mercado es el instrumento equivocado — mezcla niveles de
+  // precios. Unidad: DÓLARES INTERNACIONALES PPA, no euros; NO se
+  // convierte (mismo numerador y denominador → cociente válido). La clave
+  // «avg_professional_salary_eur» del JSON dejará de ser cierta: renombrar
+  // en la regeneración.
+  // LO QUE MIDE, sin suavizar: media de ASALARIADOS, no de todos los
+  // trabajadores — en varios países cerca de la mitad de los ocupados son
+  // autónomos y quedan FUERA; el sesgo va al alza justo donde más
+  // informalidad hay, así que el multiplicador saldrá algo MENOR que la
+  // realidad del emigrante medio. Dirección prudente, declarada.
+  // La vigencia es POR PAÍS (2022-2026): no es una tabla de un año.
+  // HUECOS DECLARADOS (criterio del Director, no omisión): VENEZUELA
+  // (último dato 2020 en bolívares pre-redenominación, sin USD/PPP) y
+  // NICARAGUA (2014: no es un dato viejo, es otra época). Sin entrada;
+  // los 200/300 del JSON quedan como cifras SIN FUENTE pendientes de
+  // retirada en la regeneración, sustituidas por una frase honesta
+  // (texto visible: redacciones propuestas al Director el día 143).
+  'pais.alemania.ppp.mes': {
+    valor: 6134.91,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2022',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, ALEMANIA 2022', tipo: 'oficial' },
+    nota: 'El numerador de la comparación. Desfase declarado: dato de 2022 (EU-SILC), a 4 años — se acepta porque la COMPARABILIDAD era el motivo de todo el cambio; romperla por frescura sería deshacer la decisión (Director, día 143). MEJORA FUTURA: sustituir cuando ILOSTAT actualice Alemania.',
+  },
+  'pais.spain.ppp.mes': {
+    valor: 5165.65,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2024',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, España 2024', tipo: 'oficial' },
+  },
+  'pais.chile.ppp.mes': {
+    valor: 2078.79,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2024',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Chile 2024', tipo: 'oficial' },
+  },
+  'pais.costa_rica.ppp.mes': {
+    valor: 1928.25,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2025',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Costa Rica 2025', tipo: 'oficial' },
+  },
+  'pais.panama.ppp.mes': {
+    valor: 1869.46,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2025',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Panamá 2025', tipo: 'oficial' },
+  },
+  'pais.uruguay.ppp.mes': {
+    valor: 1636.24,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2024',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Uruguay 2024', tipo: 'oficial' },
+  },
+  'pais.argentina.ppp.mes': {
+    valor: 1522.6,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2025',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Argentina 2025', tipo: 'oficial' },
+  },
+  'pais.bolivia.ppp.mes': {
+    valor: 1392.27,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2024',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Bolivia 2024', tipo: 'oficial' },
+  },
+  'pais.dominican_republic.ppp.mes': {
+    valor: 1263.09,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2025',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, R. Dominicana 2025', tipo: 'oficial' },
+  },
+  'pais.ecuador.ppp.mes': {
+    valor: 1219.58,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2025',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Ecuador 2025', tipo: 'oficial' },
+  },
+  'pais.colombia.ppp.mes': {
+    valor: 1214.38,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2025',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Colombia 2025', tipo: 'oficial' },
+  },
+  'pais.paraguay.ppp.mes': {
+    valor: 1177.7,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2025',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Paraguay 2025', tipo: 'oficial' },
+  },
+  'pais.peru.ppp.mes': {
+    valor: 1042.03,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2025',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Perú 2025', tipo: 'oficial' },
+  },
+  'pais.guatemala.ppp.mes': {
+    valor: 1037.93,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2024',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Guatemala 2024', tipo: 'oficial' },
+  },
+  'pais.el_salvador.ppp.mes': {
+    valor: 1008.64,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2024',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, El Salvador 2024', tipo: 'oficial' },
+  },
+  'pais.mexico.ppp.mes': {
+    valor: 938.11,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2025',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, México 2025', tipo: 'oficial' },
+  },
+  'pais.honduras.ppp.mes': {
+    valor: 891.5,
+    unidad: 'USD-PPA/mes',
+    vigencia: '2025',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'ILOSTAT no publica en fecha fija: cada país gotea a su ritmo (medido el día 143: de 2014 a 2026 en la misma tabla) — mirar una vez al año (pauta propuesta por CCode)' },
+    fuente: { nombre: 'ILOSTAT (OIT) — DF_EAR_EMTA_SEX_CUR_NB: media mensual de asalariados, PPP, Honduras 2025', tipo: 'oficial' },
   },
 
   // Lingoda: deliberadamente FUERA. Su precio depende de plan, volumen y
