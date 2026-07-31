@@ -31,7 +31,9 @@ export type TipoFuente = 'oficial' | 'comercial' | 'derivada' | 'estimacion';
  * el vigía la lista, no la esconde. Instrumento: scripts/vigia.py (ops).
  */
 export interface Revision {
-  tipo: 'calendario' | 'deriva';
+  /** 'evento': sin reloj por decisión — se revisa cuando ocurra el evento
+   *  nombrado en `porque` (p. ej. la ronda C del gradiente), no por fecha. */
+  tipo: 'calendario' | 'deriva' | 'evento';
   /** calendario: cuándo toca mirar ('AAAA-MM'). */
   proxima?: string;
   /** deriva: meses desde `verificado` para re-mirar. Ausente = umbral pendiente del Director. */
@@ -64,6 +66,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-30',
+    revision: { tipo: 'calendario', proxima: '2026-09', porque: 'Ligado al baremo de ayudas al estudio: cambia con el curso académico (septiembre). Último cambio: septiembre de 2024; desde entonces NO se ha movido — encontrar el mismo importe al revisar es lo normal, no un fallo. Grado: un solo precedente, no una regla (declarado, Director día 143)' },
     aplica_a: 'chancenkarte',
     fuente: {
       nombre:
@@ -87,6 +90,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-30',
+    revision: { tipo: 'calendario', proxima: '2026-09', porque: 'Ligado al baremo de ayudas al estudio: cambia con el curso académico (septiembre). Último cambio: septiembre de 2024; desde entonces NO se ha movido — encontrar el mismo importe al revisar es lo normal, no un fallo. Grado: un solo precedente, no una regla (declarado, Director día 143)' },
     aplica_a: 'estudios',
     fuente: {
       nombre: 'Normativa alemana (importe ligado a BAföG), confirmado en múltiples fuentes 2026',
@@ -189,7 +193,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026-07',
     verificado: '2026-07-30',
-    revision: { tipo: 'deriva', porque: 'Precio comercial (afiliado/proveedor): cambia sin calendario; umbral pendiente del Director (día 143)' },
+    revision: { tipo: 'deriva', umbral_meses: 6, porque: 'Precio comercial (afiliado/proveedor): umbral 6 meses, o antes si un saneo lo toca (Director, día 143)' },
     fuente: { nombre: 'expatrio.com — página comercial (EN y ES coinciden)', tipo: 'comercial' },
     nota:
       'Subida de precios del 2026-07-07 (aviso Awin). Su propio Help Center aún publicaba 89 €/5 € en un artículo «actualizado» el 2026-05-28: manda la página comercial, que es la que cobra (D-1).',
@@ -199,7 +203,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026-07',
     verificado: '2026-07-30',
-    revision: { tipo: 'deriva', porque: 'Precio comercial (afiliado/proveedor): cambia sin calendario; umbral pendiente del Director (día 143)' },
+    revision: { tipo: 'deriva', umbral_meses: 6, porque: 'Precio comercial (afiliado/proveedor): umbral 6 meses, o antes si un saneo lo toca (Director, día 143)' },
     fuente: { nombre: 'expatrio.com — página comercial (EN y ES coinciden)', tipo: 'comercial' },
     nota: 'El sitio publicaba 0 € de alta / 5,90 €/mes.',
   },
@@ -218,7 +222,7 @@ export const CIFRAS = {
     unidad: '€',
     vigencia: '2026-07',
     verificado: '2026-07-30',
-    revision: { tipo: 'deriva', porque: 'Precio comercial (afiliado/proveedor): cambia sin calendario; umbral pendiente del Director (día 143)' },
+    revision: { tipo: 'deriva', umbral_meses: 6, porque: 'Precio comercial (afiliado/proveedor): umbral 6 meses, o antes si un saneo lo toca (Director, día 143)' },
     fuente: { nombre: 'fintiba.com — página comercial', tipo: 'comercial' },
     nota: 'El sitio publicaba 0 € de alta / 4,90 €/mes.',
   },
@@ -227,7 +231,7 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026-07',
     verificado: '2026-07-30',
-    revision: { tipo: 'deriva', porque: 'Precio comercial (afiliado/proveedor): cambia sin calendario; umbral pendiente del Director (día 143)' },
+    revision: { tipo: 'deriva', umbral_meses: 6, porque: 'Precio comercial (afiliado/proveedor): umbral 6 meses, o antes si un saneo lo toca (Director, día 143)' },
     fuente: { nombre: 'fintiba.com — página comercial', tipo: 'comercial' },
   },
   'fintiba.primer_anno': {
@@ -245,7 +249,7 @@ export const CIFRAS = {
     unidad: '€/28días',
     vigencia: '2026-07',
     verificado: '2026-07-30',
-    revision: { tipo: 'deriva', porque: 'Precio comercial (afiliado/proveedor): cambia sin calendario; umbral pendiente del Director (día 143)' },
+    revision: { tipo: 'deriva', umbral_meses: 6, porque: 'Precio comercial (afiliado/proveedor): umbral 6 meses, o antes si un saneo lo toca (Director, día 143)' },
     fuente: { nombre: 'lycamobile.de', tipo: 'comercial' },
     nota:
       'Paquetes por ciclos de 28 días — 13 ciclos/año, no 12: el equivalente mensual real es ≈ 5,41 €/mes. El sitio decía «€/mes». Lyca cambia tarifas con frecuencia: vigencia corta, re-verificar en cada saneo.',
@@ -789,22 +793,24 @@ export const CIFRAS = {
     fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
   },
   'salario.physician.mediana.mes': {
-    valor: 5700,
+    valor: 5722.05,
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El convenio TV-Ärzte/VKA vigente expira el 31.12.2026 — fecha exacta, no estimada; después, nueva ronda o prórroga' },
     aplica_a: 'empleados',
-    fuente: { nombre: 'TV-Ärzte/VKA 2026 — Assistenzarzt/ärztin Stufe 1 (residente al inicio); convenio público, no estadística', tipo: 'oficial' },
-    nota: 'Decisión (i) del Director 2026-07-31: la referencia es el recién llegado. Sin guardias (suman aparte). Sin q25: ausencia honesta.',
+    fuente: { nombre: 'TV-Ärzte/VKA, tabla vigente 01.06.2026–31.12.2026 — Ä1 nivel 1 (residente al inicio); convenio público, no estadística', tipo: 'oficial' },
+    nota: 'Decisión (i) del Director 2026-07-31: la referencia es el recién llegado. Sin guardias (suman aparte). Sin q25: ausencia honesta. Corregido el mismo día contra la tabla en vigor (antes 5.700).',
   },
   'salario.physician.q75.mes': {
-    valor: 7680,
+    valor: 7355.29,
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El convenio TV-Ärzte/VKA vigente expira el 31.12.2026 — fecha exacta, no estimada; después, nueva ronda o prórroga' },
     aplica_a: 'empleados',
-    fuente: { nombre: 'TV-Ärzte/VKA 2026 — Assistenzarzt/ärztin Stufe 6 (residente 6.º año)', tipo: 'oficial' },
-    nota: 'Techo aproximado de carrera en residencia, NO cuartil estadístico. Cobra más que el especialista recién estrenado (7.481): mecánica de tablas por antigüedad, verificado — no es error.',
+    fuente: { nombre: 'TV-Ärzte/VKA, tabla vigente 01.06.2026–31.12.2026 — Ä1 nivel 6 (residente 6.º año)', tipo: 'oficial' },
+    nota: 'Techo aproximado de carrera en residencia, NO cuartil estadístico. Corrección 2026-07-31: el dato anterior (7.680) iba un 4,2 % alto; con la tabla en vigor NO existe la anomalía «residente 6.º > especialista inicio» (7.355,29 < 7.552, Ä2 nivel 1) — el orden es el natural y la explicación previa por antigüedad era falsa.',
   },
 
   // ─── Gradiente de ciudad del simulador — ESTIMACIÓN DECLARADA ───────────
@@ -820,6 +826,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Sin pauta temporal por decisión del Director (día 143): la estimación no envejece sola — se revisa cuando se haga la ronda por Bundesland (opción C del método)' },
     fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
   },
   'gradiente.munich': {
@@ -827,6 +834,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Sin pauta temporal por decisión del Director (día 143): la estimación no envejece sola — se revisa cuando se haga la ronda por Bundesland (opción C del método)' },
     fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
   },
   'gradiente.frankfurt': {
@@ -834,6 +842,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Sin pauta temporal por decisión del Director (día 143): la estimación no envejece sola — se revisa cuando se haga la ronda por Bundesland (opción C del método)' },
     fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
   },
   'gradiente.hamburg': {
@@ -841,6 +850,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Sin pauta temporal por decisión del Director (día 143): la estimación no envejece sola — se revisa cuando se haga la ronda por Bundesland (opción C del método)' },
     fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
   },
   'gradiente.cologne': {
@@ -848,6 +858,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Sin pauta temporal por decisión del Director (día 143): la estimación no envejece sola — se revisa cuando se haga la ronda por Bundesland (opción C del método)' },
     fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
   },
   'gradiente.stuttgart': {
@@ -855,6 +866,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Sin pauta temporal por decisión del Director (día 143): la estimación no envejece sola — se revisa cuando se haga la ronda por Bundesland (opción C del método)' },
     fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
   },
   'gradiente.dusseldorf': {
@@ -862,6 +874,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Sin pauta temporal por decisión del Director (día 143): la estimación no envejece sola — se revisa cuando se haga la ronda por Bundesland (opción C del método)' },
     fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
   },
   'gradiente.freiburg': {
@@ -869,6 +882,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Sin pauta temporal por decisión del Director (día 143): la estimación no envejece sola — se revisa cuando se haga la ronda por Bundesland (opción C del método)' },
     fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
   },
   'gradiente.leipzig': {
@@ -876,6 +890,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Sin pauta temporal por decisión del Director (día 143): la estimación no envejece sola — se revisa cuando se haga la ronda por Bundesland (opción C del método)' },
     fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
   },
   'gradiente.dresden': {
@@ -883,6 +898,7 @@ export const CIFRAS = {
     unidad: 'coef',
     vigencia: '2026',
     verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Sin pauta temporal por decisión del Director (día 143): la estimación no envejece sola — se revisa cuando se haga la ronda por Bundesland (opción C del método)' },
     fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
     nota: 'Clon DECLARADO de Leipzig (decisión del Director 2026-07-31): comparte coeficiente — consecuencia del método, no copia-pega accidental. Dato propio pendiente de la ronda por Bundesland.',
   },

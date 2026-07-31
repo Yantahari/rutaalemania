@@ -48,16 +48,16 @@
     "physician": {
       "name": "Médico/a",
       "salaries": {
-        "berlin": { "median": 68000, "q75": 91000 },
-        "munich": { "median": 76000, "q75": 102000 },
-        "frankfurt": { "median": 73000, "q75": 98000 },
-        "hamburg": { "median": 70000, "q75": 94000 },
-        "cologne": { "median": 68000, "q75": 91000 },
-        "stuttgart": { "median": 74000, "q75": 100000 },
-        "dusseldorf": { "median": 70000, "q75": 94000 },
-        "freiburg": { "median": 65000, "q75": 87000 },
-        "leipzig": { "median": 61000, "q75": 82000 },
-        "dresden": { "median": 61000, "q75": 82000 }
+        "berlin": { "median": 68000, "q75": 87000 },
+        "munich": { "median": 76000, "q75": 98000 },
+        "frankfurt": { "median": 73000, "q75": 94000 },
+        "hamburg": { "median": 70000, "q75": 90000 },
+        "cologne": { "median": 68000, "q75": 88000 },
+        "stuttgart": { "median": 75000, "q75": 96000 },
+        "dusseldorf": { "median": 70000, "q75": 90000 },
+        "freiburg": { "median": 65000, "q75": 84000 },
+        "leipzig": { "median": 61000, "q75": 78000 },
+        "dresden": { "median": 61000, "q75": 78000 }
       }
     },
     "teacher": {
