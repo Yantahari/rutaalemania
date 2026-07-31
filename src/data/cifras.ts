@@ -10,11 +10,19 @@
 //
 // Verificación exterior del paquete 2026-07-30: Director + Claude estratégico.
 
-// 'coef': coeficientes adimensionales de la fórmula del §32a EStG (IRPF).
-export type Unidad = '€' | '€/mes' | '€/año' | '€/28días' | '%' | 'coef';
+// 'coef': coeficientes adimensionales (fórmula del §32a, ratios de hogar,
+// factores declarados). Unidades de coste de vida añadidas el día 143:
+// '€/m²/mes' (alquiler frío, Nebenkosten), 'm²' (tamaño), 'kWh/año'
+// (consumo eléctrico), '€/kWh' (precio eléctrico).
+export type Unidad =
+  | '€' | '€/mes' | '€/año' | '€/28días' | '%' | 'coef'
+  | '€/m²/mes' | 'm²' | 'kWh/año' | '€/kWh';
 // 'estimacion': valor asumido y declarado como tal (sin fuente que lo fije);
 // existe para que las estimaciones no se disfracen de hechos.
-export type TipoFuente = 'oficial' | 'comercial' | 'derivada' | 'estimacion';
+// 'solvente': fuente seria NO gubernamental (DMB, Stromspiegel, BDEW…) —
+// la palabra del criterio del Director: oficial donde exista, solvente
+// donde no, y anotado siempre (2026-07-31).
+export type TipoFuente = 'oficial' | 'comercial' | 'derivada' | 'estimacion' | 'solvente';
 
 /**
  * Pauta de re-verificación — el campo del VIGÍA (día 143, 2026-07-31).
@@ -901,6 +909,358 @@ export const CIFRAS = {
     revision: { tipo: 'evento', porque: 'Sin pauta temporal por decisión del Director (día 143): la estimación no envejece sola — se revisa cuando se haga la ronda por Bundesland (opción C del método)' },
     fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
     nota: 'Clon DECLARADO de Leipzig (decisión del Director 2026-07-31): comparte coeficiente — consecuencia del método, no copia-pega accidental. Dato propio pendiente de la ronda por Bundesland.',
+  },
+
+  // ─── Coste de vida — consolidación parcial (día 143, 2026-07-31) ───────
+  // ALCANCE del encargo: solo cifras.ts — el simulator-data.json NO se
+  // regenera hasta completar el paquete (medio-actualizar sería peor).
+  // HUECOS DECLARADOS, no escondidos: Internet, «varios», FRIBURGO (no
+  // existe en GREIX — pendiente de Mietspiegel municipal, chat
+  // estratégico), los 18 países del poder adquisitivo y el desglose
+  // regional de Betriebskosten. El Deutschlandticket (63 €) sigue en
+  // simulator-data.json sin cambios; para dos personas son DOS abonos:
+  // ×2 exacto, NO el ratio observado 2,08 (decisión del Director).
+  //
+  // Alquileres — columna MEDIANA (decisión del Director): en alquiler el
+  // recién llegado paga POR ENCIMA del cuartil inferior — los pisos
+  // baratos son los difíciles de conseguir; el reverso de salarios.
+  // q25/q75 se guardan como en salarios: son dato de la fuente, no
+  // decoración, y este mismo día sirvieron para razonar el criterio.
+  'alquiler.berlin.mediana.m2': {
+    valor: 15.18,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), mediana de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.berlin.q25.m2': {
+    valor: 10.38,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil inferior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.berlin.q75.m2': {
+    valor: 19.98,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil superior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.munich.mediana.m2': {
+    valor: 23.23,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), mediana de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.munich.q25.m2': {
+    valor: 20.0,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil inferior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.munich.q75.m2': {
+    valor: 26.94,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil superior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.frankfurt.mediana.m2': {
+    valor: 17.5,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), mediana de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.frankfurt.q25.m2': {
+    valor: 14.81,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil inferior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.frankfurt.q75.m2': {
+    valor: 20.83,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil superior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.hamburg.mediana.m2': {
+    valor: 15.47,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), mediana de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.hamburg.q25.m2': {
+    valor: 12.68,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil inferior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.hamburg.q75.m2': {
+    valor: 19.38,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil superior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.cologne.mediana.m2': {
+    valor: 15.55,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), mediana de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.cologne.q25.m2': {
+    valor: 13.16,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil inferior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.cologne.q75.m2': {
+    valor: 18.5,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil superior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.stuttgart.mediana.m2': {
+    valor: 15.98,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), mediana de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.stuttgart.q25.m2': {
+    valor: 13.64,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil inferior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.stuttgart.q75.m2': {
+    valor: 18.29,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil superior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.dusseldorf.mediana.m2': {
+    valor: 14.45,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), mediana de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.dusseldorf.q25.m2': {
+    valor: 12.5,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil inferior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.dusseldorf.q75.m2': {
+    valor: 16.96,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil superior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.leipzig.mediana.m2': {
+    valor: 10.0,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), mediana de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.leipzig.q25.m2': {
+    valor: 8.49,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil inferior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.leipzig.q75.m2': {
+    valor: 12.0,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil superior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.dresden.mediana.m2': {
+    valor: 9.53,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), mediana de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.dresden.q25.m2': {
+    valor: 8.5,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil inferior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.dresden.q75.m2': {
+    valor: 11.49,
+    unidad: '€/m²/mes',
+    vigencia: '2026-06',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'GREIX publica trimestralmente, ~3-4 semanas tras cerrar el trimestre (Q2-2026 llegó el 22-07-2026); cada actualización fija el siguiente' },
+    fuente: { nombre: 'GREIX (IfW Kiel) — Mietpreisindex, alquiler FRÍO de oferta corregido por calidad (hedónico), cuartil superior de junio 2026', tipo: 'oficial' },
+  },
+  'alquiler.factor_oferta': {
+    valor: 1,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Supuesto declarado: se revisa solo si aparece un dato que permita corregirlo' },
+    fuente: { nombre: 'Supuesto (b) del Director, día 143', tipo: 'estimacion' },
+    nota: 'Se asume que el precio de OFERTA es lo que acaba firmando quien llega (factor 1,00): no hay dato para hacerlo mejor — se declara y no se corrige.',
+  },
+  'vivienda.tamano.1p': {
+    valor: 50,
+    unidad: 'm²',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Supuesto de diseño (Director, día 143): no envejece solo — se revisa solo si cambia el criterio de producto' },
+    fuente: { nombre: 'Decisión del Director (día 143) — tamaño de vivienda para una persona; se deriva del paso de familia que ya existe', tipo: 'estimacion' },
+  },
+  'vivienda.tamano.2p': {
+    valor: 65,
+    unidad: 'm²',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Supuesto de diseño (Director, día 143): no envejece solo — se revisa solo si cambia el criterio de producto' },
+    fuente: { nombre: 'Decisión del Director (día 143) — tamaño de vivienda para dos personas; se deriva del paso de familia que ya existe', tipo: 'estimacion' },
+  },
+  'vivienda.nebenkosten.m2': {
+    valor: 2.67,
+    unidad: '€/m²/mes',
+    vigencia: 'ejercicio 2024',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-12', porque: 'El Betriebskostenspiegel del DMB se publica cada diciembre' },
+    fuente: { nombre: 'Deutscher Mieterbund — Betriebskostenspiegel del ejercicio 2024 (publicado 2025-12-18; ~2 millones de liquidaciones reales)', tipo: 'solvente' },
+    nota: 'NACIONAL PLANO por decisión del Director: el desglose regional existe pero las fuentes secundarias se contradicen hasta un 20 % y no se alcanzó la primaria — MEJORA FUTURA en el método.',
+  },
+  'vivienda.nebenkosten.calefaccion_acs.m2': {
+    valor: 1.32,
+    unidad: '€/m²/mes',
+    vigencia: 'ejercicio 2024',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2026-12', porque: 'El Betriebskostenspiegel del DMB se publica cada diciembre' },
+    fuente: { nombre: 'Deutscher Mieterbund — Betriebskostenspiegel ejercicio 2024, componente calefacción + agua caliente', tipo: 'solvente' },
+    nota: 'Parte DE los 2,67 — no se suma aparte. Calefacción y agua caliente viven AQUÍ: la luz (abajo) no las incluye. Sin doble contabilidad.',
+  },
+  'luz.consumo_1p.kwh_anno': {
+    valor: 1200,
+    unidad: 'kWh/año',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'El Stromspiegel se actualiza aprox. cada 1-2 años (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Stromspiegel (co2online) — consumos reales, hogar de 1 persona en piso', tipo: 'solvente' },
+  },
+  'luz.precio.kwh': {
+    valor: 0.37,
+    unidad: '€/kWh',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 6, porque: 'El precio eléctrico se mueve con el mercado; BDEW lo analiza ~semestralmente (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'BDEW — precio medio hogares 2026', tipo: 'solvente' },
+  },
+  'luz.cuota_fija.mes': {
+    valor: 12,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'evento', porque: 'Estimación pendiente de verificación exterior — se revisa cuando llegue el dato' },
+    fuente: { nombre: 'Supuesto (c): estimación del chat estratégico, NO verificada — declarada (día 143)', tipo: 'estimacion' },
+    nota: 'El importe mensual de la luz (~50 €) es DERIVADO, no cifra propia: consumo/12 × precio + cuota fija.',
+  },
+  'comida.1p.mes': {
+    valor: 254,
+    unidad: '€/mes',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis — Encuesta de Ingresos y Consumo (EVS) 2023, publicada 2025-12-09; hogar de 1 persona', tipo: 'oficial' },
+  },
+  'comida.2p.mes': {
+    valor: 480,
+    unidad: '€/mes',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis — Encuesta de Ingresos y Consumo (EVS) 2023, publicada 2025-12-09; hogar de 2 personas', tipo: 'oficial' },
+  },
+  'ratio.hogar2.vivienda': {
+    valor: 1.52,
+    unidad: 'coef',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis EVS 2023 — gasto real por tamaño de hogar (2p respecto a 1p)', tipo: 'oficial' },
+    nota: 'Dato OBSERVADO, no escala de equivalencia teórica (decisión del Director, día 143): gasto real medido por tamaño de hogar.',
+  },
+  'ratio.hogar2.comida': {
+    valor: 1.89,
+    unidad: 'coef',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis EVS 2023 — gasto real por tamaño de hogar (2p respecto a 1p)', tipo: 'oficial' },
+    nota: 'Observado. Coherencia interna: 480/254 = 1,8898 ≈ 1,89.',
+  },
+  'ratio.hogar2.transporte': {
+    valor: 2.08,
+    unidad: 'coef',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis EVS 2023 — gasto real por tamaño de hogar (2p respecto a 1p)', tipo: 'oficial' },
+    nota: 'Observado — pero NO se usa para el Deutschlandticket del simulador: dos abonos son ×2 exacto (decisión del día 143). Se guarda como dato.',
+  },
+  'ratio.hogar2.total': {
+    valor: 1.76,
+    unidad: 'coef',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis EVS 2023 — gasto real por tamaño de hogar (2p respecto a 1p)', tipo: 'oficial' },
+    nota: 'Observado, informativo (2 personas vs 1 sobre el gasto total).',
   },
 
   // Lingoda: deliberadamente FUERA. Su precio depende de plan, volumen y
