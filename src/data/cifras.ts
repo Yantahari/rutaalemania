@@ -12,7 +12,9 @@
 
 // 'coef': coeficientes adimensionales de la fórmula del §32a EStG (IRPF).
 export type Unidad = '€' | '€/mes' | '€/año' | '€/28días' | '%' | 'coef';
-export type TipoFuente = 'oficial' | 'comercial' | 'derivada';
+// 'estimacion': valor asumido y declarado como tal (sin fuente que lo fije);
+// existe para que las estimaciones no se disfracen de hechos.
+export type TipoFuente = 'oficial' | 'comercial' | 'derivada' | 'estimacion';
 
 export interface Cifra {
   valor: number;
@@ -447,6 +449,351 @@ export const CIFRAS = {
     verificado: '2026-07-31',
     fuente: { nombre: 'individual × 2 (§10c EStG)', tipo: 'derivada' },
     deriva_de: ['pauschale.sonderausgaben'],
+  },
+
+  // ─── Salarios del simulador — medianas nacionales 2026 ─────────────────
+  // Fuente: Entgeltatlas de la Bundesagentur für Arbeit (mediana mensual
+  // bruta, jornada completa, Alemania), verificado 2026-07-31 por el chat
+  // estratégico. Medicina: convenio TV-Ärzte/VKA 2026 (no estadística).
+  // Categorías exactas en alemán, criterio de elección, cuartil inferior
+  // como referencia «al llegar» y ausencias honestas (censura del tope de
+  // cotización): repo ops, docs/metodo-datos-simulador.md.
+  // El simulator-data.json DERIVA de estas cifras × gradiente.* (el gate de
+  // ops vigila la derivación). Claves = ids de profesión del JSON.
+  'salario.software_engineer.mediana.mes': {
+    valor: 6478,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas (BA): Berufe in der Informatik (ohne Spezialisierung) – hoch komplexe Tätigkeiten', tipo: 'oficial' },
+  },
+  'salario.software_engineer.q25.mes': {
+    valor: 5180,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
+    nota: 'q75 CENSURADO por el tope de cotización: ausencia honesta, no hay entrada.',
+  },
+  'salario.mechanical_engineer.mediana.mes': {
+    valor: 6846,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas (BA): Berufe in der Maschinenbau- & Betriebstechnik (ohne Spezialisierung) – hoch komplexe Tätigkeiten', tipo: 'oficial' },
+  },
+  'salario.mechanical_engineer.q25.mes': {
+    valor: 5502,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
+    nota: 'q75 CENSURADO por el tope de cotización: ausencia honesta, no hay entrada.',
+  },
+  'salario.teacher.mediana.mes': {
+    valor: 5734,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas (BA): Lehrkräfte für berufsbildende Fächer – hoch komplexe Tätigkeiten', tipo: 'oficial' },
+  },
+  'salario.teacher.q25.mes': {
+    valor: 4796,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.teacher.q75.mes': {
+    valor: 6883,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.business_admin.mediana.mes': {
+    valor: 5687,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas (BA): Betriebswirt/in – allgemeine Betriebswirtschaft', tipo: 'oficial' },
+    nota: 'Cuartiles no disponibles en la fuente: ausencia honesta, sin entradas.',
+  },
+  'salario.researcher.mediana.mes': {
+    valor: 5289,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas (BA): Berufe in der Hochschullehre & -forschung – hoch komplexe Tätigkeiten', tipo: 'oficial' },
+  },
+  'salario.researcher.q25.mes': {
+    valor: 4730,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.researcher.q75.mes': {
+    valor: 6384,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.architect.mediana.mes': {
+    valor: 4745,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas (BA): Architekt/in', tipo: 'oficial' },
+  },
+  'salario.architect.q25.mes': {
+    valor: 3739,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.architect.q75.mes': {
+    valor: 6231,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.nurse.mediana.mes': {
+    valor: 4329,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas (BA): Berufe in der Gesundheits- & Krankenpflege (ohne Spezialisierung) – fachlich ausgerichtete Tätigkeiten', tipo: 'oficial' },
+  },
+  'salario.nurse.q25.mes': {
+    valor: 3870,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.nurse.q75.mes': {
+    valor: 4849,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.electrician.mediana.mes': {
+    valor: 4057,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas (BA): Berufe in der Elektrotechnik (ohne Spezialisierung) – fachlich ausgerichtete Tätigkeiten', tipo: 'oficial' },
+  },
+  'salario.electrician.q25.mes': {
+    valor: 3344,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.electrician.q75.mes': {
+    valor: 4981,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.graphic_designer.mediana.mes': {
+    valor: 3993,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas (BA): Berufe im Grafik-, Kommunikations- & Fotodesign – komplexe Spezialistentätigkeiten', tipo: 'oficial' },
+    nota: '⚠ familia correcta, nivel exacto por precisar (cabo abierto, ver método).',
+  },
+  'salario.graphic_designer.q25.mes': {
+    valor: 3178,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.graphic_designer.q75.mes': {
+    valor: 5139,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.logistician.mediana.mes': {
+    valor: 3820,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas (BA): Speditions- & Logistikkaufleute – hoch komplexe Tätigkeiten', tipo: 'oficial' },
+    nota: '⚠ familia correcta, nivel exacto por precisar (cabo abierto, ver método).',
+  },
+  'salario.logistician.q25.mes': {
+    valor: 2906,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.logistician.q75.mes': {
+    valor: 5683,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.chef.mediana.mes': {
+    valor: 3018,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas (BA): Köche/Köchinnen (ohne Spezialisierung) – fachlich ausgerichtete Tätigkeiten', tipo: 'oficial' },
+  },
+  'salario.chef.q25.mes': {
+    valor: 2563,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.chef.q75.mes': {
+    valor: 3581,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.physician.mediana.mes': {
+    valor: 5700,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'TV-Ärzte/VKA 2026 — Assistenzarzt/ärztin Stufe 1 (residente al inicio); convenio público, no estadística', tipo: 'oficial' },
+    nota: 'Decisión (i) del Director 2026-07-31: la referencia es el recién llegado. Sin guardias (suman aparte). Sin q25: ausencia honesta.',
+  },
+  'salario.physician.q75.mes': {
+    valor: 7680,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    aplica_a: 'empleados',
+    fuente: { nombre: 'TV-Ärzte/VKA 2026 — Assistenzarzt/ärztin Stufe 6 (residente 6.º año)', tipo: 'oficial' },
+    nota: 'Techo aproximado de carrera en residencia, NO cuartil estadístico. Cobra más que el especialista recién estrenado (7.481): mecánica de tablas por antigüedad, verificado — no es error.',
+  },
+
+  // ─── Gradiente de ciudad del simulador — ESTIMACIÓN DECLARADA ───────────
+  // Heredado de la tabla original (sin fuente conocida) y normalizado por la
+  // media de las 10 ciudades (÷1,0114) — opción A del Director, 2026-07-31.
+  // Sesgo declarado: conservador (asume que la media de 10 ciudades grandes
+  // es la mediana nacional; las grandes pagan por encima, así que esto tira
+  // los sueldos de ciudad LIGERAMENTE a la baja). Mejora futura registrada:
+  // gradiente oficial por Bundesland (opción C, pendiente de verificación
+  // exterior). mediana(prof, ciudad) = mediana.mes × 12 × coef, a miles.
+  'gradiente.berlin': {
+    valor: 0.9887,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
+  },
+  'gradiente.munich': {
+    valor: 1.1064,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
+  },
+  'gradiente.frankfurt': {
+    valor: 1.0629,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
+  },
+  'gradiente.hamburg': {
+    valor: 1.0223,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
+  },
+  'gradiente.cologne': {
+    valor: 0.9917,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
+  },
+  'gradiente.stuttgart': {
+    valor: 1.0856,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
+  },
+  'gradiente.dusseldorf': {
+    valor: 1.0164,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
+  },
+  'gradiente.freiburg': {
+    valor: 0.9482,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
+  },
+  'gradiente.leipzig': {
+    valor: 0.8889,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
+  },
+  'gradiente.dresden': {
+    valor: 0.8889,
+    unidad: 'coef',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'Gradiente heredado normalizado (opción A) — sin fuente exterior', tipo: 'estimacion' },
+    nota: 'Clon DECLARADO de Leipzig (decisión del Director 2026-07-31): comparte coeficiente — consecuencia del método, no copia-pega accidental. Dato propio pendiente de la ronda por Bundesland.',
   },
 
   // Lingoda: deliberadamente FUERA. Su precio depende de plan, volumen y

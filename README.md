@@ -98,14 +98,14 @@ Los datos del simulador están en `src/data/simulator-data.json`. El archivo tie
   "software_engineer": {
     "name": "Ingeniero/a de Software",
     "salaries": {
-      "berlin": { "min": 48000, "median": 58000, "max": 75000 }
+      "berlin": { "q25": 61000, "median": 77000 }
     }
   }
 }
 ```
 
-- Fuentes recomendadas: [Entgeltatlas](https://entgeltatlas.arbeitsagentur.de), [StepStone Gehaltsreport](https://www.stepstone.de/gehaltsreport/), [Glassdoor](https://www.glassdoor.de)
-- Los valores son salarios **brutos anuales** en euros
+- Los valores son salarios **brutos anuales** en euros: mediana y cuartiles oficiales (Entgeltatlas / TV-Ärzte 2026). `q25`/`q75` se omiten donde la fuente no los publica — no se inventan.
+- **No editar a mano**: los salarios se DERIVAN de `src/data/cifras.ts` (`salario.*` × `gradiente.*`, redondeo a miles) y un test lo verifica. Fuente, método y criterio de cada cifra: documento del método en el repo ops (`docs/metodo-datos-simulador.md`).
 
 ### Costes de vida por ciudad
 
