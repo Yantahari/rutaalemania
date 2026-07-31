@@ -237,10 +237,10 @@ Veamos qué te descuentan del salario bruto:
 | Concepto | Porcentaje aproximado (tu parte) |
 |---|---|
 | Impuesto sobre la renta (Lohnsteuer) | 14–42% (progresivo) |
-| Seguro médico (Krankenversicherung) | ~8,3% |
+| Seguro médico (Krankenversicherung) | 8,75% |
 | Seguro de pensiones (Rentenversicherung) | 9,3% |
 | Seguro de desempleo (Arbeitslosenversicherung) | 1,3% |
-| Seguro de dependencia (Pflegeversicherung) | 1,7–2,3% |
+| Seguro de dependencia (Pflegeversicherung) | 1,8% con hijos · 2,4% sin hijos (en Sajonia, 2,3% y 2,9%) |
 | Impuesto de solidaridad (Solidaritätszuschlag) | 0–5,5% del IRPF |
 | Impuesto eclesiástico (Kirchensteuer) | 8–9% del IRPF (solo si perteneces a una iglesia) |
 
@@ -256,13 +256,15 @@ Este es el momento de la verdad. Veamos ejemplos concretos de salarios brutos y 
 
 | Salario bruto anual | Bruto mensual | Neto mensual aprox. |
 |---|---|---|
-| 30.000 € | 2.500 € | ~1.720 € |
-| 40.000 € | 3.333 € | ~2.200 € |
-| 50.000 € | 4.167 € | ~2.680 € |
-| 60.000 € | 5.000 € | ~3.100 € |
-| 75.000 € | 6.250 € | ~3.700 € |
+| 30.000 € | 2.500 € | ~1.779 € |
+| 40.000 € | 3.333 € | ~2.256 € |
+| 50.000 € | 4.167 € | ~2.716 € |
+| 60.000 € | 5.000 € | ~3.157 € |
+| 75.000 € | 6.250 € | ~3.817 € |
 
-**La regla general:** con un salario medio, espera quedarte con aproximadamente el **60-65% de tu salario bruto**. En salarios altos, puede bajar al 55-58%.
+> **Cómo están calculados:** con la normativa alemana de 2026 (IRPF según la fórmula del §32a, recargo de solidaridad, y las cotizaciones de sanidad, pensiones, desempleo y dependencia con sus topes), suponiendo una persona **soltera, sin hijos, sin impuesto eclesiástico, clase fiscal I y fuera de Sajonia**. Es el mismo cálculo que usa nuestro [simulador de vida](/#simulador), donde puedes probar tu caso.
+
+**La regla general:** te quedas con **entre el 61 % y el 71 %** del bruto. Cuanto más ganas, menor es el porcentaje: cerca del 71 % con 30.000 € y del 61 % con 75.000 €.
 
 Puedes calcular tu neto exacto con herramientas online como **brutto-netto-rechner.info** o **nettolohn.de**.
 
@@ -276,10 +278,12 @@ Para poner las cosas en perspectiva, comparemos el **poder adquisitivo real**. U
 
 | Situación | Salario neto | Alquiler | Queda para vivir |
 |---|---|---|---|
-| Junior en Berlín (40k bruto) | ~2.200 € | ~950 € | ~1.250 € |
-| Programador en Múnich (55k bruto) | ~2.850 € | ~1.450 € | ~1.400 € |
-| Enfermera en Leipzig (35k bruto) | ~1.950 € | ~650 € | ~1.300 € |
-| Ingeniero en Stuttgart (65k bruto) | ~3.300 € | ~1.000 € | ~2.300 € |
+| Junior en Berlín (40k bruto) | ~2.256 € | ~890 € | ~1.366 € |
+| Programador en Múnich (55k bruto) | ~2.939 € | ~1.300 € | ~1.639 € |
+| Enfermera en Leipzig (35k bruto) | ~2.009 € | ~630 € | ~1.379 € |
+| Ingeniero en Stuttgart (65k bruto) | ~3.371 € | ~930 € | ~2.441 € |
+
+> **Nota:** los netos salen del mismo cálculo que la tabla anterior; el alquiler es la Warmmiete mediana de 50 m² de cada ciudad, la del apartado de alquiler de este artículo. «Queda para vivir» es lo que sobra después del alquiler, antes del resto de gastos.
 
 ---
 
