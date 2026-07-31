@@ -337,8 +337,24 @@
       ? (alemaniaPPA / country.sueldo_medio_ppa).toFixed(1)
       : null;
 
+    // Resultado negativo: se PUBLICA (decisión del Director, día 143) — si
+    // las cuentas no salen, decirlo es el mayor servicio que puede prestar
+    // un simulador de emigración. Lo que acompaña al número son los
+    // supuestos que lo producen, para que nadie descarte Alemania por un
+    // escenario que no es el suyo.
+    const enNumeros = (n) => Math.abs(Math.round(n)).toLocaleString('es-ES');
+    const avisoNegativo = freeMonthly >= 0 ? '' : (acompanado
+      // Variante para hogar acompañado — PROVISIONAL: redactada por CCode
+      // el día 143 por encargo, pendiente del visto bueno del Director.
+      ? 'Con estos supuestos —un solo sueldo de entrada y un piso de 65 m² a precio de oferta— las cuentas no salen. Con una segunda persona trabajando, o en un piso más pequeño, el resultado cambia mucho.'
+      // Variante para hogar de una persona — APROBADA por el Director el
+      // 2026-07-31 (día 143), verbatim.
+      : 'Con estos supuestos —vivir solo/a en un piso entero de 50 m² a precio de oferta y un sueldo de entrada— las cuentas no salen. Compartiendo piso, o con una segunda persona trabajando, el resultado cambia mucho.');
+
     const shareText = encodeURIComponent(
-      `Según el simulador de RutaAlemania, como ${prof.name} en ${city.name} tendría ~€${freeMonthly}/mes libres. ¿Quieres ver tu escenario?`
+      freeMonthly >= 0
+        ? `Según el simulador de RutaAlemania, como ${prof.name} en ${city.name} me quedarían ~${enNumeros(freeMonthly)} €/mes libres. ¿Quieres ver tu escenario?`
+        : `Según el simulador de RutaAlemania, como ${prof.name} en ${city.name} no me llegaría: me faltarían ~${enNumeros(freeMonthly)} €/mes. ¿Quieres ver tu escenario?`
     );
     const shareURL = encodeURIComponent('https://rutaalemania.com/#simulador');
 
@@ -353,7 +369,7 @@
       <div class="result-card">
         <h4 class="text-xs font-semibold uppercase tracking-wider text-amber mb-3">Ingresos estimados</h4>
         <div class="result-row">
-          <span class="text-text-secondary">Salario bruto estimado</span>
+          <span class="text-text-secondary">Salario bruto de entrada</span>
           <span class="result-val">${calc.grossMonthly.toLocaleString('es-ES')}&euro;/mes</span>
         </div>
         <div class="result-row">
@@ -412,9 +428,10 @@
 
       <div class="result-card" style="border-color:rgba(39,174,96,0.3);background:rgba(39,174,96,0.05)">
         <div class="result-row">
-          <span class="text-text-primary font-bold text-lg">Te quedarían libres</span>
-          <span class="result-val highlight" style="font-size:1.3rem">~${freeMonthly.toLocaleString('es-ES')}&euro;/mes</span>
+          <span class="text-text-primary font-bold text-lg">${freeMonthly >= 0 ? 'Te quedarían libres' : 'Te faltarían'}</span>
+          <span class="result-val highlight" style="font-size:1.3rem${freeMonthly < 0 ? ';color:#c0392b' : ''}">~${enNumeros(freeMonthly)}&nbsp;&euro;/mes</span>
         </div>
+        ${avisoNegativo ? `<p class="text-sm text-text-secondary mt-3">${avisoNegativo}</p>` : ''}
       </div>
 
       <div class="result-card">
