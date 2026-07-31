@@ -387,7 +387,7 @@ Cada situación es diferente. Tu presupuesto depende de la ciudad donde vivas, t
 
 Vivir en Alemania no es barato, pero **tampoco es tan caro como muchos creen**, especialmente si eliges bien tu ciudad y administras tus gastos con cabeza.
 
-Con un salario medio de 40.000-50.000 € brutos anuales, puedes vivir cómodamente, ahorrar algo cada mes y disfrutar de uno de los mejores sistemas de bienestar social del mundo.
+Con **50.000 € brutos anuales** vives con holgura en prácticamente cualquier ciudad alemana, Múnich incluida. Con **40.000 €**, la ciudad lo decide todo: en Berlín o Leipzig te sobran unos cientos de euros cada mes; en Múnich, viviendo solo en un piso entero, las cuentas no salen. Compartir piso cambia esa ecuación por completo. En cualquiera de los casos, detrás tienes uno de los mejores sistemas de bienestar social del mundo.
 
 La clave está en **planificar antes de llegar**: tener suficiente ahorro, entender el sistema de impuestos y alquiler, y elegir una ciudad que se adapte a tu presupuesto y estilo de vida. Una mala planificación financiera es uno de los [errores más comunes que cometen los hispanohablantes al emigrar](/blog/errores-emigrar-alemania/).
 
