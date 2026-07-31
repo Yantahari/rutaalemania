@@ -67,6 +67,21 @@ export interface Cifra {
   nota?: string;
 }
 
+/**
+ * LOS DOS ESTADOS del simulador (decisión del Director, día 143).
+ * «primer_anno» = lo que afronta quien acaba de llegar; «establecido» =
+ * lo que vive alguien ya asentado. Son dos MOMENTOS, no una progresión:
+ * no existe dato de cuánto tarda nadie en pasar de uno a otro, y
+ * fingirlo sería fabricar precisión.
+ * Correspondencia (verificada en ambos lados):
+ *   SALARIOS: primer_anno = q25 · establecido = mediana
+ *             (excepción Medicina: claves propias — ver sus notas)
+ *   GASTOS:   primer_anno = cesta corta (HUECO: pendiente del Director) ·
+ *             establecido = cesta completa EVS
+ * El JSON aún NO se regenera con esto — ver docs/metodo-datos-simulador.md.
+ */
+export type EstadoSimulador = 'primer_anno' | 'establecido';
+
 export const CIFRAS = {
   // ─── Sperrkonto ──────────────────────────────────────────────────────────
   'sperrkonto.chancenkarte.mes': {
@@ -606,8 +621,26 @@ export const CIFRAS = {
     verificado: '2026-07-31',
     revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
     aplica_a: 'empleados',
-    fuente: { nombre: 'Entgeltatlas (BA): Betriebswirt/in – allgemeine Betriebswirtschaft', tipo: 'oficial' },
-    nota: 'Cuartiles no disponibles en la fuente: ausencia honesta, sin entradas.',
+    fuente: { nombre: 'Entgeltatlas (BA): Berufe in der kaufmännischen & technischen Betriebswirtschaft (ohne Spezialisierung) – komplexe Spezialistentätigkeiten', tipo: 'oficial' },
+    nota: 'Categoría precisada el 2026-07-31 (antes «Betriebswirt/in – allgemeine Betriebswirtschaft», sin cuartiles): la nueva trae la misma mediana Y los cuartiles — hueco cerrado.',
+  },
+  'salario.business_admin.q25.mes': {
+    valor: 4394,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil inferior de la misma categoría', tipo: 'oficial' },
+  },
+  'salario.business_admin.q75.mes': {
+    valor: 7153,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-07', porque: 'Entgeltatlas de la BA: actualización anual (~julio)' },
+    aplica_a: 'empleados',
+    fuente: { nombre: 'Entgeltatlas — cuartil superior de la misma categoría', tipo: 'oficial' },
   },
   'salario.researcher.mediana.mes': {
     valor: 5289,
@@ -808,7 +841,17 @@ export const CIFRAS = {
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El convenio TV-Ärzte/VKA vigente expira el 31.12.2026 — fecha exacta, no estimada; después, nueva ronda o prórroga' },
     aplica_a: 'empleados',
     fuente: { nombre: 'TV-Ärzte/VKA, tabla vigente 01.06.2026–31.12.2026 — Ä1 nivel 1 (residente al inicio); convenio público, no estadística', tipo: 'oficial' },
-    nota: 'Decisión (i) del Director 2026-07-31: la referencia es el recién llegado. Sin guardias (suman aparte). Sin q25: ausencia honesta. Corregido el mismo día contra la tabla en vigor (antes 5.700).',
+    nota: 'Decisión (i) del Director 2026-07-31: la referencia es el recién llegado. Sin guardias (suman aparte). Sin q25: ausencia honesta. Corregido el mismo día contra la tabla en vigor (antes 5.700). MARCO DE DOS ESTADOS: este valor ES el estado «primer año» — OJO: vive bajo la clave mediana (el JSON actual deriva de aquí); re-clavear en la regeneración (asimetría documentada en el método).',
+  },
+  'salario.physician.establecido.mes': {
+    valor: 7552,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-07-31',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El convenio TV-Ärzte/VKA vigente expira el 31.12.2026 — fecha exacta, no estimada; después, nueva ronda o prórroga' },
+    aplica_a: 'empleados',
+    fuente: { nombre: 'TV-Ärzte/VKA, tabla vigente 01.06.2026–31.12.2026 — Ä2 nivel 1 (ESPECIALISTA al inicio)', tipo: 'oficial' },
+    nota: 'Estado «establecido» de Medicina — cambio de DEFINICIÓN del día 143, no corrección de error: hacerse especialista es el hito real de carrera; seis años de residente sin especializarse es la excepción. GRADO declarado: valor REDONDEADO, pendiente de precisar al céntimo (el 5.722,05 sí viene al céntimo de la tabla).',
   },
   'salario.physician.q75.mes': {
     valor: 7355.29,
@@ -818,7 +861,7 @@ export const CIFRAS = {
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El convenio TV-Ärzte/VKA vigente expira el 31.12.2026 — fecha exacta, no estimada; después, nueva ronda o prórroga' },
     aplica_a: 'empleados',
     fuente: { nombre: 'TV-Ärzte/VKA, tabla vigente 01.06.2026–31.12.2026 — Ä1 nivel 6 (residente 6.º año)', tipo: 'oficial' },
-    nota: 'Techo aproximado de carrera en residencia, NO cuartil estadístico. Corrección 2026-07-31: el dato anterior (7.680) iba un 4,2 % alto; con la tabla en vigor NO existe la anomalía «residente 6.º > especialista inicio» (7.355,29 < 7.552, Ä2 nivel 1) — el orden es el natural y la explicación previa por antigüedad era falsa.',
+    nota: 'Dato INFORMATIVO conservado con su etiqueta correcta (residente de 6.º año): es verdad y costó verificarlo, pero desde el día 143 ya NO representa el estado «establecido» — ese es salario.physician.establecido.mes (Ä2/1). Constancia de la corrección del mismo día: el dato anterior (7.680) iba un 4,2 % alto; con la tabla en vigor NO existe la anomalía «residente 6.º > especialista inicio» (7.355,29 < 7.552) — la explicación previa por antigüedad era falsa.',
   },
 
   // ─── Gradiente de ciudad del simulador — ESTIMACIÓN DECLARADA ───────────
@@ -1261,6 +1304,101 @@ export const CIFRAS = {
     revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
     fuente: { nombre: 'Destatis EVS 2023 — gasto real por tamaño de hogar (2p respecto a 1p)', tipo: 'oficial' },
     nota: 'Observado, informativo (2 personas vs 1 sobre el gasto total).',
+  },
+
+  // ─── Estructura de gasto — Destatis EVS 2023 (día 143, tarde) ──────────
+  // HECHOS del hogar de UNA persona (base del estado «establecido»); el
+  // «resto» es DERIVADA exacta (total − vivienda − alimentación −
+  // transporte), vigilada por el guardián. REGLA DE LA CASA aplicada: los
+  // importes mezclados (p. ej. ~96 €/mes de comunicaciones = 5 % de todos
+  // los hogares × total de uno) NO tienen entrada — se derivan si hacen
+  // falta, como la luz. La alimentación de 1p ya existe: comida.1p.mes.
+  'gasto.1p.total.mes': {
+    valor: 1918,
+    unidad: '€/mes',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis — EVS 2023 (publicada 2025-12-09), gasto de consumo total, hogar de 1 persona', tipo: 'oficial' },
+  },
+  'gasto.1p.vivienda.mes': {
+    valor: 817,
+    unidad: '€/mes',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis — EVS 2023, gasto en vivienda, hogar de 1 persona', tipo: 'oficial' },
+    nota: 'Control cruzado que valida la fuente: 817/1.918 = 42,6 %, exactamente la cuota de vivienda que Destatis publica para hogares de una persona — comprobado por instrumento, no de memoria (día 143).',
+  },
+  'gasto.1p.transporte.mes': {
+    valor: 195,
+    unidad: '€/mes',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis — EVS 2023, gasto en transporte, hogar de 1 persona', tipo: 'oficial' },
+    nota: 'Gasto OBSERVADO (incluye coche); el simulador modela transporte con el Deutschlandticket (63 €) — convivencia declarada, no contradicción.',
+  },
+  'gasto.1p.resto.mes': {
+    valor: 652,
+    unidad: '€/mes',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    fuente: { nombre: 'total − vivienda − alimentación − transporte (aritmética exacta)', tipo: 'derivada' },
+    deriva_de: ['gasto.1p.total.mes', 'gasto.1p.vivienda.mes', 'comida.1p.mes', 'gasto.1p.transporte.mes'],
+    nota: 'Todo lo demás del gasto de 1 persona. Verificada por instrumento el día 143; el guardián vigila la aritmética.',
+  },
+  // Reparto oficial por categorías — media de TODOS los hogares, NO de uno:
+  // no mezclar estos % con los totales de 1 persona sin declararlo (el
+  // ~96 € de comunicaciones nació justo de esa mezcla y no tiene entrada).
+  'gasto.reparto.vivienda': {
+    valor: 38,
+    unidad: '%',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis — EVS 2023, reparto del gasto, media de todos los hogares', tipo: 'oficial' },
+  },
+  'gasto.reparto.alimentacion': {
+    valor: 14,
+    unidad: '%',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis — EVS 2023, reparto del gasto, media de todos los hogares', tipo: 'oficial' },
+  },
+  'gasto.reparto.transporte': {
+    valor: 12,
+    unidad: '%',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis — EVS 2023, reparto del gasto, media de todos los hogares', tipo: 'oficial' },
+  },
+  'gasto.reparto.ocio': {
+    valor: 9,
+    unidad: '%',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis — EVS 2023, ocio/deporte/cultura, media de todos los hogares', tipo: 'oficial' },
+  },
+  'gasto.reparto.restaurantes_hoteles': {
+    valor: 7,
+    unidad: '%',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis — EVS 2023, restaurantes y hoteles, media de todos los hogares', tipo: 'oficial' },
+  },
+  'gasto.reparto.informacion_comunicacion': {
+    valor: 5,
+    unidad: '%',
+    vigencia: 'EVS 2023',
+    verificado: '2026-07-31',
+    revision: { tipo: 'deriva', umbral_meses: 12, porque: 'EVS quinquenal con LWR anuales intermedias — mirar una vez al año (pauta propuesta por CCode, día 143)' },
+    fuente: { nombre: 'Destatis — EVS 2023, información y comunicación, media de todos los hogares', tipo: 'oficial' },
+    nota: 'La casilla «utilities» del JSON era en realidad internet y móvil: corresponde a ESTA categoría, no a los gastos de vivienda — escrito antes de la regeneración (día 143).',
   },
 
   // Lingoda: deliberadamente FUERA. Su precio depende de plan, volumen y
