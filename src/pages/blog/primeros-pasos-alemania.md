@@ -254,7 +254,14 @@ Si entraste con una visa de tipo D (visa nacional), ahora debes solicitar tu **p
 
 Ya tienes los papeles fundamentales resueltos. Ahora toca **construir tu vida cotidiana**.
 
-### Buscar apartamento definitivo
+<!-- ID EXPLÍCITO A PROPÓSITO (2026-08-01, día 144): la descripción del vídeo
+     [10] del canal enlaza a #buscar-apartamento-definitivo. Con un encabezado
+     Markdown normal, ese ancla la genera Astro a partir del TEXTO del título:
+     si alguien lo reescribe por estilo, el enlace del vídeo cae al principio
+     del artículo y SIGUE devolviendo 200, así que ningún test lo caza.
+     Con el id escrito, el título se puede cambiar sin romper nada.
+     Mismo criterio que #calculadora y #simulador en index.astro. -->
+<h3 id="buscar-apartamento-definitivo">Buscar apartamento definitivo</h3>
 
 Si llegaste a un alojamiento temporal (Airbnb, hostel, WG temporal), es momento de buscar algo definitivo.
 
