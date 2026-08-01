@@ -13,7 +13,7 @@ faq:
   - q: "¿Puedo traer cualquier raza de perro a Alemania?"
     a: "Alemania tiene restricciones para razas consideradas peligrosas (Kampfhunde) que varian segun el estado federal. Las razas mas restringidas incluyen American Pit Bull Terrier, American Staffordshire Terrier, Bull Terrier y Staffordshire Bull Terrier. Consulte la normativa de su estado federal de destino antes de viajar."
   - q: "¿Es obligatorio el seguro para mascotas en Alemania?"
-    a: "El seguro de responsabilidad civil (Haftpflichtversicherung) es obligatorio para perros en la mayoria de estados federales alemanes. Cubre danos que su perro pueda causar a terceros. Cuesta entre 50 y 80 euros al ano. Para gatos no es obligatorio pero si recomendable."
+    a: "El seguro de responsabilidad civil (Haftpflichtversicherung) es obligatorio por ley para perros en varios estados federales -Berlin, Hamburgo, Baja Sajonia, Turingia, Schleswig-Holstein y Sajonia-Anhalt- y voluntario en el resto, asi que compruebelo para su Land. Cubre danos que su perro pueda causar a terceros. Cuesta entre 50 y 80 euros al ano. Para gatos no es obligatorio pero si recomendable."
   - q: "¿Puedo llevar a mi gato en cabina en el avion?"
     a: "Si, la mayoria de aerolineas permiten gatos en cabina siempre que vayan en un transportin homologado que quepa bajo el asiento delantero. El peso maximo con transportin suele ser de 8 kg. Reserve la plaza para su gato al comprar el billete, ya que las plazas para animales son limitadas."
   - q: "¿Necesito registrar a mi mascota al llegar a Alemania?"
