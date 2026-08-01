@@ -131,6 +131,63 @@ export const CIFRAS = {
     deriva_de: ['sperrkonto.estudios.mes'],
   },
 
+  // ─── Umbrales salariales de visado (día 144, 2026-08-01) ────────────────
+  // POR QUÉ ENTRAN AHORA: el sitio publicaba umbrales de Blue Card y del
+  // §19c SIN NINGUNA entrada canónica contra la que contrastarlos. No es que
+  // el guardián no los vigilara: es que no existía el hecho. Resultado
+  // medido el día 144: blue-card-requisitos.md publicaba dos cifras que NO
+  // corresponden a ningún año, las dos por debajo de las reales, y trabajar-en-it
+  // publicaba una regla equivocada («60 % de la BBG»; es el 45 %). Los
+  // valores falsos retirados NO se transcriben aquí: el guardián los vigila
+  // como fósiles, y escribirlos en este fichero lo dispararía. Viven en
+  // informes/estrategics/ del repo de ops.
+  // Los cuatro umbrales cuelgan de la MISMA base —la BBG de pensiones— así
+  // que se datan juntos y con ella: si la base cambia, cambian los cuatro.
+  'bluecard.general.anno': {
+    valor: 50700,
+    unidad: '€/año',
+    vigencia: '2026',
+    verificado: '2026-08-01',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Es el 50 % de la BBG de pensiones, que se fija cada año por reglamento; el BMI publica el importe en el Bundesanzeiger en diciembre' },
+    fuente: { nombre: 'Bekanntmachung del BMI de 2-dic-2025, BAnz AT 18.12.2025 B3 (§18g Abs. 1 S. 1 AufenthG)', tipo: 'oficial' },
+    nota: 'Hasta el día 144 el sitio publicaba una cifra que no corresponde a ningún año y que quedaba por debajo de esta. Fallaba en la dirección peligrosa: con una oferta de 47.000 € el lector se creía dentro y estaba fuera. El valor retirado se registra en informes/estrategics/ del repo de ops, no aquí — el guardián lo vigila como fósil y volver a escribirlo aquí lo dispararía.',
+  },
+  'bluecard.deficitarias.anno': {
+    valor: 45934.2,
+    unidad: '€/año',
+    vigencia: '2026',
+    verificado: '2026-08-01',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Es el 45,3 % de la BBG de pensiones; misma publicación anual que el umbral general' },
+    fuente: { nombre: 'Bekanntmachung del BMI de 2-dic-2025, BAnz AT 18.12.2025 B3 (§18g Abs. 1 S. 2 y Abs. 2 AufenthG)', tipo: 'oficial' },
+    nota: 'Aplica a Mangelberufe y a titulados de hace menos de 3 años. El sitio publicaba 43.060 €, tampoco de ningún año.',
+  },
+  'beschv6.umbral.anno': {
+    valor: 45630,
+    unidad: '€/año',
+    vigencia: '2026',
+    verificado: '2026-08-01',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Es el 45 % de la BBG de pensiones; el BMI lo publica cada diciembre' },
+    fuente: { nombre: 'Bekanntmachung del BMI de 2-dic-2025, BAnz AT 18.12.2025 B1 (§19c Abs. 2 AufenthG + §6 BeschV)', tipo: 'oficial' },
+    nota: 'La regla es el 45 % de la BBG, NO el 60 %: el 60 % era la norma de especialistas IT anterior a marzo de 2024 y sigue viva en páginas de embajada desfasadas. El rango «44.000-46.000 €» que publicaba el sitio contenía el valor bueno por accidente; lo grave era la regla, porque se recalcula cada año.',
+  },
+  'beschv6.umbral.mes': {
+    valor: 3802.5,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-08-01',
+    fuente: { nombre: 'anual ÷ 12', tipo: 'derivada' },
+    deriva_de: ['beschv6.umbral.anno'],
+  },
+  'fachkraft.mayor45.anno': {
+    valor: 55770,
+    unidad: '€/año',
+    vigencia: '2026',
+    verificado: '2026-08-01',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Es el 55 % de la BBG de pensiones' },
+    fuente: { nombre: 'Bekanntmachung del BMI de 2-dic-2025 (§18 Abs. 2 Nr. 5 AufenthG)', tipo: 'oficial' },
+    nota: 'HOY NO SE PUBLICA en ninguna página del sitio (medido el día 144). Se data por adelantado para que, si algún artículo lo menciona, ya tenga contra qué contrastarse.',
+  },
+
   // ─── JAEG (umbral GKV/PKV para empleados) ───────────────────────────────
   'jaeg.anno': {
     valor: 77400,
