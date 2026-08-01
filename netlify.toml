@@ -5,16 +5,16 @@
 [build.environment]
   NODE_VERSION = "20"
 
-# Redirects para SPA-like navigation (optional)
-[[redirects]]
-  from = "/calculadora"
-  to = "/#calculadora"
-  status = 301
-
-[[redirects]]
-  from = "/simulador"
-  to = "/#simulador"
-  status = 301
+# SIN REDIRECCIONES, Y ES DELIBERADO (2026-08-01, día 144).
+# Aquí vivían /calculadora → /#calculadora y /simulador → /#simulador, puestas
+# el 22-feb-2026 con el despliegue inicial. Se retiran porque quedaron SIN UN
+# SOLO CONSUMIDOR en todo el proyecto, medido: el sitio siempre usó las anclas
+# directas, y el único uso externo era la descripción del vídeo [2] del canal,
+# que el mismo día pasó a apuntar a /#simulador y /#calculadora.
+# /calculadora llevaba cinco meses sin que la usara nadie.
+# La única objeción era la cola invisible de enlaces compartidos fuera; el
+# Director confirma que NUNCA compartió esas URL fuera del canal.
+# NO ES UN DESCUIDO: es retirar configuración que ya no sostenía nada.
 
 # Headers for security and performance
 [[headers]]
