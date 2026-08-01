@@ -9,7 +9,7 @@ faq:
   - q: "¿Puedo trabajar como freelance IT en Alemania sin título?"
     a: "El §19c es para trabajo por cuenta ajena. Si quieres ser freelance, necesitas un visado de autónomos (§21 AufenthG), que tiene requisitos diferentes basados en tu plan de negocio, ingresos proyectados y relevancia económica."
   - q: "¿Los bootcamps de programación cuentan como experiencia?"
-    a: "Un bootcamp por sí solo no cuenta como 3 años de experiencia. Sin embargo, si después del bootcamp trabajaste 3 años como desarrollador, esos años sí cuentan. El bootcamp puede servir como evidencia adicional de formación."
+    a: "Un bootcamp por sí solo no cuenta como los 2 años de experiencia que se exigen. Sin embargo, si después del bootcamp trabajaste 2 años como desarrollador, esos años sí cuentan. El bootcamp puede servir como evidencia adicional de formación."
   - q: "¿Puedo traer a mi familia con un permiso de trabajo IT?"
     a: "Sí, la reagrupación familiar es posible con un permiso de residencia por trabajo. Sin embargo, a diferencia de la Blue Card, tu cónyuge probablemente necesitará demostrar un conocimiento básico de alemán (A1)."
   - q: "¿Puedo obtener la residencia permanente trabajando en IT sin título?"
@@ -24,37 +24,42 @@ Alemania tiene una demanda enorme de profesionales de tecnología que no puede c
 
 En este artículo te explico exactamente cómo funciona, qué requisitos necesitas cumplir y cómo conseguir tu oportunidad.
 
-> **Clave:** Si tienes 3+ años de experiencia en IT y una oferta de trabajo en Alemania, puedes obtener un permiso de residencia sin necesidad de título universitario.
+> **Clave:** Con **2 años de experiencia cualificada en los últimos 5** y una oferta de trabajo en Alemania, puedes obtener un permiso de residencia **sin título universitario**. En las profesiones de tecnologías de la información, el título **no se exige en ningún caso**.
 
 ---
 
 ## Sí, es posible: el §19c AufenthG
 
-El **§19c del Aufenthaltsgesetz**, en combinación con la **Beschäftigungsverordnung (BeschV)** -- la ordenanza de empleo --, establece un marco legal específico para profesionales IT. Está diseñado para quienes no tienen un título universitario formal pero poseen **experiencia práctica demostrable**.
+El **§19c del Aufenthaltsgesetz**, en combinación con la **Beschäftigungsverordnung (BeschV)** -- la ordenanza de empleo --, abre una vía para quien tiene **experiencia profesional en lugar de un título académico**.
 
-Concretamente, el **§6 BeschV** regula el acceso al mercado laboral alemán para especialistas IT con experiencia. Este es tu camino legal.
+Concretamente, el **§6 BeschV**. **Desde el 1 de marzo de 2024 esta vía está abierta a todos los sectores no regulados**, no solo a IT. Lo que las profesiones de tecnologías de la información **conservan como ventaja propia** es la exención del requisito de título: en el resto de sectores sigue pidiéndose.
+
+Este artículo se centra en el caso de IT, que es donde esa exención marca la diferencia.
 
 ### Base legal simplificada
 
-La ley dice, en esencia: un profesional de tecnologías de la información puede obtener un permiso de residencia para trabajar en Alemania si cumple las siguientes condiciones:
+La ley dice, en esencia: puedes obtener un permiso de residencia para trabajar en Alemania si cumples estas condiciones:
 
-1. Tiene un **contrato de trabajo o una oferta vinculante** de un empleador alemán.
-2. Posee **al menos 3 años de experiencia profesional** en el campo IT, adquirida en los últimos 7 años.
-3. El salario es de al menos el **60% del techo de cotización** del seguro de pensiones (Beitragsbemessungsgrenze), lo que en 2026 equivale a aproximadamente **44.000-46.000 € brutos anuales**.
-4. Tiene **conocimientos suficientes de alemán** o la empresa justifica que el trabajo se puede realizar en otro idioma.
+1. Tienes un **contrato de trabajo o una oferta vinculante** de un empleador alemán.
+2. Acumulas **al menos 2 años de experiencia profesional cualificada en los últimos 5 años**, y esa experiencia te capacita para el empleo que vas a ocupar.
+3. Tu salario bruto anual alcanza el **45 % del techo de cotización del seguro de pensiones** (*Beitragsbemessungsgrenze*). **En 2026 son 45.630 € brutos al año — 3.802,50 € al mes** *(verificado en agosto de 2026; fuente: Bundesanzeiger AT 18.12.2025 B1)*.
+   - **Excepción:** si tu empleador está sujeto a convenio colectivo y te contrata en las condiciones tarifarias que le rigen, **este umbral no se aplica**.
+4. Con carácter general se exige un **título o formación reconocida** — pero **en las profesiones de tecnologías de la información y la comunicación, este requisito no se aplica**. Es justo lo que hace de esta la vía de quien tiene experiencia y no tiene papel.
 
-> 📌 **Recuerda:** No necesitas título universitario ni formación profesional formal. La experiencia laboral demostrable es suficiente.
+**No hay ningún requisito de idioma en esta vía.**
+
+> 📌 **Recuerda:** En IT no necesitas título universitario ni formación profesional formal. Tu experiencia documentada es suficiente.
 
 ---
 
 ## Requisitos en detalle
 
-### 1. Experiencia profesional: mínimo 3 años
+### 1. Experiencia profesional: mínimo 2 años
 
-Necesitas demostrar al menos **3 años de experiencia profesional cualificada** en el sector IT. Esta experiencia debe:
+Necesitas demostrar al menos **2 años de experiencia profesional cualificada** relacionada con el puesto. Esa experiencia debe:
 
-- Haber sido adquirida en los **últimos 7 años**.
-- Ser relevante para el puesto al que aspiras.
+- Haber sido adquirida en los **últimos 5 años**.
+- **Capacitarte para el empleo concreto** que vas a ocupar.
 - Estar documentada con **certificados de trabajo** (Arbeitszeugnisse o employment reference letters), contratos laborales, o cartas de recomendación detalladas.
 
 ---
@@ -86,14 +91,13 @@ Necesitas demostrar al menos **3 años de experiencia profesional cualificada** 
 
 ### 2. Salario mínimo
 
-El salario bruto anual debe ser de al menos **aproximadamente 44.000-46.000 €** en 2026. Este umbral se ajusta anualmente porque está vinculado al techo de cotización del seguro de pensiones.
+Tu salario bruto anual debe alcanzar el **45 % del techo de cotización del seguro de pensiones**. **En 2026 son 45.630 € al año, o 3.802,50 € al mes** *(verificado en agosto de 2026; fuente: Bundesanzeiger AT 18.12.2025 B1)*.
 
-Este requisito tiene una doble función:
+**El umbral cambia cada año**, porque el techo de cotización se actualiza anualmente — en 2026 está en 101.400 € anuales. Comprueba la cifra del año en que solicites: **no des por buena la de un año anterior**, ni la de una página que no diga de qué año habla.
 
-- Demuestra que tu empleador te valora como profesional cualificado.
-- Garantiza que puedes **mantenerte económicamente** sin ayuda del Estado.
+**Hay una excepción que puede dejarte fuera del umbral**: si tu empleador está sujeto a convenio colectivo y te contrata en las condiciones tarifarias que le rigen, **el mínimo salarial no se te aplica**. Si tu oferta viene de una empresa con convenio, pregúntalo antes de descartarte por el sueldo.
 
-> **Buena noticia:** La gran mayoría de empleos IT en Alemania superan ampliamente este umbral, incluso para posiciones junior.
+**La mayoría de empleos IT en Alemania superan este umbral**, incluso en posiciones junior: los rangos de la tabla de más abajo empiezan por encima de él.
 
 ---
 
@@ -107,12 +111,12 @@ El empleador no necesita hacer ningún trámite especial, pero la **Bundesagentu
 
 ---
 
-### 4. Idioma: ¿necesitas alemán?
+### 4. Idioma: no es un requisito legal, pero conviene
 
-Para el §19c/§6 BeschV, **no hay un requisito formal estricto de nivel de alemán**. Sin embargo:
+**El §6 BeschV no exige ningún nivel de alemán.** No es que el requisito sea flexible: **no existe**. Aun así, en la práctica:
 
 - La Ausländerbehörde puede pedir justificación de por qué no necesitas alemán para el puesto.
-- Tu empleador debe confirmar que el idioma de trabajo es inglés (o el que aplique).
+- Suele ayudar que tu empleador confirme que el idioma de trabajo es inglés (o el que aplique).
 - **Tener un nivel básico de alemán (A1-A2) ayuda mucho** en la entrevista de la Ausländerbehörde y en la vida diaria.
 
 > 💡 **Consejo:** Prepara una carta de tu empleador confirmando que el idioma de trabajo es inglés. Es un documento sencillo que puede evitarte complicaciones en la Ausländerbehörde.
@@ -273,7 +277,7 @@ Esta estrategia es especialmente útil si:
 2. **Prepara tu documentación:**
    - Pasaporte vigente
    - Contrato de trabajo o oferta vinculante
-   - Certificados de trabajo que demuestren tus 3+ años de experiencia
+   - Certificados de trabajo que demuestren tus 2+ años de experiencia
    - CV actualizado (idealmente en [formato Lebenslauf alemán](/blog/cv-aleman-plantilla/))
    - Carta del empleador confirmando el idioma de trabajo (si no hablas alemán)
    - Seguro médico de viaje
@@ -284,6 +288,8 @@ Esta estrategia es especialmente útil si:
 7. **Solicita el permiso de residencia** en la Ausländerbehörde de tu ciudad.
 
 > **Importante:** Solicita cita en el consulado con la mayor antelación posible. En algunos países latinoamericanos, las citas pueden tardar semanas o meses en estar disponibles.
+
+> **Atajo que casi nadie usa:** tu empleador puede iniciar el **procedimiento acelerado para trabajadores cualificados** (§81a AufenthG) desde Alemania, ante la oficina de extranjería. Conlleva una tasa y lo tramita la empresa, no tú — pero acorta mucho la espera. **Si tu empleador no lo menciona, pregúntale**: muchas empresas pequeñas no saben que existe.
 
 ---
 
@@ -319,7 +325,7 @@ El §19c es para trabajo por cuenta ajena. Si quieres ser freelance, necesitas u
 
 ### ¿Los bootcamps de programación cuentan como experiencia?
 
-Un bootcamp por sí solo **no cuenta como "3 años de experiencia"**. Sin embargo, si después del bootcamp trabajaste 3 años como desarrollador, esos años sí cuentan.
+Un bootcamp por sí solo **no cuenta como los "2 años de experiencia"** que exige la vía. Sin embargo, si después del bootcamp trabajaste 2 años como desarrollador, esos años sí cuentan.
 
 El bootcamp puede servir como evidencia adicional de tu formación.
 
@@ -353,6 +359,6 @@ El §19c es específicamente para quienes no tienen título universitario.
 
 Alemania necesita profesionales IT y está dispuesta a abrir sus puertas a quienes demuestren experiencia y habilidades, **con o sin título universitario**. El §19c del AufenthG es una vía legal clara, establecida y funcional.
 
-Si tienes 3 o más años de experiencia en desarrollo, DevOps, seguridad, datos o cualquier campo IT, **Alemania es una opción real para ti**. La demanda de talento tech sigue creciendo, los salarios son competitivos y el marco legal te respalda.
+Si tienes 2 o más años de experiencia en desarrollo, DevOps, seguridad, datos o cualquier campo IT, **Alemania es una opción real para ti**. La demanda de talento tech sigue creciendo, los salarios son competitivos y el marco legal te respalda.
 
 **El título no define tu carrera. Tu experiencia y tus habilidades, sí.**
