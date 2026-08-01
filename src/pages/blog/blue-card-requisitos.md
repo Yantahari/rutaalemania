@@ -85,8 +85,10 @@ Tu salario bruto anual debe superar un **umbral mínimo establecido por el gobie
 
 | Categoría | Salario bruto anual mínimo | Salario bruto mensual |
 |---|---|---|
-| **Umbral general** | 46.530 € | ~3.878 € |
-| **Profesiones con escasez (Mangelberufe)** | 43.060 € | ~3.588 € |
+| **Umbral general** | 50.700 € | ~4.225 € |
+| **Profesiones con escasez (Mangelberufe)** | 45.934,20 € | ~3.828 € |
+
+> **Cifras verificadas en agosto de 2026** (fuente: Bundesanzeiger AT 18.12.2025 B3). **Los dos umbrales cambian cada enero**, porque se calculan sobre el techo de cotización del seguro de pensiones — el general es el 50 % y el reducido el 45,3 %. Comprueba el importe del año en que solicites: no des por buena una cifra que no diga de qué año habla.
 
 ### ¿Qué profesiones tienen el umbral reducido?
 
@@ -218,7 +220,7 @@ Muchos hispanohablantes confunden estos dos visados. Aquí las **diferencias cla
 | **Propósito** | Trabajar con contrato ya firmado | Buscar trabajo en Alemania |
 | **Requiere oferta de trabajo** | Sí, obligatoria | No |
 | **Título universitario** | Obligatorio | Necesario para puntos (no obligatorio) |
-| **Salario mínimo** | Sí (43.060–46.530 €) | No aplica (es para buscar) |
+| **Salario mínimo** | Sí (45.934,20–50.700 €) | No aplica (es para buscar) |
 | **Duración** | Hasta 4 años, renovable | 1 año, no renovable |
 | **Permiso de trabajo** | Sí, completo | Limitado (20h/semana o periodo de prueba) |
 | **Camino a residencia permanente** | 21-27 meses | No directamente (debes cambiar a otro visado) |

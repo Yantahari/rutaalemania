@@ -114,9 +114,10 @@ Si vas por la Vía 2, necesitas sumar al menos **6 puntos**. Así se distribuyen
 | **Experiencia profesional** (en los últimos 7 años) | |
 | Al menos 2 años de experiencia | 2 puntos |
 | Al menos 5 años de experiencia | 3 puntos |
-| **Conocimientos de alemán** | |
-| Nivel B1 | 1 punto |
-| Nivel B2 o superior | 2 puntos |
+| **Conocimientos de alemán** *(cuenta solo el nivel más alto)* | |
+| Nivel A2 | 1 punto |
+| Nivel B1 | 2 puntos |
+| Nivel B2 o superior | 3 puntos |
 | **Conocimientos de inglés** | |
 | Nivel C1 o superior | 1 punto |
 | **Edad** | |
@@ -130,6 +131,8 @@ Si vas por la Vía 2, necesitas sumar al menos **6 puntos**. Así se distribuyen
 | Tu profesión está en la lista de *Engpassberufe* | 1 punto |
 | **Máximo total posible** | **16 puntos** |
 
+> **Los criterios de un mismo grupo no se acumulan**: en idioma, experiencia y edad cuenta solo el tramo más alto que cumplas. Un B2 son 3 puntos, no 3 + 2 + 1. *(Baremo verificado en agosto de 2026 — §20b AufenthG.)*
+
 ---
 
 ### Ejemplos prácticos
@@ -142,9 +145,9 @@ Si vas por la Vía 2, necesitas sumar al menos **6 puntos**. Así se distribuyen
 **Ejemplo 2 — Desarrolladora colombiana, 32 años:**
 - Reconocimiento parcial: 4 puntos
 - Experiencia profesional (3 años): 2 puntos
-- Alemán B1: 1 punto
+- Alemán B1: 2 puntos
 - Edad (menor de 35): 2 puntos
-- **Total: 9 puntos** — Sobra
+- **Total: 10 puntos** — Sobra
 
 **Ejemplo 3 — Enfermero argentino, 38 años:**
 - Reconocimiento parcial: 4 puntos

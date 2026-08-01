@@ -229,18 +229,25 @@ Si no tienes oferta de trabajo todavía y quieres venir a buscarla presencialmen
 
 ### ¿Cómo funciona para perfiles IT sin título?
 
-La Chancenkarte funciona con un **sistema de puntos**. Aunque no tengas título universitario, puedes obtener puntos por:
+La Chancenkarte funciona con un **sistema de puntos**: necesitas **al menos 6**. Aunque no tengas título universitario, puedes sumarlos por:
 
-- **Formación profesional reconocida** (si tienes alguna certificación o formación equivalente)
-- **Experiencia laboral** (3+ años en los últimos 5)
-- **Conocimientos de alemán** (B1 = 3 puntos, B2 = 4 puntos)
-- **Conocimientos de inglés** (B2 = 1 punto)
-- **Edad** (menores de 35 = 2 puntos)
-- **Conexión con Alemania** (estancia previa = 1 punto)
+| Criterio | Puntos |
+|---|---|
+| Alemán **B2** o superior | 3 |
+| Alemán **B1** | 2 |
+| Alemán **A2** | 1 |
+| Inglés **C1** o superior | 1 |
+| Experiencia: **5 años o más** de los últimos 7 | 3 |
+| Experiencia: **2 años o más** de los últimos 5 | 2 |
+| Tu profesión está en la lista de escasez | 1 |
+| Tener **menos de 35 años** | 2 |
+| Tener **entre 35 y 40** | 1 |
+| Haber residido legalmente **6 meses** en Alemania en los últimos 5 años | 1 |
+| Que tu pareja también cumpla y solicite contigo | 1 |
 
-Necesitas al menos **6 puntos** para obtener la Chancenkarte.
+**Los niveles de idioma no se suman entre sí: cuenta solo el más alto.** Lo mismo con los dos tramos de experiencia y con los de edad. *(Baremo verificado en agosto de 2026 — §20b AufenthG.)*
 
-> 💡 **Consejo:** Suma tus puntos antes de solicitar. Si no llegas a 6, invertir en un certificado de alemán B1 (3 puntos) puede ser lo que necesitas para alcanzar el umbral.
+> 💡 **Consejo:** Antes de solicitar, **calcula tus puntos con la [calculadora gratuita](/#calculadora)**, que aplica este mismo baremo. Si te quedas cerca, mira **cuánto te falta exactamente**: subir del A2 al B1 suma 1 punto, y del B1 al B2 suma otro. No siempre compensa — depende de cuántos te falten y de qué otros criterios tengas al alcance.
 
 ---
 
