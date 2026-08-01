@@ -159,7 +159,7 @@ export const CIFRAS = {
     verificado: '2026-08-01',
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Es el 45,3 % de la BBG de pensiones; misma publicación anual que el umbral general' },
     fuente: { nombre: 'Bekanntmachung del BMI de 2-dic-2025, BAnz AT 18.12.2025 B3 (§18g Abs. 1 S. 2 y Abs. 2 AufenthG)', tipo: 'oficial' },
-    nota: 'Aplica a Mangelberufe y a titulados de hace menos de 3 años. El sitio publicaba 43.060 €, tampoco de ningún año.',
+    nota: 'Aplica a Mangelberufe y a titulados de hace menos de 3 años. Hasta el día 144 el sitio publicaba una cifra que no corresponde a ningún año, por debajo de esta. El valor retirado se registra en informes/estrategics/ del repo de ops, no aquí — el guardián lo vigila como fósil y volver a escribirlo aquí lo dispararía.',
   },
   'beschv6.umbral.anno': {
     valor: 45630,
