@@ -270,7 +270,7 @@ La Sperrkonto **no sirve** para recibir tu sueldo ni para hacer pagos diarios. E
 
 ### ¿Puedo abrir la Sperrkonto antes de tener cita en la embajada?
 
-**Sí, y es lo recomendable.** Abre la cuenta y transfiere el dinero lo antes posible. El certificado no tiene fecha de caducidad, así que **puedes tenerlo listo meses antes** de tu cita.
+**Sí, y conviene no dejarlo para el final** — con una salvedad que importa: el importe exigido **sube cada año**. La embajada no publica una fecha de caducidad del certificado, pero sí exige la confirmación oficial con el importe total y el mensual, y que cubra tu estancia. Si abres la cuenta con muchos meses de antelación, **comprueba antes de tu cita que tu saldo sigue cubriendo la cifra vigente**: si se ha quedado corta, tendrás que transferir la diferencia y pedir una confirmación actualizada.
 
 ### ¿La Sperrkonto genera intereses?
 

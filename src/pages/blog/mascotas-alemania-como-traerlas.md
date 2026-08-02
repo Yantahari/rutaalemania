@@ -57,7 +57,7 @@ Registre a su perro en el **Ordnungsamt** de su ciudad. En muchos municipios deb
 
 ### Seguro de responsabilidad civil para el perro (Tierhalter-Haftpflicht)
 
-La **Tierhalter-Haftpflichtversicherung** cubre los danos que su perro pueda causar a terceros: morder a alguien, provocar un accidente de trafico, destrozar objetos ajenos. Es **obligatoria por ley para todos los perros en al menos seis estados federales** (Berlin, Bremen, Hamburgo, Baja Sajonia, Sajonia-Anhalt y Turingia); en otros solo lo es para perros clasificados como peligrosos. Compruebe la norma de su estado de destino. En cualquier caso es altamente recomendable.
+La **Tierhalter-Haftpflichtversicherung** cubre los danos que su perro pueda causar a terceros: morder a alguien, provocar un accidente de trafico, destrozar objetos ajenos. Es **obligatoria por ley para todos los perros en seis estados** (Berlin, Bremen, Hamburgo, Baja Sajonia, Sajonia-Anhalt y Turingia). En Schleswig-Holstein la ley la establece para todos los perros, pero redactada como deber general con excepciones justificadas, no como obligacion estricta; para perros clasificados como peligrosos si es obligatoria sin excepcion. En el resto, solo para perros clasificados como peligrosos. Compruebe la de su destino. En cualquier caso es altamente recomendable.
 
 Sin este seguro, usted responde con todo su patrimonio. Un mordisco que requiera cirugia puede suponer una reclamacion de miles de euros. Cuesta entre **50 y 80 euros al ano**.
 
