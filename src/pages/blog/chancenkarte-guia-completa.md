@@ -337,7 +337,7 @@ No. La **Blue Card** (Tarjeta Azul UE) es un permiso de trabajo para el que nece
 
 ### ¿Cuánto dinero necesito en total de forma realista?
 
-Contando la Sperrkonto (13.092 EUR), los costes de trámites (500-1.000 EUR) y un colchón para los primeros gastos en Alemania (vuelo, alojamiento temporal, depósito de piso), yo recomendaría tener al menos **16.000-17.000 EUR** disponibles. Para un desglose detallado de gastos mensuales, consulta nuestro artículo sobre [cuánto cuesta vivir en Alemania en 2026](/blog/cuanto-cuesta-vivir-en-alemania/).
+Contando la Sperrkonto (13.092 EUR), la fianza del piso, el primer mes de alquiler y los gastos de llegada, el total recomendado es de **15.000-18.500 EUR** — el extremo alto es Múnich; en Leipzig o Dresde te quedas cerca del bajo. Para el desglose detallado, consulta nuestro artículo sobre [cuánto cuesta vivir en Alemania en 2026](/blog/cuanto-cuesta-vivir-en-alemania/).
 
 ---
 
