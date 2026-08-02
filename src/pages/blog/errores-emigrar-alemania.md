@@ -56,16 +56,16 @@ Es el registro oficial de tu dirección en la **Bürgeramt** (oficina de ciudada
 
 ### Por qué es tan crucial
 
-Sin el Anmeldung, **no puedes hacer prácticamente nada**:
+Sin el Anmeldung, **casi todo se complica o se atasca**:
 
-- No puedes abrir una cuenta bancaria (la mayoría de bancos lo exigen).
-- No puedes firmar un contrato de trabajo formalmente.
+- Abrir cuenta en la mayoría de bancos tradicionales se complica (suelen exigirlo) — aunque no es un muro legal: todo consumidor con estancia legal en la UE tiene derecho a una **cuenta básica** con solo una dirección postal y su documento (§ 31 ZKG).
+- El contrato de trabajo **sí puedes firmarlo** — basta una dirección de contacto, y no es lícito que te lo nieguen por no estar empadronado. Lo que se atasca es lo fiscal (punto siguiente).
 - No puedes solicitar tu número de identificación fiscal (Steueridentifikationsnummer).
 - No puedes inscribirte en un seguro médico.
 - No puedes solicitar tu permiso de residencia o Blue Card.
 - No puedes contratar internet ni muchos servicios básicos.
 
-> **Importante:** Sin Anmeldung estás bloqueado. No puedes avanzar con absolutamente ningún otro trámite en Alemania.
+> **Importante:** El Anmeldung sigue siendo lo primero en la práctica: sin él no tienes número fiscal ni Meldebescheinigung, y muchos trámites se retrasan. Hazlo cuanto antes — pero un contrato de trabajo no te lo pueden negar por no tenerlo.
 
 ---
 
