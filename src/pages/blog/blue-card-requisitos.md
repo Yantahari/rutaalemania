@@ -34,7 +34,7 @@ Para solicitar la Blue Card en Alemania necesitas cumplir **tres requisitos fund
 
 ### 1. Título universitario reconocido
 
-Debes tener un título de educación superior (licenciatura, grado, ingeniería, máster, doctorado, etc.) que sea **reconocido o comparable** a un título alemán.
+Debes tener un título de educación superior (licenciatura, grado, ingeniería, máster, doctorado, etc.) que sea **reconocido o comparable** a un título alemán — **con una excepción para informática**, explicada justo debajo.
 
 **¿Cómo saber si tu título es válido?**
 
@@ -44,11 +44,13 @@ Debes tener un título de educación superior (licenciatura, grado, ingeniería,
 
 > **Importante:** Desde la reforma de 2023, también se aceptan **títulos de formación profesional superior** equivalentes a un nivel 6 del Marco Europeo de Cualificaciones (EQF), aunque esto es menos común para hispanohablantes.
 
+**Vía alternativa sin título universitario (solo informática):** también cumples este requisito si acreditas **tres años de experiencia en IT dentro de los últimos siete años** como profesional del sector. No la confundas con la [vía del § 19c](/blog/trabajar-en-it-alemania/), que pide **dos años en los últimos cinco** y tiene otro umbral salarial: son permisos distintos con relojes distintos.
+
 ---
 
 ### 2. Oferta de trabajo o contrato laboral
 
-Necesitas una **oferta de trabajo concreta o un contrato firmado** con un empleador alemán. El puesto debe estar relacionado con tu cualificación profesional (es decir, con tu título universitario).
+Necesitas una **oferta de trabajo concreta o un contrato firmado** con un empleador alemán. El puesto debe estar relacionado con tu cualificación profesional (tu título universitario o, en la vía IT por experiencia, tu trayectoria acreditada).
 
 - El contrato puede ser de duración determinada o indefinida.
 - No necesitas que el empleador haga un trámite especial; la Blue Card se solicita directamente por ti.
@@ -202,7 +204,7 @@ Muchos hispanohablantes confunden estos dos visados. Aquí las **diferencias cla
 |---|---|---|
 | **Propósito** | Trabajar con contrato ya firmado | Buscar trabajo en Alemania |
 | **Requiere oferta de trabajo** | Sí, obligatoria | No |
-| **Título universitario** | Obligatorio | Necesario para puntos (no obligatorio) |
+| **Título universitario** | Obligatorio — salvo en IT: 3 años de experiencia en los últimos 7 | Necesario para puntos (no obligatorio) |
 | **Salario mínimo** | Sí (45.934,20–50.700 €) | No aplica (es para buscar) |
 | **Duración** | Hasta 4 años, renovable | 1 año, no renovable |
 | **Permiso de trabajo** | Sí, completo | Limitado (20h/semana o periodo de prueba) |

@@ -340,7 +340,7 @@ Sí, pero **el camino es más largo que con la Blue Card**. Con un permiso de tr
 
 Si tienes un título universitario en otro campo (ej: ingeniería mecánica, administración de empresas) pero trabajas en IT, podrías explorar **otras vías como la [Blue Card](/blog/blue-card-requisitos/)** (si el salario cumple el umbral).
 
-El §19c es específicamente para quienes no tienen título universitario.
+El §19c es la vía pensada para quien no tiene título universitario — aunque, desde la reforma, la propia Blue Card también admite en IT a perfiles sin título con **tres años de experiencia en los últimos siete**. Ojo: es otro reloj que el del §19c (dos años en los últimos cinco) — no los mezcles.
 
 ---
 
