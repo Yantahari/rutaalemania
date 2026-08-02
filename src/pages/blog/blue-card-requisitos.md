@@ -207,7 +207,7 @@ Muchos hispanohablantes confunden estos dos visados. Aquí las **diferencias cla
 | **Duración** | Hasta 4 años, renovable | 1 año, no renovable |
 | **Permiso de trabajo** | Sí, completo | Limitado (20h/semana o periodo de prueba) |
 | **Camino a residencia permanente** | 21-27 meses | No directamente (debes cambiar a otro visado) |
-| **Reagrupación familiar** | Sí, simplificada | No |
+| **Reagrupación familiar** | Sí, simplificada | Posible por las reglas generales (sustento, idioma, vivienda) — exigente |
 | **Ideal para** | Quien ya tiene trabajo | Quien quiere buscar trabajo en persona |
 
 > **Clave:** Si no tienes oferta de trabajo todavía, puedes usar la **Chancenkarte** para venir a Alemania, buscar empleo y luego **cambiar a Blue Card** una vez consigas un contrato que cumpla los requisitos. Lee nuestra [guía completa sobre la Chancenkarte](/blog/chancenkarte-guia-completa/) para conocer cómo solicitarla.

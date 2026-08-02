@@ -277,7 +277,7 @@ Cuando consigas una oferta de trabajo cualificado, solicitas el cambio a un **pe
 
 ### Qué pasa si no encuentras empleo en 12 meses
 
-Si se acaban los 12 meses y no has encontrado empleo cualificado, **debes salir de Alemania**. No hay extensión de la Chancenkarte.
+La tarjeta de búsqueda dura como máximo un año y **no se prorroga como tal** — pero eso no significa que a los 12 meses se acabe todo. Con un **contrato o una oferta vinculante de empleo cualificado** (y la conformidad de la Agencia Federal de Empleo) puedes obtener una **tarjeta de continuación (Folge-Chancenkarte) de hasta dos años más** (§ 20a AufenthG), y también cabe pasar a otro permiso de residencia distinto. Si se acaban los 12 meses sin empleo ni oferta, sí tendrás que salir — y ojo con este matiz: volver a pedir la tarjeta de **búsqueda** exige haber pasado fuera tanto tiempo como estuviste dentro con ella.
 
 Sin embargo, si has encontrado un empleo a tiempo parcial que podría convertirse en cualificado, consulta con un abogado de extranjería si hay opciones alternativas.
 
@@ -289,9 +289,9 @@ Sin embargo, si has encontrado un empleo a tiempo parcial que podría convertirs
 
 ### ¿Puedo llevar a mi familia con la Chancenkarte?
 
-**No directamente.** La Chancenkarte no permite reagrupación familiar.
+**Es posible, pero exigente — que no es lo mismo que prohibido.** La reagrupación familiar con la Chancenkarte se rige por las reglas ordinarias (§ 20a AufenthG con el régimen general): **sustento asegurado, conocimientos de idioma y vivienda suficiente**. La parte dura es acreditar el sustento mientras todavía buscas empleo.
 
-Sin embargo, tu pareja podría solicitar su propia Chancenkarte si cumple los requisitos (y esto incluso te daría un punto extra a ti). Una vez que consigas un contrato de trabajo y cambies a un permiso de trabajo, **sí podrás solicitar la reagrupación familiar**.
+Dos alternativas prácticas: tu pareja podría solicitar su propia Chancenkarte si cumple los requisitos (y esto incluso te daría un punto extra a ti), o tramitar la reagrupación cuando tengas contrato y permiso de trabajo.
 
 ---
 
@@ -305,9 +305,9 @@ Necesitas **al menos un A1 de alemán O un B2 de inglés**. Si no tienes ninguno
 
 ### ¿Puedo solicitar la Chancenkarte desde dentro de Alemania?
 
-Solo si ya tienes un permiso de residencia válido (por ejemplo, un visado de estudios).
+Solo si ya tienes un **permiso de residencia de estudios o de trabajo** (las secciones 3 y 4 de la ley): en ese caso **sí puedes cambiar a la Chancenkarte desde dentro** (§ 20a AufenthG).
 
-Si estás como turista con los 90 días de exención de visado, **no puedes** cambiar a Chancenkarte desde dentro del país; debes solicitarla desde la embajada en tu país de origen.
+Si estás como turista con los 90 días de exención de visado, no tienes un permiso de esas secciones y **no puedes** hacer el cambio desde dentro del país; la solicitud va en la embajada de tu país de origen.
 
 ---
 
