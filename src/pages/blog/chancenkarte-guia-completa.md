@@ -169,7 +169,7 @@ Aquí va un desglose realista de lo que necesitas económicamente:
 - Incluye seguro médico opcional
 - Soporte en inglés y español
 
-**Para la certificación de alemán**, el certificado tiene que venir de un centro examinador reconocido: **Goethe-Institut, telc, ÖSD, TestDaF o ECL**. El certificado de una escuela de idiomas no sirve para el visado, por buena que sea la escuela. Plataformas como [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrecen cursos intensivos que te preparan para presentarte a ese examen. Puedes **preparar tu A1 o B1 en pocos meses**.
+**Para la certificación de alemán**, el criterio no es una lista de escuelas: el certificado tiene que basarse en un **examen estandarizado conforme a los estándares de ALTE** (Association of Language Testers in Europe). Goethe-Institut, telc, ÖSD, TestDaF o ECL son ejemplos que el propio Ministerio de Exteriores cita — sin garantía y remitiendo a la lista completa de miembros de ALTE, que son bastantes más. **Lo que no vale: el certificado de una escuela de idiomas corriente, aunque esté autorizada a impartir cursos de integración.** Es el error que arruina una cita de visado. Plataformas como [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrecen cursos intensivos que te preparan para presentarte a ese examen. Puedes **preparar tu A1 o B1 en pocos meses**.
 
 ---
 
@@ -183,7 +183,7 @@ Antes de hacer cualquier cosa, **confirma que cumples los requisitos**. Usa nues
 
 Si aún no tienes un certificado de alemán o inglés, este es el momento de obtenerlo. Para el nivel A1 de alemán, necesitarás **entre 2 y 4 meses de estudio**.
 
-> ⚠️ **Dos condiciones que invalidan un certificado:** tiene que estar emitido por un centro examinador reconocido (**Goethe-Institut, telc, ÖSD, TestDaF o ECL**) y **no puede tener más de un año de antigüedad** cuando presentas la solicitud. Si te examinaste hace dos años, tendrás que repetir el examen. *(Fuente: Auswärtiges Amt, verificado en julio de 2026.)*
+> ⚠️ **Dos condiciones que tumban un certificado:** tiene que basarse en un examen estandarizado conforme a ALTE (ver arriba), y **como regla general no se aceptan certificados con fecha de examen de más de un año** — no es una caducidad formal: es la regla que declara el propio Ministerio. Si te examinaste hace dos años, cuenta con repetir el examen. Y si repetiste módulos sueltos, **cuenta la fecha del módulo aprobado más antiguo**. *(Fuente: Auswärtiges Amt, verificado en agosto de 2026.)*
 
 [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrece clases en grupo e individuales con profesores nativos que te preparan específicamente para los exámenes oficiales.
 
