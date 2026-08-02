@@ -7,7 +7,7 @@ keywords: "cuenta bancaria alemania, banco alemania expats, girokonto, abrir cue
 videoId: "PZngZhM0dj0"
 ---
 
-Si esta pensando en emigrar a Alemania, una de las primeras cosas que necesita resolver al llegar es **abrir una cuenta bancaria**. Sin ella, no puede cobrar su sueldo, pagar el alquiler, domiciliar el seguro medico ni hacer practicamente ningun tramite oficial.
+Si esta pensando en emigrar a Alemania, una de las primeras cosas que conviene resolver al llegar es **abrir una cuenta bancaria**: ahi cobrara su sueldo, pagara el alquiler y domiciliara sus seguros. Y la ley esta de su lado: todo consumidor con estancia legal en la UE tiene derecho a una **cuenta basica**, con solo una direccion postal y su documento de identidad (§ 31 ZKG).
 
 El problema es que el sistema bancario aleman no esta pensado para recien llegados. Muchos bancos le pediran documentos que aun no tiene, en un idioma que quiza no domina, con horarios de atencion limitados.
 
@@ -63,7 +63,7 @@ Pero tienen limitaciones que debe conocer:
 | **Idioma de la app** | Si no entiende la interfaz, tendra problemas cuando algo falle |
 | **Requisitos de apertura** | Meldebescheinigung, Steuer-ID, Schufa: si acaba de llegar, probablemente no tiene ninguno |
 | **Comisiones** | Mantenimiento mensual, transferencias, retiradas de efectivo |
-| **IBAN aleman (DE)** | Sin IBAN aleman, su empleador no puede pagarle la nomina |
+| **IBAN aleman (DE)** | Util en la practica, pero no es requisito legal: para pagarle la nomina, su empleador debe aceptar cualquier IBAN de la zona SEPA (Reglamento UE 260/2012) |
 | **Tarjeta incluida** | Mastercard o Visa para compras y reservas online |
 | **Ingreso en efectivo** | Si recibe propinas o pagos en metalico, necesita esta funcion |
 
