@@ -5,21 +5,6 @@ description: "Requisitos de la Chancenkarte 2026: sistema de 6 puntos, Sperrkont
 date: "2026-02-20"
 keywords: "chancenkarte, chancenkarte requisitos, chancenkarte puntos, visa chancenkarte alemania, tarjeta de oportunidad alemania"
 videoId: "-1QHe6qKn0I"
-faq:
-  - q: "¿Puedo llevar a mi familia con la Chancenkarte?"
-    a: "No directamente. La Chancenkarte no permite reagrupación familiar. Sin embargo, tu pareja podría solicitar su propia Chancenkarte si cumple los requisitos. Una vez que consigas un contrato de trabajo y cambies a un permiso de trabajo, sí podrás solicitar la reagrupación familiar."
-  - q: "¿Necesito saber alemán obligatoriamente?"
-    a: "Necesitas al menos un A1 de alemán o un B2 de inglés certificado. Si no tienes ninguno de los dos, no puedes solicitar la Chancenkarte."
-  - q: "¿Puedo solicitar la Chancenkarte desde dentro de Alemania?"
-    a: "Solo si ya tienes un permiso de residencia válido (por ejemplo, un visado de estudios). Si estás como turista con los 90 días de exención de visado, no puedes cambiar a Chancenkarte desde dentro del país."
-  - q: "¿Vale cualquier título universitario?"
-    a: "El título debe ser de al menos 2 años de duración y debe ser reconocido en tu país de origen. Para la Vía 1, además debe estar reconocido en Alemania. Títulos técnicos y de formación profesional cualificada también pueden valer."
-  - q: "¿Qué profesiones tienen más demanda en Alemania?"
-    a: "Las profesiones con mayor escasez incluyen ingeniería (mecánica, eléctrica, civil), IT y desarrollo de software, sanidad (enfermería, medicina), oficios especializados (electricistas, fontaneros, mecánicos), educación y contabilidad/finanzas."
-  - q: "¿La Chancenkarte es lo mismo que la Blue Card?"
-    a: "No. La Blue Card es un permiso de trabajo para el que necesitas un contrato con un salario mínimo específico. La Chancenkarte es un permiso de búsqueda de empleo. Son complementarios: puedes venir con la Chancenkarte y, cuando encuentres empleo cualificado, cambiar a una Blue Card."
-  - q: "¿Cuánto dinero necesito en total de forma realista?"
-    a: "Contando la Sperrkonto (13.092 EUR), los costes de trámites (500-1.000 EUR) y un colchón para los primeros gastos en Alemania, se recomienda tener al menos 16.000-17.000 EUR disponibles."
 ---
 
 Si estás pensando en trabajar en Alemania pero aún no tienes contrato, la **Chancenkarte** (tarjeta de oportunidad) es probablemente tu mejor opción.

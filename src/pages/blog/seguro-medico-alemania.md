@@ -5,23 +5,6 @@ description: "GKV (público) vs PKV (privado) en Alemania: cómo funcionan, qui�
 date: "2026-04-19"
 keywords: "seguro medico alemania, GKV vs PKV, seguro privado alemania, seguro publico alemania, JAEG 2026, Familienversicherung, Krankenversicherung"
 videoId: "eykzn76jMbU"
-faq:
-  - q: "¿Qué es mejor, GKV o PKV?"
-    a: "Depende de su situación. GKV es más predecible y cubre a la familia gratis. PKV puede ser más barata al principio si es joven y sano, pero las primas suben con la edad y salir es casi imposible después de los 55 años. No hay una respuesta universal."
-  - q: "¿Cuál es el umbral JAEG en 2026?"
-    a: "El umbral para que un empleado pueda elegir PKV es de 77.400 EUR brutos al año (6.450 EUR al mes) en 2026. Por debajo de esa cifra, el empleado está obligado a GKV."
-  - q: "¿Los freelancers pueden elegir PKV?"
-    a: "Sí. Los freelancers y autónomos pueden elegir PKV libremente, sin umbral de ingresos. Sin embargo, como freelancer paga el 100% de la prima; no hay empleador que cubra la mitad."
-  - q: "¿Es fácil volver de PKV a GKV?"
-    a: "No. Es muy difícil después de los 55 años y casi imposible en la práctica. Antes de los 55, solo es posible si vuelve a ser empleado con salario por debajo de la JAEG. No basta con querer cambiar."
-  - q: "¿Qué es la Familienversicherung?"
-    a: "Es una característica de la GKV que permite cubrir gratis al cónyuge e hijos menores sin ingresos propios. No existe en PKV: en el seguro privado, cada miembro de la familia paga su propia prima."
-  - q: "¿Qué seguro médico necesito para el visado?"
-    a: "Para el visado necesita demostrar cobertura médica válida. El Expat insurance (Incoming-Tarif) es una solución temporal aceptada para los primeros meses. No es un seguro médico definitivo; debe elegir GKV o PKV al estabilizar su situación laboral."
-  - q: "¿Las primas de la PKV suben con la edad?"
-    a: "Sí. Las primas de PKV suben cada año en función de la edad, el estado de salud y los costes médicos del sistema. La prima que paga a los 28 años no es la que pagará a los 50. Esto es una de las diferencias clave con la GKV."
-  - q: "¿Qué pasa si no tengo seguro médico en Alemania?"
-    a: "No es una opción. En Alemania es obligatorio tener seguro médico desde el día 1 de residencia. Sin seguro no puede firmar un contrato de trabajo formal, solicitar permiso de residencia, ni acceder a servicios sanitarios básicos."
 ---
 
 > ℹ️ **Aviso de afiliación:** Este artículo contiene enlaces de afiliado. Si contrata un seguro a través de ellos, recibimos una pequeña comisión sin coste adicional para usted. Mantenemos la independencia editorial: presentamos pros y contras de cada opción para que usted decida.

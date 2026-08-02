@@ -5,19 +5,6 @@ description: "Guia completa para emigrar a Alemania con su mascota: requisitos v
 date: "2026-04-07"
 keywords: "mascotas alemania, traer perro alemania, emigrar con mascota, requisitos mascota alemania, vuelo con mascota, haftpflichtversicherung perro"
 videoId: "8SSV7BU7Sss"
-faq:
-  - q: "¿Cuanto cuesta traer una mascota a Alemania?"
-    a: "Los costes principales son: vacuna antirrabica (20-50 EUR equivalente), titulacion de anticuerpos si aplica (100-200 EUR), certificado veterinario oficial (variable segun pais), transporte aereo (50-300 EUR segun aerolinea y tamano del animal) y seguro de responsabilidad civil en Alemania (50-80 EUR/ano). En total, presupueste entre 300 y 700 EUR."
-  - q: "¿Cuanto tiempo antes del viaje debo empezar los tramites?"
-    a: "Al menos 4 meses antes si necesita titulacion de anticuerpos (obligatoria para paises con riesgo de rabia). La vacuna antirrabica debe aplicarse minimo 21 dias antes del viaje. El certificado veterinario oficial se emite maximo 10 dias antes. Empiece los tramites con la mayor antelacion posible."
-  - q: "¿Puedo traer cualquier raza de perro a Alemania?"
-    a: "Alemania tiene restricciones para razas consideradas peligrosas (Kampfhunde) que varian segun el estado federal. Las razas mas restringidas incluyen American Pit Bull Terrier, American Staffordshire Terrier, Bull Terrier y Staffordshire Bull Terrier. Consulte la normativa de su estado federal de destino antes de viajar."
-  - q: "¿Es obligatorio el seguro para mascotas en Alemania?"
-    a: "El seguro de responsabilidad civil (Haftpflichtversicherung) es obligatorio por ley para perros en varios estados federales -Berlin, Hamburgo, Baja Sajonia, Turingia, Schleswig-Holstein y Sajonia-Anhalt- y voluntario en el resto, asi que compruebelo para su Land. Cubre danos que su perro pueda causar a terceros. Cuesta entre 50 y 80 euros al ano. Para gatos no es obligatorio pero si recomendable."
-  - q: "¿Puedo llevar a mi gato en cabina en el avion?"
-    a: "Si, la mayoria de aerolineas permiten gatos en cabina siempre que vayan en un transportin homologado que quepa bajo el asiento delantero. El peso maximo con transportin suele ser de 8 kg. Reserve la plaza para su gato al comprar el billete, ya que las plazas para animales son limitadas."
-  - q: "¿Necesito registrar a mi mascota al llegar a Alemania?"
-    a: "Si. Debe registrar a su perro en el Ordnungsamt (oficina de orden publico) de su ciudad. Algunos municipios cobran un impuesto anual por perro (Hundesteuer), que varia entre 50 y 200 EUR segun la ciudad. Los gatos generalmente no requieren registro municipal."
 ---
 
 Si esta pensando en emigrar a Alemania y tiene una mascota, probablemente se pregunta: **¿puedo llevarla conmigo?** La respuesta es si, pero necesita cumplir una serie de requisitos veterinarios y burocraticos.
