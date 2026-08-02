@@ -21,7 +21,7 @@ La Blue Card es un **permiso de residencia y trabajo** para profesionales altame
 
 - Es válida en toda la UE, aunque cada país la gestiona de forma independiente.
 - En Alemania, se emite inicialmente por **4 años** (o por la duración del contrato + 3 meses si el contrato es menor).
-- Permite cambiar de empleador (con notificación a la Ausländerbehörde durante los primeros 12 meses).
+- Permite cambiar de empleador: los primeros 12 meses se comunica, y la oficina solo puede vetarlo en 30 días si no se cumplen los requisitos (§ 18g Abs. 4 AufenthG).
 - Ofrece el **camino más rápido a la residencia permanente** (Niederlassungserlaubnis): tan solo **21 meses** con nivel B1 de alemán.
 
 > **Clave:** La Blue Card no es un visado más. Es la vía rápida a la residencia permanente en Alemania, con ventajas exclusivas que ningún otro permiso ofrece.
@@ -125,7 +125,7 @@ Compara esto con el permiso de trabajo normal, que requiere **5 años** para acc
 ### Otras ventajas
 
 - **No hay prueba de mercado laboral** en la mayoría de casos.
-- **Cambio de empleador** permitido con simple notificación (tras los primeros 12 meses, sin restricciones).
+- **Cambio de empleador**: es un derecho — los primeros 12 meses se comunica y solo cabe veto en 30 días (§ 18g Abs. 4); después, sin restricciones.
 - **Periodos de desempleo:** Puedes permanecer hasta 3 meses desempleado buscando nuevo trabajo sin perder tu Blue Card (hasta 6 meses después de 2 años).
 
 ---
@@ -254,7 +254,7 @@ No. La Blue Card es exclusivamente para **trabajo por cuenta ajena**. Si quieres
 
 ### ¿Puedo cambiar de trabajo con la Blue Card?
 
-Sí. Durante los **primeros 12 meses**, debes notificar a la Ausländerbehörde antes de cambiar. Después de 12 meses, **puedes cambiar libremente**.
+Sí — y es un derecho, no un permiso que pedir. Durante los primeros 12 meses comunicas el cambio a la Ausländerbehörde: puede suspenderlo hasta 30 días y solo rechazarlo dentro de ese plazo si el nuevo empleo no cumple los requisitos (§ 18g Abs. 4 AufenthG). Pasados los 12 meses, cambias sin trámite. Ojo con fuentes viejas: hasta noviembre de 2023 hacía falta autorización durante dos años — ya no.
 
 ---
 
