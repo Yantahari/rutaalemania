@@ -140,7 +140,7 @@ Necesitas una cuenta bancaria alemana para:
 
 ### Días 5-7: Seguro médico
 
-El seguro médico es **obligatorio** en Alemania. Sin él, no puedes firmar formalmente tu contrato de trabajo.
+El seguro médico es **obligatorio** en Alemania desde el primer día de residencia. No es un requisito previo para firmar tu contrato: el alta nace del empleo, y si no eliges caja en las dos primeras semanas, tu empleador te inscribe él mismo (§ 175 SGB V). Elegirla pronto te conviene igualmente — el certificado de afiliación te lo pedirán para la nómina.
 
 **Si vienes con empleo:** Tu empleador te dará de alta en el seguro médico público (GKV). Tú eliges la aseguradora. Las más populares:
 

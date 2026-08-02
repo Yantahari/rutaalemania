@@ -18,7 +18,7 @@ const slides: CarouselSlide[] = [
     icon: '⚖️',
     title: '¿Es <span class="cb-gold">obligatorio</span>?',
     cardContent:
-      '<span class="cb-gold">Sí, por ley.</span> No puedes registrarte, abrir cuenta bancaria ni trabajar en Alemania sin seguro médico.<br><br>Es lo primero que te pedirán en casi todos los trámites.',
+      '<span class="cb-gold">Sí, por ley.</span> Debes estar asegurado desde el día 1 de residencia, y para el visado tendrás que acreditar cobertura antes de llegar.<br><br>Lo que no es: un requisito previo para trabajar — si no eliges caja en dos semanas, tu empleador te da de alta él mismo (§ 175 SGB V).',
   },
   // Slide 3 — Público vs Privado
   {

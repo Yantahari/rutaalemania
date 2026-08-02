@@ -92,7 +92,7 @@ Este dinero se deposita en una cuenta bloqueada y **se devuelve al salir del pis
 
 ## Seguro médico: obligatorio y no negociable
 
-En Alemania, **tener seguro médico es obligatorio por ley**. No puedes registrarte, abrir una cuenta bancaria ni trabajar sin uno. Hay dos opciones principales:
+En Alemania, **tener seguro médico es obligatorio por ley** desde el primer día de residencia, y para el visado hay que acreditar cobertura antes de llegar. Lo que no es: un requisito previo para empadronarte, abrir cuenta o empezar a trabajar — el alta nace del empleo, y si no eliges caja en las dos primeras semanas, tu empleador te inscribe él mismo (§ 175 SGB V). Hay dos opciones principales:
 
 ### Seguro público (Gesetzliche Krankenversicherung - GKV)
 
