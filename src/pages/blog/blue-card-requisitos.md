@@ -126,7 +126,7 @@ Compara esto con el permiso de trabajo normal, que requiere **5 años** para acc
 
 - **No hay prueba de mercado laboral** en la mayoría de casos.
 - **Cambio de empleador**: es un derecho — los primeros 12 meses se comunica y solo cabe veto en 30 días (§ 18g Abs. 4); después, sin restricciones.
-- **Periodos de desempleo:** Puedes permanecer hasta 3 meses desempleado buscando nuevo trabajo sin perder tu Blue Card (hasta 6 meses después de 2 años).
+- **Si pierdes el empleo:** comunica el cese a la Ausländerbehörde en las dos semanas siguientes a saberlo (obligación legal; tu empleador también está obligado, con cuatro). El permiso sigue válido de entrada, pero la oficina puede acortarlo — el margen de ~3 meses que se suele citar es práctica administrativa, no un derecho.
 
 ---
 
@@ -260,7 +260,7 @@ Sí — y es un derecho, no un permiso que pedir. Durante los primeros 12 meses 
 
 ### ¿Qué pasa si me quedo sin trabajo?
 
-Tienes un periodo de gracia de **3 meses** para encontrar un nuevo empleo (6 meses si llevas más de 2 años con Blue Card).
+Ojo: los "tres meses de margen" que circulan **no son un plazo garantizado por ley** — son práctica administrativa. Lo que sí fija la ley son obligaciones: comunica a la Ausländerbehörde que tu empleo termina antes de tiempo **dentro de las dos semanas siguientes a saberlo** (tu empleador también está obligado, con cuatro semanas). Tu permiso sigue siendo válido de entrada, pero la oficina **puede acortarlo a su criterio**: muévete desde el primer día y no cuentes con un colchón seguro.
 
 Durante este tiempo, puedes cobrar el **subsidio de desempleo** si has cotizado al menos 12 meses.
 
