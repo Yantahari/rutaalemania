@@ -325,9 +325,9 @@ El bootcamp puede servir como evidencia adicional de tu formación.
 
 Sí, la **reagrupación familiar es posible** con un permiso de residencia por trabajo. Tu cónyuge puede solicitar un visado de reagrupación familiar.
 
-Sin embargo, a diferencia de la Blue Card, tu cónyuge probablemente necesitará demostrar un conocimiento básico de alemán (A1).
+Y el idioma no es la barrera que quizá temes: la exención del alemán básico para el cónyuge **cubre también esta vía**. El § 30 Abs. 1 Satz 2 Nr. 5 AufenthG exime expresamente, entre otros, a los titulares de un permiso del § 19c Abs. 2 (esta vía), de la Tarjeta Azul y de los permisos de profesional cualificado (§ 18a, § 18b): tu cónyuge **no necesita demostrar alemán antes de venir**.
 
-> 📌 **Recuerda:** Con la Blue Card, tu cónyuge no necesita demostrar alemán. Con el §19c, sí suele ser necesario un A1.
+> 📌 **Recuerda:** ni con la Blue Card ni con esta vía del § 19c tu cónyuge necesita demostrar alemán para la reagrupación: las dos están en la lista de exenciones del § 30 AufenthG.
 
 ---
 

@@ -27,7 +27,7 @@ const slides: CarouselSlide[] = [
     stepBadge: 'Paso 1',
     steps: [
       { num: '1', text: 'Entra en anabin.kmk.org' },
-      { num: '2', text: 'Busca tu universidad → necesitas estatus H+' },
+      { num: '2', text: 'Busca tu universidad → el estatus H+ es la comprobación práctica' },
       { num: '3', text: 'Busca tu título → verifica la equivalencia' },
     ],
     tipCard: {
