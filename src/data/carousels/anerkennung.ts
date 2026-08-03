@@ -16,7 +16,7 @@ const slides: CarouselSlide[] = [
     steps: [
       { num: '⚖️', text: 'Profesión REGULADA (medicina, enfermería, derecho…) → SÍ, obligatorio' },
       { num: '💻', text: 'Profesión NO regulada (IT, marketing, diseño…) → NO obligatorio' },
-      { num: '', text: 'Pero puede darte puntos para la Chancenkarte o Blue Card' },
+      { num: '', text: 'Pero puede darte 4 puntos para la Chancenkarte (vía de puntos)' },
     ],
   },
   // Slide 3 — Paso 1: Consulta Anabin

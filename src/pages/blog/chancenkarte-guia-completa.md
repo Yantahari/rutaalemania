@@ -83,7 +83,7 @@ Debes demostrar que puedes mantenerte económicamente durante tu estancia. Esto 
 - **Vía 1 (Fachkraft):** Alemán A1 o inglés B2.
 - **Vía 2 (Puntos):** Alemán A1 o inglés B2 (es requisito mínimo, pero niveles más altos te dan puntos extra).
 
-> 💡 **Consejo:** Si aún no tienes el A1 de alemán, puedes prepararlo desde casa con [Babbel](https://es.babbel.com/cursos-de-aleman) (cursos diseñados para hispanohablantes, lecciones de 10-15 min/día) o con clases en vivo en [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48). Subir a B1-B2 te da hasta 2 puntos extra en la Vía 2.
+> 💡 **Consejo:** Si aún no tienes el A1 de alemán, puedes prepararlo desde casa con [Babbel](https://es.babbel.com/cursos-de-aleman) (cursos diseñados para hispanohablantes, lecciones de 10-15 min/día) o con clases en vivo en [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48). En la Vía 2, un B1 certificado son 2 puntos y un B2, 3.
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
@@ -96,9 +96,9 @@ Si vas por la Vía 2, necesitas sumar al menos **6 puntos**. Así se distribuyen
 |---|---|
 | **Reconocimiento del título** | |
 | Reconocimiento parcial por autoridad alemana | 4 puntos |
-| **Experiencia profesional** (en los últimos 7 años) | |
-| Al menos 2 años de experiencia | 2 puntos |
-| Al menos 5 años de experiencia | 3 puntos |
+| **Experiencia profesional** *(posterior a tu título y relacionada con él)* | |
+| Al menos 2 años dentro de los últimos 5 | 2 puntos |
+| Al menos 5 años dentro de los últimos 7 | 3 puntos |
 | **Conocimientos de alemán** *(cuenta solo el nivel más alto)* | |
 | Nivel A2 | 1 punto |
 | Nivel B1 | 2 puntos |
@@ -106,17 +106,17 @@ Si vas por la Vía 2, necesitas sumar al menos **6 puntos**. Así se distribuyen
 | **Conocimientos de inglés** | |
 | Nivel C1 o superior | 1 punto |
 | **Edad** | |
-| Menor de 35 años | 2 puntos |
-| Entre 35 y 40 años | 1 punto |
+| 35 años o menos | 2 puntos |
+| De 36 a 40 años | 1 punto |
 | **Estancia previa en Alemania** | |
-| Al menos 6 meses en los últimos 5 años | 1 punto |
+| Al menos 6 meses de estancia legal e ininterrumpida en los últimos 5 años *(las salidas breves no rompen el cómputo si, en una consideración de conjunto, el centro espacial de tu estancia siguió estando en Alemania)* | 1 punto |
 | **Potencial del cónyuge/pareja** | |
-| Pareja también cumple requisitos de Chancenkarte | 1 punto |
+| Tu cónyuge o pareja registrada cumple los requisitos, solicita su Chancenkarte en la misma oficina y entra en Alemania contigo | 1 punto |
 | **Profesión en sector con escasez** | |
 | Tu profesión está en la lista de *Engpassberufe* | 1 punto |
 | **Máximo total posible** | **16 puntos** |
 
-> **Los criterios de un mismo grupo no se acumulan**: en idioma, experiencia y edad cuenta solo el tramo más alto que cumplas. Un B2 son 3 puntos, no 3 + 2 + 1. *(Baremo verificado en agosto de 2026 — §20b AufenthG.)*
+> **Los criterios de un mismo grupo no se acumulan**: en idioma, experiencia y edad cuenta solo el tramo más alto que cumplas. Un B2 son 3 puntos, no 3 + 2 + 1. *(Baremo contrastado el 3 de agosto de 2026 contra el texto legal: § 20b AufenthG, su tabla anexa y § 2 AufenthG — niveles de idioma.)*
 
 ---
 
@@ -124,24 +124,24 @@ Si vas por la Vía 2, necesitas sumar al menos **6 puntos**. Así se distribuyen
 
 **Ejemplo 1 — Ingeniero mexicano, 28 años:**
 - Reconocimiento parcial del título: 4 puntos
-- Edad (menor de 35): 2 puntos
+- Edad (35 o menos): 2 puntos
 - **Total: 6 puntos** — Cumple el mínimo
 
 **Ejemplo 2 — Desarrolladora colombiana, 32 años:**
 - Reconocimiento parcial: 4 puntos
 - Experiencia profesional (3 años): 2 puntos
 - Alemán B1: 2 puntos
-- Edad (menor de 35): 2 puntos
+- Edad (35 o menos): 2 puntos
 - **Total: 10 puntos** — Sobra
 
 **Ejemplo 3 — Enfermero argentino, 38 años:**
 - Reconocimiento parcial: 4 puntos
 - Experiencia profesional (6 años): 3 puntos
-- Edad (35-40): 1 punto
+- Edad (36 a 40): 1 punto
 - Profesión con escasez: 1 punto
 - **Total: 9 puntos** — Sobra
 
-> 📌 **Recuerda:** La edad es un factor clave en el sistema de puntos. Si tienes menos de 35 años, obtienes 2 puntos extra automáticamente.
+> 📌 **Recuerda:** La edad es un factor clave en el sistema de puntos. Si tienes 35 años o menos, obtienes 2 puntos automáticamente.
 
 ---
 

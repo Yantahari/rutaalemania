@@ -222,10 +222,11 @@ Si no tienes oferta de trabajo todavía y quieres venir a buscarla presencialmen
 
 ### ¿Cómo funciona para perfiles IT sin título?
 
-La Chancenkarte funciona con un **sistema de puntos**: necesitas **al menos 6**. Aunque no tengas título universitario, puedes sumarlos por:
+La Chancenkarte funciona con un **sistema de puntos**: necesitas **al menos 6**. Aunque no tengas título universitario, puedes sumarlos por lo siguiente — la experiencia solo puntúa si es posterior a tu título (universitario o de FP) y guarda relación con él:
 
 | Criterio | Puntos |
 |---|---|
+| Reconocimiento parcial de tu título por una autoridad alemana (te piden medidas de adaptación) | 4 |
 | Alemán **B2** o superior | 3 |
 | Alemán **B1** | 2 |
 | Alemán **A2** | 1 |
@@ -233,12 +234,12 @@ La Chancenkarte funciona con un **sistema de puntos**: necesitas **al menos 6**.
 | Experiencia: **5 años o más** de los últimos 7 | 3 |
 | Experiencia: **2 años o más** de los últimos 5 | 2 |
 | Tu profesión está en la lista de escasez | 1 |
-| Tener **menos de 35 años** | 2 |
-| Tener **entre 35 y 40** | 1 |
-| Haber residido legalmente **6 meses** en Alemania en los últimos 5 años | 1 |
+| Tener **35 años o menos** | 2 |
+| Tener **de 36 a 40 años** | 1 |
+| Haber residido legalmente y sin interrupción **6 meses** en Alemania en los últimos 5 años | 1 |
 | Que tu pareja también cumpla y solicite contigo | 1 |
 
-**Los niveles de idioma no se suman entre sí: cuenta solo el más alto.** Lo mismo con los dos tramos de experiencia y con los de edad. *(Baremo verificado en agosto de 2026 — §20b AufenthG.)*
+**Los niveles de idioma no se suman entre sí: cuenta solo el más alto.** Lo mismo con los dos tramos de experiencia y con los de edad. *(Baremo contrastado el 3 de agosto de 2026 contra el texto legal: § 20b AufenthG, su tabla anexa y § 2 AufenthG — niveles de idioma.)*
 
 > 💡 **Consejo:** Antes de solicitar, **calcula tus puntos con la [calculadora gratuita](/#calculadora)**, que aplica este mismo baremo. Si te quedas cerca, mira **cuánto te falta exactamente**: subir del A2 al B1 suma 1 punto, y del B1 al B2 suma otro. No siempre compensa — depende de cuántos te falten y de qué otros criterios tengas al alcance.
 

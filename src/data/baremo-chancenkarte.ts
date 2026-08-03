@@ -92,8 +92,8 @@ export const BAREMO_CHANCENKARTE = {
       etiqueta: 'Edad',
       excluyente: true,
       opciones: [
-        { criterio: 'menos de 35 años', puntos: 2 },
-        { criterio: 'más de 35 y menos de 40', puntos: 1 },
+        { criterio: '35 años o menos', puntos: 2 },
+        { criterio: 'de 36 a 40 años', puntos: 1 },
       ],
     },
     {
