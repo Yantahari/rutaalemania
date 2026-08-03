@@ -453,7 +453,7 @@ Una vez que pases el primer mes, estos son los hitos que vienen:
 - **Mes 3-6:** Encontrar apartamento definitivo si aún no lo tienes, alcanzar **nivel A2 de alemán**.
 - **Mes 6-12:** Consolidar tu red social y profesional, considerar un curso de alemán B1 intensivo.
 - **Primer año fiscal completo:** Hacer tu declaración de la renta (Steuererklärung). **Casi siempre te devuelven dinero.** Usa herramientas como **Wundertax** o **Taxfix** (en inglés y muy sencillas).
-- **Mes 21 (con Blue Card + B1):** Puedes solicitar la **residencia permanente** (Niederlassungserlaubnis).
+- **Mes 21 (con Blue Card + B1, habiendo cotizado esos 21 meses):** puedes solicitar la **residencia permanente** (Niederlassungserlaubnis).
 
 > **Buena noticia:** El sistema alemán, aunque burocrático al principio, se vuelve muy predecible una vez que entiendes cómo funciona. Después del primer mes, todo se hace más fácil.
 

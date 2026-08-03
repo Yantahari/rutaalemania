@@ -22,9 +22,9 @@ La Blue Card es un **permiso de residencia y trabajo** para profesionales altame
 - Es válida en toda la UE, aunque cada país la gestiona de forma independiente.
 - En Alemania, se emite inicialmente por **4 años** (o por la duración del contrato + 3 meses si el contrato es menor).
 - Permite cambiar de empleador: los primeros 12 meses se comunica, y la oficina solo puede vetarlo en 30 días si no se cumplen los requisitos (§ 18g Abs. 4 AufenthG).
-- Ofrece el **camino más rápido a la residencia permanente** (Niederlassungserlaubnis): tan solo **21 meses** con nivel B1 de alemán.
+- Ofrece el **camino más rápido a la residencia permanente** (Niederlassungserlaubnis): tan solo **21 meses cotizados** con nivel B1 de alemán.
 
-> **Clave:** La Blue Card no es un visado más. Es la vía rápida a la residencia permanente en Alemania, con ventajas exclusivas que ningún otro permiso ofrece.
+> **Clave:** La Blue Card no es un visado más. Es la vía rápida a la residencia permanente en Alemania, con un **paquete de ventajas que ningún otro permiso reúne junto**.
 
 ---
 
@@ -39,12 +39,12 @@ Debes tener un título de educación superior (licenciatura, grado, ingeniería,
 **¿Cómo saber si tu título es válido?**
 
 - Consulta la base de datos **anabin** (anabin.kmk.org), donde puedes buscar tu universidad y carrera.
-- Tu título debe aparecer con la clasificación **H+** (institución reconocida) y tu carrera como **entspricht** (equivalente).
+- La ley pide un título **reconocido o comparable** a uno alemán; **así se comprueba en la práctica**: si tu universidad aparece con la clasificación **H+** (institución reconocida) y tu carrera como **entspricht** (equivalente), la administración lo da por acreditado.
 - Si tu título no aparece o tiene una clasificación diferente, puedes solicitar una **evaluación individual** a través de la KMK (Kultusministerkonferenz). Te explicamos todo el proceso en nuestra [guía sobre el reconocimiento de títulos en Alemania](/blog/reconocimiento-titulos/).
 
 > **Importante:** Desde la reforma de 2023, también se aceptan **títulos de formación profesional superior** equivalentes a un nivel 6 del Marco Europeo de Cualificaciones (EQF), aunque esto es menos común para hispanohablantes.
 
-**Vía alternativa sin título universitario (solo informática):** también cumples este requisito si acreditas **tres años de experiencia en IT dentro de los últimos siete años** como profesional del sector. No la confundas con la [vía del § 19c](/blog/trabajar-en-it-alemania/), que pide **dos años en los últimos cinco** y tiene otro umbral salarial: son permisos distintos con relojes distintos.
+**Vía alternativa sin título universitario (solo informática):** también cumples este requisito si acreditas **tres años de experiencia en IT dentro de los últimos siete años** como profesional del sector — experiencia de nivel comparable a un título y necesaria para el puesto. Esta vía lleva el visto bueno de la Agencia Federal de Empleo (§ 18g Abs. 2), que comprueba que el salario, la jornada y las vacaciones estén al nivel de un trabajador alemán en el mismo puesto — puede pedir más que el mínimo del umbral. No la confundas con la [vía del § 19c](/blog/trabajar-en-it-alemania/), que pide **dos años en los últimos cinco** y tiene otro umbral salarial: son permisos distintos con relojes distintos.
 
 ---
 
@@ -52,11 +52,11 @@ Debes tener un título de educación superior (licenciatura, grado, ingeniería,
 
 Necesitas una **oferta de trabajo concreta o un contrato firmado** con un empleador alemán. El puesto debe estar relacionado con tu cualificación profesional (tu título universitario o, en la vía IT por experiencia, tu trayectoria acreditada).
 
-- El contrato puede ser de duración determinada o indefinida.
+- El contrato puede ser de duración determinada o indefinida, pero **debe prever al menos seis meses de empleo** (§ 18g Abs. 3 AufenthG). Con un contrato de cuatro o cinco meses no hay Blue Card, por alto que sea el salario.
 - No necesitas que el empleador haga un trámite especial; la Blue Card se solicita directamente por ti.
-- Desde 2023, la Agencia Federal de Empleo (Bundesagentur für Arbeit) ya **no necesita aprobar** la mayoría de solicitudes de Blue Card (se eliminó la prueba de mercado laboral).
+- Lo que desapareció con la reforma de 2023 es la **prueba de mercado laboral**: por regla general, tu empleador no tiene que demostrar que no encontró a un candidato europeo. Cosa distinta es el **visto bueno de la Agencia Federal de Empleo** (Zustimmung): la vía estándar no lo necesita (§ 18g Abs. 1), pero las vías de **salario reducido** — profesión de escasez, título de hace tres años o menos, o informática sin título — **sí lo llevan** (§ 18g Abs. 1 Satz 2 y Abs. 2). Y no es un sello automático: la Agencia comprueba que **el salario, la jornada y las vacaciones** sean comparables a los de un trabajador alemán en el mismo puesto, y puede acabar pidiendo un sueldo **más alto** que el mínimo de la Tarjeta Azul. Cuenta con unas semanas más de trámite.
 
-> **Buena noticia:** No hay prueba de mercado laboral. Tu empleador no necesita demostrar que no encontró a un candidato europeo. Esto simplifica y acelera enormemente el proceso.
+> **Buena noticia:** por regla general no hay prueba de mercado laboral — tu empleador no necesita demostrar que no encontró a un candidato europeo. Si vas por el **umbral reducido**, suma a tu calendario el visto bueno de la Agencia Federal de Empleo.
 
 ---
 
@@ -71,7 +71,7 @@ Tu salario bruto anual debe superar un **umbral mínimo establecido por el gobie
 | Categoría | Salario bruto anual mínimo | Salario bruto mensual |
 |---|---|---|
 | **Umbral general** | 50.700 € | ~4.225 € |
-| **Profesiones con escasez (Mangelberufe)** | 45.934,20 € | ~3.828 € |
+| **Umbral reducido (Mangelberufe y titulados de hace ≤ 3 años)** | 45.934,20 € | ~3.828 € |
 
 > **Cifras verificadas en agosto de 2026** (fuente: Bundesanzeiger AT 18.12.2025 B3). **Los dos umbrales cambian cada enero**, porque se calculan sobre el techo de cotización del seguro de pensiones — el general es el 50 % y el reducido el 45,3 %. Comprueba el importe del año en que solicites: no des por buena una cifra que no diga de qué año habla.
 
@@ -84,6 +84,8 @@ Las llamadas **Mangelberufe** (profesiones con escasez de trabajadores) incluyen
 - **Ciencias naturales:** matemáticos, físicos, químicos, biólogos
 - **Medicina:** médicos, veterinarios, dentistas, farmacéuticos
 - **Profesionales de enfermería y matronas** (con título universitario)
+
+**El umbral reducido no es solo para esta lista**: también te corresponde si obtuviste tu título hace **tres años o menos**, sea cual sea tu campo (§ 18g Abs. 1 Satz 2 AufenthG). Y las vías de umbral reducido — por profesión o por título reciente — llevan el visto bueno de la Agencia Federal de Empleo (ver requisito 2).
 
 > 💡 **Consejo:** La gran mayoría de profesionales hispanohablantes que obtienen la Blue Card trabajan en **IT, ingeniería o sanidad**. Si tu campo está en esta lista, te beneficias del umbral reducido. Si trabajas en IT sin título universitario, también puedes [obtener un permiso de trabajo en Alemania por la vía del §19c](/blog/trabajar-en-it-alemania/).
 
@@ -100,7 +102,19 @@ La Blue Card no es solo un permiso de trabajo. Sus **ventajas son significativam
 | B1 o superior | **21 meses** |
 | A1 | **27 meses** |
 
-Compara esto con el permiso de trabajo normal, que requiere **5 años** para acceder a la residencia permanente. La diferencia es enorme.
+Los meses que cuentan son **meses trabajados con la Blue Card cotizando al seguro de pensiones** (§ 18c Abs. 2 AufenthG) — no meses de calendario desde que llegaste. Una pausa larga sin cotizar no suma.
+
+El plazo hasta la residencia permanente depende del permiso que tengas y de tu nivel de alemán:
+
+| Tu permiso | Residencia permanente |
+|---|---|
+| Blue Card | **21 meses** cotizados, con B1 · **27 meses**, con A1 (§ 18c Abs. 2 AufenthG) |
+| Permiso de profesional cualificado (§ 18a/§ 18b: título o formación reconocidos) | **3 años** — 36 meses cotizados, con B1 (§ 18c Abs. 1) · **2 años** (24 meses) si completaste tu formación profesional o tus estudios en Alemania |
+| Permiso sin cualificación reconocida (p. ej. la [vía IT del § 19c](/blog/trabajar-en-it-alemania/) sin título) | **5 años** (regla general) |
+
+*Cada vía pide su propio alemán: la fila del profesional cualificado exige B1; la Blue Card es la única de la tabla que admite llegar con A1.*
+
+Los **5 años** que a veces se leen son solo la última fila: la regla general de quien no cuenta como profesional cualificado.
 
 > 💡 **Consejo:** Invertir en aprender alemán vale la pena. Con un nivel B1 puedes obtener tu residencia permanente en menos de 2 años. Plataformas como [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrecen cursos intensivos de alemán online con profesores nativos, ideales para preparar tu certificación mientras trabajas.
 
@@ -115,7 +129,7 @@ Compara esto con el permiso de trabajo normal, que requiere **5 años** para acc
 - Tu cónyuge recibe automáticamente permiso de trabajo.
 - Los hijos menores también quedan cubiertos.
 
-> **Buena noticia:** A diferencia de otros permisos de residencia, con la Blue Card tu familia puede reunirse contigo sin barreras de idioma previas.
+> **Buena noticia:** con la Blue Card tu familia puede reunirse contigo sin barreras de idioma previas — una exención que la ley extiende también a otros permisos cualificados (§ 30 AufenthG).
 
 ---
 
@@ -126,7 +140,7 @@ Compara esto con el permiso de trabajo normal, que requiere **5 años** para acc
 
 ### Otras ventajas
 
-- **No hay prueba de mercado laboral** en la mayoría de casos.
+- **Prueba de mercado laboral**: por regla general no se aplica. Las vías de umbral reducido llevan, eso sí, el visto bueno de la Agencia Federal de Empleo (§ 18g Abs. 1 Satz 2 y Abs. 2).
 - **Cambio de empleador**: es un derecho — los primeros 12 meses se comunica y solo cabe veto en 30 días (§ 18g Abs. 4); después, sin restricciones.
 - **Si pierdes el empleo:** comunica el cese a la Ausländerbehörde en las dos semanas siguientes a saberlo (obligación legal; tu empleador también está obligado, con cuatro). El permiso sigue válido de entrada, pero la oficina puede acortarlo — el margen de ~3 meses que se suele citar es práctica administrativa, no un derecho.
 
@@ -270,7 +284,7 @@ Durante este tiempo, puedes cobrar el **subsidio de desempleo** si has cotizado 
 
 ### ¿Mi pareja necesita hablar alemán para venir conmigo?
 
-**No.** Esta es una de las grandes ventajas de la Blue Card. Tu cónyuge **no necesita demostrar conocimientos de alemán** antes de la reagrupación familiar, a diferencia de otros permisos de residencia.
+**No.** Tu cónyuge **no necesita demostrar conocimientos de alemán** antes de la reagrupación familiar (§ 30 Abs. 1 Satz 2 Nr. 5 AufenthG). La misma exención cubre otros permisos cualificados — como el § 18a, el § 18b o la vía IT del § 19c Abs. 2 —, así que si acabas en otra de esas vías, tampoco la pierdes.
 
 ---
 
