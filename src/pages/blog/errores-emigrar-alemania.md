@@ -123,7 +123,7 @@ Incluye foto profesional, firma, y **prepara un Anschreiben convincente** para c
 
 ## Error 4: No abrir el Sperrkonto a tiempo
 
-Si necesitas una visa para venir a Alemania (básicamente, si no eres ciudadano de la UE/EEE), necesitarás un **Sperrkonto** (cuenta bloqueada). Y este es un trámite que **debes hacer ANTES de solicitar la visa**, no después.
+Si necesitas una visa para venir a Alemania (básicamente, si no eres ciudadano de la UE/EEE), tendrás que **demostrar que tu sustento está asegurado** — es lo que exige la ley (§ 20a AufenthG con § 2 Abs. 3: sustento asegurado, seguro médico incluido, sin recurrir a ayudas públicas), y la ley no impone un instrumento concreto. La vía que usa la gran mayoría es la **Sperrkonto** (cuenta bloqueada); también se acepta una **declaración de compromiso** (Verpflichtungserklärung, § 68 AufenthG) de alguien que responda por ti — y ojo con lo que eso significa: **quien la firma responde durante cinco años del dinero público que se gaste en ti**. No es un favor pequeño; que quien te la firme lo sepa. La última palabra la tiene siempre el consulado que tramita tu solicitud. Si vas por la Sperrkonto, es un trámite que **debes hacer ANTES de solicitar la visa**, no después.
 
 ### Qué es el Sperrkonto
 
@@ -228,7 +228,7 @@ Tardé casi dos meses en regularizar todo. Dos meses de estrés innecesario que 
 Para que no te pase lo mismo, aquí tienes un resumen de lo que debes hacer **antes de subir al avión**:
 
 - [ ] Empezar a aprender alemán (mínimo A1-A2) con [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) u otra plataforma
-- [ ] Abrir el Sperrkonto con [Expatrio](https://www.expatrio.com/?p=rutaalemania) (si necesitas visa)
+- [ ] Acreditar tus medios económicos — lo habitual: abrir el Sperrkonto con [Expatrio](https://www.expatrio.com/?p=rutaalemania) (si necesitas visa)
 - [ ] Adaptar tu CV al formato Lebenslauf alemán
 - [ ] Reservar cita en la Bürgeramt para el Anmeldung (consulta nuestra [checklist de los primeros 30 días](/blog/primeros-pasos-alemania/))
 - [ ] Investigar el sistema de seguro médico (usa la [herramienta de Feather](https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania) para saber qué seguros necesitas)

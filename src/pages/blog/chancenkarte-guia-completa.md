@@ -74,7 +74,7 @@ Para la Vía 1, debe estar además **reconocido en Alemania**.
 
 ### 2. Medios económicos suficientes
 
-Debes demostrar que puedes mantenerte económicamente durante tu estancia. Esto se hace mediante una **Sperrkonto** (cuenta bloqueada) con al menos **13.092 euros** (1.091 euros/mes x 12 meses, cifra actualizada para 2026). Te explicamos todo el proceso en nuestra [guía para abrir tu Sperrkonto paso a paso](/blog/sperrkonto-como-abrir/).
+Debes demostrar que tu **sustento está asegurado** durante la estancia — seguro médico incluido y sin recurrir a ayudas públicas (§ 20a con § 2 Abs. 3 AufenthG). La ley no impone un instrumento concreto: la vía habitual, y la que los consulados aceptan sin discusión, es una **Sperrkonto** (cuenta bloqueada) con al menos **13.092 euros** (1.091 euros/mes x 12 meses, cifra actualizada para 2026); también puede aceptarse una **declaración de compromiso** (Verpflichtungserklärung, § 68 AufenthG) — pregunta a tu consulado qué acepta. Te explicamos todo el proceso de la Sperrkonto en nuestra [guía para abrir tu Sperrkonto paso a paso](/blog/sperrkonto-como-abrir/).
 
 > 💡 **Consejo:** Puedes abrir tu Sperrkonto fácilmente con [Expatrio](https://www.expatrio.com/?p=rutaalemania). Es el proveedor más usado por solicitantes de visado y el proceso es 100% online.
 

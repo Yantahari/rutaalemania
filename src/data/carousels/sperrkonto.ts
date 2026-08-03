@@ -43,7 +43,7 @@ const slides: CarouselSlide[] = [
     icon: '🔒',
     title: '¿Qué es el <span class="cb-gold">Sperrkonto</span>?',
     cardContent:
-      'Es una <span class="cb-gold">cuenta bancaria bloqueada</span> que demuestra que tienes fondos suficientes para vivir en Alemania.<br><br>Es <span class="cb-gold">obligatorio</span> para obtener tu visado de estudiante o Chancenkarte.',
+      'Es una <span class="cb-gold">cuenta bancaria bloqueada</span> que demuestra que tienes fondos suficientes para vivir en Alemania.<br><br>Es la vía <span class="cb-gold">habitual</span> para acreditar los medios que exige tu visado de estudiante o Chancenkarte.',
   },
   // Slide 3 — ¿Cuánto dinero necesitas?
   {

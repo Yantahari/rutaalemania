@@ -22,12 +22,13 @@ Ese dinero queda bloqueado y solo puedes acceder a él una vez que llegas a Alem
 
 > **Clave:** Es la forma que tiene el gobierno alemán de asegurarse de que puedes mantenerte económicamente durante tu estancia. Al presentar la confirmación de tu Sperrkonto en la embajada, demuestras que tienes fondos suficientes para vivir en Alemania sin depender de ayudas públicas.
 
-La Sperrkonto es **obligatoria** para:
+Lo que estos visados exigen por ley es **sustento asegurado** (§ 2 Abs. 3 AufenthG: medios suficientes, seguro médico incluido, sin ayudas públicas). La Sperrkonto es **la forma más habitual y segura de acreditarlo** — la que en la práctica piden los consulados — para:
 
 - **Visado de estudios** (Studentenvisum)
 - **[Chancenkarte](/blog/chancenkarte-guia-completa/)** (tarjeta de oportunidad)
-- **Visado de búsqueda de empleo** (§ 20 AufenthG)
 - Cualquier otro visado donde la embajada exija prueba de medios económicos
+
+Hay una alternativa con casa legal propia: la **declaración de compromiso** (Verpflichtungserklärung, § 68 AufenthG), con la que otra persona responde por ti. Es un compromiso serio para quien lo asume: **quien la firma responde durante cinco años del dinero público que se gaste en ti** — díselo antes de pedírsela. Y la última palabra la tiene el consulado que tramita tu solicitud: pregunta antes de apartarte de la vía estándar.
 
 ---
 
