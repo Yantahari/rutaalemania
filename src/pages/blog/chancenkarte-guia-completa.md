@@ -19,7 +19,7 @@ En esta guía te explico todo lo que necesitas saber: qué es exactamente, quié
 
 La Chancenkarte (§ 20a AufenthG) es un **permiso de residencia temporal** que te permite estar en Alemania hasta 12 meses con el objetivo exclusivo de buscar un empleo cualificado. Forma parte de la reforma de la Ley de Inmigración de Trabajadores Cualificados (*Fachkräfteeinwanderungsgesetz*) que entró en vigor el 1 de junio de 2024.
 
-A diferencia de otros visados de búsqueda de empleo que ya existían (como el § 20 para titulados universitarios), la Chancenkarte es **más accesible** porque no exige necesariamente un título universitario. También la pueden obtener personas con formación profesional cualificada.
+A diferencia de otros visados de búsqueda de empleo que ya existían (el § 20, que hoy solo cubre la búsqueda de empleo posterior a una estancia en Alemania — por ejemplo, tras terminar aquí los estudios), la Chancenkarte es **más accesible** porque no exige necesariamente un título universitario. También la pueden obtener personas con formación profesional cualificada.
 
 > **Clave:** No necesitas una oferta de trabajo para solicitarla. Vienes, buscas, y cuando encuentras empleo, cambias a un permiso de trabajo ordinario sin tener que volver a tu país.
 
