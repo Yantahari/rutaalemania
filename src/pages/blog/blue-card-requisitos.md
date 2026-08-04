@@ -217,7 +217,7 @@ Muchos hispanohablantes confunden estos dos visados. Aquí las **diferencias cla
 | Aspecto | Blue Card | Chancenkarte |
 |---|---|---|
 | **Propósito** | Trabajar con contrato ya firmado | Buscar trabajo en Alemania |
-| **Requiere oferta de trabajo** | Sí, obligatoria | No |
+| **Requiere oferta de trabajo** | Sí, obligatoria — y el contrato debe prever al menos 6 meses de empleo | No |
 | **Título universitario** | Obligatorio — salvo en IT: 3 años de experiencia en los últimos 7 | Necesario para puntos (no obligatorio) |
 | **Salario mínimo** | Sí (45.934,20–50.700 €) | No aplica (es para buscar) |
 | **Duración** | Hasta 4 años, renovable | 1 año, no renovable |
