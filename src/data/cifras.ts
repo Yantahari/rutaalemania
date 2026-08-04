@@ -18,9 +18,11 @@
 // (ILOSTAT). NO se convierten a euros: si los dos lados de una división
 // están en la misma unidad, el cociente es válido y no hay nada que
 // convertir (día 143).
+// 'puestos': conteo de vacantes de empleo (tanda del alemán, día 147) —
+// primera unidad de conteo del fichero; solo para cifras de mercado laboral.
 export type Unidad =
   | '€' | '€/mes' | '€/año' | '€/28días' | '%' | 'coef'
-  | '€/m²/mes' | 'm²' | 'kWh/año' | '€/kWh' | 'USD-PPA/mes';
+  | '€/m²/mes' | 'm²' | 'kWh/año' | '€/kWh' | 'USD-PPA/mes' | 'puestos';
 // 'estimacion': valor asumido y declarado como tal (sin fuente que lo fije);
 // existe para que las estimaciones no se disfracen de hechos.
 // 'solvente': fuente seria NO gubernamental (DMB, Stromspiegel, BDEW…) —
@@ -186,6 +188,48 @@ export const CIFRAS = {
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Es el 55 % de la BBG de pensiones' },
     fuente: { nombre: 'Bekanntmachung del BMI de 2-dic-2025 (§18 Abs. 2 Nr. 5 AufenthG)', tipo: 'oficial' },
     nota: 'HOY NO SE PUBLICA en ninguna página del sitio (medido el día 144). Se data por adelantado para que, si algún artículo lo menciona, ya tenga contra qué contrastarse.',
+  },
+
+  // ─── Mercado laboral (tanda del alemán, 4-ago-2026) ─────────────────────
+  // Grado de origen: verificación [web] del chat estratégico del 4-ago-2026
+  // (convención c7cebd9), NO medidas por CCode contra la fuente. Son las DOS
+  // medidas de vacantes que existen — registradas (BA) y oferta total (IAB) —
+  // y nunca se publica «vacantes» sin decir cuál de las dos se cuenta.
+  'mercado.vacantes.registradas.ba': {
+    valor: 641000,
+    unidad: 'puestos',
+    vigencia: '2026-04',
+    verificado: '2026-08-04',
+    revision: { tipo: 'calendario', proxima: '2026-09', porque: 'La Bundesagentur für Arbeit publica el stock de vacantes registradas cada mes; se re-mira en la cita del vigía de septiembre o al tocar el artículo. Marzo-2026: 638.000. En 2024 estuvo en ~700-706.000 — el «700.000» del sitio fue cierto y dejó de serlo.' },
+    fuente: { nombre: 'Bundesagentur für Arbeit, informe mensual del mercado de trabajo (abril 2026)', tipo: 'oficial' },
+    nota: 'Solo las comunicadas a la agencia. La oferta total de la economía es mercado.vacantes.total.iab.',
+  },
+  'mercado.vacantes.total.iab': {
+    valor: 1150000,
+    unidad: 'puestos',
+    vigencia: '2026-T1',
+    verificado: '2026-08-04',
+    revision: { tipo: 'calendario', proxima: '2026-11', porque: 'IAB-Stellenerhebung: sondeo trimestral; el T2-2026 se publica en otoño. Máximo histórico: ~2 M en T4-2022 — el valor actual está un 42 % por debajo (la demanda se enfrió; publicar «va en aumento» fue la mitad de la falsedad retirada).' },
+    fuente: { nombre: 'IAB-Stellenerhebung, 1er trimestre de 2026', tipo: 'oficial' },
+    nota: 'Incluye los puestos que las empresas no comunican a la BA.',
+  },
+  'mercado.parados_por_100_vacantes': {
+    valor: 264,
+    unidad: 'coef',
+    vigencia: '2026-T1',
+    verificado: '2026-08-04',
+    revision: { tipo: 'calendario', proxima: '2026-11', porque: 'Misma publicación trimestral del IAB que la oferta total' },
+    fuente: { nombre: 'IAB, 1er trimestre de 2026 (parados por cada 100 vacantes registradas)', tipo: 'oficial' },
+    nota: 'El dato del DESAJUSTE: mercado débil con problema de encaje, no de volumen. Sostiene el cierre del párrafo de trabajar-alemania-sin-aleman:18.',
+  },
+  'mercado.anuncios_sin_aleman.indeed': {
+    valor: 2.7,
+    unidad: '%',
+    vigencia: 'sept-2023–ago-2024',
+    verificado: '2026-08-04',
+    revision: { tipo: 'calendario', proxima: '2027-08', porque: 'Hiring Lab publica análisis anuales; sin serie fija — si no hay edición nueva, la cifra envejece y se retira antes que extrapolarse' },
+    fuente: { nombre: 'Hiring Lab / Indeed, media sept-2023–ago-2024', tipo: 'solvente' },
+    nota: 'REFERENCIA DE ORDEN, no medida de accesibilidad: mide anuncios que DECLARAN expresamente no requerir alemán, no «ofertas accesibles sin alemán». El texto visible mantiene la distinción — no convertir nunca en «solo el 2,7 % del mercado es accesible». Sustituye a la escalera 15/30/70/95 retirada (sin fuente localizable, guardián la vigila).',
   },
 
   // ─── JAEG (umbral GKV/PKV para empleados) ───────────────────────────────
