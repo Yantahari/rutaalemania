@@ -208,7 +208,7 @@ La respuesta corta: **para conseguir el trabajo, generalmente no. Para vivir bie
 
 ### Recomendación realista
 
-Consigue el trabajo en inglés, pero **invierte en aprender alemán desde el primer día**. Te abrirá puertas laborales, te facilitará la vida diaria y te ayudará a integrarte. En nuestro artículo sobre [trabajar en Alemania sin saber alemán](/blog/trabajar-alemania-sin-aleman/) analizamos en detalle cómo el nivel de idioma impacta en tu salario y oportunidades.
+Consigue el trabajo en inglés, pero **invierte en aprender alemán desde el primer día**. Te abrirá puertas laborales, te facilitará la vida diaria y te ayudará a integrarte. En nuestro artículo sobre [trabajar en Alemania sin saber alemán](/blog/trabajar-alemania-sin-aleman/) analizamos qué se sabe de verdad sobre cómo el nivel de idioma impacta en tu salario y oportunidades.
 
 Además, si decides solicitar la residencia permanente, necesitarás al menos un B1.
 
