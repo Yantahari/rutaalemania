@@ -25,7 +25,7 @@ La **vacuna contra la rabia** debe estar vigente y haberse aplicado al menos **2
 
 ### Titulacion de anticuerpos
 
-Si viaja desde un **pais que la UE no considera de bajo riesgo de rabia**, necesita ademas una **titulacion de anticuerpos** contra la rabia. **De America Latina, a fecha de agosto de 2026 solo Argentina, Chile y Mexico estan en la lista de paises exentos**: desde el resto de la region, este analisis es obligatorio. La lista cambia —en junio de 2026 entraron dos paises nuevos—, asi que **compruebe si el suyo sigue fuera** antes de dar por hecho que le toca.
+Si viaja desde un **pais que la UE no considera de bajo riesgo de rabia**, necesita ademas una **titulacion de anticuerpos** contra la rabia. **De America Latina, solo Argentina, Chile y Mexico estan en la lista de paises exentos** *(verificado en agosto de 2026)*: desde el resto de la region, este analisis es obligatorio. La lista cambia —en junio de 2026 entraron dos paises nuevos—, asi que **compruebe si el suyo sigue fuera** antes de dar por hecho que le toca.
 
 Es un analisis de sangre que debe realizarse en **un laboratorio aprobado por la UE** — no vale cualquier laboratorio de su ciudad. Y **el calendario no depende de lo rapido que sea**: la extraccion no puede hacerse hasta **30 dias despues de la vacuna**, y desde la extraccion deben pasar **tres meses** antes de que su mascota pueda entrar. **Cuente unos cuatro meses desde la vacuna, y empiece por ahi.**
 
