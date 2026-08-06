@@ -295,6 +295,6 @@ La Sperrkonto es un trámite que parece intimidante pero que en la práctica es 
 
 ## Disclaimer
 
-Este artículo tiene fines informativos. Los montos y precios están verificados a julio de 2026, pero cambian periódicamente.
+Este artículo tiene fines informativos. Los montos y precios están verificados en julio de 2026, pero cambian periódicamente.
 
 Los enlaces a Expatrio y Wise son enlaces de afiliado: si contratas a través de ellos, recibimos una pequeña comisión sin coste adicional para ti. Esto nos permite mantener RutaAlemania como recurso gratuito. Mantenemos la independencia editorial: solo recomendamos servicios que hemos verificado.

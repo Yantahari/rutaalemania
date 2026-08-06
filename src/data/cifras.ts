@@ -1799,7 +1799,21 @@ export function valorTexto(id: CifraId): string {
   return fmtValor(CIFRAS[id]);
 }
 
-/** «13.092 €/año (verificado en julio de 2026)» — la fecha viaja con el dato. */
+/**
+ * «13.092 €/año (verificado en julio de 2026)» — la idea era que la fecha
+ * viajara con el dato.
+ *
+ * ⚠️ NO TIENE LLAMANTES, Y NO PUEDE TENERLOS (medido el 6-ago-2026, día 149).
+ * Los sellos datados del sitio viven en los `.md` de `src/pages/blog/`, y los
+ * `.md` de Astro NO ejecutan expresiones: no hay `@astrojs/mdx` instalado. Por
+ * eso los 12 sellos del sitio se escriben A MANO, y por eso divergieron en
+ * cinco formas distintas hasta que se midió.
+ *
+ * Para estrenarla harían falta MDX o mover los sellos a componentes `.astro`.
+ * Se conserva porque la intención es correcta y el siguiente la reinventaría
+ * peor; se anota para que nadie lea el docstring como una descripción de lo que
+ * el sitio hace hoy. Detalle: `informes/estrategics/medicion-sellos-datados-2026-08-06.md`.
+ */
 export function conFecha(id: CifraId): string {
   const c = CIFRAS[id];
   const [y, m] = c.verificado.split('-').map(Number);

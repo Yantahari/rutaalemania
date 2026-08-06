@@ -101,7 +101,7 @@ export function calcularCotizacionesMes(
 ): number {
   const baseKvPv = Math.min(brutoMes, v('gkv.bbg.mes'));
   const baseRvAlv = Math.min(brutoMes, v('rv.bbg.mes'));
-  const kv = v('gkv.total_medio') / 2 / 100; // 8,75 % trabajador — verificada 2026-07-30
+  const kv = v('gkv.total_medio') / 2 / 100; // 8,75 % trabajador — verificado el 2026-07-30
   const pvId: CifraId = enSajonia
     ? (sinHijos ? 'pv.sachsen.sin_hijos' : 'pv.sachsen.con_hijos')
     : (sinHijos ? 'pv.trabajador.sin_hijos' : 'pv.trabajador.con_hijos');
