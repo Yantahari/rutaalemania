@@ -257,6 +257,45 @@ export const CIFRAS = {
     deriva_de: ['jaeg.anno'],
   },
 
+  // ─── Familienversicherung y base mínima del autónomo (tanda T1, 6-ago-2026)
+  // Las tres son EUROS DERIVADOS, no literal de ley: el § 10 Abs. 1 Nr. 5 SGB V
+  // fija «un séptimo de la Bezugsgröße» y el § 240 SGB V, «un tercio». Contraste
+  // cruzado hecho el 6-ago-2026: 1.318,33 × 3 = 3.955 €/mes y 3.955 ÷ 7 = 565,00
+  // — las dos cifras que llegaron por separado cuadran con una única Bezugsgröße.
+  // La Bezugsgröße 2026 NO está verificada como tal: si alguien la trae, entra
+  // aquí como clave propia y estas dos pasan a `deriva_de`.
+  'familienversicherung.limite_ingresos.mes': {
+    valor: 565,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-08-06',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Se calcula como un séptimo de la Bezugsgröße: cambio anual, efectivo enero' },
+    aplica_a: 'cónyuge o pareja en Familienversicherung',
+    fuente: { nombre: '§ 10 Abs. 1 Nr. 5 SGB V (regla) — euro derivado del valor 2026', tipo: 'derivada' },
+    nota:
+      'Publicada en seguro-medico-alemania.md con la marca «en 2026» y el aviso de que cambia cada enero. El literal del parágrafo NO dice euros.',
+  },
+  'familienversicherung.limite_minijob.mes': {
+    valor: 603,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-08-06',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Geringfügigkeitsgrenze: cambio anual, efectivo enero' },
+    aplica_a: 'familiar con minijob en Familienversicherung',
+    fuente: { nombre: '§ 10 Abs. 1 SGB V (remite a la Geringfügigkeitsgrenze) — euro derivado del valor 2026', tipo: 'derivada' },
+  },
+  'autonomo.base_minima.mes': {
+    valor: 1318.33,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-08-06',
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Se calcula como un tercio de la Bezugsgröße: cambio anual, efectivo enero' },
+    aplica_a: 'autónomos en GKV',
+    fuente: { nombre: '§ 240 SGB V (regla) — euro derivado del valor 2026', tipo: 'derivada' },
+    nota:
+      'Es el suelo de cotización: por debajo se paga igual. La CUOTA mensual resultante NO se publica — falta un operando (el tipo de dependencia del autónomo).',
+  },
+
   // ─── GKV (seguro público de salud) ──────────────────────────────────────
   'gkv.tipo_general': {
     valor: 14.6,

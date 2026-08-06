@@ -27,7 +27,7 @@ const slides: CarouselSlide[] = [
     title: '<span class="cb-gold">Público</span> vs <span class="cb-gold">Privado</span>',
     steps: [
       { num: '🏛️', text: 'Público (GKV): lo usa el 90% de la población. Cuota según tu salario.' },
-      { num: '🔒', text: `Privado (PKV): solo si ganas +${JAEG_ANNO}€/año o eres autónomo.` },
+      { num: '🔒', text: `Privado (PKV): solo si ganas +${JAEG_ANNO}€/año — y si eres autónomo, según tu historial de seguro.` },
       { num: '', text: 'Volver del privado al público es muy difícil. Elige bien.' },
     ],
   },

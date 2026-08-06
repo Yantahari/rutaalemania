@@ -105,7 +105,7 @@ En Alemania, **tener seguro médico es obligatorio por ley** desde el primer dí
 
 ### Seguro privado (Private Krankenversicherung - PKV)
 
-- Solo accesible si ganas más de 77.400 € brutos anuales (2026) o eres autónomo.
+- Solo accesible si ganas más de 77.400 € brutos anuales (2026), o si eres autónomo — con matices que explicamos en la [guía de seguro médico](/blog/seguro-medico-alemania/).
 - Las cuotas dependen de tu edad, salud y cobertura elegida, **no de tu salario**.
 - Puede ser más barato al principio para jóvenes sanos, pero sube con la edad.
 
