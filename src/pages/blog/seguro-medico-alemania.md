@@ -142,6 +142,8 @@ Si es freelancer o autónomo, **no hay empleador que pague el 50%** de su prima.
 
 En GKV como freelancer, la prima se calcula sobre sus ingresos — **pero con un suelo** (§ 240 SGB V). Existe una **base mínima de cotización**: aunque usted ingrese menos, cotiza como si ingresara **1.318,33 € al mes** (cifra de 2026, que cambia cada enero). Por debajo de ahí, **su cuota deja de bajar con sus ingresos**. Si los suyos son muy bajos, **pregunte en su caja si su caso admite alguna reducción**: no lo dé por cerrado. Y la cotización se calcula sobre su **capacidad económica completa** —alquileres, rendimientos del capital—, no solo sobre lo que factura su actividad.
 
+> ⚠️ **Y hay una trampa que conviene conocer antes de que le llegue la carta:** si su caja le pide que acredite sus ingresos y usted **no responde**, la ley no la deja cobrarle poco a la espera — **le cobra como si ganara el máximo** (§ 240 SGB V, con el tope del § 223). La diferencia no es pequeña: la base pasa de **1.318,33 € al mes** a **5.812,50 €**. **Conteste siempre esa carta**, aunque sus ingresos sean bajos: es justo cuando más caro sale no hacerlo.
+
 Esto importa al comparar: **la prima pública tiene suelo y la privada no** (la privada no depende de sus ingresos en ningún caso). Si sus ingresos son bajos e inestables, **la pública no es automáticamente la opción elástica**.
 
 <a href="https://feather-insurance.com/health-insurance/private?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Explorar opciones de PKV con Feather</a>

@@ -338,8 +338,15 @@ export const CIFRAS = {
     vigencia: '2026',
     verificado: '2026-07-30',
     fuente: { nombre: 'BBG × (total medio / 2)', tipo: 'derivada' },
-    deriva_de: ['gkv.bbg.mes', 'gkv.total_medio'],
-    nota: 'Aportación máxima del empleador al seguro de salud (también como tope en PKV). El sitio publicaba «unos 370 €».',
+    aplica_a: 'todos los asegurados en GKV',
+    nota:
+      'Beitragsbemessungsgrenze: el TECHO sobre el que se cotiza en el seguro de salud. ' +
+      '⚠️ FICHA CORREGIDA EL 6-ago-2026 (día 149): esta entrada describía «Aportación máxima del empleador al seguro de salud», ' +
+      'que es lo que describe `gkv.empleador_max_kv.mes` (508,59 €) — la nota estaba copiada de otra clave. ' +
+      'Y su `deriva_de` se apuntaba A SÍ MISMA. El VALOR siempre fue correcto y nada publicado dependía de la nota. ' +
+      'Se retira el `deriva_de` (la BBG es cifra primaria, no derivada) y NO se rellena `fuente`: atribuirla exigiría ' +
+      'verificar de qué norma sale, y eso no es de esta sesión. Hueco declarado. ' +
+      'Consumidores conocidos: `gkv.empleador_max_kv.mes` y el aviso del § 223 en seguro-medico-alemania.md.',
   },
   'gkv.empleador_max_pflege.mes': {
     valor: 104.63,
