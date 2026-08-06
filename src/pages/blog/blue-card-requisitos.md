@@ -15,7 +15,7 @@ En esta guía te explico todo lo que necesitas saber para 2026: **requisitos exa
 
 ## ¿Qué es la Blue Card exactamente?
 
-La Blue Card es un **permiso de residencia y trabajo** para profesionales altamente cualificados de fuera de la Unión Europea. Fue creada como directiva europea en 2009 y **reformada significativamente en 2023** para hacer a Europa más competitiva en la atracción de talento global.
+La Blue Card es un **permiso de residencia y trabajo** para profesionales altamente cualificados de fuera de la Unión Europea. **Es una figura europea**: la creó la **Directiva 2009/50/CE** y hoy la regula la **Directiva (UE) 2021/1883**, que la sustituyó para hacer a Europa más competitiva en la atracción de talento global. **En Alemania, las reglas que se aplican hoy vienen de la reforma de 2023** —la ley que introdujo el § 18g del AufenthG, en vigor desde noviembre de ese año—, así que **desconfía de cualquier guía anterior a esa fecha** *(verificado en agosto de 2026)*.
 
 **Puntos clave:**
 
