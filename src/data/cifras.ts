@@ -289,11 +289,11 @@ export const CIFRAS = {
     unidad: '€/mes',
     vigencia: '2026',
     verificado: '2026-08-06',
-    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Se calcula como un tercio de la Bezugsgröße: cambio anual, efectivo enero' },
+    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Cuelga de la Bezugsgröße: cambio anual, efectivo enero' },
     aplica_a: 'autónomos en GKV',
-    fuente: { nombre: '§ 240 SGB V (regla) — euro derivado del valor 2026', tipo: 'derivada' },
+    fuente: { nombre: '§ 240 Abs. 4 Satz 1 SGB V (regla) — euro derivado del valor 2026', tipo: 'derivada' },
     nota:
-      'Es el suelo de cotización: por debajo se paga igual. La CUOTA mensual resultante NO se publica — falta un operando (el tipo de dependencia del autónomo).',
+      'Es el suelo de cotización. ⚠️ EL LITERAL NO DICE «UN TERCIO»: dice «der neunzigste Teil der monatlichen Bezugsgröße» POR DÍA NATURAL (§ 240 Abs. 4 Satz 1). El tercio mensual es aritmética nuestra [calc: 1/90 × 30 días]. La CUOTA mensual resultante NO se publica — falta un operando (el tipo de dependencia del autónomo). Y del Abs. 4 solo se tiene la frase 1: si hay excepciones al suelo, vivirían en las siguientes y NO se han leído.',
   },
 
   // ─── GKV (seguro público de salud) ──────────────────────────────────────

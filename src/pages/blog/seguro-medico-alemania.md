@@ -140,7 +140,7 @@ PKV suele ofrecer **coberturas superiores** a GKV:
 
 Si es freelancer o autónomo, **no hay empleador que pague el 50%** de su prima. Usted asume toda la prima de su bolsillo. Si sus ingresos bajan, la prima PKV no baja con ellos; es fija por contrato.
 
-En GKV como freelancer, la prima se calcula sobre sus ingresos — **pero con un suelo** (§ 240 SGB V). Existe una **base mínima de cotización**: aunque usted ingrese menos, cotiza como si ingresara **1.318,33 € al mes** (cifra de 2026, que cambia cada enero). Por debajo de ahí, **gane lo que gane, paga lo mismo**. Y la cotización se calcula sobre su **capacidad económica completa** —alquileres, rendimientos del capital—, no solo sobre lo que factura su actividad.
+En GKV como freelancer, la prima se calcula sobre sus ingresos — **pero con un suelo** (§ 240 SGB V). Existe una **base mínima de cotización**: aunque usted ingrese menos, cotiza como si ingresara **1.318,33 € al mes** (cifra de 2026, que cambia cada enero). Por debajo de ahí, **su cuota deja de bajar con sus ingresos**. Si los suyos son muy bajos, **pregunte en su caja si su caso admite alguna reducción**: no lo dé por cerrado. Y la cotización se calcula sobre su **capacidad económica completa** —alquileres, rendimientos del capital—, no solo sobre lo que factura su actividad.
 
 Esto importa al comparar: **la prima pública tiene suelo y la privada no** (la privada no depende de sus ingresos en ningún caso). Si sus ingresos son bajos e inestables, **la pública no es automáticamente la opción elástica**.
 
@@ -245,7 +245,11 @@ Si la respuesta a ambas preguntas es "familia sí, Alemania largo plazo", **GKV 
 
 Laura es colombiana, vive en Alemania desde hace 10 años. Entró en PKV a los 34 (soltera, freelancer, sana). Hoy paga 680 €/mes. Acaba de ser contratada por una empresa con un salario de 62.000 €/año (por debajo del JAEG).
 
-**Análisis:** como empleada con salario por debajo de la JAEG, Laura **vuelve a la GKV** — pero «automáticamente» tiene dos letras pequeñas que le pueden costar dinero. **Primera:** la bajada de ingresos tiene que ser **previsiblemente de al menos un año** para que nazca la obligación (§ 5 Abs. 1 Nr. 1 SGB V); un contrato corto no la dispara. **Segunda, y es la cara:** una vez nace la obligación, **hay que cancelar la póliza privada, y hay tres meses para hacerlo** (§ 205 Abs. 2 VVG). Si se cancela dentro de plazo, la baja surte efecto desde el día en que nació la obligación; si se deja pasar, **se pagan los dos seguros a la vez**.
+**Análisis:** como empleada con salario por debajo de la JAEG, Laura **vuelve a la GKV** — pero «automáticamente» tiene dos letras pequeñas que le pueden costar dinero. **Primera:** la bajada de ingresos tiene que ser **previsiblemente de al menos un año** para que nazca la obligación (§ 5 Abs. 1 Nr. 1 SGB V); un contrato corto no la dispara. **Segunda, y es la cara:** una vez nace la obligación, **hay que cancelar la póliza privada, y hay tres meses para hacerlo** (§ 205 Abs. 2 VVG). El plazo cuenta **desde que nace la obligación**, no desde que usted se entera. Si cancela dentro de plazo, la baja surte efecto **desde el día en que nació la obligación**.
+
+**Y hay un segundo plazo que casi nadie cuenta:** si la aseguradora le pide por escrito que acredite que ya está en el seguro obligatorio, **tiene dos meses para presentarlo**. Si no lo hace, **la cancelación no vale** — aunque la hubiera enviado a tiempo.
+
+Si se le pasan los tres meses, **no lo pierde todo**: puede cancelar más adelante, con efecto **a fin del mes en que acredite la obligación**. Lo que pierde es la retroactividad: **los meses que pague dos seguros a la vez**.
 
 Es una de las pocas vías reales de salida de PKV que quedan a su edad. Si continuara como freelancer, tendría que seguir en PKV con primas que subirán cada año.
 
