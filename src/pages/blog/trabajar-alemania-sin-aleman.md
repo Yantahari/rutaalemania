@@ -58,17 +58,17 @@ Las Big Four (Deloitte, PwC, EY, KPMG), McKinsey, BCG y bancos como Deutsche Ban
 
 ### Sanidad
 
-Enfermería, medicina, fisioterapia, farmacia: **necesitas alemán B2 como mínimo**, y en muchos estados federados te piden C1. No es negociable.
+Enfermería, medicina, fisioterapia, farmacia: el alemán es un requisito real, pero **el nivel lo fija cada estado federado, no una ley federal**. Lo habitual es **B2 general más un examen de lengua profesional** (*Fachsprachenprüfung*) orientado a C1. No sale de la ley —la *Bundesärzteordnung* solo exige «los conocimientos necesarios para el ejercicio», sin nombrar nivel— sino de un acuerdo de los ministros de Sanidad de los Länder, **que cada estado aplica a su manera**. Confírmalo con la autoridad de tu Land.
 
 Los pacientes hablan alemán y la documentación clínica es en alemán. Si vienes del sector sanitario, **el idioma es tu primera inversión**.
 
 ### Educación
 
-Para trabajar en colegios, institutos o universidades públicas como docente, **necesitas alemán**. En guarderías (*Kitas*), el requisito suele ser al menos B2.
+Para dar clase en **colegios e institutos** públicos necesitas alemán: el acceso a la función docente lo regula el derecho escolar de cada estado federado. **Las universidades son otra cosa** — se enseña e investiga en inglés con normalidad, como cuento más arriba. En **guarderías** (*Kitas*) el nivel lo fija cada Land y **no es un suelo uniforme**: Baviera exige B2 (§ 16 Abs. 6 AVBayKiBiG), y **Berlín lo admite solo de forma provisional durante el procedimiento y exige acreditar C1 en 18 meses**.
 
 ### Administración pública
 
-Cualquier puesto en la administración pública alemana (ayuntamientos, ministerios, agencias) requiere **alemán fluido**. Sin excepción.
+En la administración pública alemana (ayuntamientos, ministerios, agencias) el alemán fluido es el requisito habitual — pero **no lo impone ninguna norma de personal**: lo pide cada empleador en su convocatoria, y por eso **es él quien puede excepcionarlo**. Lo que sí manda la ley es que **el procedimiento administrativo se tramite en alemán** (§ 23 Abs. 1 VwVfG, *«Die Amtssprache ist deutsch»*), que es cosa distinta de exigirle un nivel a quien trabaja allí.
 
 ---
 
@@ -78,11 +78,13 @@ Si tu trabajo implica hablar con clientes alemanes (call center, ventas, soporte
 
 ### Oficios y construcción
 
-Electricistas, fontaneros, mecánicos, carpinteros: **el trabajo diario es en alemán**. Los compañeros, los clientes, la documentación técnica, las normas de seguridad... todo en alemán.
+Electricistas, fontaneros, mecánicos, carpinteros: **el trabajo diario es en alemán** — los compañeros, los clientes y la documentación técnica.
+
+> ⚠️ **Las normas de seguridad son la excepción, y es un derecho tuyo que conviene conocer.** La ley obliga a tu empresa a darte las instrucciones de seguridad y la *Betriebsanweisung* **en una lengua que entiendas** (§ 12 Abs. 2 BetrSichV, § 14 GefStoffV y § 4 DGUV Vorschrift 1, en desarrollo del § 12 ArbSchG). **La obligación es del empresario, no tuya.** Si te entregan una instrucción de seguridad que no entiendes, puedes pedir que te la den en tu idioma.
 
 ### Derecho y asesoría fiscal
 
-El derecho alemán se ejerce en alemán. **No hay atajos aquí.**
+El derecho **alemán** se ejerce en alemán: el *Staatsexamen* y los tribunales van en alemán, y esa es la vía para ser abogado **alemán**. **Pero ejercer el derecho EN Alemania no es solo eso:** el **§ 206 BRAO** permite que un abogado extranjero se establezca aquí y, **inscrito en un Colegio de Abogados** (*Rechtsanwaltskammer*), ejerza **el derecho de su país de origen y el derecho internacional**. No es una excepción de hecho: es una vía con parágrafo, reglamento de desarrollo y lista de Estados.
 
 > **Importante:** Si tu profesión pertenece a alguno de estos sectores, no pospongas el aprendizaje del alemán. Cuanto antes empieces, antes podrás ejercer.
 
@@ -166,7 +168,7 @@ Una vez en Alemania, busca un *Tandempartner*: tú le enseñas español, y esa p
 
 ### Cursos intensivos presenciales
 
-Las *Volkshochschulen* (VHS) ofrecen cursos de alemán muy económicos (200-400 EUR por nivel). Goethe-Institut es más caro pero más reconocido internacionalmente.
+Las *Volkshochschulen* (VHS) son la opción más económica, y **cada municipio pone su precio**: no hay tarifa nacional. **Ojo a la unidad**, porque es donde la gente se lleva el susto: no se factura «por nivel» ni «por trimestre», sino **por curso**, y cada VHS decide cuánto dura el suyo. Como orden de magnitud medido, en la **VHS de Bremen en agosto de 2026**: un B2 a tiempo parcial de agosto a diciembre, **330 €**; un A1 intensivo de dos meses, **655 €**. Goethe-Institut es más caro pero más reconocido internacionalmente. **Consulta la VHS de tu ciudad: es el único precio que te sirve.**
 
 Si ya estás en Alemania, **un curso intensivo de 4-6 semanas puede ser el empujón que necesitas**.
 

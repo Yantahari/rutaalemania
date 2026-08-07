@@ -177,7 +177,7 @@ Pero Alemania **no es solo Berlín** y **no es solo el sector tech**.
 
 ### Dónde el inglés NO te salva
 
-- **Oficinas públicas (Behörden):** La administración funciona en alemán. Punto. Las cartas de Hacienda, del seguro médico, de la Ausländerbehörde... todo en alemán. Y no son textos sencillos.
+- **Oficinas públicas (Behörden):** la administración funciona en alemán, y no es costumbre sino ley: *«Die Amtssprache ist deutsch»* (§ 23 Abs. 1 VwVfG). Las cartas de Hacienda, del seguro médico, de la Ausländerbehörde... todo en alemán. Y no son textos sencillos.
 - **Médicos y hospitales:** Fuera de las grandes ciudades, muchos médicos no hablan inglés fluido. En urgencias, **necesitas poder explicar tus síntomas en alemán**.
 - **Caseros y vecinos:** La relación con tu casero, el Hausverwaltung (administrador de fincas) y tus vecinos será en alemán. Los conflictos vecinales (ruido, basura, etc.) se resuelven en alemán.
 - **Supermercados y vida diaria:** Las instrucciones de la lavadora comunitaria, los carteles en el portal, las normas de reciclaje del edificio, el aviso de corte de agua... todo en alemán.

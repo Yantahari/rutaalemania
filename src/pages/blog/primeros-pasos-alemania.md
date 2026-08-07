@@ -194,10 +194,10 @@ Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguie
 **Opciones:**
 
 - **Integrationskurs (curso de integración):** Subvencionado por el gobierno para ciertos perfiles (reagrupación familiar, refugiados, algunos visados). Pregunta en tu Ausländerbehörde si tienes derecho. Cuesta ~2,29 € por hora lectiva (o gratuito si recibes ayudas sociales).
-- **VHS (Volkshochschule):** Las escuelas populares de cada ciudad ofrecen cursos de alemán a precios muy accesibles (100-300 € por trimestre).
+- **VHS (Volkshochschule):** las escuelas populares de cada ciudad son la opción más económica. **El precio lo fija cada municipio y se factura por curso**, no por trimestre — consulta el catálogo de la VHS de tu ciudad.
 - **[Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48):** Clases online en vivo con profesores nativos, en grupos pequeños, con horarios flexibles que se adaptan a tu jornada laboral. **Ideal si ya estás trabajando** y no puedes asistir a clases presenciales en horario fijo.
 - **[Babbel](https://es.babbel.com/cursos-de-aleman):** App con cursos de alemán diseñados para hispanohablantes. Lecciones de 10-15 minutos al día, a tu ritmo. **Ideal para empezar antes de llegar** o como complemento a clases en vivo.
-- **Goethe-Institut:** Cursos presenciales de alta calidad, pero más caros (600-1.200 € por nivel).
+- **Goethe-Institut:** cursos presenciales de alta calidad, **bastante más caros que la VHS**. Las tarifas cambian por ciudad y por formato: míralas en la web del instituto de tu ciudad.
 
 > **Clave:** El alemán es una inversión a largo plazo. Cuanto antes empieces, antes verás resultados en tu vida diaria, tu carrera y tu integración.
 
