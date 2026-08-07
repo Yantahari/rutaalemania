@@ -333,7 +333,7 @@ Si trabajas en IT (desarrollo de software, administración de sistemas, data sci
 
 - IT **no es una profesión regulada** en Alemania. Si tienes experiencia pero no título, consulta nuestra guía sobre [cómo trabajar en IT en Alemania sin título universitario](/blog/trabajar-en-it-alemania/).
 - Para la **Blue Card**, puedes demostrar tu cualificación mediante un título reconocido en Anabin **o** mediante experiencia profesional (al menos 3 años en los últimos 7 años) si tu salario supera el umbral mínimo.
-- Para la **Chancenkarte**, tu título de formación profesional debe estar **reconocido por el Estado del país donde lo obtuviste** *y* haber requerido **al menos dos años de formación** (§ 20a Abs. 3 AufenthG). También sirve un título expedido por una **Cámara de Comercio Alemana en el Exterior**. ⚠️ **Un título de un año reconocido en tu país cumple la frase pero no cumple la norma.**
+- Para la **Chancenkarte**, tu título de formación profesional debe estar **reconocido por el Estado del país donde lo obtuviste** *y* haber requerido **al menos dos años de formación**. También sirve un título expedido por una **Cámara de Comercio Alemana en el Exterior**. ⚠️ **Un título de un año reconocido en tu país cumple la frase pero no cumple la norma.**
 
 > **Clave:** En la práctica, muchos profesionales de IT nunca necesitan un proceso formal de Anerkennung. Anabin + el título original (con traducción) suelen ser suficientes.
 

@@ -23,7 +23,11 @@
 
 export const BAREMO_CHANCENKARTE = {
   vigencia: '2026',
-  verificado: '2026-08-01',
+  // 2026-08-07 (T5): los DOS criterios que el contraste del 3-ago había dejado sin
+  // entrada de canon quedan verificados contra norma — Nr. 8 (grupos del § 18g,
+  // canon R66) y Nr. 11 (estancia previa, canon R68). El sello anterior era
+  // '2026-08-01' y ya estaba corto cuando se contrastó el baremo el 3-ago.
+  verificado: '2026-08-07',
   minimo: 6,
   fuente: {
     nombre:
@@ -100,7 +104,12 @@ export const BAREMO_CHANCENKARTE = {
       id: 'deficitaria',
       etiqueta: 'Cualificación en profesión deficitaria (Mangelberuf)',
       excluyente: false,
-      opciones: [{ criterio: 'la profesión está en la lista de escasez', puntos: 1 }],
+      // ⚠️ NO es «una lista de escasez» ni la publica la BA: es una lista CERRADA
+      // de diez grupos ISCO-08 en el § 18g Abs. 1 Satz 2 Nr. 1, a la que remite el
+      // § 20b Abs. 1 Satz 1 Nr. 8. Los oficios especializados NO están (canon R66).
+      opciones: [
+        { criterio: 'la cualificación pertenece a uno de los diez grupos del § 18g', puntos: 1 },
+      ],
     },
     {
       id: 'residencia',

@@ -52,9 +52,13 @@ Existen **dos caminos** para conseguir la Chancenkarte, y es fundamental que ent
 Si cumples **todas** estas condiciones, obtienes la Chancenkarte directamente sin necesidad de pasar por el sistema de puntos:
 
 1. Tienes un título universitario o formación profesional **reconocido en Alemania** (equivalencia completa acreditada con el impreso de Anabin —que **te sacas tú**, Anabin no emite certificados— o resuelta por la autoridad competente).
-2. Demuestras conocimientos de alemán de nivel **A1** o de inglés de nivel **B2**.
+Y eso es todo: **no hay una segunda condición.**
 
-> **Buena noticia:** Con esta vía, el proceso es más directo. Si tu título ya está reconocido y tienes el idioma, no necesitas preocuparte por los puntos.
+> ⚡ **Aquí la ley está de tu lado, y casi nadie lo cuenta: la Vía 1 NO lleva requisito de idioma.** El § 20a Abs. 4 Satz 3 Nr. 2 AufenthG condiciona el alemán A1 o el inglés B2 **solo a la Chancenkarte «nach Absatz 3 Nummer 2»**, que es la **vía de puntos**. Si tu título ya está reconocido en Alemania, **puedes solicitarla sin certificado de idioma**.
+>
+> *(Otra cosa es que te convenga: sin alemán, buscar empleo cualificado es más difícil. Pero eso es un consejo nuestro, no un requisito de la ley.)*
+
+> **Buena noticia:** Con esta vía, el proceso es más directo. Si tu título ya está reconocido, no necesitas preocuparte por los puntos.
 
 ### Vía 2: Sistema de puntos — 6 puntos mínimo
 
@@ -62,13 +66,19 @@ Si tu título **no está completamente reconocido** en Alemania (pero sí está 
 
 ---
 
-## Los 3 requisitos obligatorios (para ambas vías)
+## Los requisitos obligatorios (y cuál NO se aplica a las dos vías)
 
-Independientemente de la vía que elijas, hay tres requisitos que **siempre** debes cumplir:
+Dos de estos requisitos los cumples **vayas por la vía que vayas**. El tercero —el idioma— **solo se lo exige la ley a la vía de puntos**:
 
 ### 1. Título cualificado
 
-Debes tener un título universitario o de formación profesional cualificada. Si el tuyo es de **formación profesional**, debe estar **reconocido por el Estado del país donde lo obtuviste** *y* haber requerido **al menos dos años de formación** (§ 20a Abs. 3 AufenthG) — ⚠️ **un título de un año reconocido en tu país cumple la primera condición y no cumple la norma**. También sirve un título expedido por una **Cámara de Comercio Alemana en el Exterior**.
+Debes tener un título universitario o de formación profesional cualificada, y **las dos ramas no se rigen por la misma condición**.
+
+Si el tuyo es de **formación profesional**, debe estar **reconocido por el Estado del país donde lo obtuviste** *y* haber requerido **al menos dos años de formación** — ⚠️ **un título de un año reconocido en tu país cumple la primera condición y no cumple la norma**. También sirve un título expedido por una **Cámara de Comercio Alemana en el Exterior**.
+
+Si el tuyo es **universitario**, la condición es **más ligera**: basta con que esté **reconocido por el Estado del país donde lo obtuviste** — **sin** el requisito de los dos años y **sin** equivalencia alemana. *(Eso es para la vía de puntos; la Vía 1 sí exige el reconocimiento alemán.)*
+
+> ⚠️ **Y hay un paso que casi nadie cuenta:** la ley te obliga a **hacer confirmar por un organismo cualificado en Alemania** que cumples esa condición. No basta con afirmarlo en la solicitud.
 
 Para la Vía 1, debe estar además **reconocido en Alemania**.
 
@@ -80,8 +90,8 @@ Debes demostrar que tu **sustento está asegurado** durante la estancia — segu
 
 ### 3. Prueba de idioma
 
-- **Vía 1 (Fachkraft):** Alemán A1 o inglés B2.
-- **Vía 2 (Puntos):** Alemán A1 o inglés B2 (es requisito mínimo, pero niveles más altos te dan puntos extra).
+- **Vía 1 (Fachkraft):** **no hay requisito de idioma.** El § 20a Abs. 4 Satz 3 Nr. 2 AufenthG solo se lo exige a la vía de puntos.
+- **Vía 2 (Puntos):** Alemán A1 o inglés B2 (es requisito mínimo **de acceso** y **no se compensa con puntos**; niveles más altos sí te dan puntos extra).
 
 > 💡 **Consejo:** Si aún no tienes el A1 de alemán, puedes prepararlo desde casa con [Babbel](https://es.babbel.com/cursos-de-aleman) (cursos diseñados para hispanohablantes, lecciones de 10-15 min/día) o con clases en vivo en [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48). En la Vía 2, un B1 certificado son 2 puntos y un B2, 3.
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
@@ -113,7 +123,7 @@ Si vas por la Vía 2, necesitas sumar al menos **6 puntos**. Así se distribuyen
 | **Potencial del cónyuge/pareja** | |
 | Tu cónyuge o pareja registrada cumple los requisitos, solicita su Chancenkarte en la misma oficina y entra en Alemania contigo | 1 punto |
 | **Profesión en sector con escasez** | |
-| Tu profesión está en la lista de *Engpassberufe* | 1 punto |
+| Tu profesión pertenece a uno de los **diez grupos** del § 18g Abs. 1 Satz 2 Nr. 1 (por remisión del § 20b Abs. 1 Satz 1 Nr. 8) | 1 punto |
 | **Máximo total posible** | **16 puntos** |
 
 > **Los criterios de un mismo grupo no se acumulan**: en idioma, experiencia y edad cuenta solo el tramo más alto que cumplas. Un B2 son 3 puntos, no 3 + 2 + 1. *(Baremo contrastado el 3 de agosto de 2026 contra el texto legal: § 20b AufenthG, su tabla anexa y § 2 AufenthG — niveles de idioma.)*
@@ -205,7 +215,7 @@ Abre tu cuenta bloqueada con [Expatrio](https://www.expatrio.com/?p=rutaalemania
 
 Necesitarás:
 
-- **Pasaporte** vigente (con al menos 6 meses de validez)
+- **Pasaporte** vigente — ⚠️ **la regla de «6 meses» que circula no está en ninguna norma alemana**: la ley solo exige pasaporte válido y reconocido (§ 3 Abs. 1 AufenthG). Lo que el Ministerio de Exteriores publica es **tres meses más allá de tu salida del Espacio Schengen** y **expedido en los últimos diez años**, y esa regla es del Código de visados —pensada para Schengen, no para el visado nacional—. **La exigencia concreta la fija tu consulado: pregúntasela a él antes de renovar nada**
 - **Formulario de solicitud** de visado (descargable de la web de la embajada)
 - **Fotos biométricas** (2 unidades)
 - **Título universitario o profesional** (original + traducción jurada al alemán)
@@ -253,11 +263,13 @@ Una vez que llegas a Alemania con tu Chancenkarte, tienes **12 meses para buscar
 
 ### Trabajo a tiempo parcial
 
-Puedes trabajar hasta **20 horas semanales** en cualquier empleo, incluidos trabajos no cualificados (limpieza, hostelería, almacén, etc.). Esto te permite generar ingresos mientras buscas tu empleo cualificado.
+Puedes trabajar hasta **20 horas semanales de media**, sumando todos tus empleos, en cualquier trabajo **por cuenta ajena** — incluidos los no cualificados (limpieza, hostelería, almacén, etc.). Esto te permite generar ingresos mientras buscas tu empleo cualificado.
+
+> ⚠️ **Dos precisiones que importan:** la ley dice *Beschäftigung*, así que **esto no ampara el trabajo por cuenta propia**; y el tope es un **promedio del conjunto** (*durchschnittlich insgesamt*), no un techo semanal rígido.
 
 ### Probebeschäftigung (empleo de prueba)
 
-Puedes hacer hasta **2 semanas de empleo de prueba** con un empleador para que ambos veáis si encajáis. Importante: desde la modificación legal de diciembre de 2025, **esta prueba solo cuenta si la actividad es cualificada, va orientada a una formación, o forma parte del proceso de reconocimiento de tu título extranjero**. Una prueba de dos semanas en un trabajo no cualificado (hostelería, almacén, etc.) ya no entra dentro del marco de la Chancenkarte.
+Puedes hacer hasta **2 semanas de empleo de prueba** con un empleador para que ambos veáis si encajáis. Importante, y **rige desde que existe la Chancenkarte** (1 de junio de 2024, no desde la reforma de diciembre de 2025): **esta prueba solo cuenta si la actividad es cualificada, va orientada a una formación, o forma parte del proceso de reconocimiento de tu título extranjero**. Una prueba de dos semanas en un trabajo no cualificado (hostelería, almacén, etc.) ya no entra dentro del marco de la Chancenkarte.
 
 > **Buena noticia:** Bien usado, el empleo de prueba sigue siendo una herramienta poderosa: muchas empresas se animan a "probarte" durante esas dos semanas en un puesto cualificado de tu sector y, si encajáis, cierran un contrato directamente.
 
@@ -265,7 +277,7 @@ Puedes hacer hasta **2 semanas de empleo de prueba** con un empleador para que a
 
 Por supuesto, puedes asistir a entrevistas de trabajo, ferias de empleo, eventos de networking y **todo lo que necesites para encontrar tu trabajo**.
 
-> ⚠️ **Aclaración legal (diciembre 2025):** El §20a Abs. 2 de la *AufenthG* fue modificado para enfatizar que la actividad laboral con la Chancenkarte se limita **exclusivamente** a estas dos opciones: trabajo de hasta 20 h/semana y empleo de prueba cualificado de 2 semanas. No es un permiso de trabajo abierto. Cualquier otra actividad laboral remunerada fuera de estos supuestos puede poner en riesgo tu permiso de residencia.
+> ⚠️ **Aclaración legal:** el **§ 20a Abs. 2 AufenthG** fue modificado por el *SGB VI-Anpassungsgesetz* de 22 de diciembre de 2025 (en vigor el **24 de diciembre de 2025**) para dejar dicho que la actividad laboral con la Chancenkarte se limita **exclusivamente** a estas dos opciones: trabajo de hasta 20 h/semana y empleo de prueba cualificado de 2 semanas. No es un permiso de trabajo abierto. Cualquier otra actividad laboral remunerada fuera de estos supuestos puede poner en riesgo tu permiso de residencia.
 
 ---
 
@@ -278,6 +290,8 @@ Cuando consigas una oferta de trabajo cualificado, solicitas el cambio a un **pe
 ### Qué pasa si no encuentras empleo en 12 meses
 
 La tarjeta de búsqueda dura como máximo un año y **no se prorroga como tal** — pero eso no significa que a los 12 meses se acabe todo. Con un **contrato o una oferta vinculante de empleo cualificado** (y la conformidad de la Agencia Federal de Empleo) puedes obtener una **tarjeta de continuación (Folge-Chancenkarte) de hasta dos años más** (§ 20a AufenthG), y también cabe pasar a otro permiso de residencia distinto. Si se acaban los 12 meses sin empleo ni oferta, sí tendrás que salir — y ojo con este matiz: volver a pedir la tarjeta de **búsqueda** exige haber pasado fuera tanto tiempo como estuviste dentro con ella.
+
+> 📌 **Y algo que cambia con la tarjeta de continuación:** el régimen de las 20 horas y del empleo de prueba es **solo de la tarjeta de búsqueda**. El § 20a Abs. 5 Satz 5 AufenthG dice que el Abs. 2 **no se aplica** a la *Folge-Chancenkarte*.
 
 Sin embargo, si has encontrado un empleo a tiempo parcial que podría convertirse en cualificado, consulta con un abogado de extranjería si hay opciones alternativas.
 
@@ -297,7 +311,7 @@ Dos alternativas prácticas: tu pareja podría solicitar su propia Chancenkarte 
 
 ### ¿Necesito saber alemán obligatoriamente?
 
-Necesitas **al menos un A1 de alemán O un B2 de inglés**. Si no tienes ninguno de los dos, no puedes solicitar la Chancenkarte.
+**Depende de tu vía, y la diferencia es grande.** Si vas por la **vía de puntos**, sí: necesitas al menos un **A1 de alemán** o un **B2 de inglés**, es requisito de acceso y **no se compensa con puntos** (§ 20a Abs. 4 Satz 3 Nr. 2 AufenthG). Si vas por la **Vía 1** —título ya reconocido en Alemania—, **el § 20a no te exige idioma**.
 
 > 📌 **Recuerda:** Aunque presentes el B2 de inglés, empieza a estudiar alemán ya. Lo necesitarás para la vida diaria y para ampliar tus oportunidades laborales. Descubre en [qué sectores puedes trabajar en Alemania sin saber alemán](/blog/trabajar-alemania-sin-aleman/) y cómo el idioma afecta a tu salario.
 
@@ -313,7 +327,7 @@ Si estás como turista con los 90 días de exención de visado, no tienes un per
 
 ### ¿Vale cualquier título universitario?
 
-El título de formación profesional debe haber requerido **al menos dos años de formación** y estar **reconocido por el Estado del país donde lo obtuviste** (§ 20a Abs. 3 AufenthG) — que no es lo mismo que «reconocido en tu país»: ⚠️ **un título de un año reconocido en tu país cumple la frase pero no cumple la norma**. También sirve un título expedido por una **Cámara de Comercio Alemana en el Exterior**.
+El título de formación profesional debe haber requerido **al menos dos años de formación** y estar **reconocido por el Estado del país donde lo obtuviste** — que no es lo mismo que «reconocido en tu país»: ⚠️ **un título de un año reconocido en tu país cumple la frase pero no cumple la norma**. También sirve un título expedido por una **Cámara de Comercio Alemana en el Exterior**. **Si el título es universitario, basta el reconocimiento estatal en el país donde lo obtuviste**, sin los dos años.
 
 Para la Vía 1, además debe estar reconocido en Alemania. Títulos técnicos, tecnológicos y de formación profesional cualificada también pueden valer, no solo los universitarios.
 
@@ -321,9 +335,13 @@ Para la Vía 1, además debe estar reconocido en Alemania. Títulos técnicos, t
 
 ### ¿Qué profesiones tienen más demanda en Alemania?
 
-Las profesiones con mayor escasez (*Engpassberufe*) incluyen: **ingeniería** (mecánica, eléctrica, civil), **IT y desarrollo de software**, **sanidad** (enfermería, medicina), **oficios especializados** (electricistas, fontaneros, mecánicos), **educación** y **contabilidad/finanzas**.
+Para el punto del baremo no vale «tener demanda»: la ley fija **diez grupos** y son estos — **profesionales de las ciencias y la ingeniería** · **profesionales de las TIC** · **médicos** · **profesionales de enfermería y partería** · **veterinarios** · **otros profesionales de la salud** (dentistas, farmacéuticos) · **profesionales de la enseñanza** · y tres grupos de **dirección**: producción industrial, servicios TIC y servicios profesionales (incluida la dirección de sucursales financieras y de seguros).
 
-La lista completa se publica periódicamente por la Agencia Federal de Empleo.
+> ⚠️ **Ojo con dos que casi todo el mundo da por hechas y NO están:** los **oficios especializados** —electricistas, fontaneros, mecánicos— **no figuran en ninguno de los diez grupos**, por mucha falta que hagan en Alemania. Y de finanzas solo entra la **dirección** de sucursal, no la contabilidad. Si contabas con ese punto, **recalcula antes de solicitar**.
+
+**La lista no la publica nadie periódicamente: está en la propia ley y es cerrada.** El § 20b Abs. 1 Satz 1 Nr. 8 AufenthG remite al § 18g Abs. 1 Satz 2 Nr. 1, que enumera **diez grupos de la clasificación internacional de profesiones (ISCO-08)**. Si tu profesión no está en uno de esos diez grupos, **el punto no se concede**, por mucha escasez que haya en tu sector.
+
+*(La Agencia Federal de Empleo sí publica un análisis de escasez —la* Engpassanalyse—*, pero **no es el que decide este punto**.)*
 
 ---
 

@@ -311,6 +311,22 @@ export const CIFRAS = {
       'Dato NUEVO que el artículo no daba: cambia la cuenta a quien tiene dos títulos. Llegó en el veredicto de T2 sin haberse preguntado por él.',
   },
 
+  // ─── Tasa del visado nacional (tanda T5, 7-ago-2026)
+  // Entra porque era la ÚNICA cifra de la tabla de costes de `chancenkarte` que
+  // es un precio público fijado por norma — el resto son horquillas de mercado
+  // (clase D) y siguen fuera a propósito. Nadie la vigilaba.
+  'visado.nacional.tasa': {
+    valor: 75,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-08-07',
+    revision: { tipo: 'evento', porque: 'No es cifra indexada ni de revisión anual: sin cambios desde el 1-9-2017 y solo se mueve por ley de tasas. La pauta de EVENTO (y no de calendario) la recomendó el propio veredicto de T5 en su válvula' },
+    aplica_a: 'visado nacional alemán (categoría D), también para entradas múltiples',
+    fuente: { nombre: '§ 46 Abs. 2 Nr. 1 AufenthV — literal: «für die Erteilung eines nationalen Visums (Kategorie „D“), auch für mehrmalige Einreisen 75 Euro»', tipo: 'oficial' },
+    nota:
+      'Verificada en la tanda T5 (Q7), CORRECTA. Vigente desde la Ley de modificación de tasas del derecho de extranjería de 13-7-2017, en vigor el 1-9-2017, sin modificaciones posteriores. ⚠️ NO confundir con la tasa de un visado Schengen (categoría C), que es otra.',
+  },
+
   // ─── Familienversicherung y base mínima del autónomo (tanda T1, 6-ago-2026)
   // Las tres son EUROS DERIVADOS, no literal de ley: el § 10 Abs. 1 Nr. 5 SGB V
   // fija «un séptimo de la Bezugsgröße» y el § 240 SGB V, «un tercio». Contraste

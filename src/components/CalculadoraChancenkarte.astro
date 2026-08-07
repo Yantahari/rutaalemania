@@ -158,9 +158,8 @@
     <!-- STEP 11: Shortage -->
     <div class="calc-step" data-step="11">
       <p class="step-label">Puntos &middot; Pregunta 8 de 8</p>
-      <h3 class="text-xl font-heading font-bold mb-2">¿Tu profesión está en la lista de escasez alemana?</h3>
-      <p class="text-sm text-text-muted mb-5">Sectores con alta demanda: TI, ingeniería, sanidad, oficios técnicos, educación.
-        <a href="https://www.make-it-in-germany.com/es/trabajar-en-alemania/profesiones-demandadas" target="_blank" rel="noopener" class="text-amber hover:underline">Consulta la lista oficial</a>
+      <h3 class="text-xl font-heading font-bold mb-2">¿Tu profesión está en uno de los diez grupos que fija la ley?</h3>
+      <p class="text-sm text-text-muted mb-5">No basta con que tu sector tenga demanda: la lista es cerrada (&sect; 18g Abs. 1 Satz 2 Nr. 1, por remisi&oacute;n del &sect; 20b). Entran ciencias e ingenier&iacute;a, TIC, medicina, enfermer&iacute;a y parter&iacute;a, veterinaria, otras profesiones sanitarias, ense&ntilde;anza y tres grupos de direcci&oacute;n. <strong>Los oficios especializados (electricistas, fontaneros, mec&aacute;nicos) NO entran.</strong>
       </p>
       <div class="calc-options" data-name="shortage">
         <div class="calc-option" data-value="0"><div class="radio-dot"></div><div class="opt-text"><div class="opt-label">No / No estoy seguro</div><div class="opt-pts">0 puntos</div></div></div>
@@ -381,10 +380,10 @@
     });
     if (pts.shortage === 0) {
       roadmapSteps.push({
-        title: 'Verifica si tu profesión está en demanda',
-        desc: 'Si tu profesión aparece en la lista oficial de escasez, sumas 1 punto y tendrás más facilidades para encontrar empleo.',
-        link: 'https://www.make-it-in-germany.com/es/trabajar-en-alemania/profesiones-demandadas',
-        linkText: 'Consulta la lista oficial de profesiones en demanda'
+        title: 'Comprueba si tu profesión está en los diez grupos de la ley',
+        desc: 'El punto solo lo dan los diez grupos de profesiones que enumera la ley (§ 18g Abs. 1 Satz 2 Nr. 1, por remisión del § 20b). No basta con que tu sector tenga demanda: los oficios especializados, por ejemplo, no entran.',
+        link: '/blog/chancenkarte-guia-completa/#qué-profesiones-tienen-más-demanda-en-alemania',
+        linkText: 'Ver los diez grupos'
       });
     }
     roadmapSteps.push({

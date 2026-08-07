@@ -233,7 +233,7 @@ La Chancenkarte funciona con un **sistema de puntos**: necesitas **al menos 6**.
 | Inglés **C1** o superior | 1 |
 | Experiencia: **5 años o más** de los últimos 7 | 3 |
 | Experiencia: **2 años o más** de los últimos 5 | 2 |
-| Tu profesión está en la lista de escasez | 1 |
+| Tu profesión pertenece a uno de los diez grupos del § 18g Abs. 1 Satz 2 Nr. 1 (las TIC están dentro) | 1 |
 | Tener **35 años o menos** | 2 |
 | Tener **de 36 a 40 años** | 1 |
 | Haber residido legalmente y sin interrupción **6 meses** en Alemania en los últimos 5 años | 1 |
