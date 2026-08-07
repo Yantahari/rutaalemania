@@ -176,7 +176,7 @@ Si estás fuera de Alemania, solicita una **visa nacional (tipo D)** en el consu
 - Formulario de solicitud de visa completado
 - Foto biométrica
 - Contrato de trabajo o oferta vinculante
-- Título universitario (apostillado y, si es necesario, traducido al alemán por un traductor jurado)
+- Título universitario (apostillado y, si es necesario, traducido al alemán por un traductor jurado) — ⚠️ [la Apostilla no vale para todos los países](/blog/primeros-pasos-alemania/#antes-de-empezar-lo-que-debes-traer-contigo)
 - Reconocimiento del título (si aplica)
 - Seguro médico para el viaje
 - Prueba de alojamiento (aunque sea temporal)
@@ -236,7 +236,7 @@ Muchos hispanohablantes confunden estos dos visados. Aquí las **diferencias cla
 
 Sí, pero necesitas solicitar una **evaluación individual**. El proceso puede tardar varias semanas.
 
-Alternativamente, si tu título está en el sistema pero con clasificación dudosa, puedes solicitar un **Zeugnisbewertung** (evaluación de certificados) a la KMK. Coste: aproximadamente 200 €.
+Alternativamente, si tu título está en el sistema pero con clasificación dudosa, puedes solicitar un **Zeugnisbewertung** (valoración comparativa) a la ZAB, que forma parte de la KMK. Coste: **200 € la primera valoración; 100 € cada una siguiente**.
 
 ---
 

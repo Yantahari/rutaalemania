@@ -51,14 +51,14 @@ Existen **dos caminos** para conseguir la Chancenkarte, y es fundamental que ent
 
 Si cumples **todas** estas condiciones, obtienes la Chancenkarte directamente sin necesidad de pasar por el sistema de puntos:
 
-1. Tienes un título universitario o formación profesional **reconocido en Alemania** (equivalencia completa según Anabin o la autoridad competente).
+1. Tienes un título universitario o formación profesional **reconocido en Alemania** (equivalencia completa acreditada con el impreso de Anabin —que **te sacas tú**, Anabin no emite certificados— o resuelta por la autoridad competente).
 2. Demuestras conocimientos de alemán de nivel **A1** o de inglés de nivel **B2**.
 
 > **Buena noticia:** Con esta vía, el proceso es más directo. Si tu título ya está reconocido y tienes el idioma, no necesitas preocuparte por los puntos.
 
 ### Vía 2: Sistema de puntos — 6 puntos mínimo
 
-Si tu título **no está completamente reconocido** en Alemania (pero sí es reconocido en tu país de origen), puedes optar por la vía del sistema de puntos. Para esto necesitas alcanzar al menos **6 puntos** de un máximo de 16.
+Si tu título **no está completamente reconocido** en Alemania (pero sí está reconocido por el Estado del país donde lo obtuviste), puedes optar por la vía del sistema de puntos. Para esto necesitas alcanzar al menos **6 puntos** de un máximo de 16.
 
 ---
 
@@ -215,7 +215,7 @@ Necesitarás:
 - **CV en formato alemán** (Lebenslauf)
 - **Reconocimiento de título** (si vas por la Vía 2)
 
-> 💡 **Consejo:** Empieza a reunir documentos en cuanto comiences el proceso. Las traducciones juradas y apostillas pueden tardar más de lo esperado.
+> 💡 **Consejo:** Empieza a reunir documentos en cuanto comiences el proceso. Las traducciones juradas y apostillas pueden tardar más de lo esperado. Y antes de pagar la Apostilla, comprueba que es tu vía: ⚠️ [no vale para todos los países](/blog/primeros-pasos-alemania/#antes-de-empezar-lo-que-debes-traer-contigo).
 
 ### Paso 6: Solicita cita en la embajada
 
@@ -313,7 +313,7 @@ Si estás como turista con los 90 días de exención de visado, no tienes un per
 
 ### ¿Vale cualquier título universitario?
 
-El título debe ser de **al menos 2 años de duración** y debe ser reconocido en tu país de origen.
+El título de formación profesional debe haber requerido **al menos dos años de formación** y estar **reconocido por el Estado del país donde lo obtuviste** (§ 20a Abs. 3 AufenthG) — que no es lo mismo que «reconocido en tu país»: ⚠️ **un título de un año reconocido en tu país cumple la frase pero no cumple la norma**. También sirve un título expedido por una **Cámara de Comercio Alemana en el Exterior**.
 
 Para la Vía 1, además debe estar reconocido en Alemania. Títulos técnicos, tecnológicos y de formación profesional cualificada también pueden valer, no solo los universitarios.
 

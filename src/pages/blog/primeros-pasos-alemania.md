@@ -431,7 +431,7 @@ Basado en la experiencia de cientos de hispanohablantes, estos son los **tropiez
 
 ---
 
-**Elegir la clase fiscal VI por no tener Steuer-ID a tiempo.** Si tu empleador no tiene tu número fiscal, te aplican la clase más desfavorable. **Persigue tu Steuer-ID activamente**; no esperes pasivamente a que llegue por correo.
+**Dejar pasar los tres meses sin tu Steuer-ID.** Al principio la ley te cubre: si aún no tienes el número **y no es culpa tuya**, tu empleador debe aplicar la clase que previsiblemente te corresponde (§ 39c Abs. 1 EStG). Pero ese margen dura **tres meses**, y pasados esos, la clase VI llega con efecto retroactivo. **Persigue tu Steuer-ID activamente**; no esperes pasivamente a que llegue por correo.
 
 ---
 

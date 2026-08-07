@@ -14,10 +14,14 @@ const slides: CarouselSlide[] = [
     icon: '🤔',
     title: '¿Necesitas <span class="cb-gold">homologar</span>?',
     steps: [
-      { num: '⚖️', text: 'Profesión REGULADA (medicina, enfermería, derecho…) → SÍ, obligatorio' },
-      { num: '💻', text: 'Profesión NO regulada (IT, marketing, diseño…) → NO obligatorio' },
+      { num: '⚖️', text: 'Profesión REGULADA (medicina, enfermería, derecho…) → sí, para ejercer' },
+      { num: '💻', text: 'Profesión NO regulada (IT, marketing, diseño…) → la profesión no lo exige' },
       { num: '', text: 'Pero puede darte 4 puntos para la Chancenkarte (vía de puntos)' },
     ],
+    tipCard: {
+      icon: '⚠️',
+      text: 'Ejercer y entrar <span class="cb-gold">no son lo mismo</span>: con formación profesional, el <span class="cb-gold">visado</span> (§ 18a) exige equivalencia plena aunque tu oficio no esté regulado.',
+    },
   },
   // Slide 3 — Paso 1: Consulta Anabin
   {
@@ -28,11 +32,11 @@ const slides: CarouselSlide[] = [
     steps: [
       { num: '1', text: 'Entra en anabin.kmk.org' },
       { num: '2', text: 'Busca tu universidad → el estatus H+ es la comprobación práctica' },
-      { num: '3', text: 'Busca tu título → verifica la equivalencia' },
+      { num: '3', text: 'Busca tu título → Anabin no emite nada: el impreso lo sacas tú' },
     ],
     tipCard: {
       icon: '💡',
-      text: 'Si tu uni tiene <span class="cb-gold">H+</span> y tu título equivalencia directa, puede bastar para la Blue Card.',
+      text: 'Para la Blue Card hacen falta <span class="cb-gold">tres cosas a la vez</span>: uni H+, título «Entspricht/gleichwertig», y que conste impartido por esa uni. Si falla una → Zeugnisbewertung de la ZAB.',
     },
   },
   // Slide 4 — Paso 2: Autoridad competente
@@ -53,7 +57,7 @@ const slides: CarouselSlide[] = [
     steps: [
       { num: '1', text: 'Título universitario + expediente académico' },
       { num: '2', text: 'Traducción jurada al alemán' },
-      { num: '3', text: 'Apostilla de La Haya + CV detallado' },
+      { num: '3', text: 'Apostilla de La Haya (⚠️ no vale para todos los países) + CV detallado' },
     ],
     tipCard: {
       icon: '',
@@ -69,7 +73,7 @@ const slides: CarouselSlide[] = [
       label: 'Plazo realista total',
       amount: '3-6',
       sub: 'meses',
-      note: 'Preparar documentos: <span class="cb-gold">2-6 semanas</span><br>Evaluación oficial: <span class="cb-gold">1-3 meses</span><br>Empieza cuanto antes.',
+      note: 'Preparar documentos: <span class="cb-gold">2-6 semanas</span><br>Evaluación oficial: <span class="cb-gold">3 meses</span> desde el expediente completo (§ 6 Abs. 3 BQFG) — <span class="cb-gold">prorrogables una vez</span>.<br>Empieza cuanto antes.',
     },
   },
   // Slide 7 — Resultados posibles
@@ -78,13 +82,13 @@ const slides: CarouselSlide[] = [
     icon: '',
     title: 'Resultados <span class="cb-gold">posibles</span>',
     steps: [
-      { num: '', text: 'Completo → puedes ejercer sin restricciones' },
-      { num: '🔶', text: 'Parcial → 4 puntos Chancenkarte + opción Nachqualifizierung' },
-      { num: '', text: 'No reconocido → poco frecuente si tu uni tiene H+' },
+      { num: '', text: 'Equivalencia PLENA → puedes ejercer sin restricciones' },
+      { num: '🔶', text: 'Equivalencia PARCIAL → 4 puntos Chancenkarte + opción Nachqualifizierung' },
+      { num: '📝', text: 'Con MEDIDA DE COMPENSACIÓN (curso o examen) → fue la salida más frecuente en 2024' },
     ],
     tipCard: {
       icon: '',
-      text: 'La mayoría obtiene al menos un <span class="cb-gold">reconocimiento parcial</span>.',
+      text: 'El rechazo total es <span class="cb-gold">raro</span>: en torno al <span class="cb-gold">1 %</span> de las resoluciones de 2024.',
     },
   },
   // Slide 8 — CTA final

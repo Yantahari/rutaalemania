@@ -168,7 +168,7 @@ Cada autoridad tiene sus propios requisitos, pero en general necesitarás:
 ### Documentos adicionales (según el caso)
 
 - **Programa de estudios** (*Curriculum*) de tu carrera (contenido de las asignaturas)
-- **Apostilla de La Haya** en los documentos originales
+- **Apostilla de La Haya** en los documentos originales — ⚠️ [no vale para todos los países](/blog/primeros-pasos-alemania/#antes-de-empezar-lo-que-debes-traer-contigo): con algunos, la vía es la legalización consular
 - **Certificado de idioma alemán** — en las profesiones **sanitarias**: B2 general acreditado **más** un examen de lengua profesional (*Fachsprachenprüfung*) orientado a C1. No sale de la ley —la *Bundesärzteordnung* solo exige «los conocimientos necesarios para el ejercicio», sin nombrar nivel— sino de un **acuerdo de los ministros de Sanidad de los Länder**, que cada estado aplica a su manera. **Confirma el nivel con tu autoridad**
 - **Certificado de antecedentes penales** (para profesiones sanitarias y educativas)
 - **Reconocimiento previo** de otro país (si lo tienes)
@@ -370,7 +370,7 @@ Para que tengas una visión clara, aquí va el proceso resumido:
 1. **Determina** si tu profesión es regulada o no regulada.
 2. **Consulta Anabin** para ver el estatus de tu universidad y título.
 3. **Usa el Anerkennungs-Finder** para identificar tu autoridad competente.
-4. **Prepara los documentos:** originales, traducciones juradas ([Lingoking](https://www.lingoking.com)), apostillas.
+4. **Prepara los documentos:** originales, traducciones juradas ([Lingoking](https://www.lingoking.com)), apostillas — ⚠️ [comprueba antes cuál es tu vía](/blog/primeros-pasos-alemania/#antes-de-empezar-lo-que-debes-traer-contigo), que no con todos los países es la Apostilla.
 5. **Presenta la solicitud** con todos los documentos.
 6. **Espera la decisión** (3-6 meses).
 7. **Si el reconocimiento es parcial:** evalúa si te basta (4 puntos para Chancenkarte) o si necesitas/quieres la Nachqualifizierung.
