@@ -284,7 +284,7 @@ Durante este tiempo, puedes cobrar el **subsidio de desempleo** si has cotizado 
 
 ### ¿Mi pareja necesita hablar alemán para venir conmigo?
 
-**No.** Tu cónyuge **no necesita demostrar conocimientos de alemán** antes de la reagrupación familiar (§ 30 Abs. 1 Satz 2 Nr. 5 AufenthG). La misma exención cubre otros permisos cualificados — como el § 18a, el § 18b o la vía IT del § 19c Abs. 2 —, así que si acabas en otra de esas vías, tampoco la pierdes.
+**No.** Tu cónyuge **no necesita demostrar conocimientos de alemán** antes de la reagrupación familiar (§ 30 Abs. 1 Satz 3 Nr. 5 AufenthG). La misma exención cubre otros permisos cualificados — como el § 18a, el § 18b o la vía IT del § 19c Abs. 2 —, así que si acabas en otra de esas vías, tampoco la pierdes.
 
 ---
 

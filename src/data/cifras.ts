@@ -257,6 +257,32 @@ export const CIFRAS = {
     deriva_de: ['jaeg.anno'],
   },
 
+  // ─── Reconocimiento de títulos (tanda T2, 7-ago-2026) ───────────────────
+  // Única cifra del artículo que puede envejecer sola: es una tasa pública.
+  // El artículo la publicaba sin segundo escalón y sin reloj.
+  'zab.zeugnisbewertung.primera': {
+    valor: 200,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-08-07',
+    revision: { tipo: 'evento', porque: 'BQPGebVO del Land de Berlín (últ. modif. junio 2024): cambia por reforma de la norma de tasas, no por calendario' },
+    aplica_a: 'Zeugnisbewertung de la ZAB, primera valoración',
+    fuente: { nombre: 'kmk.org/zab «Gebühren Zeugnisbewertung» + ficha oficial de service.bremen.de (actualizada 4-5-2026)', tipo: 'oficial' },
+    nota:
+      'Verificada en la tanda T2 (P13). ⚠️ NO confundir con un reconocimiento: la Zeugnisbewertung es una valoración comparativa y no otorga derechos (canon R51). 🕳️ El rango de las tasas SANITARIAS que publica el mismo cuadro del artículo (150-1.000 €) NO está verificado y así se declaró: no tiene entrada aquí porque no hay dato que custodiar.',
+  },
+  'zab.zeugnisbewertung.siguientes': {
+    valor: 100,
+    unidad: '€',
+    vigencia: '2026',
+    verificado: '2026-08-07',
+    revision: { tipo: 'evento', porque: 'misma norma de tasas que la primera valoración' },
+    aplica_a: 'Zeugnisbewertung de la ZAB, valoraciones posteriores a la primera',
+    fuente: { nombre: 'kmk.org/zab «Gebühren Zeugnisbewertung»', tipo: 'oficial' },
+    nota:
+      'Dato NUEVO que el artículo no daba: cambia la cuenta a quien tiene dos títulos. Llegó en el veredicto de T2 sin haberse preguntado por él.',
+  },
+
   // ─── Familienversicherung y base mínima del autónomo (tanda T1, 6-ago-2026)
   // Las tres son EUROS DERIVADOS, no literal de ley: el § 10 Abs. 1 Nr. 5 SGB V
   // fija «un séptimo de la Bezugsgröße» y el § 240 SGB V, «un tercio». Contraste

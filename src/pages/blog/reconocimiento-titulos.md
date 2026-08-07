@@ -21,7 +21,7 @@ Esta es la primera pregunta y la más importante, porque **no siempre necesitas 
 
 ### Profesiones reguladas (*reglementierte Berufe*)
 
-Son profesiones que, por ley, solo puedes ejercer si tienes un título reconocido oficialmente en Alemania. Sin el reconocimiento, **no puedes trabajar legalmente** en esa profesión, aunque tengas décadas de experiencia.
+Son profesiones que solo puedes ejercer si tienes un título reconocido oficialmente en Alemania. No lo regula una sola ley: hay un marco federal (la **BQFG**), un equivalente propio en **cada estado federado**, y por encima de los dos manda la norma específica de cada profesión.
 
 **Ejemplos de profesiones reguladas:**
 - **Medicina:** médicos, dentistas, farmacéuticos
@@ -30,18 +30,24 @@ Son profesiones que, por ley, solo puedes ejercer si tienes un título reconocid
 - **Derecho:** abogados, jueces, notarios
 - **Enseñanza:** profesores de escuelas públicas
 - **Psicología clínica y psicoterapia**
-- **Arquitectura** (en la mayoría de estados)
+- **Arquitectura** (en los dieciséis estados federados)
 - **Fisioterapia, logopedia, ergoterapia**
 - **Trabajo social**
 - **Oficios regulados:** electricistas maestros, fontaneros maestros, etc.
 
-> **Importante:** Para estas profesiones, el reconocimiento es **obligatorio**. Sin él, no puedes ejercer. Punto.
+> **Importante:** Para estas profesiones el reconocimiento es la vía ordinaria, y sin él no puedes ejercer con normalidad. **Pero hay puertas acotadas.** En medicina, el § 2 Abs. 2 de la *Bundesärzteordnung* permite una autorización temporal (*Berufserlaubnis*) —limitada a ciertas tareas, revocable y bajo supervisión— que deja ejercer **mientras el reconocimiento se tramita**. Es la vía habitual de los médicos de terceros países. No es un atajo, pero tampoco es «punto».
+
+> **Ojo a una distinción que cambia mucho:** en algunas de estas profesiones lo que la ley protege es **el título, no la actividad**. Con un título de arquitectura de fuera de la UE **puedes trabajar en un estudio**; lo que exige la inscripción en el *Architektenliste* es **llamarte arquitecto y firmar proyectos**. Lo mismo vale para *Ingenieur* y para el trabajo social. En cambio, en **fisioterapia, logopedia y ergoterapia** necesitas autorización para **ejercer**, no solo para llamarte así.
 
 ---
 
 ### Profesiones no reguladas (*nicht reglementierte Berufe*)
 
-Son profesiones donde **no necesitas un reconocimiento formal** para trabajar. Lo que cuenta es que el empleador valore tu formación y experiencia. Tú puedes trabajar como tal sin que nadie te pida un papel oficial.
+Son profesiones donde **no necesitas un reconocimiento formal para ejercer**. Lo que cuenta es que el empleador valore tu formación y experiencia.
+
+> ⚠️ **Ejercer y entrar no son lo mismo, y aquí está el malentendido más caro de esta guía.** Que tu profesión no esté regulada **no significa que el visado no te pida el reconocimiento**. Si vienes con **formación profesional** (no universitaria) por la vía del § 18a AufenthG, necesitas la resolución de **equivalencia plena aunque tu oficio no esté regulado**: el reconocimiento no lo pide la profesión, **lo pide el visado**. Quien se libra es el **titulado universitario**, a quien le basta la comparabilidad (§ 18 Abs. 3 Nr. 2 AufenthG).
+>
+> **Y hay una vía que va justo al revés**, pensada para enfermería: la ***Anerkennungspartnerschaft*** (§ 16d Abs. 3 AufenthG, en vigor desde el **1-3-2024**) permite **entrar sin el reconocimiento hecho** y trabajar como auxiliar **mientras el procedimiento corre ya en Alemania**, con un compromiso firmado con el empleador.
 
 **Ejemplos de profesiones no reguladas:**
 - **Desarrollo de software / IT** (la gran mayoría de puestos)
@@ -56,7 +62,7 @@ Son profesiones donde **no necesitas un reconocimiento formal** para trabajar. L
 Para estas profesiones, el reconocimiento es **opcional**. Sin embargo, puede ser útil o necesario en estos casos:
 
 - **Para la [Chancenkarte](/blog/chancenkarte-guia-completa/):** Si vas por la Vía 1 (Fachkraft), necesitas el reconocimiento completo. Si vas por la Vía 2 (puntos), un reconocimiento parcial te da 4 puntos.
-- **Para la [Blue Card](/blog/blue-card-requisitos/):** Necesitas demostrar que tu título es equivalente, lo cual se puede hacer a través de Anabin sin necesidad de un proceso formal de Anerkennung en muchos casos.
+- **Para la [Blue Card](/blog/blue-card-requisitos/):** Necesitas demostrar que tu título es equivalente, lo cual se puede hacer con el impreso de Anabin **si se cumplen las tres condiciones** que verás en el paso 1.
 - **Para negociar salario:** Un título reconocido oficialmente puede darte poder de negociación.
 
 > 💡 **Consejo:** Aunque tu profesión no sea regulada, valora si el reconocimiento te aporta ventajas para tu visado o tu carrera.
@@ -83,8 +89,10 @@ Anabin ([anabin.kmk.org](https://anabin.kmk.org)) es una base de datos pública 
 3. Busca por país y nombre de la universidad
 4. Verifica el estatus:
    - **H+** = Institución reconocida de educación superior (bueno)
-   - **H+/-** = Institución reconocida con restricciones (consultar detalles)
+   - **H+/-** = la valoración **depende del programa concreto**: unos estudios de esa misma universidad están acreditados y otros no. Hay que mirar **título por título**.
    - **H-** = No reconocida como institución de educación superior (problemático)
+
+> Los tres estatus clasifican **la institución, no tu título**. El título se consulta aparte, en *Abschlüsse*.
 
 ---
 
@@ -94,11 +102,11 @@ Anabin ([anabin.kmk.org](https://anabin.kmk.org)) es una base de datos pública 
 2. Busca por país, tipo de institución y nombre del título
 3. Verifica la equivalencia:
    - **Entspricht** (equivale a) + tipo de título alemán = equivalencia directa
-   - **Bedingt vergleichbar** (comparabilidad condicionada) = posible pero con condiciones
+   - **Bedingt vergleichbar** (comparabilidad condicionada) = **no te sirve para el visado.** Los consulados aceptan el impreso de Anabin solo con **Entspricht** o **gleichwertig**; con *bedingt vergleichbar* tendrás que pedir la *Zeugnisbewertung* de la ZAB.
 
 ### Resultados posibles
 
-**Escenario ideal:** Tu universidad tiene H+ y tu título tiene equivalencia directa. En este caso, para la Blue Card o para empleadores, **generalmente basta con una declaración de Anabin**. No necesitas un proceso formal de Anerkennung.
+**Escenario ideal:** se cumplen **las tres condiciones a la vez** — tu universidad figura como **H+**, tu título figura como **Entspricht** o **gleichwertig**, y ese título consta **impartido por esa universidad**. Si es así, para la Blue Card suele bastar el **impreso que tú mismo sacas de Anabin**: *Anabin no emite ningún certificado*, es una base de datos que consultas e imprimes, y ese impreso es justo lo que el consulado pide por su nombre. No necesitas un proceso formal de Anerkennung. **Si falla cualquiera de las tres, necesitas la *Zeugnisbewertung* de la ZAB.** Y nada de esto vale para profesiones reguladas: ahí se exige la autorización de ejercicio (o su promesa) **pase lo que pase en Anabin**.
 
 **Escenario intermedio:** Tu universidad está reconocida pero tu título específico no aparece en Anabin o tiene comparabilidad condicionada. **Necesitarás un proceso formal**.
 
@@ -129,16 +137,16 @@ La web oficial [anerkennung-in-deutschland.de](https://www.anerkennung-in-deutsc
 | Profesión | Autoridad competente |
 |---|---|
 | Medicina | Landesprüfungsamt o Approbationsbehörde del estado federado |
-| Enfermería | Autoridad sanitaria del estado federado (Gesundheitsamt) |
+| Enfermería | **Autoridad de reconocimiento del estado federado** — no el *Gesundheitsamt* local. Cambia por estado: *Landesamt für Pflege* (Baviera), *ZAG* (Renania del Norte-Westfalia), *Landesamt für Soziales* (Baja Sajonia). Búscala en el *Anerkennungs-Finder* |
 | Ingeniería (título protegido) | Cámara de Ingenieros del estado (*Ingenieurkammer*) |
 | Profesiones académicas no reguladas | KMK / ZAB (Zentralstelle für ausländisches Bildungswesen) |
 | Oficios/formación profesional | Cámara de comercio (IHK) o cámara de artesanía (HWK) |
 
 ### ZAB: la autoridad central para títulos académicos
 
-Para muchos títulos universitarios en profesiones no reguladas, la autoridad competente es la **ZAB** (Zentralstelle für ausländisches Bildungswesen), que forma parte de la KMK.
+Para los títulos universitarios en profesiones **no reguladas** no hay autoridad competente, **porque no hay nada que autorizar**. Lo que existe es un servicio de evaluación: la **ZAB** (Zentralstelle für ausländisches Bildungswesen), que forma parte de la KMK.
 
-La ZAB emite una declaración de equivalencia (*Zeugnisbewertung*) que indica **a qué título alemán equivale el tuyo**.
+La ZAB emite una **valoración comparativa** (*Zeugnisbewertung*) que indica a qué título alemán equivale el tuyo. **No es un reconocimiento y no te da derechos**: las fichas oficiales lo dicen con todas las letras — «es solo una clasificación comparativa; no sustituye al reconocimiento» y «de la *Zeugnisbewertung* no se derivan derechos». Sirve como **prueba** ante empleadores y autoridades de extranjería, no como **habilitación**.
 
 **Web:** [kmk.org/zab](https://www.kmk.org/zab/zeugnisbewertung.html)
 
@@ -153,7 +161,7 @@ Cada autoridad tiene sus propios requisitos, pero en general necesitarás:
 - **Pasaporte o documento de identidad** (copia)
 - **Título universitario o profesional** (original + copia compulsada)
 - **Expediente académico** con asignaturas y notas (*Transcript of Records*)
-- **Traducción jurada al alemán** de todos los documentos que no estén en alemán o inglés
+- **Traducción jurada al alemán** de los documentos que no estén en alemán. Que se acepte el **inglés** sin traducir **depende de cada autoridad**, no de una norma: pregúntalo antes de ahorrártelo
 - **[CV / Lebenslauf](/blog/cv-aleman-plantilla/)** detallando tu formación y experiencia profesional
 - **Prueba de experiencia profesional** (contratos, cartas de empleadores, certificados de trabajo)
 
@@ -161,7 +169,7 @@ Cada autoridad tiene sus propios requisitos, pero en general necesitarás:
 
 - **Programa de estudios** (*Curriculum*) de tu carrera (contenido de las asignaturas)
 - **Apostilla de La Haya** en los documentos originales
-- **Certificado de idioma alemán** (para profesiones reguladas, normalmente B2-C1)
+- **Certificado de idioma alemán** — en las profesiones **sanitarias**: B2 general acreditado **más** un examen de lengua profesional (*Fachsprachenprüfung*) orientado a C1. No sale de la ley —la *Bundesärzteordnung* solo exige «los conocimientos necesarios para el ejercicio», sin nombrar nivel— sino de un **acuerdo de los ministros de Sanidad de los Länder**, que cada estado aplica a su manera. **Confirma el nivel con tu autoridad**
 - **Certificado de antecedentes penales** (para profesiones sanitarias y educativas)
 - **Reconocimiento previo** de otro país (si lo tienes)
 
@@ -169,7 +177,7 @@ Cada autoridad tiene sus propios requisitos, pero en general necesitarás:
 
 ### Sobre las traducciones juradas
 
-Las traducciones deben ser realizadas por **traductores jurados** (*beeidigte Übersetzer*) reconocidos en Alemania. No vale cualquier traductor ni una traducción automática.
+Lo **seguro** es un traductor jurado **en Alemania** (*beeidigte Übersetzer*): esas traducciones se aceptan de forma regular. Una traducción jurada hecha **en tu país** no está excluida por ninguna norma —la admite o la rechaza **cada autoridad a su criterio**, y algunas la rechazan en la práctica—. Si vas por esa vía, **confírmalo antes** con la autoridad que va a resolver tu expediente. Lo que no vale en ningún caso es una traducción automática.
 
 Para traducciones juradas de calidad y a buen precio, [Lingoking](https://www.lingoking.com) es una plataforma que conecta con traductores jurados certificados. El proceso es online: subes el documento, recibes un presupuesto y **te envían la traducción jurada por correo**.
 
@@ -216,7 +224,7 @@ La autoridad te confirmará la recepción de tu solicitud y **te asignará un n�
 
 | Concepto | Coste aproximado |
 |---|---|
-| Tasa de la ZAB (títulos académicos) | 200 EUR |
+| Tasa de la ZAB (títulos académicos) | **200 EUR la primera valoración; 100 EUR cada una siguiente** |
 | Tasa de cámaras IHK/HWK | 100-600 EUR |
 | Tasa para profesiones sanitarias | 150-1.000 EUR (varía mucho por estado) |
 | Traducciones juradas | 50-200 EUR por documento |
@@ -225,15 +233,15 @@ La autoridad te confirmará la recepción de tu solicitud y **te asignará un n�
 | Envío postal certificado | 10-30 EUR |
 | **Total orientativo** | **300-1.500 EUR** |
 
-> **Buena noticia:** Algunos estados federados ofrecen ayudas económicas para el proceso de Anerkennung. Consulta en la web de tu autoridad competente o en el portal anerkennung-in-deutschland.de.
+> **Buena noticia, con una trampa de calendario:** existen ayudas para costear el reconocimiento —el *Anerkennungszuschuss* llega hasta **600 €**—, pero **hay que solicitarlas ANTES de presentar la solicitud de reconocimiento**. Si la pides después, **la pierdes**. Consúltalo en el portal anerkennung-in-deutschland.de antes de mover ningún papel.
 
 ---
 
 ## Plazos: cuánto tarda
 
-Por ley, la autoridad competente debe emitir una decisión en un **plazo máximo de 3 meses** desde que recibe la solicitud completa.
+El **§ 6 Abs. 3 de la BQFG** da a la autoridad **tres meses** para decidir desde que recibe la solicitud **completa**. **No es un máximo absoluto:** la propia norma permite **prorrogarlo una vez**, de forma razonable, si la complejidad del caso lo justifica. Y no rige para todo — la norma específica de tu profesión puede fijar otro plazo, y el **procedimiento acelerado** (§ 14a BQFG, ligado al § 81a AufenthG) lo baja a **dos meses**.
 
-Pero la palabra clave es "completa": **si falta algún documento, el plazo no empieza a correr** hasta que lo presentas.
+Pero la palabra clave es «completa»: **si falta algún documento, el plazo no empieza a correr** hasta que lo presentas. **Lo que juega a tu favor y casi nadie sabe:** la autoridad tiene **un mes** para acusar recibo, decirte **la fecha de entrada** de tu expediente y avisarte de qué documentos faltan (§ 6 Abs. 2 BQFG). **Si pasa un mes sin noticias, ya está incumpliendo** —y puedes reclamarlo con la norma en la mano.
 
 **Plazos realistas:**
 
@@ -257,9 +265,9 @@ Para **profesiones sanitarias**, puede ser más largo: **4-8 meses no es inusual
 
 ## Resultados posibles
 
-Cuando la autoridad termina su evaluación, hay tres resultados posibles:
+Cuando la autoridad termina su evaluación, la resolución puede tomar **varias formas**. Estas son las que más te vas a encontrar:
 
-### 1. Reconocimiento completo (*Volle Anerkennung*)
+### Equivalencia plena (*volle Gleichwertigkeit*)
 
 Tu título se considera **equivalente** a un título alemán comparable. Puedes ejercer la profesión sin restricciones (en profesiones reguladas) o presentar el certificado como prueba de cualificación (en profesiones no reguladas).
 
@@ -267,7 +275,7 @@ Tu título se considera **equivalente** a un título alemán comparable. Puedes 
 
 ---
 
-### 2. Reconocimiento parcial (*Teilweise Anerkennung*)
+### Equivalencia parcial (*teilweise Gleichwertigkeit*)
 
 La autoridad considera que tu formación es **parcialmente equivalente** pero que hay diferencias sustanciales. Te informarán sobre qué áreas son las que difieren.
 
@@ -275,11 +283,23 @@ La autoridad considera que tu formación es **parcialmente equivalente** pero qu
 
 ---
 
-### 3. No reconocimiento (*Ablehnung*)
+### Sin equivalencia (*keine Gleichwertigkeit*)
 
-Tu título **no se considera equivalente**. Esto es relativamente raro si tu universidad tiene estatus H+ en Anabin y tu formación es de al menos 2-3 años.
+Tu título **no se considera equivalente**.
 
-> **Buena noticia:** El no reconocimiento total es poco frecuente. La mayoría de solicitudes bien preparadas obtienen al menos un reconocimiento parcial.
+> **Buena noticia, y con números detrás:** el rechazo total es **raro** — en **2024** fue **en torno al 1 %** de las resoluciones. La mayoría de expedientes termina con equivalencia plena, con equivalencia parcial, o con un reconocimiento condicionado a que compenses las diferencias.
+
+---
+
+### Resolución con medida de compensación (*Bescheid mit Auflage einer Ausgleichsmaßnahme*)
+
+En profesiones **reguladas**, la autoridad puede reconocerte **a condición de que compenses las diferencias** con un curso de adaptación o un examen. **Fue la salida más frecuente de 2024** —el 46,6 % de las resoluciones— y hasta ahora esta guía no la contaba. Lo que tienes que hacer con ella está en el apartado siguiente.
+
+---
+
+### Si no puedes aportar los documentos: la *Qualifikationsanalyse*
+
+Si no puedes presentar tus títulos **por una causa que no depende de ti** —país en guerra, archivos destruidos, salida forzosa—, el **§ 14 BQFG** abre otra vía: acreditar lo que sabes con **entrevista técnica, muestra de trabajo o prueba en empresa**. No es un resultado distinto: es **otro camino hasta el mismo resultado**, y mientras se hace, el plazo **queda suspendido**.
 
 ---
 
@@ -291,8 +311,8 @@ Si recibes un reconocimiento parcial, **tienes opciones para obtener el reconoci
 
 La autoridad te indicará qué formación complementaria necesitas. Puede ser:
 
-- **Cursos de adaptación** (*Anpassungslehrgang*): formación práctica y/o teórica en las áreas donde tu formación difiere. Duración: 6 meses a 3 años, según la profesión.
-- **Examen de conocimientos** (*Kenntnisprüfung*): en lugar de hacer un curso, puedes demostrar tus conocimientos mediante un examen. Más rápido pero más exigente.
+- **Cursos de adaptación** (*Anpassungslehrgang*): formación práctica y/o teórica en las áreas donde tu formación difiere. **Duración: hasta tres años** — ese techo lo fija el § 11 Abs. 1 BQFG. Los seis meses del extremo corto son lo habitual en la práctica, **no un mínimo legal**.
+- **Examen de conocimientos** (*Kenntnisprüfung*): en lugar del curso puedes demostrar tus conocimientos en un examen. Más rápido pero más exigente. **La elección entre curso y examen es tuya por defecto** (§ 11 Abs. 3 BQFG) — *salvo que la norma de tu profesión disponga otra cosa*. **Y dispone otra cosa justo donde está la mayoría de quien lee esto:** en las profesiones **sanitarias** de terceros países, la autoridad **impone** la *Kenntnisprüfung*.
 - **Experiencia profesional supervisada** (*Berufspraktikum*): en algunos casos, un período de prácticas supervisadas puede sustituir la formación adicional.
 
 ---
@@ -313,7 +333,7 @@ Si trabajas en IT (desarrollo de software, administración de sistemas, data sci
 
 - IT **no es una profesión regulada** en Alemania. Si tienes experiencia pero no título, consulta nuestra guía sobre [cómo trabajar en IT en Alemania sin título universitario](/blog/trabajar-en-it-alemania/).
 - Para la **Blue Card**, puedes demostrar tu cualificación mediante un título reconocido en Anabin **o** mediante experiencia profesional (al menos 3 años en los últimos 7 años) si tu salario supera el umbral mínimo.
-- Para la **Chancenkarte**, necesitas al menos el reconocimiento del título en tu país de origen.
+- Para la **Chancenkarte**, tu título de formación profesional debe estar **reconocido por el Estado del país donde lo obtuviste** *y* haber requerido **al menos dos años de formación** (§ 20a Abs. 3 AufenthG). También sirve un título expedido por una **Cámara de Comercio Alemana en el Exterior**. ⚠️ **Un título de un año reconocido en tu país cumple la frase pero no cumple la norma.**
 
 > **Clave:** En la práctica, muchos profesionales de IT nunca necesitan un proceso formal de Anerkennung. Anabin + el título original (con traducción) suelen ser suficientes.
 
