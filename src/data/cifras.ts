@@ -187,7 +187,7 @@ export const CIFRAS = {
     verificado: '2026-08-01',
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Es el 55 % de la BBG de pensiones' },
     fuente: { nombre: 'Bekanntmachung del BMI de 2-dic-2025 (§18 Abs. 2 Nr. 5 AufenthG)', tipo: 'oficial' },
-    nota: 'HOY NO SE PUBLICA en ninguna página del sitio (medido el día 144). Se data por adelantado para que, si algún artículo lo menciona, ya tenga contra qué contrastarse.',
+    nota: 'PASA A PUBLICARSE el día 150 (tanda T6): trabajar-en-it-alemania.md lo publica en dos sitios, y el guardián de cifras vivas lo vigila desde el mismo commit. — DOS PUERTAS, UN SOLO IMPORTE: además del §18 Abs. 2 Nr. 5 AufenthG, el mismo 55 % lo impone el §1 Abs. 2 Satz 1 BeschV para los §§6, 22a, 24a y 26 Abs. 2 cuando el empleo SE INICIA después de cumplir 45 años; si cambia la BBG cambian las dos. Excepciones de esa vía: previsión de jubilación adecuada, o interés público en la contratación (§1 Abs. 2 Satz 2-3; Fachliche Weisungen de la BA 19c.1.4 y 19c.1.5). La edad se mide al INICIAR el empleo, no al solicitar. — (Texto anterior, día 144: «HOY NO SE PUBLICA en ninguna página del sitio». Se dató por adelantado justo para este momento, y funcionó: la cifra llegó al artículo con su ficha ya hecha.)',
   },
 
   // ─── Mercado laboral (tanda del alemán, 4-ago-2026) ─────────────────────

@@ -77,13 +77,18 @@ Tu salario bruto anual debe superar un **umbral mínimo establecido por el gobie
 
 ### ¿Qué profesiones tienen el umbral reducido?
 
-Las llamadas **Mangelberufe** (profesiones con escasez de trabajadores) incluyen:
+La ley fija **diez grupos** y son **exactamente los mismos** que dan el punto del baremo de la Chancenkarte (§ 18g Abs. 1 Satz 2 Nr. 1). No es una lista de sectores «con demanda»: es una lista **cerrada**.
 
-- **IT y tecnología:** programadores, ingenieros de software, administradores de sistemas, analistas de datos, especialistas en ciberseguridad
-- **Ingeniería:** ingeniería mecánica, eléctrica, civil, industrial, de procesos
-- **Ciencias naturales:** matemáticos, físicos, químicos, biólogos
-- **Medicina:** médicos, veterinarios, dentistas, farmacéuticos
-- **Profesionales de enfermería y matronas** (con título universitario)
+- **Ciencias e ingeniería:** matemáticos, físicos, químicos, biólogos, e ingeniería mecánica, eléctrica, civil, industrial o de procesos
+- **Tecnologías de la información y la comunicación:** programadores, ingenieros de software, administradores de sistemas, analistas de datos, especialistas en ciberseguridad
+- **Medicina** (médicos)
+- **Enfermería y partería** (con título universitario)
+- **Veterinaria**
+- **Otros profesionales de la salud con formación universitaria:** dentistas, farmacéuticos y el resto de sanitarios académicos no médicos
+- **Enseñanza**
+- **Tres grupos de dirección:** producción industrial · **servicios de TIC** · servicios profesionales
+
+> ⚠️ **Dos avisos que cambian la cuenta.** Si diriges servicios de TIC, **estás dentro** — es uno de los tres grupos de dirección, y se pasa por alto con facilidad. Y al revés: los **oficios especializados** (electricistas, fontaneros, mecánicos) **no figuran en ninguno de los diez grupos**, por mucha falta que hagan.
 
 **El umbral reducido no es solo para esta lista**: también te corresponde si obtuviste tu título hace **tres años o menos**, sea cual sea tu campo (§ 18g Abs. 1 Satz 2 AufenthG). Y las vías de umbral reducido — por profesión o por título reciente — llevan el visto bueno de la Agencia Federal de Empleo (ver requisito 2).
 

@@ -125,7 +125,7 @@ Si vas por la Vía 2, necesitas sumar al menos **6 puntos**. Así se distribuyen
 | **Potencial del cónyuge/pareja** | |
 | Tu cónyuge o pareja registrada cumple los requisitos, solicita su Chancenkarte en la misma oficina y entra en Alemania contigo | 1 punto |
 | **Profesión en sector con escasez** | |
-| Tu profesión pertenece a uno de los **diez grupos** del § 18g Abs. 1 Satz 2 Nr. 1 (por remisión del § 20b Abs. 1 Satz 1 Nr. 8) | 1 punto |
+| Tu cualificación pertenece a uno de los **diez grupos** del § 18g Abs. 1 Satz 2 Nr. 1 (por remisión del § 20b Abs. 1 Satz 1 Nr. 8) | 1 punto |
 | **Máximo total posible** | **16 puntos** |
 
 > **Los criterios de un mismo grupo no se acumulan**: en idioma, experiencia y edad cuenta solo el tramo más alto que cumplas. Un B2 son 3 puntos, no 3 + 2 + 1. *(Baremo contrastado el 3 de agosto de 2026 contra el texto legal: § 20b AufenthG, su tabla anexa y § 2 AufenthG — niveles de idioma.)*

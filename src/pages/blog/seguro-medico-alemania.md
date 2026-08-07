@@ -166,7 +166,7 @@ El umbral clave se llama **JAEG** (Jahresarbeitsentgeltgrenze — límite anual 
 
 La JAEG sube cada año. En 2024 era 69.300 €; en 2025, 73.800 €; en 2026, 77.400 €. La tendencia es clara: **cada año es más difícil superar el umbral como empleado**.
 
-### Freelancers y autónomos: elección libre
+### Freelancers y autónomos: sin umbral, pero no con la puerta abierta
 
 Los freelancers **no tienen umbral JAEG**: sus ingresos no deciden nada. Pero «puede elegir» **no significa que la pública esté abierta para usted**. Como autónomo a título principal, usted no entra en la GKV por obligación (§ 5 Abs. 5 SGB V), y la puerta voluntaria **exige haber estado asegurado antes en el sistema alemán** (§ 9 SGB V). **Quien llega de América Latina sin ese historial no puede simplemente escoger la pública**, y la red de recogida que cubre a quien se queda sin seguro **tampoco le alcanza** (§ 5 Abs. 1 Nr. 13 letra b) SGB V). En la práctica, para muchos recién llegados autónomos **la privada no es una opción entre dos: es la única disponible al principio**.
 
@@ -229,7 +229,7 @@ Ana acaba de llegar de México con un contrato de 55.000 € brutos. Su empleado
 
 Miguel viene de Argentina con Chancenkarte. Es diseñador UX freelance; ya tiene varios clientes alemanes. No tiene empleador fijo.
 
-**Análisis:** como freelancer, Miguel puede elegir libremente. A los 35 años, sano, sin hijos, la PKV inicial puede salirle más barata que la GKV. Pero hay dos preguntas críticas:
+**Análisis:** como freelancer, Miguel no tiene umbral JAEG — pero eso **no significa que la pública esté abierta para él** (ver más arriba). A los 35 años, sano, sin hijos, la PKV inicial puede salirle más barata que la GKV. Pero hay dos preguntas críticas:
 
 1. **¿Planea tener familia?** Si sí, la Familienversicherung de la GKV puede ahorrarle 300-500 €/mes una vez tenga pareja e hijos.
 2. **¿Cuánto tiempo se ve en Alemania?** Si la respuesta es "muchos años", debe valorar la trayectoria de primas PKV a 10, 20, 30 años vista.

@@ -33,11 +33,15 @@ La ley dice, en esencia: puedes obtener un permiso de residencia para trabajar e
 2. Acumulas **al menos 2 años de experiencia profesional cualificada en los últimos 5 años**, y esa experiencia te capacita para el empleo que vas a ocupar.
 3. Tu salario bruto anual alcanza el **45 % del techo de cotización del seguro de pensiones** (*Beitragsbemessungsgrenze*). **En 2026 son 45.630 € brutos al año — 3.802,50 € al mes** *(verificado en agosto de 2026; fuente: Bundesanzeiger AT 18.12.2025 B1)*.
    - **Excepción:** si tu empleador está sujeto a convenio colectivo y te contrata en las condiciones tarifarias que le rigen, **este umbral no se aplica**.
+   - **Segundo umbral si empiezas el empleo después de cumplir 45 años**: en ese caso la ley exige **55 % del techo de cotización — 55.770 € al año en 2026**, salvo que acredites una previsión de jubilación adecuada o exista un interés público en tu contratación. **El convenio colectivo NO desactiva este segundo umbral**, solo el primero.
 4. Con carácter general se exige un **título o formación reconocida** — pero **en las profesiones de tecnologías de la información y la comunicación, este requisito no se aplica**. Es justo lo que hace de esta la vía de quien tiene experiencia y no tiene papel.
+5. **Tu profesión no está reglamentada.** Esta vía es para los oficios que no exigen habilitación oficial para ejercerse. Si la tuya sí (medicina, enfermería, abogacía…), el camino es el [reconocimiento del título](/blog/reconocimiento-titulos/), no éste.
+
+Y una ventaja del itinerario que conviene conocer: **en tecnologías de la información no hay que pedir a ninguna oficina alemana que valide tu cualificación**. En el resto de sectores hay que presentar una confirmación oficial del título; aquí, como el requisito de título no se aplica, ese trámite desaparece. **Lo que sí sigues teniendo que probar son tus dos años de experiencia**, con certificados de trabajo.
 
 **No hay ningún requisito de idioma en esta vía.**
 
-> 📌 **Recuerda:** En IT no necesitas título universitario ni formación profesional formal. Tu experiencia documentada es suficiente.
+> 📌 **Recuerda:** En IT no necesitas título universitario ni formación profesional formal — **la ley apaga ese requisito, y lo apaga sin condiciones**. Pero el título no es lo único que se pide: siguen en pie los dos años de experiencia, el umbral salarial y el visto bueno de la Agencia Federal de Empleo.
 
 ---
 
@@ -67,12 +71,16 @@ Necesitas demostrar al menos **2 años de experiencia profesional cualificada** 
 - Administración de ERP/SAP
 - Soporte IT de nivel avanzado (no soporte de primer nivel básico)
 
-**¿Qué NO cuenta?**
+**¿Qué exige el criterio publicado?**
 
-- Soporte técnico básico (helpdesk nivel 1)
-- Reparación de hardware o venta de equipos informáticos
-- Community management o marketing digital (aunque uses herramientas tecnológicas)
-- Diseño gráfico puro (sin componente de desarrollo)
+No hay una lista de actividades excluidas. Lo que se mira es el **nivel** y si esa experiencia **te capacita para el puesto concreto**: la Agencia Federal de Empleo pide que se haya adquirido **en tareas de nivel académico o de formación profesional cualificada**, y lo que queda fuera es el trabajo de aprendizaje sin ese nivel de responsabilidad.
+
+Dos precisiones que suelen sorprender, y las dos juegan a tu favor:
+
+- **La experiencia vale igual si la adquiriste fuera de Alemania.**
+- **El trabajo a tiempo parcial cuenta**, siempre que fuera tu actividad principal durante ese período.
+
+> **Importante:** es una cuestión de **nivel, no de etiqueta del puesto**. Dos personas con el mismo cargo pueden estar una dentro y otra fuera. Y no hace falta que tu experiencia sea del mismo oficio: basta con que te capacite para el trabajo que vas a hacer.
 
 > **Importante:** Asegúrate de que tus certificados de trabajo describan claramente las tareas técnicas que realizabas. Una carta genérica sin detalle técnico puede no ser suficiente.
 
@@ -86,7 +94,11 @@ Tu salario bruto anual debe alcanzar el **45 % del techo de cotización del segu
 
 **Hay una excepción que puede dejarte fuera del umbral**: si tu empleador está sujeto a convenio colectivo y te contrata en las condiciones tarifarias que le rigen, **el mínimo salarial no se te aplica**. Si tu oferta viene de una empresa con convenio, pregúntalo antes de descartarte por el sueldo.
 
-**La mayoría de empleos IT en Alemania superan este umbral**, incluso en posiciones junior: los rangos de la tabla de más abajo empiezan por encima de él.
+⚠️ **Y una advertencia que cambia la cuenta si has cumplido 45**: para quien empieza el empleo pasada esa edad, la ley pide **55.770 € (2026)**, no 45.630 — es el 55 % del mismo techo de cotización. **Este umbral no lo levanta el convenio colectivo.** Hay dos formas de salvarlo: acreditar una **previsión de jubilación adecuada**, o que exista un **interés público** en tu contratación (regional, económico o de política de empleo). Y ojo al detalle: **la edad que cuenta es la que tengas al empezar a trabajar**, no al solicitar.
+
+Y hay una condición que **no depende del umbral ni del convenio**: tus condiciones de trabajo **no pueden ser peores que las de trabajadores comparables en Alemania**. La Agencia Federal de Empleo lo comprueba antes de dar su visto bueno.
+
+**La mayoría de empleos IT en Alemania superan este umbral**, pero **no todos**: en los perfiles junior y en las ciudades del este, varios de los rangos de la tabla de más abajo **empiezan por debajo**. Comprueba tu oferta contra la cifra, no contra la media.
 
 ---
 
@@ -94,7 +106,9 @@ Tu salario bruto anual debe alcanzar el **45 % del techo de cotización del segu
 
 Necesitas una **oferta de trabajo concreta o un contrato firmado**. No puedes obtener este visado para venir a buscar trabajo; necesitas tener el empleo asegurado antes de solicitar la visa.
 
-El empleador no necesita hacer ningún trámite especial, pero la **Bundesagentur für Arbeit** (Agencia Federal de Empleo) debe aprobar tu contratación mediante una **Zustimmung** (aprobación). Este proceso es generalmente rápido para perfiles IT, ya que la demanda supera ampliamente la oferta.
+El empleador no necesita hacer ningún trámite especial, pero tu contratación **necesita el visto bueno** de la **Bundesagentur für Arbeit** (Agencia Federal de Empleo), la **Zustimmung**. La ley dice que **puede concederse** cuando se cumplen los requisitos: no es un sello automático. Este proceso es generalmente rápido para perfiles IT, ya que la demanda supera ampliamente la oferta.
+
+Y hay algo que **no** te van a pedir: **nadie tiene que demostrar que no había un candidato europeo** para el puesto. Esa comprobación no existe en esta vía.
 
 > 💡 **Consejo:** Si tu empresa es grande o conocida en Alemania, la Zustimmung suele tramitarse más rápido.
 
@@ -104,11 +118,10 @@ El empleador no necesita hacer ningún trámite especial, pero la **Bundesagentu
 
 **El §6 BeschV no exige ningún nivel de alemán.** No es que el requisito sea flexible: **no existe**. Aun así, en la práctica:
 
-- La Ausländerbehörde puede pedir justificación de por qué no necesitas alemán para el puesto.
 - Suele ayudar que tu empleador confirme que el idioma de trabajo es inglés (o el que aplique).
 - **Tener un nivel básico de alemán (A1-A2) ayuda mucho** en la entrevista de la Ausländerbehörde y en la vida diaria.
 
-> 💡 **Consejo:** Prepara una carta de tu empleador confirmando que el idioma de trabajo es inglés. Es un documento sencillo que puede evitarte complicaciones en la Ausländerbehörde.
+> 💡 **Consejo:** Nadie te va a exigir esa carta —el requisito de idioma no existe en esta vía—, pero **no cuesta nada llevarla**: una nota de tu empleador confirmando que el idioma de trabajo es inglés despeja dudas en la Ausländerbehörde sin que tengas que discutir nada.
 
 ---
 
@@ -233,7 +246,7 @@ La Chancenkarte funciona con un **sistema de puntos**: necesitas **al menos 6**.
 | Inglés **C1** o superior | 1 |
 | Experiencia: **5 años o más** de los últimos 7 | 3 |
 | Experiencia: **2 años o más** de los últimos 5 | 2 |
-| Tu profesión pertenece a uno de los diez grupos del § 18g Abs. 1 Satz 2 Nr. 1 (las TIC están dentro) | 1 |
+| Tu cualificación pertenece a uno de los diez grupos del § 18g Abs. 1 Satz 2 Nr. 1 (las TIC están dentro) | 1 |
 | Tener **35 años o menos** | 2 |
 | Tener **de 36 a 40 años** | 1 |
 | Haber residido legalmente y sin interrupción **6 meses** en Alemania en los últimos 5 años | 1 |
@@ -285,7 +298,7 @@ Esta estrategia es especialmente útil si:
 
 ### Consejos prácticos
 
-**Traduce tus certificados de trabajo** al alemán o inglés por un traductor jurado. Los originales en español no suelen ser aceptados directamente.
+**Traduce tus certificados de trabajo** al alemán por un traductor jurado. Que se acepte el **inglés** sin traducir **depende de cada autoridad**, no de una norma: pregúntalo antes de ahorrártelo. Los originales en español no suelen ser aceptados directamente.
 
 **Prepara un portafolio técnico**: GitHub, proyectos personales, contribuciones open source. Esto refuerza tu perfil ante la Ausländerbehörde.
 

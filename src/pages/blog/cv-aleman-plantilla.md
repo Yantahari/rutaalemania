@@ -346,7 +346,7 @@ En Alemania, la candidatura completa (llamada *Bewerbungsmappe*) incluye:
 3. **Zeugnisse** (certificados y referencias) - las que sean relevantes
 
 Los *Zeugnisse* incluyen:
-- Título universitario (y traducción jurada si no está en alemán o inglés)
+- Título universitario (y traducción jurada al alemán si no está en alemán; que se acepte el inglés sin traducir depende de cada autoridad)
 - Certificados de idiomas
 - Certificados de formación adicional
 - **Arbeitszeugnisse** (referencias de empleadores anteriores) - en Alemania, al terminar un empleo el empleador está legalmente obligado a darte una carta de referencia
