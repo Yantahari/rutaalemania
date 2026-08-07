@@ -372,7 +372,7 @@ Utiliza servicios como **[Wise](https://wise.prf.hn/click/camref:1110lAp2W)**, q
 4. **Usa el Deutschlandticket.** 63 € por todo el transporte público del país es imbatible.
 5. **Declara "keine Konfession" en el Anmeldung** si no perteneces a una iglesia. Te ahorras un impuesto considerable.
 6. **Compara seguros médicos.** Las TK y AOK suelen tener buenas condiciones.
-7. **Aprovecha el Pfand.** Devuelve las botellas y latas al supermercado y recupera 0,25 € por envase.
+7. **Aprovecha el Pfand.** Devuelve las botellas y latas al supermercado: recuperas **0,25 € por envase de un solo uso**, y entre 8 y 15 céntimos por los reutilizables.
 
 > 💡 **Consejo:** Los primeros meses son los más caros. Una vez estabilizado, tus gastos mensuales bajan considerablemente.
 

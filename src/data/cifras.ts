@@ -257,6 +257,34 @@ export const CIFRAS = {
     deriva_de: ['jaeg.anno'],
   },
 
+  // ─── Trámites de llegada (tanda T4, 7-ago-2026) ─────────────────────────
+  // Los DOS únicos importes de `primeros-pasos` que no tenían custodia — y la
+  // tanda destapó POR QUÉ ninguno la tenía: son números que pueden moverse SIN
+  // QUE CAMBIE SU LEY (la IntV fija un porcentaje; el VerpackG, un mínimo).
+  // Invisibles para cualquier vigía que mire leyes.
+  'integrationskurs.hora': {
+    valor: 2.29,
+    unidad: '€/hora lectiva',
+    vigencia: '2026',
+    verificado: '2026-08-07',
+    revision: { tipo: 'evento', porque: 'El § 9 Abs. 1 IntV NO fija el importe: fija el 50 % del Kostenerstattungssatz del § 20 Abs. 6. El euro se mueve sin tocar la IntV — vigilar el FAQ del BAMF, no la norma' },
+    aplica_a: 'participantes del Integrationskurs sin exención',
+    fuente: { nombre: 'BAMF, FAQ «Was kostet ein Integrationskurs?» (act. 1-7-2026) + formulario KNr. 630.027r ed. 07/2026', tipo: 'oficial' },
+    nota:
+      'Vigente para quien se inscribió a partir del 1-8-2022. Un curso general de 700 horas sale a ~1.603 € [calc: 2,29 × 700 = 1.603]. ⚠️ DATO QUE ERA DINERO Y NO PUBLICÁBAMOS: quien aprueba el examen final dentro de los dos años recupera la mitad. Gratuito con ayudas sociales.',
+  },
+  'pfand.einweg.minimo': {
+    valor: 0.25,
+    unidad: '€/envase',
+    vigencia: '2026',
+    verificado: '2026-08-07',
+    revision: { tipo: 'evento', porque: 'importe de norma (§ 31 VerpackG); cambia por reforma' },
+    aplica_a: 'envases de bebida de un solo uso (Einweg)',
+    fuente: { nombre: '§ 31 Abs. 1 Satz 1 VerpackG', tipo: 'oficial' },
+    nota:
+      '⚠️ ES UN MÍNIMO LEGAL, NO UN IMPORTE ÚNICO: el literal dice «ein Pfand in Höhe von MINDESTENS 0,25 Euro». Y solo vale para Einweg. En Mehrweg no hay norma que fije importe: lo pone cada embotellador, típicamente 8 cts hasta 0,5 l y 15 por encima, más ~1,50 € por caja. Publicarlo como «0,25 € por envase» era la falta que corrigió T4 en dos superficies.',
+  },
+
   // ─── Reconocimiento de títulos (tanda T2, 7-ago-2026) ───────────────────
   // Única cifra del artículo que puede envejecer sola: es una tasa pública.
   // El artículo la publicaba sin segundo escalón y sin reloj.

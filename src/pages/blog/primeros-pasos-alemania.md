@@ -38,7 +38,9 @@ Antes de hablar de las semanas, asegúrate de que llegas a Alemania con estos do
 - **Partida de nacimiento** apostillada y traducida (útil para varios trámites)
 - **Certificado de matrimonio** apostillado y traducido (si aplica)
 
-> ⚠️ **Importante — Sobre la Apostilla de la Haya:** Alemania es firmante del Convenio de la Haya. Tus documentos oficiales (título, partida de nacimiento, certificado de matrimonio, antecedentes penales) deben llevar la Apostilla. Consíguela en tu país **antes de viajar**. Hacerlo desde Alemania es mucho más complicado y costoso.
+> ⚠️ **Importante — Sobre la Apostilla de la Haya:** Alemania es parte del Convenio de La Haya, así que **para la mayoría de países la vía es la Apostilla** sobre tus documentos oficiales (título, partida de nacimiento, certificado de matrimonio, antecedentes penales). Consíguela en tu país **antes de viajar**: hacerlo desde Alemania es mucho más complicado y costoso.
+>
+> **Pero no vale para todos, y esto casi nadie lo cuenta.** El Convenio solo funciona **entre Estados que se lo reconocen mutuamente**. Con la **República Dominicana**, Alemania objetó la adhesión: entre los dos países **el Convenio no se aplica y la Apostilla no sirve** — la vía es la **legalización consular** (*Legalisation*). Y con algunos países Alemania **tampoco legaliza**: encarga una comprobación del contenido a un abogado de confianza de su embajada. **Antes de pagar nada, pregunta en la embajada alemana de tu país cuál de las tres vías te toca.**
 
 ---
 
@@ -60,7 +62,7 @@ Consigue una **tarjeta SIM** para tener internet y un número alemán desde el p
 
 ### Días 2-4: Anmeldung (registro de domicilio)
 
-**Este es el trámite más importante y urgente.** Por ley, tienes un plazo de **14 días** desde tu llegada para registrar tu domicilio.
+**Este es el trámite más importante y urgente.** El **§ 17 Abs. 1 de la Bundesmeldegesetz** te da **dos semanas**, y es plazo federal, igual en toda Alemania. **Pero no cuentan desde que aterrizas: cuentan desde que te instalas en una vivienda** (*Einzug*). Si pasas las primeras semanas en un hotel o un alojamiento de corta estancia, **el reloj todavía no ha empezado**. Incumplirlo es infracción administrativa (§ 54 Abs. 2 Nr. 1 BMG).
 
 **¿Dónde?** En la **Bürgeramt** (oficina de ciudadanos) de tu distrito.
 
@@ -183,7 +185,9 @@ Este número de 11 dígitos es esencial para que tu empleador pueda **procesarte
 - Llamar al BZSt al +49 228 406-1240 y solicitar que te lo envíen de nuevo o confirmen tu número.
 - Ir personalmente al **Finanzamt** (hacienda) de tu distrito con tu Meldebescheinigung y pasaporte para obtenerlo en persona.
 
-> **Importante:** Si empiezas a trabajar antes de tener tu Steuer-ID, tu empleador aplicará la **clase fiscal VI** (la más alta). Eso significa que te descuentan mucho más de lo normal. No te asustes: cuando se registre tu número fiscal con la clase correcta, **te devolverán la diferencia** en la siguiente nómina o en la declaración de la renta.
+> **Importante, y aquí la ley está de tu lado:** la clase VI **no es automática**. El § 39c Abs. 1 EStG solo la impone si **no comunicas tu número por causa tuya**. Si aún no lo tienes **y no es culpa tuya** —que es la situación normal de un recién llegado—, tu empleador debe aplicar **la clase que previsiblemente te corresponde, durante un máximo de tres meses**. La VI llega **después**, con efecto retroactivo, solo si pasados esos tres meses sigues sin comunicarlo. Aun así, **persigue tu Steuer-ID**: los tres meses corren.
+>
+> Y si te han descontado de más, **te devuelven la diferencia**: lo normal es que tu empleador lo regularice en una nómina siguiente (§ 41c EStG); la declaración de la renta es el respaldo si eso no ocurre.
 
 ---
 
@@ -193,7 +197,7 @@ Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguie
 
 **Opciones:**
 
-- **Integrationskurs (curso de integración):** Subvencionado por el gobierno para ciertos perfiles (reagrupación familiar, refugiados, algunos visados). Pregunta en tu Ausländerbehörde si tienes derecho. Cuesta ~2,29 € por hora lectiva (o gratuito si recibes ayudas sociales).
+- **Integrationskurs (curso de integración):** Subvencionado por el gobierno para ciertos perfiles (reagrupación familiar, refugiados, algunos visados). Pregunta en tu Ausländerbehörde si tienes derecho. Cuesta **2,29 € por hora lectiva** — unos **1.603 € por un curso general de 700 horas** — o **gratuito si recibes ayudas sociales**. **Y hay un reembolso que casi nadie reclama:** si apruebas el examen final **dentro de los dos años** siguientes, **te devuelven la mitad de lo que pagaste**.
 - **VHS (Volkshochschule):** las escuelas populares de cada ciudad son la opción más económica. **El precio lo fija cada municipio y se factura por curso**, no por trimestre — consulta el catálogo de la VHS de tu ciudad.
 - **[Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48):** Clases online en vivo con profesores nativos, en grupos pequeños, con horarios flexibles que se adaptan a tu jornada laboral. **Ideal si ya estás trabajando** y no puedes asistir a clases presenciales en horario fijo.
 - **[Babbel](https://es.babbel.com/cursos-de-aleman):** App con cursos de alemán diseñados para hispanohablantes. Lecciones de 10-15 minutos al día, a tu ritmo. **Ideal para empezar antes de llegar** o como complemento a clases en vivo.
@@ -208,7 +212,7 @@ Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguie
 
 ### Seguro de responsabilidad civil (Haftpflichtversicherung)
 
-La **Haftpflichtversicherung** (seguro de responsabilidad civil privada) no es legalmente obligatoria en Alemania, pero el **85% de los alemanes la tiene** y se considera imprescindible. Cubre daños que usted cause accidentalmente a terceros: romper algo en un piso alquilado, causar un accidente en bicicleta, dañar el ordenador de un compañero de trabajo, etc.
+La **Haftpflichtversicherung** (seguro de responsabilidad civil privada) no es legalmente obligatoria en Alemania, pero la tienen **más del 89 % de los hogares** (Statistisches Bundesamt, EVS 2023, según explotación del GDV) y se considera imprescindible. Cubre daños que usted cause accidentalmente a terceros: romper algo en un piso alquilado, causar un accidente en bicicleta, dañar el ordenador de un compañero de trabajo, etc.
 
 Sin este seguro, usted responde con **todo su patrimonio** por los daños causados. Un accidente de bicicleta que cause lesiones a un peatón puede suponer una reclamación de decenas de miles de euros.
 
@@ -246,7 +250,9 @@ Si entraste con una visa de tipo D (visa nacional), ahora debes solicitar tu **p
 - Fotos biométricas
 - Formulario de solicitud
 
-> **Importante:** Pide cita lo antes posible. En muchas ciudades (especialmente Berlín), las citas en la Ausländerbehörde tienen **semanas o incluso meses de espera**. Si tu visa expira antes de que consigas cita, normalmente tu entrada al país y la solicitud registrada te cubren legalmente, pero es mejor no arriesgarse.
+> **Importante:** Pide cita lo antes posible. En muchas ciudades (especialmente Berlín), las citas en la Ausländerbehörde tienen **semanas o incluso meses de espera**.
+>
+> ⚠️ **Y esto es lo que de verdad te protege, así que léelo dos veces:** lo que mantiene tu situación regular **no es tener cita, es haber PRESENTADO la solicitud** antes de que caduque tu permiso. Si lo haces a tiempo, tu permiso anterior **se considera vigente hasta que la oficina resuelva** (§ 81 Abs. 4 AufenthG), y puedes pedir un justificante (*Fiktionsbescheinigung*) — **que acredita esa protección, no la crea**. **Una cita para dentro de tres meses no te cubre por sí sola.** Y ojo: **esto no se aplica si entraste con un visado Schengen de corta estancia.**
 
 ---
 
@@ -310,7 +316,7 @@ Al firmar el contrato de alquiler, considere contratar una **[Hausratversicherun
 **Internet en casa:**
 
 - Si firmas contrato de alquiler propio, puedes contratar con **Vodafone, Telekom, O2 o 1&1**.
-- Los contratos suelen ser de **24 meses**. Busca ofertas de "Neukunde" (nuevo cliente) con descuento los primeros meses.
+- Los contratos suelen tener un plazo inicial de **24 meses** — eso sigue permitido. Busca ofertas de "Neukunde" (nuevo cliente) con descuento los primeros meses.
 - La instalación puede tardar **1-3 semanas** después de firmar.
 - Coste: 25-45 €/mes dependiendo de la velocidad.
 - [Compara proveedores y precios](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4) antes de firmar: la diferencia entre tarifas puede ser de 10-20 € al mes.
@@ -332,7 +338,7 @@ Al firmar el contrato de alquiler, considere contratar una **[Hausratversicherun
 <a href="https://tidd.ly/4vxmVpv" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lycamobile.png" alt="" width="40" height="16" style="display:inline;vertical-align:middle;margin-right:0.4rem;object-fit:contain"> Consigue tu SIM alemana con Lyca Mobile</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
-> **Importante:** Los contratos de 24 meses se renuevan automáticamente si no cancelas con 3 meses de antelación. Anota la fecha de cancelación en tu calendario el mismo día que firmes.
+> **Importante — y es mejor de lo que te habrán contado:** desde la reforma de 2021-2022, **un contrato de consumo ya no puede volver a atarte otro periodo completo**. Pasado el plazo inicial se prorroga **por tiempo indefinido** y puedes cancelarlo **en cualquier momento con un mes de preaviso** (§ 56 TKG para internet y móvil; § 309 Nr. 9 BGB para el resto). Aun así, anota la fecha: **un mes de más también es dinero.**
 
 ---
 
@@ -352,7 +358,7 @@ Esto puede parecer trivial, pero en Alemania **la separación de basura es un as
 
 ---
 
-**Sistema Pfand:** Las botellas y latas con el símbolo Pfand se devuelven en el supermercado. La máquina te da un **vale de 0,25 € por envase**. Es ecológico y económico.
+**Sistema Pfand:** Las botellas y latas con el símbolo Pfand se devuelven en el supermercado. La máquina te devuelve el depósito, **y no siempre es el mismo**: en envases de un solo uso (*Einweg*: latas y botellas de plástico) son **0,25 €**, que es el mínimo que fija la ley (§ 31 VerpackG). En los **reutilizables** (*Mehrweg*, las botellas de cristal) lo fija cada embotellador y suele ser **8 céntimos hasta medio litro y 15 por encima**; las cajas llevan el suyo, en torno a **1,50 €**. Es ecológico y económico.
 
 **Pilas, electrónica, medicamentos:** Se depositan en puntos específicos (supermercados para pilas, Wertstoffhof para electrónica, farmacias para medicamentos).
 
@@ -376,7 +382,7 @@ Aquí tienes todo condensado en una lista que puedes usar como referencia rápid
 
 - [ ] Conseguir tarjeta SIM ([Lyca Mobile](https://tidd.ly/4vxmVpv) — SIM gratis, llamadas baratas a LATAM)
 - [ ] Activar Deutschlandticket
-- [ ] **Hacer el Anmeldung** en la Bürgeramt (plazo: 14 días)
+- [ ] **Hacer el Anmeldung** en la Bürgeramt (dos semanas desde que te instalas)
 - [ ] Guardar la Meldebescheinigung en lugar seguro
 - [ ] Activar el Sperrkonto (si aplica) con [Expatrio](https://www.expatrio.com/?p=rutaalemania)
 - [ ] Abrir cuenta bancaria ([C24 Bank](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=c24bank&cat=14), N26 o banco tradicional)
@@ -433,7 +439,7 @@ Basado en la experiencia de cientos de hispanohablantes, estos son los **tropiez
 
 ---
 
-**Firmar contratos de 24 meses sin leer la letra pequeña.** Los contratos de internet, móvil y gimnasio en Alemania suelen ser de 24 meses con renovación automática y periodo de cancelación de 3 meses antes del vencimiento (Kündigungsfrist). Si no cancelas a tiempo, **se renueva automáticamente**. Anota las fechas de cancelación en tu calendario.
+**Firmar contratos de 24 meses sin leer la letra pequeña.** El plazo inicial de 24 meses es legal y habitual en internet, móvil y gimnasio. Lo que **ya no** ocurre es la renovación por otro periodo completo: desde 2022, pasado el plazo inicial el contrato queda **indefinido y cancelable con un mes de aviso**. El error de verdad es **no anotar cuándo acaba el plazo inicial**.
 
 ---
 

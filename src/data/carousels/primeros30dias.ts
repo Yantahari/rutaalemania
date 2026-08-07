@@ -23,7 +23,7 @@ const slides: CarouselSlide[] = [
     title: 'Haz el <span class="cb-gold">Anmeldung</span>',
     stepBadge: 'Día 2-4',
     cardContent:
-      'Tienes <span class="cb-gold">14 días</span> para registrar tu domicilio en la Bürgeramt.<br><br>Sin la Meldebescheinigung <span class="cb-gold">casi todo se atasca</span> — aunque firmar contrato o abrir una cuenta básica no te lo pueden negar por ley.',
+      'Tienes <span class="cb-gold">dos semanas desde que te instalas</span> —no desde que aterrizas— para registrar tu domicilio en la Bürgeramt.<br><br>Sin la Meldebescheinigung <span class="cb-gold">casi todo se atasca</span> — aunque firmar contrato o abrir una cuenta básica no te lo pueden negar por ley.',
   },
   // Slide 4 — Cuenta bancaria
   {

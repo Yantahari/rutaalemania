@@ -189,7 +189,7 @@ Si estás fuera de Alemania, solicita una **visa nacional (tipo D)** en el consu
 
 ### Paso 4: Llega a Alemania y haz el Anmeldung
 
-Una vez en Alemania, tienes **14 días para registrar tu domicilio** (Anmeldung) en la oficina de ciudadanos (Bürgeramt). Este trámite es esencial para todo lo demás.
+Tienes **dos semanas para registrar tu domicilio** (Anmeldung) en la oficina de ciudadanos (Bürgeramt), contadas **desde que te instalas en una vivienda**, no desde que aterrizas (§ 17 Abs. 1 BMG). Este trámite es esencial para todo lo demás.
 
 > **Importante:** Reserva cita en la Bürgeramt con antelación, incluso antes de aterrizar. En ciudades como Berlín, las listas de espera pueden ser de semanas.
 
