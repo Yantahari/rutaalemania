@@ -68,7 +68,7 @@ Independientemente de la vía que elijas, hay tres requisitos que **siempre** de
 
 ### 1. Título cualificado
 
-Debes tener un título universitario o de formación profesional reconocido **al menos en tu país de origen**. El título debe ser de al menos 2 años de duración.
+Debes tener un título universitario o de formación profesional cualificada. Si el tuyo es de **formación profesional**, debe estar **reconocido por el Estado del país donde lo obtuviste** *y* haber requerido **al menos dos años de formación** (§ 20a Abs. 3 AufenthG) — ⚠️ **un título de un año reconocido en tu país cumple la primera condición y no cumple la norma**. También sirve un título expedido por una **Cámara de Comercio Alemana en el Exterior**.
 
 Para la Vía 1, debe estar además **reconocido en Alemania**.
 
