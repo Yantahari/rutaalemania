@@ -72,13 +72,15 @@ Dos de estos requisitos los cumples **vayas por la vía que vayas**. El tercero 
 
 ### 1. Título cualificado
 
-Debes tener un título universitario o de formación profesional cualificada, y **las dos ramas no se rigen por la misma condición**.
+Debes tener un título universitario o de formación profesional cualificada. **Lo que sigue es el requisito de la vía de puntos** (§ 20a Abs. 4 Satz 3 Nr. 1 AufenthG); por la Vía 1 el requisito es otro —ser *Fachkraft*, con el título reconocido en Alemania—. Y dentro de la vía de puntos, **las tres ramas no piden lo mismo**:
 
-Si el tuyo es de **formación profesional**, debe estar **reconocido por el Estado del país donde lo obtuviste** *y* haber requerido **al menos dos años de formación** — ⚠️ **un título de un año reconocido en tu país cumple la primera condición y no cumple la norma**. También sirve un título expedido por una **Cámara de Comercio Alemana en el Exterior**.
+- **Formación profesional** (*Buchst. a*): debe estar **reconocida por el Estado del país donde la obtuviste** *y* haber requerido **al menos dos años de formación**. **Las dos cosas a la vez** — la ley las une con «und». ⚠️ **Un título de un año reconocido en tu país cumple la primera y no cumple la norma.**
+- **Título universitario** (*Buchst. b*): la condición es **más ligera** — basta con que esté **reconocido por el Estado donde lo obtuviste**, **sin** los dos años y **sin** equivalencia alemana.
+- **Cámara de Comercio Alemana en el Exterior** (*Buchst. c*): es una **vía alternativa** que **no exige ni los dos años ni el reconocimiento estatal**. Pero es más estrecha de lo que parece: el título tiene que estar **expedido por** la Cámara, no simplemente validado por ella.
 
-Si el tuyo es **universitario**, la condición es **más ligera**: basta con que esté **reconocido por el Estado del país donde lo obtuviste** — **sin** el requisito de los dos años y **sin** equivalencia alemana. *(Eso es para la vía de puntos; la Vía 1 sí exige el reconocimiento alemán.)*
+> ⚠️ **Un matiz que se pasa por alto:** la ley dice **el Estado donde obtuviste el título**, que no siempre es tu país. Si estudiaste fuera, el reconocimiento que cuenta es el de **donde estudiaste**.
 
-> ⚠️ **Y hay un paso que casi nadie cuenta:** la ley te obliga a **hacer confirmar por un organismo cualificado en Alemania** que cumples esa condición. No basta con afirmarlo en la solicitud.
+> ⚠️ **Y hay un paso que casi nadie cuenta:** si vas por la rama de FP o por la universitaria, la ley te obliga a **hacer confirmar por un organismo cualificado en Alemania** que cumples la condición (§ 20a Abs. 4 Satz 4). No basta con afirmarlo en la solicitud. *(La vía de la Cámara tiene su propia ruta de confirmación, distinta: se acredita ante la entidad que expide el título, a petición y coste de ella.)*
 
 Para la Vía 1, debe estar además **reconocido en Alemania**.
 
@@ -327,9 +329,9 @@ Si estás como turista con los 90 días de exención de visado, no tienes un per
 
 ### ¿Vale cualquier título universitario?
 
-El título de formación profesional debe haber requerido **al menos dos años de formación** y estar **reconocido por el Estado del país donde lo obtuviste** — que no es lo mismo que «reconocido en tu país»: ⚠️ **un título de un año reconocido en tu país cumple la frase pero no cumple la norma**. También sirve un título expedido por una **Cámara de Comercio Alemana en el Exterior**. **Si el título es universitario, basta el reconocimiento estatal en el país donde lo obtuviste**, sin los dos años.
+**Por la vía de puntos** (§ 20a Abs. 4 Satz 3 Nr. 1 AufenthG), el título de formación profesional debe haber requerido **al menos dos años de formación** *y* estar **reconocido por el Estado del país donde lo obtuviste** — que no es lo mismo que «reconocido en tu país»: ⚠️ **un título de un año reconocido en tu país cumple la frase pero no cumple la norma**. **Si el título es universitario, basta el reconocimiento estatal del Estado donde lo obtuviste**, sin los dos años. Y hay una **tercera vía que no pide ninguna de las dos condiciones**: un título **expedido por** una Cámara de Comercio Alemana en el Exterior.
 
-Para la Vía 1, además debe estar reconocido en Alemania. Títulos técnicos, tecnológicos y de formación profesional cualificada también pueden valer, no solo los universitarios.
+**Por la Vía 1 el requisito es distinto**: ser *Fachkraft*, es decir, tener el título reconocido en Alemania. Títulos técnicos, tecnológicos y de formación profesional cualificada también pueden valer, no solo los universitarios.
 
 ---
 
