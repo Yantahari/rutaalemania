@@ -38,7 +38,7 @@ Antes de entrar en detalle, aquí tienes el gasto mensual de **una persona sola*
 
 > **Nota:** son los mismos datos y las mismas categorías que usa nuestro [simulador de vida](/#simulador). Si pruebas tu ciudad allí, el total te dará lo mismo que aquí.
 
-> **Clave:** Múnich es la ciudad más cara de Alemania. Leipzig y ciudades del este son significativamente más baratas. Berlín, a pesar de su fama, está en un rango medio-alto pero sigue siendo más asequible que Múnich o Fráncfort.
+> **Clave:** Múnich es la más cara de las grandes ciudades alemanas. Leipzig y ciudades del este son significativamente más baratas. Berlín, a pesar de su fama, está en un rango medio-alto pero sigue siendo más asequible que Múnich o Fráncfort.
 
 ---
 
@@ -77,13 +77,13 @@ El rango cubre la mitad central de las ofertas: una cuarta parte de los pisos se
 
 > **Fuente y fecha:** alquiler de oferta del índice GREIX (Instituto de Kiel), datos de junio de 2026, más los gastos de comunidad del Deutscher Mieterbund (2,67 €/m² al mes). Friburgo no aparece en GREIX: su cifra es la media de ImmoScout24 del primer trimestre de 2026, y por eso va sin rango.
 
-> 💡 **Consejo:** Si llegas sin contrato de alquiler, necesitarás alojamiento temporal. Una habitación en un WG (piso compartido) puede costar entre 400 y 700 € en la mayoría de ciudades. Plataformas como WG-Gesucht, Immobilienscout24 y eBay Kleinanzeigen son las más usadas.
+> 💡 **Consejo:** Si llegas sin contrato de alquiler, necesitarás alojamiento temporal. Una habitación en un WG (piso compartido) cuesta de media unos **510 €** (verano de 2026, análisis del Moses Mendelssohn Institut con WG-Gesucht): entre 400 y 700 € en la mayoría de ciudades, con Múnich ya en ~800 € y las más baratas en ~375-385 €. Suelen ser precios con **luz e internet incluidos** (y la zona común amueblada) — no les sumes suministros aparte. Plataformas como WG-Gesucht, Immobilienscout24 y eBay Kleinanzeigen son las más usadas.
 
 ### Kaution (fianza)
 
-La fianza suele ser de **2-3 meses de Kaltmiete**. Es decir, si tu Kaltmiete es de 650 €, prepárate para pagar entre 1.300 y 1.950 € de fianza al firmar el contrato.
+La fianza suele ser de **2-3 meses de Kaltmiete** — y **tres es el máximo que permite la ley** (§ 551 BGB): si te piden más, no es legal. Es decir, si tu Kaltmiete es de 650 €, entre 1.300 y 1.950 €. Además **tienes derecho a pagarla en tres plazos mensuales iguales** (el primero al empezar el contrato), así que no necesitas tenerla entera el día de la firma.
 
-Este dinero se deposita en una cuenta bloqueada y **se devuelve al salir del piso** (si todo está en orden).
+El casero debe guardar este dinero **separado de su patrimonio y con intereses a tu favor**, y **se devuelve al salir del piso** (si todo está en orden), con esos intereses.
 
 > 📌 **Recuerda:** La fianza es dinero que recuperarás, pero necesitas tenerlo disponible al firmar el contrato. Inclúyelo en tu presupuesto de llegada.
 
@@ -97,7 +97,7 @@ En Alemania, **tener seguro médico es obligatorio por ley** desde el primer dí
 
 - Es el que usa la mayoría de la población: **unos 74,2 millones de personas, cerca del 90 %** (Ministerio de Sanidad alemán, enero de 2026).
 - Cuesta aproximadamente el **14,6% de tu salario bruto**, más el Zusatzbeitrag de la aseguradora: **2,9 % como referencia oficial en 2026** (lo que cobra cada caja va aparte: entre 2,18 % y 4,39 %). Tu empleador paga la mitad.
-- **Tu parte real:** alrededor de **280-320 € al mes** si ganas un salario medio.
+- **Tu parte real:** el **8,75% de tu bruto** (la mitad del 14,6% más la mitad del suplemento de referencia). Con el **salario mediano alemán** (54.066 € al año en 2025, Destatis) son unos **394 € al mes**; con 3.200 € brutos, unos 280 €. La cuota deja de crecer cuando tu bruto pasa del tope de cotización de la sanidad: máximo en torno a **509 €/mes**. (Esto es solo el seguro médico: la **dependencia —Pflegeversicherung— se descuenta aparte**; la tienes en la tabla de deducciones de más abajo.)
 - Incluye cobertura completa: médico general, especialistas, hospital, medicamentos (con copago mínimo), maternidad y más.
 - **Compañías populares:** TK (Techniker Krankenkasse), AOK, Barmer, DAK.
 
@@ -141,9 +141,11 @@ La comida en Alemania es **sorprendentemente asequible** si compras en los super
 
 ### Presupuesto mensual de alimentación
 
-- **Cocinando en casa (austero):** 200–280 € al mes
-- **Cocinando en casa (variado):** 280–380 € al mes
-- **Comiendo fuera frecuentemente:** 400–550 € al mes
+- **Cocinando en casa (ajustado):** 200–280 € al mes
+- **Cocinando en casa (variado):** 280–380 € al mes *(orientativo)*
+- **Comiendo fuera frecuentemente:** 400–550 € al mes *(orientativo)*
+
+(Para calibrar: el gasto **medio real** de una persona sola son ~254 €/mes — Destatis, EVS 2023, el mismo dato del resumen de arriba.)
 
 Un menú en un restaurante económico cuesta entre 10 y 15 €. Una comida en un restaurante de nivel medio, entre 20 y 35 €. **Un Döner Kebab** (la comida rápida más popular en Alemania) cuesta entre 6 y 8 €.
 
@@ -155,7 +157,7 @@ Un menú en un restaurante económico cuesta entre 10 y 15 €. Una comida en un
 
 Desde 2023 existe el **Deutschlandticket**, un abono mensual de **63 €** que te permite usar **todo el transporte público local y regional** en toda Alemania: metros, buses, tranvías y trenes regionales (RE/RB).
 
-Esto es una revolución para el presupuesto. Antes, un abono mensual en Berlín costaba más de 80 € y en Múnich superaba los 100 €.
+Esto es una revolución para el presupuesto: antes cada ciudad tenía su propio abono con su propio precio, y salir de tu red se pagaba aparte.
 
 ### ¿Qué incluye?
 
@@ -175,9 +177,9 @@ Esto es una revolución para el presupuesto. Antes, un abono mensual en Berlín 
 
 En las grandes ciudades, **no**. El transporte público es excelente.
 
-En zonas rurales, sí puede ser necesario. El coste de tener coche en Alemania (seguro, impuestos, gasolina, TÜV) puede sumar fácilmente **300-500 € al mes**.
+En zonas rurales, sí puede ser necesario. El coste **total** de tener coche — contando la **depreciación**, que es la partida mayor y la que nadie suma — ronda los **250-450 € al mes en un utilitario pequeño** y los **480-620 € en un compacto** (ADAC, 15.000 km/año). Si el coche ya está amortizado, los gastos corrientes (seguro, impuestos, gasolina, TÜV) pueden quedarse en 300-500 €.
 
-> **Clave:** Si puedes vivir sin coche, te ahorrarás entre 250 y 450 € al mes respecto a tener uno. Es una de las mayores diferencias presupuestarias.
+> **Clave:** Si puedes vivir sin coche, te ahorrarás entre unos 190 y 560 € al mes respecto a tener uno (el coste del coche menos los 63 € del abono de transporte). Es una de las mayores diferencias presupuestarias.
 
 ---
 
@@ -210,7 +212,7 @@ La Warmmiete de la tabla de arriba ya incluye calefacción, agua y gastos del ed
 
 - **Electricidad (Strom):** unos **49 € al mes** para una persona sola (1.200 kWh al año a 0,37 €/kWh, más la cuota fija). Se contrata por tu cuenta y **nunca** va dentro de la Warmmiete.
 - **Internet y móvil:** también aparte. Están dentro de la partida «todo lo demás» del resumen.
-- **Gas:** solo si tu contrato es Kaltmiete **sin calefacción incluida**, un caso poco frecuente en alquileres para recién llegados. Entonces sí lo pagarías tú, entre 50 y 80 € al mes. Si tu alquiler es Warmmiete —como los de este artículo—, **la calefacción ya está pagada y no debes sumarla otra vez**.
+- **Gas:** solo si tu contrato es Kaltmiete **sin calefacción incluida**, un caso poco frecuente en alquileres para recién llegados. Entonces sí lo pagarías tú: **entre 50 y 80 € al mes en un piso pequeño** (hasta ~65 m²; en 70 m² puede rondar los 100 €), más la cuota fija del contrato (~12 €/mes) — y ojo, al llegar caes por defecto en la **tarifa más cara**: cambiar de proveedor es donde está el ahorro del que hablamos justo abajo. Si tu alquiler es Warmmiete —como los de este artículo—, **la calefacción ya está pagada y no debes sumarla otra vez**.
 
 Alemania tiene libertad de mercado en electricidad y gas, lo que significa que puedes elegir proveedor. Los precios entre companias pueden variar hasta un 30%. [Comparar tarifas de electricidad](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=stromanbieter-wechseln&cat=1) y [gas](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=gasanbieter-wechseln&cat=3) antes de aceptar el proveedor por defecto de tu zona puede ahorrarte 200-400 € al ano.
 
@@ -247,13 +249,13 @@ Veamos qué te descuentan del salario bruto:
 
 | Concepto | Porcentaje aproximado (tu parte) |
 |---|---|
-| Impuesto sobre la renta (Lohnsteuer) | 14–42% (progresivo) |
+| Impuesto sobre la renta (Lohnsteuer) | 14–45% (progresivo; el 45% solo por encima de ~278.000 €) |
 | Seguro médico (Krankenversicherung) | 8,75% |
 | Seguro de pensiones (Rentenversicherung) | 9,3% |
 | Seguro de desempleo (Arbeitslosenversicherung) | 1,3% |
 | Seguro de dependencia (Pflegeversicherung) | 1,8% con hijos · 2,4% sin hijos (en Sajonia, 2,3% y 2,9%) |
 | Impuesto de solidaridad (Solidaritätszuschlag) | 0–5,5% del IRPF |
-| Impuesto eclesiástico (Kirchensteuer) | 8–9% del IRPF (solo si perteneces a una iglesia) |
+| Impuesto eclesiástico (Kirchensteuer) | 8–9% del IRPF (8% en Baviera y Baden-Württemberg, 9% en el resto; solo si perteneces a una iglesia) |
 
 > **Importante:** El impuesto eclesiástico (Kirchensteuer) solo se paga si al hacer tu Anmeldung declaras pertenecer a una iglesia registrada (católica, protestante, etc.). Si no perteneces a ninguna, indica "keine Konfession" y **te ahorras un 8-9%** sobre tu impuesto de la renta.
 
@@ -300,9 +302,9 @@ Para poner las cosas en perspectiva, comparemos el **poder adquisitivo real**. U
 
 **Factores que a menudo se olvidan:**
 
-- En Alemania **no pagas universidad** (casi gratuita incluso para extranjeros en la mayoría de estados federales).
+- La universidad pública **no cobra matrícula en la mayoría de Länder — pero como extracomunitario no lo des por hecho**: depende del Land y, en Baviera, de cada universidad. Medidos: **Baden-Württemberg cobra 1.500 €/semestre** a quien viene de fuera de la UE (ley del Land), y en **Baviera cada universidad fija su tasa — de 500 a 6.000 €/semestre según carrera**. Aparte, en todo el país pagarás el **Semesterbeitrag** (~80-380 €/semestre, lo paga todo el mundo). Comprueba **tu** Land y **tu** universidad antes de presupuestar cero.
 - El **seguro médico cubre prácticamente todo**, sin grandes facturas sorpresa.
-- Las **vacaciones pagadas** son mínimo 20 días laborales (muchas empresas dan 28-30).
+- Las **vacaciones pagadas** son mínimo 20 días laborales — por ley son «24 Werktage» contando sábados (§ 3 BUrlG): la misma cifra, cuatro semanas. El derecho completo nace a los **seis meses** de contrato. (Muchas empresas dan 28-30.)
 - El **subsidio de desempleo** (Arbeitslosengeld I) te cubre al **60 %** de tu sueldo neto —**67 %** si tienes al menos un hijo— si pierdes el trabajo (§149 SGB III). Se calcula sobre un neto a tanto alzado, no sobre el de tu nómina, y la base se topa en 8.450 € al mes.
 
 > **Buena noticia:** Lo que en tu país puede parecer un salario alto, en Alemania debe contextualizarse con los costos locales. Sin embargo, la calidad de vida, la seguridad social y la capacidad de ahorro a largo plazo suelen ser superiores.
@@ -322,12 +324,12 @@ Esta es la pregunta del millón. Aquí va una estimación realista de lo que nec
 | Alojamiento temporal (1-2 meses) | 400–1.400 € *(orientativo)* |
 | Fianza del piso (Kaution) | 2-3 meses de alquiler **frío**: de ~950 € en Dresde a ~3.500 € en Múnich |
 | Primer mes de alquiler | de ~610 € en Dresde a ~1.295 € en Múnich |
-| Seguro médico (primer mes) | 100–300 € |
+| Seguro médico (primer mes) | ~60-80 € con seguro de viaje/incoming (el del visado) · ~270-280 € si ya te asegura la GKV voluntaria (sin empleo aún) |
 | Gastos varios (SIM, transporte, comida inicial) | 300–500 € *(orientativo)* |
 
-> **Las tres partidas marcadas como orientativas no tienen fuente, y no la van a tener.** El vuelo depende de tu país, la época del año y con cuánta antelación compres; el alojamiento temporal, de la ciudad y del tipo de sitio — la horquilla sale de uno o dos meses de habitación en piso compartido (400-700 € al mes, el mismo precio que citamos más arriba); un apartamento turístico o un Airbnb cuestan bastante más; los gastos varios, de cómo llegues. Son órdenes de magnitud para que no te falte nada en la lista, no cifras que puedas presupuestar al euro. **El resto de la tabla sí sale de fuentes verificadas** — y es la mayor parte con diferencia: de los 15.000-18.500 € del escenario con Chancenkarte, unos 14.700-17.900 € son cuenta bloqueada, fianza y primer mes de alquiler.
+> **Las tres partidas marcadas como orientativas no tienen fuente, y no la van a tener.** El vuelo depende de tu país, la época del año y con cuánta antelación compres; el alojamiento temporal, de la ciudad y del tipo de sitio — la horquilla sale de uno o dos meses de habitación en piso compartido (400-700 € al mes, el mismo precio que citamos más arriba); un apartamento turístico o un Airbnb cuestan bastante más; los gastos varios, de cómo llegues. Son órdenes de magnitud para que no te falte nada en la lista, no cifras que puedas presupuestar al euro. **El resto de la tabla sí sale de fuentes verificadas** (el seguro del primer mes, de las tarifas publicadas por las aseguradoras y del suelo legal de la cotización voluntaria) — y es la mayor parte con diferencia: de los 15.000-18.500 € del escenario con Chancenkarte, unos 14.700-17.900 € son cuenta bloqueada, fianza y primer mes de alquiler.
 
-> **La fianza es la partida que más varía, y la que más se subestima.** No es una cifra fija: son **2-3 meses de Kaltmiete**, el alquiler *frío*. Ojo con esto, porque es donde más gente se equivoca: las cifras de alquiler de este artículo son **Warmmiete** (con gastos incluidos), y la fianza se calcula sobre el alquiler **sin** esos gastos — resta unos 134 € a la cifra de tu ciudad antes de multiplicar. En Leipzig son unos 1.000-1.500 €; en Múnich, entre 2.300 y 3.500 €. Es dinero que recuperas al irte, pero tienes que tenerlo el día que firmas.
+> **La fianza es la partida que más varía, y la que más se subestima.** No es una cifra fija: son **2-3 meses de Kaltmiete**, el alquiler *frío* — y tres mensualidades es además el tope que marca la ley. Ojo con esto, porque es donde más gente se equivoca: las cifras de alquiler de este artículo son **Warmmiete** (con gastos incluidos), y la fianza se calcula sobre el alquiler **sin** esos gastos — resta unos 134 € a la cifra de tu ciudad antes de multiplicar. En Leipzig son unos 1.000-1.500 €; en Múnich, entre 2.300 y 3.500 €. Es dinero que recuperas al irte, pero tienes que tenerlo el día que firmas.
 
 ---
 
@@ -341,11 +343,11 @@ El Sperrkonto ya cubre tus primeros meses de manutención (~1.091 €/mes que se
 
 **Si vienes de la UE (no necesitas visa ni Sperrkonto):**
 
-Necesitas menos, pero no llegues con los bolsillos vacíos. **Total recomendado: 3.000–5.000 €** para cubrir los primeros dos meses hasta que cobres tu primer sueldo.
+Necesitas menos, pero no llegues con los bolsillos vacíos. **Total recomendado: 3.000–5.000 €** para cubrir los primeros dos meses hasta que cobres tu primer sueldo (la cuenta: dos meses del gasto total de la tabla resumen — de ~1.650 € al mes en Leipzig a ~2.300 € en Múnich).
 
 **Si ya tienes trabajo firmado antes de llegar:**
 
-Mejor escenario. Aun así, necesitas dinero para la fianza, el primer mes y gastos iniciales. **Total recomendado: 2.500–4.000 €**.
+Mejor escenario. Aun así, necesitas dinero para la fianza, el primer mes y gastos iniciales. **Total recomendado: 2.500–4.000 €** (la cuenta: fianza + primer mes + gastos varios de la tabla de arriba, según la ciudad — en Múnich la fianza sola puede pasar del techo).
 
 > 📌 **Recuerda:** Aunque tengas trabajo firmado, tu primer sueldo puede tardar 4-6 semanas en llegar. Ten un colchón financiero para ese periodo. Organiza todo lo que necesitas hacer al aterrizar con nuestra [checklist de los primeros 30 días en Alemania](/blog/primeros-pasos-alemania/).
 
@@ -366,7 +368,7 @@ Utiliza servicios como **[Wise](https://wise.prf.hn/click/camref:1110lAp2W)**, q
 
 ## Consejos finales para optimizar tu presupuesto
 
-1. **Elige bien tu ciudad.** La diferencia de costo entre Múnich y Leipzig puede ser de 600-900 € al mes.
+1. **Elige bien tu ciudad.** La diferencia de costo entre Múnich y Leipzig es de 600-750 € al mes con las cifras de este mismo artículo.
 2. **Empieza en un WG (piso compartido).** Es más barato, conoces gente y practicas alemán.
 3. **Cocina en casa.** La diferencia entre comer fuera y cocinar es enorme.
 4. **Usa el Deutschlandticket.** 63 € por todo el transporte público del país es imbatible.

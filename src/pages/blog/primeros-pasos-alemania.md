@@ -84,7 +84,7 @@ Consigue una **tarjeta SIM** para tener internet y un número alemán desde el p
 
 Si no consigues cita, acude a primera hora **sin cita**. Muchas Bürgeramt atienden sin cita con plazas limitadas. Llega 30-45 minutos antes de la apertura.
 
-> 📌 **Recuerda:** En el formulario te preguntarán por tu **confesión religiosa (Religionszugehörigkeit)**. Si indicas una iglesia registrada (católica, evangélica), pagarás el impuesto eclesiástico (8-9% sobre tu IRPF). Si no perteneces a ninguna, marca **"keine Konfession"** (sin confesión).
+> 📌 **Recuerda:** En el formulario te preguntarán por tu **confesión religiosa (Religionszugehörigkeit)**. Si indicas una iglesia registrada (católica, evangélica), pagarás el impuesto eclesiástico (8-9% sobre tu IRPF: 8% en Baviera y Baden-Württemberg, 9% en el resto). Si no perteneces a ninguna, marca **"keine Konfession"** (sin confesión).
 
 ---
 

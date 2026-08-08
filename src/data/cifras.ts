@@ -402,6 +402,36 @@ export const CIFRAS = {
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     fuente: { nombre: 'Beitragsbemessungsgrenze KV/PV 2026 (BMG)', tipo: 'oficial' },
   },
+  'salarios.mediana_2025_anual': {
+    valor: 54066,
+    unidad: '€/año',
+    vigencia: '2025',
+    verificado: '2026-08-08',
+    revision: { tipo: 'calendario', proxima: '2027-04', porque: 'Destatis publica los Verdienste del ejercicio anterior en primavera' },
+    fuente: { nombre: 'Destatis, nota de prensa PD26_113_621 (1-abr-2026)', tipo: 'oficial' },
+    nota:
+      'Mediana bruta ANUAL a jornada completa, con pagas extra. Es el operando de cuanto-cuesta:100 y del carrusel seguromedico («salario mediano» → parte GKV ~394 €/mes al 8,75 %). Alta T8 C2 (8-ago-2026): el «280-320 € con salario medio» que se publicaba correspondía a un bruto bajo el percentil 30.',
+  },
+  'salarios.media_2025_anual': {
+    valor: 64441,
+    unidad: '€/año',
+    vigencia: '2025',
+    verificado: '2026-08-08',
+    revision: { tipo: 'calendario', proxima: '2027-04', porque: 'Destatis publica los Verdienste del ejercicio anterior en primavera' },
+    fuente: { nombre: 'Destatis, nota de prensa PD26_113_621 (1-abr-2026)', tipo: 'oficial' },
+    nota:
+      'Media bruta anual a jornada completa, con pagas extra. NO se usa como operando de la parte GKV: supera la BBG KV (69.750 €/año) y el cálculo lineal deja de valer — la cuota se topa en ~509 €/mes. Se guarda como dato (T8, 8-ago-2026).',
+  },
+  'wg.habitacion_media': {
+    valor: 512,
+    unidad: '€/mes',
+    vigencia: 'verano 2026',
+    verificado: '2026-08-08',
+    revision: { tipo: 'calendario', proxima: '2027-02', porque: 'El MMI publica por semestre universitario (SoSe/WiSe)' },
+    fuente: { nombre: 'Moses Mendelssohn Institut + WG-Gesucht.de, SoSe 2026 (n=10.542)', tipo: 'solvente' },
+    nota:
+      'Media nacional ponderada por estudiantes; Warmmiete con luz, internet y mobiliario de zonas comunes. Extremos medidos: Múnich 800 €, Bielefeld 375 / Bochum 385. Solo plazas en 89 ciudades universitarias, WG de 2-3 personas, precios de OFERTA. Operando de cuanto-cuesta:80 (T8 C5).',
+  },
   'gkv.empleador_max_kv.mes': {
     valor: 508.59,
     unidad: '€/mes',

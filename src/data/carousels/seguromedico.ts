@@ -38,9 +38,9 @@ const slides: CarouselSlide[] = [
     title: '¿Cuánto <span class="cb-gold">cuesta</span>?',
     amountCard: {
       label: 'Tu parte (seguro público)',
-      amount: '~280€',
-      sub: 'al mes',
-      note: '<span class="cb-gold">14,6% + suplemento</span> de tu salario bruto.<br>Tu empleador paga la otra mitad.',
+      amount: '~394€',
+      sub: 'al mes, con el salario mediano',
+      note: '<span class="cb-gold">8,75% de tu bruto</span> (14,6% + suplemento, a medias con tu empleador).<br>Salario mediano 2025: 54.066€/año (Destatis).',
     },
   },
   // Slide 5 — Aseguradoras populares
