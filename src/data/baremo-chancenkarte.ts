@@ -102,7 +102,7 @@ export const BAREMO_CHANCENKARTE = {
     },
     {
       id: 'deficitaria',
-      etiqueta: 'Cualificación en profesión deficitaria (Mangelberuf)',
+      etiqueta: 'Cualificación en profesión de la lista del § 18g (Mangelberuf)',
       excluyente: false,
       // ⚠️ NO es «una lista de escasez» ni la publica la BA: es una lista CERRADA
       // de diez grupos ISCO-08 en el § 18g Abs. 1 Satz 2 Nr. 1, a la que remite el

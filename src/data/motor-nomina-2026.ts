@@ -13,6 +13,12 @@
 // la iguala: la ley no deduce la cotización completa sino la
 // Vorsorgepauschale (§39b), que es otra cosa y tiene sus topes. Queda
 // declarado, no resuelto. No cambiar sin encargo.
+//
+// Segunda simplificación declarada (día 151, tanda T7 C10): la Pflege no
+// modela la composición familiar — «con hijos» aplica 1,8 % (exacto con UN
+// hijo). Del 2.º al 5.º hijo <25 años el tipo real baja 0,25 puntos/hijo
+// [fuente: veredicto T7 Q9]: cobra de más a familias numerosas. Declarado,
+// no resuelto. No cambiar sin encargo.
 
 import { CIFRAS, type CifraId } from './cifras';
 

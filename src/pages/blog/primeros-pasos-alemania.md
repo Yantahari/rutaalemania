@@ -368,7 +368,7 @@ Esto puede parecer trivial, pero en Alemania **la separación de basura es un as
 
 ### Registrarte en servicios esenciales
 
-- **Correo:** Puedes redirigir tu correo si cambias de dirección (Nachsendeauftrag en Deutsche Post, ~28 €/6 meses).
+- **Correo:** Puedes redirigir tu correo si cambias de dirección (Nachsendeauftrag en Deutsche Post — de pago, unos 30-35 €; el precio vigente, en deutschepost.de).
 - **Biblioteca pública:** Con la Meldebescheinigung puedes hacerte socio de la biblioteca local. Muchas ofrecen libros, películas, **cursos de idiomas online** y espacios de trabajo gratuitos.
 - **Radio/TV (GEZ/Rundfunkbeitrag):** Recibirás una carta de ARD ZDF Deutschlandradio Beitragsservice pidiendo que registres tu hogar. Es **obligatorio**: 18,36 €/mes por hogar. Solo un miembro del hogar paga.
 
@@ -395,7 +395,7 @@ Aquí tienes todo condensado en una lista que puedes usar como referencia rápid
 ### Semana 2 (Importante)
 
 - [ ] Contratar [Haftpflichtversicherung](https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=haftpflichtversicherung) (responsabilidad civil, ~5€/mes)
-- [ ] Verificar que se ha solicitado tu Steueridentifikationsnummer
+- [ ] Verificar que tu Steueridentifikationsnummer está en camino (llega sola por correo tras el Anmeldung)
 - [ ] Si no llega, contactar al BZSt o ir al Finanzamt
 - [ ] Comunicar tu Steuer-ID a tu empleador
 - [ ] Inscribirte en un curso de alemán ([Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48), VHS, Integrationskurs)

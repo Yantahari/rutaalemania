@@ -40,12 +40,12 @@ No es como en otros países donde "privado" significa "mejor" y "público" signi
 En GKV, la prima se calcula como un **porcentaje de su salario bruto**:
 
 - Tipo general: **14,6%** del salario bruto (fijo por ley: § 241 SGB V)
-- Zusatzbeitrag (contribución adicional, varía por aseguradora): **2,9 % de media en 2026** (según la caja, entre 2,18 % y 4,39 %) — **también se reparte a medias con el empleador**
+- Zusatzbeitrag (contribución adicional, varía por aseguradora): **2,9 % como referencia oficial en 2026** — lo que cobra cada caja va aparte (entre 2,18 % y 4,39 %) y en 2026 tiende a quedar por encima de la referencia — **también se reparte a medias con el empleador**
 - **Total medio: ~17,5 % del salario bruto** (verificado en julio de 2026)
 
 Importante: **la mitad de la prima la paga el empleador** (§ 249 SGB V). Si usted es empleado, solo paga **~8,75 %** de su salario bruto.
 
-**Ejemplo:** con un salario de 60.000 € brutos/año, su parte de la prima GKV es aproximadamente **5.250 €/año** (unos 437 €/mes de media; hasta unos 475 €/mes si su caja está en la parte alta), descontados directamente de la nómina.
+**Ejemplo:** con un salario de 60.000 € brutos/año, su parte de la prima GKV es aproximadamente **5.250 €/año** (unos 437 €/mes con la referencia del 2,9 %; hasta unos 475 €/mes si su caja está en la parte alta), descontados directamente de la nómina.
 
 ### Qué cubre
 
@@ -140,7 +140,7 @@ PKV suele ofrecer **coberturas superiores** a GKV:
 
 Si es freelancer o autónomo, **no hay empleador que pague el 50%** de su prima. Usted asume toda la prima de su bolsillo. Si sus ingresos bajan, la prima PKV no baja con ellos; es fija por contrato.
 
-En GKV como freelancer, la prima se calcula sobre sus ingresos — **pero con un suelo** (§ 240 SGB V). Existe una **base mínima de cotización**: aunque usted ingrese menos, cotiza como si ingresara **1.318,33 € al mes** (cifra de 2026, que cambia cada enero). Por debajo de ahí, **su cuota deja de bajar con sus ingresos**. Si los suyos son muy bajos, **pregunte en su caja si su caso admite alguna reducción**: no lo dé por cerrado. Y la cotización se calcula sobre su **capacidad económica completa** —alquileres, rendimientos del capital—, no solo sobre lo que factura su actividad.
+En GKV como freelancer, la prima se calcula sobre sus ingresos — **pero con un suelo** (§ 240 SGB V). Existe una **base mínima de cotización**: aunque usted ingrese menos, cotiza como si ingresara **1.318,33 € al mes** (cifra de 2026, que cambia cada enero). Por debajo de ahí, **su cuota deja de bajar con sus ingresos**. Las reducciones regladas del suelo son para casos concretos (estudiantes, solicitantes de pensión). Lo que sí tiene su caso es la **fijación provisional**: la caja fija la cuota sobre su última declaración de la renta y la regulariza después — pregunte por ella. Y la cotización se calcula sobre su **capacidad económica completa** —alquileres, rendimientos del capital—, no solo sobre lo que factura su actividad.
 
 > ⚠️ **Y hay una trampa que conviene conocer antes de que le llegue la carta:** si su caja le pide que acredite sus ingresos y usted **no responde**, la ley no la deja cobrarle poco a la espera — **le cobra como si ganara el máximo** (§ 240 SGB V, con el tope del § 223). La diferencia no es pequeña: la base pasa de **1.318,33 € al mes** a **5.812,50 €**. **Conteste siempre esa carta**, aunque sus ingresos sean bajos: es justo cuando más caro sale no hacerlo.
 

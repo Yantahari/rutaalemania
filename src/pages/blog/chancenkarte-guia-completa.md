@@ -124,7 +124,7 @@ Si vas por la Vía 2, necesitas sumar al menos **6 puntos**. Así se distribuyen
 | Al menos 6 meses de estancia legal e ininterrumpida en los últimos 5 años *(las salidas breves no rompen el cómputo si, en una consideración de conjunto, el centro espacial de tu estancia siguió estando en Alemania)* | 1 punto |
 | **Potencial del cónyuge/pareja** | |
 | Tu cónyuge o pareja registrada cumple los requisitos, solicita su Chancenkarte en la misma oficina y entra en Alemania contigo | 1 punto |
-| **Profesión en sector con escasez** | |
+| **Profesión de la lista cerrada del § 18g** | |
 | Tu cualificación pertenece a uno de los **diez grupos** del § 18g Abs. 1 Satz 2 Nr. 1 (por remisión del § 20b Abs. 1 Satz 1 Nr. 8) | 1 punto |
 | **Máximo total posible** | **16 puntos** |
 
@@ -150,7 +150,7 @@ Si vas por la Vía 2, necesitas sumar al menos **6 puntos**. Así se distribuyen
 - Reconocimiento parcial: 4 puntos
 - Experiencia profesional (6 años): 3 puntos
 - Edad (36 a 40): 1 punto
-- Profesión con escasez: 1 punto
+- Profesión de la lista del § 18g: 1 punto
 - **Total: 9 puntos** — Sobra
 
 > 📌 **Recuerda:** La edad es un factor clave en el sistema de puntos. Si tienes 35 años o menos, obtienes 2 puntos automáticamente.

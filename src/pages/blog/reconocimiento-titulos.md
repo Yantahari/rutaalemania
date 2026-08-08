@@ -226,12 +226,14 @@ La autoridad te confirmará la recepción de tu solicitud y **te asignará un n�
 |---|---|
 | Tasa de la ZAB (títulos académicos) | **200 EUR la primera valoración; 100 EUR cada una siguiente** |
 | Tasa de cámaras IHK/HWK | 100-600 EUR |
-| Tasa para profesiones sanitarias | 150-1.000 EUR (varía mucho por estado) |
+| Tasa para profesiones sanitarias | 150-1.000 EUR (varía mucho por estado; el examen de conocimientos médico puede superar ese techo) |
 | Traducciones juradas | 50-200 EUR por documento |
 | Apostilla de La Haya | 10-50 EUR por documento (varía por país) |
 | Copias compulsadas | 5-20 EUR por documento |
 | Envío postal certificado | 10-30 EUR |
 | **Total orientativo** | **300-1.500 EUR** |
+
+> ⚠️ En las profesiones sanitarias, el **examen de conocimientos** y el de **idioma técnico** van aparte de la tasa del procedimiento — y pueden acabar doblando la factura.
 
 > **Buena noticia, con una trampa de calendario:** existen ayudas para costear el reconocimiento —el *Anerkennungszuschuss* llega hasta **600 €**—, pero **hay que solicitarlas ANTES de presentar la solicitud de reconocimiento**. Si la pides después, **la pierdes**. Consúltalo en el portal anerkennung-in-deutschland.de antes de mover ningún papel.
 

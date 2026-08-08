@@ -383,7 +383,7 @@ export const CIFRAS = {
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'El BMG publica el Zusatzbeitrag medio del año siguiente en otoño; efectivo enero' },
     fuente: { nombre: 'BMG / GKV-Spitzenverband (durchschnittlicher Zusatzbeitrag)', tipo: 'oficial' },
     nota:
-      'Media oficial 2026. Rango real por caja: 2,18–4,39 %. El sitio publicaba «~1,5-2 %».',
+      'Valor de ORIENTACIÓN del BMG (Bundesanzeiger) — NO una media observada. vdek (2026): el tipo efectivo superará claramente el 3 %. Rango real por caja: 2,18–4,39 %. El simulador calcula con este valor y lo declara en pantalla: neto optimista mientras el efectivo esté por encima (T7 C9, 8-ago-2026). El sitio publicaba «~1,5-2 %».',
   },
   'gkv.total_medio': {
     valor: 17.5,
@@ -530,7 +530,7 @@ export const CIFRAS = {
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Rechengrößen y tipos de la seguridad social: cambio anual, efectivo enero' },
     aplica_a: 'empleados',
     fuente: { nombre: 'Pflegeversicherung — SGB XI / BMG 2026', tipo: 'oficial' },
-    nota: 'Parte del trabajador, con hijos, fuera de Sajonia.',
+    nota: 'Parte del trabajador, con hijos, fuera de Sajonia. 1,8 % = exacto con UN hijo: del 2.º al 5.º hijo <25 años el tipo real baja 0,25 puntos por hijo [fuente: veredicto T7 Q9]. El motor no modela la composición familiar — cobra de más a familias numerosas. Declarado, no resuelto (T7 C10, 8-ago-2026).',
   },
   'pv.trabajador.sin_hijos': {
     valor: 2.4,

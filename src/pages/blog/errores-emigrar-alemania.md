@@ -60,10 +60,10 @@ Sin el Anmeldung, **casi todo se complica o se atasca**:
 
 - Abrir cuenta en la mayoría de bancos tradicionales se complica (suelen exigirlo) — aunque no es un muro legal: todo consumidor con estancia legal en la UE tiene derecho a una **cuenta básica** con solo una dirección postal y su documento (§ 31 ZKG). **Se pide con un formulario que el banco debe darle, y desde que lo entrega el banco tiene diez días hábiles para contestar**: cómo se hace y qué hacer si le dicen que no, en la [guía de cuentas bancarias](/blog/cuenta-bancaria-alemania/).
 - El contrato de trabajo **sí puedes firmarlo** — basta una dirección de contacto, y no es lícito que te lo nieguen por no estar empadronado. Lo que se atasca es lo fiscal (punto siguiente).
-- No puedes solicitar tu número de identificación fiscal (Steueridentifikationsnummer).
-- No puedes inscribirte en un seguro médico.
-- No puedes solicitar tu permiso de residencia o Blue Card.
-- No puedes contratar internet ni muchos servicios básicos.
+- La **Steuer-ID no se solicita: llega sola** — al empadronarte, el padrón avisa a la agencia federal de impuestos y el número te llega por correo (§ 139b AO). **Sin Anmeldung no hay vía para ti**: la solicitud directa existe solo para estancias de menos de seis meses. Este eslabón sí depende del empadronamiento.
+- El seguro médico **no se bloquea**: si empiezas a trabajar, tu afiliación nace **por ley el día que entras en el empleo** (§ 186 SGB V) y el alta la tramita tu empleador — tú solo le dices qué caja eliges. Lo que la caja va a necesitar es una **dirección postal alemana** para enviarte la tarjeta.
+- El permiso de residencia o la Blue Card **no exigen el empadronamiento como requisito legal** — pero tu domicilio decide **qué oficina de extranjería te corresponde**, y por eso la Meldebescheinigung aparece en sus listas de documentos. En la práctica: haz el Anmeldung antes de pedir la cita.
+- Contratar internet y otros servicios **se vuelve cuesta arriba**: ninguna ley lo prohíbe, pero los proveedores piden dirección estable y cuenta bancaria para domiciliar — y ya viste arriba cómo queda cada una sin el Anmeldung.
 
 > **Importante:** El Anmeldung sigue siendo lo primero en la práctica: sin él no tienes número fiscal ni Meldebescheinigung, y muchos trámites se retrasan. Hazlo cuanto antes — pero un contrato de trabajo no te lo pueden negar por no tenerlo.
 
@@ -107,7 +107,7 @@ Este error puede costarte literalmente **meses de búsqueda de empleo**. El CV (
 - **No incluir foto:** En Alemania, aunque legalmente no es obligatorio, la gran mayoría de candidatos incluyen una foto profesional. No hacerlo te pone en **desventaja inmediata**.
 - **Huecos sin explicar:** Los alemanes valoran la continuidad. Si hay un hueco de 6 meses entre trabajos, debes explicarlo (viaje, formación, búsqueda activa, etc.).
 - **Sin Bewerbungsschreiben:** Además del Lebenslauf, necesitas una **carta de motivación** (Anschreiben) personalizada para cada puesto. En el mundo hispano solemos enviar el CV solo; en Alemania, un CV sin Anschreiben se descarta directamente.
-- **Referencias de certificados:** En Alemania existe la cultura del **Arbeitszeugnis** (certificado de trabajo). Al dejar un empleo, tu empleador está obligado a darte uno. Los reclutadores alemanes esperan verlos.
+- **Referencias de certificados:** En Alemania existe la cultura del **Arbeitszeugnis** (certificado de trabajo). Al dejar un empleo **tienes derecho por ley a que te lo den (§ 109 GewO) — pero pídelo**: el simple (puesto y duración) te lo deben sin más; el **cualificado**, que valora tu desempeño y es el que los reclutadores esperan leer, **solo si lo reclamas expresamente**.
 
 > 📌 **Recuerda:** En Alemania, una solicitud de empleo completa incluye Lebenslauf + Anschreiben + foto profesional + certificados. Enviar solo un CV es motivo de descarte automático.
 
@@ -159,7 +159,7 @@ Mientras tanto, tu cita en el consulado se acerca o ya pasó, y **tienes que rep
 <a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Abre tu Sperrkonto con Expatrio</a>
 <p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
-> 📌 **Recuerda:** Tiempo total: 1-2 semanas si empiezas con antelación. No lo dejes para el último momento.
+> 📌 **Recuerda:** El trámite en sí tarda 1-2 semanas; por eso el margen de 3-4 de arriba. No lo dejes para el último momento.
 
 ---
 
@@ -213,7 +213,7 @@ El lunes descubrí que **necesitaba cita previa**. La siguiente cita disponible 
 
 ---
 
-Sin Anmeldung, no pude abrir la cuenta bancaria. Sin cuenta bancaria, mi empleador no podía pagarme. Sin el número fiscal, **me aplicaban la clase fiscal más alta (VI)**, lo que significaba que de mi primer sueldo me descontaron un porcentaje brutal.
+Sin Anmeldung, no pude abrir la cuenta bancaria. Sin cuenta bancaria, mi empleador no podía pagarme. Sin el número fiscal, **me aplicaban la clase fiscal más alta (VI)**, lo que significaba que de mi primer sueldo me descontaron un porcentaje brutal. *(Hoy la ley te cubre más que entonces: la cuenta básica es un derecho aunque no estés empadronado —lo viste arriba— y la clase VI ya no llega el primer mes: hay tres meses de margen si el número no te ha llegado por causa ajena a ti.)*
 
 Para colmo, todas las cartas y comunicaciones llegaban en alemán, y yo con mi nivel A1 apenas entendía si me estaban cobrando algo, multando, o invitando a una fiesta del edificio (spoiler: era un aviso de aumento de los Nebenkosten).
 
