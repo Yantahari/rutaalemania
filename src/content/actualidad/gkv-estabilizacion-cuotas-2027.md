@@ -7,6 +7,8 @@ sourceUrl: "https://www.bundesgesundheitsministerium.de/ministerium/meldungen/gk
 tags: ["seguro-medico", "gkv", "normativa-2026", "reforma-sanitaria"]
 ---
 
+> **Actualización (9 de agosto de 2026):** el BStabG ya es ley — aprobado por el Bundestag el 10 de julio de 2026, publicado en el BGBl I Nr. 228 de 29 de julio de 2026 y en vigor desde el 30 de julio; la mayoría de las medidas rigen desde el 1 de enero de 2027. El texto siguiente refleja el estado a 2 de mayo de 2026.
+
 El **Bundeskabinett** aprobó el 29 de abril de 2026 un paquete de medidas para estabilizar las cuotas del seguro público de salud (GKV) en Alemania. La propuesta —el *GKV-Beitragssatzstabilisierungsgesetz* (BStabG)— busca **ahorrar unos 19,6 mil millones de euros en 2027** para evitar nuevas subidas en las contribuciones de los asegurados, según el comunicado del **Bundesministerium für Gesundheit** firmado por la ministra **Nina Warken** (CDU).
 
 El plan llega en un contexto crítico: la GKV cerró 2024 con un déficit cercano a **10 mil millones de euros**, y la cuota adicional media (*Zusatzbeitrag*) subió en enero de 2026 del 2,5 % al 2,9 %. Sin medidas, las proyecciones del propio BMG anticipaban más subidas en 2027.

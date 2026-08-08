@@ -8,7 +8,7 @@ date: "2026-02-20"
 keywords: "sperrkonto alemania, cuenta bloqueada alemania, sperrkonto como abrir"
 ---
 
-Si vas a solicitar un visado para Alemania, ya sea de estudios, Chancenkarte o cualquier otro que requiera demostrar solvencia económica, **necesitarás una Sperrkonto** (cuenta bloqueada).
+Si vas a solicitar un visado para Alemania, ya sea de estudios, Chancenkarte o cualquier otro que requiera demostrar solvencia económica, **lo más probable es que la acredites con una Sperrkonto** (cuenta bloqueada): es la vía que los consulados aceptan sin discusión, aunque no la única.
 
 Es uno de los trámites más importantes y, por suerte, uno de los más sencillos si sabes cómo hacerlo. En esta guía te lo explico todo.
 
@@ -34,16 +34,16 @@ Hay una alternativa con casa legal propia: la **declaración de compromiso** (Ve
 
 ## Cuánto dinero necesitas bloquear en 2026
 
-Las cifras se actualizan cada año. Para 2026, los montos son (verificados en julio de 2026 — fuente: Auswärtiges Amt y Bundesagentur für Arbeit):
+Los importes se revisan cada año: el de estudios se publica en el boletín federal (el BMI lo anuncia antes del 31 de agosto), y el de la Chancenkarte lo aplican los consulados un 10 % por encima. Para 2026, los montos son (verificados en julio de 2026 — fuente: Auswärtiges Amt y Bundesagentur für Arbeit):
 
 | Tipo de visado | Monto mensual | Monto anual (12 meses) |
 |---|---|---|
 | Visado de estudios | 992 EUR/mes | 11.904 EUR |
 | Chancenkarte | 1.091 EUR/mes | 13.092 EUR |
 
-> **Importante:** Estos son los montos mínimos legales. Depositar un poco más (50-100 EUR extra) no está de más por si hay comisiones de transferencia o fluctuaciones de cambio.
+> **Importante:** El monto de estudios es el mínimo que marca la ley (está ligado al BAföG); el de la Chancenkarte lo fija la práctica de los consulados, un 10 % por encima. En los dos casos es lo mínimo que te van a exigir. Depositar un poco más (50-100 EUR extra) no está de más por si hay comisiones de transferencia o fluctuaciones de cambio.
 
-Para la **Chancenkarte**, el monto mensual es ligeramente superior al de estudiantes porque se entiende que un profesional tiene gastos diferentes. El cálculo es: 1.091 EUR x 12 meses = **13.092 EUR**. Para saber si ese dinero te alcanzará en tu ciudad de destino, consulta nuestro [desglose del costo de vida en Alemania](/blog/cuanto-cuesta-vivir-en-alemania/).
+Para la **Chancenkarte**, el monto mensual es un 10 % superior al de estudios — un recargo plano de la práctica consular, no un cálculo de gastos de profesional. El cálculo es: 1.091 EUR x 12 meses = **13.092 EUR**. Para saber si ese dinero te alcanzará en tu ciudad de destino, consulta nuestro [desglose del costo de vida en Alemania](/blog/cuanto-cuesta-vivir-en-alemania/).
 
 ---
 
@@ -271,7 +271,7 @@ La Sperrkonto **no sirve** para recibir tu sueldo ni para hacer pagos diarios. E
 
 ### ¿Puedo abrir la Sperrkonto antes de tener cita en la embajada?
 
-**Sí, y conviene no dejarlo para el final** — con una salvedad que importa: el importe exigido **sube cada año**. La embajada no publica una fecha de caducidad del certificado, pero sí exige la confirmación oficial con el importe total y el mensual, y que cubra tu estancia. Si abres la cuenta con muchos meses de antelación, **comprueba antes de tu cita que tu saldo sigue cubriendo la cifra vigente**: si se ha quedado corta, tendrás que transferir la diferencia y pedir una confirmación actualizada.
+**Sí, y conviene no dejarlo para el final** — con una salvedad que importa: el importe exigido **sube cada año**. La embajada no publica una fecha de caducidad del certificado, pero sí exige la confirmación oficial con el importe total y el mensual, y que cubra tu estancia *(verificado en agosto de 2026 contra las fichas consulares del Auswärtiges Amt)*. Si abres la cuenta con muchos meses de antelación, **comprueba antes de tu cita que tu saldo sigue cubriendo la cifra vigente**: si se ha quedado corta, tendrás que transferir la diferencia y pedir una confirmación actualizada.
 
 ### ¿La Sperrkonto genera intereses?
 
@@ -283,7 +283,7 @@ Una vez que cambias tu permiso de Chancenkarte a un permiso de trabajo y demuest
 
 ### ¿Puedo tener una Sperrkonto con Expatrio si soy de cualquier país?
 
-Expatrio acepta solicitudes de la mayoría de países. Hay algunas restricciones por sanciones internacionales, pero **para todos los países de Latinoamérica y España, no hay problema**.
+Expatrio acepta solicitudes de la mayoría de países. Hay algunas restricciones por sanciones internacionales; para los países de Latinoamérica y España no consta ninguna, pero **compruébalo en su web al abrir la cuenta**.
 
 ---
 

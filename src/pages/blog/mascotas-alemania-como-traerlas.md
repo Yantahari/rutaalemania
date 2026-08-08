@@ -29,6 +29,10 @@ Si viaja desde un **pais que la UE no considera de bajo riesgo de rabia**, neces
 
 Es un analisis de sangre que debe realizarse en **un laboratorio aprobado por la UE** — no vale cualquier laboratorio de su ciudad. Y **el calendario no depende de lo rapido que sea**: la extraccion no puede hacerse hasta **30 dias despues de la vacuna**, y desde la extraccion deben pasar **tres meses** antes de que su mascota pueda entrar. **Cuente unos cuatro meses desde la vacuna, y empiece por ahi.**
 
+### Compruebe la raza antes de planear nada
+
+Alemania **prohibe por ley federal la entrada** de perros de las razas Pitbull Terrier, American Staffordshire Terrier, Staffordshire Bullterrier y Bullterrier, **y de sus cruces** (§ 2 HundVerbrEinfG). Ademas cada Land mantiene su propia lista de razas restringidas, que puede anadir otras: **compruebe la del Land de destino**. Si su perro es de una de estas razas o un cruce, **consultelo con la autoridad veterinaria alemana o su consulado antes de comprar ningun billete**.
+
 ## Paso 2: El papeleo
 
 Necesita un **certificado veterinario oficial** emitido por la autoridad veterinaria de su pais (SENASA en Argentina, ICA en Colombia, SAG en Chile, SENASICA en Mexico, etc.). Este documento:
@@ -84,7 +88,7 @@ Una vez en Alemania, debe completar estos tramites:
 
 ### Registro municipal
 
-Registre a su perro en el **Ordnungsamt** de su ciudad. En muchos municipios debera pagar el **Hundesteuer** (impuesto canino), que oscila entre 50 y 200 EUR anuales segun la ciudad. Los gatos generalmente no requieren este registro.
+Registre a su perro en el **Ordnungsamt** de su ciudad. En la mayoria de municipios debera pagar el **Hundesteuer** (impuesto canino): en las ciudades grandes, cuente entre unos 90 y 186 EUR anuales por el primer perro (recopilaciones de 2026; en municipios pequenos puede ser menos), y para razas clasificadas como peligrosas el impuesto se multiplica — 600-1.200 EUR anuales en varias ciudades. Compruebe la ordenanza de su municipio. Los gatos no pagan impuesto; algunos municipios exigen identificar y castrar a los gatos con acceso al exterior.
 
 ### Seguro de responsabilidad civil para el perro (Tierhalter-Haftpflicht)
 
@@ -124,6 +128,7 @@ Busque un veterinario en su nueva ciudad. Es recomendable hacer una primera visi
 
 Antes de viajar, verifique que tiene todo:
 
+- Raza no afectada por la prohibicion federal ni por la lista del Land de destino (ver Paso 1)
 - Microchip ISO colocado
 - Vacuna antirrabica vigente (minimo 21 dias antes)
 - Titulacion de anticuerpos (**salvo desde Argentina, Chile o Mexico**; iniciar **4 meses antes**)

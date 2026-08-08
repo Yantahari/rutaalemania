@@ -7,7 +7,7 @@ sourceUrl: "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/sozial
 tags: ["seguro-medico", "pkv", "gkv", "normativa-2026"]
 ---
 
-En Alemania, el **Jahresarbeitsentgeltgrenze (JAEG)** marca la frontera entre dos sistemas de salud: por debajo, el seguro público (GKV) es obligatorio; por encima, se abre la puerta al seguro privado (PKV). Para 2026, este umbral se sitúa en **77.400 € brutos anuales**, lo que equivale a **6.450 € brutos al mes**.
+En Alemania, el **Jahresarbeitsentgeltgrenze (JAEG)** marca la frontera entre dos sistemas de salud: por debajo, el seguro público (GKV) es obligatorio; por encima puede abrirse la puerta al seguro privado (PKV). Para 2026, este umbral se sitúa en **77.400 € brutos anuales**, lo que equivale a **6.450 € brutos al mes**.
 
 La cifra supone una actualización respecto al año anterior (73.800 € en 2025) y afecta directamente a quienes planifican su emigración laboral o están negociando contrato. Quien no alcance ese salario bruto seguirá afiliado al sistema público sin poder optar al privado, independientemente de su nacionalidad o tiempo de residencia.
 
@@ -16,12 +16,12 @@ La cifra supone una actualización respecto al año anterior (73.800 € en 2025
 Principalmente a tres perfiles:
 
 - **Trabajadores por cuenta ajena** con salarios altos que quieren valorar si les conviene el cambio a PKV.
-- **Profesionales cualificados** que emigran y negocian oferta laboral: superar el JAEG es condición previa para poder elegir.
-- **Autónomos y funcionarios**, que tienen acceso a PKV sin necesidad de cumplir este umbral.
+- **Profesionales cualificados** que emigran y negocian oferta laboral: superar el JAEG es condición previa para poder elegir (quien empieza un empleo ya por encima puede optar desde el primer día; quien ya cotiza en GKV y sube de sueldo, solo a fin de año y si supera también el umbral del año siguiente).
+- **Autónomos**, que tienen acceso a PKV sin necesidad de cumplir este umbral.
 
 ### ¿Conviene cambiar a PKV si se puede?
 
-No siempre. El seguro privado puede ofrecer primas más bajas al principio, especialmente para jóvenes sanos, pero las cuotas suben con la edad y volver al GKV después de los 55 años es prácticamente imposible. Además, el PKV no cubre gratuitamente a cónyuge e hijos, mientras que el GKV sí lo hace mediante la **Familienversicherung**.
+No siempre. El seguro privado puede ofrecer primas más bajas al principio, especialmente para jóvenes sanos, pero las cuotas suben con la edad y volver al GKV después de los 55 años es prácticamente imposible. Además, el PKV no cubre gratuitamente a cónyuge e hijos; en el GKV la **Familienversicherung** los cubre sin prima aparte si cumplen las condiciones (límites de ingresos del familiar y edades de los hijos).
 
 La decisión no debería tomarse solo por el ahorro inmediato. En nuestra [guía completa sobre seguro médico en Alemania](/blog/seguro-medico-alemania/) analizamos las ventajas y desventajas de cada sistema y explicamos los casos particulares en los que la decisión cambia radicalmente.
 

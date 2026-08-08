@@ -27,11 +27,11 @@ Los reclutadores alemanes están acostumbrados a un formato muy específico y es
 
 ## Las 7 diferencias clave con el CV español/latinoamericano
 
-### 1. Foto profesional obligatoria (en la práctica)
+### 1. Foto profesional: opcional por ley, esperada en la práctica
 
-Legalmente, las empresas alemanas no pueden exigir foto en el CV. Pero en la práctica, **el 90% de los CVs en Alemania incluyen foto** y muchos reclutadores esperan verla.
+Ninguna ley alemana te obliga a poner foto. La protección legal es indirecta: la ley antidiscriminación (AGG, §§ 1 y 7) prohíbe que el proceso de selección discrimine por origen, sexo, religión, discapacidad, edad o identidad sexual — no menciona la fotografía. En la práctica la costumbre pesa: en una encuesta a responsables de RR. HH. recogida en enero de 2025, la mayoría valora que la candidatura lleve foto y en torno al 19 % descarta de entrada las que llegan sin ella.
 
-Una foto profesional (no un selfie, no una foto de vacaciones) es prácticamente imprescindible.
+Si decides incluirla —y es lo esperado—, que sea profesional (no un selfie, no una foto de vacaciones).
 
 **Especificaciones de la foto:**
 - Tamaño tipo carnet, fondo neutro (blanco, gris claro)
@@ -143,7 +143,7 @@ Esta es **la sección más importante**. Para cada puesto incluye:
 ```
 09/2016 - 06/2020     Grado en Ingeniería Informática
                       Universidad Nacional Autónoma de México (UNAM)
-                      Nota final: 9.2/10 (equivalente alemán: 1.5)
+                      Nota final: 9.2/10 (equivalente alemán: 1.6)
                       Tesis: "Optimización de algoritmos de machine learning
                       para detección de fraude"
 
@@ -158,7 +158,7 @@ Esta es **la sección más importante**. Para cada puesto incluye:
 - Nota final (con equivalencia alemana si es posible)
 - Tema de tesis (si es relevante para el puesto)
 
-> 💡 **Consejo:** Para convertir tu nota al sistema alemán, usa la fórmula modificada de Baviera: Nota alemana = 1 + 3 x (Nota máxima - Tu nota) / (Nota máxima - Nota mínima aprobatoria). Un 9.2/10 mexicano equivale aproximadamente a un 1.5 alemán (muy bueno).
+> 💡 **Consejo:** Para convertir tu nota al sistema alemán se usa la fórmula bávara modificada (acuerdo de la KMK): Nota alemana = 1 + 3 x (Nota máxima - Tu nota) / (Nota máxima - Nota mínima aprobatoria), truncada a un decimal (no se redondea). Con la escala mexicana de 0-10 y aprobatoria de 6.0, un 9.2 da un 1.6 alemán (muy bueno). Ojo: si tu universidad puntúa sobre 100 con 70 de aprobado, los operandos cambian — usa los de tu escala.
 
 ---
 
@@ -261,7 +261,7 @@ Nada de fotos con gafas de sol, fondos de playa o recortadas de una foto grupal.
 
 ### 5. Exagerar o mentir
 
-Alemania se toma muy en serio la veracidad del CV. **Mentir sobre títulos o experiencia puede tener consecuencias legales** (sí, legales). Sé honesto.
+Alemania se toma muy en serio la veracidad del CV. **Mentir sobre títulos o experiencia puede tener consecuencias legales**: el contrato puede anularse por engaño doloso incluso años después (§ 123 BGB); atribuirte un título que no tienes puede ser delito (§ 132a StGB), y presentar certificados falsificados, otro (§ 267 StGB). Sé honesto.
 
 ### 6. Enviar un PDF llamado "CV.pdf"
 
