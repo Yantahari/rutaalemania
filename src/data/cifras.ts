@@ -350,11 +350,11 @@ export const CIFRAS = {
     verificado: '2026-08-09',
     revision: { tipo: 'calendario', proxima: '2026-11', porque: 'La SVBezGrV del año siguiente se aprueba y publica en OTOÑO (la de 2026: Bundesrat conforme 21-11-2025, V. de 24-11-2025), efectiva el 1 de enero — el valor 2027 se conoce en noviembre, no en enero' },
     fuente: {
-      nombre: '§ 18 SGB IV · SVBezGrV 2026 § 1 (V. de 24-11-2025, BGBl. 2025 I Nr. 278) — sello del chat 9-ago-2026. Abierta ENTERA: circular Fin 593 (12/2025), Administración de Berlín (3.955 €/mes · 47.460 €/año). El número de BGBl y el literal del § 1 son [fuente parcial]: extracto de búsqueda, las páginas oficiales rechazaron al chat (robots/bots) y CCode no verifica contra web',
+      nombre: '§ 18 SGB IV · SVBezGrV 2026 § 1 (V. de 24-11-2025, BGBl. 2025 I Nr. 278) — sello del chat 9-ago-2026, CERRADO el mismo día a [fuente] sin resto: gesetze-im-internet.de/svbezgrv_2026 ABIERTA POR EL DIRECTOR (concordancia total con el extracto) · circular Fin 593 (12/2025), Administración de Berlín, abierta entera por el chat',
       tipo: 'oficial',
     },
     nota:
-      'Anual: 47.460 €. SIN distinción oeste/este: unificada desde el 1-1-2025 (Rentenüberleitungs-Abschlussgesetz, igualación en siete pasos desde 2019); la exposición de motivos (BR-Drs. 567/25) la llama de vigencia federal unitaria.',
+      'Literal del § 1, verbatim: «Die Bezugsgröße nach § 18 des Vierten Buches Sozialgesetzbuch für das Jahr 2026 beträgt 47 460 Euro. Umgerechnet auf den Monat ergeben sich 3 955 Euro.» (el original separa millares con ESPACIO). Anual: 47.460 €. SIN distinción oeste/este: unificada desde el 1-1-2025 (Rentenüberleitungs-Abschlussgesetz, igualación en siete pasos desde 2019); la exposición de motivos (BR-Drs. 567/25) la llama de vigencia federal unitaria. Abreviatura oficial: SVBezGrV 2026 («SVRechGrV» es forma de fuentes secundarias, no usarla).',
   },
   'familienversicherung.limite_ingresos.mes': {
     valor: 565,
