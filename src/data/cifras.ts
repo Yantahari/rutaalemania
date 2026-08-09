@@ -161,7 +161,16 @@ export const CIFRAS = {
     verificado: '2026-08-01',
     revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Es el 45,3 % de la BBG de pensiones; misma publicación anual que el umbral general' },
     fuente: { nombre: 'Bekanntmachung del BMI de 2-dic-2025, BAnz AT 18.12.2025 B3 (§18g Abs. 1 S. 2 y Abs. 2 AufenthG)', tipo: 'oficial' },
-    nota: 'Aplica a Mangelberufe y a titulados de hace menos de 3 años. Hasta el día 144 el sitio publicaba una cifra que no corresponde a ningún año, por debajo de esta. El valor retirado se registra en informes/estrategics/ del repo de ops, no aquí — el guardián lo vigila como fósil y volver a escribirlo aquí lo dispararía.',
+    nota: 'Aplica a Mangelberufe y a titulados cuyo título no pase de 3 años en el momento de la solicitud (§ 18g Abs. 1 Satz 2 Nr. 2; borde fijado por T10 C4 — antes esta nota decía «de hace menos de 3 años», sin punto de referencia). Hasta el día 144 el sitio publicaba una cifra que no corresponde a ningún año, por debajo de esta. El valor retirado se registra en informes/estrategics/ del repo de ops, no aquí — el guardián lo vigila como fósil y volver a escribirlo aquí lo dispararía.',
+  },
+  'bluecard.tasa.primera': {
+    valor: 100,
+    unidad: '€',
+    vigencia: 'desde 2017-09-01',
+    verificado: '2026-08-09',
+    revision: { tipo: 'evento', porque: 'Importe de norma (§ 45 Nr. 1 AufenthV, versión de la ley de tasas de 13-7-2017): cambia por reforma, no por calendario' },
+    fuente: { nombre: '§ 45 Nr. 1 AufenthV — ambos tramos de duración dicen 100 € (veredicto T10 Q6, literal citado, páginas no abiertas: tres fuentes coincidentes)', tipo: 'oficial' },
+    nota: 'Primera emisión de la Blue Card. Hasta T10 el artículo decía «aproximadamente 100 €»: el literal permite la cifra cerrada. La tasa consular del VISADO es un coste aparte y su importe NO está verificado (ANEXO-1 del veredicto T10): no tiene clave aquí porque no hay dato que custodiar.',
   },
   'beschv6.umbral.anno': {
     valor: 45630,

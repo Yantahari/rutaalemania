@@ -19,12 +19,12 @@ La Blue Card es un **permiso de residencia y trabajo** para profesionales altame
 
 **Puntos clave:**
 
-- Es válida en toda la UE, aunque cada país la gestiona de forma independiente.
+- Es una figura europea, pero el permiso que emite Alemania es alemán: **no te habilita para tomar un empleo ni instalarte en otro país de la UE**. Lo que sí tienes: viajar por el espacio Schengen como visitante (igual que cualquier residente en Alemania), viajes de negocio ligados a tu empleo (hasta 90 días por cada periodo de 180) y, tras 12 meses, la posibilidad de **solicitar** una Blue Card en otro Estado con trámite simplificado (ver «Movilidad dentro de la UE»; Dinamarca e Irlanda no participan de este régimen).
 - En Alemania, se emite inicialmente por **4 años** (o por la duración del contrato + 3 meses si el contrato es menor).
 - Permite cambiar de empleador: los primeros 12 meses se comunica, y la oficina solo puede vetarlo en 30 días si no se cumplen los requisitos (§ 18g Abs. 4 AufenthG).
 - Ofrece el **camino más rápido a la residencia permanente** (Niederlassungserlaubnis): tan solo **21 meses cotizados** con nivel B1 de alemán.
 
-> **Clave:** La Blue Card no es un visado más. Es la vía rápida a la residencia permanente en Alemania, con un **paquete de ventajas que ningún otro permiso reúne junto**.
+> **Clave:** La Blue Card no es un visado más. Es la vía rápida a la residencia permanente en Alemania, con un **paquete de ventajas difícil de igualar**.
 
 ---
 
@@ -39,10 +39,10 @@ Debes tener un título de educación superior (licenciatura, grado, ingeniería,
 **¿Cómo saber si tu título es válido?**
 
 - Consulta la base de datos **anabin** (anabin.kmk.org), donde puedes buscar tu universidad y carrera.
-- La ley pide un título **reconocido o comparable** a uno alemán; **así se comprueba en la práctica**: si tu universidad aparece con la clasificación **H+** (institución reconocida) y tu carrera como **entspricht** (equivalente), la administración lo da por acreditado.
+- La ley pide un título **reconocido o comparable** a uno alemán; **así se comprueba en la práctica**: si tu universidad aparece como **H+**, tu carrera figura como **entspricht** o **gleichwertig**, **y el título consta impartido por esa universidad — las tres cosas a la vez —**, la administración lo da por acreditado (lo que se presenta es el impreso de anabin; anabin no emite ningún certificado). Si falla una, hace falta la valoración de la ZAB.
 - Si tu título no aparece o tiene una clasificación diferente, puedes solicitar una **evaluación individual** a través de la KMK (Kultusministerkonferenz). Te explicamos todo el proceso en nuestra [guía sobre el reconocimiento de títulos en Alemania](/blog/reconocimiento-titulos/).
 
-> **Importante:** Desde la reforma de 2023, también se aceptan **títulos de formación profesional superior** equivalentes a un nivel 6 del Marco Europeo de Cualificaciones (EQF), aunque esto es menos común para hispanohablantes.
+> **Importante:** Desde la reforma de 2023 también entra la formación terciaria no universitaria, pero con **tres condiciones a la vez**: programa **equivalente a un título universitario**, **mínimo tres años** de duración, y que la cualificación esté **clasificada en Alemania** en el nivel 6 (ISCED 2011 o EQF) — lo que cuenta es la clasificación alemana, no la de tu país. Un técnico superior no entra por el nombre del título: entra si cumple las tres (§ 18g Abs. 1 Satz 5 AufenthG).
 
 **Vía alternativa sin título universitario (solo informática):** también cumples este requisito si acreditas **tres años de experiencia en IT dentro de los últimos siete años** como profesional del sector — experiencia de nivel comparable a un título y necesaria para el puesto. Esta vía lleva el visto bueno de la Agencia Federal de Empleo (§ 18g Abs. 2), que comprueba que el salario, la jornada y las vacaciones estén al nivel de un trabajador alemán en el mismo puesto — puede pedir más que el mínimo del umbral. No la confundas con la [vía del § 19c](/blog/trabajar-en-it-alemania/), que pide **dos años en los últimos cinco** y tiene otro umbral salarial: son permisos distintos con relojes distintos.
 
@@ -54,7 +54,7 @@ Necesitas una **oferta de trabajo concreta o un contrato firmado** con un emplea
 
 - El contrato puede ser de duración determinada o indefinida, pero **debe prever al menos seis meses de empleo** (§ 18g Abs. 3 AufenthG). Con un contrato de cuatro o cinco meses no hay Blue Card, por alto que sea el salario.
 - No necesitas que el empleador haga un trámite especial; la Blue Card se solicita directamente por ti.
-- Lo que desapareció con la reforma de 2023 es la **prueba de mercado laboral**: por regla general, tu empleador no tiene que demostrar que no encontró a un candidato europeo. Cosa distinta es el **visto bueno de la Agencia Federal de Empleo** (Zustimmung): la vía estándar no lo necesita (§ 18g Abs. 1), pero las vías de **salario reducido** — profesión de la lista del § 18g, título de hace tres años o menos, o informática sin título — **sí lo llevan** (§ 18g Abs. 1 Satz 2 y Abs. 2). Y no es un sello automático: la Agencia comprueba que **el salario, la jornada y las vacaciones** sean comparables a los de un trabajador alemán en el mismo puesto, y puede acabar pidiendo un sueldo **más alto** que el mínimo de la Tarjeta Azul. Cuenta con unas semanas más de trámite.
+- Lo que desapareció con la reforma de 2023 es la **prueba de mercado laboral**: por regla general, tu empleador no tiene que demostrar que no encontró a un candidato europeo. Cosa distinta es el **visto bueno de la Agencia Federal de Empleo** (Zustimmung): la vía estándar no lo necesita (§ 18g Abs. 1), pero las vías de **salario reducido** — profesión de la lista del § 18g, título de no más de tres años antes de la solicitud, o informática sin título — **sí lo llevan** (§ 18g Abs. 1 Satz 2 y Abs. 2). Y no es un sello automático: la Agencia comprueba que **el salario, la jornada y las vacaciones** sean comparables a los de un trabajador alemán en el mismo puesto, y puede acabar pidiendo un sueldo **más alto** que el mínimo de la Tarjeta Azul. Cuenta con unas semanas más de trámite.
 
 > **Buena noticia:** por regla general no hay prueba de mercado laboral — tu empleador no necesita demostrar que no encontró a un candidato europeo. Si vas por el **umbral reducido**, suma a tu calendario el visto bueno de la Agencia Federal de Empleo.
 
@@ -71,7 +71,7 @@ Tu salario bruto anual debe superar un **umbral mínimo establecido por el gobie
 | Categoría | Salario bruto anual mínimo | Salario bruto mensual |
 |---|---|---|
 | **Umbral general** | 50.700 € | ~4.225 € |
-| **Umbral reducido (Mangelberufe y titulados de hace ≤ 3 años)** | 45.934,20 € | ~3.828 € |
+| **Umbral reducido (Mangelberufe y titulados ≤ 3 años antes de la solicitud)** | 45.934,20 € | ~3.828 € |
 
 > **Cifras verificadas en agosto de 2026** (fuente: Bundesanzeiger AT 18.12.2025 B3). **Los dos umbrales cambian cada enero**, porque se calculan sobre el techo de cotización del seguro de pensiones — el general es el 50 % y el reducido el 45,3 %. Comprueba el importe del año en que solicites: no des por buena una cifra que no diga de qué año habla.
 
@@ -90,7 +90,9 @@ La ley fija **diez grupos** y son **exactamente los mismos** que dan el punto de
 
 > ⚠️ **Dos avisos que cambian la cuenta.** Si diriges servicios de TIC, **estás dentro** — es uno de los tres grupos de dirección, y se pasa por alto con facilidad. Y al revés: los **oficios especializados** (electricistas, fontaneros, mecánicos) **no figuran en ninguno de los diez grupos**, por mucha falta que hagan.
 
-**El umbral reducido no es solo para esta lista**: también te corresponde si obtuviste tu título hace **tres años o menos**, sea cual sea tu campo (§ 18g Abs. 1 Satz 2 AufenthG). Y las vías de umbral reducido — por profesión o por título reciente — llevan el visto bueno de la Agencia Federal de Empleo (ver requisito 2).
+**El umbral reducido no es solo para esta lista**: también te corresponde si obtuviste tu título **no más de tres años antes de presentar la solicitud**, sea cual sea tu campo (§ 18g Abs. 1 Satz 2 Nr. 2 AufenthG). Y las vías de umbral reducido — por profesión o por título reciente — llevan el visto bueno de la Agencia Federal de Empleo (ver requisito 2).
+
+Al renovar la Blue Card, el umbral reducido se aplica si tu título sigue sin pasar de los tres años en el momento de esa solicitud — hayas entrado por la vía que hayas entrado —, o si han pasado menos de 24 meses desde tu primera Blue Card concedida por la vía del título reciente (§ 18g Abs. 6 AufenthG).
 
 > 💡 **Consejo:** La gran mayoría de profesionales hispanohablantes que obtienen la Blue Card trabajan en **IT, ingeniería o sanidad**. Si tu campo está en esta lista, te beneficias del umbral reducido. Si trabajas en IT sin título universitario, también puedes [obtener un permiso de trabajo en Alemania por la vía del §19c](/blog/trabajar-en-it-alemania/).
 
@@ -140,8 +142,8 @@ Los **5 años** que a veces se leen son solo la última fila: la regla general d
 
 ### Movilidad dentro de la UE
 
-- Después de 12 meses con Blue Card en Alemania, puedes **trasladarte a otro país de la UE** bajo condiciones simplificadas.
-- Tus periodos de Blue Card en distintos países se acumulan para la residencia permanente.
+- Después de 12 meses con Blue Card en Alemania puedes **solicitar una Blue Card en otro país de la UE** en condiciones simplificadas — es un trámite ante el segundo país, no un traslado libre.
+- Tus periodos con Blue Card en distintos países pueden **acumularse para el estatuto europeo de residente de larga duración** (*Daueraufenthalt-EU*) — un título distinto de la residencia permanente alemana de los 21/27 meses. **Si lo solicitas en Alemania**, la ley alemana exige además llevar al menos 2 años aquí con tu Blue Card y que la alemana haya seguido inmediatamente a la del otro país; en otro Estado rigen sus propias reglas de cómputo.
 
 ### Otras ventajas
 
@@ -205,7 +207,7 @@ Tienes **dos semanas para registrar tu domicilio** (Anmeldung) en la oficina de 
 Con tu registro de domicilio (Meldebescheinigung), visa de entrada, contrato de trabajo y título reconocido, solicita la Blue Card en la **Ausländerbehörde** (oficina de extranjería) de tu ciudad.
 
 - Pide cita lo antes posible, ya que las listas de espera pueden ser largas (especialmente en Berlín).
-- El coste de la Blue Card es de aproximadamente **100 €** (primera emisión).
+- El coste de la Blue Card es de **100 €** (primera emisión, § 45 AufenthV) — es la tasa del **permiso**, que se paga en Alemania; la tasa del **visado** que pagaste en el consulado es un coste aparte.
 
 ### Paso 6: Recibe tu Blue Card
 
@@ -225,7 +227,7 @@ Muchos hispanohablantes confunden estos dos visados. Aquí las **diferencias cla
 | **Requiere oferta de trabajo** | Sí, obligatoria — y el contrato debe prever al menos 6 meses de empleo | No |
 | **Título universitario** | Obligatorio — salvo en IT: 3 años de experiencia en los últimos 7 | Necesario para puntos (no obligatorio) |
 | **Salario mínimo** | Sí (45.934,20–50.700 €) | No aplica (es para buscar) |
-| **Duración** | Hasta 4 años, renovable | 1 año, no renovable |
+| **Duración** | Hasta 4 años, renovable | 1 año — no se prorroga como tal, pero existe la tarjeta de continuación (hasta 2 años más) |
 | **Permiso de trabajo** | Sí, completo | Limitado (20h/semana o periodo de prueba) |
 | **Camino a residencia permanente** | 21-27 meses | No directamente (debes cambiar a otro visado) |
 | **Reagrupación familiar** | Sí, simplificada | Posible por las reglas generales (sustento, idioma, vivienda) — exigente |
@@ -283,7 +285,7 @@ Sí — y es un derecho, no un permiso que pedir. Durante los primeros 12 meses 
 
 Ojo: los "tres meses de margen" que circulan **no son un plazo garantizado por ley** — son práctica administrativa. Lo que sí fija la ley son obligaciones: comunica a la Ausländerbehörde que tu empleo termina antes de tiempo **dentro de las dos semanas siguientes a saberlo** (tu empleador también está obligado, con cuatro semanas). Tu permiso sigue siendo válido de entrada, pero la oficina **puede acortarlo a su criterio**: muévete desde el primer día y no cuentes con un colchón seguro.
 
-Durante este tiempo, puedes cobrar el **subsidio de desempleo** si has cotizado al menos 12 meses.
+Durante este tiempo puedes cobrar el **subsidio de desempleo (ALG I)** si dentro de los **últimos 30 meses** has cotizado **al menos 12** en empleo sujeto a seguro obligatorio (§§ 142-143 SGB III).
 
 ---
 
