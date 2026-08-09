@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 carousel: "primeros30dias"
-videoId: "sNIgusyi5zo"
+# videoId retirado el 9-ago-2026 (día 155): el vídeo está privado — lo repondrá su nodo
 title: "Tus primeros 30 días en Alemania: checklist completa"
 description: "Guía paso a paso de todo lo que debes hacer en tus primeros 30 días en Alemania: Anmeldung, cuenta bancaria, seguro médico, Tax ID y más."
 date: "2026-02-14"

@@ -4,7 +4,7 @@ title: "Trabajar en IT en Alemania sin título universitario (§19c AufenthG)"
 description: "Guía completa para trabajar como programador o profesional IT en Alemania sin carrera universitaria usando el §19c de la ley de inmigración."
 date: "2026-02-15"
 keywords: "trabajar en IT alemania sin titulo, programador alemania sin carrera, visa IT experiencia"
-videoId: "4hb9T26Tavs"
+# videoId retirado el 9-ago-2026 (día 155): el vídeo está privado — lo repondrá su nodo
 ---
 
 Hay una creencia muy extendida entre los hispanohablantes: **"Sin título universitario no puedes emigrar a Alemania."** En el sector IT, eso es simplemente falso.

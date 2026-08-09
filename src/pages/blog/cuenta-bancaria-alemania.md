@@ -4,7 +4,7 @@ title: "Cuentas bancarias en Alemania para recien llegados: guia y comparativa (
 description: "Guia completa sobre cuentas bancarias en Alemania: tipos de cuenta, requisitos, bancos digitales vs tradicionales, y comparativa actualizada para emigrantes."
 date: "2026-04-11"
 keywords: "cuenta bancaria alemania, banco alemania expats, girokonto, abrir cuenta alemania sin hablar aleman, bancos digitales alemania, schufa alemania"
-videoId: "PZngZhM0dj0"
+# videoId retirado el 9-ago-2026 (día 155): el vídeo está privado — lo repondrá su nodo
 ---
 
 Si esta pensando en emigrar a Alemania, una de las primeras cosas que conviene resolver al llegar es **abrir una cuenta bancaria**: ahi cobrara su sueldo, pagara el alquiler y domiciliara sus seguros. Y la ley esta de su lado: todo consumidor con estancia legal en la UE tiene derecho a una **cuenta basica**, con solo una direccion postal y su documento de identidad (§ 31 ZKG).

@@ -4,7 +4,7 @@ title: "Blue Card Alemania: requisitos, salario mínimo y cómo solicitarla"
 description: "Todo sobre la Blue Card (Tarjeta Azul UE) en Alemania: requisitos actualizados 2026, salario mínimo, ventajas, proceso de solicitud y comparación con la Chancenkarte."
 date: "2026-02-17"
 keywords: "blue card alemania, tarjeta azul alemania requisitos, blue card salario minimo"
-videoId: "WJdL28rMiig"
+# videoId retirado el 9-ago-2026 (día 155): el vídeo está privado — lo repondrá su nodo
 ---
 
 La **Blue Card** (Blaue Karte EU o Tarjeta Azul UE) es el **permiso de residencia más ventajoso** que puede obtener un profesional cualificado no europeo en Alemania. Si tienes un título universitario y una oferta de trabajo con un salario que supere el umbral mínimo, la Blue Card te abre la puerta a la residencia permanente en un tiempo récord.
