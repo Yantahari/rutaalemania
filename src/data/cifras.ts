@@ -372,7 +372,7 @@ export const CIFRAS = {
     aplica_a: 'autónomos en GKV',
     fuente: { nombre: '§ 240 Abs. 4 Satz 1 SGB V (regla) — euro derivado del valor 2026', tipo: 'derivada' },
     nota:
-      'Es el suelo de cotización. ⚠️ EL LITERAL NO DICE «UN TERCIO»: dice «der neunzigste Teil der monatlichen Bezugsgröße» POR DÍA NATURAL (§ 240 Abs. 4 Satz 1). El tercio mensual es aritmética nuestra [calc: 1/90 × 30 días]. La CUOTA mensual resultante NO se publica — falta un operando (el tipo de dependencia del autónomo). Y del Abs. 4 solo se tiene la frase 1: si hay excepciones al suelo, vivirían en las siguientes y NO se han leído.',
+      'Es el suelo de cotización. ⚠️ EL LITERAL NO DICE «UN TERCIO»: dice «der neunzigste Teil der monatlichen Bezugsgröße» POR DÍA NATURAL (§ 240 Abs. 4 Satz 1). El tercio mensual es aritmética nuestra [calc: 1/90 × 30 días]. La CUOTA mensual resultante NO se publica — falta un operando (el tipo de dependencia del autónomo). Frases 2-3 del Abs. 4 LEÍDAS (T7 Q8, dejure.org 8-ago-2026; versión en vigor desde 16-12-2023): dos excepciones regladas y para colectivos concretos — Satz 2: escolares de Fach-/Berufsfachschule, estudiantes de universidad extranjera y Wandergesellen (§ 236 i.V.m. § 245 Abs. 1); Satz 3: solicitantes de pensión con la condición de los nueve décimos — no para el autónomo en general.',
   },
 
   // ─── GKV (seguro público de salud) ──────────────────────────────────────
