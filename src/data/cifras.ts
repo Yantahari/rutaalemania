@@ -336,21 +336,34 @@ export const CIFRAS = {
       'Verificada en la tanda T5 (Q7), CORRECTA. Vigente desde la Ley de modificación de tasas del derecho de extranjería de 13-7-2017, en vigor el 1-9-2017, sin modificaciones posteriores. ⚠️ NO confundir con la tasa de un visado Schengen (categoría C), que es otra.',
   },
 
-  // ─── Familienversicherung y base mínima del autónomo (tanda T1, 6-ago-2026)
-  // Las tres son EUROS DERIVADOS, no literal de ley: el § 10 Abs. 1 Nr. 5 SGB V
-  // fija «un séptimo de la Bezugsgröße» y el § 240 SGB V, «un tercio». Contraste
-  // cruzado hecho el 6-ago-2026: 1.318,33 × 3 = 3.955 €/mes y 3.955 ÷ 7 = 565,00
-  // — las dos cifras que llegaron por separado cuadran con una única Bezugsgröße.
-  // La Bezugsgröße 2026 NO está verificada como tal: si alguien la trae, entra
-  // aquí como clave propia y estas dos pasan a `deriva_de`.
+  // ─── Bezugsgröße y sus derivadas (tanda T1, 6-ago-2026 · SELLO 9-ago-2026)
+  // La condición escrita aquí el 6-ago SE CUMPLIÓ el 9-ago: la Bezugsgröße 2026
+  // llegó verificada en fuente oficial (sello del chat; constancia en ops:
+  // informes/estrategics/sello-bezugsgroesse-r47-2026-08-09.md) y entra como
+  // clave propia; las dos derivadas cuelgan con `deriva_de` y quedan
+  // CONFIRMADAS: 3.955 ÷ 3 = 1.318,33 · 3.955 ÷ 7 = 565. El contraste cruzado
+  // del 6-ago predijo el valor oficial AL EURO.
+  'bezugsgroesse.mes': {
+    valor: 3955,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-08-09',
+    revision: { tipo: 'calendario', proxima: '2026-11', porque: 'La SVBezGrV del año siguiente se aprueba y publica en OTOÑO (la de 2026: Bundesrat conforme 21-11-2025, V. de 24-11-2025), efectiva el 1 de enero — el valor 2027 se conoce en noviembre, no en enero' },
+    fuente: {
+      nombre: '§ 18 SGB IV · SVBezGrV 2026 § 1 (V. de 24-11-2025, BGBl. 2025 I Nr. 278) — sello del chat 9-ago-2026. Abierta ENTERA: circular Fin 593 (12/2025), Administración de Berlín (3.955 €/mes · 47.460 €/año). El número de BGBl y el literal del § 1 son [fuente parcial]: extracto de búsqueda, las páginas oficiales rechazaron al chat (robots/bots) y CCode no verifica contra web',
+      tipo: 'oficial',
+    },
+    nota:
+      'Anual: 47.460 €. SIN distinción oeste/este: unificada desde el 1-1-2025 (Rentenüberleitungs-Abschlussgesetz, igualación en siete pasos desde 2019); la exposición de motivos (BR-Drs. 567/25) la llama de vigencia federal unitaria.',
+  },
   'familienversicherung.limite_ingresos.mes': {
     valor: 565,
     unidad: '€/mes',
     vigencia: '2026',
-    verificado: '2026-08-06',
-    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Se calcula como un séptimo de la Bezugsgröße: cambio anual, efectivo enero' },
+    verificado: '2026-08-09',
     aplica_a: 'cónyuge o pareja en Familienversicherung',
-    fuente: { nombre: '§ 10 Abs. 1 Nr. 5 SGB V (regla) — euro derivado del valor 2026', tipo: 'derivada' },
+    fuente: { nombre: '§ 10 Abs. 1 Nr. 5 SGB V: un séptimo de la Bezugsgröße mensual (3.955 ÷ 7 = 565) — la circular Fin 593 (12/2025) de Berlín escribe esa MISMA aritmética', tipo: 'derivada' },
+    deriva_de: ['bezugsgroesse.mes'],
     nota:
       'Publicada en seguro-medico-alemania.md con la marca «en 2026» y el aviso de que cambia cada enero. El literal del parágrafo NO dice euros.',
   },
@@ -367,10 +380,10 @@ export const CIFRAS = {
     valor: 1318.33,
     unidad: '€/mes',
     vigencia: '2026',
-    verificado: '2026-08-06',
-    revision: { tipo: 'calendario', proxima: '2027-01', porque: 'Cuelga de la Bezugsgröße: cambio anual, efectivo enero' },
+    verificado: '2026-08-09',
     aplica_a: 'autónomos en GKV',
-    fuente: { nombre: '§ 240 Abs. 4 Satz 1 SGB V (regla) — euro derivado del valor 2026', tipo: 'derivada' },
+    fuente: { nombre: '§ 240 Abs. 4 Satz 1 SGB V: la nonagésima parte de la Bezugsgröße por día natural, × 30 [calc] (3.955 ÷ 3 = 1.318,33)', tipo: 'derivada' },
+    deriva_de: ['bezugsgroesse.mes'],
     nota:
       'Es el suelo de cotización. ⚠️ EL LITERAL NO DICE «UN TERCIO»: dice «der neunzigste Teil der monatlichen Bezugsgröße» POR DÍA NATURAL (§ 240 Abs. 4 Satz 1). El tercio mensual es aritmética nuestra [calc: 1/90 × 30 días]. La CUOTA mensual resultante NO se publica — falta un operando (el tipo de dependencia del autónomo). Frases 2-3 del Abs. 4 LEÍDAS (T7 Q8, dejure.org 8-ago-2026; versión en vigor desde 16-12-2023): dos excepciones regladas y para colectivos concretos — Satz 2: escolares de Fach-/Berufsfachschule, estudiantes de universidad extranjera y Wandergesellen (§ 236 i.V.m. § 245 Abs. 1); Satz 3: solicitantes de pensión con la condición de los nueve décimos — no para el autónomo en general.',
   },
