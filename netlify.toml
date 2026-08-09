@@ -16,6 +16,15 @@
 # Director confirma que NUNCA compartió esas URL fuera del canal.
 # NO ES UN DESCUIDO: es retirar configuración que ya no sostenía nada.
 
+# La redirección de abajo NO revierte lo anterior (9-ago-2026, día 156, orden
+# del Director): /sitemap.xml devolvía 404 con consumidor real (crawlers); el
+# sitemap verdadero de Astro es /sitemap-index.xml. Las de /calculadora y
+# /simulador NO vuelven.
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap-index.xml"
+  status = 301
+
 # Headers for security and performance
 [[headers]]
   for = "/*"

@@ -80,7 +80,7 @@ Debes tener un título universitario o de formación profesional cualificada. **
 
 > ⚠️ **Un matiz que se pasa por alto:** la ley dice **el Estado donde obtuviste el título**, que no siempre es tu país. Si estudiaste fuera, el reconocimiento que cuenta es el de **donde estudiaste**.
 
-> ⚠️ **Y hay un paso que casi nadie cuenta:** si vas por la rama de FP o por la universitaria, la ley te obliga a **hacer confirmar por un organismo cualificado en Alemania** que cumples la condición (§ 20a Abs. 4 Satz 4). No basta con afirmarlo en la solicitud. *(La vía de la Cámara tiene su propia ruta de confirmación, distinta: se acredita ante la entidad que expide el título, a petición y coste de ella.)*
+> ⚠️ **Y hay un paso que casi nadie cuenta:** si vas por la rama de FP o por la universitaria, la ley te obliga a **hacer confirmar por un organismo cualificado en Alemania** que cumples la condición (§ 20a Abs. 4 Satz 4). **La ley no nombra a ese organismo**; lo que piden **hoy** las representaciones alemanas en sus listas de comprobación es la confirmación **mediante resolución de la ZAB** (*Zentralstelle für ausländisches Bildungswesen*) — en la práctica, vía la base **anabin**, y una evaluación de la propia ZAB cuando anabin no basta *(práctica administrativa, no letra de ley; verificado en agosto de 2026)*. No basta con afirmarlo en la solicitud. *(La vía de la Cámara tiene su propia ruta de confirmación, distinta: se acredita ante la entidad que expide el título, a petición y coste de ella.)*
 
 Para la Vía 1, debe estar además **reconocido en Alemania**.
 
