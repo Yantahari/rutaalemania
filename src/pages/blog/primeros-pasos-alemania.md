@@ -283,7 +283,7 @@ Si llegaste a un alojamiento temporal (Airbnb, hostel, WG temporal), es momento 
 **Documentos que suelen pedir los caseros:**
 
 - Últimas 3 nóminas o contrato de trabajo
-- **Schufa-Auskunft** (informe de solvencia crediticia). Puedes obtener una versión gratuita en meineschufa.de (tarda semanas) o una versión inmediata de pago (~30 €) en bonify.de.
+- **Schufa-Auskunft** (informe de solvencia crediticia). **Consultar tus propios datos no cuesta dinero**: puedes verlos en línea (con la cuenta de SCHUFA o con bonify, socio de SCHUFA — te pedirán identificarte) o pedir la **copia de datos** en meineschufa.de, que llega por correo **en unos 7 días por regla general** *(lo declara la propia SCHUFA; con mucho volumen puede tardar más)*. **Lo que sí cuesta dinero (29,95 € hoy; el precio vigente, en meineschufa.de) es el certificado pensado para entregar al casero** — no lo confundas con la consulta de tus datos. La copia gratuita contiene tus datos — más de lo que un casero necesita ver; el certificado de pago existe precisamente para enseñar solo lo justo. *(verificado en agosto de 2026)*
 - Copia del pasaporte o DNI
 - **Mietschuldenfreiheitsbescheinigung** (certificado de que no debes alquiler anterior). Si eres recién llegado, explica tu situación; muchos caseros lo entienden.
 
