@@ -22,7 +22,8 @@
 // primera unidad de conteo del fichero; solo para cifras de mercado laboral.
 export type Unidad =
   | '€' | '€/mes' | '€/año' | '€/28días' | '%' | 'coef'
-  | '€/m²/mes' | 'm²' | 'kWh/año' | '€/kWh' | 'USD-PPA/mes' | 'puestos';
+  | '€/m²/mes' | 'm²' | 'kWh/año' | '€/kWh' | 'USD-PPA/mes' | 'puestos'
+  | 'meses' | 'años' | 'año' | 'mensualidades';
 // 'estimacion': valor asumido y declarado como tal (sin fuente que lo fije);
 // existe para que las estimaciones no se disfracen de hechos.
 // 'solvente': fuente seria NO gubernamental (DMB, Stromspiegel, BDEW…) —
@@ -1898,6 +1899,57 @@ export const CIFRAS = {
   // Lingoda: deliberadamente FUERA. Su precio depende de plan, volumen y
   // promoción vigente — es un rango móvil, no un hecho datable
   // (paquete de verificación 2026-07-30).
+
+  // ─── Alquiler: el marco legal (T13, tanda buscar-piso, 10-ago-2026) ──────
+  'mietpreisbremse.tope.pct': {
+    valor: 10,
+    unidad: '%',
+    vigencia: 'vigente (prórroga en vigor 2025-07-23)',
+    verificado: '2026-08-10',
+    revision: { tipo: 'evento', porque: 'Tope de norma (§ 556d Abs. 1 BGB): cambia por reforma, no por calendario. La prórroga de 2025 NO lo tocó (veredicto buscar-piso Q2)' },
+    fuente: { nombre: '§ 556d Abs. 1 BGB — no más del 10 % sobre la ortsübliche Vergleichsmiete en zona declarada por decreto del Land (veredicto buscar-piso Q1-Q2; § abierto vía § 556g por el Director el 10-ago-2026)', tipo: 'oficial' },
+    nota: 'Solo rige en zonas de mercado tenso declaradas por Rechtsverordnung de cada Land (§ 556d Abs. 2). Sobre la DURACIÓN de esos decretos hay divergencia registrada sin resolver (R100): no afirmable.',
+  },
+  'mietpreisbremse.ruege.meses': {
+    valor: 30,
+    unidad: 'meses',
+    vigencia: 'vigente',
+    verificado: '2026-08-10',
+    revision: { tipo: 'evento', porque: 'Plazo de norma (§ 556g Abs. 2 S. 3 BGB): cambia por reforma' },
+    fuente: { nombre: '§ 556g Abs. 2 S. 3 BGB — Rüge dentro de 30 meses desde el inicio: recupera desde el principio; después (o contrato terminado): solo lo posterior a la Rüge. Literal en R100, copiado de gesetze-im-internet.de', tipo: 'oficial' },
+  },
+  'mietpreisbremse.subsanacion.anios': {
+    valor: 2,
+    unidad: 'años',
+    vigencia: 'vigente',
+    verificado: '2026-08-10',
+    revision: { tipo: 'evento', porque: 'Plazo de norma (§ 556g Abs. 1a S. 3 BGB): cambia por reforma' },
+    fuente: { nombre: '§ 556g Abs. 1a S. 3 BGB — el casero que no informó y subsana solo puede ampararse en la excepción 2 años tras subsanar. Literal en R100', tipo: 'oficial' },
+  },
+  'mietpreisbremse.prorroga.anno': {
+    valor: 2025,
+    unidad: 'año',
+    vigencia: 'en vigor desde 2025-07-23',
+    verificado: '2026-08-10',
+    revision: { tipo: 'evento', porque: 'Ley de prórroga (veredicto buscar-piso Q1): la siguiente prórroga o derogación es el evento. La fecha exacta 23-07-2025 viaja aquí porque valor solo admite número (adaptación declarada en la aplicación de la tanda)' },
+    fuente: { nombre: 'Gesetz zur Änderung der Regelungen über die zulässige Miethöhe bei Mietbeginn, en vigor 23-07-2025 (Bundesregierung 24-07-2025 · Bundestag 26-06-2025 · Bundesrat 11-07-2025; veredicto Q1)', tipo: 'oficial' },
+  },
+  'kaution.max.mensualidades': {
+    valor: 3,
+    unidad: 'mensualidades',
+    vigencia: 'vigente',
+    verificado: '2026-08-10',
+    revision: { tipo: 'evento', porque: 'Tope de norma (§ 551 Abs. 1 BGB): cambia por reforma' },
+    fuente: { nombre: '§ 551 Abs. 1 BGB — máx. 3 mensualidades de alquiler frío; literal en canon R7 (cita cumplida T8 Q2). Da casa única a la cifra que vivía inline en cuanto-cuesta:84', tipo: 'oficial' },
+  },
+  'bestellerprinzip.vigor.anno': {
+    valor: 2015,
+    unidad: 'año',
+    vigencia: 'en vigor desde 2015-06-01',
+    verificado: '2026-08-10',
+    revision: { tipo: 'evento', porque: 'Principio de norma (§ 2 Abs. 1a WoVermittG): cambia por reforma. Fecha exacta 01-06-2015 en fuente (misma adaptación declarada que la prórroga)' },
+    fuente: { nombre: '§ 2 Abs. 1a WoVermittG (Mietrechtsnovellierungsgesetz, 01-06-2015) — quien encarga paga; cita del literal PENDIENTE (R101, veredicto buscar-piso Q4: IHK Wiesbaden + AG Mietrecht del DAV)', tipo: 'oficial' },
+  },
 } satisfies Record<string, Cifra>;
 
 export type CifraId = keyof typeof CIFRAS;
