@@ -4,6 +4,7 @@ title: "Buscar piso en Alemania: portales, documentos y los derechos que casi na
 description: "Dónde buscar piso en Alemania, qué documentos preparar y qué derechos tienes al alquilar: fianza, comisión del agente, freno al precio y protección de tus datos."
 date: "2026-08-10"
 keywords: "buscar piso alemania, alquilar piso alemania, kaution fianza alemania, mietpreisbremse, portales vivienda alemania, documentos alquiler alemania"
+videoId: "t2Zwtf2s2U8"
 ---
 
 Encontrar piso en Alemania es, para la mayoría de recién llegados, el primer choque real con el país: mucha competencia, plazos cortos y un idioma que todavía no dominas. Esta guía te da las tres cosas que necesitas para competir de verdad: **dónde buscar**, **qué documentos preparar** y — la parte que casi nadie te cuenta — **qué derechos tienes** al alquilar, con la ley en la mano.
