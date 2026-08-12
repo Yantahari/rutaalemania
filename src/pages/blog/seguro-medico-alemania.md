@@ -97,7 +97,6 @@ Todas las aseguradoras GKV ofrecen las mismas prestaciones básicas (fijadas por
 - **DAK:** cobertura amplia de programas preventivos
 
 <a href="https://feather-insurance.com/health-insurance/public?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Comparar aseguradoras públicas (GKV) con Feather</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -147,7 +146,6 @@ En GKV como freelancer, la prima se calcula sobre sus ingresos — **pero con un
 Esto importa al comparar: **la prima pública tiene suelo y la privada no** (la privada no depende de sus ingresos en ningún caso). Si sus ingresos son bajos e inestables, **la pública no es automáticamente la opción elástica**.
 
 <a href="https://feather-insurance.com/health-insurance/private?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Explorar opciones de PKV con Feather</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -190,7 +188,6 @@ Las opciones:
 > **Clave:** El Expat insurance es un puente, no un destino. Una vez tenga empleador o se establezca como freelancer, debe elegir entre GKV y PKV definitiva.
 
 <a href="https://feather-insurance.com/health-insurance/expat/short-term?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Expat insurance para recién llegados — Feather</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -239,7 +236,6 @@ Si la respuesta a ambas preguntas es "familia sí, Alemania largo plazo", **GKV 
 **Qué debe hacer:** antes de decidir, usar una herramienta de comparación que proyecte primas a 10-20 años vista, no solo la prima inicial.
 
 <a href="https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> ¿Qué seguro le conviene? — Herramienta Feather</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -311,40 +307,34 @@ Resumen orientativo según su perfil.
 Primer paso: **Expat insurance temporal** para los primeros meses y el proceso de visado. Una vez llegue y estabilice su situación laboral, elija GKV o PKV definitiva según le corresponda.
 
 <a href="https://feather-insurance.com/health-insurance/expat/short-term?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Expat insurance con Feather</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ### Si acaba de llegar con contrato
 
 Si gana menos de 77.400 €/año, **GKV es su camino**. Compare aseguradoras públicas y elija la que mejor se adapte a sus necesidades (idioma, app, servicios adicionales).
 
 <a href="https://feather-insurance.com/health-insurance/public?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Comparar aseguradoras públicas (GKV)</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ### Si gana más de 77.400 € y se plantea PKV
 
 **Tómese tiempo para decidir.** Compare opciones con calma, proyecte primas a 10-20 años vista, y considere la variable familia. No tenga prisa.
 
 <a href="https://feather-insurance.com/en-de/health-insurance?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Comparar GKV, PKV y Expat con Feather</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 Si ya está en Alemania, tiene IBAN alemán y quiere comparar tarifas de PKV entre múltiples proveedores, también puede usar Tarifcheck24 (solo residentes DE, 18-54 años, fulltime).
 
 <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=private-krankenversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/tarifcheck24.svg" alt="" width="56" height="14" style="display:inline;vertical-align:middle;margin-right:0.4rem;object-fit:contain"> Comparar PKV en Tarifcheck24 (residentes DE)</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ### Si ya está en PKV y tiene dudas
 
 Revise su situación actual: ¿le conviene seguir? ¿Tiene ventana de salida disponible? La herramienta de recomendación gratuita le dará un diagnóstico en pocos minutos.
 
 <a href="https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Revisar mi situación — Herramienta Feather</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ### Si no sabe qué necesita
 
 Use la **herramienta de recomendación de Feather**. Le hace una serie de preguntas sobre su situación y le indica qué seguros son obligatorios, recomendables u opcionales.
 
 <a href="https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> ¿Qué seguro necesita? — Gratis</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 

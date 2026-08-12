@@ -102,7 +102,6 @@ Con [Expatrio](https://www.expatrio.com/?p=rutaalemania), el proceso suele ser:
 Si aún no tienes cuenta bancaria alemana, puedes vincular una cuenta online como **N26** o **Vivid Money** temporalmente.
 
 <a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Activa tu Sperrkonto con Expatrio</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -133,10 +132,8 @@ Necesitas una cuenta bancaria alemana para:
 > **Buena noticia:** Para transferir dinero desde tu país a tu nueva cuenta alemana, usa [Wise](https://wise.prf.hn/click/camref:1110lAp2W). Ofrece el tipo de cambio real del mercado con comisiones mínimas. La diferencia frente a una transferencia bancaria tradicional puede ser de 30-100 € por cada transferencia.
 
 <a href="https://wise.prf.hn/click/camref:1110lAp2W" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/wise.svg" alt="" width="48" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Ahorra en comisiones con Wise</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=c24bank&cat=14" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/c24.png" alt="" width="24" height="24" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Abre tu cuenta C24 Bank gratis</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -159,14 +156,12 @@ El seguro médico es **obligatorio** en Alemania desde el primer día de residen
 > 💡 **¿No sabes qué seguros necesitas en Alemania?** La [herramienta de recomendación de Feather](https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania) te dice en pocos minutos exactamente qué seguros son obligatorios, recomendables u opcionales según tu situación. Gratuita y sin compromiso.
 
 <a href="https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> ¿Qué seguros necesitas? — Feather</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 Recibirás una **tarjeta del seguro (Gesundheitskarte)** por correo en 2-4 semanas.
 
 > 📌 **Recuerda:** No esperes a tener la tarjeta física para ir al médico. Con el número de afiliado ya puedes pedir cita.
 
 <a href="https://www.expatrio.com/?p=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/expatrio-icon.png" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Seguro médico temporal con Expatrio</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -206,7 +201,6 @@ Si no hablas alemán con fluidez, **empieza un curso esta semana**. No la siguie
 > **Clave:** El alemán es una inversión a largo plazo. Cuanto antes empieces, antes verás resultados en tu vida diaria, tu carrera y tu integración.
 
 <a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -221,7 +215,6 @@ El coste es muy bajo: **entre 3 y 10 euros al mes** según la cobertura. Es uno 
 > 💡 **Consejo:** Contrate la Haftpflichtversicherung en cuanto tenga su cuenta bancaria activa. Es barata, esencial, y muchos caseros la piden como requisito para alquilar.
 
 <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=haftpflichtversicherung" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/tarifcheck24.svg" alt="" width="56" height="14" style="display:inline;vertical-align:middle;margin-right:0.4rem;object-fit:contain"> Comparar Haftpflichtversicherung</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -322,7 +315,6 @@ Al firmar el contrato de alquiler, considere contratar una **[Hausratversicherun
 - [Compara proveedores y precios](https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4) antes de firmar: la diferencia entre tarifas puede ser de 10-20 € al mes.
 
 <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/check24.png" alt="" width="22" height="22" style="display:inline;vertical-align:middle;margin-right:0.4rem;border-radius:4px"> Compara internet en CHECK24</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 
@@ -336,7 +328,6 @@ Al firmar el contrato de alquiler, considere contratar una **[Hausratversicherun
 > 💡 **Si necesitas llamar a tu familia en Latinoamérica**, [Lyca Mobile](https://tidd.ly/4vxmVpv) es una opción especialmente práctica: SIM gratuita, sin verificación de crédito, y tarifas internacionales competitivas. Puedes pedirla online y recibirla por correo.
 
 <a href="https://tidd.ly/4vxmVpv" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lycamobile.png" alt="" width="40" height="16" style="display:inline;vertical-align:middle;margin-right:0.4rem;object-fit:contain"> Consigue tu SIM alemana con Lyca Mobile</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 > **Importante — y es mejor de lo que te habrán contado:** desde la reforma de 2021-2022, **un contrato de consumo ya no puede volver a atarte otro periodo completo**. Pasado el plazo inicial se prorroga **por tiempo indefinido** y puedes cancelarlo **en cualquier momento con un mes de preaviso** (§ 56 TKG para internet y móvil; § 309 Nr. 9 BGB para el resto). Aun así, anota la fecha: **un mes de más también es dinero.**
 

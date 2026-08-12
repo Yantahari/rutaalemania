@@ -26,4 +26,3 @@ No siempre. El seguro privado puede ofrecer primas más bajas al principio, espe
 La decisión no debería tomarse solo por el ahorro inmediato. En nuestra [guía completa sobre seguro médico en Alemania](/blog/seguro-medico-alemania/) analizamos las ventajas y desventajas de cada sistema y explicamos los casos particulares en los que la decisión cambia radicalmente.
 
 <a href="https://feather-insurance.com/health-insurance/private?utm_source=rutaalemania" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/feather.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Explorar opciones de PKV con Feather</a>
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>

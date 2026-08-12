@@ -43,6 +43,36 @@
     @apply bg-amber-glow border border-amber/15 rounded-xl p-4 text-center;
   }
 
+  /* ── EL AVISO DE AFILIADO ───────────────────────────────────────────────
+     Veto de formato del Director, día 162. Antes iba con un `style` en línea
+     copiado de las 56 apariciones viejas, y ese literal llevaba
+     `margin-top:-0.75rem` — un valor CALIBRADO CONTRA EL BOTÓN, que tiene
+     `margin:1.5rem 0`: 24px de hueco menos 12 de tirón = **12px reales**.
+     Fuera de ese contexto el tirón no encuentra hueco que comer y el aviso
+     SE SUPERPONE al texto anterior. Medido con Playwright sobre el HTML
+     servido: **12,0 px de solape** en 30 de 33 avisos de `primeros-pasos`,
+     y 0 en `seguro-medico`, que es la página que el Director aprueba entera
+     y donde todos los avisos van bajo botón.
+     De ahí salen los valores de abajo (norma 10, se mide del caso que ya
+     funciona): 12px de cuerpo · #9ca3af · 12px de aire arriba · 16px abajo. */
+  .aviso-afiliado {
+    @apply text-center mt-3 mb-4 text-xs text-[#9ca3af];
+  }
+
+  /* Y el caso bueno se conserva EXACTO: bajo un botón, el tirón negativo
+     vuelve, porque ahí sí hay 24px que recortar. Sin esto, la página que el
+     Director aprobó cambiaría de aspecto — y lo aprobado no se toca. */
+  .btn-primary + .aviso-afiliado {
+    @apply -mt-3;
+  }
+
+  /* En una LISTA el bloque rompe el ritmo: los puntos con enlace crecen una
+     línea y los demás no. Aquí el aviso va EN LÍNEA, con el mismo cuerpo y
+     el mismo color medidos arriba — sólo cambia que no ocupa renglón. */
+  li > .aviso-afiliado {
+    @apply inline ml-1 text-left m-0;
+  }
+
   /* Inline links inside article body (blog + actualidad).
      Targets anchors without class so btn-primary CTAs keep their button styling. */
   .blog-content a:not([class]) {

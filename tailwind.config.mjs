@@ -1,6 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  content: [
+    // ⚠️ `mjs` y `plugins/` NO estaban, y su ausencia era invisible (día 162):
+    // el nombre de la clase del aviso vive en `src/data/afiliados.mjs` y en
+    // `plugins/rehype-aviso-afiliado.mjs`. Tailwind poda la capa `components`
+    // según lo que ENCUENTRA, así que `.aviso-afiliado` no llegaba a la hoja
+    // y el aviso se rendía SIN ESTILO — 16px del cuerpo heredado. Medido con
+    // Playwright, no leído.
+    './src/**/*.{astro,html,js,jsx,md,mdx,mjs,svelte,ts,tsx,vue}',
+    './plugins/**/*.mjs',
+  ],
   theme: {
     extend: {
       colors: {

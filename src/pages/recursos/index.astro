@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import AvisoAfiliado from '../../components/AvisoAfiliado.astro';
 
 const schema = {
   '@context': 'https://schema.org',
@@ -121,14 +122,16 @@ const schema = {
       </h2>
       <p class="text-text-secondary mb-6">Obligatorio para demostrar medios económicos al solicitar tu visa.</p>
       <div class="grid md:grid-cols-2 gap-4">
-        <a href="https://www.expatrio.com/?p=rutaalemania" class="card group flex items-start gap-4 affiliate-placeholder">
-          <img src="/logos/expatrio-icon.png" alt="" width="40" height="40" class="rounded-lg shrink-0" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Expatrio <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">El proveedor más popular. Proceso 100% online, incluye seguro médico opcional. Apertura en minutos.</p>
-          </div>
-        </a>
-        <p class="text-center text-xs text-text-muted -mt-2 mb-3">*Enlace de afiliado — sin coste extra para ti</p>
+        <div class="flex flex-col">
+          <a href="https://www.expatrio.com/?p=rutaalemania" class="card group flex items-start gap-4 affiliate-placeholder">
+            <img src="/logos/expatrio-icon.png" alt="" width="40" height="40" class="rounded-lg shrink-0" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Expatrio <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">El proveedor más popular. Proceso 100% online, incluye seguro médico opcional. Apertura en minutos.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
         <div class="card flex items-start gap-4 opacity-60">
           <div>
             <h3 class="font-semibold">Fintiba</h3>
@@ -145,14 +148,16 @@ const schema = {
       </h2>
       <p class="text-text-secondary mb-6">Un certificado de alemán mejora tus opciones de visa y de empleo.</p>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/lingoda.svg" alt="" width="40" height="40" class="shrink-0" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Lingoda <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">Clases online con profesores nativos. Preparan para los exámenes oficiales.</p>
-          </div>
-        </a>
-        <p class="text-center text-xs text-text-muted -mt-2 mb-3">*Enlace de afiliado — sin coste extra para ti</p>
+        <div class="flex flex-col">
+          <a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/lingoda.svg" alt="" width="40" height="40" class="shrink-0" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Lingoda <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">Clases online con profesores nativos. Preparan para los exámenes oficiales.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
         <div class="card opacity-60">
           <h3 class="font-semibold">italki</h3>
           <p class="text-sm text-text-muted mt-1">Tutores nativos 1:1 a precios asequibles. Práctica de conversación.</p>
@@ -175,30 +180,36 @@ const schema = {
       </h2>
       <p class="text-text-secondary mb-6">Abre tu cuenta bancaria alemana y transfiere dinero con comisiones minimas.</p>
       <div class="grid md:grid-cols-2 gap-4">
-        <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=c24bank&cat=14" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/c24.png" alt="" width="40" height="40" class="shrink-0 rounded-lg" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">C24 Bank <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">Cuenta bancaria alemana 100% digital. Apertura en 10 minutos. Subcuentas gratuitas y sin comisiones de mantenimiento.</p>
-          </div>
-        </a>
-        <p class="text-center text-xs text-text-muted -mt-2 mb-3">*Enlace de afiliado — sin coste extra para ti</p>
-        <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=girokonto" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/tarifcheck24.svg" alt="" width="40" height="40" class="shrink-0 object-contain" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Tarifcheck24 Girokonto <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">Comparador de cuentas corrientes en Alemania. Filtre por comisiones, bonus y tarjeta. Algunos bancos ofrecen bonus de bienvenida; el importe cambia con las campañas.</p>
-          </div>
-        </a>
-        <p class="text-center text-xs text-text-muted -mt-2 mb-3">*Enlace de afiliado — sin coste extra para ti</p>
-        <a href="https://wise.prf.hn/click/camref:1110lAp2W" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/wise.svg" alt="" width="48" height="40" class="shrink-0 object-contain" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Wise (antes TransferWise) <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">Transferencias al tipo de cambio real. Comisiones desde 0.4%. Cuenta multidivisa gratuita.</p>
-          </div>
-        </a>
-        <p class="text-center text-xs text-text-muted -mt-2 mb-3">*Enlace de afiliado — sin coste extra para ti</p>
+        <div class="flex flex-col">
+          <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=c24bank&cat=14" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/c24.png" alt="" width="40" height="40" class="shrink-0 rounded-lg" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">C24 Bank <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">Cuenta bancaria alemana 100% digital. Apertura en 10 minutos. Subcuentas gratuitas y sin comisiones de mantenimiento.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
+        <div class="flex flex-col">
+          <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=girokonto" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/tarifcheck24.svg" alt="" width="40" height="40" class="shrink-0 object-contain" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Tarifcheck24 Girokonto <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">Comparador de cuentas corrientes en Alemania. Filtre por comisiones, bonus y tarjeta. Algunos bancos ofrecen bonus de bienvenida; el importe cambia con las campañas.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
+        <div class="flex flex-col">
+          <a href="https://wise.prf.hn/click/camref:1110lAp2W" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/wise.svg" alt="" width="48" height="40" class="shrink-0 object-contain" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Wise (antes TransferWise) <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">Transferencias al tipo de cambio real. Comisiones desde 0.4%. Cuenta multidivisa gratuita.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
         <div class="card opacity-60">
           <h3 class="font-semibold">Revolut</h3>
           <p class="text-sm text-text-muted mt-1">Cuenta bancaria digital europea. Cambio de divisa y transferencias internacionales.</p>
@@ -213,37 +224,46 @@ const schema = {
       </h2>
       <p class="text-text-secondary mb-6">Linea movil, internet, electricidad y gas: lo esencial para instalarse.</p>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <a href="https://tidd.ly/4vxmVpv" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/lycamobile.png" alt="" width="40" height="40" class="shrink-0 rounded-lg object-contain" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Lyca Mobile <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">SIM gratuita sin contrato. Red 5G (O2), tarifas desde 4,99 EUR por paquete de 28 días (≈5,41 EUR/mes) y llamadas baratas a Latinoamerica. Ideal para recien llegados.</p>
-          </div>
-        </a>
-        <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/check24.png" alt="" width="40" height="40" class="shrink-0 rounded-lg" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Internet (DSL) <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">Compara Vodafone, Telekom, O2, 1&1 y mas. Encuentra la mejor tarifa de internet para tu zona.</p>
-          </div>
-        </a>
-        <p class="text-center text-xs text-text-muted -mt-2 mb-3">*Enlace de afiliado — sin coste extra para ti</p>
-        <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=stromanbieter-wechseln&cat=1" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/check24.png" alt="" width="40" height="40" class="shrink-0 rounded-lg" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Electricidad (Strom) <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">Compara proveedores de electricidad. Puedes ahorrar 200-400 EUR al ano eligiendo bien.</p>
-          </div>
-        </a>
-        <p class="text-center text-xs text-text-muted -mt-2 mb-3">*Enlace de afiliado — sin coste extra para ti</p>
-        <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=gasanbieter-wechseln&cat=3" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/check24.png" alt="" width="40" height="40" class="shrink-0 rounded-lg" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Gas</h3>
-            <p class="text-sm text-text-muted mt-1">Compara tarifas de gas para calefaccion. Solo si tu piso usa gas (no todos lo necesitan).</p>
-          </div>
-        </a>
-        <p class="text-center text-xs text-text-muted -mt-2 mb-3">*Enlace de afiliado — sin coste extra para ti</p>
+        <div class="flex flex-col">
+          <a href="https://tidd.ly/4vxmVpv" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/lycamobile.png" alt="" width="40" height="40" class="shrink-0 rounded-lg object-contain" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Lyca Mobile <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">SIM gratuita sin contrato. Red 5G (O2), tarifas desde 4,99 EUR por paquete de 28 días (≈5,41 EUR/mes) y llamadas baratas a Latinoamerica. Ideal para recien llegados.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
+        <div class="flex flex-col">
+          <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=dsl-anbieterwechsel&cat=4" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/check24.png" alt="" width="40" height="40" class="shrink-0 rounded-lg" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Internet (DSL) <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">Compara Vodafone, Telekom, O2, 1&1 y mas. Encuentra la mejor tarifa de internet para tu zona.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
+        <div class="flex flex-col">
+          <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=stromanbieter-wechseln&cat=1" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/check24.png" alt="" width="40" height="40" class="shrink-0 rounded-lg" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Electricidad (Strom) <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">Compara proveedores de electricidad. Puedes ahorrar 200-400 EUR al ano eligiendo bien.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
+        <div class="flex flex-col">
+          <a href="https://a.check24.net/misc/click.php?pid=1169811&aid=18&deep=gasanbieter-wechseln&cat=3" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/check24.png" alt="" width="40" height="40" class="shrink-0 rounded-lg" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Gas</h3>
+              <p class="text-sm text-text-muted mt-1">Compara tarifas de gas para calefaccion. Solo si tu piso usa gas (no todos lo necesitan).</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
       </div>
     </div>
 
@@ -268,13 +288,16 @@ const schema = {
       </h2>
       <p class="text-text-secondary mb-6">Seguros esenciales para residentes en Alemania: medico, responsabilidad civil, hogar y mascotas. Si no sabe por donde empezar, lea nuestra <a href="/blog/seguro-medico-alemania/" class="text-amber hover:underline">guia GKV vs PKV</a>.</p>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <a href="https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/feather.svg" alt="" width="40" height="40" class="shrink-0 rounded-lg" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Feather Insurance <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">Plataforma de seguros para expats en Alemania. Salud, responsabilidad civil, hogar, mascotas y mas. Soporte en ingles, proceso 100% online.</p>
-          </div>
-        </a>
+        <div class="flex flex-col">
+          <a href="https://app.feather-insurance.com/recommendation-tool?utm_source=rutaalemania" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/feather.svg" alt="" width="40" height="40" class="shrink-0 rounded-lg" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Feather Insurance <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">Plataforma de seguros para expats en Alemania. Salud, responsabilidad civil, hogar, mascotas y mas. Soporte en ingles, proceso 100% online.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
         <div class="card">
           <h3 class="font-semibold">DR-WALTER / Provisit</h3>
           <p class="text-sm text-text-muted mt-1">Seguros medicos de viaje para los primeros meses. Aceptados para solicitud de visa.</p>
@@ -283,30 +306,36 @@ const schema = {
           <h3 class="font-semibold group-hover:text-amber transition-colors">Techniker Krankenkasse (TK)</h3>
           <p class="text-sm text-text-muted mt-1">La mayor caja de seguro medico publico de Alemania. Recomendada para empleados.</p>
         </a>
-        <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=haftpflichtversicherung" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/tarifcheck24.svg" alt="" width="40" height="40" class="shrink-0 object-contain" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Haftpflichtversicherung <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">Responsabilidad civil personal. Imprescindible en Alemania (~5 EUR/mes). La tienen más del 89 % de los hogares.</p>
-          </div>
-        </a>
-        <p class="text-center text-xs text-text-muted -mt-2 mb-3">*Enlace de afiliado — sin coste extra para ti</p>
-        <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hausratversicherung" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/tarifcheck24.svg" alt="" width="40" height="40" class="shrink-0 object-contain" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Hausratversicherung <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">Seguro del contenido del hogar: robo, incendio, danos por agua. Recomendado al firmar contrato de alquiler.</p>
-          </div>
-        </a>
-        <p class="text-center text-xs text-text-muted -mt-2 mb-3">*Enlace de afiliado — sin coste extra para ti</p>
-        <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundekrankenversicherung" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
-          <img src="/logos/tarifcheck24.svg" alt="" width="40" height="40" class="shrink-0 object-contain" />
-          <div>
-            <h3 class="font-semibold group-hover:text-amber transition-colors">Hundekrankenversicherung <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
-            <p class="text-sm text-text-muted mt-1">Seguro veterinario para perros. Cubre cirugias, tratamientos y hospitalizacion.</p>
-          </div>
-        </a>
-        <p class="text-center text-xs text-text-muted -mt-2 mb-3">*Enlace de afiliado — sin coste extra para ti</p>
+        <div class="flex flex-col">
+          <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=haftpflichtversicherung" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/tarifcheck24.svg" alt="" width="40" height="40" class="shrink-0 object-contain" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Haftpflichtversicherung <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">Responsabilidad civil personal. Imprescindible en Alemania (~5 EUR/mes). La tienen más del 89 % de los hogares.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
+        <div class="flex flex-col">
+          <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hausratversicherung" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/tarifcheck24.svg" alt="" width="40" height="40" class="shrink-0 object-contain" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Hausratversicherung <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">Seguro del contenido del hogar: robo, incendio, danos por agua. Recomendado al firmar contrato de alquiler.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
+        <div class="flex flex-col">
+          <a href="https://a.partner-versicherung.de/click.php?partner_id=200466&ad_id=15&deep=hundekrankenversicherung" class="card group affiliate-placeholder flex items-start gap-4" target="_blank" rel="noopener noreferrer sponsored">
+            <img src="/logos/tarifcheck24.svg" alt="" width="40" height="40" class="shrink-0 object-contain" />
+            <div>
+              <h3 class="font-semibold group-hover:text-amber transition-colors">Hundekrankenversicherung <span class="badge !text-[0.6rem] ml-2">Afiliado</span></h3>
+              <p class="text-sm text-text-muted mt-1">Seguro veterinario para perros. Cubre cirugias, tratamientos y hospitalizacion.</p>
+            </div>
+          </a>
+          <AvisoAfiliado />
+        </div>
       </div>
     </div>
 

@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
+import { rehypeAvisoAfiliado } from './plugins/rehype-aviso-afiliado.mjs';
 import { execSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -41,6 +42,9 @@ function lastModFor(pathname) {
 }
 
 export default defineConfig({
+  // El aviso de afiliado de los artículos se GENERA aquí, de una sola fuente
+  // (src/data/afiliados.mjs). Ver plugins/rehype-aviso-afiliado.mjs.
+  markdown: { rehypePlugins: [rehypeAvisoAfiliado] },
   site: 'https://rutaalemania.com',
   integrations: [
     tailwind(),

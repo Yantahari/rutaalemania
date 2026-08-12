@@ -1,0 +1,17 @@
+---
+// AvisoAfiliado.astro — el aviso de afiliado para las superficies `.astro`.
+//
+// Hermano del plugin `plugins/rehype-aviso-afiliado.mjs`, que hace lo mismo en
+// los `.md`. Los dos beben del MISMO fichero (src/data/afiliados.mjs), que es
+// la condición del Director del día 162: **el aviso se genera de una fuente
+// única, no de copias sueltas**. Cambiar el texto = tocar aquel fichero.
+//
+// `clase` existe porque el sitio ya pintaba el aviso con dos estilos distintos
+// —`link-aviso` en /links y utilidades sueltas en /recursos— y este acto NO
+// cambia el aspecto de nada: sólo de dónde sale el texto.
+import { AVISO_AFILIADO, AVISO_CLASE } from '../data/afiliados.mjs';
+
+interface Props { clase?: string }
+const { clase = '' } = Astro.props;
+---
+<p class={[AVISO_CLASE, clase].filter(Boolean).join(' ')} data-aviso-afiliado="generado">{AVISO_AFILIADO}</p>

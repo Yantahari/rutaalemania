@@ -146,6 +146,8 @@
   import data from '../data/simulator-data.json';
   import { calcularNomina } from '../data/motor-nomina-2026';
   import { CIFRAS, FRASES_SIN_DATO } from '../data/cifras';
+  // Fuente única del aviso de afiliado (día 162): el texto no vive aquí.
+  import { AVISO_AFILIADO, AVISO_CLASE } from '../data/afiliados.mjs';
 
   const cifra = (id) => CIFRAS[id].valor;
 
@@ -480,6 +482,7 @@
             <span class="text-text-muted">Enviar dinero barato</span>
           </a>
         </div>
+        <p class="${AVISO_CLASE}">${AVISO_AFILIADO}</p>
       </div>
 
       <!-- Share -->

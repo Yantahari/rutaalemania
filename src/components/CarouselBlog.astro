@@ -1,5 +1,15 @@
 ---
 import type { CarouselSlide } from '../data/carousels/sperrkonto';
+// 🔴 ESTE COMPONENTE SÍ RINDE ENLACES DE AFILIADO CLICABLES, y el proyecto
+// creía que no (corregido el 12-ago-2026, día 162, midiendo el HTML construido).
+// La creencia venía de un hecho CIERTO pero PARCIAL: `{step.text}` va escapado,
+// así que un enlace escrito DENTRO del texto de una diapositiva no vive. Pero
+// `affiliateLink.url` y `ctaButtons[].url` no pasan por ahí — se rinden como
+// `<a href>` de verdad, y salen incrustados en las páginas del blog que montan
+// un carrusel (medido: 3 anclas en `sperrkonto-como-abrir`). Por eso el aviso
+// tiene que salir DE AQUÍ: el plugin de markdown no ve los `.astro`.
+import AvisoAfiliado from './AvisoAfiliado.astro';
+import { esUrlAfiliado } from '../data/afiliados.mjs';
 
 interface Props {
   carouselId: string;
@@ -129,6 +139,9 @@ const totalSlides = slides.length;
                       {slide.affiliateLink.label}
                     </a>
                   )}
+                  {slide.affiliateLink && esUrlAfiliado(slide.affiliateLink.url) && (
+                    <AvisoAfiliado clase="cb-aviso-afiliado" />
+                  )}
 
                   {/* Checkmark */}
                   {slide.checkmark && (
@@ -170,6 +183,9 @@ const totalSlides = slides.length;
                         )
                       )}
                     </div>
+                  )}
+                  {slide.ctaButtons?.some((b) => esUrlAfiliado(b.url)) && (
+                    <AvisoAfiliado clase="cb-aviso-afiliado" />
                   )}
                 </div>
               </div>
@@ -610,6 +626,17 @@ const totalSlides = slides.length;
     margin-right: 1cqw;
     border-radius: 0.56cqw;
   }
+
+  /* El aviso de afiliado del carrusel NO tiene regla propia, y es una decisión
+     medida (día 162). La tuvo: `.cb-aviso-afiliado` con valores en cqw copiados
+     de `.cb-check-text`. Dos cosas la desmontaron. (1) Vivía en el <style> de
+     ESTE componente y el <p> lo pinta AvisoAfiliado.astro, así que llevaba otro
+     data-astro-cid y la regla NUNCA aplicaba — eso, y no el color, era el «no
+     se ve nada» del Director: se rendía a 16px en rgb(31,41,55) sobre #1a1a2e,
+     gris oscuro sobre azul oscuro. (2) Al arreglarlo, la clase global
+     `.aviso-afiliado` ya daba 12px y #9ca3af, que sobre este fondo contrasta
+     ~6,4:1 y se lee. Una regla que no cambia nada es un adorno: se retira.
+     Si algún día el carrusel pide tamaño propio, va aquí y en :global(). */
 
   .cb-affiliate-link {
     display: inline-flex;

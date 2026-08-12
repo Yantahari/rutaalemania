@@ -96,7 +96,6 @@ Debes demostrar que tu **sustento está asegurado** durante la estancia — segu
 - **Vía 2 (Puntos):** Alemán A1 o inglés B2 (es requisito mínimo **de acceso** y **no se compensa con puntos**; niveles más altos sí te dan puntos extra).
 
 > 💡 **Consejo:** Si aún no tienes el A1 de alemán, puedes prepararlo desde casa con [Babbel](https://es.babbel.com/cursos-de-aleman) (cursos diseñados para hispanohablantes, lecciones de 10-15 min/día) o con clases en vivo en [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48). En la Vía 2, un B1 certificado son 2 puntos y un B2, 3.
-<p style="text-align:center;margin-top:-0.75rem;margin-bottom:1rem;font-size:0.75rem;color:#9ca3af">*Enlace de afiliado — sin coste extra para ti</p>
 
 ---
 

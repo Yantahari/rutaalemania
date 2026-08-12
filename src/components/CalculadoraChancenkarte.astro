@@ -258,6 +258,11 @@
 </style>
 
 <script>
+  // El aviso de afiliado y la regla de qué lo es vienen de la fuente única
+  // (src/data/afiliados.mjs). El roadmap se pinta en cliente, así que el aviso
+  // se genera aquí dentro — pero su texto NO vive aquí (día 162).
+  import { AVISO_AFILIADO, AVISO_CLASE, esUrlAfiliado } from '../data/afiliados.mjs';
+
   const answers: Record<string, string> = {};
   const totalSteps = 11;
 
@@ -399,6 +404,7 @@
           <h4 style="font-weight:600;margin-bottom:0.3rem">${s.title}</h4>
           <p style="font-size:0.85rem;color:#4b5563;line-height:1.5;margin-bottom:0.5rem">${s.desc}</p>
           <a href="${s.link}" class="rm-link" target="${s.link.startsWith('http') ? '_blank' : '_self'}" rel="noopener">${s.linkText} ${arrow}</a>
+          ${esUrlAfiliado(s.link) ? `<p class="${AVISO_CLASE}">${AVISO_AFILIADO}</p>` : ''}
         </div>
       </div>
     `).join('');
