@@ -47,6 +47,21 @@
 #     hay ESTADO.md que leer. En ese caso AVISA FUERTE y sigue: mudo sería
 #     indistinguible de «no hay pendientes».
 #
+# ⚠️ ESTADO DEL ESTRENO, y se lleva la cuenta a propósito (objeción del chat,
+# día 165, aceptada):
+#   ✅ PROBADO que git lo invoca en un `git push` REAL — con un remoto bare
+#      desechable, sin tocar Netlify. Lista las seis en una pantalla.
+#   🔴 NO ESTRENADO EN UN DESPLIEGUE DE PRODUCCIÓN. Este hook viaja en el
+#      commit f4cc453, que está RETENIDO. Hasta que ese commit se empuje, el
+#      hook no existe en la rama desplegada — y el despliegue que lo lleve es
+#      justamente EL ÚNICO QUE NO PUEDE VIGILAR: en ese push, las seis obras
+#      marcadas viajarán por decisión del Director, no porque esta lista las
+#      haya enseñado. El primer despliegue que este hook protege de verdad es
+#      el SIGUIENTE.
+#      No se marque «estrenado» antes de eso: un hook con estreno ✅ que nunca
+#      ha corrido en un push real es la clase de falso limpio que esta casa
+#      persigue.
+#
 # Instalación: ./install-hooks.sh (git no propaga hooks en el clon).
 # ============================================================================
 set -uo pipefail          # SIN -e: aquí nada debe abortar un despliegue
