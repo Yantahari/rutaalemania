@@ -4,7 +4,7 @@ title: "Seguro médico en Alemania: GKV vs PKV (Guía 2026)"
 description: "GKV (público) vs PKV (privado) en Alemania: cómo funcionan, quién puede elegir, umbrales 2026 y casos prácticos. Decida con información clara."
 date: "2026-04-19"
 keywords: "seguro medico alemania, GKV vs PKV, seguro privado alemania, seguro publico alemania, JAEG 2026, Familienversicherung, Krankenversicherung"
-# videoId retirado el 9-ago-2026 (día 155): el vídeo está privado — lo repondrá su nodo
+videoId: "zHSx9dR4BxI"  # repuesto el 13-ago-2026 (día 164) por su NODO, como decía la nota que lo retiró el 155
 ---
 
 > ℹ️ **Aviso de afiliación:** Este artículo contiene enlaces de afiliado. Si contrata un seguro a través de ellos, recibimos una pequeña comisión sin coste adicional para usted. Mantenemos la independencia editorial: presentamos pros y contras de cada opción para que usted decida.
