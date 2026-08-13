@@ -8,3 +8,5 @@ set -euo pipefail
 cd "$(dirname "$0")"
 install -m 755 scripts/hooks/pre-commit .git/hooks/pre-commit
 echo "Hook pre-commit (olfato de secretos) instalado en .git/hooks/pre-commit"
+install -m 755 scripts/hooks/pre-push .git/hooks/pre-push
+echo "Hook pre-push (la lista de pendientes que esperan despliegue) instalado en .git/hooks/pre-push"

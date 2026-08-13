@@ -1,0 +1,101 @@
+#!/usr/bin/env bash
+# ============================================================================
+# LA LISTA ANTES DE DESPLEGAR — pre-push hook del repo Astro
+# (día 165, 2026-08-13 — ESTADO §8.42.4)
+# ============================================================================
+#
+# EL CASO QUE LO MOTIVÓ, con fecha — sin él, dentro de seis meses alguien
+# quitará este hook por molesto:
+#
+#   2026-08-13 (día 164). Hubo despliegue del sitio (b3433fb). CINCO pendientes
+#   tenían como condición «el próximo despliegue» y SÓLO UNO viajó. El que
+#   desplegó fue CCode y no miró la lista; la auditoría del ritual los cazó
+#   DESPUÉS, con la ventana ya perdida. Un despliegue del sitio recompila el
+#   sitio entero y no se repite el mismo día por regla de coste: la ventana que
+#   se pierde no vuelve hasta el siguiente.
+#
+#   Y el primer remedio que se propuso era una COSTUMBRE —«quien vaya a
+#   empujar, que mire»—, escrita unas horas después de redactar L10, que dice
+#   exactamente que eso no funciona. Objeción del chat, aceptada. Esto es el
+#   mecanismo.
+#
+# QUÉ HACE: antes de CADA push, lee ESTADO.md del repo ops y lista los
+# pendientes marcados con ⏳DESPLIEGUE. **AVISA, NO BLOQUEA.**
+#
+# POR QUÉ NO BLOQUEA, y es decisión firmada: el despliegue lo decide el
+# Director, y un hook que pueda tumbar un despliegue por un fallo suyo es peor
+# que no tenerlo. Este guion SIEMPRE termina en 0 — incluso si no encuentra
+# ESTADO.md, incluso si algo revienta. Lo que garantiza no es que se actúe: es
+# que LA LISTA APAREZCA SIN QUE NADIE TENGA QUE ACORDARSE.
+#
+# POR QUÉ LEE UNA MARCA Y NO LA PALABRA «despliegue»: se midió. El grep sobre
+# la prosa de §8 daba 4 líneas para 6 obras — un falso positivo (la línea que
+# describe este mismo hook) y dos obras invisibles porque vivían dentro del
+# paréntesis de otra entrada. Un hook que lee prosa nace mintiendo. La marca
+# ⏳DESPLIEGUE viaja pegada a cada obra (norma 6: el criterio con el caso, no
+# una lista aparte que se desincroniza).
+#
+# ⚠️ LÍMITES DECLARADOS, y son de la herramienta:
+#   · Lee ⏳DESPLIEGUE, no el CRITERIO. Un pendiente cuya condición se escriba
+#     «en el próximo deploy» o «cuando se publique» es INVISIBLE para él. Es la
+#     misma clase que los dos modos de fallo del §8.40, y no se arregla aquí:
+#     se arregla poniendo la marca, y de eso avisa el pre-commit de ops.
+#   · La marca la escribe un humano al redactar el pendiente. Ese eslabón NO
+#     tiene candado aquí; lo tiene en el pre-commit del repo ops, que avisa si
+#     una línea de §8 habla de despliegue y no lleva marca.
+#   · Si este repo se clona SUELTO (sin el repo ops como carpeta madre), no
+#     hay ESTADO.md que leer. En ese caso AVISA FUERTE y sigue: mudo sería
+#     indistinguible de «no hay pendientes».
+#
+# Instalación: ./install-hooks.sh (git no propaga hooks en el clon).
+# ============================================================================
+set -uo pipefail          # SIN -e: aquí nada debe abortar un despliegue
+
+RAIZ_SITIO="$(git rev-parse --show-toplevel 2>/dev/null || echo .)"
+ESTADO="$(dirname "$RAIZ_SITIO")/ESTADO.md"
+
+echo ""
+echo "════════════════════════════════════════════════════════════════════"
+echo "  ⏳  PUSH DEL SITIO = DESPLIEGUE. Lo que espera esta ventana:"
+echo "════════════════════════════════════════════════════════════════════"
+
+if [ ! -f "$ESTADO" ]; then
+    cat <<EOF
+
+  ⚠⚠  NO SE ENCUENTRA ESTADO.md EN $ESTADO
+      Este repo parece clonado SUELTO, sin el repo ops como carpeta madre.
+      NO PUEDO DECIR SI HAY PENDIENTES. Esto no es «no hay ninguno»:
+      es «no lo sé». Míralo a mano antes de desplegar.
+
+════════════════════════════════════════════════════════════════════
+EOF
+    exit 0
+fi
+
+pendientes="$(grep -n '⏳DESPLIEGUE' "$ESTADO" 2>/dev/null || true)"
+
+if [ -z "$pendientes" ]; then
+    echo ""
+    echo "  ✓ Ninguno marcado con ⏳DESPLIEGUE en ESTADO.md."
+    echo "    (Recuerda: lee la MARCA, no el criterio — un pendiente sin marcar"
+    echo "     es invisible para esta lista.)"
+else
+    n="$(printf '%s\n' "$pendientes" | wc -l | tr -d ' ')"
+    echo ""
+    echo "  $n obra(s) esperan un despliegue por otro motivo. ÉSTE ES ESE OTRO MOTIVO:"
+    echo ""
+    printf '%s\n' "$pendientes" | sed 's/^/    ESTADO.md:/' | cut -c1-200
+    cat <<'EOF'
+
+  El día 164 sonaron cinco de éstas y sólo viajó UNA. Un despliegue
+  recompila el sitio entero y no se repite el mismo día: la ventana
+  que se pierde aquí no vuelve hasta el siguiente.
+
+  ESTO AVISA, NO BLOQUEA. Desplegar es decisión del Director, y
+  saltárselas también — pero ahora es una decisión, no un olvido.
+EOF
+fi
+
+echo "════════════════════════════════════════════════════════════════════"
+echo ""
+exit 0
