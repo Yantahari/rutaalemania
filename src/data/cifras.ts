@@ -266,6 +266,29 @@ export const CIFRAS = {
     fuente: { nombre: 'anual / 12', tipo: 'derivada' },
     deriva_de: ['jaeg.anno'],
   },
+  // EL UMBRAL DE NO RETORNO — saldo de la deuda §8.34 de ESTADO (abierta el
+  // día 164, saldada el 166). El nodo 2 lo locutó por `permitirDigitos` con su
+  // motivo escrito, porque este fichero vive en el repo del SITIO y tocarlo es
+  // un despliegue; hasta hoy el 55 quedaba SIN FECHA, SIN FUENTE Y SIN QUIEN
+  // LO REVISE — un `permitirDigitos` es una cadena en un Set y no llega al
+  // manifiesto; un `{{cifra.*}}` arrastra vigencia, verificado, fuente y
+  // revisión. Viaja gratis en el despliegue del nodo 3.
+  // ⚠️ NO es un importe y no cambia con las Rechengrößen: es una EDAD fijada
+  // por ley. Por eso `revision.tipo: 'evento'` y no 'calendario' — no tiene
+  // fecha conocida de antemano; se mira si se reforma el § 6 SGB V.
+  'pkv.no_retorno.edad': {
+    valor: 55,
+    unidad: 'años',
+    vigencia: '2026',
+    verificado: '2026-08-14',
+    revision: {
+      tipo: 'evento',
+      porque: 'Edad fijada por ley, sin reloj anual. Se revisa si se reforma el § 6 SGB V — que YA se movió: el § 6 Abs. 3b es nuevo desde el 1-ene-2026 (R46).',
+    },
+    fuente: { nombre: '§ 6 Abs. 3a SGB V (fijado por ley)', tipo: 'oficial' },
+    nota:
+      'Cumplidos los 55, la vuelta a la pública es prácticamente imposible, y ESO SÍ LO DICE LA LEY — canon R46, que registra expresamente que esa formulación vale por NO ser un absoluto. Antes de los 55 hay vías CONFIRMADAS (§ 5 Abs. 1 Nr. 1 y Nr. 2, § 10), pero LA LISTA NO ESTÁ CERRADA: el chat verificó que faltaba al menos una, no que con ella estén todas. Y la vuelta por empleo NO es automática (§ 205 Abs. 2 VVG: tres meses para cancelar la póliza privada o se pagan los dos seguros). — HOY NO SE PUBLICA en ninguna página del sitio: entra para que el número tenga ficha antes de que alguna la necesite, que es lo que funcionó con fachkraft.mayor45.anno.',
+  },
 
   // ─── Trámites de llegada (tanda T4, 7-ago-2026) ─────────────────────────
   // Los DOS únicos importes de `primeros-pasos` que no tenían custodia — y la

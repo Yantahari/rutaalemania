@@ -66,13 +66,6 @@
     @apply -mt-3;
   }
 
-  /* En una LISTA el bloque rompe el ritmo: los puntos con enlace crecen una
-     línea y los demás no. Aquí el aviso va EN LÍNEA, con el mismo cuerpo y
-     el mismo color medidos arriba — sólo cambia que no ocupa renglón. */
-  li > .aviso-afiliado {
-    @apply inline ml-1 text-left m-0;
-  }
-
   /* Inline links inside article body (blog + actualidad).
      Targets anchors without class so btn-primary CTAs keep their button styling. */
   .blog-content a:not([class]) {

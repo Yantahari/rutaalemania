@@ -24,7 +24,7 @@
 // hispanohablante) está ABIERTA y es de abogado — y no bloquea, porque poner
 // etiqueta en castellano donde no hay ninguna no empeora nada bajo ninguna
 // lectura. Cuando esa decisión caiga, se cambia AQUÍ y en ningún otro sitio.
-export const AVISO_AFILIADO = '*Enlace de afiliado — sin coste extra para ti';
+export const AVISO_AFILIADO = '*Enlace de afiliado — sin coste adicional';
 
 // ⚠️ EL ESTILO YA NO VIAJA EN LÍNEA (12-ago-2026, día 162, veto del Director).
 // Hasta hoy esto era el `style` copiado verbatim de las 56 apariciones viejas,
