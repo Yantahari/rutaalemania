@@ -11,7 +11,7 @@ Encontrar piso en Alemania es, para la mayoría de recién llegados, el primer c
 
 ## La realidad del mercado
 
-En ciudades como Berlín y Múnich encontrar piso es **extremadamente competitivo**: visitas con decenas de candidatos y pisos que se adjudican en días. Tu ventaja realista no es correr más — es **llegar con la carpeta de documentos completa** y saber qué te pueden pedir en cada fase (abajo). Para hacerte una idea de los precios por ciudad, mira nuestra [guía de cuánto cuesta vivir en Alemania](/blog/cuanto-cuesta-vivir-en-alemania).
+En ciudades como Berlín y Múnich encontrar piso es **extremadamente competitivo**: visitas con decenas de candidatos y pisos que se adjudican en días. Tu ventaja realista no es correr más — es **llegar con la carpeta de documentos completa** y saber qué te pueden pedir en cada fase (abajo). Para hacerte una idea de los precios por ciudad, mira nuestra [guía de cuánto cuesta vivir en Alemania](/blog/cuanto-cuesta-vivir-en-alemania/).
 
 ## Dónde buscar
 
@@ -48,7 +48,7 @@ Todo esto — lo suyo y lo tuyo — vale **por escrito en forma de texto**: un c
 
 ## Tu carpeta de documentos
 
-Lo que suelen pedir los caseros (el detalle vive en [primeros pasos](/blog/primeros-pasos-alemania)):
+Lo que suelen pedir los caseros (el detalle vive en [primeros pasos](/blog/primeros-pasos-alemania/)):
 
 - Últimas 3 nóminas o contrato de trabajo
 - **Schufa**: consultar tus propios datos es gratis; lo que cuesta dinero es el certificado pensado para entregar al casero. No los confundas — y no lo compres con recargo dentro de un portal.
@@ -74,7 +74,7 @@ Qué puede preguntarte un casero depende de **la fase** en la que estés — as�
 
 - Lee el contrato con calma aunque la presión sea real: lo que firmas es lo que rige.
 - **Übergabeprotokoll**: en la entrega del piso, documenta por escrito y con fotos cada desperfecto existente. Es tu prueba cuando devuelvas el piso.
-- Con el contrato firmado llega el trámite que abre todo lo demás: el **Anmeldung** (empadronamiento) — cómo hacerlo, en [primeros pasos](/blog/primeros-pasos-alemania).
+- Con el contrato firmado llega el trámite que abre todo lo demás: el **Anmeldung** (empadronamiento) — cómo hacerlo, en [primeros pasos](/blog/primeros-pasos-alemania/).
 - La fianza: recuerda tus dos derechos del § 551 (3 plazos; cuenta separada).
 
 ## Las estafas que se llevan a los recién llegados

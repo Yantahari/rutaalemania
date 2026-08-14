@@ -25,6 +25,26 @@
   to = "/sitemap-index.xml"
   status = 301
 
+# ⚠️ LA BARRA FINAL LA DECIDE NETLIFY, Y NO ESTÁ AQUÍ (medido el 14-ago-2026,
+# día 166). Producción, comprobada con curl contra URLs reales:
+#     /blog/trabajar-alemania-sin-aleman   301 → /blog/trabajar-alemania-sin-aleman/
+#     /blog/trabajar-alemania-sin-aleman/  200
+#     /links                               301 → /links/
+# Eso es el comportamiento POR DEFECTO de Netlify: no hay ni una regla de barra
+# final en este fichero, así que NADIE LO HA DECIDIDO Y NADIE LO VIGILA. Si un
+# día Netlify lo cambia, cambia sin aviso y se lleva por delante el argumento
+# entero de `trailingSlash: 'always'` en astro.config.mjs — que se puso porque
+# COINCIDE con esto, no porque lo imponga (las páginas son prerenderizadas y
+# Astro no gobierna su forma en producción).
+#
+# POR QUÉ NO SE FIJA AQUÍ, y es decisión declarada y no olvido: Netlify tuvo una
+# clave `[build.processing.html] pretty_urls`, la sección existe y está VACÍA en
+# la config resuelta (.netlify/netlify.toml), y CCode NO PUDO VERIFICAR EN DISCO
+# que siga admitiéndose. Escribir una clave que quizá ya no se lee sería
+# exactamente el fallo silencioso del §8.53: configuración ignorada sin avisar,
+# con la falsa sensación de estar cubierto. Se anota el hecho medido en vez de
+# inventar la regla. Si alguien confirma la clave, se fija aquí y se borra esto.
+
 # Headers for security and performance
 [[headers]]
   for = "/*"
