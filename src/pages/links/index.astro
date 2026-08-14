@@ -78,6 +78,48 @@ import AvisoAfiliado from '../../components/AvisoAfiliado.astro';
         </a>
       </div>
 
+      <!-- Vídeos y guías — nace el 14-ago-2026 (día 166) para CUMPLIR UNA
+           PROMESA YA EMITIDA: los mensajes de TikTok e Instagram dicen «los dos
+           enlaces, en la bio», y en esas dos redes el enlace del pie no es
+           clicable, así que ésta es la única vía. La promesa se emitió con el
+           nodo 2 (13-ago) y esta página no la cumplía. Orden: el más reciente
+           arriba, que es de donde llega quien pincha la bio. -->
+      <div class="links-divider">
+        <div class="flex-1 h-px bg-border"></div>
+        <span class="text-text-muted text-xs uppercase tracking-widest">Vídeos y guías</span>
+        <div class="flex-1 h-px bg-border"></div>
+      </div>
+
+      <div class="space-y-2.5">
+        <div class="flex flex-col">
+          <a href="/blog/trabajar-alemania-sin-aleman/" class="link-btn">
+            <span class="flex-1">
+              <span class="block font-semibold">¿Trabajar en Alemania sin alemán?</span>
+              <span class="block text-xs opacity-60">La guía por escrito, con el vídeo dentro</span>
+            </span>
+          </a>
+          <a href="https://www.youtube.com/watch?v=tExNFh-sKjo" target="_blank" rel="noopener noreferrer" class="link-video">Ver sólo el vídeo &rarr;</a>
+        </div>
+        <div class="flex flex-col">
+          <a href="/blog/seguro-medico-alemania/" class="link-btn">
+            <span class="flex-1">
+              <span class="block font-semibold">Seguro médico: GKV o PKV</span>
+              <span class="block text-xs opacity-60">La guía por escrito, con el vídeo dentro</span>
+            </span>
+          </a>
+          <a href="https://www.youtube.com/watch?v=zHSx9dR4BxI" target="_blank" rel="noopener noreferrer" class="link-video">Ver sólo el vídeo &rarr;</a>
+        </div>
+        <div class="flex flex-col">
+          <a href="/blog/buscar-piso-alemania/" class="link-btn">
+            <span class="flex-1">
+              <span class="block font-semibold">Buscar piso en Alemania</span>
+              <span class="block text-xs opacity-60">La guía por escrito, con el vídeo dentro</span>
+            </span>
+          </a>
+          <a href="https://www.youtube.com/watch?v=t2Zwtf2s2U8" target="_blank" rel="noopener noreferrer" class="link-video">Ver sólo el vídeo &rarr;</a>
+        </div>
+      </div>
+
       <!-- Afiliados -->
       <div class="links-divider">
         <div class="flex-1 h-px bg-border"></div>
@@ -228,6 +270,21 @@ import AvisoAfiliado from '../../components/AvisoAfiliado.astro';
   }
 
   /* Base button — light theme */
+  /* El segundo enlace de cada nodo: la promesa de la bio dice «los DOS
+     enlaces», así que el vídeo tiene el suyo y no sólo el artículo. Discreto:
+     el destino principal es la guía, que ya lleva el vídeo dentro. */
+  .link-video {
+    align-self: flex-end;
+    margin-top: 0.35rem;
+    margin-right: 0.15rem;
+    font-size: 0.72rem;
+    color: rgba(226, 167, 48, 0.85);
+    text-decoration: none;
+  }
+  .link-video:hover {
+    text-decoration: underline;
+  }
+
   .link-btn {
     display: flex;
     align-items: center;
