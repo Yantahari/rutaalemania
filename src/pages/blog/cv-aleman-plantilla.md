@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: "El CV alemán (Lebenslauf): Guía completa + plantilla descargable"
+title: "El CV alemán (Lebenslauf): guía completa sección por sección"
 description: "Aprende a crear un CV alemán perfecto: estructura, diferencias con el CV español, sección por sección, errores comunes y dónde buscar empleo en Alemania."
 date: "2026-02-20"
 keywords: "cv aleman plantilla, lebenslauf ejemplo español, curriculum vitae alemania"

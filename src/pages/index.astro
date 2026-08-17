@@ -13,11 +13,6 @@ const homeSchema = {
     '@type': 'Person',
     name: 'Carlos Domínguez Cid',
   },
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: 'https://rutaalemania.com/blog/?q={search_term_string}',
-    'query-input': 'required name=search_term_string',
-  },
 };
 
 const blogPostFiles = import.meta.glob('./blog/*.md', { eager: true });
