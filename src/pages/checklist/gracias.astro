@@ -1,0 +1,37 @@
+---
+// /checklist/gracias/ — la página a la que MailerLite envía a quien CONFIRMA la
+// suscripción (Forms → h47itn → Double opt-in → Confirmation thank you page →
+// «Or use your own landing page»). Nace el 18-ago-2026 (decisión (i)/4a del
+// Director). Pieza NUEVA con superficie propia → USTED (regla 5 de
+// docs/criterios-texto-visible.md). Copy del Director; no se retoca sin su visto.
+// noindex, fuera del sitemap (astro.config.mjs) y del robots.txt, sin formulario
+// (quien llega acaba de suscribirse), sin enlace al PDF (lo entrega el email 01),
+// sin enlaces entrantes: sólo llega quien confirma.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Suscripción confirmada — Ruta Alemania"
+  description="Suscripción confirmada. La checklist para emigrar a Alemania va de camino."
+  noindex={true}
+  hideNewsletter={true}
+>
+  <section class="container-narrow py-16 md:py-24">
+    <div class="max-w-2xl mx-auto">
+      <div class="badge mb-4">Checklist</div>
+      <h1 class="text-3xl md:text-5xl font-heading mb-8">Listo. Su checklist va de camino</h1>
+
+      <div class="space-y-5 text-text-secondary text-lg leading-relaxed">
+        <p>Acaba de confirmar su suscripción. En unos minutos tendrá en su correo la checklist con los 12 pasos para preparar la mudanza a Alemania.</p>
+        <p><strong class="text-text-primary">Si no la ve</strong>, mire en la pestaña Promociones o en la carpeta de spam. El remitente es <strong class="text-text-primary">Ruta Alemania (hola@rutaalemania.com)</strong> — conviene añadirlo a los contactos para que lo siguiente no se pierda.</p>
+        <p>Y hay más: durante las próximas semanas le iré enviando lo que he aprendido sobre emigrar a Alemania. Errores caros, la cuenta bloqueada, el CV alemán. Si en algún momento no le interesa, cada correo lleva su enlace de baja.</p>
+      </div>
+
+      <div class="mt-10">
+        <a href="/" class="btn-primary">Volver al inicio</a>
+      </div>
+
+      <p class="text-sm text-text-muted mt-10">¿No llega en 15 minutos? Escríbame a hola@rutaalemania.com y lo miro.</p>
+    </div>
+  </section>
+</BaseLayout>

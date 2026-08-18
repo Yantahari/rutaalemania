@@ -455,14 +455,18 @@
     }
 
     resultEl.classList.remove('hidden');
+    // el formulario propio de la checklist, dentro del resultado recién pintado
+    resultEl.querySelectorAll('[data-formulario-checklist-slot]').forEach(function (slot) {
+      if (typeof (window as any).montaFormularioChecklist === 'function') (window as any).montaFormularioChecklist(slot);
+    });
     resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   function emailCaptureBox(): string {
+    // Formulario propio de la checklist (FormularioChecklist.astro): el hueco se
+    // rellena tras pintar el resultado (ver montaFormularioChecklist más abajo).
     return `
-      <div style="margin:2rem 0">
-        <div class="ml-embedded" data-form="h47itn"></div>
-      </div>
+      <div style="margin:2rem 0" data-formulario-checklist-slot></div>
     `;
   }
 

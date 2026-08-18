@@ -1,0 +1,114 @@
+---
+// FormularioChecklist.astro — el formulario de la checklist, PROPIO (18-ago-2026,
+// decisión (i)/4a del Director). Sustituye al embed de MailerLite (`universal.js`
+// + `.ml-embedded`), que cargaba 9 recursos de terceros en cada página y escribía
+// un identificador persistente (ml_guid) en el navegador antes de cualquier
+// consentimiento. Ahora: cero peticiones a terceros hasta que el lector pulsa
+// «Descargar gratis»; entonces UNA, a MailerLite, con el correo que él escribió
+// (POST al mismo formulario h47itn: el doble opt-in, el grupo, la secuencia y las
+// conversiones siguen siendo los de siempre — medido en §18 del informe GDPR).
+//
+// Se renderiza como <template>: BaseLayout lo incluye una vez por página y el
+// bloque de la sección, la home y la calculadora lo instancian (la calculadora
+// lo clona desde JavaScript). Un solo manejador de `submit`, por delegación, en
+// el propio layout.
+//
+// TRATAMIENTO: texto compartido e insertado en 26 páginas → IMPERSONAL (regla 5-bis
+// de docs/criterios-texto-visible.md). Copy del Director (18-ago-2026); no se
+// retoca aquí sin su visto.
+const ENDPOINT = 'https://assets.mailerlite.com/jsonp/2151601/forms/180719424172459761/subscribe';
+---
+
+<template id="tpl-formulario-checklist">
+  <form
+    class="formulario-checklist card p-6 md:p-8"
+    method="post"
+    action={ENDPOINT}
+    data-formulario-checklist
+    novalidate
+  >
+    <h3 class="font-heading text-xl md:text-2xl text-text-primary mb-2">Descarga gratis: Checklist para emigrar a Alemania</h3>
+    <p class="text-text-secondary text-sm mb-5">12 pasos esenciales para preparar la mudanza. Llega al confirmar el correo.</p>
+    <div class="flex flex-col sm:flex-row gap-3">
+      <label class="sr-only" for="fc-email">Correo electrónico</label>
+      <input
+        id="fc-email"
+        class="fc-email flex-1 rounded-xl border border-border px-4 py-3 text-text-primary bg-surface focus:outline-none focus:border-amber"
+        type="email"
+        name="fields[email]"
+        autocomplete="email"
+        inputmode="email"
+        placeholder="Correo electrónico"
+        required
+        aria-describedby="fc-aviso"
+      />
+      <input type="hidden" name="ml-submit" value="1" />
+      <input type="hidden" name="anticsrf" value="true" />
+      <button type="submit" class="btn-primary fc-boton whitespace-nowrap">Descargar gratis</button>
+    </div>
+    <p class="fc-error text-sm text-red-700 mt-3 hidden" role="alert" aria-live="polite"></p>
+    <p id="fc-aviso" class="text-xs text-text-muted mt-4">
+      Baja en cualquier momento. Más detalles en nuestra
+      <a href="/datenschutz/#boletin" target="_blank" rel="noopener" class="text-amber hover:underline">Política de Privacidad</a>.
+    </p>
+    <noscript>
+      <p class="text-sm text-text-secondary mt-3">Este formulario necesita JavaScript. Si no es posible activarlo, se puede escribir a hola@rutaalemania.com y la enviamos por correo.</p>
+    </noscript>
+  </form>
+</template>
+
+<template id="tpl-formulario-checklist-exito">
+  <div class="formulario-checklist card p-6 md:p-8" role="status" aria-live="polite">
+    <h3 class="font-heading text-xl md:text-2xl text-text-primary mb-2">Correo de confirmación enviado</h3>
+    <p class="text-text-secondary">Hemos enviado un correo para confirmar la dirección. Al pulsar el enlace, llega la checklist.</p>
+    <p class="text-text-muted text-sm mt-2"><em>Mirar en Promociones o spam si no aparece.</em></p>
+  </div>
+</template>
+
+<script is:inline>
+  // Instancia la plantilla en cada <div data-formulario-checklist-slot> presente
+  // en el HTML servido; la calculadora hace lo mismo desde su propio código.
+  window.montaFormularioChecklist = function (slot) {
+    var tpl = document.getElementById('tpl-formulario-checklist');
+    if (!tpl || !slot || slot.querySelector('form')) return;
+    slot.appendChild(tpl.content.cloneNode(true));
+    // ids únicos si hay más de un formulario en la página
+    var n = document.querySelectorAll('form[data-formulario-checklist]').length;
+    var form = slot.querySelector('form[data-formulario-checklist]');
+    var input = form.querySelector('.fc-email'), aviso = form.querySelector('#fc-aviso'), label = form.querySelector('label');
+    if (n > 1) {
+      input.id = 'fc-email-' + n; label.setAttribute('for', input.id);
+      aviso.id = 'fc-aviso-' + n; input.setAttribute('aria-describedby', aviso.id);
+    }
+  };
+  document.querySelectorAll('[data-formulario-checklist-slot]').forEach(window.montaFormularioChecklist);
+
+  // Un solo manejador para todos los formularios de la página (delegación).
+  var TXT_INVALIDA = 'Esa dirección no parece válida. Conviene comprobarla.';
+  var TXT_RED = 'No se ha podido enviar. Se puede intentar de nuevo en un momento, o escribir a hola@rutaalemania.com.';
+  document.addEventListener('submit', function (ev) {
+    var form = ev.target;
+    if (!form || !form.hasAttribute('data-formulario-checklist')) return;
+    ev.preventDefault();
+    var input = form.querySelector('.fc-email'), boton = form.querySelector('.fc-boton'), error = form.querySelector('.fc-error');
+    var muestra = function (t) { error.textContent = t; error.classList.remove('hidden'); };
+    error.classList.add('hidden'); error.textContent = '';
+    var email = (input.value || '').trim();
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { muestra(TXT_INVALIDA); input.focus(); return; }
+    boton.disabled = true; var textoBoton = boton.textContent; boton.textContent = 'Enviando…';
+    var datos = new FormData(form); datos.set('fields[email]', email);
+    fetch(form.action, { method: 'POST', body: new URLSearchParams(datos), headers: { 'Accept': 'application/json' } })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok, status: r.status, json: j }; }); })
+      .then(function (res) {
+        if (res.json && res.json.success === true) {
+          var tpl = document.getElementById('tpl-formulario-checklist-exito');
+          form.replaceWith(tpl.content.cloneNode(true));
+          return;
+        }
+        var errores = res.json && res.json.errors && res.json.errors.fields && res.json.errors.fields.email;
+        muestra(errores ? TXT_INVALIDA : TXT_RED);
+        boton.disabled = false; boton.textContent = textoBoton;
+      })
+      .catch(function () { muestra(TXT_RED); boton.disabled = false; boton.textContent = textoBoton; });
+  });
+</script>

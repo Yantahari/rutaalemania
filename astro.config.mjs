@@ -80,7 +80,8 @@ export default defineConfig({
       filter: (page) =>
         !page.includes('/impressum/') &&
         !page.includes('/datenschutz/') &&
-        !page.includes('/disclaimer/'),
+        !page.includes('/disclaimer/') &&
+        !page.includes('/checklist/'),   // /checklist/gracias/: sólo llega quien confirma (18-ago-2026)
       serialize(item) {
         try {
           const url = new URL(item.url);

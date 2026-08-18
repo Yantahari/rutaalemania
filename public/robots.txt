@@ -7,3 +7,5 @@ Sitemap: https://rutaalemania.com/sitemap-index.xml
 Disallow: /impressum/
 Disallow: /datenschutz/
 Disallow: /disclaimer/
+# Página de gracias tras confirmar la suscripción: no es de buscadores
+Disallow: /checklist/
