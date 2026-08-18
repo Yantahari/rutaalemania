@@ -33,7 +33,11 @@ const { hideNewsletter, ...seoProps } = Astro.props;
   <link rel="sitemap" href="/sitemap-index.xml" />
   <SEO {...seoProps} />
 
-  <!-- Google Consent Mode v2 (default: denied) + Analytics -->
+  <!-- Google Analytics 4 — SÓLO tras «Aceptar» en el banner (18-ago-2026, decisión 26 del Director).
+       Antes, gtag.js se cargaba siempre y, con el consentimiento denegado, enviaba pings sin cookies
+       (Consent Mode «avanzado») a google-analytics.com en cada visita — mientras la política decía
+       «desactivada por defecto; sólo se activa cuando haces clic en Aceptar». Ahora el script no
+       existe hasta que el lector acepta (modo «básico»): la frase de la política es verdadera. -->
   <script is:inline>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -43,16 +47,20 @@ const { hideNewsletter, ...seoProps } = Astro.props;
       ad_user_data: 'denied',
       ad_personalization: 'denied'
     });
-    if (localStorage.getItem('cookie-consent') === 'accepted') {
+    window.cargaAnalytics = function () {
+      if (window.__gaCargado) return;
+      window.__gaCargado = true;
       gtag('consent', 'update', { analytics_storage: 'granted' });
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-MZJZDKPRBR';
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      gtag('config', 'G-MZJZDKPRBR');
+    };
+    if (localStorage.getItem('cookie-consent') === 'accepted') {
+      window.cargaAnalytics();
     }
-  </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZJZDKPRBR"></script>
-  <script is:inline>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-MZJZDKPRBR');
   </script>
 
   <!-- MailerLite Universal -->
@@ -109,7 +117,7 @@ const { hideNewsletter, ...seoProps } = Astro.props;
 
       document.getElementById('cookie-accept').addEventListener('click', function() {
         localStorage.setItem('cookie-consent', 'accepted');
-        gtag('consent', 'update', { analytics_storage: 'granted' });
+        window.cargaAnalytics();
         banner.classList.add('hidden');
       });
 
