@@ -173,6 +173,15 @@ export const CIFRAS = {
     fuente: { nombre: '§ 45 Nr. 1 AufenthV — ambos tramos de duración dicen 100 € (veredicto T10 Q6, literal citado, páginas no abiertas: tres fuentes coincidentes)', tipo: 'oficial' },
     nota: 'Primera emisión de la Blue Card. Hasta T10 el artículo decía «aproximadamente 100 €»: el literal permite la cifra cerrada. La tasa consular del VISADO es un coste aparte y su importe NO está verificado (ANEXO-1 del veredicto T10): no tiene clave aquí porque no hay dato que custodiar.',
   },
+  'bluecard.contrato.min.meses': {
+    valor: 6,
+    unidad: 'meses',
+    vigencia: 'vigente',
+    verificado: '2026-08-03',
+    revision: { tipo: 'evento', porque: 'Duración mínima de norma (§ 18g Abs. 3 AufenthG, reforma de 2023): cambia por reforma, no por calendario' },
+    fuente: { nombre: '§ 18g Abs. 3 AufenthG — «eine Beschäftigungsdauer von mindestens sechs Monaten» (canon R33, literal citado, 3-ago-2026)', tipo: 'oficial' },
+    nota: 'El contrato tiene que prever al menos seis meses de empleo; con uno de cuatro o cinco no hay Blue Card, por alto que sea el salario (R33 nació como AUSENCIA: el sitio decía «determinada o indefinida» sin el suelo). Clave nacida el 19-ago-2026 (día 172) por decisión D-D del Director al firmar el guion del nodo 4: el vídeo la dice por permitirDigitos con su motivo (la línea del 164: cifras.ts para los números que AFIRMAN) y la deuda se salda aquí, viajando con el despliegue del nodo 4 — como el 55 del nodo 2 (§8.34). El guion publicado no se toca.',
+  },
   'beschv6.umbral.anno': {
     valor: 45630,
     unidad: '€/año',
