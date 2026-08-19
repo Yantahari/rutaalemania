@@ -111,6 +111,46 @@ else
 EOF
 fi
 
-echo "════════════════════════════════════════════════════════════════════"
-echo ""
+# ── EL CANDADO DEL BUILD (19-ago-2026, día 171 — ESTADO §8.52 (10), firmado
+# «Adelante» por el Director tras el informe de la puerta). El fallo del 166:
+# TRES despliegues y ninguno comprobado hasta el final; si un build falla, el
+# sitio se queda viejo y nadie se entera. git no tiene hook post-push, así que
+# este pre-push mira el estado del despliegue ANTERIOR: no verifica el push en
+# curso —imposible desde aquí— pero garantiza que ningún despliegue quede sin
+# mirar más de un push.
+# LÍMITES HEREDADOS DE LA NORMA (ESTADO §4, condición del Director al
+# firmarla): la credencial vive en el llavero de UNA máquina → sin CLI de
+# netlify, ESTE BLOQUE CALLA Y SIGUE EN VERDE (un clon nuevo no puede
+# correrlo); y la llamada tarda ~45 s → timeout 90 y se avisa antes de
+# esperar. AVISA, NO BLOQUEA — como todo lo demás de este hook.
+STATE_JSON="$RAIZ_SITIO/.netlify/state.json"
+if command -v netlify >/dev/null 2>&1 && [ -f "$STATE_JSON" ]; then
+    SITE_ID="$(sed -n 's/.*"siteId": *"\([^"]*\)".*/\1/p' "$STATE_JSON" | head -1)"
+    if [ -n "$SITE_ID" ]; then
+        echo "  ⏱ Candado del build: leyendo el estado del despliegue ANTERIOR (~45 s)…"
+        DEPLOYS="$(timeout 90 netlify api listSiteDeploys --data "{\"site_id\":\"$SITE_ID\"}" 2>/dev/null || true)"
+        LINEA="$(printf '%s' "$DEPLOYS" | node -e '
+let d = "";
+process.stdin.on("data", (c) => { d += c; }).on("end", () => {
+  try {
+    const a = JSON.parse(d);
+    const p = (Array.isArray(a) ? a : []).find((x) => x && x.state) || null;
+    if (p) console.log(`${p.state} ${(p.commit_ref || "").slice(0, 9)} ${p.created_at || ""}`);
+  } catch (e) { /* sin JSON no hay línea: el case de abajo lo trata */ }
+});' 2>/dev/null || true)"
+        case "$LINEA" in
+            ready\ *)
+                echo "  ✓ despliegue anterior: ready (${LINEA#ready }) — ninguno quedó sin mirar" ;;
+            "")
+                echo "  ⚠ no he podido leer el estado (credencial, red o timeout)."
+                echo "    ESTO NO ES UN VERDE: si el push anterior no se comprobó, míralo a mano." ;;
+            *)
+                echo "  🔴 EL DESPLIEGUE ANTERIOR NO ESTÁ ready: «$LINEA»"
+                echo "     Si aquel build falló, el sitio sigue como estaba y nadie se enteró (día 166)."
+                echo "     Mira Netlify ANTES de decidir este push. (Avisa, no bloquea.)" ;;
+        esac
+        echo "════════════════════════════════════════════════════════════════════"
+        echo ""
+    fi
+fi
 exit 0
