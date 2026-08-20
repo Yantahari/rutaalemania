@@ -5,6 +5,7 @@ description: "Desglose completo del costo de vida en Alemania en 2026: alquiler,
 date: "2026-02-18"
 keywords: "cuanto cuesta vivir en alemania, costo de vida alemania, presupuesto alemania"
 carousel: "seguromedico"
+videoId: "kWYr4i6IJMY"  # su NODO (el 5), 20-ago-2026 (día 173). El [3] viejo se despublicó y se desincrustó de este artículo por el listón (día 147); éste es su relevo, no su vuelta
 ---
 
 Si estás pensando en emigrar a Alemania, la pregunta más importante que debes responder antes de dar el salto es: **¿cuánto dinero necesito realmente para vivir aquí?**
