@@ -1982,6 +1982,102 @@ export const CIFRAS = {
     revision: { tipo: 'evento', porque: 'Principio de norma (§ 2 Abs. 1a WoVermittG): cambia por reforma. Fecha exacta 01-06-2015 en fuente (misma adaptación declarada que la prórroga)' },
     fuente: { nombre: '§ 2 Abs. 1a WoVermittG (Mietrechtsnovellierungsgesetz, 01-06-2015) — quien encarga paga; cita del literal PENDIENTE (R101, veredicto buscar-piso Q4: IHK Wiesbaden + AG Mietrecht del DAV)', tipo: 'oficial' },
   },
+
+  // ─── NODO 5 `cuanto-cuesta-vivir-en-alemania` — D-A/A1, firma del Director 20-ago-2026
+  // (día 173). DIEZ derivadas que la tabla «Resumen rápido» del artículo YA
+  // publicaba sin clave que las custodiara (4 alquileres + 4 totales + 1.018 +
+  // 49 = la tabla ENTERA; el guardián de coherencia la lee desde hoy). La
+  // ESPECIE va en el nombre como en las bases: `.mediana.` (GREIX, 2026-06,
+  // reloj oct-2026) frente a `.media.` (Friburgo, ImmoScout, 2026-Q1, reloj del
+  // VIGÍA — no está en «los 27 alquileres» de la fila oct-2026). ────────────
+  'luz.1p.mes': {
+    valor: 49,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-08-20',
+    fuente: { nombre: 'consumo ÷ 12 × precio + cuota fija (1.200 ÷ 12 × 0,37 + 12 = 49,00)', tipo: 'derivada' },
+    deriva_de: ['luz.consumo_1p.kwh_anno', 'luz.precio.kwh', 'luz.cuota_fija.mes'],
+    nota: 'El «49 €» de cuanto-cuesta (tabla «Qué hay dentro» y «Lo que NO está en tu Warmmiete»), con casa propia. Hereda la pauta de sus bases (el precio deriva a 6 meses; la cuota fija es estimación declarada).',
+  },
+  'gasto.1p.sin_alquiler.mes': {
+    valor: 1018,
+    unidad: '€/mes',
+    vigencia: '2026',
+    verificado: '2026-08-20',
+    fuente: { nombre: 'luz + alimentación + Deutschlandticket + resto (49 + 254 + 63 + 652 = 1.018)', tipo: 'derivada' },
+    deriva_de: ['luz.1p.mes', 'comida.1p.mes', 'transporte.deutschlandticket.mes', 'gasto.1p.resto.mes'],
+    nota: 'La «segunda línea» del nodo 5 y la fila «Resto de gastos (igual en todo el país)» del artículo. VIGENCIA DECLARADA 2026 = el año de la ESTIMACIÓN (precio de la luz y abono de 2026); dos de sus cuatro bases son consumo observado de la EVS 2023 sin actualizar (decisión del día 143: cesta EVS completa). Las bases llevan su propia fecha y el vídeo la enseña («consumo: encuesta EVS 2023» en pantalla).',
+  },
+  'alquiler.berlin.mediana.warm50.mes': {
+    valor: 893,
+    unidad: '€/mes',
+    vigencia: '2026-06',
+    verificado: '2026-08-20',
+    fuente: { nombre: '(mediana GREIX + Nebenkosten DMB) × 50 m², redondeado al euro ((15.18 + 2.67) × 50 = 17.85 × 50)', tipo: 'derivada' },
+    deriva_de: ['alquiler.berlin.mediana.m2', 'vivienda.nebenkosten.m2', 'vivienda.tamano.1p'],
+    nota: 'Warmmiete MEDIANA de oferta, una persona, 50 m² — Berlín (892,5 → 893). La misma derivación que test_cifras_coherencia aplica a la tabla del artículo; el guardián lee ahora también la tabla «Resumen rápido». Hereda el reloj de GREIX (fila oct-2026). La especie (mediana) va en el nombre, como en su base.',
+  },
+  'alquiler.munich.mediana.warm50.mes': {
+    valor: 1295,
+    unidad: '€/mes',
+    vigencia: '2026-06',
+    verificado: '2026-08-20',
+    fuente: { nombre: '(mediana GREIX + Nebenkosten DMB) × 50 m², redondeado al euro ((23.23 + 2.67) × 50 = 25.90 × 50)', tipo: 'derivada' },
+    deriva_de: ['alquiler.munich.mediana.m2', 'vivienda.nebenkosten.m2', 'vivienda.tamano.1p'],
+    nota: 'Warmmiete MEDIANA de oferta, una persona, 50 m² — Múnich. La misma derivación que test_cifras_coherencia aplica a la tabla del artículo; el guardián lee ahora también la tabla «Resumen rápido». Hereda el reloj de GREIX (fila oct-2026). La especie (mediana) va en el nombre, como en su base.',
+  },
+  'alquiler.leipzig.mediana.warm50.mes': {
+    valor: 634,
+    unidad: '€/mes',
+    vigencia: '2026-06',
+    verificado: '2026-08-20',
+    fuente: { nombre: '(mediana GREIX + Nebenkosten DMB) × 50 m², redondeado al euro ((10.0 + 2.67) × 50 = 12.67 × 50)', tipo: 'derivada' },
+    deriva_de: ['alquiler.leipzig.mediana.m2', 'vivienda.nebenkosten.m2', 'vivienda.tamano.1p'],
+    nota: 'Warmmiete MEDIANA de oferta, una persona, 50 m² — Leipzig (633,5 → 634). La misma derivación que test_cifras_coherencia aplica a la tabla del artículo; el guardián lee ahora también la tabla «Resumen rápido». Hereda el reloj de GREIX (fila oct-2026). La especie (mediana) va en el nombre, como en su base.',
+  },
+  'alquiler.freiburg.media.warm50.mes': {
+    valor: 858,
+    unidad: '€/mes',
+    vigencia: '2026-Q1',
+    verificado: '2026-08-20',
+    fuente: { nombre: '(MEDIA ImmoScout + Nebenkosten DMB) × 50 m² ((14,49 + 2,67) × 50 = 858,0)', tipo: 'derivada' },
+    deriva_de: ['alquiler.freiburg.media.m2', 'vivienda.nebenkosten.m2', 'vivienda.tamano.1p'],
+    nota: '⚠️ OTRA ESPECIE que sus tres hermanas `.mediana.`: la base es ImmoScout (MEDIA, no mediana; Friburgo no existe en GREIX) con pauta `deriva` 6 meses — SU RELOJ ES EL VIGÍA (~ene-2027), NO la fila oct-2026 («los 27 alquileres» son los 9 × 3 de GREIX). Entra para que el guardián lea la fila del artículo ENTERA; el vídeo del nodo 5 NO la locuta (R12: no se mezcla con tres medianas en una tarjeta). Objeción 1 del chat al §7 del paquete del nodo 5, 20-ago-2026.',
+  },
+  'presupuesto.1p.berlin.mediana.mes': {
+    valor: 1911,
+    unidad: '€/mes',
+    vigencia: '2026-06',
+    verificado: '2026-08-20',
+    fuente: { nombre: 'Warmmiete mediana 50 m² + todo lo demás (893 + 1.018)', tipo: 'derivada' },
+    deriva_de: ['alquiler.berlin.mediana.warm50.mes', 'gasto.1p.sin_alquiler.mes'],
+    nota: 'El «Total estimado» de la tabla «Resumen rápido». Vigencia = la del alquiler (el reloj que manda: GREIX trimestral).',
+  },
+  'presupuesto.1p.munich.mediana.mes': {
+    valor: 2313,
+    unidad: '€/mes',
+    vigencia: '2026-06',
+    verificado: '2026-08-20',
+    fuente: { nombre: 'Warmmiete mediana 50 m² + todo lo demás (1.295 + 1.018)', tipo: 'derivada' },
+    deriva_de: ['alquiler.munich.mediana.warm50.mes', 'gasto.1p.sin_alquiler.mes'],
+  },
+  'presupuesto.1p.leipzig.mediana.mes': {
+    valor: 1652,
+    unidad: '€/mes',
+    vigencia: '2026-06',
+    verificado: '2026-08-20',
+    fuente: { nombre: 'Warmmiete mediana 50 m² + todo lo demás (634 + 1.018)', tipo: 'derivada' },
+    deriva_de: ['alquiler.leipzig.mediana.warm50.mes', 'gasto.1p.sin_alquiler.mes'],
+  },
+  'presupuesto.1p.freiburg.media.mes': {
+    valor: 1876,
+    unidad: '€/mes',
+    vigencia: '2026-Q1',
+    verificado: '2026-08-20',
+    fuente: { nombre: 'Warmmiete MEDIA 50 m² + todo lo demás (858 + 1.018)', tipo: 'derivada' },
+    deriva_de: ['alquiler.freiburg.media.warm50.mes', 'gasto.1p.sin_alquiler.mes'],
+    nota: 'Hereda el aviso de su base: MEDIA ImmoScout, reloj del VIGÍA, no la fila oct-2026. La décima clave — la fila «Total estimado» del artículo lleva Friburgo (1.876) y una fila se vigila entera o no se vigila (punto 1 del chat al §8 del paquete del nodo 5).',
+  },
 } satisfies Record<string, Cifra>;
 
 export type CifraId = keyof typeof CIFRAS;
