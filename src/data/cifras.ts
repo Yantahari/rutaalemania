@@ -493,6 +493,12 @@ export const CIFRAS = {
     vigencia: '2026',
     verificado: '2026-07-30',
     fuente: { nombre: 'BBG × (total medio / 2)', tipo: 'derivada' },
+    // deriva_de añadido el 31-ago-2026 (ops, paso 2 del agente): la ficha era
+    // derivada de facto (la fuente lo dice) pero sin bases declaradas — única
+    // clave del fichero sin pauta ni base; con esto hereda el reloj de la BBG
+    // y del tipo medio (interface Revision). La aritmética ya la vigilaba
+    // tests/test_cifras_coherencia.py del repo ops (BBG × total/2).
+    deriva_de: ['gkv.bbg.mes', 'gkv.total_medio'],
     aplica_a: 'todos los asegurados en GKV',
     nota:
       'Beitragsbemessungsgrenze: el TECHO sobre el que se cotiza en el seguro de salud. ' +
