@@ -92,22 +92,29 @@ export const CIFRAS = {
     valor: 1091,
     unidad: '€/mes',
     vigencia: '2026',
-    verificado: '2026-07-30',
-    revision: { tipo: 'calendario', proxima: '2026-09', porque: 'Ligado al baremo de ayudas al estudio: cambia con el curso académico (septiembre). Último cambio: septiembre de 2024; desde entonces NO se ha movido — encontrar el mismo importe al revisar es lo normal, no un fallo. Grado: un solo precedente, no una regla (declarado, Director día 143)' },
+    verificado: '2026-09-01',
+    // Hasta el 1-sep-2026 (día 177) esta clave llevaba la pauta de estudios
+    // («baremo de ayudas al estudio, septiembre») como si la Bekanntmachung
+    // del § 2 Abs. 3 la contuviera. NO la contiene ni la contendrá: la
+    // Chancenkarte es § 20a y el Satz 6 (+10 %) no le alcanza (R86, 9-ago).
+    // El importe es el de estudios + 10 % redondeado a la baja, por práctica
+    // consular del AA sin base legal — así que DERIVA de estudios y hereda su
+    // reloj; la aritmética la vigila tests/test_cifras_coherencia.py (ops).
+    deriva_de: ['sperrkonto.estudios.mes'],
     aplica_a: 'chancenkarte',
     fuente: {
       nombre:
-        'Auswärtiges Amt (páginas consulares de la Chancenkarte) + Bundesagentur für Arbeit, Stand 2026',
+        'Auswärtiges Amt (Visumhandbuch y fichas consulares de la Chancenkarte: Ereván, Nairobi, Astaná, Bakú, 1-sep-2026) = sperrkonto.estudios.mes × 1,10 redondeado a la baja (992 × 1,10 = 1.091,2 → 1.091); sin cambio para 2027',
       tipo: 'oficial',
     },
     nota:
-      'El sitio publicaba 1.027 €/mes / 12.324 €/año — la cifra de 2024. Expatrio también publica la de 2024: demostración de por qué la fuente canónica de un hecho no puede ser un afiliado.',
+      'AVISO que viaja con la cifra: importe ORIENTATIVO, sin base legal (GGUA; einwanderer.net lo deriva igual: BAföG + 10 %), y las embajadas no lo actualizan a la vez — Chisinau aún muestra 1.027 con la nota del cambio al 1-ene-2025; Lima publica 1.092. El sitio publicaba 1.027 €/mes / 12.324 €/año — la cifra de 2024. Expatrio también publica la de 2024: demostración de por qué la fuente canónica de un hecho no puede ser un afiliado.',
   },
   'sperrkonto.chancenkarte.anno': {
     valor: 13092,
     unidad: '€/año',
     vigencia: '2026',
-    verificado: '2026-07-30',
+    verificado: '2026-09-01',
     aplica_a: 'chancenkarte',
     fuente: { nombre: 'mensual × 12', tipo: 'derivada' },
     deriva_de: ['sperrkonto.chancenkarte.mes'],
@@ -116,19 +123,20 @@ export const CIFRAS = {
     valor: 992,
     unidad: '€/mes',
     vigencia: '2026',
-    verificado: '2026-07-30',
-    revision: { tipo: 'calendario', proxima: '2026-09', porque: 'Ligado al baremo de ayudas al estudio: cambia con el curso académico (septiembre). Último cambio: septiembre de 2024; desde entonces NO se ha movido — encontrar el mismo importe al revisar es lo normal, no un fallo. Grado: un solo precedente, no una regla (declarado, Director día 143)' },
+    verificado: '2026-09-01',
+    revision: { tipo: 'calendario', proxima: '2027-09', porque: 'Lo fija el BMI cada año en el Bundesanzeiger antes del 31 de agosto del año anterior (§ 2 Abs. 3 Satz 7 AufenthG; importe = § 13 Abs. 1 Nr. 2 + § 13a Abs. 1 BAföG). Para 2027: BAnz AT 31.08.2026 B1 (BMI, 19-ago-2026, expediente MI3.21002/26#2) → 992 €/mes para el visado de estudios, SIN CAMBIO; la vigencia pasa a 2027 el 1-ene-2027 sin cambiar el valor. Historia: subió en sep-2024 (a 992); 2026 y 2027 iguales. El PDF del BAnz no lo baja el chat: lo abre el Director o CCode con navegador (sesión de 30 min, enlaces no estables).' },
     aplica_a: 'estudios',
     fuente: {
-      nombre: 'Normativa alemana (importe ligado a BAföG), confirmado en múltiples fuentes 2026',
+      nombre: 'BAnz AT 31.08.2026 B1 — Bekanntmachung zu § 2 Absatz 3 AufenthG über den Mindestbetrag zur Sicherung des Lebensunterhalts (BMI, 19-ago-2026); leído entero por el Director el 1-sep-2026',
       tipo: 'oficial',
     },
+    nota: 'La misma Bekanntmachung trae dos importes que el sitio NO publica (anotados en R86, decisión del Director pendiente): 959 €/mes para formación profesional (§ 16a) y 666 €/mes para la búsqueda de empleo tras el estudio (§ 16g); y la regla de reducción por alojamiento acreditado por debajo de 380 €.',
   },
   'sperrkonto.estudios.anno': {
     valor: 11904,
     unidad: '€/año',
     vigencia: '2026',
-    verificado: '2026-07-30',
+    verificado: '2026-09-01',
     aplica_a: 'estudios',
     fuente: { nombre: 'mensual × 12', tipo: 'derivada' },
     deriva_de: ['sperrkonto.estudios.mes'],
@@ -215,13 +223,17 @@ export const CIFRAS = {
   // medidas de vacantes que existen — registradas (BA) y oferta total (IAB) —
   // y nunca se publica «vacantes» sin decir cuál de las dos se cuenta.
   'mercado.vacantes.registradas.ba': {
-    valor: 641000,
+    valor: 656000,
     unidad: 'puestos',
-    vigencia: '2026-04',
-    verificado: '2026-08-04',
-    revision: { tipo: 'calendario', proxima: '2026-09', porque: 'La Bundesagentur für Arbeit publica el stock de vacantes registradas cada mes; se re-mira en la cita del vigía de septiembre o al tocar el artículo. Marzo-2026: 638.000. En 2024 estuvo en ~700-706.000 — el «700.000» del sitio fue cierto y dejó de serlo.' },
-    fuente: { nombre: 'Bundesagentur für Arbeit, informe mensual del mercado de trabajo (abril 2026)', tipo: 'oficial' },
-    nota: 'Solo las comunicadas a la agencia. La oferta total de la economía es mercado.vacantes.total.iab.',
+    vigencia: '2026-08',
+    verificado: '2026-09-01',
+    revision: { tipo: 'calendario', proxima: '2026-10', porque: 'La Bundesagentur für Arbeit publica el stock de vacantes registradas cada mes (último día hábil); se re-mira en cada cita del vigía (sep·oct·dic·ene·feb) o al tocar el artículo — encontrar otro número cada vez es lo normal. Serie: marzo-2026 638.000 · abril-2026 641.000 · agosto-2026 656.000 (+25.000 interanual; BA-X 103 sin cambio). En 2024 estuvo en ~700-706.000 — el «700.000» del sitio fue cierto y dejó de serlo.' },
+    fuente: {
+      nombre: 'Bundesagentur für Arbeit, Presseinfo Nr. 31 «Arbeitsmarkt im August 2026» (28-ago-2026)',
+      url: 'https://www.arbeitsagentur.de/presse/2026-31-arbeitsmarkt-im-august-2026',
+      tipo: 'oficial',
+    },
+    nota: 'Solo las comunicadas a la agencia. La oferta total de la economía es mercado.vacantes.total.iab. Verificación del 1-sep-2026: chat con búsqueda web (día 177).',
   },
   'mercado.vacantes.total.iab': {
     valor: 1150000,

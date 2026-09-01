@@ -109,7 +109,7 @@ Ve a [expatrio.com](https://www.expatrio.com/?p=rutaalemania) y **crea una cuent
 
 Elige "Sperrkonto" (cuenta bloqueada). Te preguntarán el tipo de visado (estudios, Chancenkarte, etc.) y **el monto automáticamente se ajustará al requerido**.
 
-> ⚠️ **Comprueba el monto:** asegúrate de que el monto que te indique el proveedor coincide con el vigente en 2026 — **13.092 EUR para Chancenkarte, 11.904 EUR para estudios**. En julio de 2026, algunos proveedores aún mostraban en sus páginas el monto del año anterior.
+> ⚠️ **Comprueba el monto:** asegúrate de que el monto que te indique el proveedor coincide con el vigente en 2026 — **13.092 EUR para Chancenkarte, 11.904 EUR para estudios** — y que para 2027 se ha confirmado sin cambio (Bundesanzeiger, 31 de agosto de 2026). En julio de 2026, algunos proveedores aún mostraban en sus páginas el monto del año anterior.
 
 ### Paso 3: Completar tus datos personales
 
@@ -140,7 +140,7 @@ Una vez verificada tu identidad, Expatrio te proporcionará los datos bancarios 
 
 ### Paso 6: Transferir el dinero
 
-Este es el paso más importante. **Debes transferir el monto completo** (13.092 EUR para Chancenkarte o 11.904 EUR para estudios, montos de 2026).
+Este es el paso más importante. **Debes transferir el monto completo** (13.092 EUR para Chancenkarte o 11.904 EUR para estudios, montos de 2026, confirmados sin cambio para 2027).
 
 ### Paso 7: Recibir el certificado
 
@@ -271,7 +271,7 @@ La Sperrkonto **no sirve** para recibir tu sueldo ni para hacer pagos diarios. E
 
 ### ¿Puedo abrir la Sperrkonto antes de tener cita en la embajada?
 
-**Sí, y conviene no dejarlo para el final** — con una salvedad que importa: el importe exigido **sube cada año**. La embajada no publica una fecha de caducidad del certificado, pero sí exige la confirmación oficial con el importe total y el mensual, y que cubra tu estancia *(verificado en agosto de 2026 contra las fichas consulares del Auswärtiges Amt)*. Si abres la cuenta con muchos meses de antelación, **comprueba antes de tu cita que tu saldo sigue cubriendo la cifra vigente**: si se ha quedado corta, tendrás que transferir la diferencia y pedir una confirmación actualizada.
+**Sí, y conviene no dejarlo para el final** — con una salvedad que importa: el importe exigido **puede subir de un año a otro** (subió en 2025; para 2027 se confirmó sin cambio). La embajada no publica una fecha de caducidad del certificado, pero sí exige la confirmación oficial con el importe total y el mensual, y que cubra tu estancia *(verificado en agosto de 2026 contra las fichas consulares del Auswärtiges Amt)*. Si abres la cuenta con muchos meses de antelación, **comprueba antes de tu cita que tu saldo sigue cubriendo la cifra vigente**: si se ha quedado corta, tendrás que transferir la diferencia y pedir una confirmación actualizada.
 
 ### ¿La Sperrkonto genera intereses?
 
