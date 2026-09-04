@@ -138,6 +138,13 @@
     @apply -mt-3;
   }
 
+  /* 3-sep-2026: el marcador INLINE que el plugin pega a cada enlace de
+     afiliado (span). Hereda color y tamaño de la clase; anula lo de bloque
+     (centrado y márgenes verticales) porque va en la línea del enlace. */
+  span.aviso-afiliado {
+    @apply inline text-left ml-1 mt-0 mb-0 whitespace-normal;
+  }
+
   /* Inline links inside article body (blog + actualidad).
      Targets anchors without class so btn-primary CTAs keep their button styling. */
   .blog-content a:not([class]) {

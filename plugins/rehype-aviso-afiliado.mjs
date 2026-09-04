@@ -19,7 +19,10 @@
 // declararía limpio el resto: **exactamente el falso limpio que el método
 // viejo producía y que A4 existe para matar.** Por eso mira LAS DOS FORMAS.
 //
-// GRANULARIDAD, declarada: el aviso se inserta **después del bloque que
+// ⚠️ 3-sep-2026 (día 179 de ops): LA GRANULARIDAD CAMBIA DE BLOQUE A ENLACE.
+// Lo de abajo describe la forma anterior y se conserva como historia; la
+// forma vigente está en `rehypeAvisoAfiliado` (marcador inline tras cada <a>).
+// GRANULARIDAD anterior, declarada: el aviso se insertaba **después del bloque que
 // contiene el enlace** (el `<p>`, el `<li>`…). Un bloque con dos enlaces de
 // afiliado recibe UN aviso, no dos. Es la convención que el sitio ya usaba en
 // sus 56 copias y no la cambia este acto. ⚠️ Si la lectura legal acaba
@@ -64,34 +67,58 @@ function llevaAfiliado(nodo) {
 
 // El aviso ya presente se reconoce por su TEXTO, no por su marcado: así una
 // copia vieja con otro estilo tampoco se duplica.
+function textoDe(n) {
+  if (!n) return '';
+  if (n.type === 'raw' || n.type === 'text') return n.value || '';
+  return (n.children || []).map(textoDe).join('');
+}
 function yaEsAviso(nodo) {
-  if (!nodo) return false;
-  if (nodo.type === 'raw') return (nodo.value || '').includes(AVISO_AFILIADO);
-  const texto = (function recoge(n) {
-    if (n.type === 'text') return n.value;
-    return (n.children || []).map(recoge).join('');
-  })(nodo);
-  return texto.includes(AVISO_AFILIADO);
+  return textoDe(nodo).includes(AVISO_AFILIADO);
 }
 
-// 🔴 EL SEGUNDO DEFECTO QUE CAZÓ EL RECUENTO, no el ojo (12-ago-2026):
-// `llevaAfiliado` es recursiva y `div` está en BLOQUES, así que un `<div>` que
-// envuelve al `<p>` del enlace recibía SU PROPIO aviso además del del `<p>`.
-// `blue-card` salía con 8 avisos para 5 enlaces. La regla correcta es **el
-// bloque MÁS INTERNO**: como el recorrido es en profundidad, basta con no
-// tocar un bloque que ya tenga un aviso generado dentro.
-function tieneAvisoDentro(nodo) {
-  if (nodo.type === 'element' && nodo.properties?.['data-aviso-afiliado']) return true;
-  return (nodo.children || []).some(tieneAvisoDentro);
-}
+// ── LA FORMA VIGENTE (3-sep-2026): UN MARCADOR INLINE PEGADO A CADA ENLACE ──
+// Por qué inline y no por bloque: el § 5a Abs. 4 UWG pide que el fin comercial
+// sea reconocible, y eso se predica de cada enlace; medido el 3-sep sobre el
+// sitio construido, el aviso por bloque quedaba a 919-1.549 caracteres de seis
+// enlaces bajo listas y una tabla. Con el marcador pegado al enlace, listas y
+// tablas dejan de ser un caso (y el veto del 162 a la celda —el aviso
+// ensanchaba la columna— se revisa con el marcador corto delante: ahora es
+// texto en línea, no un párrafo).
+//
+// Ve LAS DOS FORMAS de enlace, como antes: `element` (sintaxis markdown) y
+// `raw` (HTML crudo). En `raw` el `</a>` puede estar en el mismo nodo o en un
+// nodo `raw` posterior (la lección del 162): se busca hacia delante.
+const SPAN_AVISO = `<span class="${AVISO_CLASE}" data-aviso-afiliado="generado">${AVISO_AFILIADO}</span>`;
+const RE_APERTURA = /<a\b[^>]*href=["']([^"']+)["'][^>]*>/gi;
 
-function nodoAviso() {
+function nodoAvisoInline() {
   return {
     type: 'element',
-    tagName: 'p',
+    tagName: 'span',
     properties: { className: [AVISO_CLASE], 'data-aviso-afiliado': 'generado' },
     children: [{ type: 'text', value: AVISO_AFILIADO }],
   };
+}
+
+// Inserta el marcador tras cada `</a>` de afiliado dentro de un string crudo.
+// Devuelve [textoNuevo, aperturasSinCierre]: las aperturas de afiliado cuyo
+// `</a>` no está en este mismo nodo.
+function marcarCrudo(valor) {
+  const aperturas = [];
+  let m;
+  while ((m = RE_APERTURA.exec(valor)) !== null) {
+    if (esUrlAfiliado(m[1])) aperturas.push(m.index + m[0].length);
+  }
+  let pendientes = 0;
+  let out = valor;
+  for (let k = aperturas.length - 1; k >= 0; k -= 1) {
+    const cierre = out.indexOf('</a>', aperturas[k]);
+    if (cierre === -1) { pendientes += 1; continue; }
+    const fin = cierre + '</a>'.length;
+    if (out.slice(fin, fin + SPAN_AVISO.length + 8).includes(AVISO_AFILIADO)) continue;
+    out = out.slice(0, fin) + SPAN_AVISO + out.slice(fin);
+  }
+  return [out, pendientes];
 }
 
 export function rehypeAvisoAfiliado() {
@@ -101,22 +128,31 @@ export function rehypeAvisoAfiliado() {
       const hijos = padre.children;
       if (!Array.isArray(hijos)) return;
       for (let i = 0; i < hijos.length; i += 1) {
-        visita(hijos[i]);
         const n = hijos[i];
-        const esBloque = n.type === 'element' && BLOQUES.has(n.tagName);
-        if (!esBloque || !llevaAfiliado(n)) continue;
-        if (tieneAvisoDentro(n)) continue;   // ya lo puso un bloque más interno
-        if (LO_LLEVAN_DENTRO.has(n.tagName)) {
-          const ultimo = n.children[n.children.length - 1];
-          if (yaEsAviso(ultimo)) continue;
-          n.children.push(nodoAviso());
-          puestos += 1;
+        if (n.type === 'element' && n.tagName === 'a') {
+          if (esUrlAfiliado(n.properties?.href) && !yaEsAviso(hijos[i + 1])) {
+            hijos.splice(i + 1, 0, nodoAvisoInline());
+            puestos += 1;
+            i += 1;
+          }
           continue;
         }
-        if (yaEsAviso(hijos[i + 1])) continue;
-        hijos.splice(i + 1, 0, nodoAviso());
-        puestos += 1;
-        i += 1;   // saltar el aviso recién puesto
+        if (n.type === 'raw') {
+          const [nuevoValor, pendientes] = marcarCrudo(n.value || '');
+          if (nuevoValor !== n.value) { puestos += 1; n.value = nuevoValor; }
+          for (let faltan = pendientes, j = i + 1; faltan > 0 && j < hijos.length; j += 1) {
+            const h = hijos[j];
+            if (h.type !== 'raw' || !(h.value || '').includes('</a>')) continue;
+            const fin = h.value.indexOf('</a>') + '</a>'.length;
+            if (!h.value.slice(fin, fin + SPAN_AVISO.length + 8).includes(AVISO_AFILIADO)) {
+              h.value = h.value.slice(0, fin) + SPAN_AVISO + h.value.slice(fin);
+              puestos += 1;
+            }
+            faltan -= 1;
+          }
+          continue;
+        }
+        visita(n);
       }
     };
     visita(tree);

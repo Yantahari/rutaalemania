@@ -11,7 +11,14 @@
 // cambia el aspecto de nada: sólo de dónde sale el texto.
 import { AVISO_AFILIADO, AVISO_CLASE } from '../data/afiliados.mjs';
 
-interface Props { clase?: string }
-const { clase = '' } = Astro.props;
+// `inline` (3-sep-2026, día 179 de ops): la forma vigente es un marcador PEGADO
+// a cada enlace, no un párrafo tras el bloque (§ 5a Abs. 4 UWG pide que el fin
+// comercial sea reconocible, y eso se predica de cada enlace). Con `inline` se
+// pinta un <span>, que es lo mismo que genera el plugin en los `.md`.
+interface Props { clase?: string; inline?: boolean }
+const { clase = '', inline = false } = Astro.props;
+const clases = [AVISO_CLASE, clase].filter(Boolean).join(' ');
 ---
-<p class={[AVISO_CLASE, clase].filter(Boolean).join(' ')} data-aviso-afiliado="generado">{AVISO_AFILIADO}</p>
+{inline
+  ? <span class={clases} data-aviso-afiliado="generado">{AVISO_AFILIADO}</span>
+  : <p class={clases} data-aviso-afiliado="generado">{AVISO_AFILIADO}</p>}

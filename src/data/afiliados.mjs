@@ -19,12 +19,22 @@
 //   · tests/test_afiliados.py y la próxima auditoría (docs/medir-avisos-afiliados.md)
 
 // ── EL LITERAL ────────────────────────────────────────────────────────────
-// Es el que el sitio YA usaba 56 veces. NO se inventa redacción nueva y NO se
-// traduce: la pregunta del idioma (la marca se exige en alemán, el público es
-// hispanohablante) está ABIERTA y es de abogado — y no bloquea, porque poner
-// etiqueta en castellano donde no hay ninguna no empeora nada bajo ninguna
-// lectura. Cuando esa decisión caiga, se cambia AQUÍ y en ningún otro sitio.
-export const AVISO_AFILIADO = '*Enlace de afiliado — sin coste adicional';
+// Hasta el 3-sep-2026 era «*Enlace de afiliado — sin coste adicional», el que
+// el sitio usaba 56 veces, y la pregunta del idioma estaba «abierta y de
+// abogado». DECIDIDA el 3-sep-2026 (día 179 de ops) por el Director, con el
+// § 5a Abs. 4 UWG leído en primaria (gesetze-im-internet.de): la ley exige que
+// el fin comercial sea RECONOCIBLE y no nombra ninguna palabra; «Anzeige»/
+// «Werbung» y la posición junto al enlace vienen de jurisprudencia y guías
+// (grado secundaria, por decisión del Director no se siguió). Forma fijada
+// (M-3, informes/estrategics/marcado-afiliacion-analisis-2026-09-03.md §6):
+// la frase en español es la que hace reconocible el fin comercial a este
+// lector; la palabra alemana va delante POR PRUDENCIA, no por obligación; y
+// el marcador va PEGADO A CADA ENLACE (inline), porque «reconocible» se
+// predica de cada enlace y el aviso por bloque quedaba a >1.000 caracteres
+// en las listas. Sigue siendo fuente única: se cambia AQUÍ y en ningún otro
+// sitio. Lo consumen el plugin de rehype (inline tras cada <a>) y el
+// componente AvisoAfiliado (bloque inmediato en /links, /recursos, calculadoras).
+export const AVISO_AFILIADO = 'Anzeige · enlace de afiliado: cobramos comisión, sin coste extra para ti';
 
 // ⚠️ EL ESTILO YA NO VIAJA EN LÍNEA (12-ago-2026, día 162, veto del Director).
 // Hasta hoy esto era el `style` copiado verbatim de las 56 apariciones viejas,

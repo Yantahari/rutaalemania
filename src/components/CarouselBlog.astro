@@ -166,15 +166,21 @@ const totalSlides = slides.length;
                     <div class="cb-cta-buttons">
                       {slide.ctaButtons.map((btn) =>
                         btn.url ? (
-                          <a
-                            class="cb-cta-btn"
-                            href={btn.url}
-                            target="_blank"
-                            rel="noopener noreferrer sponsored"
-                          >
-                            <span class="cb-cta-btn-text">{btn.text}</span>
-                            <span class="cb-cta-btn-sub">{btn.sub}</span>
-                          </a>
+                          <>
+                            <a
+                              class="cb-cta-btn"
+                              href={btn.url}
+                              target="_blank"
+                              rel="noopener noreferrer sponsored"
+                            >
+                              <span class="cb-cta-btn-text">{btn.text}</span>
+                              <span class="cb-cta-btn-sub">{btn.sub}</span>
+                            </a>
+                            {/* 3-sep-2026: el marcador va PEGADO a cada botón de
+                                afiliado, no una vez bajo el grupo (día 179, § 5a
+                                Abs. 4 UWG: reconocible por enlace). */}
+                            {esUrlAfiliado(btn.url) && <AvisoAfiliado inline clase="cb-aviso-afiliado" />}
+                          </>
                         ) : (
                           <div class="cb-cta-btn">
                             <span class="cb-cta-btn-text">{btn.text}</span>
@@ -183,9 +189,6 @@ const totalSlides = slides.length;
                         )
                       )}
                     </div>
-                  )}
-                  {slide.ctaButtons?.some((b) => esUrlAfiliado(b.url)) && (
-                    <AvisoAfiliado clase="cb-aviso-afiliado" />
                   )}
                 </div>
               </div>
