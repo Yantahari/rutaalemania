@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: "¿Cuánto cuesta vivir en Alemania? Presupuesto real 2026"
-description: "Desglose completo del costo de vida en Alemania en 2026: alquiler, seguro médico, supermercado, transporte y cuánto necesitas ahorrar antes de emigrar."
+title: "Costo de vida en Alemania: cuánto cuesta al mes (2026)"
+description: "Cuánto cuesta vivir en Alemania al mes en 2026, en cuatro ciudades: alquiler con gastos, seguro médico, comida, transporte y cuánto ahorrar antes de llegar."
 date: "2026-02-18"
 keywords: "cuanto cuesta vivir en alemania, costo de vida alemania, presupuesto alemania"
 carousel: "seguromedico"

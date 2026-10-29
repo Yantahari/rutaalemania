@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: "Cuentas bancarias en Alemania para recien llegados: guia y comparativa (2026)"
-description: "Guia completa sobre cuentas bancarias en Alemania: tipos de cuenta, requisitos, bancos digitales vs tradicionales, y comparativa actualizada para emigrantes."
+title: "Abrir una cuenta bancaria en Alemania al llegar (2026)"
+description: "Cómo abrir una cuenta en Alemania recién llegado: su derecho a la cuenta básica, bancos digitales frente a tradicionales y qué mirar al elegir."
 date: "2026-04-11"
 keywords: "cuenta bancaria alemania, banco alemania expats, girokonto, abrir cuenta alemania sin hablar aleman, bancos digitales alemania, schufa alemania"
 # videoId retirado el 9-ago-2026 (día 155): el vídeo está privado — lo repondrá su nodo

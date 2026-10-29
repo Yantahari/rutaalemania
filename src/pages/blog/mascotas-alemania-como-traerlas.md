@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: "Mascotas en Alemania: Como traer a su perro o gato (Guia 2026)"
-description: "Guia completa para emigrar a Alemania con su mascota: requisitos veterinarios, microchip, vacuna rabia, papeleo, vuelo y registro. Paso a paso."
+title: "Viajar a Alemania con perro o gato: requisitos 2026"
+description: "Cómo traer a su perro o gato a Alemania: microchip, vacuna de la rabia, papeles, vuelo y registro al llegar. Paso a paso y con una lista de control."
 date: "2026-04-07"
 keywords: "mascotas alemania, traer perro alemania, emigrar con mascota, requisitos mascota alemania, vuelo con mascota, haftpflichtversicherung perro"
 videoId: "8SSV7BU7Sss"
