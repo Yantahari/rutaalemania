@@ -4,7 +4,7 @@ title: "Chancenkarte 2026: requisitos, puntos y calculadora"
 description: "Requisitos de la Chancenkarte 2026: sistema de 6 puntos, Sperrkonto de 13.092 €, costes y plazos reales. Calcula si cumples los puntos en 2 minutos."
 date: "2026-02-20"
 keywords: "chancenkarte, chancenkarte requisitos, chancenkarte puntos, visa chancenkarte alemania, tarjeta de oportunidad alemania"
-videoId: "-1QHe6qKn0I"
+# videoId retirado el 29-oct-2026 (el vídeo pasó a privado). Línea conservada para no desplazar las coordenadas del canon.
 ---
 
 Si estás pensando en trabajar en Alemania pero aún no tienes contrato, la **Chancenkarte** (tarjeta de oportunidad) es probablemente tu mejor opción.

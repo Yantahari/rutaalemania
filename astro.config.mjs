@@ -81,6 +81,7 @@ export default defineConfig({
         !page.includes('/impressum/') &&
         !page.includes('/datenschutz/') &&
         !page.includes('/disclaimer/') &&
+        !page.includes('/links/') &&     // noindex desde el 24-feb: no se envía a Google (29-oct-2026)
         !page.includes('/checklist/'),   // /checklist/gracias/: sólo llega quien confirma (18-ago-2026)
       serialize(item) {
         try {
