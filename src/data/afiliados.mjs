@@ -69,7 +69,6 @@ export const ACTORES_AFILIADOS = [
   { actor: 'Feather',     dominios: ['feather-insurance.com'] },
   { actor: 'Expatrio',    dominios: ['expatrio.com'] },
   { actor: 'Wise',        dominios: ['wise.com', 'wise.prf.hn'] },
-  { actor: 'Lingoda',     dominios: ['lingoda.com', 'l16sh94jd.com'] },
   { actor: 'Lyca Mobile', dominios: ['lycamobile.de', 'lycamobile.com', 'awin1.com', 'tidd.ly'] },
 ];
 

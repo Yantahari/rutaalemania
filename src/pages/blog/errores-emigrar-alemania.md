@@ -38,9 +38,7 @@ La realidad es muy diferente.
 
 **Empieza a aprender alemán ANTES de llegar.** No necesitas ser fluido; un nivel A2-B1 ya marca una diferencia enorme. Con 3-6 meses de estudio intensivo puedes alcanzar un nivel funcional.
 
-[Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrece cursos de alemán online con profesores nativos, en grupos reducidos y con horarios flexibles. Puedes empezar desde A1 y avanzar a tu ritmo. La ventaja de las clases en vivo (frente a apps como Duolingo) es que **practicas conversación real desde el primer día**.
-
-<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
+[Lingoda](https://www.lingoda.com/es/) ofrece cursos de alemán online con profesores nativos, en grupos reducidos y con horarios flexibles. Puedes empezar desde A1 y avanzar a tu ritmo. La ventaja de las clases en vivo (frente a apps como Duolingo) es que **practicas conversación real desde el primer día**.
 
 > 💡 **Consejo:** Aprende al menos las frases básicas para sobrevivir la burocracia: "Ich möchte mich anmelden" (quiero registrarme), "Ich brauche einen Termin" (necesito una cita), "Können Sie das bitte wiederholen?" (¿puede repetir eso, por favor?).
 
@@ -226,7 +224,7 @@ Tardé casi dos meses en regularizar todo. Dos meses de estrés innecesario que 
 
 Para que no te pase lo mismo, aquí tienes un resumen de lo que debes hacer **antes de subir al avión**:
 
-- [ ] Empezar a aprender alemán (mínimo A1-A2) con [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) u otra plataforma
+- [ ] Empezar a aprender alemán (mínimo A1-A2) con [Lingoda](https://www.lingoda.com/es/) u otra plataforma
 - [ ] Acreditar tus medios económicos — lo habitual: abrir el Sperrkonto con [Expatrio](https://www.expatrio.com/?p=rutaalemania) (si necesitas visa)
 - [ ] Adaptar tu CV al formato Lebenslauf alemán
 - [ ] Reservar cita en la Bürgeramt para el Anmeldung (consulta nuestra [checklist de los primeros 30 días](/blog/primeros-pasos-alemania/))

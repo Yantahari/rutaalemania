@@ -95,7 +95,7 @@ Debes demostrar que tu **sustento está asegurado** durante la estancia — segu
 - **Vía 1 (Fachkraft):** **no hay requisito de idioma.** El § 20a Abs. 4 Satz 3 Nr. 2 AufenthG solo se lo exige a la vía de puntos.
 - **Vía 2 (Puntos):** Alemán A1 o inglés B2 (es requisito mínimo **de acceso** y **no se compensa con puntos**; niveles más altos sí te dan puntos extra).
 
-> 💡 **Consejo:** Si aún no tienes el A1 de alemán, puedes prepararlo desde casa con [Babbel](https://es.babbel.com/cursos-de-aleman) (cursos diseñados para hispanohablantes, lecciones de 10-15 min/día) o con clases en vivo en [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48). En la Vía 2, un B1 certificado son 2 puntos y un B2, 3.
+> 💡 **Consejo:** Si aún no tienes el A1 de alemán, puedes prepararlo desde casa con [Babbel](https://es.babbel.com/cursos-de-aleman) (cursos diseñados para hispanohablantes, lecciones de 10-15 min/día) o con clases en vivo en [Lingoda](https://www.lingoda.com/es/). En la Vía 2, un B1 certificado son 2 puntos y un B2, 3.
 
 ---
 
@@ -180,7 +180,7 @@ Aquí va un desglose realista de lo que necesitas económicamente:
 - Incluye seguro médico opcional
 - Soporte en inglés y español
 
-**Para la certificación de alemán**, el criterio no es una lista de escuelas: el certificado tiene que basarse en un **examen estandarizado conforme a los estándares de ALTE** (Association of Language Testers in Europe). Goethe-Institut, telc, ÖSD, TestDaF o ECL son ejemplos que el propio Ministerio de Exteriores cita — sin garantía y remitiendo a la lista completa de miembros de ALTE, que son bastantes más. **Lo que no vale: el certificado de una escuela de idiomas corriente, aunque esté autorizada a impartir cursos de integración.** Es el error que arruina una cita de visado. Plataformas como [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrecen cursos intensivos que te preparan para presentarte a ese examen. Puedes **preparar tu A1 o B1 en pocos meses**.
+**Para la certificación de alemán**, el criterio no es una lista de escuelas: el certificado tiene que basarse en un **examen estandarizado conforme a los estándares de ALTE** (Association of Language Testers in Europe). Goethe-Institut, telc, ÖSD, TestDaF o ECL son ejemplos que el propio Ministerio de Exteriores cita — sin garantía y remitiendo a la lista completa de miembros de ALTE, que son bastantes más. **Lo que no vale: el certificado de una escuela de idiomas corriente, aunque esté autorizada a impartir cursos de integración.** Es el error que arruina una cita de visado. Plataformas como [Lingoda](https://www.lingoda.com/es/) ofrecen cursos intensivos que te preparan para presentarte a ese examen. Puedes **preparar tu A1 o B1 en pocos meses**.
 
 ---
 
@@ -196,9 +196,7 @@ Si aún no tienes un certificado de alemán o inglés, este es el momento de obt
 
 > ⚠️ **Dos condiciones que tumban un certificado:** tiene que basarse en un examen estandarizado conforme a ALTE (ver arriba), y **como regla general no se aceptan certificados con fecha de examen de más de un año** — no es una caducidad formal: es la regla que declara el propio Ministerio. Si te examinaste hace dos años, cuenta con repetir el examen. Y si repetiste módulos sueltos, **cuenta la fecha del módulo aprobado más antiguo**. *(Fuente: Auswärtiges Amt, verificado en agosto de 2026.)*
 
-[Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrece clases en grupo e individuales con profesores nativos que te preparan específicamente para los exámenes oficiales.
-
-<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
+[Lingoda](https://www.lingoda.com/es/) ofrece clases en grupo e individuales con profesores nativos que te preparan específicamente para los exámenes oficiales.
 
 ### Paso 3: Inicia el reconocimiento de tu título (si es necesario)
 

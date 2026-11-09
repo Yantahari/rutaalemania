@@ -123,9 +123,7 @@ El plazo hasta la residencia permanente depende del permiso que tengas y de tu n
 
 Los **5 años** que a veces se leen son solo la última fila: la regla general de quien no cuenta como profesional cualificado.
 
-> 💡 **Consejo:** Invertir en aprender alemán vale la pena. Con un nivel B1 puedes obtener tu residencia permanente en menos de 2 años. Plataformas como [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrecen cursos intensivos de alemán online con profesores nativos, ideales para preparar tu certificación mientras trabajas.
-
-<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
+> 💡 **Consejo:** Invertir en aprender alemán vale la pena. Con un nivel B1 puedes obtener tu residencia permanente en menos de 2 años. Plataformas como [Lingoda](https://www.lingoda.com/es/) ofrecen cursos intensivos de alemán online con profesores nativos, ideales para preparar tu certificación mientras trabajas.
 
 ---
 
@@ -268,9 +266,7 @@ No. La Blue Card es exclusivamente para **trabajo por cuenta ajena**. Si quieres
 - Integrarte en la vida diaria
 - Mejorar tus oportunidades laborales a largo plazo
 
-> 💡 **Consejo:** [Lingoda](https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48) ofrece cursos de alemán online desde nivel A1, con clases en grupos pequeños y horarios flexibles que se adaptan a tu jornada laboral.
-
-<a href="https://www.l16sh94jd.com/ZCHQXN/55M6S/?uid=48" target="_blank" rel="noopener noreferrer sponsored" class="btn-primary" style="display:block;text-align:center;margin:1.5rem 0;"><img src="/logos/lingoda.svg" alt="" width="20" height="20" style="display:inline;vertical-align:middle;margin-right:0.4rem"> Aprende alemán con Lingoda</a>
+> 💡 **Consejo:** [Lingoda](https://www.lingoda.com/es/) ofrece cursos de alemán online desde nivel A1, con clases en grupos pequeños y horarios flexibles que se adaptan a tu jornada laboral.
 
 ---
 
